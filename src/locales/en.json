@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Conquest of Azeroth - Classes, Builds & Release",
+      "description": "Conquest of Azeroth Wiki covers 21 classes, 69 specs, Dragonflight-style talents, open-world RPG loot, dungeons, raids, PvP, release updates, and beginner guides for Ascension players.",
+      "keywords": "Conquest of Azeroth, Ascension, classes, builds, talents, PvE, PvP, release",
+      "ogTitle": "Conquest of Azeroth - Classes, Builds & Release",
+      "ogDescription": "Conquest of Azeroth Wiki covers 21 classes, 69 specs, Dragonflight-style talents, open-world RPG loot, dungeons, raids, PvP, release updates, and beginner guides for Ascension players.",
+      "twitterTitle": "Conquest of Azeroth - Classes, Builds & Release",
+      "twitterDescription": "Conquest of Azeroth Wiki - 21 classes, 69 specs, talents, builds, dungeons, raids, PvP, and release guides for Ascension players."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Classic+ Custom WoW MMORPG",
+    "title": "Conquest of Azeroth Wiki",
+    "description": "Explore 21 original classes, 69 specs, Dragonflight-style talents, open-world RPG loot, dungeons, raids, PvP, release updates and beginner guides for Ascension.",
+    "getFreeCodesCTA": "View Class Guides",
+    "playOnSteamCTA": "Play on Ascension",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "21",
+        "label": "New Classes"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "69",
+        "label": "Specializations"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "1000+",
+        "label": "Spells & Talents"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "PC",
+        "label": "Supported Platform"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play Conquest of Azeroth?",
+    "description": "Download Ascension, pick from 21 original classes, and join the community on Discord and Reddit for builds, updates, and discussions.",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Ascension"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Conquest of Azeroth Wiki",
+    "description": "Your complete resource hub for Conquest of Azeroth classes, builds, talents, dungeons, raids, PvP, and release guides for Ascension players.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
+    "steamStore": "Official Website",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Conquest of Azeroth Wiki. Not affiliated with Blizzard Entertainment, World of Warcraft, or Project Ascension.",
+    "disclaimer": "Unofficial fan-made guide site."
   },
   "pages": {
     "guides": {
