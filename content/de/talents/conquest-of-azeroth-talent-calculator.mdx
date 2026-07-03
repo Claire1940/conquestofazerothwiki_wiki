@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Talentplaner für Conquest of Azeroth: Guide zur Build-Erstellung",
+  description: "Meistern Sie die 21 Klassen und 69 Spezialisierungen in Project Ascensions Classic+ WoW mit dem offiziellen Build-Guide für den Conquest of Azeroth Talentplaner.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/121a24/f4c24e?text=Talent+Calculator+Guide",
+  date: "2026-07-03",
+  author: "conquest of azeroth Wiki-Team",
+  keywords: "Conquest of Azeroth, Talentplaner, WoW Build Guide, Project Ascension, Klassen, Spezialisierungen"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Talentplaner**: Der offizielle **Conquest of Azeroth Talentplaner** ermöglicht es Ihnen, Builds für alle 21 benutzerdefinierten Klassen zu planen.
+- **Duales Baum-System**: Passen Sie Ihren Charakter beim Stufenaufstieg sowohl über einen **Klassenbaum** als auch über einen **Spezialisierungsbaum** an.
+- **Wahl auf Stufe 10**: Schalten Sie Ihre **Primärspezialisierung** und den spez.-spezifischen Baum sofort frei, sobald Sie Stufe 10 in der Welt erreichen.
+- **Auto-Build-Option**: Nutzen Sie die im Spiel integrierte **Auto-Build-Option**, um Talentpunkte automatisch basierend auf beliebten Community-Vorlagen zu verteilen.
+- **Eigene Builds teilen**: Exportieren und **teilen Sie eigene Builds** direkt mit anderen Spielern über das webbasierte Theorycrafting-Interface.
+</Callout>
+
+<Section icon={Sparkles} title="Wie das Conquest of Azeroth Talentsystem funktioniert">
+
+Um Ihren Charakter wirklich zu meistern, ist die Nutzung des **Conquest of Azeroth Talentplaners** unerlässlich, um Ihren Weg zu planen. Conquest of Azeroth (CoA) bietet 21 komplett originelle, von Warcraft inspirierte Klassen, von denen jede über einzigartige Zauber, Ressourcen und Spielstile verfügt. Um diese enorme Tiefe der Charakteranpassung zu unterstützen, haben die Entwickler eine umfassende Talentüberarbeitung implementiert, die stark von modernen dualen Talentbaum-Designs inspiriert ist.
+
+In älteren Versionen der Alpha litten die Klassen unter einem holprigen Pacing, übermäßig langen Tooltips und einer Flut an passiven Zaubern im Zauberbuch. Das moderne System löst dies, indem es Ihren Talentfortschritt in zwei verschiedene, parallele Pfade aufteilt: den **Klassenbaum** und den **Spezialisierungsbaum**. Der Klassenbaum enthält allgemeine Utility-, Defensiv- und grundlegende Offensiv-Werkzeuge, die alle Mitglieder Ihrer Klasse teilen. Der Spezialisierungsbaum, der auf Stufe 10 freigeschaltet wird, enthält hochspezifische Knoten, die Ihre primäre Rolle definieren – egal, ob Sie als Tank, Heiler, DPS oder Hybrid-Support spielen möchten.
+
+Während Sie von Stufe 10 bis 60 aufsteigen, erhalten Sie abwechselnd Klassenbaum-Punkte und Spezialisierungsbaum-Punkte. Dieses abwechselnde Pacing erzwingt bedeutsame Entscheidungen auf jeder Stufe und stellt sicher, dass die Macht Ihres Charakters stetig wächst, ohne Ihre Rotation zu überfordern.
+
+| Stufenbereich | Vergebener Punkt-Typ | Ausgegeben in Baum | Freigeschaltetes System |
+|---|---|---|---|
+| **Stufe 1-9** | Keine | Keiner | Basistraining des Klassen-Kits |
+| **Stufe 10** | Spezialisierungspunkt | Spez.-Baum | Wahl der Primärspezialisierung |
+| **Stufe 11** | Klassenpunkt | Klassenbaum | Klassenweite Utility-Knoten |
+| **Gerade Stufen** | Klassenpunkt | Klassenbaum | Abwechselnder Fortschrittspfad |
+| **Ungerade Stufen** | Spez.-Punkt | Spez.-Baum | Abwechselnder Fortschrittspfad |
+| **Stufe 60** | Capstone-Punkt | Beide Bäume | Capstone-Talente der letzten Stufe |
+
+<Callout type="success" title="Strategie für abwechselnde Punkte">
+Da die Punkte zwischen Klassen- und Spezialisierungsbäumen abwechseln, planen Sie Ihren Fortschritt so, dass wichtige rotatationsentscheidende Talente auf ungeraden Stufen priorisiert werden, während Utility- und Defensivknoten auf geraden Stufen gefüllt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigieren im Conquest of Azeroth Talentplaner">
+
+Bevor Sie Ihr hart verdientes Gold für In-Game-Respecs auf dem Vol'Jin-Server ausgeben, dient der webbasierte **Conquest of Azeroth Talentplaner** als Ihre primäre Theorycrafting-Sandbox. Der offizielle Planer ist direkt in das Web-Ökosystem von Project Ascension integriert, sodass Spieler ihre Builds nahtlos planen, optimieren und teilen können.
+
+Das Interface ist so gestaltet, dass es die In-Game-Erfahrung widerspiegelt, und bietet Echtzeit-Tooltip-Updates, Skalierung der Ressourcenkosten und die Verfolgung von Voraussetzungslinien. Durch die Nutzung des Online-Planers können Sie Ihre Stufe-60-Capstone-Konfigurationen visualisieren und genau berechnen, wie viele Punkte Sie für Nischen-Utility-Knoten ausgeben können, ohne die Kernleistung zu opfern.
+
+<Steps>
+  <Step num="1" title="Wählen Sie Ihre Klasse">
+    Navigieren Sie zur Planer-Seite und wählen Sie eine der 21 Originalklassen aus dem visuellen Raster aus. Dies lädt den Basis-Klassenbaum auf der linken Seite Ihres Bildschirms.
+  </Step>
+  <Step num="2" title="Wählen Sie Ihre Spezialisierung">
+    Klicken Sie auf den Spezialisierungs-Selektor, um Ihren primären Pfad zu wählen. Diese Aktion schaltet sofort den entsprechenden Spezialisierungsbaum auf der rechten Seite des Interfaces frei.
+  </Step>
+  <Step num="3" title="Verteilen Sie Ihre Punkte">
+    Klicken Sie mit der linken Maustaste auf Knoten, um Punkte zu vergeben, beginnend am oberen Ende beider Bäume und arbeiten Sie sich nach unten. Klicken Sie mit der rechten Maustaste auf Knoten, um Punkte zurückzufordern. Der Planer erzwingt automatisch die Pfad-Voraussetzungen.
+  </Step>
+  <Step num="4" title="Exportieren und Teilen">
+    Sobald Ihr Build fertig ist, klicken Sie auf den Export-Button, um einen eindeutigen Build-String oder eine URL zu generieren. Sie können diesen Link mit Gildenmitgliedern teilen oder direkt in den Spiel-Client importieren.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Auto-Build Integration">
+Wenn Sie von den über 1.000 verfügbaren Zaubern und Talenten der Klassen überwältigt sind, bietet der In-Game-Client eine Auto-Build-Option. Dieses System verteilt Ihre Punkte automatisch basierend auf beliebten Konfigurationen, die direkt aus dem Community-Planer exportiert wurden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Klassen-Archetypen und Aufschlüsselung der Rollen">
+
+Die Wahl der richtigen Klasse auf dem Vol'Jin-Server ist die wichtigste Entscheidung, die Sie treffen werden, insbesondere angesichts der deutlichen mechanischen Unterschiede zwischen den 21 benutzerdefinierten Optionen. Im Gegensatz zum Standard-Retail- oder Classic-WoW können viele Klassen in Conquest of Azeroth mehrere Rollen erfüllen, je nachdem, wie Sie Ihre Punkte im **Conquest of Azeroth Talentplaner** verteilen.
+
+Zum Beispiel kann der Kultist von einem schweren plattenragenden Tank (Dreadnought) zu einem dunklen, an die Alten Götter angelehnten Heiler (Einfluss) wechseln, der eine Wahnsinns-Ressourcenleiste verwaltet. Ähnlich kann der Tüftler Sprengstoffe für Fernkampf-DPS einsetzen oder Nanobots und Leuchtfeuer nutzen, um als hocheffizienter Support-Heiler zu agieren.
+
+| Klasse | Rüstungstyp | Primäre Attribute | Rollen | Spezialisierungen |
+|---|---|---|---|---|
+| **Nekromant** | Stoff | Intelligenz | DPS | Tod, Animation, Reif |
+| **Pyromant** | Stoff | Intelligenz | DPS, Heiler | Verbrennung, Drakonisch, Flammenweben |
+| **Kultist** | Stoff, Platte | Stärke, Intelligenz | Tank, DPS, Heiler | Götterklinge, Verderbnis, Einfluss, Dreadnought |
+| **Sternenrufer** | Kette, Platte | Intelligenz | Tank, DPS, Heiler | Wächter, Sentinel, Mondpriester, Mondwache |
+| **Tüftler** | Leder, Kette | Beweglichkeit, Intelligenz | DPS, Heiler | Demolition, Mechanik, Erfindung |
+| **Schnitter** | Platte | Stärke, Intelligenz | Tank, DPS | Ernte, Seele, Dominanz |
+| **Blutmagier** | Leder | Intelligenz, Willenskraft, Ausdauer | Tank, DPS, Heiler | Fleischweber, Sanguinisch, Verflucht, Eternal |
+
+Für Spieler, die den Vol'Jin-Server zum ersten Mal betreten, wird die Wahl einer Klasse mit unkomplizierter Mechanik und hoher Selbsterhaltung dringend empfohlen. Die folgenden Bewertungen skizzieren die besten Einstiegsoptionen basierend auf der Leichtigkeit des Levelns, dem Ressourcenmanagement und der allgemeinen Build-Flexibilität.
+
+| Klasse | Benutzerfreundlichkeit | Kernressource | Beste Einstiegs-Spez. | Primärer Spielstil |
+|---|---|---|---|---|
+| **Wächter** | ★★★★★ | Wut | Gladiator | Schild-Tanking, Kampfkunstwaffen-Meisterschaft |
+| **Nekromant** | ★★★★★ | Runenmacht, Mana | Animation | Fokus auf Begleiter, dunkler Fernkampf-Zauberer |
+| **Blutmagier** | ★★★★☆ | Gesundheit, Wut | Sanguinisch | Vampirische Selbsterhaltung, Blutzauberei |
+| **Pyromant** | ★★★★☆ | Mana | Verbrennung | Traditioneller Feuer-Zauberwirker, hoher Burst-AoE |
+| **Schnitter** | ★★★★☆ | Mana | Ernte | Selbsterhaltender Nahkampf-Bruiser, Schattentank |
+
+<Callout type="info" title="Signale der Klassenpopularität">
+Offizielle Beta-Statistiken zeigen, dass Nekromant, Blutmagier und Schnitter aufgrund ihrer unglaublichen Effizienz beim Solo-Leveln und ihrer robusten Selbstheilungsmechaniken zu den beliebtesten Klassen gehören.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Build-Planungsstrategie und Best Practices">
+
+Wenn man vor dem **Conquest of Azeroth Talentplaner** sitzt, lässt man sich leicht von den auffälligen Capstone-Talenten am unteren Ende der Bäume ablenken. Ein erfolgreicher Build erfordert jedoch einen ausgewogenen Ansatz, der die Ressourcengenerierung, die Synergie der Rotation und den defensiven Nutzen priorisiert. Effektives Theorycrafting beruht darauf, zu verstehen, wie die Mechaniken Ihrer gewählten Klasse mit den Basiswerten interagieren.
+
+<CardGrid cols={3}>
+  <Card title="Fokus auf reinen Schaden">
+    - **Hohe Schadensskalierung**
+    - Fokus auf Krit und Tempo
+    - Priorisiert offensive Capstones
+    - Bestens für Dungeons und Raids
+  </Card>
+  <Card title="Fokus auf Hybrid-Support">
+    - **Ausgewogener Gruppennutzen**
+    - Fokus auf Gruppenbuffs
+    - Integriert Off-Heal-Knoten
+    - Bestens für koordiniertes PvE
+  </Card>
+  <Card title="Nahkämpfer mit Selbsterhaltung">
+    - **Hohe Überlebensrate**
+    - Fokus auf Rüstung und Lebensraub
+    - Priorisiert aktive Schadensvermeidung
+    - Bestens für Solo-Leveln in der Welt
+  </Card>
+</CardGrid>
+
+Die Attributsprioritäten variieren stark je nach Build-Archetyp. Bevor Sie Ihre Punkte verteilen, konsultieren Sie die allgemeinen Richtlinien zur Attributspriorität unten, um sicherzustellen, dass Ihre Talentwahl mit Ihrer beabsichtigten Ausrüstungsprogression übereinstimmt.
+
+| Spez.-Archetyp | Primärattribut | Sekundärattribut | Tertiärattribut | Skalierungseffekt |
+|---|---|---|---|---|
+| **Zauberwirker** | Intelligenz | Zaubermacht | Tempo / Krit | Schnelleres Zaubern, stärkerer Magieschaden |
+| **Nahkampf-Bruiser** | Stärke | Angriffskraft | Krit / Vielseitigkeit | Stärkere physische Angriffe, höhere Rüstung |
+| **Agile Fernkämpfer** | Beweglichkeit | Fernkampf-Angriffskraft | Tempo / Meisterschaft | Schnellere Fernschüsse, höhere Ausweichchance |
+| **Vampirische Tanks** | Ausdauer | Intelligenz | Willenskraft / Rüstung | Größerer Gesundheitspool, erhöhte Selbstheilung |
+
+Um zu garantieren, dass Ihr Build vollständig für die Stufe-60-Endgame-Phase auf Project Ascension optimiert ist, gehen Sie diese Checkliste durch, bevor Sie Ihr Layout im Planer finalisieren.
+
+<Checklist
+  id="build-optimization-checklist"
+  title="Meilensteine des Theorycraftings:"
+  items={[
+    "Identifizieren und sichern Sie Ihr primäres 31-Punkte-Capstone-Talent in Ihrem Spezialisierungsbaum.",
+    "Investieren Sie mindestens 15 Punkte in den Klassenbaum, um wichtige Crowd-Control- und Verteidigungs-Tools freizuschalten.",
+    "Überprüfen Sie, ob Ihre Talentwahl mit der Skalierung der Primärattribute Ihrer Ausrüstung übereinstimmt (z. B. Stärke vs. Intelligenz).",
+    "Stellen Sie sicher, dass Ihre Rotation einen zuverlässigen Ressourcen-Generator-Knoten hat, um Leerlaufzeiten im Kampf zu vermeiden.",
+    "Testen Sie Ihr Build-Konzept während der frühen Level-Phasen über das In-Game-Auto-Build-Interface."
+  ]}
+/>
+
+<Callout type="warning" title="Vermeiden Sie Tooltip-Flut">
+Seien Sie vorsichtig bei älteren Community-Guides, die empfehlen, zu viele aktive Zauber zu stapeln. Konzentrieren Sie sich auf passive Modifikatoren, die Ihre Kernrotation von 3 bis 4 Tasten optimieren, um Ihre Aktionsleisten nicht zu überladen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wo finde ich den offiziellen Conquest of Azeroth Talentplaner?",
+    answer: "Der offizielle webbasierte Planer ist direkt auf der Project Ascension-Website unter dem Reiter BUILDER zu finden, speziell aktualisiert für die Vol'Jin-Server-Datenbank."
+  },
+  {
+    question: "Kann ich meine Talentpunkte zurücksetzen, wenn ich einen Fehler in meinem Build mache?",
+    answer: "Ja, Sie können Ihre Talente im Spiel ganz einfach zurücksetzen, indem Sie Ihren Klassenlehrer besuchen. Der Online-Planer ermöglicht es Ihnen, frei zu experimentieren, bevor Sie im Spiel Gold ausgeben."
+  },
+  {
+    question: "Gibt es vorgefertigte Builds direkt im Planer?",
+    answer: "Ja, der In-Game-Client verfügt über eine Auto-Build-Option, die automatisch optimierte, von der Community getestete Talentkonfigurationen basierend auf Ihrer gewählten Spezialisierung anwendet."
+  },
+  {
+    question: "Unterstützt der Planer alle 21 Klassen und 69 Spezialisierungen?",
+    answer: "Absolut. Der offizielle Planer ist vollständig aktualisiert mit korrekten Tooltips, Ressourcenkosten und Voraussetzungen für alle 21 Originalklassen und ihre jeweiligen Spezialisierungen."
+  }
+]} />
+
+<Callout type="success" title="Community-Sharing">
+Sobald Sie die Anpassung eines Layouts im Planer abgeschlossen haben, verwenden Sie den Export-Button, um einen Kurzcode zu generieren. Sie können diesen Code direkt im offiziellen Ascension Discord teilen, um Feedback von erfahrenen Spielern zu erhalten.
+</Callout>
+
+</Section>

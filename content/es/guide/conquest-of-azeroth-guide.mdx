@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Conquest of Azeroth: Recorrido de Lanzamiento y Lista de Niveles",
+  description: "Domina Conquest of Azeroth con nuestra guía de clases personalizadas, árboles de talentos, rutas de leveo y estrategias PvE y PvP para el endgame.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Conquest+of+Azeroth+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de Conquest of Azeroth**: Aprende la configuración esencial, la creación de personajes y las mecánicas de clase para esta reforma personalizada de WoW.
+- **Lanzamiento del Reino Vol'Jin**: El lanzamiento completo se realizará el 3 de julio de 2026, ofreciendo una nueva ruta de progresión para todos los jugadores.
+- **21 Clases Personalizadas**: Explora clases completamente originales que cuentan con 69 especializaciones distintas y más de 1,000 hechizos personalizados.
+- **Talentos al Estilo Dragonflight**: Diseña tu build usando árboles de talentos duales que alternan puntos a medida que subes de nivel.
+- **Opciones de Riesgo Híbrido**: Elige entre los modos PvE, PvP o PvP de Alto Riesgo para adaptarte a tu estilo de juego preferido.
+</Callout>
+
+<Section icon={Map} title="Guía de Conquest of Azeroth: Lanzamiento y Configuración de Descarga">
+
+Te damos la bienvenida a la **guía definitiva de Conquest of Azeroth**, diseñada para ayudarte a navegar por el enorme proyecto de WoW personalizado Classic+ bajo Project Ascension [1]. Esta reforma reemplaza el sistema de clases tradicional con 21 clases completamente originales, 69 especializaciones únicas y más de 1,000 hechizos y talentos personalizados [1]. El juego se lanza oficialmente en el **reino Vol'Jin** el **3 de julio de 2026**, trayendo una experiencia RPG muy pulida tanto para jugadores de PvE como de PvP [1].
+
+Para acceder al juego, debes usar el launcher oficial de Project Ascension [1]. Este launcher gestiona todas las actualizaciones del cliente, aplica parches a los archivos de juego personalizados y administra los addons aprobados [1]. Solo necesitas registrar una única cuenta de Ascension para acceder a todos los reinos, incluido Vol'Jin [1].
+
+**Puntos Destacados del Video:**
+- **Ventana de Lanzamiento Completo**: Lanzamiento oficial el 3 de julio de 2026 en el reino Vol'Jin [1].
+- **Integración del Launcher**: Parches automatizados, soporte para addons personalizados y cambio sencillo de reino [1].
+- **Registro de Cuenta**: Crea una cuenta en el sitio web oficial para acceder a todas las características del juego [1].
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Lanzamiento Completo: Conquest of Azeroth - Ascension WoW" />
+
+| Fase | Fecha | Detalles |
+|---|---|---|
+| **Lanzamiento Completo** | 3 de julio de 2026 | Lanzamiento del reino Vol'Jin |
+| **Launcher** | Ya disponible | Launcher oficial de PC de Ascension |
+| **Cuenta** | Requiere configuración | Una cuenta para todos los reinos |
+| **Plataforma** | Soporte para Windows | Linux compatible mediante guías de la comunidad |
+
+<Callout type="warning" title="Descargo de Responsabilidad Legal y de Acceso">
+Este es un sitio de guía no oficial creado por fans. No está afiliado a Blizzard Entertainment, World of Warcraft ni Project Ascension [1]. No descargues archivos del cliente ni parches de servidores espejo de terceros; utiliza siempre el launcher oficial para garantizar la seguridad de tu cuenta [1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión para Principiantes y Ruta de Leveo">
+
+Subir de nivel en este entorno personalizado difiere significativamente de la progresión estándar de WoW [1]. En lugar de elegir entre las clases clásicas, seleccionas uno de los 21 arquetipos personalizados al crear tu personaje [1]. Las zonas de inicio se han actualizado con instructores de clase dedicados para guiarte en tus primeros pasos [1].
+
+A medida que subas de nivel, desbloquearás puntos de talento que alternarán entre un Árbol de Clase y un Árbol de Especialización [1]. Este sistema imita los diseños de talentos modernos, permitiéndote personalizar tu utilidad y poder de combate [1].
+
+<Steps>
+  <Step num="1" title="Registro de Cuenta">
+    Crea tu cuenta en el sitio web oficial de Project Ascension utilizando un correo electrónico y una contraseña seguros [1].
+  </Step>
+  <Step num="2" title="Instalación del Launcher">
+    Descarga e instala el launcher oficial [1]. Deja que el launcher parcheé completamente el cliente antes de intentar iniciar sesión [1].
+  </Step>
+  <Step num="3" title="Selección de Reino">
+    Inicia el juego y selecciona el reino **Vol'Jin** en la lista de servidores para comenzar tu viaje en Conquest of Azeroth [1].
+  </Step>
+  <Step num="4" title="Creación de Clase">
+    Elige una de las 21 clases originales [1]. Busca el aviso del instructor de nivel 3 en tu zona de inicio para comenzar tu cadena de misiones específica de clase [1].
+  </Step>
+  <Step num="5" title="Selección de Especialización">
+    Al nivel 10, abre tu interfaz de talentos para seleccionar tu especialización principal y desbloquear tus árboles de talentos [1].
+  </Step>
+</Steps>
+
+| Rango de Nivel | Enfoque Principal | Desbloqueo Importante |
+|---|---|---|
+| **Niveles 1-3** | Misiones de la zona de inicio | Aviso de ubicación del instructor |
+| **Nivel 10** | Selección de especialización | Árboles de talentos de clase y especialización |
+| **Niveles 10-35** | Creación de la rotación principal | Puntos de talento alternos |
+| **Niveles 35-45** | Pruebas de control de masas | Jefe de mundo de nivel 45 |
+| **Niveles 45-55** | Mejoras visuales de hechizos | Revisión completa de instructores de clase |
+| **Niveles 55-58** | Equipamiento RPG de mundo abierto | Límite de beta de nivel 58 |
+| **Nivel 60** | Progresión de endgame | Bandas y arenas PvP puntuadas |
+
+<Callout type="tip" title="Usa el Soporte de Auto-Build">
+Si te sientes abrumado por los nuevos árboles de talentos, utiliza la función integrada de Auto-Build introducida durante las fases beta [1]. Este sistema asigna automáticamente tus puntos de talento basándose en las builds más populares, permitiéndote concentrarte en aprender las mecánicas de tu clase [1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Niveles de Clases y Arquetipos">
+
+Elegir tu primera clase es una decisión fundamental [1]. Aunque las 21 clases son viables, algunas ofrecen una experiencia de leveo más fluida y definiciones de rol más claras para quienes comienzan en el lanzamiento [1]. La siguiente lista de niveles se centra en la facilidad de uso, la velocidad de leveo y la utilidad en el contenido de grupo [1].
+
+<CardGrid cols={2}>
+  <Card title="Necromancer (Nivel S)">
+    - **Rol**: Daño (DPS) [1]
+    - **Armadura**: Tela [1]
+    - **Mecánica**: Fuerza vital y mascotas no muertas [1]
+    - **Ideal para**: Leveo en solitario y juego de taumaturgo centrado en mascotas [1]
+  </Card>
+  <Card title="Bloodmage (Nivel S)">
+    - **Rol**: Tanque, Daño (DPS), Sanador [1]
+    - **Armadura**: Cuero [1]
+    - **Mecánica**: Consumo de salud y vampirismo [1]
+    - **Ideal para**: Sostenimiento propio excepcional y flexibilidad de roles [1]
+  </Card>
+  <Card title="Reaper (Nivel S)">
+    - **Rol**: Tanque, Daño (DPS) [1]
+    - **Armadura**: Placas [1]
+    - **Mecánica**: Cosecha de almas y robo de vida [1]
+    - **Ideal para**: Luchadores cuerpo a cuerpo robustos que aman las temáticas de sombras [1]
+  </Card>
+  <Card title="Guardian (Nivel S)">
+    - **Rol**: Tanque, Daño (DPS), Soporte [1]
+    - **Armadura**: Placas [1]
+    - **Mecánica**: Maestría marcial y estandartes [1]
+    - **Ideal para**: Utilidad de grupo segura y tanqueo clásico con placas [1]
+  </Card>
+</CardGrid>
+
+| Clase | Rol Principal | Tipo de Armadura | Mecánica Principal | Perfil de Jugador |
+|---|---|---|---|---|
+| **Necromancer** | Daño (DPS) | Tela | Fuerza vital | Taumaturgo oscuro centrado en mascotas |
+| **Bloodmage** | Híbrido | Cuero | Sostenimiento vampírico | Jugadores híbridos versátiles |
+| **Reaper** | Híbrido cuerpo a cuerpo | Placas | Cosecha de almas | Luchadores robustos cuerpo a cuerpo |
+| **Guardian** | Híbrido cuerpo a cuerpo | Placas | Beneficios de estandarte | Tanqueo enfocado en el equipo |
+| **Pyromancer** | Daño (DPS) / Sanador | Tela | Magia de fuego | Taumaturgos de daño directo |
+
+<Callout type="success" title="Señales de Popularidad de la Beta">
+Durante las fases de beta abierta, Necromancer, Bloodmage y Reaper se posicionaron constantemente como las clases más populares [1]. Su alto sostenimiento propio y sus rotaciones de daño directas las convierten en excelentes opciones para tu primer personaje en el reino Vol'Jin [1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reforma de Talentos y Builds Personalizadas">
+
+El sistema de talentos se ha reconstruido por completo para dar soporte a las clases personalizadas [1]. Al nivel 10, seleccionas una especialización principal, lo que desbloquea dos árboles distintos: un Árbol de Clase y un Árbol de Especialización [1]. Recibes puntos de talento a medida que subes de nivel, alternando entre los dos árboles para construir un estilo de combate cohesivo [1]."
+
+Este diseño fomenta la experimentación [1]. Por ejemplo, un Tinker puede enfocarse en el daño explosivo directo o cambiar hacia torretas mecánicas y dispositivos invocados [1].
+
+| Nombre de la Build | Clase | Rol Principal | Enfoque Clave |
+|---|---|---|---|
+| **Demolition** | Tinker | Daño a distancia | Explosivos, cargas de zapador, cañones |
+| **Mechanics** | Tinker | Daño de constructor | Torretas, minas terrestres, trajes Shredder |
+| **Incineration** | Pyromancer | Taumaturgo de daño | Fuego directo, meteoros, acumulaciones de Ignición |
+| **Archery** | Ranger | Daño físico | Modificaciones de carcaj, alta movilidad |
+| **Influence** | Cultist | Sanador personalizado | Escudos de absorción de Dioses Antiguos, Edictos |
+
+<Callout type="info" title="Alternancia de Puntos de Talento">
+Recuerda que los puntos de talento alternan entre el Árbol de Clase y el Árbol de Especialización a medida que subes de nivel [1]. Planifica tu ruta de talentos con anticipación para asegurarte de desbloquear las habilidades activas clave tan pronto como estén disponibles [1].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sistemas de PvE y PvP de Endgame">
+
+Al alcanzar el límite de nivel 60, desbloqueas un sólido conjunto de contenidos de endgame [1]. Los jugadores de PvE pueden desafiar las mazmorras clásicas de Vanilla en dificultades Normal, Heroica, Mítica y Mítica+ [1]. Las bandas como Núcleo de Magma y Onyxia han sido reajustadas específicamente para desafiar a las clases y especializaciones personalizadas [1].
+
+Para los entusiastas del PvP, el juego ofrece campos de batalla estructurados, arenas puntuadas (1v1, 2v2, 3v3 solo queue) y eventos de mundo abierto como el Alijo de Crow y la Arena de Gurubashi [1]. Además, puedes optar por diferentes fases de riesgo según tu nivel de comodidad [1].
+
+<Checklist
+  id="endgame-prep"
+  title="Lista de Verificación de Progresión de Endgame:"
+  items={[
+    "Alcanzar el nivel 60 en el reino Vol'Jin",
+    "Visitar a tu instructor de clase para desbloquear los hechizos finales de rango máximo",
+    "Completar mazmorras Normales y Heroicas para adquirir equipo raro básico",
+    "Seleccionar tu fase de riesgo PvP preferida (PvE, PvP o Alto Riesgo)",
+    "Unirte a una hermandad para prepararte para las bandas de Núcleo de Magma y Onyxia"
+  ]}
+/>
+
+| Modo | Nivel de Riesgo | Reglas | Ideal para |
+|---|---|---|---|
+| **Modo PvE** | Bajo | No seleccionable en PvP de mundo abierto | Leveo seguro y farmeo de mazmorras |
+| **Modo PvP** | Medio | El combate de mundo abierto está totalmente habilitado | PvP activo en el mundo sin pérdida de equipo |
+| **Alto Riesgo** | Alto | Sueltas un cofre de botín al morir | Jugadores hardcore que buscan emoción extra |
+
+<Callout type="warning" title="Consecuencias del PvP de Alto Riesgo">
+Entrar en la fase de PvP de Alto Riesgo significa que puedes perder el equipo equipado y los artículos de tu inventario al ser derrotado [1]. Solo entra en esta fase si estás preparado para gestionar la economía de tu equipo y aceptar los riesgos del combate de mundo abierto [1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo descargo y juego Conquest of Azeroth?",
+    answer: "Debes registrar una cuenta gratuita en el sitio web oficial de Project Ascension, descargar el launcher oficial, dejar que parchee los archivos y seleccionar el reino Vol'Jin."
+  },
+  {
+    question: "¿Puedo cambiar mi especialización después de seleccionarla al nivel 10?",
+    answer: "Sí. Puedes restablecer tus árboles de talentos y seleccionar una especialización diferente visitando a tu instructor de clase en cualquier ciudad importante o zona de inicio."
+  },
+  {
+    question: "¿Cuál es la diferencia entre los modos PvE y PvP de Alto Riesgo?",
+    answer: "El modo PvE te protege por completo del PvP en el mundo abierto. El PvP de Alto Riesgo te sitúa en una fase separada donde derrotar a otros jugadores te permite despojar un cofre que contiene su equipo."
+  },
+  {
+    question: "¿Existe un sistema de auto-build para los talentos en esta guía de Conquest of Azeroth?",
+    answer: "Sí, el juego cuenta con una opción de Auto-Build que asigna automáticamente los puntos de talento en rutas recomendadas mientras subes de nivel."
+  }
+]} />
+
+<Callout type="tip" title="Únete a la Comunidad">
+Para obtener actualizaciones del estado del servidor en tiempo real, notas de parches y guías de clase creadas por la comunidad, únete al servidor oficial de Discord de Project Ascension [1]. Es el mejor lugar para encontrar hermandades activas y coordinar grupos para mazmorras y bandas [1].
+</Callout>
+
+_Descargo de responsabilidad: Este es un sitio de guía no oficial creado por fans. No está afiliado a Blizzard Entertainment, World of Warcraft ni Project Ascension [1]._
+
+</Section>

@@ -1,0 +1,219 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clases de Conquest of Azeroth: Clasificación Inicial S-Tier y Guía de Builds",
+  description: "Las clases de Conquest of Azeroth abarcan 21 opciones originales, 69 especializaciones y talentos al estilo de Dragonflight. Encuentra las mejores builds de lanzamiento y listas de tier iniciales.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Conquest+of+Azeroth+Classes",
+  date: "2026-07-03",
+  author: "Equipo de Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **clases de Conquest of Azeroth** cuentan con **21 opciones originales** y **69 especializaciones** creadas para una experiencia clásica personalizada Classic+ de WoW [1].
+- El **reino de Vol'Jin** actúa como el servidor oficial de lanzamiento completo que se estrena el **3 de julio de 2026** [1].
+- Las **mejores clases iniciales** incluyen al **Necromancer** (Nigromante), **Bloodmage** (Mago de sangre) y **Reaper** (Segador) debido a su excelente autosostenimiento y rutas de nivelación claras [1].
+- Los **talentos al estilo Dragonflight** se desbloquean a nivel 10, lo que permite a los jugadores personalizar tanto el Árbol de Clase como el de Especialización [1].
+</Callout>
+
+<Section icon={Map} title="Clases de Conquest of Azeroth: Lanzamiento y Descripción General del Reino Vol'Jin">
+
+El lanzamiento de esta expansión personalizada de MMORPG Classic+ trae un sistema completamente renovado al ecosistema de Ascension [1]. Apartándose del formato tradicional sin clases, este proyecto introduce un sistema estructurado de **21 clases personalizadas** y **69 especializaciones distintas** [1]. El viaje comienza en el **reino de Vol'Jin**, que se lanza oficialmente el **3 de julio de 2026** [1]. 
+
+Para prepararte para tu viaje, debes instalar el lanzador oficial de Project Ascension, configurar una cuenta única unificada y seleccionar la ruta del reino Conquest of Azeroth [1]. El lanzador se encarga de todos los parches necesarios del cliente, los recursos personalizados y los complementos de interfaz aprobados [1].
+
+**Puntos Destacados del Video:**
+- **Detalles del Lanzamiento**: Cronograma de lanzamiento oficial y configuración del reino Vol'Jin [1].
+- **Diferencias del Sistema**: Cómo difiere este proyecto de clases estructuradas del Ascension sin clases estándar [1].
+- **Avance de Clases**: Demostraciones visuales de efectos de hechizos personalizados y mecánicas de recursos únicas [1].
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Full Release: Conquest of Azeroth - Ascension WoW" />
+
+<Callout type="info" title="Consejo de Acceso al Reino">
+Comprueba siempre el estado del servidor en vivo en la [Página de Inicio Oficial de Ascension](https://ascension.gg/en) antes de iniciar sesión [1]. El lanzador descargará automáticamente las actualizaciones necesarias para el reino de Vol'Jin, asegurando que no encuentres errores de desajuste de versión [1].
+</Callout>
+
+| Detalle de Lanzamiento | Especificación | Información Clave |
+| :--- | :--- | :--- |
+| **Fecha de Lanzamiento** | 3 de julio de 2026 | Lanzamiento oficial del reino de Vol'Jin [1] |
+| **Hora de Lanzamiento** | 7:00 AM Pacífico / 10:00 AM Oriental | Despliegue global simultáneo [1] |
+| **Requisito del Cliente** | Lanzador de Project Ascension | Gestiona parches personalizados y archivos del cliente [1] |
+| **Configuración de Cuenta** | Una cuenta unificada de Ascension | Se usa para el inicio de sesión del lanzador y el acceso al reino [1] |
+| **Plataforma Soportada** | Windows PC | Linux es compatible a través de guías de la comunidad [1] |
+
+</Section>
+
+<Section icon={Shield} title="Arquetipos de Clase y Selección de Rol">
+
+Con 21 clases disponibles, encontrar tu estilo de juego preferido requiere comprender cómo se distribuyen los roles [1]. A diferencia del WoW clásico original, muchas clases en esta expansión son verdaderos híbridos, capaces de cumplir múltiples roles dependiendo de cómo distribuyas tus puntos de talento [1]. 
+
+A nivel 10, elegir una especialización define tu rol principal, pero las mecánicas subyacentes de la clase siguen siendo sumamente flexibles [1]. Ya sea que prefieras proteger a tus aliados, curar a los heridos o infligir un daño masivo, hay una clase personalizada adaptada a tus preferencias [1].
+
+<CardGrid cols={2}>
+  <Card title="Tanques Resistentes">
+    - **Clases**: Guardian, Cultist, Primalist, Reaper, Bloodmage, Felsworn [1].
+    - **Armadura**: Placas, Malla o Cuero con escalado de defensa personalizado [1].
+    - **Estilo de juego**: Alta supervivencia, mitigación activa y gestión de amenaza [1].
+  </Card>
+  <Card title="Sanadores Restauradores">
+    - **Clases**: Pyromancer, Starcaller, Sun Cleric, Tinker, Venomancer, Chronomancer [1].
+    - **Armadura**: Tela, Cuero, Malla o Placas [1].
+    - **Estilo de juego**: Sanación directa, escudos de absorción y conversión de daño en sanación [1].
+  </Card>
+  <Card title="Especialistas Ofensivos (DPS)">
+    - **Clases**: Necromancer, Runemaster, Witch Hunter, Barbarian, Stormbringer [1].
+    - **Armadura**: Tela, Cuero o Malla [1].
+    - **Estilo de juego**: Daño de ráfaga, daño en el tiempo o presión enfocada en mascotas [1].
+  </Card>
+  <Card title="Utilidad y Soporte">
+    - **Clases**: Ranger, Witch Doctor, Templar, Knight of Xoroth [1].
+    - **Armadura**: Cuero, Malla o Placas [1].
+    - **Estilo de juego**: Mejoras de grupo, control de masas y flexibilidad para sanación o tanqueo secundario [1].
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Prioridad de Estadísticas Híbridas">
+Presta mucha atención a las estadísticas principales cuando juegues con una clase híbrida como el Cultist o el Bloodmage [1]. Algunas especializaciones escalan con Fuerza, mientras que otras requieren Intelecto o Agilidad [1]. Equipar el tipo de estadística incorrecto limitará severamente tu rendimiento [1].
+</Callout>
+
+| Categoría de Rol | Especializaciones Disponibles | Foco de Estadística Principal | Tipos de Armadura Utilizados |
+| :--- | :--- | :--- | :--- |
+| **Tanques** | Más de 15 Specs | Fuerza, Intelecto, Agilidad | Placas, Malla, Cuero [1] |
+| **Sanadores** | Más de 12 Specs | Intelecto, Espíritu, Aguante | Tela, Cuero, Malla, Placas [1] |
+| **DPS Cuerpo a Cuerpo** | Más de 20 Specs | Fuerza, Agilidad | Cuero, Malla, Placas [1] |
+| **DPS a Distancia** | Más de 15 Specs | Intelecto, Agilidad | Tela, Cuero, Malla [1] |
+
+</Section>
+
+<Section icon={Swords} title="Directorio Maestro de Clases">
+
+Cada clase en esta expansión ha sido construida desde cero con recursos personalizados, mecánicas de recursos únicas y una temática de trasfondo distintiva [1]. Para ayudarte a tomar una decisión informada, el directorio a continuación describe las características principales de las 21 clases [1].
+
+| Clase | Roles Principales | Tipo de Armadura | Estadística Principal | Mecánica Central |
+| :--- | :--- | :--- | :--- | :--- |
+| **Necromancer** | DPS | Tela | Intelecto | La Fuerza Vital alimenta a múltiples mascotas no muertas [1] |
+| **Pyromancer** | DPS, Sanador | Tela | Intelecto | Magia de fuego, meteoros y sanación de fénix [1] |
+| **Cultist** | Tanque, DPS, Sanador | Tela, Placas | Fuerza, Intelecto | La Demencia recompensa el poder de alto riesgo [1] |
+| **Starcaller** | Tanque, DPS, Sanador | Malla, Placas | Intelecto | El poder lunar da forma a armas y barreras [1] |
+| **Sun Cleric** | Tanque, DPS, Sanador | Tela, Placas | Fuerza, Intelecto | El Poder Solar potencia el fuego sagrado [1] |
+| **Tinker** | DPS, Sanador | Cuero, Malla | Agilidad, Intelecto | Cartuchos, bombas, torretas y mecas [1] |
+| **Runemaster** | DPS | Tela | Intelecto, Espíritu | La Sintonía cicla a través de elementos mágicos [1] |
+| **Primalist** | Tanque, Sanador, DPS | Placas | Fuerza, Intelecto | Bendiciones de la tierra, la naturaleza y dioses salvajes [1] |
+| **Reaper** | Tanque, DPS | Placas | Fuerza, Intelecto | Cosecha de almas, robo de vida y tanqueo de sombras [1] |
+| **Venomancer** | Tanque, Sanador, DPS | Cuero, Malla | Intelecto | Cambio de forma de veneno y efectos de putrefacción [1] |
+| **Chronomancer** | DPS, Sanador | Tela | Intelecto, Espíritu | Incremento con varitas, clones temporales y rebobinados [1] |
+| **Bloodmage** | Tanque, DPS, Sanador | Cuero | Intelecto, Espíritu | Sostenimiento vampírico y gasto de salud [1] |
+| **Guardian** | Tanque, DPS, Soporte | Placas | Fuerza | Armas marciales, estandartes y cantos de batalla [1] |
+| **Stormbringer** | DPS, Soporte | Tela | Intelecto | Las cargas estáticas aumentan los procs de relámpagos [1] |
+| **Felsworn** | Tanque, DPS | Cuero | Agilidad, Intelecto | Cargas de Furia de la cocina y formas demoníacas [1] |
+| **Barbarian** | DPS, Soporte | Cuero | Agilidad | La Ira Desenfrenada potencia ataques fuertes [1] |
+| **Witch Doctor** | DPS, Sanador | Cuero | Agilidad, Intelecto | Pociones, maleficios y magia de Loa [1] |
+| **Witch Hunter** | Tanque, DPS | Malla | Agilidad | Ballestas, sabuesos y sostenimiento oscuro [1] |
+| **Knight of Xoroth** | Tanque, DPS | Placas | Fuerza, Intelecto | Remates de fuego de muerte y cadenas [1] |
+| **Templar** | Tanque, DPS | Malla | Agilidad | Los abridores y seguimientos generan rompecombos [1] |
+| **Ranger** | DPS, Soporte | Cuero | Agilidad | Carcajs, halcones de guerra y cuernos de soporte [1] |
+
+<Callout type="tip" title="Destaque de Fantasía de Clase">
+Para los jugadores que buscan un estilo de juego centrado en mascotas, el **Necromancer** ofrece un conjunto de herramientas sumamente pulido [1]. Puedes comandar un enjambre de esbirros no muertos mientras usas magia de escarcha y peste para desgastar a tus objetivos desde lejos [1].
+</Callout>
+
+### Clases Iniciales Destacadas
+
+Si no estás decidido, comenzar con una clase que presente un fuerte autosostenimiento hará que tu experiencia de nivelación sea mucho más fluida [1]. 
+
+- **Bloodmage**: Esta clase utiliza la salud como recurso, sacrificando su propia vitalidad para lanzar poderosos hechizos de sangre, para luego absorberla de los enemigos mediante golpes vampíricos [1]. Es sumamente versátil y capaz de tanquear, curar o infligir DPS [1].
+- **Reaper**: Un caballero oscuro con armadura de placas que cosecha las almas de los enemigos caídos [1]. El Reaper sobresale en la autocuración en medio del combate, lo que lo convierte en una opción increíblemente duradera para subir de nivel en solitario y tanquear mazmorras [1].
+- **Tinker**: Perfecto para los jugadores que aman la estética de la ingeniería [1]. Los Tinkers despliegan torretas, lanzan cargas de zapador e incluso pueden pilotar un traje meca Triturador para controlar el campo de batalla [1].
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Tier Inicial de Lanzamiento y Hoja de Ruta de Nivelación">
+
+Para asegurar una transición fluida al reino de Vol'Jin, hemos clasificado las **clases de Conquest of Azeroth** en función de su velocidad de nivelación, simplicidad mecánica y utilidad general en el contenido grupal inicial [1].
+
+| Tier | Valoración Inicial | Clases Recomendadas | Ventajas Clave |
+| :--- | :--- | :--- | :--- |
+| **S-Tier** | Excelentes Primeras Opciones | Necromancer, Bloodmage, Reaper, Guardian, Pyromancer | Alto autosostenimiento, rotaciones claras y fuertes capacidades en solitario [1]. |
+| **A-Tier** | Opciones Fuertes y Flexibles | Starcaller, Sun Cleric, Primalist, Cultist, Tinker, Chronomancer, Felsworn | Gran utilidad grupal, pero requiere gestionar ciclos de recursos únicos [1]. |
+| **B-Tier** | Buenas Opciones Especializadas | Venomancer, Witch Doctor, Witch Hunter, Ranger, Knight of Xoroth, Templar | Conjuntos de herramientas muy temáticos que recompensan el posicionamiento y la sincronización precisos [1]. |
+
+<Steps>
+  <Step num="1" title="Crea tu Personaje">
+    Inicia sesión en el reino de Vol'Jin y selecciona tu clase base [1]. Asegúrate de que tu raza coincida con la estética y las bonificaciones pasivas que deseas para tu build [1].
+  </Step>
+  <Step num="2" title="Localiza a tu Instructor de Clase">
+    Al ingresar a la zona de inicio, busca a tu instructor de clase [1]. Un aviso a nivel 3 te guiará hacia tu primera misión específica de clase [1]. Complétala de inmediato para desbloquear habilidades principales [1].
+  </Step>
+  <Step num="3" title="Desbloquea Talentos a Nivel 10">
+    A nivel 10, abre tu interfaz de talentos y selecciona tu especialización principal [1]. Esta elección desbloquea la habilidad distintiva de tu especialización y abre tus árboles de talentos [1].
+  </Step>
+  <Step num="4" title="Equípate mediante Botín del Mundo Abierto">
+    A medida que subes de nivel, reemplaza tu equipo con objetos que tengan estadísticas que coincidan con tu arquetipo de clase [1]. La expansión cuenta con estadísticas de criaturas rediseñadas y botines inmersivos en el mundo abierto para apoyar tu progresión [1].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Nivelación">
+Si los árboles de talentos te resultan abrumadores al principio, utiliza la función **Auto-Build** (Construcción Automática) [1]. Este sistema asigna automáticamente tus puntos de talento en una build estable y previamente probada, lo que te permite concentrarte en aprender las mecánicas de tu clase [1]. Puedes restablecer los talentos manualmente más tarde con facilidad [1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Árboles de Talentos y Personalización de Builds">
+
+La expansión presenta un sistema de talentos moderno inspirado en los árboles dobles al estilo Dragonflight [1]. Cada clase tiene acceso a un **Árbol de Clase** y un **Árbol de Especialización** [1]. 
+
+A medida que subas de nivel, alternarás entre recibir puntos de talento de Clase y puntos de talento de Especialización [1]. Este sistema de árbol doble garantiza que conserves la utilidad esencial de toda la clase mientras personalizas profundamente tu rol específico [1].
+
+<Checklist
+  id="early-talent-goals"
+  title="Objetivos de Progresión Temprana:"
+  items={[
+    "Alcanzar el nivel 10 para desbloquear tu primera especialización [1].",
+    "Identificar tu estadística principal (Fuerza, Agilidad o Intelecto) [1].",
+    "Asignar puntos de talento para asegurar primero tus habilidades de rotación central [1].",
+    "Usar la herramienta Auto-Build si deseas una configuración de nivelación confiable [1].",
+    "Visitar a tu instructor de clase regularmente para aprender nuevos hechizos desbloqueados [1]."
+  ]}
+/>
+
+<Callout type="info" title="Flexibilidad de Build">
+Puedes restablecer y reasignar tus puntos de talento en cualquier momento mientras te encuentres en una zona segura [1]. No dudes en experimentar con diferentes combinaciones de talentos para encontrar el estilo de juego exacto que se adapte a tus preferencias [1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+Para ayudarte a dominar por completo el sistema, hemos recopilado respuestas a las preguntas más comunes sobre las mecánicas de clase y los sistemas de lanzamiento [1].
+
+<FAQ items={[
+  {
+    question: "¿Cómo elijo las mejores clases de Conquest of Azeroth para jugar en solitario?",
+    answer: "Se recomiendan encarecidamente clases con un alto autosostenimiento y gestión de mascotas, como el Necromancer, el Bloodmage y el Reaper, para jugadores en solitario. Te permiten enfrentarte a monstruos de élite y grandes grupos de enemigos sin depender de un sanador dedicado."
+  },
+  {
+    question: "¿Puedo cambiar mi especialización después de elegirla a nivel 10?",
+    answer: "Sí. Puedes cambiar fácilmente tu especialización principal y restablecer tus árboles de talentos mientras te encuentres en una ciudad importante o zona segura. Esto te permite cambiar de rol, como pasar de un Pyromancer de DPS a un sanador Flameweaving, según las necesidades de tu grupo."
+  },
+  {
+    question: "¿Necesito encontrar instructores de clase para aprender nuevos hechizos?",
+    answer: "Sí. Se han colocado instructores de clase en todas las zonas de inicio y ciudades principales. Proporcionan misiones de clase esenciales y te permiten aprender nuevos hechizos a medida que subes de nivel, asegurando que tu repertorio se expanda de forma natural."
+  },
+  {
+    question: "¿Existe una manera fácil de gestionar los puntos de talento mientras subo de nivel?",
+    answer: "Por supuesto. El juego cuenta con un sistema de Auto-Build que asigna automáticamente tus puntos de talento en una configuración equilibrada y preconfigurada. Esto es ideal para principiantes que desean aprender la clase base antes de sumergirse en una personalización compleja."
+  }
+]} />
+
+<Callout type="tip" title="Preparación Final">
+Prepara tu cliente antes del lanzamiento del **3 de julio de 2026** [1]. ¡Descarga el lanzador desde la [Página de Descarga Oficial de Ascension](https://ascension.gg/en/download) y asegúrate de que tu cuenta esté completamente registrada para que puedas saltar directamente al reino de Vol'Jin en el momento en que se active [1]!
+</Callout>
+
+</Section>

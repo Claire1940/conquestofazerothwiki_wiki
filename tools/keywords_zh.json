@@ -1,46 +1,55 @@
 {
   "categories": [
     {
+      "category": "发布",
+      "keywords": [
+        "conquest of azeroth 发布日期",
+        "conquest of azeroth 正式上线",
+        "conquest of azeroth 公测",
+        "conquest of azeroth beta 测试"
+      ]
+    },
+    {
+      "category": "访问",
+      "keywords": [
+        "conquest of azeroth 怎么玩",
+        "conquest of azeroth 下载",
+        "conquest of azeroth 如何访问",
+        "conquest of azeroth 免费"
+      ]
+    },
+    {
+      "category": "职业",
+      "keywords": [
+        "conquest of azeroth 职业",
+        "conquest of azeroth 全专精",
+        "conquest of azeroth 新职业",
+        "conquest of azeroth 死灵法师"
+      ]
+    },
+    {
+      "category": "排行",
+      "keywords": [
+        "conquest of azeroth 排行榜",
+        "conquest of azeroth 职业排行",
+        "conquest of azeroth pvp 排行",
+        "conquest of azeroth 最强职业"
+      ]
+    },
+    {
+      "category": "天赋",
+      "keywords": [
+        "conquest of azeroth 天赋计算器",
+        "conquest of azeroth 天赋树",
+        "conquest of azeroth build",
+        "conquest of azeroth 死灵 build"
+      ]
+    },
+    {
       "category": "指南",
       "keywords": [
-        "lucid blocks 指南"
-      ]
-    },
-    {
-      "category": "合成",
-      "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
-      ]
-    },
-    {
-      "category": "物品",
-      "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
-      ]
-    },
-    {
-      "category": "生物群系",
-      "keywords": [
-        "lucid blocks 提亚玛纳地脉"
-      ]
-    },
-    {
-      "category": "建造",
-      "keywords": [
-        "lucid blocks 感质空间"
-      ]
-    },
-    {
-      "category": "技术支持",
-      "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "conquest of azeroth 指南",
+        "conquest of azeroth 新手指南"
       ]
     }
   ]

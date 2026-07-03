@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Download, Users, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Acceso a Conquest of Azeroth: Guía de Configuración 2026 y Entrada al Reino",
+  description: "Asegura tu acceso a Conquest of Azeroth con nuestra guía 2026. Aprende sobre la instalación del launcher, el registro de cuenta y los requisitos de entrada al reino de Vol'Jin.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/121A24/fff?text=Conquest+of+Azeroth+Access+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "conquest of azeroth, acceso, guía, 2026, Vol'Jin, instalación, clases"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Acceso a Conquest of Azeroth**: Requiere el launcher oficial de Project Ascension y una cuenta registrada.
+- **Reino de Lanzamiento**: El reino principal para el lanzamiento de 2026 es **Vol'Jin**, programado para el 3 de julio de 2026.
+- **Versión del Cliente**: El proyecto utiliza una arquitectura 3.3.5a modificada, pero requiere el launcher personalizado para los recursos.
+- **Característica Clave**: A diferencia del Ascension estándar, este modo cuenta con **21 clases originales** con árboles de talentos únicos.
+- **Soporte de Sistema**: Compatible oficialmente con Windows; Linux y MacOS requieren capas de compatibilidad impulsadas por la comunidad.
+</Callout>
+
+<Section icon={Map} title="Acceso Oficial a Conquest of Azeroth y Calendario de Lanzamiento">
+
+Para obtener **acceso a Conquest of Azeroth**, los jugadores deben entender que este proyecto opera dentro del ecosistema de Project Ascension. Es una revisión "Classic+" de World of Warcraft que reemplaza el sistema estándar sin clases por 21 clases originales meticulosamente diseñadas. El lanzamiento completo está previsto para el 3 de julio de 2026, centrándose en el reino Vol'Jin. El acceso no se concede a través de un cliente estándar de WoW; en su lugar, requiere un launcher propietario que gestiona los recursos de alta definición, efectos de hechizos personalizados e interfaces de talentos necesarias para la experiencia.
+
+El lanzamiento sigue a una serie de fases de Beta Abierta exitosas realizadas entre marzo y junio de 2025. Estas pruebas refinaron las 69 especializaciones y aseguraron que los sistemas del mundo "Azeroth Reborn" —incluyendo estadísticas de criaturas RPG y botines inmersivos— fueran estables para una carga masiva de jugadores.
+
+| Tipo de Evento | Fecha | Nombre del Reino | Propósito |
+| :--- | :--- | :--- | :--- |
+| **Lanzamiento Completo** | **3 de julio de 2026** | **Vol'Jin** | Lanzamiento oficial del sistema de 21 clases |
+| **Beta Final** | Junio de 2025 | Reino de Evento | Hito de nivel 58 y pruebas de estrés |
+| **Fase Alfa** | Principios de 2025 | Rexxar/PTR | Pruebas iniciales de Núcleo de Magma y Onyxia |
+| **Estado del Servidor** | Diario | Todos los Reinos | Visible a través de la página oficial de estado de Ascension |
+
+<Callout type="warning" title="Descargo de Responsabilidad">
+Este proyecto es una modificación no oficial hecha por fans y no está afiliado con Blizzard Entertainment. Los jugadores deben estar al tanto del panorama legal que rodea a los servidores personalizados antes de proceder con la instalación.
+</Callout>
+
+</Section>
+
+<Section icon={Download} title="Instalación Paso a Paso y Configuración de Cuenta">
+
+Asegurar el **acceso a Conquest of Azeroth** implica una secuencia específica de pasos técnicos. Debido a que el juego cuenta con más de 1,000 hechizos personalizados y árboles de talentos al estilo Dragonflight, el launcher debe parchear una cantidad significativa de datos sobre el cliente base. Sigue estos pasos para asegurar que tu instalación esté configurada correctamente para el lanzamiento de Vol'Jin.
+
+<Steps>
+  <Step num="1" title="Registro de Cuenta">
+    Visita el sitio web oficial de Project Ascension y crea una cuenta maestra. Este único conjunto de credenciales se utilizará tanto para el panel web como para el launcher del juego. Asegúrate de verificar tu correo electrónico para recibir actualizaciones de seguridad y alertas de estado del reino.
+  </Step>
+  <Step num="2" title="Instalación del Launcher">
+    Descarga el Project Ascension Launcher desde la página oficial de descargas. Esta herramienta es esencial ya que maneja todas las versiones, actualizaciones antitrampas y la entrega de recursos personalizados. Ejecuta el instalador y selecciona un directorio con al menos 30GB de espacio libre.
+  </Step>
+  <Step num="3" title="Parcheo del Cliente">
+    Una vez abierto el launcher, inicia sesión con tus credenciales. Selecciona la pestaña "Conquest of Azeroth" o la ruta del reino. El launcher comenzará a descargar los archivos necesarios del juego. No interrumpas este proceso, ya que la falta de recursos puede provocar errores de tipo "Critical Error" al encontrar nuevos hechizos de clase.
+  </Step>
+  <Step num="4" title="Selección de Reino">
+    Al iniciar el juego, navega a la pantalla de selección de reino. Para el lanzamiento de 2026, selecciona **Vol'Jin**. Asegúrate de que tu "Realmlist" sea gestionado automáticamente por el launcher para evitar problemas de conexión.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo Técnico">
+Si encuentras un error de "Versión no coincidente" (Version Mismatch), utiliza la función "Reparar" (Repair) en los ajustes del launcher. Esto volverá a verificar tus archivos locales con el manifiesto del servidor y corregirá cualquier parche personalizado dañado.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Selección de Clase: Eligiendo a tu Primer Héroe">
+
+Una vez que hayas obtenido **acceso a Conquest of Azeroth**, la decisión más crítica es elegir entre las 21 clases originales. Cada clase está construida desde cero con visuales y mecánicas personalizadas que se desvían significativamente de los roles tradicionales de WoW. El sistema utiliza una estructura de talentos de doble árbol: un Árbol de Clase para utilidad y un Árbol de Especialización para tu rol específico (Tanque, DPS o Sanador).
+
+<CardGrid cols={3}>
+  <Card title="Nigromante">
+    - **Rol**: DPS a Distancia
+    - **Mecánica**: Fuerza Vital
+    - **Ideal para**: Jugadores que disfrutan del juego con mascotas y propagar plagas.
+  </Card>
+  <Card title="Mago de Sangre">
+    - **Rol**: Tanque, DPS, Sanador
+    - **Mecánica**: Gasto de Salud
+    - **Ideal para**: Jugadores que buscan alto riesgo y alta recompensa con versatilidad de roles.
+  </Card>
+  <Card title="Manitas">
+    - **Rol**: DPS, Sanador
+    - **Mecánica**: Rondas y Torretas
+    - **Ideal para**: Jugadores que prefieren artilugios, explosivos y mascotas mecánicas.
+  </Card>
+</CardGrid>
+
+Para ayudar a los nuevos jugadores, el proyecto incluye una función de **Auto-Build**. Esto te permite seleccionar un arquetipo preconfigurado (por ejemplo, "Manitas de Demolición" o "Piromante de Incineración") para que el juego asigne automáticamente tus puntos de talento a medida que subes de nivel. Esto es altamente recomendado para tu primer personaje para evitar la complejidad mientras aprendes las nuevas mecánicas de recursos.
+
+| Nombre de Clase | Armadura Primaria | Roles Principales | Mecánica Central |
+| :--- | :--- | :--- | :--- |
+| **Clamaestrellas** | Malla / Placas | Tanque, DPS, Sanador | Poder Lunar / Combate Astral |
+| **Segador** | Placas | Tanque, DPS | Cosecha de Almas / Robo de Vida |
+| **Clérigo del Sol** | Tela / Placas | Tanque, DPS, Sanador | Poder Solar / Fuego Sagrado |
+| **Bárbaro** | Cuero | DPS, Soporte | Ira Desenfrenada / Sangrados |
+| **Maestro de Runas** | Tela | DPS | Sintonía de Runas / Combos de Hechizos |
+
+<Callout type="info" title="Recomendación para Empezar">
+Para una experiencia fluida de nivelación en solitario, el **Guardián** y el **Piromante** son excelentes opciones. Ofrecen rotaciones de daño sencillas y alta supervivencia durante los primeros niveles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hoja de Ruta de Nivelación y Sistemas del Mundo Reborn">
+
+El mundo en el que entras tras obtener **acceso a Conquest of Azeroth** no es el Azeroth estándar. La iniciativa "Reborn" ha actualizado la IA de las criaturas, ha añadido estadísticas de estilo RPG a los enemigos e implementado un sistema de "Botín Inmersivo" donde las caídas de equipo son más frecuentes y adaptadas a las estadísticas principales de tu clase. La nivelación se estructura en torno a hitos clave que desbloquean capas más profundas de tu identidad de clase.
+
+<Checklist
+  id="leveling-milestones"
+  title="Objetivos Principales de Progresión:"
+  items={[
+    "Alcanza el nivel 3 para activar tu primera Misión de Clase y encontrar a tu instructor.",
+    "Alcanza el nivel 10 para elegir tu Especialización Primaria y desbloquear los Árboles de Talentos.",
+    "Visita a los Instructores de Clase cada 5-10 niveles para seleccionar hechizos personalizados.",
+    "Completa el hito 'Zanzrakka' al nivel 45 para probar tu build contra jefes de mundo.",
+    "Llega al nivel 60 para entrar en la fase de Bandas y Arenas de juego final."
+  ]}
+/>
+
+| Rango de Nivel | Área de Enfoque | Desbloqueo Clave |
+| :--- | :--- | :--- |
+| **1-10** | Zonas Iniciales | Guía de Misiones de Clase |
+| **11-35** | Rotación Principal | Acceso al Árbol de Especialización |
+| **36-55** | Maestría de Rol | Selección de Hechizos Avanzados |
+| **56-60** | Prep. Juego Final | Entrada a Mazmorras Míticas |
+
+<Callout type="success" title="Ventaja de Progresión">
+Se han añadido Instructores de Clase a todos los centros iniciales principales (Villadorada, Kharanos, Brill, etc.). Ya no necesitas viajar a las ciudades capitales para el entrenamiento básico de habilidades, lo que permite un ritmo de nivelación más rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Modos PvP y el Sistema de Alto Riesgo">
+
+Para muchos jugadores, el **acceso a Conquest of Azeroth** es la puerta de entrada al exclusivo sistema de PvP de Riesgo Híbrido del proyecto. Esto te permite alternar tu nivel de compromiso con el combate de mundo abierto, desde la exploración segura en PvE hasta entornos de "Alto Riesgo" donde se puede perder el equipo al morir. Este sistema asegura que tanto los exploradores casuales como los jugadores de PvP dedicados puedan coexistir en el mismo reino.
+
+| Modo PvP | Nivel de Riesgo | Estilo de Recompensa | Perfil de Jugador |
+| :--- | :--- | :--- | :--- |
+| **Modo PvE** | **Bajo** | Botín Estándar | Casual / Enfocado en historia |
+| **Modo PvP** | **Medio** | Honor / Marcas | Competitivo pero seguro |
+| **Alto Riesgo** | **Alto** | Equipo Enemigo / Bloodforged | Hardcore / Arriesgados |
+| **Arenas** | **Estructurado** | Índice de Clasificación | Especialistas en equipos pequeños |
+
+La fase de "Alto Riesgo" es particularmente notable. En este modo, derrotar a un jugador te permite saquear un cofre que contiene piezas de su equipo equipado o inventario. Para equilibrar esto, los jugadores de Alto Riesgo tienen acceso al equipo **Bloodforged** (Forjado por la Sangre): versiones poderosas de objetos de mazmorras y bandas que solo pueden encontrar aquellos lo suficientemente valientes como para entrar en la fase de Alto Riesgo.
+
+<Callout type="warning" title="Advertencia de Alto Riesgo">
+Solo entra en la fase de Alto Riesgo si estás preparado para perder tus objetos. Aunque las recompensas son significativas, el combate es implacable y a menudo involucra grupos organizados que cazan equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Contenido de Juego Final: Mazmorras y Bandas">
+
+La fase final del **acceso a Conquest of Azeroth** es el contenido de nivel 60. El proyecto cuenta con un conjunto completo de mazmorras y bandas de Vanilla, todas reajustadas para el sistema de 21 clases. Esto incluye dificultades escalables como Míticas+ para grupos de 5 personas y dificultad Ascendida para bandas como Núcleo de Magma y Onyxia.
+
+<CardGrid cols={2}>
+  <Card title="Mazmorras Míticas+">
+    Un sistema de juego final escalable para grupos de 5 jugadores. Proporciona progresión repetible y requiere una alta coordinación del control de masas específico de cada clase.
+  </Card>
+  <Card title="Bandas Ascendidas">
+    El nivel más alto de desafío PvE. Estas bandas cuentan con mecánicas de jefes ampliadas diseñadas para poner a prueba los límites de las 69 especializaciones.
+  </Card>
+</CardGrid>
+
+| Nombre de la Banda | Modos de Dificultad | Tamaño del Grupo | Recompensas Clave |
+| :--- | :--- | :--- | :--- |
+| **Núcleo de Magma** | Normal, Heroico, Mítico, Ascendido | 10-25 Flex | Conjuntos de Tier / Legendarios |
+| **Onyxia** | Hito Alfa Nivel 60 | Grupo de Banda | Armas Épicas / Abalorios |
+| **Jefes de Mundo** | Mundo Abierto Disputado | Múltiples Grupos | Equipo Raro Específico de Clase |
+
+<Callout type="tip" title="Consejo para el Buscador de Grupos">
+Utiliza la interfaz personalizada de "Buscando Grupo" integrada en el launcher. Te permite filtrar por rol (Tanque, Sanador, DPS) y dificultad de mazmorra específica, facilitando la búsqueda de grupos para piedras Míticas+.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo acceso a Conquest of Azeroth para el lanzamiento de 2026?",
+    answer: "Debes registrar una cuenta en el sitio web de Project Ascension, descargar su launcher oficial y seleccionar el reino Vol'Jin una vez que el juego esté parcheado."
+  },
+  {
+    question: "¿Tiene algún costo el acceso a Conquest of Azeroth?",
+    answer: "El acceso al juego es gratuito, aunque el proyecto ofrece objetos cosméticos opcionales y funciones de conveniencia a través de su tienda web para sufragar los costes del servidor."
+  },
+  {
+    question: "¿Puedo cambiar mi especialización de clase más tarde?",
+    answer: "Sí, puedes visitar a un instructor de clase para reiniciar tus talentos y especialización. Esto te permite cambiar entre roles como Tanque y Sanador según sea necesario."
+  },
+  {
+    question: "¿Cuáles son los requisitos del sistema para el launcher?",
+    answer: "El launcher requiere Windows 7 o superior y aproximadamente 30GB de almacenamiento. Se necesita una conexión a internet estable para la descarga inicial de recursos."
+  }
+]} />
+
+</Section>

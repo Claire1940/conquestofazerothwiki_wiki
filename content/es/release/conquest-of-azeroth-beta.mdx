@@ -1,0 +1,224 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beta de Conquest of Azeroth: Guía de instalación y descripción general de clases",
+  description: "Prepárate para la transición de la beta de Conquest of Azeroth al lanzamiento oficial. Aprende a descargar el launcher, elegir las mejores clases y dominar tus builds.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b1118/fff?text=Beta+Setup+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Estado de la transición**: La **beta de Conquest of Azeroth** está en proceso de transición hacia su lanzamiento oficial en el reino Vol'Jin el 3 de julio de 2026.
+- **Acceso al cliente**: Descarga el launcher oficial de Project Ascension para actualizar el cliente y acceder al reino oficial.
+- **Mecánicas únicas**: Juega con 21 clases completamente personalizadas y adaptadas al lore, con 69 especializaciones distintas.
+- **Reforma de talentos**: Personaliza tu build usando un sistema de árbol de talentos dividido al estilo de Dragonflight a partir del nivel 10.
+- **Riesgo híbrido**: Elige tu nivel de riesgo preferido en el mundo abierto entre los modos JcE (PvE), JcJ (PvP) y Alto Riesgo (High Risk).
+</Callout>
+
+<Section icon={Map} title="Transición de la Beta de Conquest of Azeroth al lanzamiento oficial">
+
+La tan esperada fase de la **beta de Conquest of Azeroth** ha concluido oficialmente, abriendo el camino para el lanzamiento completo de la muy anticipada modificación personalizada de WoW de Project Ascension. Con la transición de las fases de prueba experimentales al reino estable y oficial de Vol'Jin el 3 de julio de 2026, los jugadores ahora pueden experimentar un MMORPG Classic+ completamente realizado. Este proyecto personalizado reinventa por completo el entorno del World of Warcraft clásico al introducir 21 clases originales, 69 especializaciones únicas y más de 1000 hechizos y talentos personalizados, todo mientras se preserva el nostálgico mundo abierto que los jugadores tanto aman.
+
+**Puntos destacados del video:**
+- **Sistemas de clases personalizados**: Muestra el gameplay de varias de las 21 clases completamente nuevas, detallando sus efectos visuales personalizados e íconos de hechizos.
+- **Fases de progresión**: Describe cómo el reino lanzará el contenido gradualmente, imitando el exitoso ritmo de progresión de reinos anteriores.
+- **Sistemas de objetos rediseñados**: Destaca miles de nuevas piezas de equipo personalizadas diseñadas específicamente para dar soporte a roles de clase no tradicionales.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Lanzamiento oficial: Conquest of Azeroth - Ascension WoW" />
+
+El equipo de desarrollo utilizó los extensos ciclos de prueba para recopilar los comentarios de los jugadores, pulir los efectos visuales de los hechizos y equilibrar las complejas interacciones entre las clases completamente nuevas. A diferencia de los reinos sin clases tradicionales de Ascension, este reino se centra por completo en identidades de clase bien definidas, lo que obliga a los jugadores a dominar recursos únicos y roles de grupo sinérgicos.
+
+<Callout type="info" title="Detalles del lanzamiento del reino">
+El reino Vol'Jin se lanza el 3 de julio de 2026 a las 7:00 AM Pacífico / 10:00 AM Este / 3:00 PM GMT. Todos los personajes creados durante las fases previas de beta abierta y cerrada han sido borrados para garantizar un inicio fresco, justo y equitativo para todos los jugadores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Instalación y configuración paso a paso">
+
+Para jugar en el recién lanzado reino Vol'Jin, los jugadores deben realizar la transición desde el antiguo cliente PTR de la beta al cliente oficial. El proceso de instalación se gestiona por completo a través del launcher unificado de Project Ascension, que administra los parches del juego, las configuraciones del cliente y los add-ons aprobados por los usuarios.
+
+| Requisito | Especificación | Notas |
+| :--- | :--- | :--- |
+| **Sistema operativo** | Windows 10/11 (Directo) / Linux (Guía de la comunidad) | El launcher oficial es compatible de forma nativa con sistemas Windows. |
+| **Tipo de cuenta** | Cuenta única unificada de Ascension | Una sola cuenta otorga acceso a todos los reinos y foros. |
+| **Versión del launcher** | Última versión del launcher de Project Ascension | Requerido para descargar, parchear e iniciar el cliente personalizado. |
+| **Espacio en disco** | Aproximadamente 20-30 GB de espacio libre | Se recomienda encarecidamente una unidad de estado sólido (SSD) para los tiempos de carga. |
+
+<Steps>
+  <Step num="1" title="Crea una cuenta de Ascension">
+    Visita el sitio web oficial de Project Ascension y regístrate con un correo electrónico y una contraseña válidos. Esta cuenta única se utiliza para iniciar sesión en la web, el launcher y el propio juego.
+  </Step>
+  <Step num="2" title="Descarga e instala el launcher">
+    Dirígete a la página oficial de descargas y descarga el launcher para el cliente de Windows. Ejecuta el instalador y elige tu directorio de preferencia.
+  </Step>
+  <Step num="3" title="Selecciona la ruta del reino oficial">
+    Abre el launcher, inicia sesión con tus credenciales y localiza el menú desplegable de selección de reino. Asegúrate de seleccionar la ruta oficial de **Conquest of Azeroth** en lugar de las opciones de PTR utilizadas durante la beta.
+  </Step>
+  <Step num="4" title="Actualiza e inicia el juego">
+    Haz clic en el botón "Jugar" o "Instalar" para que el launcher descargue los archivos personalizados del juego. Una vez que se complete la barra de progreso, el launcher aplicará automáticamente los parches personalizados necesarios.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita clientes de terceros">
+No descargues mirrors de clientes independientes, archivos de parches no oficiales o aceleradores de velocidad de sitios web de terceros. Utiliza únicamente el launcher oficial de Ascension para garantizar la seguridad de tu cuenta y asegurarte de tener los archivos de juego correctos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Las 21 clases personalizadas y sus mecánicas">
+
+Lo que diferencia a este proyecto del WoW clásico estándar o de los reinos sin clases de Ascension es su repertorio de 21 clases completamente originales. Cada clase cuenta con tres o más especializaciones distintas, recursos visuales personalizados, mecánicas de recursos únicas y fantasías de clase profundamente inmersivas diseñadas para expandir el lore de Warcraft.
+
+<CardGrid cols={3}>
+  <Card title="Necromancer">
+    - **Estadística principal**: Intelecto
+    - **Tipo de armadura**: Tela
+    - **Rol**: DPS a distancia (Death, Animation, Rime)
+    - **Mecánica principal**: Utiliza Fuerza de vida (Life Force) para invocar y comandar hordas de esbirros no-muertos.
+  </Card>
+  <Card title="Bloodmage">
+    - **Estadística principal**: Intelecto / Espíritu / Agilidad / Aguante
+    - **Tipo de armadura**: Cuero
+    - **Rol**: Tanque, Sanador, DPS (Fleshweaver, Sanguine, Accursed, Eternal)
+    - **Mecánica principal**: Consume salud para potenciar poderosos hechizos de sangre y transformaciones.
+  </Card>
+  <Card title="Reaper">
+    - **Estadística principal**: Fuerza / Intelecto
+    - **Tipo de armadura**: Placas
+    - **Rol**: Tanque, DPS cuerpo a cuerpo (Harvest, Soul, Domination)
+    - **Mecánica principal**: Cosecha almas de enemigos caídos para potenciar ataques de sombras y autosanación.
+  </Card>
+</CardGrid>
+
+| Nombre de la clase | Roles compatibles | Estadísticas principales | Tipo de armadura | Especializaciones principales |
+| :--- | :--- | :--- | :--- | :--- |
+| **Necromancer** | DPS | Intelecto | Tela | Death, Animation, Rime |
+| **Pyromancer** | DPS, Sanador | Intelecto | Tela | Incineration, Draconic, Flameweaving |
+| **Cultist** | Tanque, DPS, Sanador | Fuerza, Intelecto | Tela, Placas | Godblade, Corruption, Influence, Dreadnought |
+| **Starcaller** | Tanque, DPS, Sanador | Intelecto | Malla, Placas | Warden, Sentinel, Moon Priest, Moon Guard |
+| **Sun Cleric** | Tanque, DPS, Sanador | Fuerza, Intelecto | Tela, Placas | Piety, Seraphim, Blessings, Valkyrie |
+| **Tinker** | DPS, Sanador | Agilidad, Intelecto | Cuero, Malla | Demolition, Mechanics, Invention |
+| **Runemaster** | DPS | Intelecto, Espíritu | Tela | Spellslinger, Riftblade, Conjuration |
+| **Primalist** | Tanque, Sanador, DPS | Fuerza, Intelecto | Placas | Geomancy, Mountain King, Wildwalker, Life |
+| **Reaper** | Tanque, DPS | Fuerza, Intelecto | Placas | Harvest, Soul, Domination |
+| **Venomancer** | Tanque, Sanador, DPS | Intelecto | Cuero, Malla | Rot, Vizier, Stalking, Fortitude |
+| **Chronomancer** | DPS, Sanador | Intelecto, Espíritu | Tela | Duality, Artificer, Displacement |
+| **Bloodmage** | Tanque, DPS, Sanador | Intelecto, Espíritu, Agilidad | Cuero | Fleshweaver, Sanguine, Accursed, Eternal |
+| **Guardian** | Tanque, DPS, Apoyo | Fuerza | Placas | Gladiator, Vanguard, Inspiration |
+| **Stormbringer** | DPS, Apoyo | Intelecto | Tela | Lightning, Thunder, Winds |
+| **Felsworn** | Tanque, DPS | Agilidad, Intelecto | Cuero | Slaying, Infernal, Tyrant |
+| **Barbarian** | DPS, Apoyo | Agilidad | Cuero | Ancestry, Brutality, Headhunting |
+| **Witch Doctor** | DPS, Sanador | Agilidad, Intelecto | Cuero | Brewing, Voodoo, Shadowhunting |
+| **Witch Hunter** | Tanque, DPS | Agilidad | Malla | Boltslinger, Darkness, Black Knight |
+| **Knight of Xoroth** | Tanque, DPS | Fuerza, Intelecto | Placas | War, Hellfire, Defiance |
+| **Templar** | Tanque, DPS | Agilidad | Malla | Crusader, Martial, Discipline |
+| **Ranger** | DPS, Apoyo | Agilidad | Cuero | Archery, Brigand, Farstrider |
+
+<Callout type="tip" title="Entendiendo los árboles divididos">
+Al nivel 10, eliges tu especialización principal. Esto desbloquea dos árboles de talentos distintos: un Árbol de Clase para herramientas y utilidad general de la clase, y un Árbol de Especialización para profundizar en tu rol específico. Los puntos de talento se alternan entre estos dos árboles a medida que subes de nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de clases para el lanzamiento">
+
+Elegir tu primera clase puede ser abrumador con 21 opciones sobre la mesa. Esta tier list está diseñada específicamente para los nuevos jugadores en el reino Vol'Jin, priorizando una subida de nivel fluida en solitario, rotaciones intuitivas y utilidad en grupo por encima de los números brutos de DPS en el endgame, los cuales están sujetos a constantes ajustes de equilibrio.
+
+| Rango | Clases | Ideal para | Por qué destacan |
+| :--- | :--- | :--- | :--- |
+| **Rango S** | Necromancer, Bloodmage, Reaper, Guardian, Pyromancer | Principiantes, Subida de nivel en solitario, Entrada fácil a mazmorras | Gran autosuficiencia, rotaciones sencillas o potentes mecánicas de mascotas que hacen que jugar en solitario sea muy permisivo. |
+| **Rango A** | Starcaller, Sun Cleric, Primalist, Cultist, Tinker, Chronomancer, Felsworn | Jugadores híbridos, Sanadores/Tanques de grupo | Excepcional flexibilidad de rol y gran utilidad, aunque requieren una gestión de recursos un poco más activa. |
+| **Rango B** | Venomancer, Witch Doctor, Witch Hunter, Ranger, Knight of Xoroth, Templar, Stormbringer, Barbarian, Runemaster | Jugadores experimentados, Especialistas de nicho | Kits sumamente especializados con mecánicas de combo únicas o un estilo de juego que requiere mucha preparación previa, lo que recompensa un conocimiento profundo de la clase. |
+
+<Callout type="success" title="Sistema de asignación automática (Auto-Build)">
+¿Te confunden los árboles de talentos personalizados? Utiliza la opción integrada Auto-Build en tu interfaz de talentos. Este sistema asigna automáticamente tus puntos de talento en builds verificadas de alto rendimiento mientras tú te concentras en aprender las mecánicas de tu clase.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ruta de nivelación y hitos de progresión">
+
+Subir de nivel en este entorno personalizado requiere un enfoque diferente al del WoW clásico estándar. El mundo abierto cuenta con estadísticas de criaturas completamente rediseñadas, botines inmersivos y puntos de interés personalizados que recompensan la exploración minuciosa.
+
+| Rango de nivel | Hitos principales | Sistemas críticos desbloqueados | Estrategia del jugador |
+| :--- | :--- | :--- | :--- |
+| **Nivel 1-3** | Encuentra al instructor de zona inicial | Misiones iniciales de clase | Presta atención al aviso personalizado de nivel 3 para localizar al instructor de tu clase en Villadorada (Goldshire), Kharanos o Rémol (Brill). |
+| **Nivel 10** | Selecciona especialización | Árboles de talentos divididos, Auto-Build | Elige tu especialización principal para desbloquear tu árbol de especialización y comenzar a definir tu rol de combate. |
+| **Nivel 10-35** | Crea tu rotación de hechizos principal | Equipo personalizado específico de clase | Busca botines de equipo personalizados en el mundo abierto que proporcionen estadísticas principales adaptadas a tu clase única. |
+| **Nivel 35-45** | Refina tus herramientas JcJ/JcE | Jefe de mundo Zanzrakka | Participa en eventos grupales tempranos y pon a prueba los cortes de hechizos, el control de masas y las habilidades defensivas de tu clase. |
+| **Nivel 45-55** | Elige hechizos del instructor | Acceso total al instructor de clase | Visita a los instructores para seleccionar manualmente tus hechizos en lugar de depender de los desbloqueos automáticos al subir de nivel. |
+| **Nivel 55-60** | Transición al Endgame | Mazmorras míticas y bandas de nivel de entrada | Ajusta tus talentos para roles dedicados de JcE o JcJ, alejándote de las configuraciones genéricas de subida de nivel. |
+
+<Callout type="info" title="La importancia de los instructores de clase">
+No ignores a los instructores de tu clase. A diferencia del WoW estándar, donde las habilidades se aprenden de forma automática o universal, tu instructor de clase te proporciona misiones de clase esenciales y mejoras de hechizos personalizadas que son obligatorias para progresar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sistemas de Endgame JcE y JcJ">
+
+Una vez que alcances el límite de nivel 60, el juego se transforma en un robusto ecosistema de endgame. Los desarrolladores han integrado los sistemas estándar de Ascension en este marco de 21 clases, asegurando que tanto los entusiastas del JcE como del JcJ tengan una gran variedad de rutas de progresión.
+
+<Checklist
+  id="endgame-milestones"
+  title="Objetivos de Endgame de nivel 60:"
+  items={[
+    "Completa mazmorras normales y heroicas de nivel de entrada para conseguir conjuntos básicos de equipo azul.",
+    "Forma un grupo coordinado de 5 jugadores para enfrentarte a las mazmorras Míticas+ de contenido clásico con dificultad progresiva.",
+    "Prepara tus consumibles y equipo para las bandas de 10 a 25 jugadores de Núcleo de Magma (Molten Core) y Onyxia.",
+    "Selecciona tu configuración de riesgo en el mundo abierto (JcE, JcJ o Alto Riesgo) para adaptarla a tu estilo de juego.",
+    "Participa en campos de batalla estructurados de nivel 60 y arenas puntuadas (1v1, 2v2, 3v3)."
+  ]}
+/>
+
+| Modo | Nivel de riesgo | Reglas principales | Ideal para |
+| :--- | :--- | :--- | :--- |
+| **Modo JcE (PvE)** | Bajo | No seleccionable para JcJ en el mundo abierto a menos que se active manualmente. | Subida de nivel segura, misiones y exploración pacífica. |
+| **Modo JcJ (PvP)** | Medio | JcJ en mundo abierto totalmente habilitado sin pérdida de objetos. | Jugadores que buscan combates orgánicos en el mundo y rivalidad de facciones. |
+| **JcJ de Alto Riesgo (High Risk)** | Alto | Fase independiente; al morir se suelta un cofre con tu inventario y equipo equipado. | Jugadores hardcore que buscan botines de equipo Forjado por la sangre (Bloodforged) y grandes apuestas. |
+| **Eventos del mundo** | Variable | Eventos estructurados como el Alijo del Cuervo (Crow's Cache) y la Arena de Gurubashi (Gurubashi Blood Bowl). | Conflictos de hermandades, duelos competitivos y botines de eventos únicos. |
+
+<Callout type="warning" title="Advertencia de Alto Riesgo">
+Entra en la fase JcJ de Alto Riesgo únicamente si estás completamente preparado para perder tu equipo equipado. Aunque las recompensas (como los poderosos objetos Forjados por la sangre) son inmensas, la penalización por la derrota es severa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+Para ayudarte a navegar en la transición de las pruebas a los servidores oficiales, hemos recopilado respuestas a las preguntas más comunes sobre el lanzamiento.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la diferencia entre la beta de Conquest of Azeroth y el lanzamiento oficial?",
+    answer: "La beta de Conquest of Azeroth fue una fase de prueba diseñada para pulir las 21 clases personalizadas, equilibrar los árboles de talentos y realizar pruebas de estrés de estabilidad del servidor. El lanzamiento oficial en el reino Vol'Jin es un servidor de progresión permanente desde cero, con mecánicas completamente pulidas, cadenas de misiones de clase completas y bases de datos de personajes activas."
+  },
+  {
+    question: "¿Puedo jugar a Conquest of Azeroth en un sistema Mac o Linux?",
+    answer: "El launcher oficial de Project Ascension es compatible de forma nativa con Windows. Sin embargo, los usuarios de Linux pueden encontrar guías de instalación mantenidas por la comunidad en el Discord oficial para ejecutar el launcher a través de Wine o Proton."
+  },
+  {
+    question: "¿Cómo encuentro al instructor de mi clase al principio del juego?",
+    answer: "Aparecerá un aviso personalizado del sistema en tu pantalla una vez que alcances el nivel 3. Este aviso te guiará directamente hacia el instructor específico de tu clase, ubicado en zonas de inicio clave como Villadorada (Goldshire), Kharanos, Rémol (Brill) o Cerrotajo (Razor Hill)."
+  },
+  {
+    question: "¿Hay mecánicas sin clases en el reino Vol'Jin?",
+    answer: "No. El reino Vol'Jin está dedicado por completo al sistema de 21 clases de Conquest of Azeroth. Si prefieres el estilo de juego clásico sin clases (draft o selección libre), deberías jugar en otros reinos de Project Ascension como Bronzebeard o Area 52."
+  }
+]} />
+
+<Callout type="tip" title="Aviso legal">
+Este es un sitio de guía no oficial creado por fans. No está afiliado a Blizzard Entertainment, World of Warcraft ni a Project Ascension.
+</Callout>
+
+</Section>

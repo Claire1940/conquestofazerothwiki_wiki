@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build de Cultista en Conquest of Azeroth: Guía de mejores talentos y especializaciones",
+  description: "Domina al Cultista en Conquest of Azeroth con nuestra guía detallada de builds. Aprende los mejores talentos, especializaciones y rotaciones para Hoja de Dios (Godblade), Hereje (Heretic) y Baluarte (Dreadnought).",
+  category: "Guía",
+  image: "https://placehold.co/800x400/121a24/f4c24e?text=Cultist+Build+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Dominando la clase**: La **build de cultista en conquest of azeroth** óptima gira en torno a la gestión de tu recurso de Demencia (Insanity) para maximizar el daño de las sombras.
+- **Hoja de Dios / Godblade (DPS)**: Utiliza armas de dos manos y ataques de sombra como Hoja del Imperio (Blade of the Empire) para infligir un daño masivo híbrido físico-sombrío.
+- **Hereje / Heretic (Sanador)**: Combina ataques cuerpo a cuerpo con sanaciones inteligentes, transformando Golpe abisal (Abyssal Strike) en Malevolencia (Malevolence) para sanar hasta a 5 aliados cercanos.
+- **Baluarte / Dreadnought (Tanque)**: A diferencia de otras especializaciones, los Baluartes quieren alcanzar 100 de Demencia para transformarse en un horror misterioso de alta defensa.
+</Callout>
+
+<Section icon={Sparkles} title="Entendiendo la Clase Cultista y la Mecánica de Demencia">
+
+Al elegir tu camino en el servidor personalizado de Project Ascension, la **build de cultista en conquest of azeroth** ofrece uno de los estilos de juego más temáticos y versátiles del ecosistema Classic+. Como sirviente de los Dioses Antiguos, el Cultista se equilibra en el filo de la navaja, utilizando maná y un recurso único llamado Demencia (Insanity). Mientras que otras clases temen al vacío, el Cultista lo aprovecha para sanar aliados, absorber ataques entrantes o transformarse en aterradoras entidades misteriosas. Sin embargo, llevar tu mente demasiado lejos tiene consecuencias nefastas, lo que convierte a la gestión de recursos en el núcleo absoluto de esta clase.
+
+La mecánica definitoria del Cultista es la Demencia. Cada vez que lanzas un hechizo de sombra o asestas un golpe cuerpo a cuerpo oscuro, tu barra de Demencia se llena. Para las especializaciones de DPS y sanación, alcanzar 100 de Demencia resulta en una locura temporal, lo que hace que tu personaje corra sin rumbo lanzando hechizos al azar mientras pierde una gran cantidad de salud. Esto hace que el ritmo y la selección de hechizos sean críticos. Por el contrario, para la especialización de tanque Baluarte (Dreadnought), alcanzar 100 de Demencia es el objetivo final, lo que activa una transformación monstruosa que aumenta drásticamente tu durabilidad y resistencia mágica.
+
+<Callout type="info" title="Advertencia de Demencia">
+La Demencia disminuye lentamente con el tiempo cuando estás fuera de combate, lo que te permite restablecer tus recursos entre grupos de enemigos. Vigila siempre tu interfaz de usuario para evitar la locura accidental durante encuentros de mazmorra de alta intensidad.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Build de Cultista en Conquest of Azeroth: Guía Cuerpo a Cuerpo de Hoja de Dios">
+
+El Hoja de Dios (Godblade) es una especialización híbrida física-sombría devastadora que canaliza el poder de los Dioses Antiguos directamente en un arma de dos manos. Esta **build de cultista en conquest of azeroth** es perfecta para los jugadores que aman el combate cuerpo a cuerpo agresivo y de alto riesgo. Al combinar el daño físico del arma con golpes infundidos de sombras, los Hoja de Dios controlan el campo de batalla con tentáculos del vacío y supresión psíquica mientras bailan peligrosamente cerca del borde de la locura.
+
+Tu rotación principal gira en torno a la generación de Runas del Vacío (similares a los puntos de combo del pícaro) mediante el uso de Golpe misterioso (Eldritch Strike), y gastándolas en Hoja del Imperio (Blade of the Empire). Gracias a la pasiva Pacto misterioso (Eldritch Bargain), el 35% de tu Fuerza se convierte en Poder de Hechizos de Sombra, y el 15% se convierte en Golpe con Hechizos. Esta progresión única te permite acumular Fuerza para potenciar tanto tus golpes cuerpo a cuerpo como tus hechizos de sombra, convirtiéndote en una verdadera potencia híbrida.
+
+| Estadística | Prioridad | Tipo de Equipo Ideal | Beneficio Clave |
+| :--- | :--- | :--- | :--- |
+| **Fuerza** | Primaria (La más alta) | Placas / Mallas (Fuerza) | Se convierte en poder de hechizos de sombra y índice de golpe |
+| **Aguante** | Secundaria | Armadura pesada con Aguante | Aumenta la supervivencia y progresa con la absorción de sombra |
+| **Celeridad** | Terciaria | Velocidad de ataque / Celeridad | Acelera los golpes cuerpo a cuerpo y la generación de Runas del Vacío |
+| **Intelecto** | Baja | Híbrido Fuerza/Intelecto | Útil para la reserva de maná pero secundario frente a la Fuerza |
+
+| Nombre del Hechizo | Costo de Recurso | Tiempo de Reutilización | Rol de Combate y Efecto |
+| :--- | :--- | :--- | :--- |
+| **Golpe misterioso** | Maná | 3 segundos | Genera 1 Runa del Vacío; inflige el 90% del daño del arma como Sombra |
+| **Hoja del Imperio** | 1+ Runas del Vacío | Ninguno | Gasta runas para infligir gran daño de Sombra; genera Demencia |
+| **Hoja asoladora** | Maná | 8 segundos | Ataque en área que inflige el 120% del daño del arma a los enemigos cercanos |
+| **Golpe abisal** | Maná | 20 seconds | Golpe pesado; reduce la duración del escudo enemigo en un 60% |
+
+<Callout type="success" title="Bonificación de Sinergia">
+Al usar primero Hoja asoladora (Reeving Blade), tu próximo Golpe misterioso (Eldritch Strike) en cualquier objetivo golpeado infligirá un 30% más de daño. ¡Usa siempre este combo para limpiezas masivas en área en las mazmorras!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Builds de Cultista: Taumaturgo de Corrupción y Sanador Hereje">
+
+Si el combate cuerpo a cuerpo no es tu estilo, el Cultista ofrece dos caminos de taumaturgo altamente efectivos: la especialización de DPS de Corrupción (Corruption) y la especialización de sanador Hereje (Heretic/Influence). Estas builds dependen principalmente del Intelecto y el Poder de Hechizos, jugando como clérigos oscuros del Imperio Negro. Ya sea que estés derritiendo enemigos con hechizos de daño en el tiempo (DoT) de Sombra o protegiendo a tus aliados con barreras infundidas de vacío, estas especializaciones requieren un posicionamiento cuidadoso y una comprensión profunda de la mecánica de Demencia.
+
+<CardGrid cols={2}>
+  <Card title="Taumaturgo de Corrupción (DPS)">
+    - **Estadística Principal**: Intelecto y Poder de Hechizos
+    - **Estilo de Juego**: Mantenerse al borde de la locura (mantener la Demencia entre 70 y 99)
+    - **Hechizos Clave**: Ira del Imperio Negro, Descarga de horror, Extracción de cordura
+    - **Ideal Para**: Alto daño de sombra a distancia contra un solo objetivo y en área
+  </Card>
+  <Card title="Sanador Hereje (Soporte)">
+    - **Estadística Principal**: Intelecto y Poder de Sanación
+    - **Estilo de Juego**: Infligir daño cuerpo a cuerpo/a distancia para sanar pasivamente a los aliados cercanos
+    - **Hechizos Clave**: Malevolencia, Pacto abisal, Mirada de C'Thun
+    - **Ideal Para**: Jugadores que disfrutan de estilos de sanación híbridos y predominantemente pasivos
+  </Card>
+</CardGrid>
+
+| Característica | Corrupción (DPS Taumaturgo) | Sanador Hereje (Soporte) |
+| :--- | :--- | :--- |
+| **Tipo de Armadura** | Tela | Tela o Placas |
+| **Estilo de Sanación** | Ninguno (Solo autosustento) | Sanación inteligente pasiva mediante conversión de daño |
+| **Objetivo de Demencia** | Mantenerse entre 70-99 de Demencia | Evitar alcanzar 100 de Demencia a toda costa |
+| **Arma Principal** | Bastón o Arma de una mano + Sostenedor | Arma de dos manos (para escudos de sanación cuerpo a cuerpo) |
+
+<Callout type="tip" title="Consejo para Sanadores">
+Los sanadores Herejes siempre deben mantener activo Pacto abisal (Abyssal Covenant) en el tanque principal. Actúa como un faro de luz, convirtiendo el 20% de todo el daño que infliges en sanación directa para el tanque.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="La Build de Tanque Baluarte: Transformándose en un Horror Misterioso">
+
+El Baluarte (Dreadnought) es una de las builds de tanque más singulares en Conquest of Azeroth. Mientras que otras especializaciones deben gestionar cuidadosamente su Demencia para evitar perder el control, el Baluarte abraza activamente la locura. Tu objetivo principal es generar Demencia lo más rápido posible para alcanzar las 100 acumulaciones. Al llegar al máximo de Demencia, no te vuelves loco; en su lugar, te transformas en un enorme y corrompido horror misterioso, lo que aumenta drásticamente tu armadura, salud y resistencia mágica.
+
+Esta build es excepcionalmente fuerte contra encuentros con gran daño mágico, convirtiéndote en el contraataque definitivo para los lanzadores de conjuros. Al utilizar un escudo y un arma de una mano, combinas las mecánicas de tanque tradicionales con poderosos hechizos de sombra para mantener una gran amenaza sobre múltiples objetivos.
+
+<Steps>
+  <Step num="1" title="Genera Demencia Rápidamente">
+    Usa habilidades como Armagedón (Armageddon) y Presencia de Y'Shaarj (Presence of Y'Shaarj) para atraer enemigos y generar rápidamente acumulaciones de Demencia.
+  </Step>
+  <Step num="2" title="Activa la Ascensión Misteriosa">
+    Una vez que alcances 100 de Demencia, asciende a tu forma corrompida de Baluarte para desbloquear enormes bonificaciones defensivas.
+  </Step>
+  <Step num="3" title="Mitiga el Daño y Mantén la Amenaza">
+    Mantén tu mitigación activa conservando Escudo del Crepúsculo (Twilight Shield) activo y usando hechizos de generación de amenaza basados en las sombras.
+  </Step>
+  <Step num="4" title="Gestiona la Fase de Disminución">
+    A medida que tu Demencia disminuye, prepara tu próxima rotación de hechizos de alta generación para volver a ascender rápidamente a la forma de horror.
+  </Step>
+</Steps>
+
+| Nombre del Hechizo | Efecto Principal | Tiempo de Reutilización | Mejor Uso |
+| :--- | :--- | :--- | :--- |
+| **Armagedón** | Alto daño de sombra en área y gran amenaza | 15 segundos | Pulls iniciales para asegurar la amenaza en los grupos |
+| **Presencia de Y'Shaarj** | Multiplicador masivo de amenaza y daño de sombra | Ninguno | Aura activa; mantenla activada durante el combate |
+| **Escudo del Crepúsculo** | Absorbe el daño físico y mágico entrante | 12 segundos | Mitigación activa; úsalo antes de recibir golpes fuertes de jefes |
+| **Resguardo abisal** | Protege contra hasta 3 ataques entrantes | 30 segundos | Defensivo de emergencia al recibir un fuerte daño físico |
+
+<Callout type="warning" title="Advertencia de Mitigación para Tanques">
+Mientras estás en forma de horror misterioso, tu resistencia mágica no tiene rival, pero sigues siendo vulnerable a ataques físicos pesados que perforan la armadura. Coordínate con tu sanador durante las fases de jefes con gran daño físico.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ruta de Nivelación del Cultista y Hitos">
+
+Subir de nivel a un Cultista en el reino de Vol'Jin requiere un enfoque estructurado para asegurarte de no destruirte accidentalmente con una Demencia descontrolada al principio. Desde el nivel 1 hasta el juego tardío de nivel 60, tus elecciones de talentos y las visitas a los instructores darán forma a tu velocidad de nivelación. Se recomienda encarecidamente comenzar como Hoja de Dios (cuerpo a cuerpo) o Corrupción (taumaturgo) para una velocidad de limpieza rápida en solitario, y luego hacer la transición a tanque o sanador una vez que comiences a realizar mazmorras.
+
+<Checklist
+  id="cultist-leveling-goals"
+  title="Hitos de Nivelación del Cultista:"
+  items={[
+    "Alcanza el nivel 10 y selecciona tu especialización (Hoja de Dios, Corrupción, Influencia o Baluarte)",
+    "Encuentra al instructor de clase de tu zona de inicio a nivel 3 para desbloquear tus habilidades principales de sombra",
+    "Desbloquea Malevolencia (Malevolence) a nivel 15 si juegas como Hereje para habilitar la sanación pasiva en mazmorras",
+    "Adquiere un arma de dos manos de alto daño para el nivel 30 para maximizar los ataques de sombra de Hoja de Dios",
+    "Transiciona a mazmorras y bandas de nivel máximo a nivel 60, optimizando tus árboles de talentos para PvE o PvP"
+  ]}
+/>
+
+| Rango de Niveles | Especialización Recomendada | Objetivo de Talento Clave | Mejores Zonas para Nivelar |
+| :--- | :--- | :--- | :--- |
+| **1 - 10** | Cultista Base | Desbloquear Golpe misterioso | Bosque de Elwynn / Durotar |
+| **10 - 30** | Hoja de Dios (Cuerpo a cuerpo) | Conseguir Hoja del Imperio | Páramos de Poniente / Los Baldíos |
+| **30 - 50** | Hoja de Dios o Corrupción | Desbloquear Hoja asoladora / Extracción de cordura | Vega de Tuercespina / Tanaris |
+| **50 - 60** | Especialización Final Elegida | Talento final del árbol de especialización completo | Tierras de la Peste del Oeste / Silithus |
+
+<Callout type="info" title="Consejo de Asignación Automática">
+Si te sientes abrumado por los complejos árboles de talentos, utiliza la función de Asignación Automática (Auto-Build) del juego. Distribuirá automáticamente tus puntos en una build viable para subir de nivel para que puedas concentrarte en dominar la rotación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes sobre la Build de Cultista">
+
+Para concluir nuestra guía completa, hemos recopilado las preguntas más frecuentes de la comunidad de Project Ascension con respecto a la clase Cultista. Estas respuestas te ayudarán a ajustar tu configuración y evitar errores comunes mientras te preparas para el lanzamiento de Vol'Jin.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor build de cultista en conquest of azeroth para subir de nivel en solitario?",
+    answer: "La build de Hoja de Dios (Godblade) se considera ampliamente la mejor para subir de nivel en solitario debido a su alto daño híbrido físico-sombrío, la ausencia de problemas de maná (gracias al retorno de maná de Golpe misterioso) y su fuerte autosustento a través del robo de vida basado en sombras."
+  },
+  {
+    question: "¿Cómo evito morir por alcanzar 100 de Demencia como Cultista de daño (DPS)?",
+    answer: "Debes gestionar activamente tu Demencia. Usa hechizos como Extracción de cordura (Sanity Tap) o Saciarse (Satiate) para vaciar tu barra de Demencia y regenerar maná cuando te acerques peligrosamente a las 100 acumulaciones. Alternativamente, espacia tus hechizos de alta generación."
+  },
+  {
+    question: "¿Pueden los sanadores Herejes usar armadura de placas?",
+    answer: "Sí. Aunque la especialización de Hereje puede funcionar con tela, también pueden usar armadura de placas. Equipar un arma de dos manos y una armadura más pesada te permite sanar de manera efectiva en el rango cuerpo a cuerpo mientras te mantienes increíblemente resistente."
+  },
+  {
+    question: "¿Afecta el Poder de Hechizos a los ataques cuerpo a cuerpo de Hoja de Dios?",
+    answer: "Sí, gracias a la pasiva Pacto misterioso (Eldritch Bargain), el 35% de tu Fuerza se convierte en Poder de Hechizos de Sombra. Esto significa que acumular Fuerza potencia de forma natural tanto tus ataques físicos con armas como tu daño de hechizos de sombra."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final de Inventario">
+Lleva siempre agua y pociones de maná incluso si juegas con una especialización híbrida. Aunque Golpe misterioso devuelve maná, los combates de alta intensidad o las ventanas de sanación prolongadas aún pueden agotar tus recursos rápidamente.
+</Callout>
+
+</Section>

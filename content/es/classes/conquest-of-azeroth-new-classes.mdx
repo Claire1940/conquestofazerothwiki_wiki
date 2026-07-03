@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Nuevas Clases de Conquest of Azeroth: Tier List 2026 y Guía de Builds",
+  description: "Domina las 21 clases originales en Conquest of Azeroth. Explora la tier list 2026, builds de talentos al estilo Dragonflight y estrategias expertas de leveo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/facc15?text=New+Classes+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las nuevas clases de Conquest of Azeroth** presentan 21 arquetipos originales con más de 69 especializaciones únicas.
+- **Mecánica Principal**: El sistema utiliza un árbol de talentos inspirado en Dragonflight, alternando puntos entre los árboles de Clase y de Especialización.
+- **Mejor Estrategia**: Los principiantes deben utilizar la función de **Auto-Build** para aprender las rotaciones antes de la optimización manual de talentos.
+- **Mejores Opciones**: El Nigromante, el Mago de Sangre y el Segador son actualmente las elecciones de Tier S más populares para el lanzamiento de Vol'Jin.
+- **Consejo Crítico**: Los instructores de clase son esenciales; busca el aviso de misión de nivel 3 para desbloquear tus habilidades principales a tiempo.
+</Callout>
+
+<Section icon={Swords} title="Resumen de las 21 Clases Originales">
+
+El lanzamiento del reino Vol'Jin el 3 de julio de 2026 introduce una forma revolucionaria de experimentar el World of Warcraft personalizado a través de las **nuevas clases de Conquest of Azeroth**. A diferencia del sistema sin clases que se encuentra en otras partes de Project Ascension, este proyecto se centra en 21 clases originales meticulosamente diseñadas. Cada clase está diseñada con una fantasía específica en mente, que va desde el Nigromante que comanda a los no muertos hasta el Manitas (Tinker) cargado de artilugios. Estas clases no son solo apariencias nuevas; cuentan con conjuntos de hechizos completamente nuevos, animaciones personalizadas y mecánicas de recursos únicas como Fuerza Vital, Locura y Furia Vil.
+
+| Clase | Rol Principal | Estadística Principal | Tipo de Armadura |
+| :--- | :--- | :--- | :--- |
+| **Necromancer** | DPS a Distancia | Intelecto | Tela |
+| **Bloodmage** | Tanque/DPS/Sanador | Intelecto/Aguante | Cuero |
+| **Reaper** | Tanque/DPS Cuerpo a Cuerpo | Fuerza | Placas |
+| **Tinker** | DPS a Distancia/Sanador | Agilidad/Intelecto | Malla |
+| **Guardian** | Tanque/Apoyo | Fuerza | Placas |
+| **Cultist** | Tanque/DPS/Sanador | Intelecto/Fuerza | Placas |
+| **Sun Cleric** | Tanque/DPS/Sanador | Intelecto/Fuerza | Placas |
+| **Felsworn** | Tanque/DPS Cuerpo a Cuerpo | Agilidad/Intelecto | Cuero |
+| **Starcaller** | Tanque/DPS/Sanador | Intelecto | Placas |
+
+<Callout type="tip" title="Versatilidad de Roles">
+Muchas clases en Conquest of Azeroth son verdaderos híbridos. Por ejemplo, el **Starcaller** puede funcionar como un tanque con temática lunar, un DPS a distancia o un sanador dedicado, dependiendo de la especialización elegida a nivel 10.
+</Callout>
+
+Cada clase utiliza un recurso específico que define su ciclo de juego. El **Nigromante** gestiona la Fuerza Vital para invocar y mantener esbirros no muertos, mientras que el **Cultista** debe equilibrar la Locura, una mecánica de alto riesgo que recompensa con un daño masivo pero puede llevar a consecuencias devastadoras si no se controla. Comprender estos matices es el primer paso para dominar el contenido de endgame.
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de Clases 2026 para el Lanzamiento de Vol'Jin">
+
+Seleccionar tu primer personaje para el lanzamiento de Vol'Jin es una decisión crítica. Nuestra tier list de 2026 prioriza la eficiencia de leveo, la flexibilidad de roles y la utilidad para el grupo. Si bien todas las clases son viables, algunas ofrecen un punto de entrada más fluido a los sistemas de Azeroth Reborn.
+
+<CardGrid cols={3}>
+  <Card title="Tier S: Nigromante">
+    - **Ideal para**: Leveo en solitario y gestión de mascotas.
+    - **Fortaleza**: Alta supervivencia a través de esbirros.
+    - **Rol**: Potencia pura de DPS.
+  </Card>
+  <Card title="Tier S: Mago de Sangre">
+    - **Ideal para**: Jugadores que buscan total flexibilidad de roles.
+    - **Fortaleza**: Excepcional autosuficiencia mediante robo de vida.
+    - **Rol**: Tanque, Sanador o DPS.
+  </Card>
+  <Card title="Tier S: Segador">
+    - **Ideal para**: Entusiastas del combate cuerpo a cuerpo.
+    - **Fortaleza**: Alta durabilidad con sustento de sombras.
+    - **Rol**: Tanque de placas o DPS.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recomendación para Empezar">
+Si eres nuevo en el ecosistema de Project Ascension, el **Guardián** o el **Piromante** son excelentes opciones. Cuentan con mecánicas sencillas y un alto impacto tanto en mazmorras como en misiones de mundo abierto.
+</Callout>
+
+Más allá del Tier S, clases como el **Manitas** y el **Cronomante** ocupan el Tier A. Estas clases ofrecen una utilidad increíble, como torretas, balizas y mecánicas de rebobinado de tiempo, pero requieren una comprensión más profunda de la interfaz personalizada y el posicionamiento. El **Médico Brujo** y el **Caballero de Xoroth** son fantásticas elecciones de especialistas (Tier B) para jugadores que quieran sumergirse profundamente en fantasías específicas del lore de Warcraft, como la magia Loa o el combate apocalíptico de fuego infernal.
+
+| Tier | Clases | Razón Principal de la Clasificación |
+| :--- | :--- | :--- |
+| **S** | Nigromante, Mago de Sangre, Segador | Alta popularidad, identidad de rol clara y sustento de élite. |
+| **A** | Starcaller, Manitas, Felsworn | Excelente flexibilidad pero requiere más gestión de mecánicas. |
+| **B** | Bárbaro, Cazador de Brujas, Ranger | Gran fantasía, ideal para jugadores que disfrutan de estilos de juego nicho. |
+
+</Section>
+
+<Section icon={Sparkles} title="Árboles de Talentos y Mecánicas de Especialización">
+
+El sistema de talentos en Conquest of Azeroth es una de sus características más sofisticadas, inspirándose fuertemente en las estructuras modernas de "Dragonflight". Al nivel 10, los jugadores deben tomar su decisión más importante: su especialización principal. Esta elección desbloquea una de las 69 especializaciones disponibles entre las 21 clases y dicta los hechizos que priorizarás en los instructores de clase.
+
+**Cómo funciona el sistema de talentos:**
+- **Árboles Duales**: Tienes acceso a un **Árbol de Clase** (utilidad e identidad principal) y un **Árbol de Especialización** (poder específico del rol).
+- **Asignación de Puntos**: Los puntos de talento se alternan entre los dos árboles a medida que subes de nivel, lo que evita que ignores la utilidad en favor del poder puro.
+- **Soporte de Auto-Build**: Un sistema integrado puede asignar puntos automáticamente basándose en builds validadas por la comunidad, lo cual es perfecto para tu primer viaje al nivel 60.
+
+| Ejemplo de Espec. | Clase | Enfoque | Mecánica Clave |
+| :--- | :--- | :--- | :--- |
+| **Demolition** | Manitas | Explosivos/Cohetes | Rondas Explosivas |
+| **Flameweaving** | Piromante | Sanación basada en Fuego | Renacimiento del Fénix |
+| **Godblade** | Cultista | DPS Sombrío Melee | Gasto de Locura |
+| **Warden** | Starcaller | Tanque Lunar | Barreras Astrales |
+
+<Callout type="info" title="Cambio de Talentos (Respec)">
+No temas experimentar. El sistema permite cambiar de talentos fácilmente, lo que te permite probar diferentes especializaciones dentro de tu clase a medida que encuentras nuevo equipo o pasas del leveo en solitario a las mazmorras de grupo.
+</Callout>
+
+Las **nuevas clases de Conquest of Azeroth** se definen aún más por las rutas de "Auto-Build". Por ejemplo, un **Venomancer** puede elegir la ruta de "Putrefacción" para ejercer presión con daño en el tiempo o la ruta de "Fortaleza" para tanquear con infusiones de veneno. Estas rutas aseguran que incluso las clases complejas sigan siendo accesibles para el jugador promedio, manteniendo al mismo tiempo un alto techo de habilidad para los veteranos.
+
+</Section>
+
+<Section icon={Target} title="Guía de Leveo Paso a Paso">
+
+Subir del nivel 1 al 60 en Conquest of Azeroth requiere una mentalidad diferente a la del WoW Vanilla estándar. El mundo ha "renacido" con estadísticas de criaturas de RPG y botines inmersivos que apoyan específicamente los arquetipos de clases personalizadas.
+
+<Steps>
+  <Step num="1" title="Configuración de Cuenta y Launcher">
+    Crea una cuenta de Ascension y descarga el launcher oficial. Asegúrate de seleccionar la ruta del reino **Conquest of Azeroth** (Vol'Jin) en lugar de los reinos estándar sin clases.
+  </Step>
+  <Step num="2" title="El Hito del Nivel 3">
+    Comienza a hacer misiones en tu zona de inicio. Una vez que alcances el nivel 3, presta mucha atención a tu chat e interfaz para ver un aviso de misión de clase. Esto te llevará a tu **Instructor de Clase** en centros como Villadorada o Rémol.
+  </Step>
+  <Step num="3" title="Especialización al Nivel 10">
+    Al llegar al nivel 10, abre la interfaz de talentos (`N` por defecto) y selecciona tu especialización. Aquí es donde decides si tu **Primalista** será un tanque Rey de la Montaña o un DPS Caminante de la Selva.
+  </Step>
+  <Step num="4" title="Optimización de Equipo">
+    Busca objetos "Forjados en Sangre" y equipo con estadísticas de RPG en el mundo abierto. A diferencia del equipo estándar, estos objetos a menudo proporcionan bonificaciones a mecánicas de clase únicas, como una mayor generación de Fuerza Vital o una reducción en el decaimiento de Furia Vil.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Importancia del Instructor">
+En Conquest of Azeroth, no aprendes todos los hechizos automáticamente. Debes visitar a tu instructor de clase regularmente para comprar nuevos rangos y hechizos de utilidad. Saltarse estas visitas ralentizará significativamente tu velocidad de leveo.
+</Callout>
+
+A medida que progresas a través de los hitos de nivel 45, 55 y 58, la dificultad de los enemigos en el mundo abierto aumenta. Este es el momento de refinar tu rotación. Utiliza la **Manastorm** o las primeras mazmorras como las Minas de la Muerte y las Cuevas de los Lamentos para probar la sinergia de tu build con otros jugadores. Para el nivel 60, deberías tener una comprensión clara de la identidad de control de masas y la gestión de recursos de tu clase.
+
+</Section>
+
+<Section icon={Map} title="Contenido de Endgame y Modos PvP">
+
+Una vez que alcanzas el límite de nivel 60, Conquest of Azeroth cambia su enfoque hacia un robusto ecosistema de endgame. Esto incluye bandas PvE tradicionales, mazmorras Mythic+ escalables y el exclusivo sistema PvP de Alto Riesgo. Las 21 clases están equilibradas específicamente para estos entornos de altas apuestas, asegurando que cada especialización tenga un nicho en un grupo de banda de 10 o 25 personas.
+
+**Lista de Verificación de Actividades de Endgame:**
+<Checklist
+  id="endgame-ready"
+  title="Objetivos de Nivel 60:"
+  items={[
+    "Completar las misiones de sintonía para Núcleo de Magma y Onyxia",
+    "Adquirir un conjunto completo de equipo de mazmorra apropiado para tu rol",
+    "Desbloquear todos los nodos de talento de tier 3 en tu Árbol de Especialización",
+    "Participar en un evento de PvP mundial Crow's Cache",
+    "Probar tu build en la cola en solitario de Arena 1v1 o 3v3"
+  ]}
+/>
+
+<Callout type="tip" title="PvP de Alto Riesgo">
+Si eliges la fase de **PvP de Alto Riesgo**, ten en cuenta que puedes perder el equipo equipado al morir. Sin embargo, este modo es la única forma de farmear ciertas mejoras Forjadas en Sangre en el mundo abierto. Solo entra en esta fase si confías en las herramientas defensivas de tu clase.
+</Callout>
+
+El sistema PvP en Conquest of Azeroth enfatiza la "Identidad de Control de Masas de la Clase". En lugar de que cada clase tenga un aturdimiento o miedo genérico, las herramientas de control son temáticas. Un **Cronomante** destaca en el desplazamiento y las ralentizaciones, mientras que un **Cazador de Brujas** usa disparos de plata y sabuesos para bloquear a los lanzadores de hechizos. Esto crea un entorno PvP más legible y estratégico en comparación con las expansiones estándar de WoW.
+
+| Modo | Nivel de Riesgo | Recompensa Principal |
+| :--- | :--- | :--- |
+| **Modo PvE** | Bajo | Progresión segura en mazmorras y bandas. |
+| **Modo PvP** | Medio | Combate en mundo abierto sin pérdida de objetos. |
+| **Alto Riesgo** | Alto | Equipo Forjado en Sangre y botín de enemigos. |
+| **Arenas** | Estructurado | Clasificaciones competitivas y equipo PvP. |
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo las nuevas clases de Conquest of Azeroth?",
+    answer: "Simplemente necesitas descargar el launcher de Project Ascension y seleccionar el reino Conquest of Azeroth (Vol'Jin). Las 21 clases están disponibles en la creación de personajes."
+  },
+  {
+    question: "¿Puedo cambiar mi especialización más tarde?",
+    answer: "Sí, puedes visitar a un instructor de clase o usar objetos específicos del juego para restablecer tus talentos y elegir una especialización diferente dentro de tu clase elegida."
+  },
+  {
+    question: "¿Hay una calculadora de talentos disponible para estas clases?",
+    answer: "Sí, el sitio web oficial de Ascension cuenta con un Constructor de CoA donde puedes planificar tus árboles de Clase y Especialización antes de gastar puntos en el juego."
+  },
+  {
+    question: "¿Cuál es la mejor clase para un jugador en solitario?",
+    answer: "El Nigromante y el Segador son muy recomendados para jugar en solitario debido a su excelente autosuficiencia y capacidad para manejar múltiples enemigos a la vez."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+El proyecto Conquest of Azeroth es un mod impulsado por la comunidad para Project Ascension. Mantente siempre actualizado a través del Discord oficial para ver las últimas notas del parche y cambios de equilibrio a medida que avanza la temporada 2026.
+</Callout>
+
+</Section>

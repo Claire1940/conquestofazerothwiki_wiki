@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Conquest of Azeroth Kultist-Build: Guide für die besten Talente & Spezialisierungen",
+  description: "Meistere den Kultisten in Conquest of Azeroth mit unserem ausführlichen Build-Guide. Lerne die besten Talente, Specs und Rotationen für Godblade, Heretic und Dreadnought.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/121a24/f4c24e?text=Cultist+Build+Guide",
+  date: "2026-07-03",
+  author: "conquest of azeroth Wiki-Team",
+  keywords: "Conquest of Azeroth, Kultist, Build, Guide, Godblade, Heretic, Dreadnought"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Die Klasse meistern**: Der optimale **Conquest of Azeroth Kultist-Build** dreht sich um das Ressourcenmanagement deines Wahnsinns (Insanity), um den Schattenschaden zu maximieren.
+- **Godblade (DPS)**: Nutzt Zweihandwaffen und Schattenangriffe wie Blade of the Empire, um massiven physisch-schattigen Hybridschaden zu verursachen.
+- **Heretic (Heiler)**: Verbindet Nahkampfangriffe mit intelligenten Heilungen und verwandelt Abyssal Strike in Malevolence, um bis zu 5 nahegelegene Verbündete zu heilen.
+- **Dreadnought (Tank)**: Im Gegensatz zu anderen Specs wollen Dreadnoughts 100 Wahnsinn erreichen, um sich in einen extrem defensiven Eldritch-Schrecken zu verwandeln.
+</Callout>
+
+<Section icon={Sparkles} title="Die Kultisten-Klasse & die Wahnsinns-Mechanik verstehen">
+
+Bei der Wahl deines Weges auf dem benutzerdefinierten Server von Project Ascension bietet der **Conquest of Azeroth Kultist-Build** einen der thematischsten und vielseitigsten Spielstile im Classic+-Ökosystem. Als Diener der Alten Götter balanciert der Kultist auf Messers Schneide, indem er Mana und eine einzigartige Ressource namens Wahnsinn (Insanity) nutzt. Während andere Klassen die Leere fürchten, macht sich der Kultist diese zunutze, um Verbündete zu heilen, eingehende Angriffe zu absorbieren oder sich in furchterregende Eldritch-Wesen zu verwandeln. Den Geist jedoch zu weit zu treiben, hat fatale Folgen, was das Ressourcenmanagement zum absoluten Kern dieser Klasse macht.
+
+Die entscheidende Mechanik des Kultisten ist der Wahnsinn. Jedes Mal, wenn du einen Schattenzauber wirkst oder einen dunklen Nahkampfangriff landest, füllt sich deine Wahnsinnsleiste. Bei DPS- und Heilungs-Specs führt das Erreichen von 100 Wahnsinn zu temporärem Wahnsinn, was dazu führt, dass dein Charakter ziellos umherläuft, zufällige Zauber wirkt und gleichzeitig einen massiven Teil seiner Gesundheit verliert. Dies macht das Pacing und die Zauberauswahl kritisch. Umgekehrt ist für den Dreadnought-Tank-Spec das Erreichen von 100 Wahnsinn das ultimative Ziel, das eine monströse Transformation auslöst, die deine Haltbarkeit und Magieresistenz drastisch erhöht.
+
+<Callout type="info" title="Wahnsinns-Warnung">
+Der Wahnsinn nimmt außerhalb des Kampfes langsam ab, sodass du deine Ressourcen zwischen den Pulls zurücksetzen kannst. Behalte dein UI immer im Auge, um versehentlichen Wahnsinn bei hochintensiven Dungeon-Begegnungen zu vermeiden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Conquest of Azeroth Kultist-Build: Der Godblade-Nahkampf-Guide">
+
+Die Godblade ist ein verheerender physisch-schattiger Hybrid-Spec, der die Macht der Alten Götter direkt in eine Zweihandwaffe kanalisiert. Dieser **Conquest of Azeroth Kultist-Build** ist perfekt für Spieler, die aggressive Nahkämpfe mit hohem Risiko lieben. Durch die Kombination von physischem Waffenschaden mit schattengefüllten Schlägen kontrollieren Godblades das Schlachtfeld mit Leerentendrikeln und psychischer Unterdrückung, während sie gefährlich nah am Abgrund des Wahnsinns tanzen.
+
+Deine Kernrotation dreht sich darum, Leerenrunen (Void Runes – ähnlich wie Schurken-Combopunkte) mit Eldritch Strike zu erzeugen und sie für Blade of the Empire auszugeben. Dank des Passivs Eldritch Bargain werden 35 % deiner Stärke in Schattenspitzenschaden (Shadow Spell Power) und 15 % in Zaubertrefferwertung (Spell Hit) umgewandelt. Diese einzigartige Skalierung ermöglicht es dir, Stärke zu stapeln, um sowohl deine Nahkampfangriffe als auch deine Schattenzauber zu verstärken, was dich zu einem echten Hybrid-Kraftpaket macht.
+
+| Attribut | Priorität | Idealer Ausrüstungstyp | Hauptvorteil |
+| :--- | :--- | :--- | :--- |
+| **Stärke** | Primär (Höchste) | Platte / Schwere Rüstung (Str) | Wird in Schattenschadensmacht und Trefferwertung umgewandelt |
+| **Ausdauer** | Sekundär | Schwere Rüstung mit Ausd | Erhöht die Überlebensfähigkeit und skaliert die Schattenabsorption |
+| **Tempo** | Tertiär | Angriffsgeschwindigkeit / Tempo | Beschleunigt Nahkampfangriffe und die Erzeugung von Leerenrunen |
+| **Intellekt** | Niedrig | Hybrid Stärke/Int | Nützlich für den Manapool, aber sekundär zu Stärke |
+
+| Zaubername | Ressourcenkosten | Abklingzeit | Kampfrolle & Effekt |
+| :--- | :--- | :--- | :--- |
+| **Eldritch Strike** | Mana | 3 Sekunden | Erzeugt 1 Leerenrune; verursacht 90 % Waffenschaden als Schattenschaden |
+| **Blade of the Empire** | 1+ Leerenrunen | Keine | Verbraucht Runen, um schweren Schattenschaden zu verursachen; erzeugt Wahnsinn |
+| **Reeving Blade** | Mana | 8 Sekunden | AoE-Schwung, der 120 % Waffenschaden an nahegelegenen Gegnern verursacht |
+| **Nether Strike** | Mana | 20 Sekunden | Schwerer Schlag; verringert die Schilddauer des Gegners um 60 % |
+
+<Callout type="success" title="Synergie-Bonus">
+Wenn du Reeving Blade zuerst verwendest, verursacht dein nächster Eldritch Strike auf jedes getroffene Ziel 30 % mehr Schaden. Nutze diese Combo immer für massive AoE-Clears in Dungeons!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Corruption-Zauberer & Heretic-Heiler Kultisten-Builds">
+
+Wenn der Nahkampf nicht dein Ding ist, bietet der Kultist zwei hocheffektive Zaubererpfade: den Corruption-DPS-Spec und den Heretic-Heiler-Spec (Einfluss). Diese Builds basieren hauptsächlich auf Intellekt und Zaubermacht und spielen sich wie dunkle Kleriker des Schwarzen Imperiums. Egal, ob du Gegner mit Schatten-Schaden-über-Zeit-Zaubern (DoT) dahinschmelzen lässt oder Verbündete mit leerengetränkten Barrieren schützt, diese Specs erfordern eine sorgfältige Positionierung und ein tiefes Verständnis der Wahnsinns-Mechanik.
+
+<CardGrid cols={2}>
+  <Card title="Corruption-Zauberer (DPS)">
+    - **Hauptattribut**: Intellekt & Zaubermacht
+    - **Spielstil**: Am Abgrund des Wahnsinns wandeln (Wahnsinn zwischen 70 und 99 halten)
+    - **Schlüsselzauber**: Wrath of the Black Empire, Horror Bolt, Sanity Tap
+    - **Bestens geeignet für**: Hohen Einzelziel- und AoE-Schattenschaden aus der Distanz
+  </Card>
+  <Card title="Heretic-Heiler (Support)">
+    - **Hauptattribut**: Intellekt & Heilmacht
+    - **Spielstil**: Nah-/Fernkampfschaden verursachen, um nahegelegene Verbündete passiv zu heilen
+    - **Schlüsselzauber**: Malevolence, Abyssal Covenant, Gaze of C'Thun
+    - **Bestens geeignet für**: Spieler, die hybride, stark passive Heilungsstile bevorzugen
+  </Card>
+</CardGrid>
+
+| Feature | Corruption (Zauberer-DPS) | Heretic-Heiler (Support) |
+| :--- | :--- | :--- |
+| **Rüstungstyp** | Stoff | Stoff oder Platte |
+| **Heilstil** | Keiner (nur Selbsterhalt) | Passive intelligente Heilung durch Schadensumwandlung |
+| **Wahnsinns-Ziel** | Zwischen 70-99 Wahnsinn bleiben | Das Erreichen von 100 Wahnsinn um jeden Preis vermeiden |
+| **Kernwaffe** | Stab oder Einhand + Offhand | Zweihandwaffe (für Nahkampf-Heilschilde) |
+
+<Callout type="tip" title="Heiler-Tipp">
+Heretic-Heiler sollten Abyssal Covenant immer auf dem Haupttank aktiv halten. Es wirkt wie ein Leuchtfeuer und wandelt 20 % des gesamten von dir verursachten Schadens in direkte Heilung für den Tank um.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Der Dreadnought-Tank-Build: Verwandlung in einen unheimlichen Schrecken">
+
+Der Dreadnought ist einer der einzigartigsten Tank-Builds in Conquest of Azeroth. Während andere Specs ihren Wahnsinn sorgfältig kontrollieren müssen, um nicht die Kontrolle zu verlieren, nimmt der Dreadnought den Wahnsinn aktiv an. Dein Hauptziel ist es, so schnell wie möglich Wahnsinn zu erzeugen, um 100 Stapel zu erreichen. Wenn du den maximalen Wahnsinn erreichst, wirst du nicht verrückt; stattdessen verwandelst du dich in einen gewaltigen, korrumpierten Eldritch-Schrecken, was deine Rüstung, deine Gesundheit und deine Magieresistenz drastisch erhöht.
+
+Dieser Build ist außergewöhnlich stark gegen magieintensive Begegnungen, was dich zum ultimativen Konter für Zauberwirker macht. Durch die Verwendung eines Schildes und einer Einhandwaffe kombinierst du traditionelle Tank-Mechaniken mit mächtigen Schattenzaubern, um eine hohe Bedrohung auf mehreren Zielen aufrechtzuerhalten.
+
+<Steps>
+  <Step num="1" title="Wahnsinn schnell aufbauen">
+    Nutze Fähigkeiten wie Armageddon und Presence of Y'Shaarj, um Mobs zu ziehen und schnell Wahnsinnsstapel zu erzeugen.
+  </Step>
+  <Step num="2" title="Unheimliche Himmelfahrt auslösen">
+    Sobald du 100 Wahnsinn erreichst, steigst du in deine korrumpierte Dreadnought-Form auf, um massive Verteidigungsboni freizuschalten.
+  </Step>
+  <Step num="3" title="Schaden abmildern und Aggro halten">
+    Halte deine aktive Schadensminderung aufrecht, indem du Twilight Shield aktiv hältst und schattenbasierte Bedrohungserzeugungszauber verwendest.
+  </Step>
+  <Step num="4" title="Die Abklingphase verwalten">
+    Während dein Wahnsinn abfällt, bereite deine nächste Rotation von Zaubern mit hoher Erzeugung vor, um schnell wieder in die Schreckensform aufzusteigen.
+  </Step>
+</Steps>
+
+| Zaubername | Haupteffekt | Abklingzeit | Beste Verwendung |
+| :--- | :--- | :--- | :--- |
+| **Armageddon** | Hoher AoE-Schattenschaden und starke Bedrohung | 15 Sekunden | Eröffnungspulls, um Bedrohung auf Gegnergruppen zu sichern |
+| **Presence of Y'Shaarj** | Massiver Bedrohungsmultiplikator und Schattenschaden | Keine | Aktive Aura; während des Kampfes eingeschaltet lassen |
+| **Twilight Shield** | Absorbiert eingehenden physischen und magischen Schaden | 12 Sekunden | Aktive Schadensminderung; vor schweren Boss-Treffern verwenden |
+| **Abyssal Ward** | Schützt vor bis zu 3 eingehenden Angriffen | 30 Sekunden | Notfall-Verteidigung bei schwerem physischem Schaden |
+
+<Callout type="warning" title="Tank-Minderungs-Warnung">
+In der unheimlichen Schreckensform ist deine Magieresistenz unübertroffen, aber du bist immer noch anfällig für schwere, physische rüstungsbrechende Angriffe. Koordiniere dich in physisch-intensiven Bossphasen mit deinem Heiler.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Kultisten-Leveling-Roadmap & Meilensteine">
+
+Das Leveln eines Kultisten auf dem Vol'Jin-Server erfordert einen strukturierten Ansatz, um sicherzustellen, dass du dich früh nicht versehentlich durch unkontrollierten Wahnsinn selbst in die Luft jagst. Von Level 1 bis zum Level-60-Endgame werden deine Talententscheidungen und Trainerbesuche deine Levelgeschwindigkeit bestimmen. Es wird dringend empfohlen, als Godblade (Nahkampf) oder Corruption (Zauberer) zu starten, um schnelle Solo-Clear-Zeiten zu erzielen, und dann auf Tanken oder Heilen umzusteigen, sobald du Dungeons läufst.
+
+<Checklist
+  id="cultist-leveling-goals"
+  title="Kultisten-Leveling-Meilensteine:"
+  items={[
+    "Erreiche Level 10 und wähle deine Spezialisierung (Godblade, Corruption, Influence oder Dreadnought)",
+    "Finde deinen Klassentrainer im Startgebiet auf Level 3, um deine Kern-Schattenfähigkeiten freizuschalten",
+    "Schalte Malevolence auf Level 15 frei, wenn du Heretic spielst, um passive Dungeon-Heilung zu ermöglichen",
+    "Besorge dir bis Level 30 eine Zweihandwaffe mit hohem Schaden, um die Godblade-Schattenangriffe zu maximieren",
+    "Wechsle auf Level 60 zu Endgame-Dungeons und -Raids und optimiere deine Talentbäume für PvE oder PvP"
+  ]}
+/>
+
+| Levelbereich | Empfohlener Spec | Schlüssel-Talentziel | Beste Levelgebiete |
+| :--- | :--- | :--- | :--- |
+| **1 - 10** | Basis-Kultist | Eldritch Strike freischalten | Wald von Elwynn / Durotar |
+| **10 - 30** | Godblade (Nahkampf) | Blade of the Empire holen | Westfall / Brachland |
+| **30 - 50** | Godblade oder Corruption | Reeving Blade / Sanity Tap freischalten | Schlingendorntal / Tanaris |
+| **50 - 60** | Gewählter Endgame-Spec | Letztes Talent im Spezialisierungsbaum | Westliche Pestländer / Silithus |
+
+<Callout type="info" title="Auto-Build-Tipp">
+Wenn du von den komplexen Talentbäumen überfordert bist, nutze die In-Game-Auto-Build-Funktion. Sie verteilt deine Punkte automatisch in einen brauchbaren Level-Build, sodass du dich auf das Meistern der Rotation konzentrieren kannst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kultisten-Build FAQ">
+
+Zum Abschluss unseres umfassenden Guides haben wir die am häufigsten gestellten Fragen aus der Project Ascension-Community zur Kultistenklasse zusammengestellt. Diese Antworten werden dir helfen, dein Setup abzustimmen und häufige Fehler zu vermeiden, während du dich auf den Vol'Jin-Launch vorbereitest.
+
+<FAQ items={[
+  {
+    question: "Was ist der beste Conquest of Azeroth Kultist-Build für Solo-Leveling?",
+    answer: "Der Godblade-Build gilt weithin als der beste für das Solo-Leveling aufgrund seines hohen physisch-schattigen Hybridschadens, keinerlei Manaproblemen (dank der Manarückgewinnung von Eldritch Strike) und starker Selbsterhaltung durch schattenbasierten Lebensentzug."
+  },
+  {
+    question: "Wie verhindere ich als DPS-Kultist, dass ich an 100 Wahnsinn sterbe?",
+    answer: "Du musst deinen Wahnsinn aktiv verwalten. Nutze Zauber wie Sanity Tap oder Satiate, um deine Wahnsinnsleiste zu leeren und Mana zu regenerieren, wenn du dich gefährlich nah an 100 Stapeln befindest. Alternativ kannst du deine Zauber mit hoher Wahnsinnserzeugung zeitlich versetzt einsetzen."
+  },
+  {
+    question: "Können Heretic-Heiler Plattenrüstung tragen?",
+    answer: "Ja. Obwohl der Heretic-Spec in Stoffrüstung funktioniert, können sie auch Plattenrüstung tragen. Das Ausrüsten einer Zweihandwaffe und schwererer Rüstung ermöglicht es dir, effektiv im Nahbereich zu heilen und gleichzeitig unglaublich widerstandsfähig zu bleiben."
+  },
+  {
+    question: "Beeinflusst Zaubermacht die Godblade-Nahkampfangriffe?",
+    answer: "Ja, dank des Passivs Eldritch Bargain werden 35 % deiner Stärke in Schattenspitzenschaden (Shadow Spell Power) umgewandelt. Das bedeutet, dass das Stapeln von Stärke natürlich sowohl deine physischen Waffenangriffe als auch deinen Schattenzauberschaden erhöht."
+  }
+]} />
+
+<Callout type="tip" title="Letzter Inventar-Tipp">
+Trage immer Wasser und Manatränke bei dir, selbst wenn du einen Hybrid-Spec spielst. Obwohl Eldritch Strike Mana zurückgibt, können hochintensive Kämpfe oder ausgedehnte Heilungsfenster deine Ressourcen dennoch schnell erschöpfen.
+</Callout>
+
+</Section>

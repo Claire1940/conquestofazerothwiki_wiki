@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, Download, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beta Abierta de Conquest of Azeroth: Lanzamiento 2026 y Guía para Principiantes",
+  description: "Domina la beta abierta de Conquest of Azeroth con nuestra guía de las 21 clases, hitos de nivelación y el lanzamiento del reino Vol'Jin el 3 de julio de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Conquest+of+Azeroth+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "conquest of azeroth, beta abierta, guía, clases, wow ascension, vol'jin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Beta Abierta de Conquest of Azeroth**: El lanzamiento completo se realizará en el **reino Vol'Jin** el 3 de julio de 2026.
+- **Clases Únicas**: Presenta **21 clases originales** y 69 especializaciones que no se encuentran en el WoW oficial.
+- **Sistema de Talentos**: Utiliza un árbol de talentos al **estilo Dragonflight** con ramas separadas para Clase y Especialización.
+- **Jugabilidad Principal**: Combina la exploración del mundo estilo Classic+ con estadísticas de criaturas y botín de RPG moderno.
+- **Método de Acceso**: Requiere el **launcher oficial de Project Ascension** y una única cuenta unificada.
+</Callout>
+
+<Section icon={Clock} title="Lanzamiento y Acceso a la Beta Abierta de Conquest of Azeroth">
+
+El viaje hacia un mundo reinventado comienza con la transición de la **beta abierta de conquest of azeroth** al lanzamiento completo. A diferencia de los servidores privados estándar, este proyecto introduce una revisión masiva del motor de World of Warcraft, con mecánicas de clase y sistemas de mundo completamente nuevos. El lanzamiento oficial está programado para el **reino Vol'Jin**, marcando un momento crucial para la comunidad de Ascension.
+
+| Tipo de Evento | Fecha | Hora (PT/ET/GMT) | Reino |
+| :--- | :--- | :--- | :--- |
+| **Lanzamiento Completo** | 3 de julio de 2026 | 7AM / 10AM / 3PM | Vol'Jin |
+| **Servidor de Login Activo** | 3 de julio de 2026 | Simultáneo al Lanzamiento | Global |
+| **Fases de Beta** | Marzo - Junio 2026 | Concluidas | Reinos de Evento |
+| **Parcheo del Cliente** | Disponible Ahora | N/A | Launcher de Ascension |
+
+Para participar en la **beta abierta de conquest of azeroth** y el posterior lanzamiento completo, los jugadores deben usar el launcher patentado de Ascension. Esta herramienta gestiona todos los recursos personalizados, incluidos los más de 1000 hechizos nuevos y efectos visuales que definen la experiencia de CoA.
+
+<Callout type="success" title="Consejo sobre el Estado del Servidor">
+Consulta siempre la página oficial de estado de Ascension o su Discord antes de iniciar el juego. El reino Vol'Jin es el destino principal para el lanzamiento de 2026, mientras que los reinos más antiguos como Area 52 se centran en la jugabilidad estacional sin clases "Pick 'n' Mix".
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Comenzar tu Viaje: Configuración Paso a Paso">
+
+Comenzar en la **beta abierta de conquest of azeroth** requiere una serie de pasos específicos para asegurar que tu cliente esté correctamente parcheado para el sistema personalizado de 21 clases. Debido a que CoA modifica archivos base del juego, usar un cliente 3.3.5a estándar sin el launcher de Ascension provocará cierres inesperados o NPCs invisibles.
+
+<Steps>
+  <Step num="1" title="Creación de Cuenta">
+    Visita el sitio web oficial de Ascension y registra una cuenta única. Esta cuenta está unificada para todos los proyectos de Ascension, incluidos Conquest of Azeroth y los reinos sin clases.
+  </Step>
+  <Step num="2" title="Descargar el Launcher">
+    Dirígete a la sección de descargas y obtén el launcher para Windows. Para usuarios de Linux, consulta las guías de Wine/Proton mantenidas por la comunidad en los foros oficiales.
+  </Step>
+  <Step num="3" title="Seleccionar la Ruta del Reino CoA">
+    Dentro del launcher, cambia el modo de juego a **Conquest of Azeroth**. Esto asegura que el descargador obtenga los modelos de alta definición correctos y los datos de clases personalizados.
+  </Step>
+  <Step num="4" title="Parcheo Inicial">
+    Permite que el launcher complete la verificación completa. La descarga inicial es significativa debido a los miles de iconos personalizados, efectos de hechizos y el mapa del mundo "Reborn Azeroth".
+  </Step>
+  <Step num="5" title="Creación de Personaje">
+    Entra en el reino Vol'Jin y selecciona una de las 21 clases originales. A diferencia del modo sin clases, aquí eliges una identidad fija, como un Nigromante o un Tinker.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Falsos Positivos de Antivirus">
+Algunos programas de seguridad pueden marcar el launcher personalizado. Esto es común en clientes de juegos modificados. A menudo se requiere agregar una exclusión para la carpeta de Ascension para que el proceso de parcheo finalice correctamente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Las 21 Clases Originales y Especializaciones">
+
+El corazón de la **beta abierta de conquest of azeroth** es su elenco de 21 clases únicas. Cada clase está construida desde cero con recursos personalizados, como la **Insania** del Cultista o las **Municiones (Rounds)** del Tinker. Estas no son solo clases de vanilla con otra apariencia; representan formas totalmente nuevas de interactuar con el mundo de Azeroth.
+
+<CardGrid cols={3}>
+  <Card title="Nigromante">
+    - **Rol**: DPS a distancia
+    - **Mecánica**: Fuerza Vital
+    - **Enfoque**: Enjambres de no-muertos, plagas y magia de escarcha.
+  </Card>
+  <Card title="Mago de Sangre">
+    - **Rol**: Tanque, Sanador, DPS
+    - **Mecánica**: Consumo de Salud
+    - **Enfoque**: Sustento vampírico y poderosos hechizos alimentados por sangre.
+  </Card>
+  <Card title="Tinker">
+    - **Rol**: DPS, Sanador
+    - **Mecánica**: Artilugios y Municiones
+    - **Enfoque**: Torretas, bombas y herramientas de soporte mecánicas.
+  </Card>
+</CardGrid>
+
+Elegir una clase en la **beta abierta de conquest of azeroth** determina tu estadística principal y tipo de armadura, lo cual es crítico para el nuevo sistema de botín inmersivo.
+
+| Nombre de la Clase | Estadística Principal | Tipo de Armadura | Roles Disponibles |
+| :--- | :--- | :--- | :--- |
+| **Guardian** | Fuerza | Placas | Tanque / DPS / Soporte |
+| **Starcaller** | Intelecto | Malla/Placas | Tanque / DPS / Sanador |
+| **Venomancer** | Intelecto | Cuero/Malla | Tanque / DPS / Sanador |
+| **Pyromancer** | Intelecto | Tela | DPS / Sanador |
+| **Reaper** | Fuerza/Int | Placas | Tanque / DPS |
+| **Barbarian** | Agilidad | Cuero | DPS / Soporte |
+
+<Callout type="tip" title="Flexibilidad Híbrida">
+Muchas clases como el **Sun Cleric** y el **Cultist** pueden desempeñar los tres roles principales (Tanque, Sanador, DPS). Si disfrutas de la versatilidad, prioriza estas clases "Híbridas Puras" para tu primer personaje en el reino Vol'Jin.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Hoja de Ruta de Nivelación y Progresión del Mundo">
+
+La nivelación durante la **beta abierta de conquest of azeroth** se ha ajustado para enfatizar la exploración del mundo. El "Reborn Azeroth" presenta estadísticas de criaturas estilo RPG, lo que significa que los monstruos tienen fortalezas y debilidades únicas que requieren que uses todo tu arsenal de clase.
+
+| Rango de Nivel | Hito | Desbloqueos Clave | Ubicación del Instructor |
+| :--- | :--- | :--- | :--- |
+| **1 - 3** | El Despertar | Misión Inicial de Clase | Zonas de Inicio (Villadorada/Brill) |
+| **10** | Especialización | Árboles de Spec / Auto-Build | Ciudades Principales |
+| **20** | Movilidad | Primera Montura / Hechizos de Viaje | Instructores de Clase |
+| **45** | Jefes de Mundo | Hito de Zanzrakka | Vega de Tuercespina |
+| **55 - 58** | Pre-Juego Final | Equipo de Nivel 58 (Límite Beta) | Zonas de Nivel Alto |
+| **60** | Juego Final | Bandas / Mythic+ / Arenas | Ciudades Capitales |
+
+<Checklist
+  id="leveling-goals"
+  title="Objetivos Esenciales del Juego Temprano:"
+  items={[
+    "Completa la misión de clase de nivel 3 para desbloquear habilidades principales.",
+    "Visita a tu instructor de clase cada 2-4 niveles para obtener nuevos rangos de hechizos.",
+    "Selecciona una Especialización Primaria al nivel 10 para desbloquear tu segundo árbol de talentos.",
+    "Equipa equipo que coincida con la estadística principal de tu clase (ej. Agilidad para Rangers).",
+    "Prueba la función Auto-Build si te sientes abrumado por los árboles de talentos."
+  ]}
+/>
+
+<Callout type="info" title="Instructores de Clase">
+En Conquest of Azeroth, los instructores de clase son vitales. A diferencia del WoW retail donde los hechizos se aprenden automáticamente, debes visitar a instructores físicos en las zonas de inicio y ciudades principales para ampliar tu repertorio.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Contenido de Juego Final: Mazmorras PvE y Modos PvP">
+
+Una vez que alcances el límite de nivel 60 en la **beta abierta de conquest of azeroth**, el juego se desplaza hacia el contenido de grupo estructurado y el conflicto de alto riesgo. El proyecto utiliza el sofisticado escalado de dificultad de Ascension, permitiendo una amplia gama de desafíos.
+
+### PvE: Mazmorras y Bandas
+El sistema PvE está construido alrededor de la mecánica "Flex", que permite que grupos de varios tamaños aborden el contenido. Desde las profundidades ardientes de **Núcleo de Magma** hasta la guarida de **Onyxia**, cada encuentro ha sido reajustado para las 21 nuevas clases.
+
+| Tipo de Contenido | Dificultad | Tamaño del Grupo | Recompensas Clave |
+| :--- | :--- | :--- | :--- |
+| **Mazmorras Normales** | Entrada | 5 Jugadores | Equipo de Nivelación |
+| **Mazmorras Mythic+** | Escalado | 5 Jugadores | Progresión de Alto Nivel |
+| **Bandas Flex** | Normal/Heroico | 10-25 Jugadores | Sets de Tier / Legendarios |
+| **Bandas Ascendidas** | Hardcore | 25 Jugadores | Botín de Prestigio |
+
+### PvP: Riesgo y Recompensa
+CoA ofrece tres fases de mundo distintas para satisfacer las diferentes preferencias de los jugadores. Puedes cambiar entre estos modos en las ciudades principales.
+
+- **Modo PvE**: Exploración segura. Sin combate en mundo abierto a menos que te marques como PvP.
+- **Modo PvP**: Combate estándar en mundo abierto. Sin pérdida de objetos.
+- **Fase de Alto Riesgo (High Risk)**: Una capa separada donde los jugadores derrotados sueltan cofres con su equipo. Este modo ofrece botín **Forjado en Sangre (Bloodforged)**, que es más poderoso que el botín estándar.
+
+<Callout type="success" title="Recompensas de Alto Riesgo">
+Participar en PvP de Alto Riesgo es la forma más rápida de obtener equipo comerciable. Incluso si no luchas contra otros jugadores, matar monstruos en esta fase otorga acceso a la tabla de botín Forjado en Sangre, proporcionando un aumento significativo de poder.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es gratuita la beta abierta de conquest of azeroth?",
+    answer: "Sí, el proyecto es gratuito. Puedes descargar el launcher y acceder a las 21 clases sin una suscripción, aunque hay objetos cosméticos opcionales y funciones de conveniencia disponibles a través de la tienda de Ascension."
+  },
+  {
+    question: "¿Puedo cambiar mi clase después de empezar?",
+    answer: "No, la elección de clase es permanente para ese personaje. Sin embargo, puedes cambiar tu especialización (por ejemplo, de un Pyromancer sanador a un Pyromancer DPS) en cualquier momento visitando a un instructor de clase."
+  },
+  {
+    question: "¿Requiere esto una suscripción al WoW oficial?",
+    answer: "No, este proyecto se ejecuta en una arquitectura de cliente 3.3.5a personalizada. No necesitas una suscripción activa de Blizzard para jugar."
+  },
+  {
+    question: "¿Qué es el sistema 'Auto-Build'?",
+    answer: "Auto-Build es una función para nuevos jugadores que asigna automáticamente los puntos de talento en una ruta optimizada para el rol elegido, permitiéndote concentrarte en el juego mientras aprendes las mecánicas de tu clase."
+  }
+]} />
+
+</Section>

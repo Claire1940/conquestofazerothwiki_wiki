@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo acceder a Conquest of Azeroth: Guía de configuración paso a paso",
+  description: "Aprende cómo acceder a Conquest of Azeroth en el reino Vol'Jin. Sigue nuestra guía paso a paso para configurar el iniciador, crear una cuenta y descargar el cliente.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/121a24/fff?text=Access+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Método de acceso**: Aprende **cómo acceder a Conquest of Azeroth** a través del iniciador unificado de Project Ascension.
+- **Fecha de lanzamiento**: El lanzamiento oficial se activa en el reino Vol'Jin el **3 de julio de 2026**.
+- **Requisito de cuenta**: Se requiere una única cuenta registrada de Ascension para iniciar sesión y jugar.
+- **Característica clave**: Explora **21 clases personalizadas originales** y más de 69 especializaciones únicas.
+- **Soporte del cliente**: Rendimiento nativo en Windows con configuraciones activas impulsadas por la comunidad para usuarios de Linux.
+</Callout>
+
+<Section icon={Map} title="Detalles de lanzamiento y acceso al reino">
+
+Acceder a esta experiencia personalizada de Classic+ requiere comprender la conexión entre Project Ascension y el cliente de Conquest of Azeroth. A diferencia de los reinos estándar sin clases (classless), este proyecto presenta clases personalizadas individuales y completamente desarrolladas con árboles de talentos dedicados. Para conectarte al entorno en vivo, debes utilizar la infraestructura oficial del cliente. El lanzamiento comienza oficialmente en el servidor dedicado Vol'Jin, que alberga el ecosistema de progresión.
+
+**Puntos destacados del video:**
+- **Navegación paso a paso por el iniciador** para seleccionar reinos personalizados.
+- **Guía de creación de cuenta** y pasos de verificación de seguridad.
+- **Proceso de parcheo** y resolución de problemas comunes de bloqueos en la instalación.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Lanzamiento completo: Conquest of Azeroth - Ascension WoW" />
+
+El servidor de lanzamiento utiliza una línea de tiempo de contenido progresivo. Esto asegura que los jugadores puedan experimentar el mundo reconstruido de Azeroth a un ritmo equilibrado, comenzando desde los hitos iniciales de nivelación y avanzando hacia objetivos de PvE y PvP de alto nivel. El cliente gestiona las actualizaciones automáticamente, lo que significa que no necesitas descargar manualmente archivos de parches externos ni cambiar archivos realmlist, como era común en las configuraciones de servidores personalizados más antiguos.
+
+| Nombre del reino | Fecha de lanzamiento | Fase de contenido | Tipo de economía |
+|:---|:---|:---|:---|
+| **Vol'Jin** | **3 de julio de 2026** | Fase 1 (Nivel 60) | Progresiva desde cero |
+| **Bronzebeard** | En línea | Sin clases estándar | Establecida |
+| **Area 52** | En línea | Sin clases (Wildcard) | Establecida |
+
+<Callout type="success" title="Economía de inicio desde cero">
+El reino Vol'Jin presenta una economía completamente nueva. Ningún personaje, oro o equipo de fases beta anteriores o reinos paralelos sin clases se transferirá, lo que garantiza un campo de juego nivelado para todos los jugadores nuevos en el lanzamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de instalación paso a paso">
+
+Para comenzar tu aventura, debes instalar los archivos del iniciador correspondientes y crear una cuenta activa. El proceso se simplifica a través de una única aplicación de escritorio que se encarga de la descarga, el parcheo y la gestión de addons. Sigue estas instrucciones precisas para configurar correctamente tu cliente de juego y evitar errores de conexión comunes.
+
+<Steps>
+  <Step num="1" title="Registrar una cuenta de Ascension">
+    Navega al portal oficial de registro de Project Ascension. Introduce un correo electrónico válido y crea una contraseña segura. Utilizarás estas credenciales para iniciar sesión tanto en el iniciador de escritorio como en el cliente del juego.
+  </Step>
+  <Step num="2" title="Descargar el iniciador de escritorio">
+    Visita la sección oficial de descargas y obtén el instalador para Windows. Ejecuta el instalador y elige un directorio con suficiente espacio de almacenamiento, ya que los archivos del cliente requieren una cantidad significativa de espacio en disco.
+  </Step>
+  <Step num="3" title="Ejecutar el proceso de parcheo">
+    Abre el iniciador e inicia sesión con tus credenciales registradas. Permite que el iniciador descargue los archivos principales del juego y aplique los archivos de parche personalizados de Conquest of Azeroth. No interrumpas este proceso para evitar la corrupción de archivos.
+  </Step>
+  <Step num="4" title="Seleccionar el reino de Conquest of Azeroth">
+    Dentro de la interfaz del iniciador, localiza el menú desplegable de selección de reino o la pestaña de navegación. Cambia la selección a la ruta de Conquest of Azeroth en lugar de los reinos estándar sin clases para asegurarte de que se carguen las modificaciones correctas del cliente.
+  </Step>
+  <Step num="5" title="Iniciar el juego y crear un personaje">
+    Haz clic en el botón de jugar una vez que se complete el parcheo. En la pantalla de creación de personajes, selecciona el reino Vol'Jin y elige una de las 21 clases personalizadas para comenzar tu viaje en el mundo reconstruido.
+  </Step>
+</Steps>
+
+La compatibilidad del sistema es sencilla, aunque los jugadores en sistemas operativos alternativos necesitarán utilizar capas de traducción compatibles con la comunidad para ejecutar el cliente con éxito.
+
+| Sistema operativo | Nivel de soporte | Software requerido | Notas de instalación |
+|:---|:---|:---|:---|
+| **Windows 10/11** | Nativo | Ninguno | Ejecuta el iniciador como Administrador si el parcheo falla. |
+| **Linux (Ubuntu/Arch)** | Comunidad | Wine / Proton | Sigue las guías de configuración de la comunidad en Discord. |
+| **macOS** | No oficial | Parallels / Crossover | El rendimiento varía según la traducción de hardware. |
+
+<Callout type="warning" title="Falsos positivos de antivirus">
+Debido a los ganchos personalizados (hooks) utilizados para inyectar recursos, hechizos e interfaces de talentos personalizados, algunos programas antivirus restrictivos pueden marcar el iniciador. Agregar la carpeta de instalación a la lista de exclusión de tu antivirus resuelve este problema.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Clases y arquetipos personalizados">
+
+Una vez que entiendas **cómo acceder a Conquest of Azeroth**, el siguiente paso crítico es seleccionar tu clase inicial. A diferencia del World of Warcraft estándar, este ecosistema ofrece 21 clases completamente personalizadas creadas desde cero con mecánicas de hechizos únicas, efectos visuales personalizados y sistemas de recursos dedicados. Estas clases están diseñadas para cumplir con los roles tradicionales de los juegos de rol (RPG) al tiempo que introducen bucles de juego muy innovadores.
+
+Para ayudarte a decidir, hemos categorizado una selección de las clases iniciales más populares según sus roles principales, tipos de armadura y mecánicas principales.
+
+<CardGrid cols={3}>
+  <Card title="Nigromante">
+    - **Rol**: DPS a distancia
+    - **Armadura**: Tela
+    - **Mecánica**: Utiliza la Fuerza Vital para comandar un ejército permanente de esbirros no-muertos y desatar magia de peste.
+  </Card>
+  <Card title="Mago de sangre">
+    - **Rol**: Tanque, Sanador, DPS
+    - **Armadura**: Cuero
+    - **Mecánica**: Consume salud para potenciar poderosos hechizos de sangre, absorbiendo vida de los enemigos para sostener a sus aliados.
+  </Card>
+  <Card title="Manitas">
+    - **Rol**: DPS, Sanador
+    - **Armadura**: Malla
+    - **Mecánica**: Despliega torretas, construye mecas y dispara proyectiles explosivos utilizando un sistema de munición personalizado.
+  </Card>
+</CardGrid>
+
+Estas clases no dependen de los árboles de talentos estándar. En su lugar, utilizan un sistema de talentos moderno inspirado en las expansiones actuales, lo que te permite asignar puntos a la utilidad general de la clase o especializarte profundamente en roles de combate específicos.
+
+| Clase personalizada | Roles principales | Recurso principal | Habilidad distintiva |
+|:---|:---|:---|:---|
+| **Guardián** | Tanque, DPS, Soporte | Ira / Estandartes | **Estandarte inspirador** |
+| **Piromante** | DPS, Sanador | Maná / Calor | **Renacimiento de fénix** |
+| **Segador** | Tanque, DPS | Fragmentos de alma | **Cosecha de almas** |
+| **Clamaestrellas** | Tanque, DPS, Sanador | Poder astral | **Barrera lunar** |
+| **Primalista** | Tanque, DPS, Sanador | Esencia de la naturaleza | **Escudo geomántico** |
+
+<Callout type="tip" title="Usa el sistema de Auto-Build">
+Si te abruman los enormes árboles de talentos en el nivel 10, utiliza la función integrada de Auto-Build (Creación automática). Este sistema asigna automáticamente tus puntos de talento en configuraciones verificadas y de alto rendimiento para que puedas concentrarte en aprender la rotación principal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de nivelación y guía de progresión">
+
+La progresión en este mundo personalizado combina misiones nostálgicas en el mundo abierto con mecánicas modernas de RPG. A medida que subas de nivel, desbloquearás nuevas características de clase, misiones personalizadas y encuentros peligrosos en el mundo. Mantener un registro de los hitos clave de nivel te asegura no perderte mejoras críticas de clase ni el acceso a los sistemas de juego final (end-game).
+
+Utiliza esta lista de verificación para seguir la progresión de tu personaje desde su creación hasta el nivel máximo.
+
+<Checklist
+  id="coa-leveling-milestones"
+  title="Hitos de progresión esenciales:"
+  items={[
+    "Alcanza el nivel 3 y localiza al instructor de clase de tu zona de inicio.",
+    "Desbloquea tu especialización principal y tus árboles de talentos en el nivel 10.",
+    "Completa tu primera misión personalizada de arma de clase en el nivel 20.",
+    "Adquiere tu montura terrestre y explora zonas en disputa de mayor nivel en el nivel 40.",
+    "Entra en la fase de nivel máximo y comienza a ajustar tu configuración para mazmorras y bandas en el nivel 60."
+  ]}
+/>
+
+A medida que avances por los diferentes rangos de nivel, desbloquearás el acceso a sistemas de juego específicos que te permitirán optimizar el equipo y las habilidades de tu personaje.
+
+| Rango de nivel | Contenido desbloqueado | Enfoque principal | Actividades recomendadas |
+|:---|:---|:---|:---|
+| **1 - 10** | Misiones de clase, Hechizos básicos | Aprender la rotación básica | Misiones de zona, Visitas al instructor |
+| **11 - 30** | Árboles de talentos, Mazmorras normales | Crear sinergia principal | Buscador de mazmorras, Optimización de especialización |
+| **31 - 50** | Jefes de mundo personalizados, PvP | Optimización de equipo | Misiones de élite, Campos de batalla |
+| **51 - 60** | Bandas, Mazmorras Míticas+ | Progresión de juego final | Núcleo de Magma, Arenas puntuadas |
+
+<Callout type="info" title="Ubicaciones de instructores de clase">
+A diferencia del WoW estándar, donde los instructores se encuentran fácilmente en cada centro importante, los instructores de clases personalizadas están ubicados en áreas de inicio específicas y apropiadas según la historia (como Villadorada, Kharanos y Brill). Asegúrate de completar tu misión de introducción al instructor de nivel 3 para marcar sus ubicaciones en tu mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+Para asegurarte de tener una experiencia fluida al configurar y jugar, hemos recopilado respuestas a las preguntas más comunes sobre el acceso al cliente, la seguridad de la cuenta y las mecánicas de juego.
+
+<FAQ items={[
+  {
+    question: "¿Necesito una suscripción activa de WoW oficial para acceder a Conquest of Azeroth?",
+    answer: "No. El proyecto opera en una infraestructura de cliente personalizado completamente independiente. Solo necesitas registrar una cuenta gratuita en el sitio web oficial de Project Ascension y descargar su iniciador personalizado."
+  },
+  {
+    question: "¿Cómo elijo entre el modo de juego estándar Sin clases y Conquest of Azeroth?",
+    answer: "La elección se realiza directamente dentro del iniciador de escritorio. Antes de hacer clic en jugar, asegúrate de seleccionar la ruta del reino Conquest of Azeroth. Esto carga los recursos personalizados, las 21 clases y los árboles de talentos personalizados en lugar de las reglas del modo sin clases."
+  },
+  {
+    question: "¿Existe el riesgo de perder mi equipo en el PvP de mundo abierto?",
+    answer: "Solo si decides participar activamente en la fase de PvP de alto riesgo (High Risk). El servidor admite fases separadas para PvE, PvP estándar y PvP de alto riesgo. En la fase de alto riesgo, derrotar a los jugadores te permite saquear su equipo, pero esto es completamente opcional."
+  },
+  {
+    question: "¿Puedo restablecer mis puntos de talento si cometo un error al subir de nivel?",
+    answer: "Sí. Puedes visitar al instructor de tu clase personalizada en cualquier zona de inicio o ciudad principal para restablecer tus puntos de talento por una pequeña tarifa de oro, lo que te permite experimentar libremente con diferentes especializaciones."
+  }
+]} />
+
+<Callout type="tip" title="Soporte de la comunidad">
+Si experimentas problemas de instalación únicos, caídas de conexión o bloqueos del cliente, visita el Discord oficial de la comunidad. Los canales de soporte cuentan con ayudantes activos de la comunidad y parches actualizados para sistemas operativos alternativos.
+</Callout>
+
+</Section>

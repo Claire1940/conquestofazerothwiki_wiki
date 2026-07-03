@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Conquest of Azeroth Gratis: Guía de Acceso y Clases para 2026",
+  description: "Aprende a jugar gratis a Conquest of Azeroth en Project Ascension. Explora 21 clases originales, árboles de talentos y el lanzamiento del reino Vol'Jin en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/121A24/F4C24E?text=Conquest+of+Azeroth+Free+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El acceso **gratuito a Conquest of Azeroth** está disponible a través del iniciador de Project Ascension en el reino Vol'Jin.
+- Se presentan **21 clases originales**, que incluyen al Nigromante, Manitas (Tinker) y Mago de sangre (Bloodmage), cada una con árboles de talentos únicos.
+- Los **talentos al estilo Dragonflight** permiten una profunda personalización en los árboles de Clase y Especialización a partir del nivel 10.
+- El **PvP de alto riesgo (High Risk)** ofrece una fase separada donde los jugadores pueden perder su equipo, proporcionando una experiencia de supervivencia extrema (hardcore).
+- El **lanzamiento completo** en el reino Vol'Jin está programado para el 3 de julio de 2026, con un Azeroth completamente reconstruido.
+</Callout>
+
+<Section icon={Map} title="Cómo jugar gratis a Conquest of Azeroth">
+
+Jugar gratis a **Conquest of Azeroth** es un proceso sencillo, ya que el proyecto funciona como una modificación personalizada del cliente clásico de World of Warcraft alojado en la plataforma Project Ascension. A diferencia de los servidores oficiales de Blizzard, este proyecto es impulsado por la comunidad y no requiere una suscripción mensual. La experiencia principal se centra en el reino Vol'Jin, que sirve como el centro principal para el lanzamiento de 2026. Para comenzar tu aventura, debes usar el iniciador (launcher) oficial de Ascension, que se encarga de todos los parches y actualizaciones de cliente necesarios para garantizar la compatibilidad con las 21 clases personalizadas.
+
+<Callout type="tip" title="Consejo del Iniciador">
+Asegúrate siempre de que tu iniciador esté actualizado a la última versión antes del lanzamiento del 3 de julio de 2026 para evitar colas de inicio de sesión y errores de parcheo.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Crear una cuenta de Ascension">
+    Visita el sitio web oficial de Ascension y regístrate con un correo electrónico válido. Esta única cuenta otorga acceso a todos los reinos, incluido Conquest of Azeroth.
+  </Step>
+  <Step num="2" title="Descargar el iniciador">
+    Descarga el iniciador para PC de Project Ascension. Esta herramienta es esencial para administrar tu cliente y alternar entre los diferentes modos de juego.
+  </Step>
+  <Step num="3" title="Seleccionar el reino Vol'Jin">
+    Una vez instalado y parcheado el iniciador, navega a la lista de reinos y selecciona Vol'Jin. Este es el hogar dedicado para la experiencia de Conquest of Azeroth.
+  </Step>
+  <Step num="4" title="Creación de personaje">
+    Inicia el juego e ingresa a la pantalla de creación de personajes. Aquí encontrarás las 21 clases personalizadas que definen este entorno único de "Classic Plus".
+  </Step>
+</Steps>
+
+| Requisito | Especificación | Notas |
+| :--- | :--- | :--- |
+| **Plataforma** | PC (Windows/Linux) | Compatible con Linux mediante guías comunitarias de Wine/Proton |
+| **Cuenta** | ID única de Ascension | Un solo inicio de sesión para todos los subproyectos y reinos |
+| **Costo** | **Completamente gratis** | No se requiere suscripción para acceder al contenido principal |
+| **Iniciador** | Project Ascension | Gestiona todos los recursos personalizados y los datos de las 21 clases |
+
+</Section>
+
+<Section icon={Swords} title="Las 21 clases personalizadas y sus roles">
+
+El mayor atractivo de la experiencia gratuita de **Conquest of Azeroth** es su catálogo de 21 clases originales. No se trata de simples rediseños visuales de clases existentes, sino de arquetipos completamente desarrollados con animaciones, recursos y mecánicas personalizadas. Ya sea que quieras comandar un ejército de muertos como un Nigromante o construir torretas mecánicas como un Manitas (Tinker), el sistema de clases ofrece una variedad que supera con creces la experiencia estándar de WoW. Cada clase cuenta con tres o más especializaciones, muchas de las cuales pueden cumplir múltiples roles como Tanque, Sanador o DPS.
+
+<Callout type="success" title="Versatilidad de roles">
+Muchas clases en CoA son verdaderos híbridos. Por ejemplo, el Clérigo del Sol (Sun Cleric) y el Invocador de estrellas (Starcaller) pueden tanquear, curar o infligir daño de manera efectiva según su asignación de talentos.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Nigromante">
+    - **Rol**: DPS
+    - **Mecánica**: Fuerza vital
+    - **Estilo**: Lanzador de conjuros oscuros centrado en mascotas, plagas y enjambres de no muertos.
+  </Card>
+  <Card title="Manitas (Tinker)">
+    - **Rol**: DPS, Sanador
+    - **Mecánica**: Munición/Artilugios
+    - **Estilo**: Utiliza torretas, mecas y explosivos para controlar el campo de batalla.
+  </Card>
+  <Card title="Mago de sangre">
+    - **Rol**: Tanque, DPS, Sanador
+    - **Mecánica**: Consumo de salud
+    - **Estilo**: Sustento vampírico y poderosos hechizos alimentados por sangre.
+  </Card>
+</CardGrid>
+
+| Clase | Rol principal | Tipo de armadura | Atributo principal |
+| :--- | :--- | :--- | :--- |
+| **Cultista** | Tanque/DPS/Sanador | Placas/Tela | Fuerza/Intelecto |
+| **Primalista** | Tanque/DPS/Sanador | Placas | Fuerza/Intelecto |
+| **Jurafiel (Felsworn)** | Tanque/DPS | Cuero | Agilidad/Intelecto |
+| **Segador (Reaper)** | Tanque/DPS | Placas | Fuerza/Intelecto |
+| **Piromante** | DPS/Sanador | Tela | Intelecto |
+| **Cazador de brujas** | Tanque/DPS | Malla | Agilidad |
+
+</Section>
+
+<Section icon={Target} title="El sistema de talentos y la progresión">
+
+La progresión en Conquest of Azeroth se desvía del camino lineal tradicional. En el nivel 10, los jugadores deben elegir una especialización principal, lo que desbloquea dos árboles de talentos distintos: el Árbol de Clase y el Árbol de Especialización. Este sistema, inspirado en expansiones modernas como Dragonflight, permite a los jugadores alternar puntos entre la utilidad general de la clase y el poder específico de la especialización. El modelo gratuito de **Conquest of Azeroth** también incluye una función de "Auto-Build" (construcción automática), que es muy recomendable para los nuevos jugadores que puedan sentirse abrumados por los más de 1000 hechizos y talentos.
+
+<Callout type="warning" title="Selección de talentos">
+Los puntos se alternan entre el Árbol de Clase y el Árbol de Especialización a medida que subes de nivel. Planifica tu camino con cuidado, ya que la utilidad de tu clase a menudo reside en el Árbol de Clase.
+</Callout>
+
+<Checklist
+  id="progression-milestones"
+  title="Hitos de nivelación:"
+  items={[
+    "Alcanza el nivel 3 para encontrar a tu instructor de clase y comenzar tu primera misión de clase.",
+    "Desbloquea tu especialización principal y los árboles de talentos en el nivel 10.",
+    "Domina la mecánica de tu clase (por ejemplo, Demencia para los cultistas) para el nivel 30.",
+    "Prepárate para el hito del jefe de mundo de nivel 45 (Zanzrakka).",
+    "Alcanza el límite de nivel 60 para desbloquear bandas como Núcleo de Magma (Molten Core) y Onyxia."
+  ]}
+/>
+
+| Rango de nivel | Área de enfoque | Desbloqueo clave |
+| :--- | :--- | :--- |
+| **1-10** | Rotación básica | Misiones de instructor de clase |
+| **10-35** | Ruta de talentos principal | Elección de especialización |
+| **35-55** | Optimización de rol | Efectos visuales de hechizos avanzados |
+| **55-60** | Entrada al juego final | Objetos RPG de Azeroth Reborn |
+
+</Section>
+
+<Section icon={Shield} title="Modos PvP y sistemas de alto riesgo">
+
+El panorama de PvP en **Conquest of Azeroth gratis** se divide en tres fases distintas para adaptarse a las diferentes preferencias de los jugadores. A diferencia de los servidores estándar donde el PvP suele ser secundario, CoA lo integra en el mundo a través del Sistema de Riesgo Híbrido. Los jugadores pueden optar por permanecer en una fase PvE segura, ingresar a una fase PvP estándar o aventurarse en la fase de Alto Riesgo (High Risk) donde las apuestas son significativamente mayores. En el modo de Alto Riesgo, los jugadores derrotados sueltan cofres que contienen una parte de su equipo e inventario, creando un entorno tenso y de altas consecuencias.
+
+<Callout type="info" title="Recompensas de alto riesgo">
+Los jugadores de Alto Riesgo tienen acceso a versiones 'Forjadas por la sangre' (Bloodforged) del equipo de mazmorras y bandas, que se pueden encontrar de monstruos en el mundo abierto o despojar de otros jugadores.
+</Callout>
+
+| Modo PvP | Nivel de riesgo | Penalización por muerte | Recompensas únicas |
+| :--- | :--- | :--- | :--- |
+| **Modo PvE** | Bajo | Ninguna | Exploración segura y farmeo de mazmorras |
+| **Modo PvP** | Medio | Pérdida de durabilidad | Combate en mundo abierto y reputación de PvP |
+| **Alto Riesgo** | Alto | **Pérdida de equipo** | Objetos forjados por la sangre y botín de enemigos |
+
+**Características clave de PvP:**
+- **Arenas**: Formatos de cola en solitario 1v1, 2v2 y 3v3 en el nivel 60.
+- **Campos de batalla**: Combate en equipo basado en objetivos para la progresión de PvP.
+- **Eventos mundiales**: Alijo del Cuervo (Crow's Cache, Hermandad contra Hermandad) y el Gurubashi Blood Bowl.
+- **Identidad de CC (Control de Masas)**: Las clases tienen herramientas de control temáticas (por ejemplo, el miedo del Nigromante) en lugar de aturdimientos genéricos.
+
+</Section>
+
+<Section icon={Trophy} title="PvE de juego final: Mazmorras y bandas">
+
+El contenido de juego final para los jugadores de **Conquest of Azeroth gratis** está construido en torno a la filosofía "Classic Plus". Esto significa que las mazmorras y bandas familiares de Vanilla han sido reajustadas para tener en cuenta las 21 clases originales y sus conjuntos de habilidades expandidos. La dificultad escala de Normal a Ascendido (Ascended), garantizando que tanto los grupos casuales como las hermandades de bandas dedicadas tengan desafíos adecuados. La ruta alfa de nivel 60 actualmente destaca encuentros icónicos como Núcleo de Magma (Molten Core) y Onyxia, pero con mecánicas completamente nuevas y botín adaptado a las clases.
+
+<Callout type="tip" title="Escalado de mazmorras">
+Mítico+ (Mythic+) está disponible para mazmorras de Vanilla, proporcionando un bucle repetible de juego final para grupos de 5 personas que prefieren la coordinación de equipos pequeños en lugar de las bandas.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Dificultades de mazmorras">
+    - **Normal**: Equipo de nivelación básico.
+    - **Heroico**: Ajuste intermedio para personajes recién llegados al nivel 60.
+    - **Mítico**: Mecánicas avanzadas y comprobaciones de rol.
+    - **Mítico+**: Dificultad escalable con recompensas de temporada.
+  </Card>
+  <Card title="Niveles de bandas">
+    - **Flex Normal**: Entrada casual para 10-25 jugadores.
+    - **Flex Heroico**: Ajuste centrado en la progresión.
+    - **Mítico/Ascendido**: El desafío definitivo para las hermandades de primer nivel.
+  </Card>
+</CardGrid>
+
+| Encuentro de banda | Botín notable | Roles recomendados |
+| :--- | :--- | :--- |
+| **Núcleo de Magma** | Conjuntos de nivel, Legendarios | Coordinación intensa de tanques y sanadores |
+| **Onyxia** | Armas épicas, Abalorios | Alta movilidad y daño explosivo (burst DPS) |
+| **Jefes de mundo** | Objetos RPG únicos | Coordinación a gran escala en mundo abierto |
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes de Conquest of Azeroth">
+
+<Callout type="success" title="Recordatorio final">
+El lanzamiento del reino Vol'Jin el 3 de julio de 2026 es el mejor momento para comenzar tu aventura. ¡Únete al Discord de la comunidad para encontrar una hermandad pronto!
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Es Conquest of Azeroth gratuito?",
+    answer: "Sí, Conquest of Azeroth es completamente gratuito. Es un proyecto comunitario alojado en el iniciador de Project Ascension y no requiere una suscripción de Blizzard."
+  },
+  {
+    question: "¿Cómo descargo el juego?",
+    answer: "Debes descargar el iniciador oficial de Project Ascension desde su sitio web, crear una cuenta y seleccionar el reino Conquest of Azeroth (Vol'Jin) en el menú del iniciador."
+  },
+  {
+    question: "¿Puedo cambiar mi clase después de comenzar?",
+    answer: "La elección de clase es una identidad central en CoA. Aunque puedes restablecer tus talentos y especializaciones de forma gratuita o por un pequeño costo de oro, cambiar tu clase base generalmente requiere crear un nuevo personaje."
+  },
+  {
+    question: "¿Cuál es la diferencia entre PvP y Alto Riesgo (High Risk)?",
+    answer: "En el modo PvP, puedes luchar contra otros pero no perderás objetos. En el modo de Alto Riesgo, al morir sueltas un cofre que contiene parte de tu equipo, pero obtienes acceso a recompensas forjadas por la sangre."
+  }
+]} />
+
+</Section>

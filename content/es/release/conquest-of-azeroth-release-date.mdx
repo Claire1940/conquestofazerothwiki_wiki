@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Download, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fecha de Lanzamiento de Conquest of Azeroth: Guía de Configuración 2026",
+  description: "Obtén la fecha oficial de lanzamiento de Conquest of Azeroth, instrucciones de descarga y detalles del reino para el lanzamiento de Vol'Jin en Project Ascension.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/090D12/F4C24E?text=Release+Date+and+Setup",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "conquest of azeroth, fecha de lanzamiento, guía, project ascension, wow classic plus"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Fecha de Lanzamiento**: La **fecha oficial de lanzamiento de Conquest of Azeroth** es el 3 de julio de 2026, en el reino Vol'Jin.
+- **Método de Acceso**: Los jugadores deben usar el **Project Ascension Launcher** oficial para acceder al reino personalizado.
+- **Contenido Principal**: Incluye **21 clases originales**, 69 especializaciones y un sistema de talentos completamente reconstruido.
+- **Tipo de Cuenta**: Solo se requiere una **cuenta de Ascension** estándar para jugar a todos los módulos personalizados.
+- **Enfoque del Sistema**: Combina **árboles de talentos al estilo Dragonflight** con una experiencia de mundo Azeroth classic-plus.
+</Callout>
+
+<Section icon={Map} title="Cronograma de Lanzamiento y Acceso al Servidor">
+
+La espera por la experiencia definitiva de WoW personalizado ha terminado. El equipo de desarrollo ha confirmado el lanzamiento del reino Vol'Jin, marcando una nueva era para el ecosistema de Project Ascension. Este lanzamiento transiciona el proyecto desde sus extensas fases de beta abierta hacia un entorno en vivo completo donde los jugadores finalmente pueden comprometerse con sus fantasías de clase sin la amenaza de reinicios estacionales.
+
+**Puntos Destacados del Video:**
+- Revelación cinematográfica oficial de las **21 clases originales**.
+- Vistazo detallado al cronograma de lanzamiento y zonas horarias del **reino Vol'Jin**.
+- Vista previa de los **árboles de talentos al estilo Dragonflight** en acción.
+- Desglose de los cambios del mundo "Azeroth Renacido" y estadísticas de criaturas RPG.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Lanzamiento Completo: Conquest of Azeroth - Ascension WoW" />
+
+El lanzamiento está sincronizado en las principales zonas horarias globales para asegurar un inicio justo para la comunidad. A continuación se muestra el horario esencial para la apertura del reino Vol'Jin.
+
+| Región | Fecha de Lanzamiento | Hora de Lanzamiento |
+| :--- | :--- | :--- |
+| **Hora del Pacífico (PT)** | 3 de julio de 2026 | 7:00 AM |
+| **Hora del Este (ET)** | 3 de julio de 2026 | 10:00 AM |
+| **Hora del Meridiano de Greenwich (GMT)** | 3 de julio de 2026 | 3:00 PM |
+| **Hora de Moscú (MSK)** | 3 de julio de 2026 | 6:00 PM |
+
+<Callout type="success" title="Estabilidad del Lanzamiento">
+El reino Vol'Jin está diseñado para manejar una alta densidad de población. Recomendamos iniciar sesión en el launcher 30 minutos antes de la ventana de la **fecha de lanzamiento de Conquest of Azeroth** para asegurar que tu cliente esté completamente parcheado y listo para la cola de inicio de sesión.
+</Callout>
+
+</Section>
+
+<Section icon={Download} title="Cómo Descargar e Instalar">
+
+Acceder al juego requiere la infraestructura unificada de Ascension. A diferencia de los servidores privados tradicionales que dependen de ediciones manuales del realmlist, este proyecto utiliza un launcher a medida que gestiona actualizaciones de archivos, parches personalizados y protocolos de seguridad de forma automática.
+
+<Steps>
+  <Step num="1" title="Crear una Cuenta de Ascension">
+    Visita el [sitio web oficial de Ascension](https://ascension.gg/en) y registra una cuenta única. Este inicio de sesión único proporciona acceso al reino Conquest of Azeroth, así como a otros módulos como Area 52 o Elune.
+  </Step>
+  <Step num="2" title="Descargar el Launcher Oficial">
+    Navega a la [página de descarga](https://ascension.gg/en/download) y selecciona el cliente para Windows. Para usuarios de Linux, consulta las guías de Lutris/Wine mantenidas por la comunidad disponibles en el Discord oficial.
+  </Step>
+  <Step num="3" title="Seleccionar la Ruta de Conquest of Azeroth">
+    Una vez instalado el launcher, abre el menú de selección de reino. Elige la ruta de **Conquest of Azeroth**. El launcher comenzará a descargar varios gigabytes de datos personalizados necesarios para las nuevas clases y activos del mundo.
+  </Step>
+  <Step num="4" title="Selección de Reino: Vol'Jin">
+    Después de que se complete la descarga, haz clic en "Jugar". En la lista de reinos dentro del juego, selecciona **Vol'Jin** para comenzar tu viaje. Asegúrate de no seleccionar "Bronzebeard" o "Area 52" si tu intención es jugar el mod personalizado de 21 clases.
+  </Step>
+</Steps>
+
+| Componente | Requisito Mínimo | Recomendado |
+| :--- | :--- | :--- |
+| **Sistema Operativo** | Windows 7 64-bit | Windows 10/11 64-bit |
+| **Espacio en Disco** | 30 GB Disponibles | 40 GB SSD Recomendado |
+| **Internet** | Conexión de Banda Ancha | Fibra de baja latencia |
+| **Cuenta** | Inicio de sesión de Ascension válido | Cuenta con MFA habilitado |
+
+<Callout type="warning" title="Falsos Positivos de Antivirus">
+Debido a la naturaleza personalizada del sistema de parches del launcher, algunos software antivirus pueden marcar el ejecutable. Recomendamos añadir la carpeta de Ascension a tu lista de "Exclusiones" para evitar descargas interrumpidas o errores de "Archivo en uso" durante la prisa de la **fecha de lanzamiento de Conquest of Azeroth**.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Las 21 Clases Originales y Roles">
+
+El principal atractivo de este proyecto es el alejamiento del meta estándar de nueve clases. Hay 21 clases meticulosamente diseñadas, cada una con al menos tres especializaciones. Estas clases están construidas desde cero con sistemas de recursos únicos, animaciones personalizadas y equipo específico acorde al lore.
+
+<CardGrid cols={3}>
+  <Card title="Nigromante">
+    - **Roles**: DPS a distancia
+    - **Mecánica**: Fuerza vital y esbirros no-muertos
+    - **Fantasía**: Maestro de las plagas, la escarcha y los muertos.
+  </Card>
+  <Card title="Mago de Sangre">
+    - **Roles**: Tanque, Sanador, DPS
+    - **Mecánica**: Gasto y succión de salud
+    - **Fantasía**: Sustento vampírico y hechicería sanguínea.
+  </Card>
+  <Card title="Manitas">
+    - **Roles**: DPS, Sanador
+    - **Mecánica**: Rondas, torretas y artilugios
+    - **Fantasía**: Control del campo de batalla basado en ingeniería.
+  </Card>
+</CardGrid>
+
+Elegir tu primer personaje es una decisión significativa. A diferencia del modo "Sin clases" (Classless) que se encuentra en otros reinos de Ascension, tu elección aquí define tu conjunto de herramientas principal y las especializaciones disponibles.
+
+| Categoría de Clase | Clases Destacadas | Roles Principales |
+| :--- | :--- | :--- |
+| **Artes Oscuras** | Nigromante, Cultista, Segador | DPS, Tanque, Sanador |
+| **Maestría Marcial** | Guardián, Bárbaro, Templario | Tanque, DPS, Apoyo |
+| **Elemental/Naturaleza** | Primalista, Clama tormentas, Piromante | Híbrido, DPS, Sanador |
+| **Especialista** | Manitas, Cazador de Brujas, Cronomante | Utilidad, Tanque, DPS |
+
+<Callout type="tip" title="Flexibilidad Híbrida">
+Muchas clases, como el **Clamaestrellas** o el **Clérigo del Sol**, pueden cumplir los tres roles principales (Tanque, Sanador, DPS). Si no estás seguro de tu preferencia para el contenido de nivel máximo, comenzar con una clase triple híbrida ofrece la mayor versatilidad para el contenido en grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Árboles de Talentos y Sistema de Progresión">
+
+El sistema de progresión utiliza una estructura de árbol dual inspirada en el diseño de los RPG modernos. Al alcanzar el nivel 10, desbloqueas la capacidad de especializarte, lo que altera fundamentalmente cómo interactúa tu clase con el mundo.
+
+**Mecánicas Principales de Talentos:**
+- **Árbol de Clase**: Contiene utilidad, herramientas defensivas y habilidades principales de toda la clase.
+- **Árbol de Especialización**: Se enfoca en roles específicos (por ejemplo, el árbol de "Demolición" para los Manitas).
+- **Auto-Build**: Una función para principiantes que asigna puntos basados en recomendaciones del meta.
+- **Asignación de Puntos**: Los jugadores ganan puntos que alternan entre los árboles de Clase y Especialización en cada nivel.
+
+| Rango de Nivel | Hito Importante | Sistema Desbloqueado |
+| :--- | :--- | :--- |
+| **1 - 3** | Misión de Clase Inicial | Encontrar Instructor de Clase |
+| **10** | Elección de Especialización | Árboles de Talentos y Auto-Build |
+| **35** | Maestría de Rotación Principal | Misiones de Clase Avanzadas |
+| **55** | Fase Previa al Nivel Máximo | Mejoras de Hechizos Mayores |
+| **60** | Límite de Nivel | Bandas, Arenas, Alto Riesgo |
+
+<Checklist
+  id="starting-checklist"
+  title="Prioridades para Jugadores Nuevos:"
+  items={[
+    "Localiza a tu Instructor de Clase para el nivel 3 para comenzar tu primera misión única.",
+    "Elige una Especialización al nivel 10 para definir tu rol en el grupo.",
+    "Activa el 'Auto-Build' si te sientes abrumado por los más de 1000 talentos disponibles.",
+    "Recoge los botines 'Inmersivos' de los monstruos del mundo abierto para mejorar tu equipo.",
+    "Únete al Discord oficial para revisar el 'Estado del Servidor' en vivo durante la semana de lanzamiento."
+  ]}
+/>
+
+<Callout type="info" title="Costos de Reinicio de Talentos">
+Reiniciar tus talentos es accesible y asequible. Esto fomenta la experimentación durante el proceso de nivelación, permitiéndote probar diferentes especializaciones como "Escarcha" frente a "Animación" en un Nigromante sin una fuerte penalización de oro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="PvE, PvP y Modos de Alto Riesgo">
+
+El mundo está dividido en diferentes "Fases" o modos que dictan el nivel de peligro y recompensa que encontrarás. Este sistema asegura que tanto los jugadores competitivos hardcore como los exploradores casuales puedan disfrutar del contenido de la **fecha de lanzamiento de Conquest of Azeroth** en sus propios términos.
+
+**Modos de Juego Disponibles:**
+1. **Modo PvE**: El PvP en mundo abierto está desactivado. Enfócate en misiones, mazmorras y bandas sin interferencias.
+2. **Modo PvP**: El combate en mundo abierto está totalmente habilitado. Lucha por territorio y orgullo sin perder tu equipo.
+3. **PvP de Alto Riesgo (High Risk)**: Una fase separada donde los jugadores derrotados sueltan cofres que contienen una parte de su inventario y objetos equipados.
+
+| Característica | Modo PvE | Modo PvP | Alto Riesgo |
+| :--- | :--- | :--- | :--- |
+| **Ganking en el Mundo** | Ninguno | Posible | Esperado |
+| **Pérdida de Equipo** | No | No | **Sí (al morir)** |
+| **Botín Exclusivo** | Estándar | Estándar | **Objetos Forjados en Sangre** |
+| **Fase de Jugador** | Compartida | Compartida | Separada |
+
+<CardGrid cols={2}>
+  <Card title="Mazmorras y Bandas">
+    Experimenta el contenido clásico de Vanilla ajustado para 21 clases. Los modos incluyen Normal, Heroico, Mítico y el escalado infinito de **Mítico+**.
+  </Card>
+  <Card title="Arenas y Campos de Batalla">
+    Participa en arenas estructuradas de 1v1, 2v2 y 3v3. Los campos de batalla como Garganta Grito de Guerra están disponibles para el juego por objetivos en equipo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Recompensas de Alto Riesgo">
+Aunque el peligro es alto, la fase de "Alto Riesgo" ofrece la forma más rápida de obtener **equipo Forjado en Sangre**. Estos objetos son versiones poderosas del botín de mazmorra que se encuentran directamente en los monstruos del mundo, lo que lo convierte en una opción lucrativa para jugadores en solitario habilidosos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes de Conquest of Azeroth">
+
+<FAQ items={[
+  {
+    question: "¿Cuándo es la fecha de lanzamiento de Conquest of Azeroth?",
+    answer: "El lanzamiento completo está programado para el 3 de julio de 2026, en el reino Vol'Jin. Las fases de beta anteriores han concluido para dar paso a este lanzamiento permanente."
+  },
+  {
+    question: "¿Es esta una expansión oficial de Blizzard?",
+    answer: "No, este es un mod 'Classic Plus' impulsado por la comunidad para Project Ascension. No está afiliado a Blizzard Entertainment."
+  },
+  {
+    question: "¿Puedo jugar las 21 clases en el reino Area 52?",
+    answer: "No. Las 21 clases originales son exclusivas del módulo Conquest of Azeroth. Otros reinos de Ascension como Area 52 utilizan el sistema 'Sin clases' (Classless) en su lugar."
+  },
+  {
+    question: "¿Necesito pagar una suscripción para jugar?",
+    answer: "El juego es gratuito (free to play). Aunque hay una tienda opcional para cosméticos y artículos de conveniencia, las 21 clases y toda la progresión de poder están disponibles para todos de forma gratuita."
+  }
+]} />
+
+</Section>

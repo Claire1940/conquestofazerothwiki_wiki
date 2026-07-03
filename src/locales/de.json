@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Release",
+    "access": "Zugang",
+    "classes": "Klassen",
+    "tier": "Tier-Liste",
+    "talents": "Talente",
+    "guide": "Guide"
+  }
+}

@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para Principiantes de Conquest of Azeroth: Configuración Paso a Paso 2026",
+  description: "Domina las 21 clases originales y los talentos al estilo Dragonflight en nuestra guía para principiantes de Conquest of Azeroth. Aprende sobre la configuración del lanzamiento, builds y consejos de nivelación.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Beginner+Guide+2026",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "conquest of azeroth, guía para principiantes, ascension wow, clases personalizadas, talentos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía para principiantes de Conquest of Azeroth**: Enfocada en el **reino Vol'Jin** que se lanza el 3 de julio de 2026, con 21 clases personalizadas.
+- **Mecánica Principal**: Utiliza los **árboles de talentos al estilo Dragonflight** que alternan puntos entre los árboles de Clase y Especialización.
+- **Mejor Estrategia**: Usa la **función Auto-Build** al principio para evitar confusiones con los talentos mientras aprendes los nuevos recursos de clase.
+- **Consejo Crítico**: Localiza a tu **Instructor de Clase** para el nivel 3 para desbloquear misiones esenciales y habilidades iniciales.
+- **Mejor Elección**: Elige **Nigromante** o **Mago de Sangre** para una alta supervivencia durante la fase inicial de nivelación.
+</Callout>
+
+<Section icon={Map} title="Acceso al Lanzamiento y Guía de Descarga">
+
+El lanzamiento oficial del reino Vol'Jin marca un hito significativo para Project Ascension. Esta experiencia personalizada reemplaza el sistema estándar sin clases por 21 clases originales meticulosamente diseñadas. Para participar en el viaje de esta **guía para principiantes de Conquest of Azeroth**, los jugadores deben usar el lanzador dedicado de Project Ascension, que gestiona todos los parches y addons aprobados.
+
+**Puntos Destacados del Video:**
+- **Resumen del Lanzamiento Completo**: Un desglose de la ventana de lanzamiento del 3 de julio de 2026 y detalles del reino.
+- **Muestra de Clases**: Avances visuales de las 21 clases originales en acción.
+- **Cambios en el Mundo**: Introducción a las características de "Azeroth Renacido" y estadísticas de criaturas de RPG.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Full Release: Conquest of Azeroth - Ascension WoW" />
+
+| Característica | Requisito / Detalle |
+| :--- | :--- |
+| **Fecha de Lanzamiento** | **3 de julio de 2026** |
+| **Reino Principal** | **Vol'Jin (Conquest of Azeroth)** |
+| **Tipo de Cuenta** | Cuenta única de Ascension |
+| **Plataforma** | Windows (Linux a través de la guía comunitaria) |
+| **Lanzador** | Lanzador oficial de Project Ascension |
+| **Versión del Cliente** | Base 3.3.5 (Recursos personalizados) |
+
+<Callout type="warning" title="Descargo de Responsabilidad">
+Este es un sitio de guía no oficial hecho por fans. Conquest of Azeroth es un mod personalizado para Project Ascension y no está afiliado a Blizzard Entertainment ni a World of Warcraft.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Eligiendo tu Clase Inicial">
+
+A diferencia de los reinos estándar "sin clases" de Ascension, Conquest of Azeroth requiere que elijas una de las 21 clases únicas. Cada clase cuenta con al menos tres especializaciones y mecánicas de recursos únicas, como la **Fuerza Vital** para los Nigromantes o la **Insensatez** para los Cultistas. Seleccionar tu primer personaje es el paso más importante en esta **guía para principiantes de Conquest of Azeroth**.
+
+<CardGrid cols={3}>
+  <Card title="Nigromante">
+    - **Rol**: DPS
+    - **Armadura**: Tela
+    - **Enfoque**: Mascotas no-muertas, plagas y magia de escarcha.
+  </Card>
+  <Card title="Mago de Sangre">
+    - **Rol**: Tanque/DPS/Sanador
+    - **Armadura**: Cuero
+    - **Enfoque**: Hechizos que consumen salud y sustento vampírico.
+  </Card>
+  <Card title="Manitas (Tinker)">
+    - **Rol**: DPS/Sanador
+    - **Armadura**: Malla
+    - **Enfoque**: Torretas, explosivos y artilugios mecánicos.
+  </Card>
+</CardGrid>
+
+| Nombre de Clase | Roles Principales | Recurso Clave | Tipo de Armadura |
+| :--- | :--- | :--- | :--- |
+| **Piromante** | DPS / Sanador | Maná / Calor | Tela |
+| **Guardián** | Tanque / DPS / Apoyo | Ira / Aguante | Placas |
+| **Invocador de Estrellas** | Tanque / DPS / Sanador | Poder Lunar | Malla / Placas |
+| **Segador** | Tanque / DPS | Almas / Salud | Placas |
+| **Clérigo del Sol** | Tanque / DPS / Sanador | Poder Solar | Tela / Placas |
+
+<Callout type="tip" title="Recomendación para Principiantes">
+Si no estás seguro de qué rol jugar, el **Clérigo del Sol** o el **Invocador de Estrellas** ofrecen la mayor flexibilidad, permitiéndote cambiar entre los roles de Tanque, Sanador y DPS a medida que progresas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El Sistema de Talentos y Progresión">
+
+El sistema de progresión en Conquest of Azeroth está inspirado en los diseños de talentos modernos. A partir del nivel 10, los jugadores desbloquean dos árboles distintos: el **Árbol de Clase** y el **Árbol de Especialización**. A medida que subas de nivel, alternarás entre recibir puntos para estos árboles, asegurando un crecimiento equilibrado de utilidad y poder bruto.
+
+<Steps>
+  <Step num="1" title="Alcanza el Nivel 3">
+    Presta atención al aviso en pantalla para encontrar a tu **Instructor de Clase**. Se encuentra en los centros iniciales como Villadorada o Rémol.
+  </Step>
+  <Step num="2" title="Desbloquea la Especialización">
+    Al **Nivel 10**, abre la interfaz de talentos (N) y elige tu especialización principal. Esta elección dicta tu rol de combate principal.
+  </Step>
+  <Step num="3" title="Asigna Puntos de Talento">
+    Gasta puntos en el Árbol de Clase para utilidad general y en el Árbol de Especialización para poder específico del rol. Usa **Auto-Build** si deseas un camino guiado.
+  </Step>
+  <Step num="4" title="Visita a los Instructores Regularmente">
+    A diferencia del WoW retail, debes visitar a los instructores para aprender nuevos rangos de hechizos o habilidades elegidas específicamente que no se aprenden automáticamente.
+  </Step>
+</Steps>
+
+| Rango de Nivel | Hito Importante | Característica Desbloqueable |
+| :--- | :--- | :--- |
+| **1 - 10** | Rotación Básica | Misión de Clase y Acceso al Instructor |
+| **10 - 30** | Definición de Rol | Elección de Spec y Primeros Puntos de Talento |
+| **30 - 50** | Maestría de Juego Medio | Mecánicas de Clase Avanzadas (ej. Mechs) |
+| **50 - 60** | Prep. Juego Final | Mazmorras Heroicas y Raids Iniciales |
+
+<Callout type="success" title="Flexibilidad de Talentos">
+Puedes restablecer tus talentos con tu Instructor de Clase. Esto es muy recomendable si sientes que tu build actual carece de supervivencia en zonas de mayor nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Nivelación y Mecánicas del Mundo">
+
+Conquest of Azeroth introduce un mundo "Renacido". Esto significa que las estadísticas de las criaturas han sido ajustadas para ofrecer un desafío más centrado en el RPG. Encontrarás **Botines Inmersivos** y **Objetos de RPG de Mundo Abierto** que proporcionan bonificaciones únicas adaptadas específicamente a las 21 clases personalizadas.
+
+<Checklist
+  id="leveling-checklist"
+  title="Lista de Verificación del Juego Temprano:"
+  items={[
+    "Completa la misión de clase de nivel 3 para obtener tu arma inicial.",
+    "Equipa equipo con tu estadística principal (Intelecto para Lanzadores, Fuerza/Agilidad para Melé).",
+    "Únete a una Hermandad pronto para coordinar grupos de Mazmorras.",
+    "Prueba la función Auto-Build para ver la ruta de talentos recomendada.",
+    "Abastécete de reactivos específicos de clase (ej. Pólvora Negra para los Manitas)."
+  ]}
+/>
+
+<Callout type="info" title="Exploración del Mundo">
+Mantente atento a los **Puntos de Interés Personalizados**. El mundo ha sido poblado con nuevos NPCs y tesoros que apoyan el lore de las 21 clases originales.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Juego Final: Modos PvE y PvP">
+
+Una vez que alcances el nivel máximo, la **guía para principiantes de Conquest of Azeroth** transiciona hacia los sistemas de juego final. El reino ofrece un sistema de riesgo híbrido, permitiendo a los jugadores elegir su nivel de compromiso con el conflicto en el mundo abierto.
+
+| Tipo de Modo | Nivel de Riesgo | Mecánicas Principales |
+| :--- | :--- | :--- |
+| **Modo PvE** | **Bajo** | No seleccionable como objetivo en el mundo abierto; enfoque en Mazmorras/Raids. |
+| **Modo PvP** | **Medio** | Combate en mundo abierto habilitado; sin pérdida de equipo. |
+| **Alto Riesgo** | **Alto** | Fase separada; los jugadores sueltan cofres de equipo al morir. |
+| **Arenas** | **Competitivo** | Encuentros puntuados de 1v1, 2v2 y 3v3. |
+
+### Mazmorras y Bandas
+El juego final PvE incluye mazmorras y bandas clásicas de Vanilla, pero con un ajuste totalmente nuevo para las clases personalizadas. Puedes progresar a través de Normal, Heroico, Mítico y el desafiante sistema **Mítico+** para contenido de 5 personas. Bandas como **Núcleo de Magma** y **Onyxia** cuentan con dificultades "Ascended" para recompensas de primer nivel.
+
+<Callout type="warning" title="Advertencia de Alto Riesgo">
+Entrar en la fase **PvP de Alto Riesgo** es una instancia de mundo separada. Solo entra si estás preparado para perder los objetos equipados ante otros jugadores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo empiezo a jugar Conquest of Azeroth?",
+    answer: "Descarga el lanzador de Project Ascension, crea una cuenta en su sitio web y selecciona el reino Vol'Jin desde la interfaz del lanzador."
+  },
+  {
+    question: "¿Puedo cambiar mi clase después de empezar?",
+    answer: "No, la elección de clase es permanente para ese personaje. Sin embargo, puedes cambiar tu especialización y talentos en cualquier momento con un Instructor de Clase."
+  },
+  {
+    question: "¿Cuál es la mejor clase para un principiante en esta guía?",
+    answer: "El Nigromante y el Mago de Sangre son excelentes para principiantes debido a su fuerte autosanación y gestión de mascotas, lo que facilita mucho la nivelación en solitario."
+  },
+  {
+    question: "¿Cubre esta guía el lanzamiento de 2026?",
+    answer: "Sí, esta guía para principiantes de Conquest of Azeroth está adaptada específicamente para el lanzamiento del reino Vol'Jin el 3 de julio de 2026."
+  }
+]} />
+
+</Section>

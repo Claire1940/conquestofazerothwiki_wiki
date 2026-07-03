@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Nekromanten-Build: Leitfaden für Tod & Animation 2026",
+  description: "Meistere den Conquest of Azeroth Nekromanten-Build mit unserem Leitfaden zu Talenten, Lebenskraft-Mechaniken und den besten Spezialisierungen für den Vol'Jin-Launch 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Necromancer+Build+Guide",
+  date: "2026-07-03",
+  author: "conquest of azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Nekromanten-Build**: Konzentriert sich auf das Management der **Lebenskraft** (Life Force), um mächtige untote Beschwörungen und schattenbasierten Schaden (DPS) zu speisen.
+- **Primäre Attribute**: Priorisiere **Intellekt** für pure Macht und **Ausdauer** zur Erhöhung deines Lebenskraft-Pools.
+- **Beste Spezialisierung**: **Animation** ist die erste Wahl für ein gameplay mit vielen Begleitern, während **Tod** (Death) bei Schaden-über-Zeit-Druck (DoT) glänzt.
+- **Kernmechanik**: Nutze dunkle Zauber, um Lebenskraft zu erzeugen, und gib sie dann für **untote Schwärme** und Elite-Diener aus.
+- **Veröffentlichungsdatum**: Dieser Build ist für den Release des **Vol'Jin-Realms** am 3. Juli 2026 optimiert.
+</Callout>
+
+<Section icon={Map} title="Klassenübersicht und Kernidentität des Nekromanten">
+
+Der Nekromant in **Conquest of Azeroth** ist ein engagierter, Stoff tragender Zauberwirker, der den klassischen Beschwörer-Archetyp neu definiert. Im Gegensatz zu Standardklassen nutzt der Nekromant ein einzigartiges Ressourcensystem namens **Lebenskraft** (Life Force). Diese Ressource ist das Lebenselixier deiner Rotation und dient sowohl als Treibstoff für deine verheerendsten Zauber als auch als Energie, die benötigt wird, um eine permanente Armee der Toten aufrechtzuerhalten.
+
+In der Meta von 2026 ist der **Conquest of Azeroth Nekromanten-Build** in erster Linie ein DPS-Kraftpaket. Egal, ob du Seuchen verbreitest oder eine Legion von Skelettbogenschützen befehligst, dein Erfolg hängt davon ab, die Erzeugung von Lebenskraft mit wirkungsvollem Ausgeben in Einklang zu bringen. Die Klasse ist für Spieler konzipiert, die gerne mehrere Einheiten verwalten und durch anhaltende magische Effekte hohen Druck aufrechterhalten.
+
+| Attribut | Detail |
+| :--- | :--- |
+| **Primäre Rolle** | Schadensverursacher (DPS) |
+| **Rüstungstyp** | Stoff |
+| **Primärattribut** | Intellekt |
+| **Ressource** | Lebenskraft (Life Force) |
+| **Klassenfantasie** | Meister des Untods, der Seuchen und Knochen |
+| **Schwierigkeit** | Moderat (Erfordert Begleiter-Management) |
+
+<Callout type="tip" title="Ressourcenmanagement">
+Behalte deine Lebenskraftleiste immer im Auge. Wenn dir mitten im Kampf die Lebenskraft ausgeht, kann dies dazu führen, dass deine Begleiter inaktiv werden oder du wichtige Verteidigungszauber wie Knochenschild nicht mehr wirken kannst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Wahl deiner Spezialisierung: Tod, Animation oder Rime">
+
+Auf Stufe 10 muss jeder Spieler eine primäre Spezialisierung wählen. Für einen **Conquest of Azeroth Nekromanten-Build** bestimmt diese Wahl deinen gesamten Kampfablauf und die Art der Diener, die du kontrollierst. Jede Spezialisierung hat einen eigenen Talentbaum, der neben dem Basis-Talentbaum des Nekromanten funktioniert.
+
+<CardGrid cols={3}>
+  <Card title="Animation (S-Tier)">
+    - **Fokus**: Riesige Begleiter-Schwärme und Elite-Untote.
+    - **Spielstil**: Befehlige Skelettkrieger, -magier und Golems.
+    - **Bestens geeignet für**: Solo-Leveln und Dungeon-DPS.
+  </Card>
+  <Card title="Tod (A-Tier)">
+    - **Fokus**: Schattenschaden und ansteckende Seuchen.
+    - **Spielstil**: DoTs (Schaden über Zeit) verbreiten und Feinde von innen heraus verrotten lassen.
+    - **Bestens geeignet für**: Kämpfe gegen mehrere Ziele und PvP-Druck.
+  </Card>
+  <Card title="Rime (B-Tier)">
+    - **Fokus**: Frostmagie und Gegnergruppenkontrolle.
+    - **Spielstil**: Feinde einfrieren, während du explosiven Frostschaden verursachst.
+    - **Bestens geeignet für**: Defensive Nützlichkeit und spezifische Bossmechaniken.
+  </Card>
+</CardGrid>
+
+| Spez. | Schlüsselmechanik | Signaturfähigkeit |
+| :--- | :--- | :--- |
+| **Animation** | Diener-Raserei | Totenerweckung / Golem-Meisterschaft |
+| **Death** | Seuchenverbreitung | Epidemie / Seelenernte |
+| **Rime** | Unterkühlte Ressource | Gletscherspitzen / Frostfieber |
+
+<Callout type="info" title="Experten-Empfehlung">
+Für den Start auf dem Vol'Jin-Realm im Juli 2026 empfehlen wir dringend, mit der Spezialisierung **Animation** zu beginnen. Sie bietet dank der hohen Überlebensfähigkeit deiner Begleiter das reibungsloseste Level-Erlebnis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Level-Guide (1-60)">
+
+Das Fortschreiten deines **Conquest of Azeroth Nekromanten-Builds** erfordert einen strategischen Ansatz bei der Talentverteilung und den Besuchen beim Lehrer. Der Levelweg für 2026 ist optimiert, erfordert jedoch Aufmerksamkeit für deine klassenspezifischen Quests.
+
+<Steps>
+  <Step num="1" title="Das Erwachen auf Stufe 3">
+    Beginne in deinem Startgebiet und erreiche Stufe 3. Du erhältst sofort eine Aufforderung für deine erste Klassenquest. Suche unverzüglich deinen Lehrer in **Goldhain, Kharanos oder Brill** auf, um deine grundlegenden Lebenskraft-Erzeuger freizuschalten.
+  </Step>
+  <Step num="2" title="Wahl der Spezialisierung (Stufe 10)">
+    Schalte deinen Spezialisierungsbaum frei. Wenn du dich für **Animation** entscheidest, sollten deine ersten Punkte in **Skelett-Meisterschaft** fließen, um die Gesundheit und den Schaden deiner Basisbeschwörungen zu erhöhen.
+  </Step>
+  <Step num="3" title="Talent-Wechsel (Stufen 10-40)">
+    Die Punkte wechseln zwischen dem **Klassenbaum** und dem **Spezialisierungsbaum** ab. Konzentriere dich auf den Klassenbaum für Nützlichkeit (wie Bewegungsgeschwindigkeit oder Manaeffizienz) und den Spezialisierungsbaum für pure Schadensleistung.
+  </Step>
+  <Step num="4" title="Fortgeschrittenes Beschwören (Stufe 45)">
+    Besuche deinen Lehrer, um **Elite-Beschwörungen** zu erlernen. Dies ermöglicht es dir, große Mengen an Lebenskraft auszugeben, um mächtige temporäre Diener herbeizurufen, die Weltbosse tanken können.
+  </Step>
+  <Step num="5" title="Übergang ins Endgame (Stufe 60)">
+    Stelle deinen Build von Level-Effizienz auf schlachtzugsfertigen DPS um. Dies beinhaltet das Zurücksetzen deiner Talente auf hochsynergistische Talente, die von Gruppen-Buffs profitieren.
+  </Step>
+</Steps>
+
+| Stufenbereich | Fokusbereich | Wichtige Freischaltung |
+| :--- | :--- | :--- |
+| **1-10** | Basis-Rotation | Lebenskraft-Erzeugung |
+| **11-30** | Begleiter-Synergie | Spezialisierungsbaum |
+| **31-50** | AoE & Seuchen | Fortgeschrittene Diener |
+| **51-60** | Attributsoptimierung | Meilenstein-Talente (Capstone) |
+
+<Callout type="warning" title="Lehrer-Warnung">
+Überspringe deine Klassenquests nicht. Viele Kernfähigkeiten des Nekromanten sind hinter diesen spezifischen Story-Missionen gesperrt, und ohne sie wirst du dich erheblich unterpowert fühlen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mechaniken des Talentbaums und bester Build-Weg">
+
+Das Talentsystem in **Conquest of Azeroth** ist von den modernen Dragonflight-Bäumen inspiriert, aber auf das 21-Klassen-System zugeschnitten. Für den Nekromanten musst du dich durch zwei verschiedene Bäume navigieren, die sorgfältig ausbalanciert werden müssen, um deinen DPS zu maximieren.
+
+Der **Klassenbaum** bietet allgemeine Nekromanten-Werkzeuge wie **Knochenschild**, **Aderlass** und **Fluch der Erschöpfung**. Der **Spezialisierungsbaum** (speziell für Animation) konzentriert sich darauf, deine Untoten zu verstärken und neue Arten von Beschwörungen freizuschalten.
+
+| Talentname | Baumtyp | Effekt |
+| :--- | :--- | :--- |
+| **Master of Dead** | Spezialisierung | Erhöht den Schaden von Begleitern um 15 % / reduziert die Beschwörungskosten |
+| **Vampiric Touch** | Klasse | Heilt den Nekromanten um einen Prozentsatz des verursachten Schattenschadens |
+| **Dark Empowerment** | Spezialisierung | Gewährt Begleitern 10 Sekunden lang 20 % Tempo |
+| **Soul Siphon** | Klasse | Erhöht die Lebenskraft-Erzeugung durch Basiszauber |
+| **Army of the Dead** | Spezialisierung | Ultimativ: Beschwört 8 Ghule, die das Ziel bestürmen |
+
+<Callout type="success" title="Auto-Build-Tipp">
+Wenn du von den über 1000 Zaubern und Talenten überwältigt bist, nutze die **Auto-Build**-Funktion, die mit dem Update 2026 eingeführt wurde. Sie verteilt deine Punkte automatisch in einen statistisch bewährten "Starter Animation"-Build.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ausrüstungswahl und Attributspriorität">
+
+Die Ausrüstung für einen **Conquest of Azeroth Nekromanten-Build** zu sammeln, beinhaltet die Suche nach "Immersive Loot"-Drops in der offenen Welt. Im Gegensatz zum Standard-WoW verwendet CoA ein überarbeitetes Itemisierungssystem, bei dem Attribute wie **Zaubermacht** und **Intellekt** lebenswichtig sind, aber sekundäre Attribute wie **Tempo** erheblich beeinflussen, wie schnell deine Begleiter angreifen.
+
+<Checklist
+  id="necromancer-gear-goals"
+  title="Wichtige Ausrüstungs-Meilensteine:"
+  items={[
+    "Besorge dir einen 'Darkened Bone'-Stab für frühe Zaubermacht-Boosts",
+    "Sammle 4 Teile des 'Acolyte'-Stoffsetsets für den Begleiterschadens-Bonus",
+    "Rüste ein Lebenskraft-Schmuckstück aus, um deine Ressourcen-Obergrenze zu erhöhen",
+    "Verzaubere deinen Umhang mit 'Shadow Affinity', um Bedrohung zu reduzieren",
+    "Setze Intellekt-Edelsteine in alle verfügbaren Ausrüstungsplätze ein"
+  ]}
+/>
+
+| Priorität | Attribut | Grund |
+| :--- | :--- | :--- |
+| **1** | **Intellekt** | Erhöht die gesamte Zaubermacht und den Manapool |
+| **2** | **Zaubermacht** | Erhöht direkt den Schaden von Zaubern und Begleitern |
+| **3** | **Tempo (Haste)** | Reduziert Zauberzeiten und erhöht die Angriffsgeschwindigkeit von Begleitern |
+| **4** | **Ausdauer** | Erhöht die Überlebensfähigkeit und die Lebenskraftkapazität |
+| **5** | **Krit** | Bietet eine Chance, dass Zauber und Begleiter doppelten Schaden verursachen |
+
+<Callout type="tip" title="Profi-Ausrüstungstipp">
+Suche beim Vol'Jin-Launch 2026 nach Ausrüstung mit dem Suffix **'Minion Mastery'**. Dies ist ein benutzerdefiniertes CoA-Attribut, das speziell die Gesundheit und Rüstung deiner Beschwörungen skaliert, was sie zu brauchbaren Tanks für das Solospiel macht.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Was ist die beste Spezialisierung für einen Conquest of Azeroth Nekromanten-Build?",
+    answer: "Für die meisten Spieler ist die Spezialisierung 'Animation' die beste Wahl. Sie bietet die höchste Solo-Überlebensfähigkeit und konstanten DPS durch ihre untoten Begleiter-Mechaniken."
+  },
+  {
+    question: "Wie erzeuge ich Lebenskraft in Conquest of Azeroth?",
+    answer: "Lebenskraft wird durch die Verwendung grundlegender Schattenzauber wie Schattenblitz oder Seelendieb erzeugt. Bestimmte Talente im Klassenbaum können die Erzeugungsrate ebenfalls erhöhen."
+  },
+  {
+    question: "Können Nekromanten in dieser Version heilen oder tanken?",
+    answer: "Der Nekromant ist eine reine DPS-Klasse. Die Spezialisierung 'Animation' ermöglicht es deinen Begleitern jedoch, im Solo-Content als 'Off-Tanks' zu agieren, und die Spezialisierung 'Rime' bietet erhebliche Gegnergruppenkontrolle."
+  },
+  {
+    question: "Ist der Nekromant gut für PvP auf dem Vol'Jin-Realm?",
+    answer: "Ja, insbesondere die Spezialisierung 'Tod'. Ihre Fähigkeit, Schaden-über-Zeit-Effekte zu verbreiten, macht sie auf Schlachtfeldern zu einem Albtraum für Heiler."
+  }
+]} />
+
+</Section>

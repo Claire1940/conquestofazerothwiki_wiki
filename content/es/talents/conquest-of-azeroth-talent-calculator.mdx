@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Calculadora de Talentos de Conquest of Azeroth: Guía de Configuración de Builds",
+  description: "Domina las 21 clases y 69 especializaciones en el WoW Classic+ de Project Ascension con la guía oficial de la calculadora de talentos de Conquest of Azeroth.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/121a24/f4c24e?text=Talent+Calculator+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "calculadora de talentos, conquest of azeroth, ascension wow, builds, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Calculadora de Talentos**: La **calculadora de talentos oficial de Conquest of Azeroth** te permite planificar builds para las 21 clases personalizadas.
+- **Sistema de Árbol Dual**: Personaliza tu personaje utilizando un **Árbol de Clase** y un **Árbol de Especialización** a medida que subes de nivel.
+- **Elección a Nivel 10**: Desbloquea tu **especialización principal** y su árbol específico inmediatamente al alcanzar el nivel 10 en el mundo.
+- **Opción de Auto-Build**: Utiliza la **opción de Auto-Build** dentro del juego para asignar puntos de talento automáticamente basándote en preajustes populares de la comunidad.
+- **Comparte Builds Personalizadas**: Exporta y **comparte builds personalizadas** directamente con otros jugadores usando la interfaz web de optimización.
+</Callout>
+
+<Section icon={Sparkles} title="Cómo funciona el sistema de talentos de Conquest of Azeroth">
+
+Para dominar verdaderamente a tu personaje, utilizar la **calculadora de talentos de Conquest of Azeroth** es esencial para trazar tu camino. Conquest of Azeroth (CoA) presenta 21 clases completamente originales inspiradas en Warcraft, cada una con hechizos, recursos y estilos de juego únicos. Para soportar esta enorme profundidad de personalización, los desarrolladores implementaron una revisión integral de talentos fuertemente inspirada en los diseños modernos de árboles de talentos duales.
+
+En versiones anteriores de la alfa, las clases sufrían de un ritmo torpe, descripciones de hechizos excesivamente largas y una saturación de hechizos pasivos en el libro de hechizos. El sistema moderno soluciona esto dividiendo tu progresión de talentos en dos caminos distintos y paralelos: el **Árbol de Clase** y el **Árbol de Especialización**. El Árbol de Clase alberga utilidades genéricas, herramientas defensivas y ofensivas básicas compartidas por todos los miembros de tu clase. El Árbol de Especialización, desbloqueado al nivel 10, contiene nodos altamente específicos que definen tu rol principal, ya sea que elijas jugar como tanque, sanador, DPS o apoyo híbrido.
+
+A medida que subes de nivel del 10 al 60, alternas entre ganar puntos del Árbol de Clase y puntos del Árbol de Especialización. Este ritmo alterno obliga a tomar decisiones significativas en cada nivel, asegurando que el poder de tu personaje crezca de manera constante sin abrumar tu rotación.
+
+| Rango de Nivel | Tipo de Punto Otorgado | Árbol donde se Gasta | Sistema Desbloqueado |
+|---|---|---|---|
+| **Nivel 1-9** | Ninguno | Ninguno | Entrenamiento del kit base de clase |
+| **Nivel 10** | Punto de Especialización | Árbol de Spec | Elección de especialización primaria |
+| **Nivel 11** | Punto de Clase | Árbol de Clase | Nodos de utilidad de toda la clase |
+| **Niveles Pares** | Punto de Clase | Árbol de Clase | Camino de progresión alterno |
+| **Niveles Impares** | Punto de Especialización | Árbol de Spec | Camino de progresión alterno |
+| **Nivel 60** | Punto de Talento Final | Ambos Árboles | Talentos finales del último nivel |
+
+<Callout type="success" title="Estrategia de Puntos Alternos">
+Debido a que los puntos alternan entre los árboles de Clase y Especialización, planifica tu progresión de modo que los talentos clave que habilitan la rotación se prioricen en los niveles impares, mientras que los nodos de utilidad y defensa se completen en los niveles pares.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navegando por la calculadora de talentos de Conquest of Azeroth">
+
+Antes de gastar tu oro duramente ganado en reinicios de talentos dentro del juego en el reino Vol'Jin, la **calculadora de talentos de Conquest of Azeroth** basada en la web sirve como tu principal laboratorio de pruebas. El constructor oficial está alojado directamente dentro del ecosistema web de Project Ascension, lo que permite a los jugadores planificar, optimizar y compartir sus builds sin problemas.
+
+La interfaz está diseñada para reflejar la experiencia dentro del juego, proporcionando actualizaciones de descripciones en tiempo real, escalado de costos de recursos y seguimiento de líneas de requisitos previos. Al usar la calculadora en línea, puedes visualizar tus configuraciones finales de nivel 60 y calcular exactamente cuántos puntos puedes permitirte asignar a nodos de utilidad específicos sin sacrificar tu rendimiento principal.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Clase">
+    Navega a la página del constructor y elige una de las 21 clases originales en la cuadrícula visual. Esto cargará el Árbol de Clase básico en el lado izquierdo de tu pantalla.
+  </Step>
+  <Step num="2" title="Elige tu Especialización">
+    Haz clic en el selector de especialización para elegir tu camino principal. Esta acción desbloquea inmediatamente el Árbol de Especialización correspondiente en el lado derecho de la interfaz.
+  </Step>
+  <Step num="3" title="Asigna tus Puntos">
+    Haz clic izquierdo en los nodos para asignar puntos, comenzando desde la parte superior de ambos árboles y bajando. Haz clic derecho en los nodos para recuperar puntos. La calculadora impone automáticamente los requisitos previos de ruta.
+  </Step>
+  <Step num="4" title="Exportar y Compartir">
+    Una vez que tu build esté completa, haz clic en el botón de exportar para generar una cadena de build única o una URL. Puedes compartir este enlace con tus compañeros de hermandad o importarlo directamente al cliente del juego.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Integración de Auto-Build">
+Si te sientes abrumado por los más de 1,000 hechizos y talentos disponibles entre las clases, el cliente del juego cuenta con una opción de Auto-Build. Este sistema asigna automáticamente tus puntos basándose en configuraciones populares exportadas directamente de la calculadora de la comunidad.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arquetipos de Clase y Desglose de Roles">
+
+Elegir la clase adecuada en el reino Vol'Jin es la decisión más crítica que tomarás, dadas las marcadas diferencias mecánicas entre las 21 opciones personalizadas. A diferencia del WoW estándar (Retail o Classic), muchas clases en Conquest of Azeroth pueden cumplir múltiples roles dependiendo de cómo asignes tus puntos en la **calculadora de talentos de Conquest of Azeroth**.
+
+Por ejemplo, el Cultista puede pasar de ser un tanque con armadura de placas pesada (Dreadnought) a un sanador oscuro con temática de Dioses Antiguos (Influence) que gestiona una barra de recursos de Insanidad. De manera similar, el Manitas (Tinker) puede desplegar explosivos de demolición para DPS a distancia o utilizar nanobots y balizas para actuar como un sanador de apoyo altamente eficiente.
+
+| Clase | Tipo de Armadura | Estadísticas Principales | Roles | Especializaciones |
+|---|---|---|---|---|
+| **Nigromante** | Tela | Intelecto | DPS | Death, Animation, Rime |
+| **Piromante** | Tela | Intelecto | DPS, Sanador | Incineration, Draconic, Flameweaving |
+| **Cultista** | Tela, Placas | Fuerza, Intelecto | Tanque, DPS, Sanador | Godblade, Corruption, Influence, Dreadnought |
+| **Clamaestrellas** | Malla, Placas | Intelecto | Tanque, DPS, Sanador | Warden, Sentinel, Moon Priest, Moon Guard |
+| **Manitas** | Cuero, Malla | Agilidad, Intelecto | DPS, Sanador | Demolition, Mechanics, Invention |
+| **Segador** | Placas | Fuerza, Intelecto | Tanque, DPS | Harvest, Soul, Domination |
+| **Mago de Sangre** | Cuero | Intelecto, Espíritu, Aguante | Tanque, DPS, Sanador | Fleshweaver, Sanguine, Accursed, Eternal |
+
+Para los jugadores que entran al reino Vol'Jin por primera vez, se recomienda encarecidamente seleccionar una clase con mecánicas sencillas y gran capacidad de autosuficiencia. Las siguientes calificaciones describen las mejores opciones iniciales basadas en la facilidad de nivelación, gestión de recursos y flexibilidad general de la build.
+
+| Clase | Facilidad de Uso | Recurso Principal | Mejor Spec Inicial | Estilo de Juego Principal |
+|---|---|---|---|---|
+| **Guardian** | ★★★★★ | Ira | Gladiator | Tanque con escudo, maestría en armas marciales |
+| **Nigromante** | ★★★★★ | Poder Rúnico, Maná | Animation | Invocador de mascotas, taumaturgo oscuro a distancia |
+| **Mago de Sangre** | ★★★★☆ | Salud, Ira | Sanguine | Autosuficiencia vampírica, lanzador de sangre |
+| **Piromante** | ★★★★☆ | Maná | Incineration | Lanzador de fuego tradicional, alto daño de área explosivo |
+| **Segador** | ★★★★☆ | Maná | Harvest | Luchador de melé autosuficiente, tanque de sombras |
+
+<Callout type="info" title="Señales de Popularidad de Clases">
+Las estadísticas oficiales de la beta indican que el Nigromante, el Mago de Sangre y el Segador se encuentran entre las clases más populares debido a su increíble eficiencia para subir de nivel en solitario y sus robustas mecánicas de autosanación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de Planificación de Builds y Mejores Prácticas">
+
+Al sentarse con la **calculadora de talentos de Conquest of Azeroth**, es fácil distraerse con los llamativos talentos finales al final de los árboles. Sin embargo, una build exitosa requiere un enfoque equilibrado que priorice la generación de recursos, la sinergia rotacional y la utilidad defensiva. El theorycrafting efectivo depende de entender cómo interactúan las mecánicas de tu clase elegida con las estadísticas base.
+
+<CardGrid cols={3}>
+  <Card title="Enfoque en DPS Puro">
+    - **Escalado de alto daño**
+    - Se enfoca en crítico y celeridad
+    - Prioriza talentos finales ofensivos
+    - Ideal para mazmorras y bandas
+  </Card>
+  <Card title="Enfoque en Apoyo Híbrido">
+    - **Utilidad de grupo equilibrada**
+    - Se enfoca en beneficios de grupo
+    - Integra nodos de sanación secundaria
+    - Ideal para PvE coordinado
+  </Card>
+  <Card title="Melé de Autosuficiencia">
+    - **Alta calificación de supervivencia**
+    - Se enfoca en armadura y robo de vida
+    - Prioriza la mitigación activa
+    - Ideal para subir de nivel solo en el mundo
+  </Card>
+</CardGrid>
+
+Las prioridades de estadísticas varían enormemente según tu arquetipo de build. Antes de asignar tus puntos, consulta las pautas generales de prioridad de estadísticas a continuación para asegurar que tus elecciones de talentos se alineen con tu progresión de equipo prevista.
+
+| Arquetipo de Spec | Estadística Primaria | Estadística Secundaria | Estadística Terciaria | Impacto del Escalado |
+|---|---|---|---|---|
+| **Lanzadores de Hechizos** | Intelecto | Poder con Hechizos | Celeridad / Crítico | Lanzamiento más rápido, mayor daño mágico |
+| **Luchadores de Melé** | Fuerza | Poder de Ataque | Crítico / Versatilidad | Ataques físicos más fuertes, más armadura |
+| **Rango Ágil** | Agilidad | PA a Rango | Celeridad / Maestría | Disparos más rápidos, mayor probabilidad de esquive |
+| **Tanques Vampíricos** | Aguante | Intelecto | Espíritu / Armadura | Mayor reserva de salud, aumento de autosanación |
+
+Para garantizar que tu build esté completamente optimizada para la fase final de nivel 60 en Project Ascension, revisa esta lista de verificación antes de finalizar tu diseño en la calculadora.
+
+<Checklist
+  id="build-optimization-checklist"
+  title="Hitos de Theorycrafting:"
+  items={[
+    "Identifica y asegura tu talento final principal de 31 puntos en tu Árbol de Especialización.",
+    "Asigna al menos 15 puntos en el Árbol de Clase para desbloquear herramientas esenciales de control de masas y defensa.",
+    "Verifica que tus elecciones de talentos coincidan con el escalado de estadísticas principales de tu equipo (ej. Fuerza vs. Intelecto).",
+    "Asegúrate de que tu rotación tenga un nodo generador de recursos confiable para evitar tiempos muertos en combate.",
+    "Prueba tu concepto de build usando la interfaz de Auto-Build del juego durante las fases iniciales de nivelación."
+  ]}
+/>
+
+<Callout type="warning" title="Evita la Saturación de Hechizos">
+Ten cuidado con las guías comunitarias antiguas que recomiendan acumular demasiados hechizos activos. Enfócate en modificadores pasivos que simplifiquen tu rotación principal de 3 a 4 botones para evitar saturar tus barras de acción.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar la calculadora de talentos oficial de Conquest of Azeroth?",
+    answer: "El constructor oficial basado en la web está alojado directamente en el sitio web de Project Ascension bajo la pestaña BUILDER, actualizado específicamente para soportar la base de datos del reino Vol'Jin."
+  },
+  {
+    question: "¿Puedo reiniciar mis puntos de talento si cometo un error en mi build?",
+    answer: "Sí, puedes reiniciar fácilmente tus talentos dentro del juego visitando a tu instructor de clase. La calculadora en línea te permite experimentar libremente antes de gastar oro en el juego."
+  },
+  {
+    question: "¿Hay builds preestablecidas disponibles directamente en el constructor?",
+    answer: "Sí, el cliente del juego cuenta con una opción de Auto-Build que aplica automáticamente configuraciones de talentos optimizadas y probadas por la comunidad según la especialización elegida."
+  },
+  {
+    question: "¿La calculadora soporta las 21 clases y 69 especializaciones?",
+    answer: "Absolutamente. El constructor oficial está completamente actualizado con descripciones precisas, costos de recursos y requisitos previos para las 21 clases originales y sus respectivas especializaciones."
+  }
+]} />
+
+<Callout type="success" title="Compartir con la Comunidad">
+Una vez que termines de personalizar un diseño en la calculadora, utiliza el botón de exportar para generar un código corto. Puedes compartir este código directamente en el Discord oficial de Ascension para obtener comentarios de jugadores veteranos.
+</Callout>
+
+</Section>

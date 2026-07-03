@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Conquest of Azeroth Totenbeschwörer: Die besten Builds & Spezialisierungs-Guide",
+  description: "Meistere die Klasse des Totenbeschwörers in Conquest of Azeroth. Vergleiche die Spezialisierungen Tod, Animation und Reif, optimiere deinen Talentbaum und dominiere im PvE und PvP.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/121a24/2fc48d?text=Necromancer+Build+Guide",
+  date: "2026-07-03",
+  author: "Conquest of Azeroth Wiki-Team",
+  keywords: "Totenbeschwörer, Conquest of Azeroth, Builds, Guide, Spezialisierung, PvE, PvP"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Kernidentität**: Der **Conquest of Azeroth Totenbeschwörer** ist ein S-Tier Fernkampf-Zauberer, der Lebenskraft nutzt, um untote Diener zu befehligen, Plagen zu verbreiten und Frost-Verfall-Magie zu wirken.
+- **Spezialisierungen**: Wähle zwischen Tod (Schaden über Zeit), Animation (begleiterfokussierter Beschwörer) und Reif (Frost-Kontrolle und Verfall).
+- **Attributspriorität**: Priorisiere Intelligenz und Zaubermacht, um die Skalierung deiner Zauber und den Schaden deiner Begleiter zu maximieren, gefolgt von Tempo und Kritischer Trefferwertung.
+- **Ressourcenmechanik**: Verwalte deine Lebenskraft effizient, da sie als primäre Energiequelle dient, um fortgeschrittene untote Diener zu beschwören und dunkle Zauber zu verstärken.
+- **Launch-Details**: Spiele diese benutzerdefinierte Klasse auf dem Vol'Jin-Realm ab dem 3. Juli 2026 über den offiziellen Project Ascension Launcher.
+</Callout>
+
+<Section icon={Map} title="Klassenübersicht des Conquest of Azeroth Totenbeschwörers">
+
+Der **Conquest of Azeroth Totenbeschwörer** ist eine der beliebtesten und mächtigsten benutzerdefinierten Klassen in der angepassten WoW-Welt von Project Ascension. Als reiner Stoff tragender Fernkampf-Schadensverursacher (DPS) verkörpert diese Klasse die düstere Fantasie, die Toten zu befehligen und Feinde mit Schatten- und Frostmagie verfallen zu lassen. Im Gegensatz zu Standard-WoW-Klassen verlässt sich der Totenbeschwörer auf ein einzigartiges Ressourcensystem namens Lebenskraft, die im Kampf gesammelt und ausgegeben wird, um mächtige Zauber zu wirken oder Horden untoter Diener aufrechtzuerhalten.
+
+Wenn du einen Totenbeschwörer spielst, bist du nicht einfach nur ein schattenhafter Magier oder ein Hexenmeister mit anderen Begleiter-Skins. Die Klasse bietet völlig neue, maßgeschneiderte Mechaniken, visuelle Effekte und ein duales Talentbaumsystem, das von modernen Erweiterungsdesigns inspiriert ist. Ob du es bevorzugst, einzelne Ziele mit sich ausbreitenden Plagen dahinschmelzen zu lassen, Bosse mit einer persönlichen Skelettarmee zu überrennen oder Schlachtfelder mit eiskaltem Verfall zu kontrollieren – der Totenbeschwörer bietet über seine drei Spezialisierungen hinweg äußerst vielseitige Spielweisen.
+
+| Attribut | Detail | Auswirkung auf das Gameplay |
+|---|---|---|
+| **Primäre Rolle** | Fernkampf-Magie-DPS | Konzentriert sich auf Schaden aus der Ferne durch Schatten-, Frost- und physische Begleiterangriffe. |
+| **Rüstungstyp** | Stoff | Geringere physische Verteidigung erfordert kluge Positionierung und den Nutzen von Begleitern zum Überleben. |
+| **Hauptattribut** | Intelligenz | Erhöht die Zaubermacht, die kritische Trefferchance und den gesamten Manapool. |
+| **Klassenressource** | Lebenskraft / Mana | Duales Ressourcensystem; Mana wirkt Basiszauber, während Lebenskraft Elite-Fähigkeiten speist. |
+| **S-Tier-Status** | Sehr empfehlenswert | Als S-Tier für das Leveln und PvE eingestuft, dank hoher Selbsterhaltung und Begleiter-Tanken. |
+
+<Callout type="tip" title="Tipp zum Ressourcenmanagement">
+Eröffne den Kampf immer mit einfachen Generator-Zaubern, um Lebenskraft aufzubauen, bevor du versuchst, deine großen untoten Konstrukte zu beschwören. Wenn dir mitten im Kampf die Lebenskraft ausgeht, sinkt dein DPS erheblich und deine Begleiter bleiben ohne Stärkungseffekte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Spezialisierungen des Totenbeschwörers im Vergleich">
+
+Der Totenbeschwörer verfügt über drei verschiedene Spezialisierungen, die jeweils ab Stufe 10 freigeschaltet werden. Deine Wahl der Spezialisierung bestimmt deine primäre Kampfrotation, deine Beziehung zu deinen Begleitern und wie du sowohl PvE-Gruppeninhalte als auch PvP-Begegnungen angehst.
+
+<CardGrid cols={3}>
+  <Card title="Tod-Spezialisierung">
+    - **Fokus**: Schaden-über-Zeit-Plagen (DoT) und schattenbasierter Verfall.
+    - **Spielstil**: Verbreiten von Infektionen auf mehrere Ziele und Absaugen von Gesundheit.
+    - **Am besten für**: PvE-Begegnungen mit mehreren Zielen und stetigen, zermürbenden PvP-Druck.
+  </Card>
+  <Card title="Animation-Spezialisierung">
+    - **Fokus**: Begleiterlastiges Beschwören und Stärken von Dienern.
+    - **Spielstil**: Verwalten eines Schwarms aus Skelettbogenschützen, Skelettmagiern und direkten physischen Schlägern.
+    - **Am besten für**: Sicheres Solo-Leveln, Elite-Quests und Einzelziel-Bossschaden.
+  </Card>
+  <Card title="Reif-Spezialisierung">
+    - **Fokus**: Frostbasierte Kontrolle, Verlangsamungseffekte und Kälteverfall.
+    - **Spielstil**: Kiten von Feinden mit Einfriermechaniken bei gleichzeitigem Verursachen von hohem Berstschaden.
+    - **Am besten für**: Dungeon-Gegnerkontrolle (CC), hochmobiles Kiten und defensive PvP-Setups.
+  </Card>
+</CardGrid>
+
+Um dir bei der Entscheidung zu helfen, welchen Pfad du wählen solltest, wenn du Stufe 10 auf dem Vol'Jin-Launch-Realm erreichst, wirf einen Blick auf die strukturellen Unterschiede unten.
+
+| Spezialisierung | Primäre Rolle | Kernmechanik | Wichtige Zauber | Komplexität |
+|---|---|---|---|---|
+| **Tod** | Fernkampf-DPS | Fäulnisschaden & Absaugen | Plague Strike, Shadow Decay, Feast of Souls | Mittel |
+| **Animation** | Begleiter-Beschwörer-DPS | Dienerschwarm & Buffen | Raise Dead, Army of the Dead, Dark Empowerment | Hoch (Pet-Mikromanagement) |
+| **Reif** | Fernkampf-Kontroll-DPS | Frostverlangsamung & Splitter | Frost Decay, Chilling Blast, Glacial Spike | Niedrig bis Mittel |
+
+<Callout type="success" title="Level-Empfehlung">
+Für das reibungsloseste Level-Erlebnis von Stufe 1 bis 60 solltest du **Animation** wählen. Mehrere Skelettbegleiter zu haben, die Monster für dich tanken, verhindert Ausfallzeiten und ermöglicht es dir, schwierige Elite-Quests in der offenen Welt sicher solo zu meistern.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimale Talentbäume & Schritt-für-Schritt-Levelanleitung">
+
+Das Leveln deines **Conquest of Azeroth Totenbeschwörers** erfordert das Navigieren durch das maßgeschneiderte Talentsystem im Dragonflight-Stil. Ab Stufe 10 wechselst du ab zwischen dem Ausgeben von Punkten im allgemeinen Klassenbaum des Totenbeschwörers und dem Baum deiner gewählten Spezialisierung. Der allgemeine Klassenbaum bietet Nützlichkeit, defensive Barrieren und passive Ressourcengenerierung, während dein Spezialisierungsbaum aktive Kampfzauber und mechanische Multiplikatoren freischaltet.
+
+<Steps>
+  <Step num="1" title="Die Grundlagen etablieren (Stufen 1-10)">
+    Beginne deine Reise in deinem Startgebiet. Konzentriere dich darauf, deine grundlegenden Schattenblitz- und Lebensentzugszauber zu erlernen. Halte Ausschau nach deiner Klassenquest auf Stufe 3, die dich zu deinem lokalen Totenbeschwörer-Lehrer führt, um deinen ersten Diener freizuschalten.
+  </Step>
+  <Step num="2" title="Spezialisierung wählen & Auto-Build aktivieren (Stufe 10)">
+    Sobald du Stufe 10 erreichst, öffne dein Talentfenster und wähle deine primäre Spezialisierung. Wenn du neu bei den angepassten WoW-Mechaniken bist, nutze die integrierte **Auto-Build**-Option. Dieses System verteilt deine Talentpunkte beim Stufenaufstieg automatisch in einen ausgewogenen, vorab getesteten Build.
+  </Step>
+  <Step num="3" title="Die Kernrotation aufbauen (Stufen 10-35)">
+    Gib deine Talentpunkte aus, um Kernzauber für deine Rotation freizuschalten. Wenn du Animation spielst, priorisiere Skelettbogenschützen. Wenn du Tod spielst, konzentriere dich auf Talentknoten, die die Dauer deiner Plagen erhöhen und deine DoTs schneller ticken lassen. Stelle sicher, dass deine Ausrüstung stets mit Intelligenzwerten aktualisiert wird.
+  </Step>
+  <Step num="4" title="Nützlichkeit und Verteidigung verfeinern (Stufen 35-55)">
+    Nutze diesen Bereich, um im allgemeinen Klassenbaum defensive Werkzeuge freizuschalten. Schalte aktive Gegnerkontrolle (CC), Zauberunterbrechungen und lebensentziehende Schilde frei. Diese Werkzeuge sind entscheidend, um Dungeon-Mechaniken zu überleben und plötzliche PvP-Begegnungen in der offenen Welt zu bewältigen.
+  </Step>
+  <Step num="5" title="Übergang zum Endspiel (Stufen 55-60)">
+    Wenn du dich der Höchststufe 60 auf dem Vol'Jin-Realm näherst, setze deine Talente zurück, um von einem Level-Setup zu einem dedizierten PvE- oder PvP-Build zu wechseln. Dungeon-Builds erfordern mehr Flächenschaden (AoE) und Nützlichkeit, während Level-Builds auf Einzelzieleffizienz ausgelegt sind.
+  </Step>
+</Steps>
+
+| Stufenbereich | Hauptziele | Wichtige Freischaltungen | Lehrerbesuch erforderlich |
+|---|---|---|---|
+| **1 - 10** | Startgebiet abschließen; Stufe 10 erreichen | Basiszauber, erster Begleiter | Ja, besuche den Lehrer auf Stufe 3 und 10 |
+| **10 - 30** | Spezialisierung freischalten; Kernrotation aufbauen | Spezialisierungsbaum, Auto-Build | Nein, Talente können überall verteilt werden |
+| **30 - 50** | Dungeons laufen; Ausrüstung optimieren | Fortgeschrittene Begleiter, Plagen-Multiplikatoren | Ja, suche nach aktualisierten Zauberrängen |
+| **50 - 60** | Auf das Endspiel vorbereiten; Pre-BiS farmen | Meilenstein-Talente, ultimative Zauber | Ja, schließe alle aktiven benutzerdefinierten Fähigkeiten ab |
+
+<Callout type="warning" title="Warnung zum Zurücksetzen von Talenten">
+Das Zurücksetzen deiner Talentbäume ist sehr unkompliziert, aber innerhalb aktiver Dungeons oder Schlachtfelder eingeschränkt. Besuche immer ein sicheres Heiligtum oder eine Großstadt, bevor du versuchst, deinen Totenbeschwörer umzuspezialisieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ausrüstung, Attribute und Itemisierungs-Fokus">
+
+Die Ausrüstung eines Totenbeschwörers in der maßgeschneiderten, neu aufgebauten Welt von Azeroth erfordert ein solides Verständnis dafür, wie die Zauberskalierung sowohl deinen direkten Schaden als auch deine beschworenen Diener beeinflusst. Da der Server über immersive RPG-Beutebeute in der offenen Welt und eine angepasste Boss-Itemisierung verfügt, wirst du häufig Ausrüstung mit einzigartigen Werten finden, die sich von den standardmäßigen klassischen WoW-Gegenständen unterscheiden.
+
+Dein Hauptaugenmerk liegt darauf, Stoff-Rüstungsteile zu ergattern, die hohe Werte für Intelligenz und Zaubermacht aufweisen. Bei der Spezialisierung Animation erben deine Begleiter einen direkten Prozentsatz deiner Zaubermacht, was bedeutet, dass deine Ausrüstungs-Upgrades direkt deine Skelettarmee verstärken. Für Tod und Reif sind Tempo und Kritische Trefferwertung sehr wertvoll, um die Tick-Rate von Plagen zu erhöhen und lange Frostzauber-Wirkzeiten zu verkürzen.
+
+<Checklist
+  id="necromancer-gearing"
+  title="Ausrüstungs-Checkliste für den Totenbeschwörer:"
+  items={[
+    "Rüste Stoff-Rüstungsteile mit Intelligenz als Hauptattribut aus.",
+    "Priorisiere Waffen mit Zaubermacht (Stäbe oder einhändige Magierklingen mit Schildhand).",
+    "Sammle Ausrüstung mit Tempowertung, um die globale Abklingzeit beim Wirken von Plagen zu verringern.",
+    "Suche nach Schatten- oder Frostschadensmodifikatoren, abhängig von deiner Spezialisierung.",
+    "Vermeide willenskraftlastige Ausrüstung, es sei denn, du spielst einen Hybrid-Build, der eine hohe Manaregeneration erfordert."
+  ]}
+/>
+
+| Attribut | Prioritätsstufe | Hauptnutzen für den Totenbeschwörer | Empfohlene Quellen |
+|---|---|---|---|
+| **Intelligenz** | **Höchste (Primär)** | Erhöht Zaubermacht, kritische Trefferwertung und den gesamten Manapool. | Questbelohnungen, Dungeons, herstellbare Stoffrüstung |
+| **Zaubermacht** | **Sehr hoch** | Skaliert direkt den Zauberschaden und die Angriffskraft der Diener. | Waffen, Schildhände, seltene Dungeon-Beute |
+| **Tempowertung** | **Hoch** | Beschleunigt das Wirken von Zaubern und erhöht die Tick-Frequenz von DoTs. | Dungeon-Ausrüstung im mittleren bis späten Spiel, Ringe |
+| **Kritischer Treffer** | **Moderat** | Bietet Berstschadenspotenzial für Schatten- und Frostzauber. | Endspiel-Schlachtzugsets, Weltboss-Beute |
+
+<Callout type="info" title="Ausrüstungs-Tipp">
+Halte in High-Risk-PvP-Phasen Ausschau nach blutgeschmiedeter Ausrüstung (Bloodforged). Diese Gegenstände weisen oft zufällige Bonuswerte auf, die die Zaubergeschwindigkeit deines Totenbeschwörers und die Überlebensrate deiner Begleiter drastisch optimieren können.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conquest of Azeroth Totenbeschwörer FAQ">
+
+<FAQ items={[
+  {
+    question: "Ist der Conquest of Azeroth Totenbeschwörer für Anfänger geeignet?",
+    answer: "Ja, der Totenbeschwörer ist äußerst einsteigerfreundlich, insbesondere mit der Spezialisierung Animation. Diener zu haben, die den Schaden für dich tanken, macht das Leveln in der offenen Welt sicher und fehlerverzeihend, während das integrierte Auto-Build-System Fehler bei der Talentverteilung verhindert."
+  },
+  {
+    question: "Wie funktioniert die Lebenskraft-Mechanik?",
+    answer: "Lebenskraft ist eine sekundäre Ressource, die unter deinem Manabalken angezeigt wird. Du erzeugst Lebenskraft, indem du grundlegende Generator-Zauber wirkst oder wenn Feinde in deiner Nähe sterben. Du gibst diese Ressource dann aus, um fortgeschrittene untote Begleiter zu beschwören, Zauber mit hohem Schaden zu wirken oder dich selbst zu schilden."
+  },
+  {
+    question: "Kann der Totenbeschwörer andere Rollen als DPS übernehmen?",
+    answer: "Nein, der Totenbeschwörer ist in allen drei Spezialisierungen (Tod, Animation und Reif) strikt als Fernkampf-Magie-DPS-Klasse konzipiert. Wenn du einen Hybrid-Zauberer spielen möchtest, der heilen oder tanken kann, solltest du Klassen wie den Kultisten, Sternenrufer oder Blutmagier in Betracht ziehen."
+  },
+  {
+    question: "Welcher Wert ist der beste für meine Totenbeschwörer-Begleiter?",
+    answer: "Deine Begleiter skalieren direkt mit deiner Zaubermacht und Intelligenz. Um deine Skelett-Diener härter zuschlagen und länger überleben zu lassen, konzentriere dich ganz auf die Aufwertung deiner eigenen Zauberwerte, anstatt nach spezieller Begleiterausrüstung zu suchen."
+  }
+]} />
+
+<Callout type="success" title="Fazit">
+Der **Conquest of Azeroth Totenbeschwörer** ist eine absolute Powerhouse-Klasse für die Veröffentlichung des Vol'Jin-Realms am 3. Juli 2026. Mit seiner unglaublichen Solo-Fähigkeit, der tiefgehenden Talentanpassung und seiner hohen Platzierung auf PvE-Tier-Listen bleibt er eine erstklassige Wahl für neue und erfahrene Spieler gleichermaßen.
+</Callout>
+
+</Section>

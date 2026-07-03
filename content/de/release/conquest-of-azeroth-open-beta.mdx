@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, Download, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Offene Beta: 2026 Launch & Einsteiger-Guide",
+  description: "Meistere die offene Beta von Conquest of Azeroth mit unserem Guide zu allen 21 Klassen, Level-Meilensteinen und dem Start des Vol'Jin-Realms am 3. Juli 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Conquest+of+Azeroth+Guide",
+  date: "2026-07-03",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Conquest of Azeroth Offene Beta**: Der vollständige Release startet auf dem **Vol'Jin-Realm** am 3. Juli 2026.
+- **Einzigartige Klassen**: Bietet **21 originelle Klassen** und 69 Spezialisierungen, die es im Retail-WoW nicht gibt.
+- **Talentsystem**: Nutzt einen Talentbaum im **Dragonflight-Stil** mit separaten Klassen- und Spezialisierungsbäumen.
+- **Kern-Gameplay**: Kombiniert Classic+-Welterkundung mit modernen RPG-Kreaturenwerten und Beute.
+- **Zugangsmethode**: Erfordert den offiziellen **Project Ascension Launcher** und einen einzigen, einheitlichen Account.
+</Callout>
+
+<Section icon={Clock} title="Conquest of Azeroth Offene Beta Release und Zugang">
+
+Die Reise in eine neu gestaltete Welt beginnt mit dem Übergang der **offenen Beta von Conquest of Azeroth** in den vollständigen Release. Im Gegensatz zu Standard-Privatservern führt dieses Projekt eine massive Überarbeitung der World of Warcraft-Engine ein, mit völlig neuen Klassenmechaniken und Weltsystemen. Der offizielle Start ist für den **Vol'Jin-Realm** geplant, was einen entscheidenden Moment für die Ascension-Community markiert.
+
+| Ereignistyp | Datum | Uhrzeit (PT/ET/GMT) | Realm |
+| :--- | :--- | :--- | :--- |
+| **Vollständiger Release** | 3. Juli 2026 | 07:00 / 10:00 / 15:00 Uhr | Vol'Jin |
+| **Login-Server online** | 3. Juli 2026 | Gleichzeitig mit dem Start | Global |
+| **Beta-Phasen** | März - Juni 2026 | Abgeschlossen | Event-Realms |
+| **Client-Patching** | Jetzt verfügbar | N/A | Ascension Launcher |
+
+Um an der **offenen Beta von Conquest of Azeroth** und dem anschließenden vollständigen Release teilzunehmen, müssen Spieler den hauseigenen Ascension Launcher verwenden. Dieses Tool verwaltet alle benutzerdefinierten Assets, einschließlich der über 1000 neuen Zauber und visuellen Effekte, die das CoA-Erlebnis ausmachen.
+
+<Callout type="success" title="Server-Status-Tipp">
+Überprüfe vor dem Starten immer die offizielle Ascension-Statusseite oder Discord. Der Vol'Jin-Realm ist das Hauptziel für den Launch 2026, während sich ältere Realms wie Area 52 auf das klassenlose „Pick 'n' Mix“-Saison-Gameplay konzentrieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="So startest du deine Reise: Schritt-für-Schritt-Einrichtung">
+
+Der Einstieg in die **offene Beta von Conquest of Azeroth** erfordert eine Reihe bestimmter Schritte, um sicherzustellen, dass dein Client korrekt für das benutzerdefinierte 21-Klassen-System gepatcht ist. Da CoA Kern-Spieldateien modifiziert, führt die Verwendung eines Standard-3.3.5a-Clients ohne den Ascension Launcher zu Abstürzen oder unsichtbaren NPCs.
+
+<Steps>
+  <Step num="1" title="Account-Erstellung">
+    Besuche die offizielle Ascension-Website und registriere einen einzigen Account. Dieser Account ist für alle Ascension-Projekte einheitlich, einschließlich Conquest of Azeroth und den klassenlosen Realms.
+  </Step>
+  <Step num="2" title="Launcher herunterladen">
+    Navigiere zum Download-Bereich und lade den Windows-Launcher herunter. Linux-Benutzer können sich auf die von der Community gepflegten Wine/Proton-Guides in den offiziellen Foren beziehen.
+  </Step>
+  <Step num="3" title="CoA-Realm-Pfad auswählen">
+    Schalte im Launcher den Spielmodus auf **Conquest of Azeroth** um. Dies stellt sicher, dass der Downloader die korrekten hochauflösenden Modelle und benutzerdefinierten Klassendaten abruft.
+  </Step>
+  <Step num="4" title="Erstes Patching">
+    Lasse den Launcher die vollständige Überprüfung abschließen. Der erste Download ist aufgrund der Tausenden von benutzerdefinierten Symbolen, Zaubereffekten und der Weltkarte von „Reborn Azeroth“ beträchtlich.
+  </Step>
+  <Step num="5" title="Charaktererstellung">
+    Betritt den Vol'Jin-Realm und wähle eine der 21 originellen Klassen. Im Gegensatz zum klassenlosen Modus wählst du hier eine feste Identität wie einen Nekromanten oder Tüftler.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Fehlalarme durch Antivirenprogramme">
+Einige Sicherheitssoftwares stufen den benutzerdefinierten Launcher möglicherweise als Bedrohung ein. Dies ist bei modifizierten Spiel-Clients üblich. Häufig ist es erforderlich, eine Ausnahme für den Ascension-Ordner hinzuzufügen, damit der Patch-Vorgang abgeschlossen werden kann.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Alle 21 originellen Klassen und Spezialisierungen">
+
+Das Herzstück der **offenen Beta von Conquest of Azeroth** ist die Auswahl aus 21 einzigartigen Klassen. Jede Klasse wurde von Grund auf mit eigenen Ressourcen entwickelt, wie dem **Wahnsinn** des Kultisten oder den **Patronen** des Tüftlers. Dies sind keine bloßen Reskins der Vanilla-Klassen; sie bieten völlig neue Möglichkeiten, mit der Welt von Azeroth zu interagieren.
+
+<CardGrid cols={3}>
+  <Card title="Nekromant">
+    - **Rolle**: Fernkampf-DPS
+    - **Mechanik**: Lebenskraft
+    - **Fokus**: Untoten-Schwärme, Plagen und Frostmagie.
+  </Card>
+  <Card title="Blutmagier">
+    - **Rolle**: Tank, Healer, DPS
+    - **Mechanik**: Lebenspunkte-Verbrauch
+    - **Fokus**: Vampirische Selbsterhaltung und mächtige blutbetriebene Zauber.
+  </Card>
+  <Card title="Tüftler">
+    - **Rolle**: DPS, Healer
+    - **Mechanik**: Gadgets & Patronen
+    - **Fokus**: Geschütztürme, Bomben und mechanische Hilfsmittel.
+  </Card>
+</CardGrid>
+
+Die Wahl einer Klasse in der **offenen Beta von Conquest of Azeroth** bestimmt deine Primärwerte und deine Rüstungsklasse, was für das neue, immersive Beutesystem entscheidend ist.
+
+| Klassenname | Primärwert | Rüstungsart | Verfügbare Rollen |
+| :--- | :--- | :--- | :--- |
+| **Wächter** | Stärke | Platte | Tank / DPS / Support |
+| **Sternenrufer** | Intelligenz | Schwere Rüstung/Platte | Tank / DPS / Heiler |
+| **Giftschwörer** | Intelligenz | Leder/Schwere Rüstung | Tank / DPS / Heiler |
+| **Pyromant** | Intelligenz | Stoff | DPS / Heiler |
+| **Schnitter** | Stärke/Int | Platte | Tank / DPS |
+| **Barbar** | Beweglichkeit | Leder | DPS / Support |
+
+<Callout type="tip" title="Hybrid-Flexibilität">
+Viele Klassen wie der **Sonnenkleriker** und der **Kultist** können alle drei Hauptrollen (Tank, Healer, DPS) ausfüllen. Wenn du Vielseitigkeit magst, priorisiere diese „reinen Hybridklassen“ für deinen ersten Charakter auf dem Vol'Jin-Realm.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Leveling-Roadmap und Welt-Progression">
+
+Das Leveln in der **offenen Beta von Conquest of Azeroth** wurde so angepasst, dass die Erkundung der Welt im Vordergrund steht. Das „Reborn Azeroth“ bietet RPG-Kreaturenwerte, was bedeutet, dass Monster einzigartige Stärken und Schwächen haben, die den Einsatz deines gesamten Klassen-Toolkits erfordern.
+
+| Levelbereich | Meilenstein | Wichtige Freischaltungen | Trainer-Standort |
+| :--- | :--- | :--- | :--- |
+| **1 - 3** | Das Erwachen | Erste Klassenquest | Startgebiete (Goldhain/Brill) |
+| **10** | Spezialisierung | Spez-Bäume / Auto-Build | Hauptstädte |
+| **20** | Mobilität | Erstes Reittier / Reisemagie | Klassentrainer |
+| **45** | Weltbosse | Zanzrakka-Meilenstein | Schlingendorntal |
+| **55 - 58** | Vor dem Endgame | Ausrüstung für Level-58-Beta-Cap | Hochstufige Zonen |
+| **60** | Endgame | Raids / Mythic+ / Arenen | Hauptstädte |
+
+<Checklist
+  id="leveling-goals"
+  title="Wichtige Ziele für das frühe Spiel:"
+  items={[
+    "Schließe die Klassenquest auf Level 3 ab, um Kernfähigkeiten freizuschalten.",
+    "Besuche deinen Klassentrainer alle 2–4 Level für neue Zauberränge.",
+    "Wähle auf Level 10 eine Hauptspezialisierung, um deinen zweiten Talentbaum freizuschalten.",
+    "Rüste Ausrüstung aus, die zum Primärwert deiner Klasse passt (z. B. Beweglichkeit für Waldläufer).",
+    "Teste die Auto-Build-Funktion, wenn dich die Talentbäume überfordern."
+  ]}
+/>
+
+<Callout type="info" title="Klassentrainer">
+In Conquest of Azeroth sind Klassentrainer von entscheidender Bedeutung. Im Gegensatz zum Retail-WoW, wo Zauber automatisch erlernt werden, musst du physische Trainer in Startgebieten und Hauptstädten aufsuchen, um dein Toolkit zu erweitern.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame-Inhalte: PvE-Dungeons und PvP-Modi">
+
+Sobald du die Levelgrenze von 60 in der **offenen Beta von Conquest of Azeroth** erreicht hast, verlagert sich das Spiel hin zu strukturierten Gruppeninhalten und Konflikten mit hohem Einsatz. Das Projekt nutzt das ausgeklügelte Schwierigkeitsskalierungssystem von Ascension, was eine breite Palette an Herausforderungen ermöglicht.
+
+### PvE: Dungeons und Raids
+Das PvE-System basiert auf der „Flex“-Mechanik, die es Gruppen unterschiedlicher Größe ermöglicht, Inhalte anzugehen. Von den feurigen Tiefen des **Geschmolzenen Kerns** bis zum Hort von **Onyxia** wurde jede Begegnung für die 21 neuen Klassen neu abgestimmt.
+
+| Inhaltstyp | Schwierigkeitsgrad | Gruppengröße | Wichtige Belohnungen |
+| :--- | :--- | :--- | :--- |
+| **Normale Dungeons** | Einstieg | 5 Spieler | Level-Ausrüstung |
+| **Mythic+ Dungeons** | Skalierend | 5 Spieler | High-End-Fortschritt |
+| **Flex-Raids** | Normal/Heroisch | 10-25 Spieler | Tier-Sets / Legendäre Gegenstände |
+| **Ascended-Raids** | Hardcore | 25 Spieler | Prestige-Beute |
+
+### PvP: Risiko und Belohnung
+CoA bietet drei verschiedene Weltphasen, um unterschiedlichen Spielerpräferenzen gerecht zu werden. Du kannst in den Hauptstädten zwischen diesen Modi wechseln.
+
+- **PvE-Modus**: Sicheres Erkunden. Kein Open-World-Kampf, es sei denn, man markiert sich selbst dafür.
+- **PvP-Modus**: Standardmäßiger Open-World-Kampf. Kein Verlust von Gegenständen.
+- **High-Risk-Phase**: Eine separate Ebene, auf der besiegte Spieler Ausrüstungskisten fallen lassen. Dieser Modus bietet **Blutgeschmiedete** (Bloodforged) Beute, die mächtiger ist als Standard-Beute.
+
+<Callout type="success" title="High-Risk-Belohnungen">
+Die Teilnahme am High-Risk-PvP ist der schnellste Weg, um handelbare Ausrüstung zu erhalten. Selbst wenn du nicht gegen andere Spieler kämpfst, gewährt das Töten von Monstern in dieser Phase Zugriff auf die blutgeschmiedete Beutetabelle, was einen erheblichen Machtschub bringt.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Ist die offene Beta von Conquest of Azeroth kostenlos spielbar?",
+    answer: "Ja, das Projekt ist kostenlos spielbar. Du kannst den Launcher herunterladen und auf alle 21 Klassen ohne Abonnement zugreifen, obwohl optionale kosmetische Gegenstände und Komfortfunktionen über den Ascension-Shop erhältlich sind."
+  },
+  {
+    question: "Kann ich meine Klasse nach dem Start noch ändern?",
+    answer: "Nein, die Klassenwahl ist für diesen Charakter dauerhaft. Du kannst jedoch deine Spezialisierung (z. B. von einem heilenden Pyromanten zu einem Schadens-Pyromanten) jederzeit ändern, indem du einen Klassentrainer besuchst."
+  },
+  {
+    question: "Erfordert dies ein aktives Retail-WoW-Abonnement?",
+    answer: "Nein, dieses Projekt läuft auf einer angepassten Client-Architektur der Version 3.3.5a. Du benötigst kein aktives Blizzard-Abonnement, um zu spielen."
+  },
+  {
+    question: "Was ist das „Auto-Build“-System?",
+    answer: "Auto-Build ist eine Funktion für neue Spieler, die Talentpunkte automatisch auf einem optimierten Pfad für deine gewählte Rolle verteilt. So kannst du dich auf das Gameplay konzentrieren, während du die Mechaniken deiner Klasse erlernst."
+  }
+]} />
+
+</Section>

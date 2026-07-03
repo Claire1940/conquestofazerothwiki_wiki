@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build de Valquiria en Conquest of Azeroth: Guía de Configuración del Clérigo del Sol 2026",
+  description: "Domina la build de valquiria en Conquest of Azeroth con nuestra guía de 2026. Aprende los talentos del Clérigo del Sol, las mecánicas de Poder Solar y las prioridades de equipo de fuego sagrado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/F4C24E/000?text=Valkyrie+Build+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Build Principal**: La **build de valquiria en Conquest of Azeroth** se centra en el daño de Fuego Sagrado y el sustento híbrido de cuerpo a cuerpo y taumaturgo.
+- **Mecánica Clave**: Gestiona el **Poder Solar** y las **acumulaciones de Ocaso** para maximizar el daño de ráfaga y el escudo defensivo.
+- **Mejor Estrategia**: Prioriza el **Intelecto y la Fuerza** para beneficiarte de los talentos únicos de escalado de estadísticas del Clérigo del Sol.
+- **Consejo Crítico**: Usa **Descenso de la Valquiria** para iniciar el combate, generando acumulaciones de recursos inmediatas para tu rotación.
+- **La Mejor Opción**: Esta build es la **opción híbrida óptima** para los jugadores que quieren tanquear o hacer DPS con una alta supervivencia.
+</Callout>
+
+<Section icon={Map} title="Introducción a la Especialización de Valquiria">
+
+La **build de valquiria en Conquest of Azeroth** representa la cúspide de la clase Clérigo del Sol, combinando la destreza marcial de un guerrero con armadura de placas con la devastación divina de la magia de fuego sagrado. Como una de las 21 clases originales en el ecosistema de Conquest of Azeroth, el Clérigo del Sol utiliza un sistema único de doble recurso: Poder Solar y acumulaciones de Ocaso. La especialización de Valquiria perfecciona específicamente estos recursos para transformar al jugador en un heraldo angelical de la luz, capaz de elevarse por el campo de batalla y fulminar a los enemigos con energía radiante.
+
+En el meta actual de 2026, la Valquiria ha emergido como una opción de primer nivel tanto para la exploración en solitario del mundo abierto como para las bandas de alto nivel. Su capacidad para autocurarse mientras mantiene un alto daño por segundo (DPS) la hace increíblemente resistente frente a las estadísticas de las criaturas de "Azeroth Renacido". Ya sea que participes en JcJ de Alto Riesgo o te enfrentes a las mazmorras Míticas+ de Vol'Jin, comprender la sinergia entre tus hechizos de fuego sagrado y tus golpes cuerpo a cuerpo es esencial para el éxito.
+
+<Callout type="info" title="Fantasía de Clase">
+La Valquiria está diseñada para jugadores que disfrutan del arquetipo de "Paladín" o "Sacerdote de Batalla" pero desean más movilidad y una gestión de recursos compleja. Destaca en convertir el impulso defensivo en presión ofensiva.
+</Callout>
+
+| Característica | Descripción | Impacto en el Juego |
+|:---|:---|:---|
+| **Tipo de Armadura** | Placas | Alta mitigación física para el combate en primera línea |
+| **Estadísticas Principales** | Fuerza / Intelecto | Escalado dual para golpes cuerpo a cuerpo y hechizos sagrados |
+| **Recurso** | Poder Solar | Alimenta remates y auras de alto impacto |
+| **Mecánica** | Acumulaciones de Ocaso | Potencia la siguiente habilidad de Fuego Sagrado utilizada |
+| **Rol** | Tanque / DPS / Sanador | Verdadera flexibilidad híbrida para buscar grupo |
+
+</Section>
+
+<Section icon={Sparkles} title="Talentos Principales y Árbol de Especialización">
+
+El sistema de talentos al estilo Dragonflight en Conquest of Azeroth requiere un equilibrio cuidadoso entre el **Árbol de Clase del Clérigo del Sol** y el **Árbol de Especialización de Valquiria**. Para optimizar tu **build de valquiria en Conquest of Azeroth**, debes alternar puntos para asegurarte de adquirir la utilidad esencial antes de alcanzar los talentos finales en el nivel 60. El Árbol de Clase proporciona supervivencia básica y modificadores de fuego sagrado, mientras que el árbol de Valquiria introduce las mecánicas "Angelicales" que definen la movilidad de la especialización.
+
+La reestructuración de talentos de 2026 enfatizó la importancia de "Sinergia Radiante", un talento que permite que tus golpes críticos cuerpo a cuerpo reduzcan el tiempo de lanzamiento de tu próximo hechizo sagrado. Esto crea un estilo de juego rítmico de "entrelazado" donde el jugador rebota entre golpes de arma y ráfagas de fuego de lanzamiento instantáneo.
+
+<Callout type="tip" title="Estrategia de Talentos">
+Si estás subiendo de nivel, utiliza la función de **Auto-Build** hasta el nivel 30. Esto asegura que no te pierdas los modificadores principales de "Fogonazo Solar", que son necesarios para una limpieza eficiente de los monstruos de mazmorra al principio.
+</Callout>
+
+| Nombre del Talento | Tipo de Árbol | Efecto | Prioridad |
+|:---|:---|:---|:---|
+| **Fogonazo Solar** | Árbol de Clase | Aumenta el daño de Fuego Sagrado en un 15% | ★★★★★ |
+| **Alas de Valquiria** | Árbol de Espec. | Otorga 3 segundos de vuelo y 20% de celeridad | ★★★★☆ |
+| **Radiancia de Ocaso** | Árbol de Espec. | Las acum. de Ocaso ahora otorgan un 5% de crítico por acum. | ★★★★★ |
+| **Baluarte Divino** | Árbol de Clase | Convierte el 10% del Intelecto en Armadura | ★★★☆☆ |
+| **Heraldo del Alba** | Árbol de Espec. | Talento Final: Tus próximos 3 hechizos no cuestan Poder Solar | ★★★★★ |
+
+</Section>
+
+<Section icon={Target} title="Rotación y Estilo de Juego de la Valquiria">
+
+Dominar la rotación de una **build de valquiria en Conquest of Azeroth** implica mantener un alto tiempo de actividad en tus beneficios de Ocaso. A diferencia de las clases tradicionales que siguen una lista de prioridad estática, la Valquiria reacciona a las activaciones generadas por el Poder Solar. Tu objetivo es alcanzar 10 acumulaciones de Ocaso lo más rápido posible para desatar una "Ejecución Radiante", que inflige un daño masivo en área y cura a los aliados cercanos por un porcentaje del daño infligido.
+
+<Steps>
+  <Step num="1" title="Combate Inicial">
+    Comienza con **Juicio de Fuego** para aplicar un efecto de daño en el tiempo (DoT) y generar tus primeros 2 puntos de Poder Solar.
+  </Step>
+  <Step num="2" title="Generando Impulso">
+    Usa **Golpe Solar** cada vez que esté disponible. Esta habilidad cuerpo a cuerpo genera acumulaciones de Ocaso y tiene la probabilidad de restablecer el tiempo de reutilización de tu ráfaga sagrada principal.
+  </Step>
+  <Step num="3" title="Gasto de Recursos">
+    Una vez que alcances el 50% de Poder Solar, activa **Aura del Sol**. Esto drena tu poder pero aumenta todo el daño sagrado en un 25% durante 10 segundos.
+  </Step>
+  <Step num="4" title="El Remate">
+    Con 10 acumulaciones de Ocaso, lanza **Castigo Celestial**. Esto consume todas las acumulaciones para garantizar un golpe crítico y proporciona un efecto de escudo al jugador.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Exceso de Recursos">
+Evita quedarte con el Poder Solar al máximo. Cualquier poder generado más allá del límite se desperdicia, lo que reduce significativamente tu daño general por segundo (DPS) y tu rendimiento de sanación en encuentros largos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipo y Prioridad de Estadísticas">
+
+Equipar una **build de valquiria en Conquest of Azeroth** puede ser un desafío debido a la naturaleza híbrida del Clérigo del Sol. En el entorno del reino Vol'Jin de 2026, los jugadores más efectivos priorizan la "Densidad de Estadísticas": objetos que proporcionan tanto Fuerza como Intelecto. Aunque la armadura de Placas es obligatoria para las pasivas defensivas de la Valquiria, debes buscar versiones "Forjadas en Sangre" del equipo en las fases JcJ de Alto Riesgo para obtener bonificaciones de estadísticas secundarias adicionales.
+
+<CardGrid cols={3}>
+  <Card title="Primaria: Intelecto">
+    - Aumenta el poder de hechizo de **Fuego Sagrado**
+    - Amplía tu reserva máxima de **Maná**
+    - Escala la sanación de tus golpes críticos
+  </Card>
+  <Card title="Primaria: Fuerza">
+    - Aumenta el daño cuerpo a cuerpo de **Golpe Solar**
+    - Incrementa la probabilidad de **Parada Física**
+    - Esencial para la generación de amenaza como Tanque
+  </Card>
+  <Card title="Secundaria: Celeridad">
+    - Reduce el **Tiempo de Reutilización Global** (GCD)
+    - Acelera la generación de **Poder Solar**
+    - Tiempos de lanzamiento más rápidos para sanaciones de emergencia
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Mejor Objeto por Casilla">
+Busca el abalorio **Cresta del Sol Naciente** de la banda Núcleo de Magma. Su efecto activo otorga instantáneamente 10 acumulaciones de Ocaso, lo que permite una ventana de ráfaga inmediata.
+</Callout>
+
+| Casilla | Objeto Recomendado | Origen | Estadísticas Clave |
+|:---|:---|:---|:---|
+| **Arma** | Mandoble Forjado por el Sol | Herrería / Banda | Fuerza, Int, Crítico |
+| **Pecho** | Placas de la Valquiria | Guarida de Onyxia | Armadura Alta, Celeridad |
+| **Abalorio** | Marca del Sol | Jefe de Mundo: Zanzrakka | Intelecto, Activación Solar |
+| **Anillo** | Banda de Fuego Radiante | Mazmorra: Mítica+ | Versatilidad, Celeridad |
+
+</Section>
+
+<Section icon={Swords} title="Comparación de Rendimiento en JcE y JcJ">
+
+La **build de valquiria en Conquest of Azeroth** destaca de diferentes maneras según el modo de juego. En JcE, la Valquiria es el "Rey de la Utilidad", proporcionando beneficios esenciales como **Bendición del Sol** a toda la banda mientras mantiene un DPS competitivo. En JcJ, particularmente en escenarios de Alto Riesgo, la movilidad de la Valquiria (a través de **Alas de Valquiria**) y su sanación de ráfaga la convierten en una pesadilla para asesinos como el Segador o el Explorador.
+
+Sin embargo, la build tiene debilidades. Depende en gran medida de permanecer en el rango de cuerpo a cuerpo para generar acumulaciones de Ocaso. Si una clase que cometa hostigamiento a distancia (kiting), como un Clama tormentas o un Cronomante, logra mantener a la Valquiria a distancia, la efectividad de la especialización disminuye significativamente.
+
+| Modo | Fuerza | Debilidad | Nivel en 2026 |
+|:---|:---|:---|:---|
+| **Mazmorras** | Excelente daño en área y sanación secundaria | Alto consumo de maná | **Rango S** |
+| **Bandas** | Fuertes beneficios para toda la banda | Rotación compleja | **Rango A** |
+| **Arena** | Gran ráfaga y supervivencia | Vulnerable a silencios | **Rango A** |
+| **Alto Riesgo** | Excelentes herramientas de escape y robustez | Dependiente del equipo | **Rango S** |
+
+<Callout type="tip" title="Contraestrategia en JcJ">
+Al enfrentarte a clases de hostigamiento a distancia en JcJ, guarda tus **Alas de Valquiria** para el momento en que usen su habilidad de desplazamiento (como Traslación). Usarla demasiado pronto te dejará indefenso.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión">
+
+Para optimizar por completo tu **build de valquiria en Conquest of Azeroth**, sigue esta hoja de ruta de progresión para asegurarte de alcanzar los hitos de poder necesarios antes de entrar en el juego final de nivel 60.
+
+<Checklist
+  id="valkyrie-progression"
+  title="Objetivos de Hitos de la Valquiria:"
+  items={[
+    "Alcanzar el nivel 10 y seleccionar la Especialización de Valquiria",
+    "Encontrar al entrenador de Clérigo del Sol en Villadorada o Rémol para las misiones iniciales",
+    "Desbloquear el talento 'Sinergia Radiante' en el Árbol de Especialización",
+    "Obtener un conjunto completo de armadura de Placas con modificadores de Intelecto",
+    "Completar la sintonización de Núcleo de Magma para el arma Forjada por el Sol",
+    "Alcanzar el límite suave de 20% de Celeridad mediante gemas de equipo",
+    "Dominar la rotación de 10 acumulaciones de Ocaso en Mazmorras Heroicas"
+  ]}
+/>
+
+<Callout type="info" title="Consejo de Nivelación">
+Subir de nivel del 45 al 55 es la fase más transformadora para la Valquiria. Es entonces cuando los efectos visuales de tus hechizos principales y el pulido de las descripciones se vuelven activos, haciendo que la rotación se sienta significativamente más fluida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es viable la build de valquiria en Conquest of Azeroth para subir de nivel en solitario?",
+    answer: "Sí, es una de las builds en solitario más seguras debido a la combinación de armadura de placas y autocuración constante a partir del daño de fuego sagrado."
+  },
+  {
+    question: "¿Debo concentrarme más en la Fuerza o en el Intelecto?",
+    answer: "Para una Valquiria enfocada en DPS, prioriza el Intelecto, ya que escala tus remates más poderosos. Para Tanque, equilibra la Fuerza y el Aguante con mayor peso."
+  },
+  {
+    question: "¿Cómo se comporta la Valquiria en JcJ de Alto Riesgo?",
+    answer: "La Valquiria es muy fuerte en Alto Riesgo debido a su capacidad para sobrevivir a emboscadas y usar 'Alas de Valquiria' para escapar a través de terrenos que otras clases no pueden cruzar."
+  },
+  {
+    question: "¿Puede la Valquiria ser sanadora principal en bandas?",
+    answer: "Aunque el Clérigo del Sol tiene una especialización de sanación dedicada (Bendiciones), la Valquiria se considera una 'Sanadora de Soporte' que aporta una sanación significativa mientras inflige daño principalmente."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Nigromante de Conquest of Azeroth: Guía de mejores builds y especializaciones",
+  description: "Domina la clase Nigromante en Conquest of Azeroth. Compara las especializaciones de Muerte, Animación y Escarcha, optimiza tu árbol de talentos y domina en PvE y PvP.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/121a24/2fc48d?text=Necromancer+Build+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "conquest of azeroth, nigromante, build, guía, especializaciones, wow, ascension"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Identidad principal**: El **nigromante de conquest of azeroth** es un taumaturgo a distancia de nivel S que utiliza la Fuerza vital para comandar esbirros no-muertos, propagar pestes y lanzar magia de escarcha y descomposición.
+- **Especializaciones**: Elige entre Muerte (daño en el tiempo), Animación (invocador centrado en mascotas) y Escarcha (control de escarcha y descomposición).
+- **Prioridad de estadísticas**: Prioriza el Intelecto y el Poder con hechizos para maximizar el escalado de los hechizos y el daño de las mascotas, seguidos de la Celeridad y el Golpe crítico.
+- **Mecánica de recursos**: Administra la Fuerza vital de manera eficiente, ya que actúa como tu combustible principal para invocar y potenciar hechizos oscuros.
+- **Detalles del lanzamiento**: Juega con esta clase personalizada en el reino Vol'Jin a partir del 3 de julio de 2026, utilizando el iniciador oficial de Project Ascension.
+</Callout>
+
+<Section icon={Map} title="Resumen de la clase Nigromante de Conquest of Azeroth">
+
+El **nigromante de conquest of azeroth** destaca como una de las clases personalizadas más populares y poderosas en el entorno personalizado de WoW de Project Ascension. Funcionando como un taumaturgo de daño a distancia puro que viste tela, esta clase captura la fantasía oscura de comandar a los muertos y descomponer a los enemigos con magia de sombras y escarcha. A diferencia de las clases estándar de WoW, el Nigromante depende de un sistema de recursos único llamado Fuerza vital, que se cosecha en combate y se gasta para alimentar hechizos poderosos o mantener hordas de esbirros no-muertos.
+
+Al jugar con un Nigromante, no eres simplemente un mago temático de sombras o un brujo con diferentes aspectos para sus mascotas. La clase cuenta con mecánicas, efectos visuales y un sistema de talentos de doble árbol totalmente personalizados, inspirados en los diseños de las expansiones modernas. Ya sea que prefieras derretir objetivos individuales con pestes propagadas, abrumar a los jefes con un ejército de esqueletos de bolsillo o controlar los campos de batalla con una fría descomposición, el Nigromante ofrece estilos de juego sumamente versátiles a través de sus tres especializaciones.
+
+| Atributo | Detalle | Impacto en el juego |
+|---|---|---|
+| **Rol principal** | DPS mágico a distancia | Se centra en el daño desde lejos usando ataques de sombras, escarcha y ataques físicos de mascotas. |
+| **Tipo de armadura** | Tela | Una menor defensa física requiere un posicionamiento inteligente y la utilidad de las mascotas para sobrevivir. |
+| **Estadística principal** | Intelecto | Aumenta el poder con hechizos, la probabilidad de golpe crítico y la reserva general de maná. |
+| **Recurso de clase** | Fuerza vital / Maná | Sistema de doble recurso; el maná lanza hechizos básicos, mientras que la Fuerza vital alimenta las habilidades de élite. |
+| **Estado de nivel S** | Altamente recomendado | Clasificado como nivel S para subir de nivel y PvE debido a su alto autosustento y al tanqueo de las mascotas. |
+
+<Callout type="tip" title="Consejo de gestión de recursos">
+Comienza siempre el combate con hechizos generadores básicos para acumular Fuerza vital antes de intentar invocar a tus principales construcciones no-muertas. Quedarte sin Fuerza vital a mitad del combate reducirá significativamente tu DPS y dejará a tus mascotas sin mejoras.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparación de las especializaciones del Nigromante">
+
+El Nigromante cuenta con tres especializaciones distintas, cada una de las cuales se desbloquea en el nivel 10. Tu elección de especialización dicta tu ciclo de combate principal, tu relación con tus mascotas y cómo abordas tanto el contenido grupal de PvE como los encuentros de PvP. 
+
+<CardGrid cols={3}>
+  <Card title="Especialización de Muerte">
+    - **Enfoque**: Pestes de daño en el tiempo (DoT) y descomposición basada en sombras.
+    - **Estilo de juego**: Propagar infecciones a múltiples objetivos y succionar vida.
+    - **Ideal para**: Encuentros PvE contra múltiples objetivos y presión constante de estilo desgaste (rot) en PvP.
+  </Card>
+  <Card title="Especialización de Animación">
+    - **Enfoque**: Invocación centrada en mascotas y potenciación de esbirros.
+    - **Estilo de juego**: Controlar un enjambre de arqueros y magos esqueléticos, y brutos físicos directos.
+    - **Ideal para**: Subir de nivel de forma segura en solitario, misiones de élite y daño a un solo objetivo contra jefes.
+  </Card>
+  <Card title="Especialización de Escarcha">
+    - **Enfoque**: Control basado en escarcha, efectos de ralentización y descomposición fría.
+    - **Estilo de juego**: Atraer y kitear enemigos con mecánicas de congelación mientras infliges daño de ráfaga.
+    - **Ideal para**: Control de masas en mazmorras, kiteo de alta movilidad y configuraciones defensivas de PvP.
+  </Card>
+</CardGrid>
+
+Para ayudarte a decidir qué camino elegir cuando alcances el nivel 10 en el reino de lanzamiento Vol'Jin, revisa las diferencias estructurales a continuación.
+
+| Especialización | Rol principal | Mecánica principal | Hechizos clave | Complejidad |
+|---|---|---|---|---|
+| **Muerte** | DPS a distancia | Daño de desgaste y succión | Golpe de peste (Plague Strike), Descomposición de las sombras (Shadow Decay), Festín de almas (Feast of Souls) | Moderada |
+| **Animación** | DPS de invocador de mascotas | Enjambre de esbirros y mejoras | Levantar a los muertos (Raise Dead), Ejército de muertos (Army of the Dead), Potenciación oscura (Dark Empowerment) | Alta (Microgestión de mascotas) |
+| **Escarcha** | DPS de control a distancia | Ralentizaciones de escarcha y fragmentos | Descomposición de escarcha (Frost Decay), Explosión gélida (Chilling Blast), Púa glaciar (Glacial Spike) | Baja a moderada |
+
+<Callout type="success" title="Recomendación para subir de nivel">
+Para la experiencia de subida de nivel más fluida del nivel 1 al 60, elige **Animación**. Tener múltiples mascotas esqueléticas que tanqueen a los monstruos por ti evita el tiempo de inactividad y te permite completar con seguridad misiones de élite difíciles en solitario en el mundo abierto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Árboles de talentos óptimos y progresión de nivel paso a paso">
+
+Subir de nivel a tu **nigromante de conquest of azeroth** requiere navegar por el sistema de talentos personalizado al estilo de Dragonflight. A partir del nivel 10, alternarás entre gastar puntos en el árbol general de la clase Nigromante y en el árbol de tu especialización elegida. El árbol de clase general proporciona utilidad, barreras defensivas y generación pasiva de recursos, mientras que el árbol de especialización desbloquea hechizos de combate activos y multiplicadores mecánicos.
+
+<Steps>
+  <Step num="1" title="Establece los conceptos básicos (Niveles 1-10)">
+    Comienza tu viaje en tu zona de inicio. Concéntrate en aprender tu descarga de las sombras básica y tus hechizos de drenaje de vida. Estate atento a la misión de clase de nivel 3, que te guiará hacia tu instructor local de Nigromantes para desbloquear a tu primer esbirro.
+  </Step>
+  <Step num="2" title="Selecciona tu especialización y activa la asignación automática (Nivel 10)">
+    Al alcanzar el nivel 10, abre tu interfaz de talentos y selecciona tu especialización principal. Si eres nuevo en las mecánicas personalizadas de WoW, utiliza la opción integrada de **Asignación automática** (Auto-Build). Este sistema asigna automáticamente tus puntos de talento en una build equilibrada y previamente probada a medida que subes de nivel.
+  </Step>
+  <Step num="3" title="Construye tu rotación principal (Niveles 10-35)">
+    Gasta tus puntos de talento para desbloquear los hechizos de tu rotación principal. Si juegas en Animación, prioriza los arqueros esqueléticos. Si juegas en Muerte, concéntrate en los nodos de talento que aumentan la duración de la peste y permiten que tus DoT inflijan daño más rápido. Asegúrate de mantener tu equipo actualizado con estadísticas de Intelecto.
+  </Step>
+  <Step num="4" title="Refina la utilidad y las defensas (Niveles 35-55)">
+    Usa este rango de niveles para avanzar en el árbol de clase general en busca de herramientas defensivas. Desbloquea control de masas activo, interrupciones de hechizos y escudos de succión de vida. Estas herramientas son cruciales para sobrevivir a las mecánicas de las mazmorras y hacer frente a encuentros repentinos de PvP en el mundo abierto.
+  </Step>
+  <Step num="5" title="Transición al final del juego (Niveles 55-60)">
+    A medida que te acerques al límite de nivel 60 en el reino Vol'Jin, restablece tus talentos para pasar de una configuración de subida de nivel a una build dedicada de PvE o PvP. Las builds para mazmorras requieren más daño de área de efecto (AoE) y utilidad, mientras que las de subida de nivel se centran en la eficiencia contra un solo objetivo.
+  </Step>
+</Steps>
+
+| Rango de nivel | Objetivos principales | Desbloqueos clave | Acción requerida del instructor |
+|---|---|---|---|
+| **1 - 10** | Completar la zona de inicio; alcanzar el nivel 10 | Hechizos básicos, primera mascota | Sí, visita al instructor en los niveles 3 y 10 |
+| **10 - 30** | Desbloquear especialización; construir la rotación principal | Árbol de especialización, Asignación automática | No, los talentos se pueden gastar en cualquier lugar |
+| **30 - 50** | Realizar mazmorras; optimizar equipo | Mascotas avanzadas, multiplicadores de peste | Sí, busca rangos de hechizos actualizados |
+| **50 - 60** | Prepararse para el final del juego; farmear el pre-BiS (mejor por casilla) | Talentos finales, hechizos definitivos | Sí, finaliza todas las habilidades personalizadas activas |
+
+<Callout type="warning" title="Advertencia de restablecimiento de talentos">
+Restablecer tus árboles de talentos es muy accesible, pero hacerlo dentro de mazmorras activas o campos de batalla está restringido. Visita siempre un santuario seguro o una ciudad principal antes de intentar cambiar la especialización de tu Nigromante.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipo, estadísticas y enfoque de la itemización">
+
+Equipar a un Nigromante en el mundo personalizado y reconstruido de Azeroth requiere una comprensión sólida de cómo el escalado de hechizos afecta tanto a tu daño directo como a tus esbirros invocados. Debido a que el servidor cuenta con botines inmersivos de RPG de mundo abierto e itemización de jefes personalizada, con frecuencia encontrarás equipo con estadísticas únicas que difieren de los objetos estándar de WoW clásico.
+
+Tu enfoque principal es asegurar piezas de armadura de tela que tengan un alto Intelecto y Poder con hechizos. Para la especialización de Animación, tus mascotas heredan un porcentaje directo de tu Poder con hechizos, lo que significa que las mejoras de tu equipo potencian directamente a tu ejército de esqueletos. Para Muerte y Escarcha, la Celeridad y el Golpe crítico son muy valorados para aumentar la velocidad de activación (ticks) de las pestes y acelerar los lanzamientos prolongados de hechizos de escarcha.
+
+<Checklist
+  id="necromancer-gearing"
+  title="Lista de verificación de equipamiento del Nigromante:"
+  items={[
+    "Equipa piezas de armadura de tela con Intelecto como estadística principal.",
+    "Prioriza armas con Poder con hechizos (bastones o espadas de mago de una mano con objetos de mano secundaria).",
+    "Colecciona equipo con índice de Celeridad para reducir el tiempo de reutilización global al lanzar pestes.",
+    "Busca modificadores de daño de sombras o escarcha según tu especialización.",
+    "Evita el equipo con mucho Espíritu a menos que juegues una build híbrida que requiera una alta regeneración de maná."
+  ]}
+/>
+
+| Nombre de estadística | Nivel de prioridad | Beneficio principal para el Nigromante | Fuentes recomendadas |
+|---|---|---|---|
+| **Intelecto** | **La más alta (Principal)** | Aumenta el poder con hechizos, el golpe crítico y la reserva total de maná. | Recompensas de misiones, mazmorras, tela fabricable |
+| **Poder con hechizos** | **Muy alta** | Escala directamente el daño de los hechizos y el poder de ataque de los esbirros. | Armas, objetos de mano secundaria, botines raros de mazmorras |
+| **Índice de Celeridad** | **Alta** | Acelera el lanzamiento de hechizos y aumenta la frecuencia de activación de los DoT. | Equipo de mazmorras de mitad a final del juego, anillos |
+| **Golpe crítico** | **Moderada** | Ofrece potencial de daño de ráfaga para hechizos de sombras y escarcha. | Conjuntos de banda del final del juego, botines de jefes del mundo |
+
+<Callout type="info" title="Consejo de equipamiento">
+Estate atento al equipo Forjado por la sangre (Bloodforged) en las fases de PvP de alto riesgo. Estos objetos a menudo tienen estadísticas de bonificación aleatorias que pueden optimizar drásticamente la velocidad de lanzamiento de hechizos de tu Nigromante y las tasas de supervivencia de tus mascotas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre el Nigromante de Conquest of Azeroth">
+
+<FAQ items={[
+  {
+    question: "¿Es el Nigromante de Conquest of Azeroth bueno para principiantes?",
+    answer: "Sí, el Nigromante es muy amigable para principiantes, especialmente cuando se usa la especialización de Animación. Tener esbirros que tanqueen el daño por ti hace que subir de nivel en el mundo abierto sea seguro y permisivo, mientras que el sistema de Asignación automática integrado evita errores al distribuir los talentos."
+  },
+  {
+    question: "¿Cómo funciona la mecánica de Fuerza vital?",
+    answer: "La Fuerza vital es un recurso secundario que se muestra debajo de tu barra de maná. Generas Fuerza vital lanzando hechizos generadores básicos o cuando los enemigos mueren cerca de ti. Luego gastas este recurso para invocar mascotas no-muertas avanzadas, lanzar hechizos de alto daño o protegerte con escudos."
+  },
+  {
+    question: "¿Puede el Nigromante desempeñar otros roles además de DPS?",
+    answer: "No, el Nigromante está diseñado estrictamente como una clase de DPS mágico a distancia en sus tres especializaciones (Muerte, Animación y Escarcha). Si deseas jugar con un taumaturgo híbrido que pueda sanar o tanquear, considera buscar clases como el Cultista, Clamaestrellas (Starcaller) o Mago de sangre (Bloodmage)."
+  },
+  {
+    question: "¿Qué estadística es mejor para las mascotas de mi Nigromante?",
+    answer: "Tus mascotas escalan directamente de tu Poder con hechizos y tu Intelecto. Para hacer que tus esbirros esqueléticos golpeen más fuerte y sobrevivan más tiempo, concéntrate por completo en mejorar tus propias estadísticas de lanzamiento de hechizos en lugar de buscar equipo especializado para mascotas."
+  }
+]} />
+
+<Callout type="success" title="Veredicto final">
+El **nigromante de conquest of azeroth** es una clase sumamente poderosa para el lanzamiento del reino Vol'Jin el 3 de julio de 2026. Con su increíble capacidad para jugar en solitario, su profunda personalización de talentos y su alta posición en las listas de niveles de PvE, sigue siendo una opción primordial tanto para jugadores nuevos como veteranos.
+</Callout>
+
+</Section>

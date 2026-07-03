@@ -1,1 +1,698 @@
-{}
+{
+  "de": {
+    "access": [
+      {
+        "slug": "conquest-of-azeroth-access",
+        "file": "conquest-of-azeroth-access"
+      },
+      {
+        "slug": "conquest-of-azeroth-alpha-bundle",
+        "file": "conquest-of-azeroth-alpha-bundle"
+      },
+      {
+        "slug": "conquest-of-azeroth-beta-key",
+        "file": "conquest-of-azeroth-beta-key"
+      },
+      {
+        "slug": "conquest-of-azeroth-download",
+        "file": "conquest-of-azeroth-download"
+      },
+      {
+        "slug": "conquest-of-azeroth-free",
+        "file": "conquest-of-azeroth-free"
+      },
+      {
+        "slug": "conquest-of-azeroth-how-to-access",
+        "file": "conquest-of-azeroth-how-to-access"
+      },
+      {
+        "slug": "conquest-of-azeroth-how-to-play",
+        "file": "conquest-of-azeroth-how-to-play"
+      },
+      {
+        "slug": "conquest-of-azeroth-price",
+        "file": "conquest-of-azeroth-price"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "conquest-of-azeroth-all-specs",
+        "file": "conquest-of-azeroth-all-specs"
+      },
+      {
+        "slug": "conquest-of-azeroth-classes",
+        "file": "conquest-of-azeroth-classes"
+      },
+      {
+        "slug": "conquest-of-azeroth-guardian",
+        "file": "conquest-of-azeroth-guardian"
+      },
+      {
+        "slug": "conquest-of-azeroth-necromancer",
+        "file": "conquest-of-azeroth-necromancer"
+      },
+      {
+        "slug": "conquest-of-azeroth-new-classes",
+        "file": "conquest-of-azeroth-new-classes"
+      },
+      {
+        "slug": "conquest-of-azeroth-starcaller",
+        "file": "conquest-of-azeroth-starcaller"
+      },
+      {
+        "slug": "conquest-of-azeroth-tinker",
+        "file": "conquest-of-azeroth-tinker"
+      },
+      {
+        "slug": "conquest-of-azeroth-witch-doctor",
+        "file": "conquest-of-azeroth-witch-doctor"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "conquest-of-azeroth-beginner-guide",
+        "file": "conquest-of-azeroth-beginner-guide"
+      },
+      {
+        "slug": "conquest-of-azeroth-guide",
+        "file": "conquest-of-azeroth-guide"
+      }
+    ],
+    "release": [
+      {
+        "slug": "conquest-of-azeroth-2026",
+        "file": "conquest-of-azeroth-2026"
+      },
+      {
+        "slug": "conquest-of-azeroth-beta",
+        "file": "conquest-of-azeroth-beta"
+      },
+      {
+        "slug": "conquest-of-azeroth-full-release",
+        "file": "conquest-of-azeroth-full-release"
+      },
+      {
+        "slug": "conquest-of-azeroth-launch-date",
+        "file": "conquest-of-azeroth-launch-date"
+      },
+      {
+        "slug": "conquest-of-azeroth-live",
+        "file": "conquest-of-azeroth-live"
+      },
+      {
+        "slug": "conquest-of-azeroth-open-beta",
+        "file": "conquest-of-azeroth-open-beta"
+      },
+      {
+        "slug": "conquest-of-azeroth-release-date",
+        "file": "conquest-of-azeroth-release-date"
+      },
+      {
+        "slug": "conquest-of-azeroth-release",
+        "file": "conquest-of-azeroth-release"
+      }
+    ],
+    "talents": [
+      {
+        "slug": "conquest-of-azeroth-builds",
+        "file": "conquest-of-azeroth-builds"
+      },
+      {
+        "slug": "conquest-of-azeroth-cultist-build",
+        "file": "conquest-of-azeroth-cultist-build"
+      },
+      {
+        "slug": "conquest-of-azeroth-necromancer-build",
+        "file": "conquest-of-azeroth-necromancer-build"
+      },
+      {
+        "slug": "conquest-of-azeroth-talent-calculator",
+        "file": "conquest-of-azeroth-talent-calculator"
+      },
+      {
+        "slug": "conquest-of-azeroth-talent-trees",
+        "file": "conquest-of-azeroth-talent-trees"
+      },
+      {
+        "slug": "conquest-of-azeroth-valkyrie-build",
+        "file": "conquest-of-azeroth-valkyrie-build"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "conquest-of-azeroth-best-class",
+        "file": "conquest-of-azeroth-best-class"
+      },
+      {
+        "slug": "conquest-of-azeroth-best-solo-class",
+        "file": "conquest-of-azeroth-best-solo-class"
+      },
+      {
+        "slug": "conquest-of-azeroth-class-tier-list",
+        "file": "conquest-of-azeroth-class-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-dps-tier-list",
+        "file": "conquest-of-azeroth-dps-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-healer-tier-list",
+        "file": "conquest-of-azeroth-healer-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-pvp-tier-list",
+        "file": "conquest-of-azeroth-pvp-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-tank-tier-list",
+        "file": "conquest-of-azeroth-tank-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-tier-list",
+        "file": "conquest-of-azeroth-tier-list"
+      }
+    ]
+  },
+  "en": {
+    "access": [
+      {
+        "slug": "conquest-of-azeroth-access",
+        "file": "conquest-of-azeroth-access"
+      },
+      {
+        "slug": "conquest-of-azeroth-alpha-bundle",
+        "file": "conquest-of-azeroth-alpha-bundle"
+      },
+      {
+        "slug": "conquest-of-azeroth-beta-key",
+        "file": "conquest-of-azeroth-beta-key"
+      },
+      {
+        "slug": "conquest-of-azeroth-download",
+        "file": "conquest-of-azeroth-download"
+      },
+      {
+        "slug": "conquest-of-azeroth-free",
+        "file": "conquest-of-azeroth-free"
+      },
+      {
+        "slug": "conquest-of-azeroth-how-to-access",
+        "file": "conquest-of-azeroth-how-to-access"
+      },
+      {
+        "slug": "conquest-of-azeroth-how-to-play",
+        "file": "conquest-of-azeroth-how-to-play"
+      },
+      {
+        "slug": "conquest-of-azeroth-price",
+        "file": "conquest-of-azeroth-price"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "conquest-of-azeroth-all-specs",
+        "file": "conquest-of-azeroth-all-specs"
+      },
+      {
+        "slug": "conquest-of-azeroth-classes",
+        "file": "conquest-of-azeroth-classes"
+      },
+      {
+        "slug": "conquest-of-azeroth-guardian",
+        "file": "conquest-of-azeroth-guardian"
+      },
+      {
+        "slug": "conquest-of-azeroth-necromancer",
+        "file": "conquest-of-azeroth-necromancer"
+      },
+      {
+        "slug": "conquest-of-azeroth-new-classes",
+        "file": "conquest-of-azeroth-new-classes"
+      },
+      {
+        "slug": "conquest-of-azeroth-starcaller",
+        "file": "conquest-of-azeroth-starcaller"
+      },
+      {
+        "slug": "conquest-of-azeroth-tinker",
+        "file": "conquest-of-azeroth-tinker"
+      },
+      {
+        "slug": "conquest-of-azeroth-witch-doctor",
+        "file": "conquest-of-azeroth-witch-doctor"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "conquest-of-azeroth-beginner-guide",
+        "file": "conquest-of-azeroth-beginner-guide"
+      },
+      {
+        "slug": "conquest-of-azeroth-guide",
+        "file": "conquest-of-azeroth-guide"
+      }
+    ],
+    "release": [
+      {
+        "slug": "conquest-of-azeroth-2026",
+        "file": "conquest-of-azeroth-2026"
+      },
+      {
+        "slug": "conquest-of-azeroth-beta",
+        "file": "conquest-of-azeroth-beta"
+      },
+      {
+        "slug": "conquest-of-azeroth-full-release",
+        "file": "conquest-of-azeroth-full-release"
+      },
+      {
+        "slug": "conquest-of-azeroth-launch-date",
+        "file": "conquest-of-azeroth-launch-date"
+      },
+      {
+        "slug": "conquest-of-azeroth-live",
+        "file": "conquest-of-azeroth-live"
+      },
+      {
+        "slug": "conquest-of-azeroth-open-beta",
+        "file": "conquest-of-azeroth-open-beta"
+      },
+      {
+        "slug": "conquest-of-azeroth-release-date",
+        "file": "conquest-of-azeroth-release-date"
+      },
+      {
+        "slug": "conquest-of-azeroth-release",
+        "file": "conquest-of-azeroth-release"
+      }
+    ],
+    "talents": [
+      {
+        "slug": "conquest-of-azeroth-builds",
+        "file": "conquest-of-azeroth-builds"
+      },
+      {
+        "slug": "conquest-of-azeroth-cultist-build",
+        "file": "conquest-of-azeroth-cultist-build"
+      },
+      {
+        "slug": "conquest-of-azeroth-necromancer-build",
+        "file": "conquest-of-azeroth-necromancer-build"
+      },
+      {
+        "slug": "conquest-of-azeroth-talent-calculator",
+        "file": "conquest-of-azeroth-talent-calculator"
+      },
+      {
+        "slug": "conquest-of-azeroth-talent-trees",
+        "file": "conquest-of-azeroth-talent-trees"
+      },
+      {
+        "slug": "conquest-of-azeroth-valkyrie-build",
+        "file": "conquest-of-azeroth-valkyrie-build"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "conquest-of-azeroth-best-class",
+        "file": "conquest-of-azeroth-best-class"
+      },
+      {
+        "slug": "conquest-of-azeroth-best-solo-class",
+        "file": "conquest-of-azeroth-best-solo-class"
+      },
+      {
+        "slug": "conquest-of-azeroth-class-tier-list",
+        "file": "conquest-of-azeroth-class-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-dps-tier-list",
+        "file": "conquest-of-azeroth-dps-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-healer-tier-list",
+        "file": "conquest-of-azeroth-healer-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-pvp-tier-list",
+        "file": "conquest-of-azeroth-pvp-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-tank-tier-list",
+        "file": "conquest-of-azeroth-tank-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-tier-list",
+        "file": "conquest-of-azeroth-tier-list"
+      }
+    ]
+  },
+  "es": {
+    "access": [
+      {
+        "slug": "conquest-of-azeroth-access",
+        "file": "conquest-of-azeroth-access"
+      },
+      {
+        "slug": "conquest-of-azeroth-alpha-bundle",
+        "file": "conquest-of-azeroth-alpha-bundle"
+      },
+      {
+        "slug": "conquest-of-azeroth-beta-key",
+        "file": "conquest-of-azeroth-beta-key"
+      },
+      {
+        "slug": "conquest-of-azeroth-download",
+        "file": "conquest-of-azeroth-download"
+      },
+      {
+        "slug": "conquest-of-azeroth-free",
+        "file": "conquest-of-azeroth-free"
+      },
+      {
+        "slug": "conquest-of-azeroth-how-to-access",
+        "file": "conquest-of-azeroth-how-to-access"
+      },
+      {
+        "slug": "conquest-of-azeroth-how-to-play",
+        "file": "conquest-of-azeroth-how-to-play"
+      },
+      {
+        "slug": "conquest-of-azeroth-price",
+        "file": "conquest-of-azeroth-price"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "conquest-of-azeroth-all-specs",
+        "file": "conquest-of-azeroth-all-specs"
+      },
+      {
+        "slug": "conquest-of-azeroth-classes",
+        "file": "conquest-of-azeroth-classes"
+      },
+      {
+        "slug": "conquest-of-azeroth-guardian",
+        "file": "conquest-of-azeroth-guardian"
+      },
+      {
+        "slug": "conquest-of-azeroth-necromancer",
+        "file": "conquest-of-azeroth-necromancer"
+      },
+      {
+        "slug": "conquest-of-azeroth-new-classes",
+        "file": "conquest-of-azeroth-new-classes"
+      },
+      {
+        "slug": "conquest-of-azeroth-starcaller",
+        "file": "conquest-of-azeroth-starcaller"
+      },
+      {
+        "slug": "conquest-of-azeroth-tinker",
+        "file": "conquest-of-azeroth-tinker"
+      },
+      {
+        "slug": "conquest-of-azeroth-witch-doctor",
+        "file": "conquest-of-azeroth-witch-doctor"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "conquest-of-azeroth-beginner-guide",
+        "file": "conquest-of-azeroth-beginner-guide"
+      },
+      {
+        "slug": "conquest-of-azeroth-guide",
+        "file": "conquest-of-azeroth-guide"
+      }
+    ],
+    "release": [
+      {
+        "slug": "conquest-of-azeroth-2026",
+        "file": "conquest-of-azeroth-2026"
+      },
+      {
+        "slug": "conquest-of-azeroth-beta",
+        "file": "conquest-of-azeroth-beta"
+      },
+      {
+        "slug": "conquest-of-azeroth-full-release",
+        "file": "conquest-of-azeroth-full-release"
+      },
+      {
+        "slug": "conquest-of-azeroth-launch-date",
+        "file": "conquest-of-azeroth-launch-date"
+      },
+      {
+        "slug": "conquest-of-azeroth-live",
+        "file": "conquest-of-azeroth-live"
+      },
+      {
+        "slug": "conquest-of-azeroth-open-beta",
+        "file": "conquest-of-azeroth-open-beta"
+      },
+      {
+        "slug": "conquest-of-azeroth-release-date",
+        "file": "conquest-of-azeroth-release-date"
+      },
+      {
+        "slug": "conquest-of-azeroth-release",
+        "file": "conquest-of-azeroth-release"
+      }
+    ],
+    "talents": [
+      {
+        "slug": "conquest-of-azeroth-builds",
+        "file": "conquest-of-azeroth-builds"
+      },
+      {
+        "slug": "conquest-of-azeroth-cultist-build",
+        "file": "conquest-of-azeroth-cultist-build"
+      },
+      {
+        "slug": "conquest-of-azeroth-necromancer-build",
+        "file": "conquest-of-azeroth-necromancer-build"
+      },
+      {
+        "slug": "conquest-of-azeroth-talent-calculator",
+        "file": "conquest-of-azeroth-talent-calculator"
+      },
+      {
+        "slug": "conquest-of-azeroth-talent-trees",
+        "file": "conquest-of-azeroth-talent-trees"
+      },
+      {
+        "slug": "conquest-of-azeroth-valkyrie-build",
+        "file": "conquest-of-azeroth-valkyrie-build"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "conquest-of-azeroth-best-class",
+        "file": "conquest-of-azeroth-best-class"
+      },
+      {
+        "slug": "conquest-of-azeroth-best-solo-class",
+        "file": "conquest-of-azeroth-best-solo-class"
+      },
+      {
+        "slug": "conquest-of-azeroth-class-tier-list",
+        "file": "conquest-of-azeroth-class-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-dps-tier-list",
+        "file": "conquest-of-azeroth-dps-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-healer-tier-list",
+        "file": "conquest-of-azeroth-healer-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-pvp-tier-list",
+        "file": "conquest-of-azeroth-pvp-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-tank-tier-list",
+        "file": "conquest-of-azeroth-tank-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-tier-list",
+        "file": "conquest-of-azeroth-tier-list"
+      }
+    ]
+  },
+  "ru": {
+    "access": [
+      {
+        "slug": "conquest-of-azeroth-access",
+        "file": "conquest-of-azeroth-access"
+      },
+      {
+        "slug": "conquest-of-azeroth-alpha-bundle",
+        "file": "conquest-of-azeroth-alpha-bundle"
+      },
+      {
+        "slug": "conquest-of-azeroth-beta-key",
+        "file": "conquest-of-azeroth-beta-key"
+      },
+      {
+        "slug": "conquest-of-azeroth-download",
+        "file": "conquest-of-azeroth-download"
+      },
+      {
+        "slug": "conquest-of-azeroth-free",
+        "file": "conquest-of-azeroth-free"
+      },
+      {
+        "slug": "conquest-of-azeroth-how-to-access",
+        "file": "conquest-of-azeroth-how-to-access"
+      },
+      {
+        "slug": "conquest-of-azeroth-how-to-play",
+        "file": "conquest-of-azeroth-how-to-play"
+      },
+      {
+        "slug": "conquest-of-azeroth-price",
+        "file": "conquest-of-azeroth-price"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "conquest-of-azeroth-all-specs",
+        "file": "conquest-of-azeroth-all-specs"
+      },
+      {
+        "slug": "conquest-of-azeroth-classes",
+        "file": "conquest-of-azeroth-classes"
+      },
+      {
+        "slug": "conquest-of-azeroth-guardian",
+        "file": "conquest-of-azeroth-guardian"
+      },
+      {
+        "slug": "conquest-of-azeroth-necromancer",
+        "file": "conquest-of-azeroth-necromancer"
+      },
+      {
+        "slug": "conquest-of-azeroth-new-classes",
+        "file": "conquest-of-azeroth-new-classes"
+      },
+      {
+        "slug": "conquest-of-azeroth-starcaller",
+        "file": "conquest-of-azeroth-starcaller"
+      },
+      {
+        "slug": "conquest-of-azeroth-tinker",
+        "file": "conquest-of-azeroth-tinker"
+      },
+      {
+        "slug": "conquest-of-azeroth-witch-doctor",
+        "file": "conquest-of-azeroth-witch-doctor"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "conquest-of-azeroth-beginner-guide",
+        "file": "conquest-of-azeroth-beginner-guide"
+      },
+      {
+        "slug": "conquest-of-azeroth-guide",
+        "file": "conquest-of-azeroth-guide"
+      }
+    ],
+    "release": [
+      {
+        "slug": "conquest-of-azeroth-2026",
+        "file": "conquest-of-azeroth-2026"
+      },
+      {
+        "slug": "conquest-of-azeroth-beta",
+        "file": "conquest-of-azeroth-beta"
+      },
+      {
+        "slug": "conquest-of-azeroth-full-release",
+        "file": "conquest-of-azeroth-full-release"
+      },
+      {
+        "slug": "conquest-of-azeroth-launch-date",
+        "file": "conquest-of-azeroth-launch-date"
+      },
+      {
+        "slug": "conquest-of-azeroth-live",
+        "file": "conquest-of-azeroth-live"
+      },
+      {
+        "slug": "conquest-of-azeroth-open-beta",
+        "file": "conquest-of-azeroth-open-beta"
+      },
+      {
+        "slug": "conquest-of-azeroth-release-date",
+        "file": "conquest-of-azeroth-release-date"
+      },
+      {
+        "slug": "conquest-of-azeroth-release",
+        "file": "conquest-of-azeroth-release"
+      }
+    ],
+    "talents": [
+      {
+        "slug": "conquest-of-azeroth-builds",
+        "file": "conquest-of-azeroth-builds"
+      },
+      {
+        "slug": "conquest-of-azeroth-cultist-build",
+        "file": "conquest-of-azeroth-cultist-build"
+      },
+      {
+        "slug": "conquest-of-azeroth-necromancer-build",
+        "file": "conquest-of-azeroth-necromancer-build"
+      },
+      {
+        "slug": "conquest-of-azeroth-talent-calculator",
+        "file": "conquest-of-azeroth-talent-calculator"
+      },
+      {
+        "slug": "conquest-of-azeroth-talent-trees",
+        "file": "conquest-of-azeroth-talent-trees"
+      },
+      {
+        "slug": "conquest-of-azeroth-valkyrie-build",
+        "file": "conquest-of-azeroth-valkyrie-build"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "conquest-of-azeroth-best-class",
+        "file": "conquest-of-azeroth-best-class"
+      },
+      {
+        "slug": "conquest-of-azeroth-best-solo-class",
+        "file": "conquest-of-azeroth-best-solo-class"
+      },
+      {
+        "slug": "conquest-of-azeroth-class-tier-list",
+        "file": "conquest-of-azeroth-class-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-dps-tier-list",
+        "file": "conquest-of-azeroth-dps-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-healer-tier-list",
+        "file": "conquest-of-azeroth-healer-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-pvp-tier-list",
+        "file": "conquest-of-azeroth-pvp-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-tank-tier-list",
+        "file": "conquest-of-azeroth-tank-tier-list"
+      },
+      {
+        "slug": "conquest-of-azeroth-tier-list",
+        "file": "conquest-of-azeroth-tier-list"
+      }
+    ]
+  }
+}

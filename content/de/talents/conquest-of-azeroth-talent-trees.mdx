@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Talentbäume: 2026 Build- & Spezialisierungs-Guide",
+  description: "Meistere die benutzerdefinierten Conquest of Azeroth Talentbäume. Erfahre alles über Klassenbäume, Spezialisierungsbäume, Auto-Builds und die besten Klassen-Builds für Project Ascension.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0b1118/f4c24e?text=Talent+Trees+Guide",
+  date: "2026-07-03",
+  author: "conquest of azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Talent-Überarbeitung**: Die benutzerdefinierten **Conquest of Azeroth Talentbäume** bieten ein duales Baum-Layout, das von modernen Retail-Designs inspiriert ist.
+- **Freischaltphase**: Spieler wählen ihre primäre Spezialisierung auf **Stufe 10**, um klassenweite und spezialisierungsspezifische Talentbäume freizuschalten [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md].
+- **Punktverteilung**: Während des Levelns wechseln sich die Punkte zwischen dem **Klassenbaum** und dem **Spezialisierungsbaum** ab [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+- **Auto-Build-Funktion**: Anfänger können **Auto-Build** aktivieren, um beim Erlernen der Klasse automatisch optimale Talentpunkte zu verteilen [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+</Callout>
+
+<Section icon={Sparkles} title="Die Conquest of Azeroth Talentbäume verstehen">
+
+Der maßgeschneiderte Classic+ Project Ascension-Server bietet ein komplett überarbeitetes Fortschrittssystem. Anstatt standardmäßige klassenlose Mechaniken zu nutzen, führt das Vol'Jin-Reich 21 benutzerdefinierte Klassen und 69 Spezialisierungen ein [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md]. Im Mittelpunkt dieses Erlebnisses stehen die benutzerdefinierten **Conquest of Azeroth Talentbäume**, die ein duales Baum-Layout nutzen, das von modernen Retail-Designs inspiriert ist [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+Jede Klasse hat Zugriff auf einen gemeinsamen Klassenbaum, der Hilfsprogramme (Utility), defensive Werkzeuge und allgemeine klassenweite Passivs enthält [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Daneben befindet sich der Spezialisierungsbaum, der stark fokussierte aktive Fähigkeiten, Rotationsmodifikatoren und rollenprägende Meilensteine (Capstones) enthält [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Das Navigieren in diesem System erfordert ein solides Verständnis darüber, wie Punkte verteilt werden, wie Werte skalieren und wie du deinen Build für das Endgame-PvE und -PvP optimierst [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+**Video-Highlights:**
+- **Launch-Details**: Überblick über den Vol'Jin-Launch am 3. Juli 2026 [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md].
+- **Fortschrittssysteme**: Wie benutzerdefinierte Klassen, Zauber und Talente in der offenen Welt funktionieren [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md].
+- **Endgame-Fokus**: Ein Blick auf Dungeons, Raids und die Talent-Überarbeitung [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Full Release: Conquest of Azeroth - Ascension WoW" />
+
+Die Fortschrittsstruktur ist starr, aber äußerst lohnend. Während du von Stufe 1 bis 60 aufsteigst, verdienst du Talentpunkte, die abwechselnd ausgegeben werden müssen [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Dies stellt sicher, dass dein Charakter ein ausgewogenes Verhältnis von Utility und roher Macht erhält.
+
+| Stufen-Meilenstein | Freigeschaltetes System | Regel zur Punktverteilung |
+| :--- | :--- | :--- |
+| **Stufe 1-9** | Basis-Klassenset | Keine Talentpunkte verfügbar |
+| **Stufe 10** | Spezialisierungswahl | Klassen- und Spez-Bäume freischalten |
+| **Stufe 11-60** | Abwechselnde Punkte | Klassenbaum (gerade), Spez-Baum (ungerade) |
+| **Stufe 10+** | Auto-Build-System | Automatisierte Punktplatzierung |
+
+<Callout type="info" title="Systemmechaniken">
+Im Klassenbaum ausgegebene Punkte schalten allgemeine Utility frei, während im Spezialisierungsbaum ausgegebene Punkte rollenspezifische Macht freischalten. Du kannst keine Punkte horten, um sie alle in einen einzigen Baum zu stecken [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Spezialisierungen, Rollen und Auto-Builds">
+
+Auf Stufe 10 erreicht dein Charakter einen wichtigen Meilenstein: die Wahl einer primären Spezialisierung [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Diese Wahl legt deine primäre Rolle fest (Tank, Schadensausteiler (DPS), Heiler oder Unterstützer (Support)) und öffnet den entsprechenden Spezialisierungs-Talentbaum [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Da viele der 21 Klassen echte Hybride sind, bestimmt deine Spezialisierungswahl deinen Spielstil vollständig [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md].
+
+Um Spielern zu helfen, sich in dieser riesigen Auswahl an Optionen zurechtzufinden, bietet Project Ascension ein integriertes **Auto-Build**-System [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Durch Aktivieren dieser Option kann der Client deine Talentpunkte beim Leveln automatisch auf einem voroptimierten Pfad verteilen [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Dies wird Anfängern dringend empfohlen, die sich auf das Erlernen ihrer Rotation konzentrieren möchten, bevor sie sich mit der manuellen Anpassung befassen [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+<CardGrid cols={3}>
+  <Card title="Tüftler-Demontage">
+    - **Primärwert**: Beweglichkeit / Intelligenz
+    - **Fokus**: Sprengstoffe, Schwarzpulver, Pionierladungen und Raketenwerfer
+    - **Bestens geeignet für**: Schnellen Fernkampf-Schaden mit hohem AoE-Burst-Potenzial [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]
+  </Card>
+  <Card title="Pyromant-Einäscherung">
+    - **Primärwert**: Intelligenz
+    - **Fokus**: Direkter Feuerschaden, Feuer-DoTs, Meteore und Entzünden-Procs
+    - **Bestens geeignet für**: Traditionelle Zauberwirker, die massiven Einzelziel-Burst lieben [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]
+  </Card>
+  <Card title="Blutmagier Sanguinisch">
+    - **Primärwert**: Intelligenz / Willenskraft / Ausdauer
+    - **Fokus**: Verbrauch von Gesundheit zum Wirken von Zaubern, Lebensentzug und vampirische Selbsterhaltung
+    - **Bestens geeignet für**: Spieler, die risikoreiche Caster-Mechaniken mit hoher Belohnung mögen [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]
+  </Card>
+</CardGrid>
+
+Für Spieler, die den vollen Umfang der Klassenrollen verstehen möchten, zeigt die folgende Tabelle, wie einige der beliebtesten Klassen ihre Spezialisierungen verteilen [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md].
+
+| Klassenname | Primärwert | Verfügbare Rollen | Wichtige Spezialisierungen |
+| :--- | :--- | :--- | :--- |
+| **Nekromant** | Intelligenz | DPS | Tod, Animation, Raureif |
+| **Blutmagier** | Intelligenz / Willenskraft | Tank, DPS, Heiler | Fleischweber, Sanguinisch, Verflucht, Ewig |
+| **Tüftler** | Beweglichkeit / Intelligenz | DPS, Heiler | Demontage, Mechanik, Erfindung |
+| **Kultist** | Stärke / Intelligenz | Tank, DPS, Heiler | Götterklinge, Verderbnis, Einfluss, Dreadnought |
+| **Wächter** | Stärke | Tank, DPS, Support | Gladiator, Vorhut, Inspiration |
+
+<Callout type="success" title="Auto-Build-Tipp">
+Du kannst Auto-Build jederzeit ein- oder ausschalten. Wenn du dich entscheidest, deinen Build während des Levelns anzupassen, deaktiviere einfach die Funktion und besuche einen Lehrer, um deine Punkte zurückzusetzen [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="So erstellst du deinen Charakter: Schritt-für-Schritt">
+
+Das Erstellen eines schlüssigen Builds erfordert einen schrittweisen Ansatz. Anstatt Punkte willkürlich zu verteilen, solltest du einem strukturierten Pfad folgen, um sicherzustellen, dass dein Charakter sowohl in der Levelphase als auch beim Übergang ins Endgame stark bleibt [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+<Steps>
+  <Step num="1" title="Wähle deine Basisklasse">
+    Wähle bei der Charaktererstellung eine der 21 benutzerdefinierten Klassen [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md]. Schließe deine frühen Klassenquests bis Stufe 3 ab, um deinen Startlehrer zu finden [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+  </Step>
+  <Step num="2" title="Spezialisierungen auf Stufe 10 freischalten">
+    Öffne dein Talent-Interface und wähle deine primäre Spezialisierung [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Entscheide, ob du die Auto-Build-Funktion nutzen oder deine Punkte manuell verteilen möchtest [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+  </Step>
+  <Step num="3" title="Wechsle deine Talentpunkte ab">
+    Verteile beim Leveln Punkte auf geraden Stufen im Klassenbaum und auf ungeraden Stufen im Spezialisierungsbaum [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Priorisiere zuerst aktive Rotationsfähigkeiten, gefolgt von passiven Schadensmultiplikatoren [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+  </Step>
+  <Step num="4" title="Nutze Synergien mit Klassenlehrern">
+    Besuche regelmäßig deinen Klassenlehrer in den Startgebieten oder Hauptstädten [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Lehrer ermöglichen es dir, Zauber manuell auszuwählen und zu kaufen, die deinen gewählten Talentpfad ergänzen [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+  </Step>
+  <Step num="5" title="Verfeinere dein Endgame-Setup">
+    Sobald du Stufe 60 erreichst, setze deine Talente zurück, um sie für bestimmte Inhalte zu optimieren [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Dein Level-Build wird sich wahrscheinlich von einem spezialisierten Mythisch+-Dungeon- oder gewerteten PvP-Arena-Build unterscheiden [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+  </Step>
+</Steps>
+
+Während deiner Levelreise hilft dir das Verfolgen der wichtigsten Stufenbereiche zu verstehen, wann deine Machtspitzen auftreten. Nutze die folgende Tabelle zu den Meilensteinen des Levelns, um deinen Fortschritt zu planen.
+
+| Stufenbereich | Talent-Fokus | Kernziel | Kosten für Zurücksetzung |
+| :--- | :--- | :--- | :--- |
+| **Stufe 10-20** | Aktive Kernfähigkeiten | Grundrotation etablieren | Kostenlos |
+| **Stufe 21-40** | Passive Synergien | Ressourcenregeneration steigern | Wenig Silber |
+| **Stufe 41-55** | Capstone-Talente | Wichtige Klassen-Cooldowns freischalten | Moderat Silber |
+| **Stufe 56-60** | Endgame-Feintuning | Für PvE oder PvP optimieren | Feste Goldgebühr |
+
+<Callout type="tip" title="Respec-Optimierung">
+Nutze die kostenlosen Zurücksetzungen vor Stufe 20. Dies ist das perfekte Zeitfenster, um mit verschiedenen Spezialisierungen zu experimentieren und den Spielstil zu finden, der am besten zu dir passt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ausrüstungssynergie und Talentoptimierung">
+
+Deine Talententscheidungen existieren nicht im luftleeren Raum. In Conquest of Azeroth bietet das Open-World-RPG-Beutesystem maßgeschneiderte Werte und immersive Gegenstandsbeute, die direkt mit deinen Talentbäumen skalieren [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Beispielsweise skalieren bestimmte Talente im Tüftler-Demontage-Baum sowohl mit Beweglichkeit als auch mit Intelligenz, was Hybrid-Ausrüstung unglaublich wertvoll macht [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+Das Verständnis deiner Werte-Prioritäten ist entscheidend, um die Effizienz deines Builds zu maximieren. Die folgende Tabelle zeigt im Detail, wie verschiedene Archetypen ihre Ausrüstung auf die gewählten Talentpfade abstimmen sollten.
+
+| Archetyp | Primärwert | Sekundärwert | Talentsynergie-Effekt |
+| :--- | :--- | :--- | :--- |
+| **Zauberwirker** | Intelligenz | Tempo / Krit | Verringert die Zauberzeit und löst Procs aus |
+| **Nahkampf-Bruiser** | Stärke / Beweglichkeit | Meisterschaft / Vielseitigkeit | Erhöht physischen Schaden und Selbstheilung |
+| **Hybrid-Heiler** | Intelligenz / Willenskraft | Krit / Tempo | Verbessert die Manaregeneration und Schildabsorption |
+| **Vermeidungs-Tank** | Beweglichkeit / Ausdauer | Ausweichen / Parieren | Steigert die aktive Schadensvermeidung und Ausweichwertung |
+
+Um sicherzustellen, dass dein Build vollständig für High-End-Inhalte wie den Geschmolzenen Kern (Molten Core) oder gewertete PvP-Arenen optimiert ist, stelle sicher, dass du die folgende Checkliste abarbeitest [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+<Checklist
+  id="build-optimization"
+  title="Endgame-Build-Checkliste:"
+  items={[
+    "Stimme alle ausgerüsteten Rüstungsarten mit deinen Klassenpassivs ab [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]",
+    "Schalte alle wichtigen Capstones in deinem primären Spezialisierungsbaum frei [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]",
+    "Kaufe alle relevanten Utility-Zauber bei deinem örtlichen Klassenlehrer [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]",
+    "Verteile Punkte von Level-Utility um in reine Schadens- oder Schadensvermeidungs-Passivs [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]",
+    "Überprüfe, ob deine Sekundärwerte den Skalierungsanforderungen deiner Capstone-Talente entsprechen"
+  ]}
+/>
+
+<Callout type="warning" title="Rüstungsklassen-Passivs">
+Überprüfe immer die Rüstungsspezialisierung deiner Klasse. Das Tragen der falschen Rüstungsart (z. B. Schwere Rüstung auf einem Pyromanten, der Stoff benötigt) kann entscheidende passive Talentvorteile deaktivieren und deine Leistung drastisch einschränken [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+Das Verständnis darüber, wie du dein Setup anpasst, zurücksetzt und optimierst, ist der Schlüssel zur Beherrschung der benutzerdefinierten Systeme dieses Classic+-Reiches. Unten findest du Antworten auf die häufigsten Fragen zum Fortschritt.
+
+<FAQ items={[
+  {
+    question: "Wie unterscheiden sich die benutzerdefinierten Conquest of Azeroth Talentbäume vom Standard-Project Ascension?",
+    answer: "Standard-Project Ascension verwendet ein völlig klassenloses System, bei dem du einzelne Zauber wählst. Conquest of Azeroth bietet 21 definierte, benutzerdefinierte Klassen, jede mit ihren eigenen strukturierten Klassen- und Spezialisierungs-Talentbäumen, die von modernen Retail-Designs inspiriert sind."
+  },
+  {
+    question: "Wann schalte ich meine Talentbäume frei und wähle eine Spezialisierung?",
+    answer: "Du schaltest deine Talentbäume auf Stufe 10 frei. An diesem Meilenstein musst du eine primäre Spezialisierung wählen, die deine Hauptrolle bestimmt und Zugriff auf deinen spezialisierungsspezifischen Talentbaum gewährt."
+  },
+  {
+    question: "Kann ich meine Talentpunkte zurücksetzen, wenn ich einen Fehler mache?",
+    answer: "Ja. Du kannst jeden deiner Klassenlehrer in den Startgebieten oder Hauptstädten besuchen, um deine Talentpunkte zurückzusetzen. Das Zurücksetzen (Respec) ist vor Stufe 20 völlig kostenlos, danach kostet es einen skalierenden Betrag an Silber und Gold."
+  },
+  {
+    question: "Was bewirkt die Auto-Build-Option?",
+    answer: "Das Auto-Build-System verteilt deine Talentpunkte beim Leveln automatisch auf einem voroptimierten Pfad. Es ist ein hervorragendes Werkzeug für Anfänger, um Verwirrung beim Build-Erstellen zu vermeiden, während sie ihre Klassenmechaniken erlernen."
+  }
+]} />
+
+<Callout type="info" title="Community & Updates">
+Für Live-Server-Status-Updates, Launcher-Fehlerbehebung oder um Builds mit anderen Spielern zu diskutieren, besuche die offiziellen Project Ascension-Kanäle unter [ascension.gg](https://ascension.gg/de) [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md].
+</Callout>
+
+</Section>

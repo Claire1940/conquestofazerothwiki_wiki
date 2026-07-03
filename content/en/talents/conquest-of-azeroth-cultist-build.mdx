@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Conquest of Azeroth Cultist Build: Best Talents & Specs Guide",
+  description: "Master the Cultist in Conquest of Azeroth with our in-depth build guide. Learn the best talents, specs, and rotations for Godblade, Heretic, and Dreadnought.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/121a24/f4c24e?text=Cultist+Build+Guide",
+  date: "2026-07-03",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mastering the Class**: The optimal **conquest of azeroth cultist build** revolves around managing your Insanity resource to maximize shadow damage.
+- **Godblade (DPS)**: Uses two-handed weapons and shadow strikes like Blade of the Empire to deal massive physical-shadow hybrid damage.
+- **Heretic (Healer)**: Blends melee strikes with smart heals, transforming Abyssal Strike into Malevolence to heal up to 5 nearby allies.
+- **Dreadnought (Tank)**: Unlike other specs, Dreadnoughts want to reach 100 Insanity to transform into a high-defense Eldritch horror.
+</Callout>
+
+<Section icon={Sparkles} title="Understanding the Cultist Class & Insanity Mechanic">
+
+When choosing your path on Project Ascension's custom server, the **conquest of azeroth cultist build** offers one of the most thematic and versatile playstyles in the Classic+ ecosystem. As a servant of the Old Gods, the Cultist balances on a razor's edge, utilizing mana and a unique resource called Insanity. While other classes fear the void, the Cultist harnesses it to heal allies, absorb incoming strikes, or transform into terrifying Eldritch entities. However, pushing your mind too far has dire consequences, making resource management the absolute core of this class.
+
+The defining mechanic of the Cultist is Insanity. Every time you cast a shadow spell or land a dark melee strike, your Insanity bar fills up. For DPS and healing specs, reaching 100 Insanity results in temporary madness, causing your character to run around randomly casting spells while losing a massive portion of health. This makes pacing and spell selection critical. Conversely, for the Dreadnought tank spec, reaching 100 Insanity is the ultimate goal, triggering a monstrous transformation that dramatically increases your durability and magic resistance.
+
+<Callout type="info" title="Insanity Warning">
+Insanity decays slowly over time when out of combat, allowing you to reset your resources between pulls. Always keep an eye on your UI to avoid accidental madness during high-intensity dungeon encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Conquest of Azeroth Cultist Build: The Godblade Melee Guide">
+
+The Godblade is a devastating physical-shadow hybrid spec that channels the power of the Old Gods directly into a two-handed weapon. This **conquest of azeroth cultist build** is perfect for players who love aggressive, high-risk melee combat. By combining physical weapon damage with shadow-infused strikes, Godblades control the battlefield with void tendrils and psychic suppression while dancing dangerously close to the brink of insanity.
+
+Your core rotation revolves around generating Void Runes (similar to rogue combo points) using Eldritch Strike, and spending them on Blade of the Empire. Thanks to the Eldritch Bargain passive, 35% of your Strength is converted into Shadow Spell Power, and 15% is converted into Spell Hit. This unique scaling allows you to stack Strength to boost both your melee strikes and your shadow spells, making you a true hybrid powerhouse.
+
+| Stat | Priority | Ideal Gear Type | Key Benefit |
+| :--- | :--- | :--- | :--- |
+| **Strength** | Primary (Highest) | Plate / Mail (Str) | Converts to shadow spell power and hit rating |
+| **Stamina** | Secondary | Heavy armor with Stam | Boosts survivability and scales shadow absorption |
+| **Haste** | Tertiary | Attack Speed / Haste | Speeds up melee strikes and Void Rune generation |
+| **Intellect** | Low | Hybrid Strength/Int | Useful for mana pool but secondary to Strength |
+
+| Spell Name | Resource Cost | Cooldown | Combat Role & Effect |
+| :--- | :--- | :--- | :--- |
+| **Eldritch Strike** | Mana | 3 seconds | Generates 1 Void Rune; deals 90% weapon damage as Shadow |
+| **Blade of the Empire** | 1+ Void Runes | None | Spends runes to deal heavy Shadow damage; generates Insanity |
+| **Reeving Blade** | Mana | 8 seconds | AoE swing dealing 120% weapon damage to nearby enemies |
+| **Nether Strike** | Mana | 20 seconds | Heavy strike; reduces enemy shield duration by 60% |
+
+<Callout type="success" title="Synergy Bonus">
+By using Reeving Blade first, your next Eldritch Strike on any hit target deals 30% more damage. Always use this combo for massive AoE clears in dungeons!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Corruption Caster & Heretic Healer Cultist Builds">
+
+If melee combat isn't your style, the Cultist offers two highly effective caster paths: the Corruption DPS spec and the Heretic (Influence) healer spec. These builds rely primarily on Intellect and Spell Power, playing like dark clerics of the Black Empire. Whether you are melting enemies with Shadow damage-over-time (DoT) spells or shielding allies with void-infused barriers, these specs require careful positioning and a deep understanding of the Insanity mechanic.
+
+<CardGrid cols={2}>
+  <Card title="Corruption Caster (DPS)">
+    - **Primary Stat**: Intellect & Spell Power
+    - **Playstyle**: Teeter on the edge of madness (keep Insanity between 70 and 99)
+    - **Key Spells**: Wrath of the Black Empire, Horror Bolt, Sanity Tap
+    - **Best For**: High single-target and AoE shadow damage from range
+  </Card>
+  <Card title="Heretic Healer (Support)">
+    - **Primary Stat**: Intellect & Healing Power
+    - **Playstyle**: Deal melee/ranged damage to passively heal nearby allies
+    - **Key Spells**: Malevolence, Abyssal Covenant, Gaze of C'Thun
+    - **Best For**: Players who enjoy hybrid, passive-heavy healing styles
+  </Card>
+</CardGrid>
+
+| Feature | Corruption (Caster DPS) | Heretic Healer (Support) |
+| :--- | :--- | :--- |
+| **Armor Type** | Cloth | Cloth or Plate |
+| **Healing Style** | None (Self-sustain only) | Passive smart-healing via damage conversion |
+| **Insanity Goal** | Stay between 70-99 Insanity | Avoid reaching 100 Insanity at all costs |
+| **Core Weapon** | Staff or One-Hand + Offhand | Two-Handed Weapon (for melee healing shields) |
+
+<Callout type="tip" title="Healer Tip">
+Heretic healers should always keep Abyssal Covenant active on the main tank. It acts like a beacon of light, converting 20% of all damage you deal into direct healing for the tank.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="The Dreadnought Tank Build: Transforming into Eldritch Horror">
+
+The Dreadnought is one of the most unique tank builds in Conquest of Azeroth. While other specs must carefully manage their Insanity to avoid losing control, the Dreadnought actively embraces the madness. Your primary goal is to generate Insanity as quickly as possible to reach 100 stacks. Upon hitting maximum Insanity, you do not go mad; instead, you transform into a hulking, corrupted Eldritch horror, drastically boosting your armor, health, and magic resistance.
+
+This build is exceptionally strong against magic-heavy encounters, making you the ultimate spellcaster counter. By utilizing a shield and a one-handed weapon, you combine traditional tanking mechanics with powerful shadow spells to maintain high threat on multiple targets.
+
+<Steps>
+  <Step num="1" title="Build Insanity Quickly">
+    Use abilities like Armageddon and Presence of Y'Shaarj to pull mobs and rapidly generate Insanity stacks.
+  </Step>
+  <Step num="2" title="Trigger Eldritch Ascension">
+    Once you hit 100 Insanity, ascend into your corrupted Dreadnought form to unlock massive defensive bonuses.
+  </Step>
+  <Step num="3" title="Mitigate Damage and Hold Aggro">
+    Maintain your active mitigation by keeping Twilight Shield active and using shadow-based threat generation spells.
+  </Step>
+  <Step num="4" title="Manage the Decay Phase">
+    As your Insanity decays, prepare your next rotation of high-generation spells to quickly re-ascend into horror form.
+  </Step>
+</Steps>
+
+| Spell Name | Primary Effect | Cooldown | Best Usage |
+| :--- | :--- | :--- | :--- |
+| **Armageddon** | High AoE shadow damage and heavy threat | 15 seconds | Opening pulls to secure threat on packs |
+| **Presence of Y'Shaarj** | Massive threat multiplier and shadow damage | None | Active aura; keep toggled on during combat |
+| **Twilight Shield** | Absorbs incoming physical and magical damage | 12 seconds | Active mitigation; use before heavy boss hits |
+| **Abyssal Ward** | Protects against up to 3 incoming attacks | 30 seconds | Emergency defensive when taking heavy physical damage |
+
+<Callout type="warning" title="Tank Mitigation Warning">
+While in Eldritch horror form, your magic resistance is unmatched, but you are still vulnerable to heavy physical armor-piercing strikes. Coordinate with your healer during physical-heavy boss phases.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cultist Leveling Roadmap & Milestones">
+
+Leveling a Cultist on the Vol'Jin realm requires a structured approach to ensure you don't accidentally blow yourself up with uncontrolled Insanity early on. From level 1 to the level 60 endgame, your talent choices and trainer visits will shape your leveling speed. It is highly recommended to start as a Godblade (melee) or Corruption (caster) for fast solo clear speeds, then transition to tanking or healing once you begin running dungeons.
+
+<Checklist
+  id="cultist-leveling-goals"
+  title="Cultist Leveling Milestones:"
+  items={[
+    "Reach Level 10 and select your specialization (Godblade, Corruption, Influence, or Dreadnought)",
+    "Find your starting zone Class Trainer at Level 3 to unlock your core shadow skills",
+    "Unlock Malevolence at Level 15 if playing Heretic to enable passive dungeon healing",
+    "Acquire a high-damage Two-Handed weapon by Level 30 to maximize Godblade shadow strikes",
+    "Transition to endgame dungeons and raids at Level 60, optimizing your talent trees for PvE or PvP"
+  ]}
+/>
+
+| Level Bracket | Recommended Spec | Key Talent Goal | Best Leveling Zones |
+| :--- | :--- | :--- | :--- |
+| **1 - 10** | Baseline Cultist | Unlock Eldritch Strike | Elwynn Forest / Durotar |
+| **10 - 30** | Godblade (Melee) | Grab Blade of the Empire | Westfall / Barrens |
+| **30 - 50** | Godblade or Corruption | Unlock Reeving Blade / Sanity Tap | Stranglethorn Vale / Tanaris |
+| **50 - 60** | Chosen Endgame Spec | Full Specialization Tree capstone | Western Plaguelands / Silithus |
+
+<Callout type="info" title="Auto-Build Tip">
+If you find yourself overwhelmed by the complex talent trees, use the in-game Auto-Build feature. It automatically allocates your points into a viable leveling build so you can focus on mastering the rotation.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cultist Build FAQ">
+
+To wrap up our comprehensive guide, we have compiled the most frequently asked questions from the Project Ascension community regarding the Cultist class. These answers will help you fine-tune your setup and avoid common pitfalls as you prepare for the Vol'Jin launch.
+
+<FAQ items={[
+  {
+    question: "What is the best conquest of azeroth cultist build for solo leveling?",
+    answer: "The Godblade build is widely considered the best for solo leveling due to its high physical-shadow hybrid damage, zero mana issues (thanks to Eldritch Strike's mana return), and strong self-sustain through shadow-based lifesteal."
+  },
+  {
+    question: "How do I prevent dying from 100 Insanity as a DPS Cultist?",
+    answer: "You must actively manage your Insanity. Use spells like Sanity Tap or Satiate to drain your Insanity bar and regenerate mana when you get dangerously close to 100 stacks. Alternatively, space out your high-generation spells."
+  },
+  {
+    question: "Can Heretic healers use plate armor?",
+    answer: "Yes. While the Heretic spec can function in cloth, they can also wear plate armor. Equipping a two-handed weapon and heavier armor allows you to heal effectively in melee range while remaining incredibly durable."
+  },
+  {
+    question: "Does Spell Power affect the Godblade melee strikes?",
+    answer: "Yes, thanks to the Eldritch Bargain passive, 35% of your Strength is converted into Shadow Spell Power. This means stacking Strength naturally boosts both your physical weapon attacks and your shadow spell damage."
+  }
+]} />
+
+<Callout type="tip" title="Final Inventory Tip">
+Always carry water and mana potions even if you play a hybrid spec. While Eldritch Strike returns mana, high-intensity fights or extensive healing windows can still drain your resources quickly.
+</Callout>
+
+</Section>

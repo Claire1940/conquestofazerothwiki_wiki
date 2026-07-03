@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía del Nigromante de Conquest of Azeroth: Guía de Muerte y Animación de 2026",
+  description: "Domina la build de Nigromante de Conquest of Azeroth con nuestra guía sobre talentos, la mecánica de Fuerza de vida y las mejores especializaciones para el lanzamiento de Vol'Jin en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Necromancer+Build+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Build de Nigromante**: Se centra en la gestión de **Fuerza de vida** para alimentar poderosas invocaciones de no-muertos y daño por segundo (DPS) basado en las sombras.
+- **Estadísticas Principales**: Prioriza el **Intelecto** para obtener poder bruto y el **Aguante** para aumentar tu reserva de Fuerza de vida.
+- **Mejor Especialización**: **Animación** es la opción principal para un estilo de juego centrado en mascotas, mientras que **Muerte** destaca en la presión de daño en el tiempo.
+- **Mecánica Principal**: Usa hechizos oscuros para generar Fuerza de vida y luego gástala en **hordas de no-muertos** y esbirros de élite.
+- **Fecha de Lanzamiento**: Esta build está optimizada para el lanzamiento del **reino Vol'Jin** el 3 de julio de 2026.
+</Callout>
+
+<Section icon={Map} title="Descripción General e Identidad Principal de la Clase Nigromante">
+
+El Nigromante en **Conquest of Azeroth** es un taumaturgo de tela dedicado que redefine el arquetipo clásico de invocador. A diferencia de las clases estándar, el Nigromante utiliza un sistema de recursos único conocido como **Fuerza de vida**. Este recurso es el alma de tu rotación, actuando tanto como combustible para tus hechizos más devastadores como la energía requerida para mantener un ejército permanente de no-muertos.
+
+En el meta de 2026, la **build de Nigromante de Conquest of Azeroth** es principalmente una potencia de DPS. Ya sea que estés propagando plagas o comandando una legión de arqueros esqueléticos, tu éxito depende de equilibrar la generación de Fuerza de vida con un gasto de alto impacto. La clase está diseñada para jugadores que disfrutan gestionando múltiples unidades y manteniendo una alta presión a través de efectos mágicos persistentes.
+
+| Atributo | Detalle |
+| :--- | :--- |
+| **Rol principal** | Daño (DPS) |
+| **Tipo de armadura** | Tela |
+| **Estadística principal** | Intelecto |
+| **Recurso** | Fuerza de vida |
+| **Fantasía de clase** | Maestro de la no-muerte, las plagas y el hueso |
+| **Dificultad básica** | Moderada (Requiere gestión de mascotas) |
+
+<Callout type="tip" title="Gestión de Recursos">
+Vigila siempre tu barra de Fuerza de vida. Quedarte sin Fuerza de vida en medio del combate puede hacer que tus mascotas se vuelvan inactivas o evitar que lances hechizos defensivos cruciales como Escudo de hueso.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Elegir tu Especialización: Muerte, Animación o Escarcha">
+
+Al nivel 10, cada jugador debe seleccionar una especialización principal. Para una **build de Nigromante de Conquest of Azeroth**, esta elección dicta todo tu ciclo de combate y el tipo de esbirros que controlarás. Cada especialización tiene un árbol de talentos dedicado que funciona junto con el árbol de la clase base del Nigromante.
+
+<CardGrid cols={3}>
+  <Card title="Animación (Tier S)">
+    - **Enfoque**: Hordas masivas de mascotas y no-muertos de élite.
+    - **Estilo de juego**: Comanda guerreros esqueléticos, magos y gólems.
+    - **Ideal para**: Subida de nivel en solitario y DPS en mazmorras.
+  </Card>
+  <Card title="Muerte (Tier A)">
+    - **Enfoque**: Daño de sombras y plagas virulentas.
+    - **Estilo de juego**: Propagar daño en el tiempo (DoTs) y pudrir a los enemigos desde dentro.
+    - **Ideal para**: Encuentros con múltiples objetivos y presión en JcJ (PvP).
+  </Card>
+  <Card title="Escarcha (Tier B)">
+    - **Enfoque**: Magia de escarcha y control de masas.
+    - **Estilo de juego**: Congelar enemigos mientras infliges daño de escarcha de ráfaga (burst).
+    - **Ideal para**: Utilidad defensiva y mecánicas específicas de jefes.
+  </Card>
+</CardGrid>
+
+| Espec. | Mecánica clave | Habilidad distintiva |
+| :--- | :--- | :--- |
+| **Animación** | Frenesí de esbirros | Levantar a muerto / Maestría de gólems |
+| **Muerte** | Propagación de plagas | Epidemia / Segar alma |
+| **Escarcha** | Recurso gélido | Picas glaciales / Fiebre de escarcha |
+
+<Callout type="info" title="Recomendación de Expertos">
+Para el lanzamiento de julio de 2026 en el reino Vol'Jin, recomendamos encarecidamente comenzar con la especialización de **Animación**. Ofrece la experiencia de nivelación más fluida gracias a la alta supervivencia que proporcionan tus mascotas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Nivelación Paso a Paso (1-60)">
+
+Progresar en tu **build de Nigromante de Conquest of Azeroth** requiere un enfoque estratégico para la asignación de talentos y las visitas al instructor. La ruta de nivelación de 2026 está optimizada, pero exige prestar atención a las misiones específicas de tu clase.
+
+<Steps>
+  <Step num="1" title="El despertar de nivel 3">
+    Comienza en tu zona racial y alcanza el nivel 3. Recibirás un aviso para tu primera misión de clase. Localiza a tu instructor en **Villadorada, Kharanos o Brill** de inmediato para desbloquear tus generadores básicos de Fuerza de vida.
+  </Step>
+  <Step num="2" title="Elección de especialización (Nivel 10)">
+    Desbloquea tu árbol de especialización. Si eliges **Animación**, tus primeros puntos deben ir a **Maestría esquelética** para aumentar la salud y el daño de tus invocaciones básicas.
+  </Step>
+  <Step num="3" title="Alternancia de talentos (Niveles 10-40)">
+    Los puntos se alternan entre el **Árbol de clase** y el **Árbol de especialización**. Céntrate en el Árbol de clase para obtener utilidad (como velocidad de movimiento o eficiencia de maná) y en el Árbol de especialización para el daño bruto.
+  </Step>
+  <Step num="4" title="Invocación avanzada (Nivel 45)">
+    Visita a tu instructor para aprender **Invocaciones de élite**. Esto te permite gastar grandes cantidades de Fuerza de vida para invocar poderosos esbirros temporales que pueden tanquear jefes del mundo.
+  </Step>
+  <Step num="5" title="Transición al final del juego (Nivel 60)">
+    Cambia tu build de la eficiencia de nivelación a un DPS listo para bandas (raids). Esto implica restablecer tus talentos para optar por aquellos de alta sinergia que se benefician de los beneficios (buffs) grupales.
+  </Step>
+</Steps>
+
+| Rango de nivel | Área de enfoque | Desbloqueo clave |
+| :--- | :--- | :--- |
+| **1-10** | Rotación básica | Generación de Fuerza de vida |
+| **11-30** | Sinergia de mascotas | Árbol de especialización |
+| **31-50** | Daño en área (AoE) y plagas | Esbirros avanzados |
+| **51-60** | Optimización de estadísticas | Talentos definitivos |
+
+<Callout type="warning" title="Alerta de Instructor">
+No te saltes las misiones de clase. Muchas habilidades principales del Nigromante están bloqueadas detrás de estas misiones de historia específicas, y te encontrarás significativamente debilitado sin ellas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas del Árbol de Talentos y Mejor Ruta de Build">
+
+El sistema de talentos en **Conquest of Azeroth** está inspirado en los árboles modernos al estilo de Dragonflight, pero adaptado para el sistema de 21 clases. Para el Nigromante, navegarás por dos árboles distintos que deben equilibrarse cuidadosamente para maximizar tu DPS.
+
+El **Árbol de clase** proporciona herramientas generales de Nigromante como **Escudo de hueso**, **Transfusión de vida** y **Maldición de agotamiento**. El **Árbol de especialización** (específicamente para Animación) se centra en potenciar a tus no-muertos y desbloquear nuevos tipos de invocaciones.
+
+| Nombre del talento | Tipo de árbol | Efecto |
+| :--- | :--- | :--- |
+| **Maestro de los muertos** | Especialización | Aumenta el daño de las mascotas en un 15% / reduce el coste de invocación |
+| **Toque vampírico** | Clase | Sana al Nigromante un % del daño de sombras infligido |
+| **Potenciación oscura** | Especialización | Otorga a las mascotas un 20% de celeridad durante 10 segundos |
+| **Sifón de alma** | Clase | Aumenta la generación de Fuerza de vida de los hechizos básicos |
+| **Ejército de muertos** | Especialización | Definitiva: Invoca 8 necrófagos para abrumar al objetivo |
+
+<Callout type="success" title="Consejo de Auto-Build">
+Si te abruman los más de 1000 hechizos y talentos, usa la función **Auto-Build** introducida en la actualización de 2026. Asignará automáticamente tus puntos en una build de "Animación inicial" probada estadísticamente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Selección de Equipo y Prioridad de Estadísticas">
+
+Equipar una **build de Nigromante de Conquest of Azeroth** implica buscar botines inmersivos ("Immersive Loot") en el mundo abierto. A diferencia del WoW estándar, CoA utiliza un sistema de estadísticas rediseñado donde atributos como el **Poder con hechizos** y el **Intelecto** son vitales, pero las estadísticas secundarias como la **Celeridad** afectan significativamente la velocidad de ataque de tus mascotas.
+
+<Checklist
+  id="necromancer-gear-goals"
+  title="Hitos Esenciales de Equipo:"
+  items={[
+    "Obtén un bastón de 'Hueso oscurecido' para aumentos tempranos de poder con hechizos",
+    "Colecciona 4 piezas del conjunto de tela de 'Acólito' para obtener el bono de daño de mascotas",
+    "Equipa un abalorio de Fuerza de vida para aumentar tu límite de recursos",
+    "Encanta tu capa con 'Afinidad con las sombras' para reducir la amenaza",
+    "Coloca gemas de Intelecto en todas las ranuras de equipo disponibles"
+  ]}
+/>
+
+| Prioridad | Estadística | Razón |
+| :--- | :--- | :--- |
+| **1** | **Intelecto** | Aumenta el Poder con hechizos total y la reserva de maná |
+| **2** | **Poder con hechizos** | Aumenta directamente el daño de los hechizos y de las mascotas |
+| **3** | **Celeridad** | Reduce los tiempos de lanzamiento y aumenta la velocidad de ataque de las mascotas |
+| **4** | **Aguante** | Aumenta la supervivencia y la capacidad de Fuerza de vida |
+| **5** | **Crítico** | Proporciona una probabilidad de que los hechizos y las mascotas inflijan el doble de daño |
+
+<Callout type="tip" title="Consejo Avanzado de Equipo">
+En el lanzamiento de Vol'Jin de 2026, busca equipo con el sufijo **'Maestría de esbirros'**. Esta es una estadística personalizada de CoA que escala específicamente la salud y la armadura de tus invocaciones, haciéndolas tanques viables para el juego en solitario.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor especialización para una build de Nigromante de Conquest of Azeroth?",
+    answer: "Para la mayoría de los jugadores, la especialización de Animación es la mejor opción. Ofrece la mayor supervivencia en solitario y un DPS constante a través de sus mecánicas de mascotas no-muertas."
+  },
+  {
+    question: "¿Cómo genero Fuerza de vida en Conquest of Azeroth?",
+    answer: "La Fuerza de vida se genera utilizando hechizos de sombra básicos como Descarga de las Sombras o Drenar alma. Ciertos talentos en el Árbol de clase también pueden aumentar la tasa de generación."
+  },
+  {
+    question: "¿Pueden los Nigromantes curar o tanquear en esta versión?",
+    answer: "El Nigromante es estrictamente una clase de DPS. Sin embargo, la especialización de Animación permite que tus mascotas actúen como 'tanques secundarios' en contenido en solitario, y la especialización de Escarcha proporciona una utilidad de control de masas significativa."
+  },
+  {
+    question: "¿Es bueno el Nigromante para JcJ (PvP) en el reino Vol'Jin?",
+    answer: "Sí, específicamente la especialización de Muerte. Su capacidad para propagar efectos de daño en el tiempo lo convierte en una pesadilla para los sanadores en los campos de batalla."
+  }
+]} />
+
+</Section>

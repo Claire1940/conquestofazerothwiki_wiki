@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Starcaller de Conquest of Azeroth: Mejores Especializaciones y Builds",
+  description: "Domina la clase Starcaller de Conquest of Azeroth. Aprende los mejores árboles de talentos, prioridades de estadísticas y estrategias para las especializaciones Warden, Sentinel, Moon Priest y Moon Guard.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b1118/f4c24e?text=Starcaller+Build+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "conquest of azeroth, starcaller, build, guía, ascension wow, talentos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Identidad Principal**: El **starcaller de conquest of azeroth** es una clase híbrida basada en Intelecto que utiliza poder lunar para tanquear, sanar, infligir DPS a distancia y combate cuerpo a cuerpo.
+- **Armaduras y Armas**: Los Starcallers visten armaduras de Malla y Placas, y pueden usar bastones, armas de asta o armas de una mano junto con escudos.
+- **Mejor Especialización**: Warden es altamente recomendada para jugadores enfocados en la supervivencia, mientras que Sentinel destaca en el lanzamiento de hechizos a distancia.
+- **Métrica Clave**: Las cuatro especializaciones escalan principalmente con Intelecto, lo que facilita enormemente las transiciones de equipo.
+- **Fecha de Lanzamiento**: Conquest of Azeroth se lanza oficialmente en el reino Vol'Jin el 3 de julio de 2026.
+</Callout>
+
+<Section icon={Sparkles} title="Visión General de la Clase Starcaller y Mecánicas Principales">
+
+El **starcaller de conquest of azeroth** destaca como una de las clases personalizadas más versátiles y visualmente impactantes en el ecosistema de Project Ascension. Inspirado en el antiguo lore de los elfos de la noche y la magia astral, el Starcaller fusiona las capacidades defensivas de un caballero con armadura de placas con la utilidad mística de un taumaturgo celestial.
+
+A diferencia de las clases estándar de World of Warcraft, el Starcaller depende de un sistema de recursos único centrado en el **Poder Lunar**. Esta energía se genera mediante ataques básicos, hechizos específicos y bloqueos defensivos, para luego gastarse en poderosas barreras, olas de sanación o devastadores ataques astrales. Debido a que el Intelecto es la estadística principal en las cuatro especializaciones, los jugadores pueden recolectar fácilmente equipo que sirva para múltiples roles sin necesidad de conjuntos de armadura completamente separados.
+
+| Atributo | Valor |
+| :--- | :--- |
+| **Tipo de Armadura** | Malla, Placas |
+| **Estadística Principal** | Intelecto |
+| **Roles** | Tanque, DPS, Sanador |
+| **Recurso Principal** | Poder Lunar |
+
+**Puntos Destacados del Vídeo:**
+- Previsualiza las 21 clases personalizadas que llegan con el lanzamiento del reino Vol'Jin.
+- Aprende cómo los árboles de talentos personalizados reemplazan los límites de clase tradicionales.
+- Descubre los sistemas RPG de mundo abierto, mazmorras personalizadas y hitos de progresión.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Lanzamiento Completo: Conquest of Azeroth - Ascension WoW" />
+
+<Callout type="tip" title="Consejo Pro: Conversión de Estadísticas">
+Incluso cuando juegues la especialización de melé Moon Guard, prioriza el equipo de Intelecto. El árbol de talentos del Starcaller cuenta con conversiones integradas que transforman tu Poder con Hechizos en Poder de Ataque cuerpo a cuerpo, manteniendo tus golpes físicos increíblemente potentes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Especializaciones y Roles del Starcaller">
+
+Elegir una especialización a nivel 10 define tu rol principal en el contenido de grupo. El Starcaller cuenta con cuatro caminos distintos, cada uno adaptado a un estilo de juego específico. Ya sea que quieras absorber ataques masivos de jefes, sanar a tus aliados con luz estelar o aniquilar enemigos desde lejos, hay una especialización diseñada para ti.
+
+<CardGrid cols={2}>
+  <Card title="Warden (Tanque)">
+    - **Alta Supervivencia**: Utiliza armadura de Placas y escudos para mitigar ataques físicos.
+    - **Barreras Lunares**: Convierte el Poder Lunar en pesados escudos de absorción de daño.
+    - **Control de Masas**: Emplea ralentizaciones y silencios lunares para gestionar grupos de enemigos.
+  </Card>
+  <Card title="Sentinel (DPS a Distancia)">
+    - **Magia Astral**: Lanza poderosos rayos lunares de un solo objetivo y de área de efecto.
+    - **Alta Movilidad**: Utiliza hechizos de lanzamiento instantáneo para infligir daño mientras te mueves.
+    - **Daño en el Tiempo**: Mantiene múltiples DoTs lunares activos en los objetivos.
+  </Card>
+  <Card title="Moon Priest (Sanador)">
+    - **Restauración Lunar**: Sana a los aliados usando luz celestial y efectos de sanación en el tiempo (HoT).
+    - **Escudos de Absorción**: Previene el daño antes de que ocurra con barreras protectoras.
+    - **Utilidad de Grupo**: Potencia a los miembros del grupo con regeneración pasiva de maná y salud.
+  </Card>
+  <Card title="Moon Guard (DPS Melé)">
+    - **Armas Imbuídas**: Golpea a los enemigos con armas potenciadas por energía lunar.
+    - **Gran Daño de Ráfaga**: Gasta el Poder Lunar acumulado en remates de alto daño.
+    - **Movilidad Híbrida**: Carga a la batalla y se retira usando saltos de luz estelar.
+  </Card>
+</CardGrid>
+
+Para ayudarte a decidir qué camino se adapta mejor a tu estilo de juego, considera cómo se desempeña cada especialización en el leveo, mazmorras y entornos PvP:
+
+| Especialización | Rol Principal | Enfoque Clave | Estilo de Juego |
+| :--- | :--- | :--- | :--- |
+| **Warden** | Tanque | Barreras, escudos, armadura astral | Tanque robusto resistente a la magia |
+| **Sentinel** | DPS Distancia | Hechizos astrales, rayos lunares, DoTs | Taumaturgo altamente móvil |
+| **Moon Priest** | Sanador | Restauración lunar, escudos de absorción | Sanador defensivo centrado en escudos |
+| **Moon Guard** | DPS Melé | Armas imbuídas, híbrido físico-astral | Luchador melé de alta movilidad |
+
+<Callout type="info" title="Desbloqueo de Especializaciones">
+Debes elegir tu especialización principal a nivel 10. Esta elección desbloquea tu árbol de talentos específico, pero siempre puedes visitar a un instructor de Starcaller en las zonas iniciales principales para restablecer tus talentos si deseas cambiar de rol.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión de Talentos y Nivelación Paso a Paso">
+
+Subir de nivel un **starcaller de conquest of azeroth** requiere un equilibrio entre la asignación de puntos de talento y la adquisición de habilidades. Debido a que los árboles de talentos personalizados al estilo Dragonflight alternan puntos entre el Árbol de Clase y el Árbol de Especialización, planificar tu ruta asegura un viaje fluido desde el nivel 1 hasta el nivel 60.
+
+<Steps>
+  <Step num="1" title="Hechizos Lunares Iniciales (Niveles 1-10)">
+    Comienza tu viaje en zonas iniciales como Villadorada o Villabrea. Concéntrate en usar tus hechizos lunares básicos a distancia para atraer enemigos desde lejos. Visita a tu instructor de clase a nivel 3 para completar tu misión inicial de clase, que desbloquea tu mecánica principal de generación de Poder Lunar.
+  </Step>
+  <Step num="2" title="Selecciona tu Especialización (Nivel 10)">
+    Al llegar al nivel 10, abre tu interfaz de talentos y selecciona tu especialización principal. Para un leveo en solitario rápido y seguro, se recomiendan Sentinel (DPS Distancia) o Moon Guard (DPS Melé) debido a su alta autosuficiencia y velocidad para eliminar enemigos.
+  </Step>
+  <Step num="3" title="Asignación de Puntos de Talento (Niveles 10-45)">
+    A medida que subas de nivel, alterna tus puntos de talento entre nodos de utilidad en el Árbol de Clase del Starcaller y potenciadores de daño/sanación en tu Árbol de Especialización. Si el sistema de talentos te resulta abrumador, utiliza la función de Auto-Build para distribuir los puntos automáticamente.
+  </Step>
+  <Step num="4" title="Transición al Contenido Final (Niveles 45-60)">
+    Refina tu rotación de hechizos y comienza a reemplazar el equipo genérico de misiones por armaduras específicas para tu especialización. Prepárate para el contenido de nivel 60 probando tu build en zonas de alto riesgo, mazmorras normales y las primeras fases de banda como Núcleo de Magma.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Atención al Instructor de Clase">
+No te saltes la misión del instructor de nivel 3. El ritmo inicial depende en gran medida de encontrar a tu instructor en las zonas de inicio para desbloquear tus habilidades rotacionales básicas. Sin ellas, tu velocidad de leveo disminuirá significativamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Equipo y Prioridad de Estadísticas del Starcaller">
+
+Equipar correctamente a tu Starcaller marca la diferencia entre sufrir contra monstruos élite o arrasar en mazmorras míticas. Dado que los Starcallers utilizan armaduras de Malla y Placas, son naturalmente más resistentes que los taumaturgos que visten tela. Sin embargo, debes priorizar las estadísticas que complementen tu especialización elegida.
+
+Mientras que el Intelecto sigue siendo la base absoluta para todas las builds de Starcaller, las estadísticas secundarias dictan tu eficiencia en combate. Los Wardens requieren evasión defensiva, los Sentinels ansían golpes críticos, los Moon Priests dependen de la regeneración de maná y los Moon Guards se benefician de la velocidad de ataque.
+
+| Especialización | Prioridad 1 | Prioridad 2 | Prioridad 3 | Prioridad 4 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Warden** | Intelecto | Aguante | Armadura / Bloqueo | Celeridad |
+| **Sentinel** | Intelecto | Poder con Hechizos | Golpe Crítico | Celeridad |
+| **Moon Priest** | Intelecto | Espíritu | Poder con Hechizos | Golpe Crítico |
+| **Moon Guard** | Intelecto | Poder de Ataque | Celeridad | Golpe Crítico |
+
+<Callout type="success" title="Equipo Bloodforged">
+Si participas en la fase PvP de Alto Riesgo, busca las versiones Bloodforged del equipo de mazmorras y bandas. Estos objetos ofrecen aumentos masivos de estadísticas en Intelecto y Aguante, dándole a tu Starcaller una ventaja distintiva tanto en combate PvE como PvP.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias PvE y PvP de Nivel Máximo">
+
+Al nivel 60, el Starcaller se convierte en una fuerza formidable tanto en bandas coordinadas como en caóticos campos de batalla. En entornos PvE como Núcleo de Magma y Onyxia, los Starcallers aportan una utilidad invaluable a sus grupos. Los Wardens destacan tanqueando jefes con mucho daño mágico, mientras que los Moon Priests mantienen saludable a la banda con escudos de absorción masivos.
+
+In PvP, el Starcaller confía en su naturaleza híbrida para resistir más que sus oponentes. Los jugadores Sentinel pueden kitear fácilmente a las clases melé usando ralentizaciones lunares y hechizos de desplazamiento, mientras que los Moon Guards pueden destrozar a los sanadores con combos de alto daño físico-astral.
+
+| Habilidad | Especialización | Efecto | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Lunar Barrier** | Warden / Moon Priest | Absorbe daño físico y mágico entrante | Antes de atraer jefes o para salvar aliados con poca salud |
+| **Astral Strike** | Moon Guard | Inflige daño híbrido físico-astral al impactar | Principal fuente de daño en rotaciones de DPS melé |
+| **Moonbeam** | Sentinel | Canaliza un rayo lunar de alto daño a distancia | DPS a un solo objetivo y para atraer enemigos lejanos |
+| **Celestial Mend** | Moon Priest | Sanación directa rápida con un efecto HoT persistente | Sanación de emergencia del tanque durante fases de mucho daño |
+
+Para asegurar que tu Starcaller esté completamente preparado para el lanzamiento del reino Vol'Jin, completa estos hitos esenciales:
+
+<Checklist
+  id="starcaller-milestones"
+  title="Objetivos de Lanzamiento del Starcaller:"
+  items={[
+    "Localiza al instructor de clase de tu zona inicial a nivel 3",
+    "Elige tu especialización principal a nivel 10",
+    "Desbloquea tus hechizos de rotación principal para el nivel 30",
+    "Adquiere un conjunto completo de armadura de Malla o Placas basada en Intelecto",
+    "Prepara tus talentos para mazmorras de nivel máximo y bandas de Núcleo de Magma"
+  ]}
+/>
+
+<Callout type="tip" title="Estrategia de Kiteo en PvP">
+Cuando te enfrentes a clases físicas agresivas como Bárbaros o Segadores en PvP, usa tus herramientas de desplazamiento lunar temprano. Mantener la distancia mientras aplicas los DoTs de Sentinel es la forma más confiable de asegurar victorias.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes sobre el Starcaller">
+
+Para ayudarte a dominar la clase, aquí tienes respuestas a las preguntas más comunes sobre el Starcaller:
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar el starcaller de conquest of azeroth como un DPS puramente melé?",
+    answer: "Sí. La especialización Moon Guard está diseñada específicamente para el combate cuerpo a cuerpo, convirtiendo tu Intelecto y Poder con Hechizos en poder de ataque físico para que puedas usar bastones o armas de acero de manera efectiva."
+  },
+  {
+    question: "¿Es viable la especialización Warden para tanquear bandas principales?",
+    answer: "Absolutamente. Los Wardens son tanques principales muy efectivos, especialmente en encuentros con mucho daño mágico, debido a sus barreras lunares activas y su alta mitigación por armadura de placas."
+  },
+  {
+    question: "¿Cómo restablezco mis talentos de Starcaller si quiero cambiar de especialización?",
+    answer: "Puedes visitar a cualquier instructor de clase Starcaller ubicado en las principales zonas de inicio o ciudades capitales. Por una pequeña tarifa de oro, restablecerán tus puntos de talento para que puedas seleccionar una nueva especialización."
+  }
+]} />
+
+<Callout type="info" title="Aviso Legal">
+Este es un sitio de guía no oficial hecho por fans. No está afiliado con Blizzard Entertainment, World of Warcraft ni Project Ascension.
+</Callout>
+
+</Section>

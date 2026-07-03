@@ -1,0 +1,224 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Beta: Einrichtungsanleitung & Klassenübersicht",
+  description: "Mach dich bereit für den Übergang der Conquest of Azeroth Beta zur Vollversion. Lerne, wie du den Launcher herunterlädst, die besten Klassen wählst und Builds meisterst.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/0b1118/fff?text=Beta+Setup+Guide",
+  date: "2026-07-03",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Status des Übergangs**: Die **Conquest of Azeroth Beta** geht am 3. Juli 2026 auf dem Vol'Jin-Realm in die Vollversion über.
+- **Client-Zugang**: Lade den offiziellen Project Ascension Launcher herunter, um den Client zu patchen und auf den Live-Realm zuzugreifen.
+- **Einzigartige Mechaniken**: Spiele 21 komplett angepasste, Lore-freundliche Klassen mit 69 verschiedenen Spezialisierungen.
+- **Talent-Überarbeitung**: Passe deinen Build ab Stufe 10 mit einem geteilten Talentbaumsystem im Dragonflight-Stil an.
+- **Hybrid-Risiko**: Wähle deinen bevorzugten Risikograd für die offene Welt zwischen PvE-, PvP- und High-Risk-Modi.
+</Callout>
+
+<Section icon={Map} title="Übergang von der Conquest of Azeroth Beta zur Vollversion">
+
+Die lang erwartete **Conquest of Azeroth Beta**-Phase ist offiziell abgeschlossen und ebnet den Weg für die Vollversion der mit Spannung erwarteten, angepassten WoW-Modifikation von Project Ascension. Mit dem Übergang von den experimentellen Testphasen auf den stabilen, offiziellen Vol'Jin-Realm am 3. Juli 2026 können Spieler nun ein voll realisiertes Classic+ MMORPG erleben. Dieses individuelle Projekt interpretiert die klassische World of Warcraft-Umgebung komplett neu, indem es 21 originelle Klassen, 69 einzigartige Spezialisierungen sowie über 1.000 benutzerdefinierte Zauber und Talente einführt, während die nostalgische offene Welt, die Spieler lieben, bewahrt bleibt.
+
+**Video-Highlights:**
+- **Benutzerdefinierte Klassensysteme**: Zeigt das Gameplay für mehrere der 21 brandneuen Klassen und geht auf ihre individuellen visuellen Effekte und Zaubersymbole ein.
+- **Progressionsstufen**: Skizziert, wie der Realm Inhalte schrittweise freischalten wird, was dem erfolgreichen Progressionsrhythmus früherer Realms entspricht.
+- **Überarbeitete Itemisierung**: Hebt tausende neue, benutzerdefinierte Ausrüstungsgegenstände hervor, die speziell für die Unterstützung nicht-traditioneller Klassenrollen entwickelt wurden.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Vollversion: Conquest of Azeroth - Ascension WoW" />
+
+Das Entwicklerteam nutzte die umfangreichen Testzyklen, um Spielerfeedback zu sammeln, die visuellen Effekte der Zauber zu verfeinern und die komplexen Interaktionen zwischen den brandneuen Klassen auszubalancieren. Im Gegensatz zu traditionellen klassenlosen Realms auf Ascension konzentriert sich dieser Realm vollständig auf ausgeprägte Klassenidentitäten, was Spieler dazu zwingt, einzigartige Ressourcenpools und synergetische Gruppenrollen zu meistern.
+
+<Callout type="info" title="Details zum Realm-Launch">
+Der Vol'Jin-Realm startet am 3. Juli 2026 um 07:00 Uhr Pacific / 10:00 Uhr Eastern / 15:00 Uhr GMT. Alle Charaktere, die während der vorherigen geschlossenen und offenen Beta-Phasen erstellt wurden, wurden gelöscht, um einen fairen und gleichen Neuanfang für alle Spieler zu gewährleisten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt Installation und Einrichtung">
+
+Um auf dem neu gestarteten Vol'Jin-Realm zu spielen, müssen Spieler vom alten Beta-PTR-Client auf den offiziellen Live-Client umsteigen. Der Installationsprozess wird vollständig über den vereinheitlichten Project Ascension Launcher abgewickelt, der Spiel-Patches, Client-Konfigurationen und genehmigte Benutzer-Add-ons verwaltet.
+
+| Anforderung | Spezifikation | Hinweise |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows 10/11 (Direkt) / Linux (Community-Anleitung) | Der offizielle Launcher unterstützt nativ Windows-Systeme. |
+| **Kontotyp** | Einheitliches Ascension-Konto | Ein Konto gewährt Zugriff auf alle Realms und Foren. |
+| **Launcher-Version** | Aktueller Project Ascension Launcher | Erforderlich, um den angepassten Client herunterzuladen, zu patchen und zu starten. |
+| **Festplattenspeicher** | Etwa 20-30 GB freier Speicherplatz | Ein Solid State Drive (SSD) wird für Ladezeiten dringend empfohlen. |
+
+<Steps>
+  <Step num="1" title="Erstelle ein Ascension-Konto">
+    Besuche die offizielle Project Ascension-Website und registriere dich mit einer gültigen E-Mail-Adresse und einem Passwort. Dieses Konto wird verwendet, um dich auf der Website, im Launcher und im Spiel anzumelden.
+  </Step>
+  <Step num="2" title="Lade den Launcher herunter und installiere ihn">
+    Navigiere zur offiziellen Download-Seite und lade den Windows-Client-Launcher herunter. Führe das Installationsprogramm aus und wähle dein bevorzugtes Verzeichnis.
+  </Step>
+  <Step num="3" title="Wähle den Live-Realm-Pfad">
+    Öffne den Launcher, melde dich mit deinen Zugangsdaten an und suche das Dropdown-Menü zur Realm-Auswahl. Stelle sicher, dass du den Live-Pfad für **Conquest of Azeroth** auswählst und nicht die während der Beta verwendeten PTR-Optionen.
+  </Step>
+  <Step num="4" title="Patche und starte das Spiel">
+    Klicke auf die Schaltfläche "Spielen" oder "Installieren", damit der Launcher die benutzerdefinierten Spieldateien herunterlädt. Sobald der Fortschrittsbalken abgeschlossen ist, wendet der Launcher automatisch alle erforderlichen benutzerdefinierten Patches an.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Vermeide Drittanbieter-Clients">
+Lade keine eigenständigen Client-Mirrors, inoffiziellen Patch-Dateien oder Geschwindigkeits-Booster von Drittanbieter-Websites herunter. Verwende nur den offiziellen Ascension-Launcher, um die Sicherheit deines Kontos zu gewährleisten und sicherzustellen, dass du die korrekten Spieldateien besitzt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Alle 21 benutzerdefinierten Klassen und Mechaniken">
+
+Was dieses Projekt von Standard-Vanilla-WoW oder klassenlosen Ascension-Realms unterscheidet, ist die Liste von 21 komplett originellen Klassen. Jede Klasse bietet drei oder mehr ausgeprägte Spezialisierungen, benutzerdefinierte visuelle Assets, einzigartige Ressourcenmechaniken und tief immersive Klassenfantasien, die die Warcraft-Lore erweitern.
+
+<CardGrid cols={3}>
+  <Card title="Nekromant">
+    - **Primärattribut**: Intelligenz
+    - **Rüstungstyp**: Stoff
+    - **Rolle**: Fernkampf-DPS (Tod, Animation, Raureif)
+    - **Kernmechanik**: Nutzt Lebenskraft, um Horden von untoten Dienern zu beschwören und zu befehligen.
+  </Card>
+  <Card title="Blutmagier">
+    - **Primärattribut**: Intelligenz / Willenskraft / Beweglichkeit / Ausdauer
+    - **Rüstungstyp**: Leder
+    - **Rolle**: Tank, Heiler, DPS (Fleischweber, Sanguinisch, Verflucht, Ewigkeit)
+    - **Kernmechanik**: Verbraucht Gesundheit, um mächtige Blutzauber und Verwandlungen zu verstärken.
+  </Card>
+  <Card title="Schnitter">
+    - **Primärattribut**: Stärke / Intelligenz
+    - **Rüstungstyp**: Platte
+    - **Rolle**: Tank, Nahkampf-DPS (Ernte, Seele, Dominanz)
+    - **Kernmechanik**: Erntet Seelen von gefallenen Feinden, um Schattenangriffe und Selbstheilung zu verstärken.
+  </Card>
+</CardGrid>
+
+| Klassenname | Unterstützte Rollen | Primärattribute | Rüstungstyp | Kern-Spezialisierungen |
+| :--- | :--- | :--- | :--- | :--- |
+| **Nekromant** | DPS | Intelligenz | Stoff | Tod, Animation, Raureif |
+| **Pyromant** | DPS, Heiler | Intelligenz | Stoff | Einäscherung, Drakonisch, Flammenweben |
+| **Kultist** | Tank, DPS, Heiler | Stärke, Intelligenz | Stoff, Platte | Gottklinge, Verderbnis, Einfluss, Schreckenspanzer |
+| **Sternrufer** | Tank, DPS, Heiler | Intelligenz | Schwere Rüstung, Platte | Wächter, Sentinel, Mondpriester, Mondwache |
+| **Sonnenkleriker** | Tank, DPS, Heiler | Stärke, Intelligenz | Stoff, Platte | Frömmigkeit, Seraphim, Segen, Walküre |
+| **Tüftler** | DPS, Heiler | Beweglichkeit, Intelligenz | Leder, Schwere Rüstung | Abriss, Mechanik, Erfindung |
+| **Runenmeister** | DPS | Intelligenz, Willenskraft | Stoff | Zauberschleuderer, Rissklinge, Beschwörung |
+| **Primalist** | Tank, Heiler, DPS | Stärke, Intelligenz | Platte | Geomantie, Bergkönig, Wildläufer, Leben |
+| **Schnitter** | Tank, DPS | Stärke, Intelligenz | Platte | Ernte, Seele, Dominanz |
+| **Venomant** | Tank, Heiler, DPS | Intelligenz | Leder, Schwere Rüstung | Fäulnis, Wesir, Stalking, Standhaftigkeit |
+| **Chronomant** | DPS, Heiler | Intelligenz, Willenskraft | Stoff | Dualität, Artifex, Verschiebung |
+| **Blutmagier** | Tank, DPS, Heiler | Intelligenz, Willenskraft, Beweglichkeit | Leder | Fleischweber, Sanguinisch, Verflucht, Ewigkeit |
+| **Wächter** | Tank, DPS, Support | Stärke | Platte | Gladiator, Vorhut, Inspiration |
+| **Sturmrufer** | DPS, Support | Intelligenz | Stoff | Blitz, Donner, Winde |
+| **Teufelsgeschworener** | Tank, DPS | Beweglichkeit, Intelligenz | Leder | Tötung, Infernisch, Tyrann |
+| **Barbar** | DPS, Support | Beweglichkeit | Leder | Ahnen, Brutalität, Kopfjagd |
+| **Hexendoktor** | DPS, Heiler | Beweglichkeit, Intelligenz | Leder | Brauen, Voodoo, Schattenjagd |
+| **Hexenjäger** | Tank, DPS | Beweglichkeit | Schwere Rüstung | Bolzenschleuderer, Dunkelheit, Schwarzer Ritter |
+| **Ritter von Xoroth** | Tank, DPS | Stärke, Intelligenz | Platte | Krieg, Höllenfeuer, Trotz |
+| **Templer** | Tank, DPS | Beweglichkeit | Schwere Rüstung | Kreuzritter, Kampf, Disziplin |
+| **Waldläufer** | DPS, Support | Beweglichkeit | Leder | Bogenschießen, Brigant, Fernläufer |
+
+<Callout type="tip" title="Verständnis der geteilten Talentbäume">
+Ab Stufe 10 wählst du deine primäre Spezialisierung. Dies schaltet zwei verschiedene Talentbäume frei: einen Klassenbaum für klassenweite Hilfsmittel und Werkzeuge sowie einen Spezialisierungsbaum, um deine spezifische Rolle zu vertiefen. Talentpunkte wechseln sich beim Levelaufstieg zwischen diesen beiden Bäumen ab.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Klassen-Tier-Liste für Startspieler">
+
+Die Wahl deiner ersten Klasse kann bei 21 Optionen auf dem Tisch entmutigend sein. Diese Tier-Liste wurde speziell für frische Starter auf dem Vol'Jin-Realm erstellt und priorisiert reibungsloses Solo-Leveling, intuitive Rotationen und Gruppen-Nützlichkeit gegenüber reinen Endgame-DPS-Zahlen, die ständigen Balance-Anpassungen unterliegen.
+
+| Tier | Klassen | Ideal für | Warum sie herausragen |
+| :--- | :--- | :--- | :--- |
+| **S-Tier** | Nekromant, Blutmagier, Schnitter, Wächter, Pyromant | Anfänger, Solo-Leveling, einfacher Dungeon-Einstieg | Hohe Selbstversorgung, einfache Rotationen oder mächtige Begleitermechaniken, die das Solospiel sehr verzeihend machen. |
+| **A-Tier** | Sternrufer, Sonnenkleriker, Primalist, Kultist, Tüftler, Chronomant, Teufelsgeschworener | Hybrid-Spieler, Gruppen-Heiler/Tanks | Außergewöhnliche Rollenflexibilität und starke Nützlichkeit, erfordern jedoch ein etwas aktiveres Ressourcenmanagement. |
+| **B-Tier** | Venomant, Hexendoktor, Hexenjäger, Waldläufer, Ritter von Xoroth, Templer, Sturmrufer, Barbar, Runenmeister | Erfahrene Spieler, Nischenspezialisten | Hochspezialisierte Kits mit einzigartigen Combomechaniken oder aufbaulastigem Gameplay, das tiefes Klassenwissen belohnt. |
+
+<Callout type="success" title="Auto-Build-System">
+Verwirrt von den angepassten Talentbäumen? Nutze die integrierte Auto-Build-Option in deinem Talent-Interface. Dieses System verteilt deine Talentpunkte automatisch auf bewährte, leistungsstarke Builds, während du dich darauf konzentrierst, die Klassenmechaniken zu erlernen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Level-Fahrplan und Progressionsmeilensteine">
+
+Das Leveln in dieser benutzerdefinierten Umgebung erfordert einen anderen Ansatz als im Standard-Vanilla-WoW. Die offene Welt bietet komplett überarbeitete Kreaturenwerte, immersive Beute-Drops und benutzerdefinierte Sehenswürdigkeiten, die gründliches Erkunden belohnen.
+
+| Level-Bereich | Kernmeilensteine | Kritische Systeme freigeschaltet | Spielerstrategie |
+| :--- | :--- | :--- | :--- |
+| **Stufe 1-3** | Startzonen-Trainer finden | Frühe Klassenquests | Achte auf die benutzerdefinierte Aufforderung auf Stufe 3, um deinen Klassenlehrer in Goldhain, Kharanos oder Brill zu finden. |
+| **Stufe 10** | Spezialisierung wählen | Geteilte Talentbäume, Auto-Build | Wähle deine primäre Spezialisierung, um deinen Spezialisierungsbaum freizuschalten und deine Kampfrolle zu formen. |
+| **Stufe 10-35** | Kern-Zauberrotation aufbauen | Klassenspezifische Ausrüstung | Halte Ausschau nach benutzerdefinierten Beute-Drops in der offenen Welt, die Primärattribute bieten, die auf deine Klasse zugeschnitten sind. |
+| **Stufe 35-45** | PvP/PvE-Toolkits verfeinern | Zanzrakka-Weltboss | Nimm an frühen Gruppenereignissen teil und teste deine Klassenunterbrechungen, Massenkontrolle und Defensivfähigkeiten. |
+| **Stufe 45-55** | Trainer-Zauber wählen | Voller Zugriff auf Klassenlehrer | Besuche Lehrer, um deine Zauber manuell auszuwählen, anstatt dich auf automatisierte Freischaltungen beim Levelaufstieg zu verlassen. |
+| **Stufe 55-60** | Übergang zum Endgame | Mythische Dungeons & Einstiegs-Raids | Optimiere deine Talente für dedizierte PvE- oder PvP-Rollen und entferne dich von generischen Level-Setups. |
+
+<Callout type="info" title="Bedeutung der Klassenlehrer">
+Ignoriere deine Klassenlehrer nicht. Anders als im Standard-WoW, wo Fertigkeiten automatisch oder universell erlernt werden, bietet dir dein Klassenlehrer wesentliche Klassenquests und angepasste Zauber-Upgrades, die für die Progression obligatorisch sind.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="PvE- und PvP-Endgame-Systeme">
+
+Sobald du die Stufe 60 erreicht hast, geht das Spiel in ein robustes Endgame-Ökosystem über. Die Entwickler haben Standard-Ascension-Systeme in dieses 21-Klassen-Framework integriert, um sicherzustellen, dass sowohl PvE- als auch PvP-Enthusiasten viele Progressionspfade haben.
+
+<Checklist
+  id="endgame-milestones"
+  title="Endgame-Ziele auf Stufe 60:"
+  items={[
+    "Absolviere Einstiegs-Dungeons auf Normal und Heroisch, um grundlegende blaue Ausrüstungssets zu erhalten.",
+    "Bilde eine koordinierte 5-Spieler-Gruppe, um skalierende Mythisch+ Vanilla-Dungeons anzugehen.",
+    "Bereite deine Verbrauchsgüter und Ausrüstung für die 10-25 Spieler Molten Core- und Onyxia-Raids vor.",
+    "Wähle deine Risikoeinstellung für die offene Welt (PvE, PvP oder High Risk), um deinem Spielstil zu entsprechen.",
+    "Nimm an strukturierten Schlachtfeldern und gewerteten Arenen (1v1, 2v2, 3v3) auf Stufe 60 teil."
+  ]}
+/>
+
+| Modus | Risikograd | Grundregeln | Am besten geeignet für |
+| :--- | :--- | :--- | :--- |
+| **PvE-Modus** | Niedrig | Nicht für Open-World-PvP anwählbar, es sei denn, man markiert sich manuell. | Sicheres Leveln, Questen und friedliches Erkunden. |
+| **PvP-Modus** | Mittel | Volles Open-World-PvP aktiviert, ohne Gegenstandsverlust. | Spieler, die organische Weltkämpfe und Fraktionsrivalität suchen. |
+| **High Risk PvP** | Hoch | Separate Phase; beim Tod lässt man eine Kiste mit Inventar/ausgerüsteter Ausrüstung fallen. | Hardcore-Spieler, die Blutgeschmiedeten Ausrüstungs-Drops und hohen Einsätzen nachjagen. |
+| **Weltereignisse** | Variabel | Strukturierte Ereignisse wie Crow's Cache und Gurubashi Blood Bowl. | Gildenkonflikte, kompetitive Duelle und einzigartige Ereignisbeute. |
+
+<Callout type="warning" title="High-Risk-Warnung">
+Betritt die High-Risk-PvP-Phase nur, wenn du voll darauf vorbereitet bist, deine ausgerüstete Ausrüstung zu verlieren. Während die Belohnungen – wie mächtige Blutgeschmiedete Gegenstände – immens sind, ist die Strafe für eine Niederlage schwerwiegend.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+Um dir bei der Navigation des Übergangs von den Tests zu den Live-Servern zu helfen, haben wir Antworten auf die häufigsten Fragen zum Start zusammengestellt.
+
+<FAQ items={[
+  {
+    question: "Was ist der Unterschied zwischen der Conquest of Azeroth Beta und der Live-Version?",
+    answer: "Die Conquest of Azeroth Beta war eine Testphase, die darauf ausgelegt war, die 21 benutzerdefinierten Klassen zu verfeinern, Talentbäume auszubalancieren und die Serverstabilität zu testen. Die Live-Version auf dem Vol'Jin-Realm ist ein permanenter Neuanfang-Progressionsserver mit vollständig polierten Mechaniken, vollständigen Klassenquestreihen und aktiven Charakterdatenbanken."
+  },
+  {
+    question: "Kann ich Conquest of Azeroth auf einem Mac- oder Linux-System spielen?",
+    answer: "Der offizielle Project Ascension Launcher unterstützt nativ Windows. Linux-Benutzer können jedoch inoffizielle Installationsanleitungen der Community auf dem offiziellen Discord finden, um den Launcher über Wine oder Proton auszuführen."
+  },
+  {
+    question: "Wie finde ich meinen Klassenlehrer früh im Spiel?",
+    answer: "Eine benutzerdefinierte Systemaufforderung erscheint auf deinem Bildschirm, sobald du Stufe 3 erreichst. Diese Aufforderung führt dich direkt zu deinem klassenspezifischen Lehrer, der sich in den wichtigsten Startzonen wie Goldhain, Kharanos, Brill oder Klingenhügel befindet."
+  },
+  {
+    question: "Gibt es klassenlose Mechaniken auf dem Vol'Jin-Realm?",
+    answer: "Nein. Der Vol'Jin-Realm widmet sich vollständig dem 21-Klassen-System von Conquest of Azeroth. Wenn du das standardmäßige klassenlose Draft- oder Free-Pick-Gameplay bevorzugst, solltest du auf anderen Project Ascension-Realms wie Bronzebeard oder Area 52 spielen."
+  }
+]} />
+
+<Callout type="tip" title="Rechtlicher Hinweis">
+Dies ist eine inoffizielle, von Fans erstellte Guide-Seite. Sie steht in keiner Verbindung zu Blizzard Entertainment, World of Warcraft oder Project Ascension.
+</Callout>
+
+</Section>

@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Builds de Conquest of Azeroth: Clasificaciones del Meta de 2026 y Guía de Talentos",
+  description: "Domina las 21 clases originales en Conquest of Azeroth. Explora builds de primer nivel, árboles de talentos al estilo Dragonflight y estrategias específicas para cada rol en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/121A24/F4C24E?text=Conquest+of+Azeroth+Builds",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "conquest of azeroth, builds, talentos, clases, meta"
+}
+
+<Callout type="info" title="Guía rápida">
+- Las **builds de Conquest of Azeroth** utilizan un sistema de talentos de doble árbol que cuenta con un **Árbol de Clase** y un **Árbol de Especialización** para una personalización profunda.
+- Las **mejores opciones** para el lanzamiento de 2026 incluyen al **Nigromante**, **Mago de sangre** y **Segador** debido a su alta sustentabilidad y clara identidad de rol.
+- Se recomienda encarecidamente la **función de Auto-Build** para los nuevos jugadores para evitar errores en la asignación de talentos durante la fase inicial de nivelación.
+- La **flexibilidad de roles** permite a muchas de las 21 clases originales alternar entre los roles de Tanque, Sanador y DPS al cambiar su especialización principal en el nivel 10.
+</Callout>
+
+<Section icon={Map} title="Dominando el sistema de talentos de Conquest of Azeroth">
+
+Comprender cómo construir **builds de Conquest of Azeroth** eficaces requiere entender el cambio arquitectónico único del proyecto con respecto al WoW clásico sin clases. A diferencia de la experiencia base de Ascension, Conquest of Azeroth presenta 21 clases completamente originales, cada una de las cuales funciona con una sofisticada estructura de talentos inspirada en los diseños de las expansiones modernas. Cada ruta de progresión de personaje se divide entre herramientas de clase enfocadas en la utilidad y el poder de especialización que define el rol.
+
+**Puntos destacados del video:**
+- Resumen de las mecánicas del **reino de lanzamiento Vol'Jin** y la configuración de la cuenta.
+- Desglose visual de las **21 clases originales** y sus efectos de hechizos personalizados.
+- Demostración de los **árboles de talentos al estilo Dragonflight** en acción.
+- Vista previa de los sistemas de RPG de mundo abierto de **Reborn Azeroth**.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Lanzamiento completo: Conquest of Azeroth - Ascension WoW" />
+
+El sistema de talentos desbloquea todo su potencial en el nivel 10, donde debes comprometerte con una especialización principal. A partir de este momento, tus puntos de talento se alternan entre tu **Árbol de Clase** (que proporciona supervivencia general y utilidad) y tu **Árbol de Especialización** (que mejora tu rol específico, como Demolición para los Tinkers o Incineración para los Piromantes). Este enfoque de doble ruta garantiza que incluso dos jugadores de la misma clase puedan tener perfiles de combate muy diferentes.
+
+| Característica de clase | Descripción de la mecánica | Impacto estratégico |
+| :--- | :--- | :--- |
+| **Árbol de clase** | Herramientas universales, CC y defensivas | Determina el límite mínimo de supervivencia y utilidad |
+| **Árbol de especialización** | Daño, sanación o tanqueo específico de rol | Define la rotación de combate principal |
+| **Auto-Build** | Rutas de talentos preestablecidas para principiantes | Evita builds "arruinadas" durante la nivelación |
+| **Sistema de reinicio** | Permite la reasignación manual de talentos | Permite la adaptación a las necesidades de PvE o PvP |
+
+<Callout type="tip" title="Consejo de optimización de build">
+Al comenzar, utiliza la opción **Auto-Build**. Asegura que tus puntos de talento se gasten en nodos sinérgicos mientras aprendes las mecánicas de recursos únicas de la clase, como las **Municiones de Tinker** (Tinker Rounds) o la **Demencia de Cultista** (Cultist Insanity).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Builds del Meta S-Tier para el lanzamiento de 2026">
+
+El meta de las **builds de Conquest of Azeroth** en 2026 se centra en gran medida en las clases que ofrecen una alta autosustentabilidad y ciclos mecánicos claros. Durante las extensas fases de pruebas beta, tres clases surgieron como las opciones más populares y efectivas tanto para la nivelación en solitario como para el contenido grupal inicial del final del juego. Estas builds "S-Tier" proporcionan la curva de aprendizaje más amigable al tiempo que mantienen altos techos de rendimiento.
+
+<CardGrid cols={3}>
+  <Card title="Nigromante (Muerte)">
+    - **Rol**: DPS a distancia
+    - **Recurso principal**: Fuerza vital
+    - **Ideal para**: Jugabilidad centrada en mascotas y daño en el tiempo basado en plagas.
+  </Card>
+  <Card title="Mago de sangre (Sanguino)">
+    - **Rol**: Tanque / DPS / Sanador
+    - **Recurso principal**: Mecánicas de consumo de salud
+    - **Ideal para**: Jugadores que disfrutan de un sustento vampírico de alto riesgo y alta recompensa.
+  </Card>
+  <Card title="Segador (Alma)">
+    - **Rol**: Tanque cuerpo a cuerpo / DPS
+    - **Recurso principal**: Cosecha de almas
+    - **Ideal para**: Personajes resistentes con armadura de placas que quieren sanarse a través del daño.
+  </Card>
+</CardGrid>
+
+Estas builds son las preferidas porque abordan los desafíos principales del mundo de Reborn Azeroth: estadísticas de criaturas más difíciles y la necesidad de una gestión de recursos constante. El **Nigromante**, por ejemplo, utiliza esbirros no-muertos para tanquear a los enemigos del mundo, mientras que el **Mago de sangre** puede transicionar sin problemas entre curar a sus aliados e infligir un daño masivo en área (AoE) manipulando su propia barra de salud.
+
+| Nombre de la build | Estadística principal | Tipo de armadura | Mecánica clave |
+| :--- | :--- | :--- | :--- |
+| **Nigromante de muerte** | Intelecto | Tela | Enjambre de no-muertos / Plagas |
+| **Mago de sangre sanguino** | Intelecto/Aguante | Cuero | Conversión de salud a maná |
+| **Segador de almas** | Fuerza/Intelecto | Placas | Robo de vida / Sustento de las sombras |
+| **Vanguardia de guardián** | Fuerza | Placas | Golpe con escudo / Estandartes de grupo |
+
+<Callout type="success" title="Recomendación para principiantes">
+Si no estás decidido, el **Guardián** es la build física más segura. Ofrece la durabilidad tradicional de la armadura de placas con una especialización modernizada de "Vanguardia" que destaca en la protección de grupos en las primeras mazmorras.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Inmersión profunda en especializaciones: Tinker y Piromante">
+
+Para los jugadores que buscan **builds de Conquest of Azeroth** más técnicas, el **Tinker** y el **Piromante** ofrecen rotaciones complejas que recompensan la precisión temporal. La clase Tinker es única en su dependencia de las "Municiones" (Rounds) y los artefactos, mientras que el Piromante lleva al límite la magia de fuego tanto a través del daño directo como de la sanación inspirada en el fénix.
+
+| Especialización | Rol principal | Ciclo de juego principal | Mejor escenario |
+| :--- | :--- | :--- | :--- |
+| **Demolición (Tinker)** | DPS a distancia | Municiones explosivas / Lanzacohetes | Grandes grupos de enemigos (AoE) y daño explosivo |
+| **Mecánica (Tinker)** | DPS de utilidad | Colocación de torretas / Traje meca | Combates contra jefes y control de zonas |
+| **Incineración (Piromante)** | DPS a distancia | Meteoros / Acumulación de Ignición | Daño a un solo objetivo (jefes) |
+| **Tejido de llamas (Piromante)** | Sanador | Sanación de fuego estilo fénix | Sanación de grupo de alta movilidad |
+
+La **build de Tinker Demolición** es actualmente una de las mejores opciones para subir de nivel rápidamente. Al centrarse en **Municiones explosivas** (Explosive Rounds) y **Cargas de zapador** (Sapper Charges), los jugadores pueden limpiar grupos de enemigos significativamente más rápido que la mayoría de las otras clases de taumaturgos. Sin embargo, requiere una gestión cuidadosa de las "Municiones" para asegurarse de no quedarse sin munición durante las fases críticas del combate.
+
+<Callout type="warning" title="Advertencia de complejidad">
+La clase **Cultista** utiliza una mecánica de **Demencia** (Insanity). Aunque es poderosa, la acumulación descontrolada de Demencia castigará al jugador, lo que la convierte en una build de "Alta dificultad" que no se recomienda para un primer personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ruta de nivelación: Del nivel 1 al 60">
+
+Progresar en tus **builds de Conquest of Azeroth** requiere seguir hitos específicos para asegurarte de no quedarte atrás en la curva de poder del mundo. El viaje no se trata solo de derrotar enemigos; implica misiones de clase, visitas a instructores y mejoras estratégicas de equipo.
+
+<Steps>
+  <Step num="1" title="La misión de clase de nivel 3">
+    Comienza tu viaje y presta atención al aviso de la misión de clase de nivel 3. Encuentra a tu instructor en las zonas de inicio como Villadorada o Brill para desbloquear tus primeras habilidades principales.
+  </Step>
+  <Step num="2" title="La elección de especialización de nivel 10">
+    Este es el hito más crítico. Elige tu especialización principal. Esta decisión bloquea tu Árbol de Especialización, así que asegúrate de que se alinee con tu rol deseado (Tanque, Sanador o DPS).
+  </Step>
+  <Step num="3" title="Desarrollo de la rotación principal (10-35)">
+    Gasta puntos de talento alternando entre los árboles. Concéntrate en las habilidades que estabilicen tu gestión de recursos (por ejemplo, regeneración de maná o reducción del costo de energía).
+  </Step>
+  <Step num="4" title="Transición al juego tardío (55-60)">
+    Cambia el enfoque de tu build de la sustentabilidad de nivelación al rendimiento especializado. Visita a los instructores para seleccionar manualmente hechizos de nivel máximo y comienza a recolectar equipo específico para tu rol.
+  </Step>
+</Steps>
+
+Durante el rango de niveles 35-45, deberías comenzar a probar la utilidad de tu build. Esto incluye aprender el control de masas (CC) específico de tu clase (como el desplazamiento temporal del **Cronomante**) y las interrupciones. Estas herramientas son esenciales para las mazmorras Míticas+ y las bandas que te esperan en el nivel 60.
+
+<Callout type="info" title="Estrategia de equipo">
+Conquest of Azeroth cuenta con un sistema de **Botín inmersivo** (Immersive Loot Drops). Prioriza siempre el equipo que coincida con la estadística principal de tu clase (por ejemplo, Agilidad para los Exploradores, Fuerza para los Bárbaros) en lugar de simples aumentos de nivel de objeto.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Consideraciones de builds para PvP y alto riesgo">
+
+El PvP en Conquest of Azeroth está construido alrededor de un sistema de riesgo híbrido. Ya sea que participes en campos de batalla estructurados o en el brutal mundo abierto de Alto Riesgo, tu build debe tener en cuenta la identidad del control de masas (CC). A diferencia del WoW estándar, las herramientas de CC en CoA son estrictamente temáticas: un **Nigromante** depende del miedo, mientras que un **Cazador de brujas** utiliza herramientas de las sombras y sabuesos.
+
+<Checklist
+  id="pvp-readiness"
+  title="Lista de verificación para builds de PvP:"
+  items={[
+    "Selecciona una especialización con alta movilidad (por ejemplo, Felsworn o Explorador)",
+    "Asigna puntos de talento en nodos de reducción de CC en el Árbol de Clase",
+    "Equipa al menos dos 'botones de pánico' defensivos para encuentros de Alto Riesgo",
+    "Asegúrate de que tu build tenga una interrupción confiable para enfrentamientos contra taumaturgos",
+    "Prueba tu ventana de daño explosivo en la arena 1v1 del Tazón de Sangre (Blood Bowl)"
+  ]}
+/>
+
+Para aquellos lo suficientemente valientes como para enfrentarse al **PvP de Alto Riesgo**, las apuestas son elevadas. Los jugadores derrotados dejan caer cofres que contienen equipo. Por lo tanto, las builds de Alto Riesgo a menudo priorizan **herramientas de supervivencia y escape** por encima del daño puro de "cañón de cristal". El **Caballero de Xoroth** destaca en este modo, utilizando cadenas de fuego infernal y un sustento de combate cuerpo a cuerpo apocalíptico para sobrevivir a sus oponentes.
+
+<Callout type="tip" title="Estrategia para Alto Riesgo">
+En las zonas de Alto Riesgo, busca **equipo forjado con sangre** (Bloodforged gear). Estos objetos caen de los monstruos del mundo abierto y proporcionan aumentos significativos de poder para las builds de PvP, pero también son el botín más codiciado por los jugadores enemigos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre las builds de Conquest of Azeroth">
+
+<FAQ items={[
+  {
+    question: "¿Qué clase tiene las mejores builds de Conquest of Azeroth para subir de nivel en solitario?",
+    answer: "El Nigromante y el Segador son actualmente los mejores para jugar en solitario. El Nigromante utiliza mascotas para absorber el daño, mientras que las mecánicas de robo de vida del Segador permiten subir de nivel sin tiempos de inactividad."
+  },
+  {
+    question: "¿Puedo cambiar mi especialización después del nivel 10?",
+    answer: "Sí, puedes reiniciar tus talentos y cambiar tu especialización visitando a un instructor de clase. Esto te permite cambiar de una build de DPS a una de Tanque o Sanador según sea necesario para el contenido en grupo."
+  },
+  {
+    question: "¿Cómo funciona la función de Auto-Build?",
+    answer: "La función de Auto-Build asigna automáticamente tus puntos de talento en una ruta preoptimizada según la especialización elegida. Es perfecta para principiantes que desean concentrarse en la jugabilidad en lugar de la compleja teoría del juego."
+  },
+  {
+    question: "¿Cuál es la diferencia entre el Árbol de Clase y el Árbol de Especialización?",
+    answer: "El Árbol de Clase contiene hechizos de utilidad y defensivos compartidos por todos los miembros de esa clase. El Árbol de Especialización contiene las habilidades poderosas y definitorias de rol que convierten a tu personaje en un Tanque, Sanador o DPS dedicado."
+  }
+]} />
+
+</Section>

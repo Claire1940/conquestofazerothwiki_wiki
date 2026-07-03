@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Neue Klassen in Conquest of Azeroth: Tier-List & Build-Guide 2026",
+  description: "Meistere die 21 Originalklassen in Conquest of Azeroth. Entdecke die Tier-List für 2026, Talent-Builds im Dragonflight-Stil und Experten-Strategien zum Leveln.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/facc15?text=New+Classes+Guide",
+  date: "2026-07-03",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Die neuen Klassen von Conquest of Azeroth** bieten 21 originale Archetypen mit über 69 einzigartigen Spezialisierungen.
+- **Kernmechanik**: Das System nutzt einen von Dragonflight inspirierten Talentbaum, bei dem die Punkte abwechselnd im Klassen- und im Spezialisierungsbaum verteilt werden.
+- **Beste Strategie**: Anfänger sollten die **Auto-Build**-Funktion nutzen, um die Rotationen zu erlernen, bevor sie ihre Talente manuell optimieren.
+- **Beste Wahl**: Nekromant, Blutmagier und Schnitter sind derzeit die beliebtesten S-Tier-Optionen für den Vol'Jin-Launch.
+- **Wichtiger Tipp**: Klassenlehrer sind unerlässlich; achte auf die Questaufforderung auf Stufe 3, um deine primären Fähigkeiten frühzeitig freizuschalten.
+</Callout>
+
+<Section icon={Swords} title="Übersicht über die 21 Originalklassen">
+
+Der Start des Vol'Jin-Realms am 3. Juli 2026 führt eine revolutionäre neue Art ein, ein maßgeschneidertes World of Warcraft durch die **neuen Klassen von Conquest of Azeroth** zu erleben. Im Gegensatz zum klassenlosen System, das man ansonsten bei Project Ascension findet, konzentriert sich dieses Projekt auf 21 akribisch ausgearbeitete, völlig neue Klassen. Jede Klasse wurde mit einer bestimmten Fantasie im Hinterkopf entworfen – vom Nekromanten, der die Untoten befehligt, bis hin zum Tüftler mit seinen zahlreichen Gadgets. Diese Klassen sind nicht bloß visuelle Anpassungen; sie bieten völlig neue Zaubersätze, eigene Animationen und einzigartige Ressourcenmechaniken wie Lebenskraft, Wahnsinn und Teufelszorn.
+
+| Klasse | Primäre Rolle | Primäres Attribut | Rüstungstyp |
+| :--- | :--- | :--- | :--- |
+| **Nekromant** | Fernkampf-DPS | Intelligenz | Stoff |
+| **Blutmagier** | Tank/DPS/Heiler | Intelligenz/Ausdauer | Leder |
+| **Schnitter** | Tank/Nahkampf-DPS | Stärke | Platte |
+| **Tüftler** | Fernkampf-DPS/Heiler | Beweglichkeit/Intelligenz | Schwere Rüstung |
+| **Wächter** | Tank/Unterstützer | Stärke | Platte |
+| **Kultist** | Tank/DPS/Heiler | Intelligenz/Stärke | Platte |
+| **Sonnenkleriker** | Tank/DPS/Heiler | Intelligenz/Stärke | Platte |
+| **Teufelsgeschworener** | Tank/Nahkampf-DPS | Beweglichkeit/Intelligenz | Leder |
+| **Sternenrufer** | Tank/DPS/Heiler | Intelligenz | Platte |
+
+<Callout type="tip" title="Vielseitigkeit der Rollen">
+Viele Klassen in Conquest of Azeroth sind echte Hybride. Beispielsweise kann der **Sternenrufer** je nach der auf Stufe 10 gewählten Spezialisierung als Tank mit Mondthematik, als Fernkampf-DPS oder als engagierter Heiler agieren.
+</Callout>
+
+Jede Klasse nutzt eine bestimmte Ressource, die ihren Gameplay-Loop definiert. Der **Nekromant** verwaltet Lebenskraft, um untote Diener zu beschwören und aufrechtzuerhalten, während der **Kultist** Wahnsinn ausbalancieren muss – eine hochriskante Mechanik, die massiven Schaden belohnt, aber verheerende Folgen haben kann, wenn sie außer Kontrolle gerät. Diese Nuancen zu verstehen, ist der erste Schritt zur Meisterung der Endgame-Inhalte.
+
+</Section>
+
+<Section icon={Trophy} title="Klassen-Tier-List 2026 für den Vol'Jin-Launch">
+
+Die Wahl deines ersten Charakters für den Vol'Jin-Launch ist eine entscheidende Entscheidung. Unsere Tier-List für 2026 priorisiert Level-Effizienz, Rollenflexibilität und Gruppennutzen. Obwohl jede Klasse spielbar ist, bieten einige einen reibungsloseren Einstieg in die Systeme von Reborn Azeroth.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Nekromant">
+    - **Bestens geeignet für**: Solo-Leveln und Begleiter-Management.
+    - **Stärke**: Hohe Überlebensfähigkeit durch Diener.
+    - **Rolle**: Reines DPS-Kraftpaket.
+  </Card>
+  <Card title="S-Tier: Blutmagier">
+    - **Bestens geeignet für**: Spieler, die absolute Rollenflexibilität wollen.
+    - **Stärke**: Außergewöhnliche Selbsterhaltung durch Lebensentzug.
+    - **Rolle**: Tank, Heiler oder DPS.
+  </Card>
+  <Card title="S-Tier: Schnitter">
+    - **Bestens geeignet für**: Liebhaber von Nahkampf-Bruisern.
+    - **Stärke**: Hohe Haltbarkeit mit Schattenselbsterhaltung.
+    - **Rolle**: Plattentragender Tank oder DPS.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Empfehlung für Einsteiger">
+Wenn du neu im Ökosystem von Project Ascension bist, sind der **Wächter** oder der **Pyromant** eine hervorragende Wahl. Sie bieten unkomplizierte Mechaniken und eine hohe Durchschlagskraft sowohl in Dungeons als auch beim Questen in der offenen Welt.
+</Callout>
+
+Abseits der S-Tier belegen Klassen wie der **Tüftler** und der **Chronomant** die A-Tier. Diese Klassen bieten enormen Nutzen wie Geschütztürme, Signalfeuer und Zeitrücklauf-Mechaniken, erfordern jedoch ein tieferes Verständnis der angepassten Benutzeroberfläche und der Positionierung im Spiel. Der **Hexendoktor** und der **Ritter von Xoroth** sind fantastische Spezialisten-Entscheidungen (B-Tier) für Spieler, die sich voll und ganz auf bestimmte Warcraft-Lore-Fantasien wie Loa-Magie oder apokalyptische Höllenfeuer-Kämpfe einlassen wollen.
+
+| Tier | Klassen | Hauptgrund für die Einstufung |
+| :--- | :--- | :--- |
+| **S** | Nekromant, Blutmagier, Schnitter | Hohe Beliebtheit, klare Rollenidentität und erstklassige Selbsterhaltung. |
+| **A** | Sternenrufer, Tüftler, Teufelsgeschworener | Hervorragende Flexibilität, erfordert jedoch mehr Management der Mechaniken. |
+| **B** | Barbar, Hexenjäger, Waldläufer | Starke Klassenidentität, am besten für Spieler, die Nischen-Spielstile bevorzugen. |
+
+</Section>
+
+<Section icon={Sparkles} title="Talentbäume und Spezialisierungsmechaniken">
+
+Das Talentsystem in Conquest of Azeroth ist eines seiner anspruchsvollsten Features und ist stark von modernen „Dragonflight“-Strukturen inspiriert. Auf Stufe 10 müssen Spieler ihre wichtigste Entscheidung treffen: ihre primäre Spezialisierung. Diese Wahl schaltet eine der 69 verfügbaren Spezialisierungen der 21 Klassen frei und bestimmt, welche Zauber du bei den Klassenlehrern priorisieren wirst.
+
+**So funktioniert das Talentsystem:**
+- **Zwei Talentbäume**: Du hast Zugriff auf einen **Klassenbaum** (Nützlichkeit und Kernidentität) und einen **Spezialisierungsbaum** (rollenspezifische Macht).
+- **Punkteverteilung**: Talentpunkte wechseln sich beim Leveln zwischen den beiden Bäumen ab, was verhindert, dass du Nützlichkeit zugunsten reiner Macht ignorierst.
+- **Auto-Build-Unterstützung**: Ein integriertes System kann Punkte automatisch basierend auf von der Community geprüften Builds verteilen, was perfekt für deinen ersten Durchlauf bis Stufe 60 ist.
+
+| Spezialisierungsbeispiel | Klasse | Fokus | Schlüsselmechanik |
+| :--- | :--- | :--- | :--- |
+| **Demolierung** | Tüftler | Sprengstoffe/Raketen | Explosivgeschosse |
+| **Flammenweben** | Pyromant | Feuerbasierte Heilung | Phönix-Wiedergeburt |
+| **Götterklinge** | Kultist | Schatten-Nahkampf-DPS | Wahnsinnsverbrauch |
+| **Wächter** | Sternenrufer | Mond-Tanking | Astralbarrieren |
+
+<Callout type="info" title="Talente zurücksetzen (Respecing)">
+Scheue dich nicht vor Experimenten. Das System ermöglicht ein einfaches Zurücksetzen der Talente (Respecing), sodass du verschiedene Spezialisierungen innerhalb deiner Klasse ausprobieren kannst, wenn du neue Ausrüstung findest oder vom Solo-Leveln zu Gruppen-Dungeons wechselst.
+</Callout>
+
+Die **neuen Klassen von Conquest of Azeroth** werden zusätzlich durch die „Auto-Build“-Pfade definiert. Beispielsweise kann ein **Venomant** den Pfad „Fäulnis“ für kontinuierlichen Schaden (DoT) oder den Pfad „Zähigkeit“ für ein giftbasiertes Tanken wählen. Diese Pfade stellen sicher, dass selbst komplexe Klassen für durchschnittliche Spieler zugänglich bleiben, während für Veteranen eine hohe spielerische Obergrenze gewahrt bleibt.
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Leveling-Guide">
+
+Das Leveln von 1 auf 60 in Conquest of Azeroth erfordert eine andere Herangehensweise als im standardmäßigen Vanilla-WoW. Die Welt wurde mit RPG-Kreaturenwerten und immersiver Beute „wiedergeboren“, die die maßgeschneiderten Klassenarchetypen gezielt unterstützen.
+
+<Steps>
+  <Step num="1" title="Account- und Launcher-Einrichtung">
+    Erstelle einen Ascension-Account und lade den offiziellen Launcher herunter. Stelle sicher, dass du den Realm-Pfad **Conquest of Azeroth** (Vol'Jin) anstelle der standardmäßigen klassenlosen Realms auswählst.
+  </Step>
+  <Step num="2" title="Der Meilenstein auf Stufe 3">
+    Beginne mit dem Questen in deinem Startgebiet. Sobald du Stufe 3 erreichst, achte genau auf deinen Chat und deine Benutzeroberfläche, um eine Aufforderung für deine Klassenquest zu erhalten. Diese führt dich zu deinem **Klassenlehrer** in Zentren wie Goldhain oder Brill.
+  </Step>
+  <Step num="3" title="Spezialisierung auf Stufe 10">
+    Wenn du Stufe 10 erreichst, öffne das Talentfenster (standardmäßig Taste `N`) und wähle deine Spezialisierung. Hier entscheidest du, ob dein **Primalist** ein Bergkönig-Tank oder ein Wildläufer-DPS sein wird.
+  </Step>
+  <Step num="4" title="Ausrüstungsoptimierung">
+    Suche in der offenen Welt nach „blutgeschmiedeten“ Gegenständen (Bloodforged) und Ausrüstung mit RPG-Werten. Im Gegensatz zu Standardausrüstung bieten diese Gegenstände oft Boni auf einzigartige Klassenmechaniken, wie z. B. eine erhöhte Lebenskrafterzeugung oder einen verringerten Verfall von Teufelszorn.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Wichtigkeit der Klassenlehrer">
+In Conquest of Azeroth erlernst du nicht alle Zauber automatisch. Du musst deinen Klassenlehrer regelmäßig aufsuchen, um neue Ränge und Nützlichkeitszauber zu erwerben. Wenn du diese Besuche auslässt, wird sich deine Levelgeschwindigkeit erheblich verlangsamen.
+</Callout>
+
+Während du die Meilensteine auf den Stufen 45, 55 und 58 erreichst, steigt der Schwierigkeitsgrad der Monster in der offenen Welt. Dies ist der richtige Zeitpunkt, um deine Rotation zu verfeinern. Nutze den **Manasturm** oder frühe Dungeons wie die Todesminen und die Höhlen des Wehklagens, um das Zusammenspiel deines Builds mit anderen Spielern zu testen. Mit Stufe 60 solltest du ein klares Verständnis für die Kontrollfähigkeiten (Crowd-Control) deiner Klasse und dein Ressourcenmanagement haben.
+
+</Section>
+
+<Section icon={Map} title="Endgame-Inhalte und PvP-Modi">
+
+Sobald du die Höchststufe 60 erreicht hast, verlagert Conquest of Azeroth seinen Fokus auf ein robustes Endgame-Ökosystem. Dies umfasst traditionelle PvE-Raids, skalierende Mythisch+-Dungeons und das einzigartige High-Risk-PvP-System. Die 21 Klassen sind speziell auf diese anspruchsvollen Umgebungen abgestimmt, sodass jede Spezialisierung ihre Nische in einer 10- oder 25-Spieler-Raidgruppe findet.
+
+**Checkliste für Endgame-Aktivitäten:**
+<Checklist
+  id="endgame-ready"
+  title="Ziele auf Stufe 60:"
+  items={[
+    "Schließe die Attunement-Quests (Harmonisierung) für den Geschmolzenen Kern und Onyxia ab",
+    "Erwirb eine vollständige Ausrüstung aus Dungeons, die zu deiner Rolle passt",
+    "Schalte alle Tier-3-Talentknoten in deinem Spezialisierungsbaum frei",
+    "Nimm an einem Crow's Cache Open-World-PvP-Event teil",
+    "Teste deinen Build in der Solo-Anmeldung für die 1v1- oder 3v3-Arena"
+  ]}
+/>
+
+<Callout type="tip" title="High-Risk-PvP">
+Wenn du dich für die **High-Risk-PvP**-Phase entscheidest, sei dir bewusst, dass du beim Tod angelegte Ausrüstung verlieren kannst. Dieser Modus ist jedoch die einzige Möglichkeit, bestimmte blutgeschmiedete Upgrades in der offenen Welt zu farmen. Betritt diese Phase nur, wenn du Vertrauen in die Defensivwerkzeuge deiner Klasse hast.
+</Callout>
+
+Das PvP-System in Conquest of Azeroth betont die „Klassenspezifische Kontrollidentität“. Anstatt dass jede Klasse über einen generischen Betäubungs- oder Furchteffekt verfügt, sind die Kontrollwerkzeuge thematisch angepasst. Ein **Chronomant** glänzt durch Positionswechsel und Verlangsamungen, während ein **Hexenjäger** Silberschüsse und Hunde einsetzt, um Zauberwirker auszuschalten. Dies schafft eine übersichtlichere und strategischere PvP-Umgebung im Vergleich zu standardmäßigen WoW-Erweiterungen.
+
+| Modus | Risikostufe | Hauptbelohnung |
+| :--- | :--- | :--- |
+| **PvE-Modus** | Niedrig | Sicherer Dungeon- und Raid-Fortschritt. |
+| **PvP-Modus** | Mittel | Open-World-Kämpfe ohne Gegenstandsverlust. |
+| **High-Risk** | Hoch | Blutgeschmiedete Ausrüstung und Beute von besiegten Gegnern. |
+| **Arenen** | Strukturiert | Kompetitive Ranglisten und PvP-Ausrüstung. |
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich die neuen Klassen von Conquest of Azeroth frei?",
+    answer: "Du musst lediglich den Project Ascension Launcher herunterladen und den Conquest of Azeroth-Realm (Vol'Jin) auswählen. Alle 21 Klassen stehen dir direkt bei der Charaktererstellung zur Verfügung."
+  },
+  {
+    question: "Kann ich meine Spezialisierung später noch ändern?",
+    answer: "Ja, du kannst einen Klassenlehrer aufsuchen oder bestimmte Gegenstände im Spiel verwenden, um deine Talente zurückzusetzen und eine andere Spezialisierung innerhalb deiner gewählten Klasse zu wählen."
+  },
+  {
+    question: "Gibt es einen Talentplaner für diese Klassen?",
+    answer: "Ja, auf der offiziellen Ascension-Website gibt es einen CoA-Builder, mit dem du deine Klassen- und Spezialisierungsbäume planen kannst, bevor du im Spiel Punkte verteilst."
+  },
+  {
+    question: "Was ist die beste Klasse für Solospieler?",
+    answer: "Der Nekromant und der Schnitter werden für das Solospiel dringend empfohlen, da sie über eine hervorragende Selbsterhaltung verfügen und problemlos mit mehreren Gegnern gleichzeitig fertig werden."
+  }
+]} />
+
+<Callout type="info" title="Schlusswort">
+Das Conquest of Azeroth-Projekt ist ein von der Community getriebener Mod für Project Ascension. Halte dich über den offiziellen Discord-Server stets über die neuesten Patchnotizen und Balance-Änderungen auf dem Laufenden, während die Saison 2026 voranschreitet.
+</Callout>
+
+</Section>

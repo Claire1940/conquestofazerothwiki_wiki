@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Sternenrufer: Die besten Spezialisierungen & Builds",
+  description: "Meistere die Klasse des Sternenrufers in Conquest of Azeroth. Erfahre alles über die besten Talentbäume, Attributsprioritäten und Strategien für die Spezialisierungen Wächter, Schildwache, Mondpriester und Mondgardist.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0b1118/f4c24e?text=Starcaller+Build+Guide",
+  date: "2026-07-03",
+  author: "conquest of azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Kernidentität**: Der **Sternenrufer (Starcaller)** in Conquest of Azeroth ist eine auf Intelligenz basierende Hybridklasse, die Mondkraft für das Tanken, Heilen, den Fernkampf-DPS und den Nahkampf nutzt.
+- **Rüstung & Waffen**: Sternenrufer tragen Schwere Rüstung und Platte und führen Stäbe, Stangenwaffen oder Einhandwaffen in Kombination mit einem Schild.
+- **Beste Spezialisierung**: Der Wächter (Warden) wird für überlebensfokussierte Spieler dringend empfohlen, während die Schildwache (Sentinel) im Fernkampf-Zauberwirken glänzt.
+- **Wichtigster Wert**: Alle vier Spezialisierungen skalieren primär mit Intelligenz, was den Ausrüstungswechsel relativ reibungslos gestaltet.
+- **Veröffentlichungsdatum**: Conquest of Azeroth startet offiziell auf dem Vol'Jin-Realm am 3. Juli 2026.
+</Callout>
+
+<Section icon={Sparkles} title="Klassenübersicht & Kernmechaniken des Sternenrufers">
+
+Der **Sternenrufer (Starcaller)** in Conquest of Azeroth sticht als eine der vielseitigsten und visuell beeindruckendsten benutzerdefinierten Klassen im Project-Ascension-Ökosystem hervor. Inspiriert von der alten Lore der Nachtelfen und astraler Magie verbindet der Sternenrufer die defensiven Fähigkeiten eines plattentragenden Ritters mit dem mystischen Nutzen eines himmlischen Zauberwirkers. 
+
+Im Gegensatz zu den Standardklassen in World of Warcraft verlässt sich der Sternenrufer auf ein einzigartiges Ressourcensystem, das auf **Mondkraft (Lunar Power)** basiert. Diese Energie wird durch automatische Angriffe, bestimmte Zauber und defensives Blocken erzeugt und anschließend für mächtige Barrieren, Heilungswellen oder verheerende Astralstöße ausgegeben. Da Intelligenz als Hauptattribut für alle vier Spezialisierungen dient, können Spieler problemlos Ausrüstung sammeln, die mehrere Rollen unterstützt, ohne völlig separate Rüstungssets zu benötigen.
+
+| Attribut | Wert |
+| :--- | :--- |
+| **Rüstungstyp** | Schwere Rüstung, Platte |
+| **Hauptattribut** | Intelligenz |
+| **Rollen** | Tank, DPS, Heiler |
+| **Kernressource** | Mondkraft |
+
+**Video-Highlights:**
+- Vorschau auf die 21 benutzerdefinierten Klassen, die mit dem Start des Vol'Jin-Realms erscheinen.
+- Erfahre, wie benutzerdefinierte Talentbäume traditionelle Klassengrenzen ersetzen.
+- Entdecke die Open-World-RPG-Systeme, benutzerdefinierten Dungeons und Meilensteine des Fortschritts.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Full Release: Conquest of Azeroth - Ascension WoW" />
+
+<Callout type="tip" title="Profi-Tipp: Attributskonvertierung">
+Konzentriere dich selbst dann auf Intelligenz-Ausrüstung, wenn du die nahkampforientierte Spezialisierung „Mondgardist“ (Moon Guard) spielst. Der Talentbaum des Sternenrufers verfügt über integrierte Konvertierungen, die deine Zaubermacht in Nahkampfangriffskraft umwandeln, sodass deine physischen Schläge unglaublich kraftvoll bleiben.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sternenrufer-Spezialisierungen & Rollen">
+
+Die Wahl einer Spezialisierung auf Stufe 10 bestimmt deine primäre Rolle in Gruppeninhalten. Der Sternenrufer bietet vier verschiedene Pfade, die jeweils auf einen bestimmten Spielstil zugeschnitten sind. Egal, ob du massive Bossangriffe abfangen, deine Verbündeten mit Sternenlicht heilen oder Feinde aus der Ferne vernichten willst – es gibt eine Spezialisierung, die wie für dich gemacht ist.
+
+<CardGrid cols={2}>
+  <Card title="Wächter (Tank)">
+    - **Hohe Überlebensfähigkeit**: Nutzt Plattenrüstung und Schilde, um physische Angriffe abzuwehren.
+    - **Mondbarrieren**: Wandelt Mondkraft in schwere Schadensabsorptionsschilde um.
+    - **Gegnerkontrolle**: Setzt Mondverlangsamungen und -stummschaltungen ein, um Gegnergruppen zu kontrollieren.
+  </Card>
+  <Card title="Schildwache (Fernkampf-DPS)">
+    - **Astrale Magie**: Wirkt schwere Mondstrahlen gegen einzelne Ziele und in Bereichen.
+    - **Hohe Mobilität**: Nutzt Sofortzauber, um Schaden aus der Bewegung heraus zu verursachen.
+    - **Schaden über Zeit**: Hält mehrere Mond-DoTs auf den Zielen aktiv.
+  </Card>
+  <Card title="Mondpriester (Heiler)">
+    - **Mondrestaurierung**: Heilt Verbündete mit himmlischem Licht und Heilung-über-Zeit-Effekten (HoTs).
+    - **Absorptionsschilde**: Verhindert Schaden, bevor er entsteht, durch schützende Barrieren.
+    - **Gruppennutzen**: Stärkt Gruppenmitglieder mit passiver Mana- und Lebensregeneration.
+  </Card>
+  <Card title="Mondgardist (Nahkampf-DPS)">
+    - **Erfüllte Waffen**: Trifft Feinde mit Waffen, die von Mondenergie erfüllt sind.
+    - **Hoher Burst-Schaden**: Gibt angesammelte Mondkraft für verheerende Finishing-Moves aus.
+    - **Hybrid-Mobilität**: Stürmt in den Kampf und zieht sich mithilfe von Sternenlichtsprüngen zurück.
+  </Card>
+</CardGrid>
+
+Um dir bei der Entscheidung zu helfen, welcher Pfad zu deinem Spielstil passt, sieh dir an, wie sich die einzelnen Spezialisierungen beim Leveln, in Dungeons und in PvP-Umgebungen schlagen:
+
+| Spezialisierung | Primäre Rolle | Hauptfokus | Spielstil |
+| :--- | :--- | :--- | :--- |
+| **Wächter** | Tank | Barrieren, Schilde, Astralrüstung | Robuster, magiebeständiger Tank |
+| **Schildwache** | Fernkampf-DPS | Astralezauber, Mondstrahlen, DoTs | Hochmobile(r) Zauberwirker(in) |
+| **Mondpriester** | Heiler | Mondrestaurierung, Absorptionsschilde | Schildlastiger, defensiver Heiler |
+| **Mondgardist** | Nahkampf-DPS | Erfüllte Waffen, physisch-astraler Hybrid | Hochmobiler Nahkampf-Bruiser |
+
+<Callout type="info" title="Spezialisierungs-Freischaltungen">
+Du musst deine primäre Spezialisierung auf Stufe 10 wählen. Diese Wahl schaltet deinen spezialisierungsspezifischen Talentbaum frei, aber du kannst jederzeit einen Sternenrufer-Lehrer in den großen Startgebieten aufsuchen, um deine Talente zurückzusetzen, wenn du die Rolle wechseln möchtest.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Leveling & Talentfortschritt">
+
+Das Leveln eines **Sternenrufers (Starcaller)** in Conquest of Azeroth erfordert ein ausgewogenes Verhältnis zwischen der Verteilung von Talentpunkten und dem Erwerb von Fähigkeiten. Da die benutzerdefinierten Talentbäume im Dragonflight-Stil abwechselnd Punkte zwischen dem Klassenbaum und dem Spezialisierungsbaum vergeben, sorgt die Planung deiner Route für eine reibungslose Reise von Stufe 1 bis zur Höchststufe 60.
+
+<Steps>
+  <Step num="1" title="Frühe Mondzauber (Stufen 1-10)">
+    Beginne deine Reise in Startgebieten wie Goldhain oder Brill. Konzentriere dich darauf, deine grundlegenden Fernkampf-Mondzauber zu nutzen, um Feinde aus der Ferne anzulocken. Besuche deinen Klassenlehrer auf Stufe 3, um deine erste Klassenquest abzuschließen, die deine Kernmechanik zur Generierung von Mondkraft freischaltet.
+  </Step>
+  <Step num="2" title="Wähle deine Spezialisierung (Stufe 10)">
+    Sobald du Stufe 10 erreicht hast, öffne dein Talentfenster und wähle deine primäre Spezialisierung. Für schnelles und sicheres Solo-Leveln werden die Schildwache (Fernkampf-DPS) oder der Mondgardist (Nahkampf-DPS) aufgrund ihrer hohen Selbsterhaltung und schnellen Tötungszeiten dringend empfohlen.
+  </Step>
+  <Step num="3" title="Talentpunktverteilung (Stufen 10-45)">
+    Verteile deine Talentpunkte beim Leveln abwechselnd auf Hilfsknoten im Klassenbaum des Sternenrufers und Schadens-/Heilungs-Booster in deinem Spezialisierungsbaum. Wenn dich das Talentsystem überfordert, nutze die integrierte Auto-Build-Funktion, um die Punkte automatisch zu verteilen.
+  </Step>
+  <Step num="4" title="Übergang ins Endgame (Stufen 45-60)">
+    Verfeinere deine Zauberrotation und beginne damit, generische Quest-Ausrüstung durch spezialisierungsspezifische Rüstung zu ersetzen. Bereite dich auf die Inhalte der Stufe 60 vor, indem du deinen Build in High-Risk-Zonen, normalen Dungeons und frühen Raid-Phasen wie dem Geschmolzenen Kern (Molten Core) testest.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Achte auf deinen Klassenlehrer">
+Überspringe nicht die Lehrer-Quest auf Stufe 3. Das frühe Level-Tempo hängt stark davon ab, dass du deinen Lehrer in den Startgebieten findest, um deine wichtigsten Rotationsfähigkeiten freizuschalten. Ohne diese sinkt deine Level-Geschwindigkeit erheblich.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sternenrufer-Ausrüstung & Attributspriorität">
+
+Die richtige Ausrüstung deines Sternenrufers entscheidet darüber, ob du dich gegen Elite-Monster abmühst oder mühelos durch mythische Dungeons fegst. Da Sternenrufer Schwere Rüstung und Plattenschilde nutzen, sind sie von Natur aus robuster als stofftragende Zauberwirker. Du musst jedoch Attributen den Vorzug geben, die deine gewählte Spezialisierung ergänzen.
+
+Während Intelligenz das absolute Fundament für alle Sternenrufer-Builds bleibt, bestimmen die sekundären Attribute deine Effizienz im Kampf. Wächter benötigen defensive Vermeidung, Schildwachen sehnen sich nach kritischen Treffern, Mondpriester verlassen sich auf Manaregeneration und Mondgardisten profitieren von Angriffsgeschwindigkeit.
+
+| Spezialisierung | Attributspriorität 1 | Attributspriorität 2 | Attributspriorität 3 | Attributspriorität 4 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Wächter** | Intelligenz | Ausdauer | Rüstung / Blocken | Tempo |
+| **Schildwache** | Intelligenz | Zaubermacht | Kritischer Trefferwert | Tempo |
+| **Mondpriester** | Intelligenz | Willenskraft | Zaubermacht | Kritischer Trefferwert |
+| **Mondgardist** | Intelligenz | Angriffskraft | Tempo | Kritischer Trefferwert |
+
+<Callout type="success" title="Blutgeschmiedete Ausrüstung">
+Wenn du an der High-Risk-PvP-Phase teilnimmst, halte Ausschau nach blutgeschmiedeten (Bloodforged) Versionen von Dungeon- und Raid-Ausrüstung. Diese Gegenstände bieten massive Attributsboni auf Intelligenz und Ausdauer, was deinem Sternenrufer sowohl im PvE- als auch im PvP-Kampf einen deutlichen Vorteil verschafft.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Endgame PvE- & PvP-Strategien">
+
+Auf Stufe 60 entwickelt sich der Sternenrufer zu einer ernstzunehmenden Kraft sowohl in koordinierten Raids als auch auf chaotischen Schlachtfeldern. In PvE-Umgebungen wie dem Geschmolzenen Kern (Molten Core) und Onyxias Hort bringen Sternenrufer unschätzbaren Nutzen für ihre Gruppen. Wächter glänzen beim Tanken von magieintensiven Bossen, während Mondpriester die Schlachtgruppe mit massiven Absorptionsschilden am Leben erhalten.
+
+Im PvP verlässt sich der Sternenrufer auf seine hybride Natur, um Gegner zu überdauern. Schildwachen-Spieler können Nahkampfklassen mithilfe von Mondverlangsamungen und Versetzungszaubern leicht kiten, während Mondgardisten Heiler mit hohen physisch-astralen Schadenskombinationen schnell ausschalten können.
+
+| Fähigkeit | Spezialisierung | Effekt | Bester Anwendungsfall |
+| :--- | :--- | :--- | :--- |
+| **Mondbarriere** | Wächter / Mondpriester | Absorbiert eingehenden physischen und magischen Schaden | Vor dem Bosskampf oder zur Rettung von Verbündeten mit wenig Leben |
+| **Astralstoß** | Mondgardist | Verursacht beim Aufprall hybriden physisch-astralen Schaden | Hauptschadensquelle in Nahkampf-DPS-Rotationen |
+| **Mondstrahl** | Schildwache | Kanalisiert einen verheerenden Mondstrahl aus der Ferne | Einzelziel-Boss-DPS und Anlocken weit entfernter Feinde |
+| **Himmlische Linderung** | Mondpriester | Schnelle Direktheilung mit einem anhaltenden Heilung-über-Zeit-Effekt | Notfall-Tankheilung in Phasen mit hohem Schaden |
+
+To ensure your Starcaller is fully prepared for the Vol'Jin realm launch, complete these essential gameplay milestones:
+
+<Checklist
+  id="starcaller-milestones"
+  title="Sternenrufer-Startziele:"
+  items={[
+    "Finde deinen Klassenlehrer im Startgebiet auf Stufe 3",
+    "Wähle deine primäre Spezialisierung auf Stufe 10",
+    "Schalte deine wichtigsten Rotationszauber bis Stufe 30 frei",
+    "Erwirb ein vollständiges Set an intelligenzbasierter Schwerer Rüstung oder Plattenrüstung",
+    "Bereite deine Talente auf Endgame-Dungeons und Raids im Geschmolzenen Kern vor"
+  ]}
+/>
+
+<Callout type="tip" title="PvP-Kiting-Strategie">
+Wenn du im PvP gegen aggressive physische Klassen wie Barbaren oder Schnitter (Reapers) antrittst, nutze deine Mondversetzungswerkzeuge frühzeitig. Abstand zu halten, während du aktive Schildwachen-DoTs aufrechterhältst, ist der zuverlässigste Weg, um Siege einzufahren.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Häufig gestellte Fragen zum Sternenrufer">
+
+To help you master the class, here are answers to the most common questions regarding the Starcaller:
+
+<FAQ items={[
+  {
+    question: "Kann ich den Sternenrufer in Conquest of Azeroth as reinen Nahkampf-DPS spielen?",
+    answer: "Ja. Die Spezialisierung Mondgardist (Moon Guard) ist speziell für den Nahkampf konzipiert. Sie wandelt deine Intelligenz und Zaubermacht in physische Angriffskraft um, sodass du effektiv mit Stäben oder gehärteten Waffen zuschlagen kannst."
+  },
+  {
+    question: "Ist die Wächter-Spezialisierung als Haupttank für Raids geeignet?",
+    answer: "Absolut. Wächter sind äußerst effektive Haupttanks, insbesondere in magieintensiven Begegnungen, da sie über aktive Mondbarrieren und eine hohe Schadensminderung durch Plattenrüstung verfügen."
+  },
+  {
+    question: "Wie setze ich meine Sternenrufer-Talente zurück, wenn ich die Spezialisierung wechseln möchte?",
+    answer: "Du kannst jeden Sternenrufer-Klassenlehrer in den großen Startgebieten oder Hauptstädten besuchen. Gegen eine kleine Goldgebühr setzen sie deine Talentpunkte zurück, sodass du eine neue Spezialisierung wählen kannst."
+  }
+]} />
+
+<Callout type="info" title="Haftungsausschluss">
+Dies ist ein inoffizieller, von Fans erstellter Leitfaden. Er ist nicht mit Blizzard Entertainment, World of Warcraft oder Project Ascension verbunden.
+</Callout>
+
+</Section>

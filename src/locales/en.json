@@ -10,7 +10,14 @@
       "twitterDescription": "Conquest of Azeroth Wiki - 21 classes, 69 specs, talents, builds, dungeons, raids, PvP, and release guides for Ascension players."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "access": "Access",
+    "classes": "Classes",
+    "tier": "Tier List",
+    "talents": "Talents",
+    "guide": "Guide"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -210,190 +217,450 @@
       "classes": [
         {
           "name": "Necromancer",
-          "roles": ["DPS"],
-          "primaryStats": ["Intellect"],
-          "armor": ["Cloth"],
-          "specializations": ["Death", "Animation", "Rime"],
+          "roles": [
+            "DPS"
+          ],
+          "primaryStats": [
+            "Intellect"
+          ],
+          "armor": [
+            "Cloth"
+          ],
+          "specializations": [
+            "Death",
+            "Animation",
+            "Rime"
+          ],
           "mechanic": "Life Force fuels multiple undead pets and dark caster tools.",
           "bestFor": "Players who want a pet-heavy dark caster with plague, frost, and undead swarm gameplay."
         },
         {
           "name": "Pyromancer",
-          "roles": ["DPS", "Healer"],
-          "primaryStats": ["Intellect"],
-          "armor": ["Cloth"],
-          "specializations": ["Incineration", "Draconic", "Flameweaving"],
+          "roles": [
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Intellect"
+          ],
+          "armor": [
+            "Cloth"
+          ],
+          "specializations": [
+            "Incineration",
+            "Draconic",
+            "Flameweaving"
+          ],
           "mechanic": "Fire magic, meteors, dragon-themed burst tools, and phoenix-style healing.",
           "bestFor": "Players who want direct fire damage with an optional healing path."
         },
         {
           "name": "Cultist",
-          "roles": ["Tank", "DPS", "Healer"],
-          "primaryStats": ["Strength", "Intellect"],
-          "armor": ["Cloth", "Plate"],
-          "specializations": ["Godblade", "Corruption", "Influence", "Dreadnought"],
+          "roles": [
+            "Tank",
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Strength",
+            "Intellect"
+          ],
+          "armor": [
+            "Cloth",
+            "Plate"
+          ],
+          "specializations": [
+            "Godblade",
+            "Corruption",
+            "Influence",
+            "Dreadnought"
+          ],
           "mechanic": "Insanity rewards high damage but punishes uncontrolled buildup.",
           "bestFor": "Players who like Old God fantasy, high-risk power, and dark hybrid roles."
         },
         {
           "name": "Starcaller",
-          "roles": ["Tank", "DPS", "Healer"],
-          "primaryStats": ["Intellect"],
-          "armor": ["Mail", "Plate"],
-          "specializations": ["Warden", "Sentinel", "Moon Priest", "Moon Guard"],
+          "roles": [
+            "Tank",
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Intellect"
+          ],
+          "armor": [
+            "Mail",
+            "Plate"
+          ],
+          "specializations": [
+            "Warden",
+            "Sentinel",
+            "Moon Priest",
+            "Moon Guard"
+          ],
           "mechanic": "Lunar power shapes weapons, healing, barriers, and astral combat styles.",
           "bestFor": "Players who want a flexible lunar knight with tank, healer, and ranged or melee options."
         },
         {
           "name": "Sun Cleric",
-          "roles": ["Tank", "DPS", "Healer"],
-          "primaryStats": ["Strength", "Intellect"],
-          "armor": ["Cloth", "Plate"],
-          "specializations": ["Piety", "Seraphim", "Blessings", "Valkyrie"],
+          "roles": [
+            "Tank",
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Strength",
+            "Intellect"
+          ],
+          "armor": [
+            "Cloth",
+            "Plate"
+          ],
+          "specializations": [
+            "Piety",
+            "Seraphim",
+            "Blessings",
+            "Valkyrie"
+          ],
           "mechanic": "Solar Power and Sunset stacks empower holy fire damage, defense, and healing.",
           "bestFor": "Players who want holy fire fantasy with true hybrid role coverage."
         },
         {
           "name": "Tinker",
-          "roles": ["DPS", "Healer"],
-          "primaryStats": ["Agility", "Intellect"],
-          "armor": ["Leather", "Mail"],
-          "specializations": ["Demolition", "Mechanics", "Invention"],
+          "roles": [
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Agility",
+            "Intellect"
+          ],
+          "armor": [
+            "Leather",
+            "Mail"
+          ],
+          "specializations": [
+            "Demolition",
+            "Mechanics",
+            "Invention"
+          ],
           "mechanic": "Rounds, bombs, turrets, mechs, beacons, and nanobots control the battlefield.",
           "bestFor": "Players who enjoy engineering tools, summons, gadgets, and utility-heavy gameplay."
         },
         {
           "name": "Runemaster",
-          "roles": ["DPS"],
-          "primaryStats": ["Intellect", "Spirit"],
-          "armor": ["Cloth"],
-          "specializations": ["Spellslinger", "Riftblade", "Conjuration"],
+          "roles": [
+            "DPS"
+          ],
+          "primaryStats": [
+            "Intellect",
+            "Spirit"
+          ],
+          "armor": [
+            "Cloth"
+          ],
+          "specializations": [
+            "Spellslinger",
+            "Riftblade",
+            "Conjuration"
+          ],
           "mechanic": "Attunement cycles through Frost, Fire, and Arcane while runes empower abilities.",
           "bestFor": "Players who like technical caster gameplay, rune planning, and magic combos."
         },
         {
           "name": "Primalist",
-          "roles": ["Tank", "Healer", "DPS"],
-          "primaryStats": ["Strength", "Intellect"],
-          "armor": ["Plate"],
-          "specializations": ["Geomancy", "Mountain King", "Wildwalker", "Life"],
+          "roles": [
+            "Tank",
+            "Healer",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Strength",
+            "Intellect"
+          ],
+          "armor": [
+            "Plate"
+          ],
+          "specializations": [
+            "Geomancy",
+            "Mountain King",
+            "Wildwalker",
+            "Life"
+          ],
           "mechanic": "Earth, nature, wild gods, boons, animal spirits, and durable plate-based hybrid play.",
           "bestFor": "Players who want a sturdy nature-themed hybrid with tanking, healing, and damage paths."
         },
         {
           "name": "Reaper",
-          "roles": ["Tank", "DPS"],
-          "primaryStats": ["Strength", "Intellect"],
-          "armor": ["Plate"],
-          "specializations": ["Harvest", "Soul", "Domination"],
+          "roles": [
+            "Tank",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Strength",
+            "Intellect"
+          ],
+          "armor": [
+            "Plate"
+          ],
+          "specializations": [
+            "Harvest",
+            "Soul",
+            "Domination"
+          ],
           "mechanic": "Soul harvesting, health spending, lifesteal, shadow tricks, and death-themed sustain.",
           "bestFor": "Players who want a self-sustaining melee bruiser or shadow tank."
         },
         {
           "name": "Venomancer",
-          "roles": ["Tank", "Healer", "DPS"],
-          "primaryStats": ["Intellect"],
-          "armor": ["Leather", "Mail"],
-          "specializations": ["Rot", "Vizier", "Stalking", "Fortitude"],
+          "roles": [
+            "Tank",
+            "Healer",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Intellect"
+          ],
+          "armor": [
+            "Leather",
+            "Mail"
+          ],
+          "specializations": [
+            "Rot",
+            "Vizier",
+            "Stalking",
+            "Fortitude"
+          ],
           "mechanic": "Poison shapeshift forms, rot effects, healing-over-time support, stealth, and scorpion defenses.",
           "bestFor": "Players who want poison, shapeshifting, and hybrid utility."
         },
         {
           "name": "Chronomancer",
-          "roles": ["DPS", "Healer"],
-          "primaryStats": ["Intellect", "Spirit"],
-          "armor": ["Cloth"],
-          "specializations": ["Duality", "Artificer", "Displacement"],
+          "roles": [
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Intellect",
+            "Spirit"
+          ],
+          "armor": [
+            "Cloth"
+          ],
+          "specializations": [
+            "Duality",
+            "Artificer",
+            "Displacement"
+          ],
           "mechanic": "Order and chaos magic, wand ramping, time clones, rewinds, displacement, and healing utility.",
           "bestFor": "Players who want a trickster mage with strong utility and healer options."
         },
         {
           "name": "Bloodmage",
-          "roles": ["Tank", "DPS", "Healer"],
-          "primaryStats": ["Intellect", "Spirit", "Agility", "Stamina"],
-          "armor": ["Leather"],
-          "specializations": ["Fleshweaver", "Sanguine", "Accursed", "Eternal"],
+          "roles": [
+            "Tank",
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Intellect",
+            "Spirit",
+            "Agility",
+            "Stamina"
+          ],
+          "armor": [
+            "Leather"
+          ],
+          "specializations": [
+            "Fleshweaver",
+            "Sanguine",
+            "Accursed",
+            "Eternal"
+          ],
           "mechanic": "Blood magic spends health, builds Rage, siphons life, and uses transformation effects.",
           "bestFor": "Players who want vampiric sustain, blood-fueled spellcasting, and flexible tank/healer/DPS paths."
         },
         {
           "name": "Guardian",
-          "roles": ["Tank", "DPS", "Support"],
-          "primaryStats": ["Strength"],
-          "armor": ["Plate"],
-          "specializations": ["Gladiator", "Vanguard", "Inspiration"],
+          "roles": [
+            "Tank",
+            "DPS",
+            "Support"
+          ],
+          "primaryStats": [
+            "Strength"
+          ],
+          "armor": [
+            "Plate"
+          ],
+          "specializations": [
+            "Gladiator",
+            "Vanguard",
+            "Inspiration"
+          ],
           "mechanic": "Martial weapon mastery, shield tanking, banners, songs, and group support tools.",
           "bestFor": "Players who want a clear plate fighter with safe tanking and party support."
         },
         {
           "name": "Stormbringer",
-          "roles": ["DPS", "Support"],
-          "primaryStats": ["Intellect"],
-          "armor": ["Cloth"],
-          "specializations": ["Lightning", "Thunder", "Winds"],
+          "roles": [
+            "DPS",
+            "Support"
+          ],
+          "primaryStats": [
+            "Intellect"
+          ],
+          "armor": [
+            "Cloth"
+          ],
+          "specializations": [
+            "Lightning",
+            "Thunder",
+            "Winds"
+          ],
           "mechanic": "Static stacks increase spell procs and damage while storm tools and air elemental support allies.",
           "bestFor": "Players who want lightning caster gameplay with support pressure."
         },
         {
           "name": "Felsworn",
-          "roles": ["Tank", "DPS"],
-          "primaryStats": ["Agility", "Intellect"],
-          "armor": ["Leather"],
-          "specializations": ["Slaying", "Infernal", "Tyrant"],
+          "roles": [
+            "Tank",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Agility",
+            "Intellect"
+          ],
+          "armor": [
+            "Leather"
+          ],
+          "specializations": [
+            "Slaying",
+            "Infernal",
+            "Tyrant"
+          ],
           "mechanic": "Felfury Charges, Demon Form, and Felstrikes support agile melee, mobile caster, and dodge tank styles.",
           "bestFor": "Players who want demonic mobility, burst combos, and fel-themed tank or DPS gameplay."
         },
         {
           "name": "Barbarian",
-          "roles": ["DPS", "Support"],
-          "primaryStats": ["Agility"],
-          "armor": ["Leather"],
-          "specializations": ["Ancestry", "Brutality", "Headhunting"],
+          "roles": [
+            "DPS",
+            "Support"
+          ],
+          "primaryStats": [
+            "Agility"
+          ],
+          "armor": [
+            "Leather"
+          ],
+          "specializations": [
+            "Ancestry",
+            "Brutality",
+            "Headhunting"
+          ],
           "mechanic": "Unbridled Rage builds in combat, with Enraged effects unlocking stronger attacks.",
           "bestFor": "Players who want axes, bleeds, physical pressure, and party buffs."
         },
         {
           "name": "Witch Doctor",
-          "roles": ["DPS", "Healer"],
-          "primaryStats": ["Agility", "Intellect"],
-          "armor": ["Leather"],
-          "specializations": ["Brewing", "Voodoo", "Shadowhunting"],
+          "roles": [
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Agility",
+            "Intellect"
+          ],
+          "armor": [
+            "Leather"
+          ],
+          "specializations": [
+            "Brewing",
+            "Voodoo",
+            "Shadowhunting"
+          ],
           "mechanic": "Potions, hexes, jinxes, healing wards, Loa magic, and dinosaur summons.",
           "bestFor": "Players who want utility healing, damage-over-time pressure, and troll voodoo fantasy."
         },
         {
           "name": "Witch Hunter",
-          "roles": ["Tank", "DPS"],
-          "primaryStats": ["Agility"],
-          "armor": ["Mail"],
-          "specializations": ["Boltslinger", "Darkness", "Black Knight"],
+          "roles": [
+            "Tank",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Agility"
+          ],
+          "armor": [
+            "Mail"
+          ],
+          "specializations": [
+            "Boltslinger",
+            "Darkness",
+            "Black Knight"
+          ],
           "mechanic": "Crossbows, muskets, silver shots, hounds, shadow tools, and dark tank sustain.",
           "bestFor": "Players who want mobile monster-hunter gameplay with ranged damage or tank options."
         },
         {
           "name": "Knight of Xoroth",
-          "roles": ["Tank", "DPS"],
-          "primaryStats": ["Strength", "Intellect"],
-          "armor": ["Plate"],
-          "specializations": ["War", "Hellfire", "Defiance"],
+          "roles": [
+            "Tank",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Strength",
+            "Intellect"
+          ],
+          "armor": [
+            "Plate"
+          ],
+          "specializations": [
+            "War",
+            "Hellfire",
+            "Defiance"
+          ],
           "mechanic": "Deathfire builds like a finisher resource, powering hooks, chains, hellfire, demons, and tank tools.",
           "bestFor": "Players who want a heavy hell-knight bruiser with apocalyptic melee and tank fantasy."
         },
         {
           "name": "Templar",
-          "roles": ["Tank", "DPS"],
-          "primaryStats": ["Agility"],
-          "armor": ["Mail"],
-          "specializations": ["Crusader", "Martial", "Discipline"],
+          "roles": [
+            "Tank",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Agility"
+          ],
+          "armor": [
+            "Mail"
+          ],
+          "specializations": [
+            "Crusader",
+            "Martial",
+            "Discipline"
+          ],
           "mechanic": "Openers and Followups build into Combo Breaker finishing moves.",
           "bestFor": "Players who enjoy combo timing, agile melee combat, and staff-based tanking."
         },
         {
           "name": "Ranger",
-          "roles": ["DPS", "Support"],
-          "primaryStats": ["Agility"],
-          "armor": ["Leather"],
-          "specializations": ["Archery", "Brigand", "Farstrider"],
+          "roles": [
+            "DPS",
+            "Support"
+          ],
+          "primaryStats": [
+            "Agility"
+          ],
+          "armor": [
+            "Leather"
+          ],
+          "specializations": [
+            "Archery",
+            "Brigand",
+            "Farstrider"
+          ],
           "mechanic": "Quiver abilities, poisons, melee ambushes, War Falcons, and support horns.",
           "bestFor": "Players who want archer, outlaw, or wilderness support gameplay."
         }
@@ -410,11 +677,47 @@
           "label": "Best First Picks",
           "basis": "Strong launch starter value, clear gameplay loop, role usefulness, and official beta popularity signals.",
           "classes": [
-            { "name": "Necromancer", "roles": ["DPS"], "reason": "One of the officially highlighted top popular classes, with a clear undead pet-summoner identity and a simple damage goal." },
-            { "name": "Bloodmage", "roles": ["Tank", "DPS", "Healer"], "reason": "One of the officially highlighted top popular classes, with self-sustain, blood magic, and multiple role paths." },
-            { "name": "Reaper", "roles": ["Tank", "DPS"], "reason": "One of the officially highlighted top popular classes, with plate armor, lifesteal themes, and a self-sustaining melee style." },
-            { "name": "Guardian", "roles": ["Tank", "DPS", "Support"], "reason": "A direct plate fighter with tank, DPS, and support paths, making it one of the safest first choices for group play." },
-            { "name": "Pyromancer", "roles": ["DPS", "Healer"], "reason": "A readable fire caster with heavy single-target and AoE damage plus a Flameweaving healer option." }
+            {
+              "name": "Necromancer",
+              "roles": [
+                "DPS"
+              ],
+              "reason": "One of the officially highlighted top popular classes, with a clear undead pet-summoner identity and a simple damage goal."
+            },
+            {
+              "name": "Bloodmage",
+              "roles": [
+                "Tank",
+                "DPS",
+                "Healer"
+              ],
+              "reason": "One of the officially highlighted top popular classes, with self-sustain, blood magic, and multiple role paths."
+            },
+            {
+              "name": "Reaper",
+              "roles": [
+                "Tank",
+                "DPS"
+              ],
+              "reason": "One of the officially highlighted top popular classes, with plate armor, lifesteal themes, and a self-sustaining melee style."
+            },
+            {
+              "name": "Guardian",
+              "roles": [
+                "Tank",
+                "DPS",
+                "Support"
+              ],
+              "reason": "A direct plate fighter with tank, DPS, and support paths, making it one of the safest first choices for group play."
+            },
+            {
+              "name": "Pyromancer",
+              "roles": [
+                "DPS",
+                "Healer"
+              ],
+              "reason": "A readable fire caster with heavy single-target and AoE damage plus a Flameweaving healer option."
+            }
           ]
         },
         {
@@ -422,13 +725,66 @@
           "label": "Flexible Strong Picks",
           "basis": "Great role coverage and strong fantasy, with slightly more class-specific systems to learn.",
           "classes": [
-            { "name": "Starcaller", "roles": ["Tank", "DPS", "Healer"], "reason": "Excellent role spread with lunar tanking, healing, and damage options." },
-            { "name": "Sun Cleric", "roles": ["Tank", "DPS", "Healer"], "reason": "A full hybrid holy-fire class with Solar Power and clear spec identity." },
-            { "name": "Primalist", "roles": ["Tank", "Healer", "DPS"], "reason": "Durable plate hybrid with earth, beast, and nature healing paths." },
-            { "name": "Cultist", "roles": ["Tank", "DPS", "Healer"], "reason": "Powerful hybrid coverage with Old God mechanics, though Insanity management asks for more attention." },
-            { "name": "Tinker", "roles": ["DPS", "Healer"], "reason": "Great for gadget players who like turrets, bombs, rounds, beacons, and support tools." },
-            { "name": "Chronomancer", "roles": ["DPS", "Healer"], "reason": "Strong utility fantasy with rewinds, clones, displacement, wand builds, and healing tools." },
-            { "name": "Felsworn", "roles": ["Tank", "DPS"], "reason": "Mobile fel-themed melee, caster, and tank paths with Demon Form and Felfury Charges." }
+            {
+              "name": "Starcaller",
+              "roles": [
+                "Tank",
+                "DPS",
+                "Healer"
+              ],
+              "reason": "Excellent role spread with lunar tanking, healing, and damage options."
+            },
+            {
+              "name": "Sun Cleric",
+              "roles": [
+                "Tank",
+                "DPS",
+                "Healer"
+              ],
+              "reason": "A full hybrid holy-fire class with Solar Power and clear spec identity."
+            },
+            {
+              "name": "Primalist",
+              "roles": [
+                "Tank",
+                "Healer",
+                "DPS"
+              ],
+              "reason": "Durable plate hybrid with earth, beast, and nature healing paths."
+            },
+            {
+              "name": "Cultist",
+              "roles": [
+                "Tank",
+                "DPS",
+                "Healer"
+              ],
+              "reason": "Powerful hybrid coverage with Old God mechanics, though Insanity management asks for more attention."
+            },
+            {
+              "name": "Tinker",
+              "roles": [
+                "DPS",
+                "Healer"
+              ],
+              "reason": "Great for gadget players who like turrets, bombs, rounds, beacons, and support tools."
+            },
+            {
+              "name": "Chronomancer",
+              "roles": [
+                "DPS",
+                "Healer"
+              ],
+              "reason": "Strong utility fantasy with rewinds, clones, displacement, wand builds, and healing tools."
+            },
+            {
+              "name": "Felsworn",
+              "roles": [
+                "Tank",
+                "DPS"
+              ],
+              "reason": "Mobile fel-themed melee, caster, and tank paths with Demon Form and Felfury Charges."
+            }
           ]
         },
         {
@@ -436,15 +792,78 @@
           "label": "Good Specialist Picks",
           "basis": "Strong class fantasy and useful tools, best for players who already know which style they want.",
           "classes": [
-            { "name": "Venomancer", "roles": ["Tank", "Healer", "DPS"], "reason": "Poison shapeshifting is flexible and flavorful, with Rot, Vizier, Stalking, and Fortitude paths." },
-            { "name": "Witch Doctor", "roles": ["DPS", "Healer"], "reason": "Potion, hex, ward, and Loa gameplay offers strong utility for players who enjoy setup-heavy support." },
-            { "name": "Witch Hunter", "roles": ["Tank", "DPS"], "reason": "Mobile ranged and dark tank tools make it stylish, and its monster-hunter kit rewards active play." },
-            { "name": "Ranger", "roles": ["DPS", "Support"], "reason": "Archery, Brigand, and Farstrider paths make it a strong pick for ranged damage and support horns." },
-            { "name": "Knight of Xoroth", "roles": ["Tank", "DPS"], "reason": "A heavy hellfire bruiser with Deathfire finishers, chains, demons, and tank options." },
-            { "name": "Templar", "roles": ["Tank", "DPS"], "reason": "Combo-based melee with Openers, Followups, and Combo Breakers, best for players who enjoy timing." },
-            { "name": "Stormbringer", "roles": ["DPS", "Support"], "reason": "Static stacking, storm damage, and air elemental support create a strong caster-support identity." },
-            { "name": "Barbarian", "roles": ["DPS", "Support"], "reason": "Axes, rage, bleeds, ale buffs, and ancestor tools work best for players who want physical pressure." },
-            { "name": "Runemaster", "roles": ["DPS"], "reason": "Rune storage, attunement cycling, and spell combinations make it powerful for players who enjoy technical DPS." }
+            {
+              "name": "Venomancer",
+              "roles": [
+                "Tank",
+                "Healer",
+                "DPS"
+              ],
+              "reason": "Poison shapeshifting is flexible and flavorful, with Rot, Vizier, Stalking, and Fortitude paths."
+            },
+            {
+              "name": "Witch Doctor",
+              "roles": [
+                "DPS",
+                "Healer"
+              ],
+              "reason": "Potion, hex, ward, and Loa gameplay offers strong utility for players who enjoy setup-heavy support."
+            },
+            {
+              "name": "Witch Hunter",
+              "roles": [
+                "Tank",
+                "DPS"
+              ],
+              "reason": "Mobile ranged and dark tank tools make it stylish, and its monster-hunter kit rewards active play."
+            },
+            {
+              "name": "Ranger",
+              "roles": [
+                "DPS",
+                "Support"
+              ],
+              "reason": "Archery, Brigand, and Farstrider paths make it a strong pick for ranged damage and support horns."
+            },
+            {
+              "name": "Knight of Xoroth",
+              "roles": [
+                "Tank",
+                "DPS"
+              ],
+              "reason": "A heavy hellfire bruiser with Deathfire finishers, chains, demons, and tank options."
+            },
+            {
+              "name": "Templar",
+              "roles": [
+                "Tank",
+                "DPS"
+              ],
+              "reason": "Combo-based melee with Openers, Followups, and Combo Breakers, best for players who enjoy timing."
+            },
+            {
+              "name": "Stormbringer",
+              "roles": [
+                "DPS",
+                "Support"
+              ],
+              "reason": "Static stacking, storm damage, and air elemental support create a strong caster-support identity."
+            },
+            {
+              "name": "Barbarian",
+              "roles": [
+                "DPS",
+                "Support"
+              ],
+              "reason": "Axes, rage, bleeds, ale buffs, and ancestor tools work best for players who want physical pressure."
+            },
+            {
+              "name": "Runemaster",
+              "roles": [
+                "DPS"
+              ],
+              "reason": "Rune storage, attunement cycling, and spell combinations make it powerful for players who enjoy technical DPS."
+            }
           ]
         }
       ]
@@ -474,8 +893,14 @@
           "title": "Tinker Demolition Build",
           "class": "Tinker",
           "role": "DPS",
-          "primary_stats": ["Agility", "Intellect"],
-          "armor": ["Leather", "Mail"],
+          "primary_stats": [
+            "Agility",
+            "Intellect"
+          ],
+          "armor": [
+            "Leather",
+            "Mail"
+          ],
           "class_mechanic": "Rounds",
           "specialization_focus": "Demolition focuses on explosives, Blackpowder, Explosive Rounds, Sapper Charges, Rocket Launchers, Handcannons, and Cannonballs.",
           "best_for": "Players who want a fast ranged DPS fantasy with explosives, gadgets, and battlefield tools.",
@@ -486,8 +911,14 @@
           "title": "Tinker Mechanics Build",
           "class": "Tinker",
           "role": "Developer DPS / Utility",
-          "primary_stats": ["Agility", "Intellect"],
-          "armor": ["Leather", "Mail"],
+          "primary_stats": [
+            "Agility",
+            "Intellect"
+          ],
+          "armor": [
+            "Leather",
+            "Mail"
+          ],
           "class_mechanic": "Rounds",
           "specialization_focus": "Mechanics specializes in turrets, land mines, intellect-scaling contraptions, and Shredder mechsuit gameplay.",
           "best_for": "Players who prefer setup-based combat, summoned devices, and mechanical control.",
@@ -498,8 +929,12 @@
           "title": "Pyromancer Incineration Build",
           "class": "Pyromancer",
           "role": "DPS",
-          "primary_stats": ["Intellect"],
-          "armor": ["Cloth"],
+          "primary_stats": [
+            "Intellect"
+          ],
+          "armor": [
+            "Cloth"
+          ],
           "specialization_focus": "Incineration burns enemies with direct fire damage, fire DoTs, meteors, molten rock, Ignite, and Blaze effects.",
           "best_for": "Players who want heavy single-target and AoE spell damage.",
           "player_tip": "Good for visitors searching best caster build, fire build, or beginner DPS spec."
@@ -509,8 +944,12 @@
           "title": "Ranger Archery Build",
           "class": "Ranger",
           "role": "DPS",
-          "primary_stats": ["Agility"],
-          "armor": ["Leather"],
+          "primary_stats": [
+            "Agility"
+          ],
+          "armor": [
+            "Leather"
+          ],
           "specialization_focus": "Archery Rangers fight from range, use Quiver abilities to modify damage, and rely on mobility to keep pressure on enemies.",
           "best_for": "Players who want a ranged physical build with movement and arrow-focused gameplay.",
           "player_tip": "Use this card for Ranger build, ranged DPS, and Archery spec searches."
@@ -520,8 +959,14 @@
           "title": "Cultist Influence Build",
           "class": "Cultist",
           "role": "Healer",
-          "primary_stats": ["Strength", "Intellect"],
-          "armor": ["Cloth", "Plate"],
+          "primary_stats": [
+            "Strength",
+            "Intellect"
+          ],
+          "armor": [
+            "Cloth",
+            "Plate"
+          ],
           "class_mechanic": "Insanity",
           "specialization_focus": "Influence Cultists act as dark healers, using Yogg-Saron-themed protection, absorb shields, healing, and Edict effects.",
           "best_for": "Players looking for a healer build with Old God flavor and support utility.",
@@ -972,125 +1417,125 @@
     "disclaimer": "Unofficial fan-made guide site."
   },
   "pages": {
-    "guides": {
-      "title": "Conquest of Azeroth Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced class builds, leveling, and endgame strategies for Conquest of Azeroth.",
-      "metaTitle": "Conquest of Azeroth Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Conquest of Azeroth guides covering beginner tips, classes, builds, talents, leveling, dungeons, raids, and PvP for Ascension players.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, class builds, leveling strategies, and endgame content for Conquest of Azeroth.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Conquest of Azeroth Release",
+      "description": "Track the Conquest of Azeroth release date, Open Beta, Full Release timeline, realm launch, and server status for the Ascension custom WoW realm.",
+      "metaTitle": "Conquest of Azeroth Release Date - Beta & Launch Timeline",
+      "metaDescription": "Get the latest Conquest of Azeroth release date, Open Beta, Full Release news, realm launch, and server status updates for Ascension players.",
+      "categoryLabel": "RELEASE & BETA",
+      "whatIs": "What is the Release?",
+      "whatIsDescription": "The Conquest of Azeroth release covers the full launch timeline of Project Ascension's custom WoW realm, including Closed Beta, Open Beta, the Vol'Jin realm Full Release, and ongoing content patches.",
+      "why": "Why track the release?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand classes, talent trees, and specializations to avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven leveling and gearing paths to thrive in the open world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for dungeons, raids, and PvP"
+        "step1Title": "Know the Launch Date",
+        "step1Description": "Follow the official Conquest of Azeroth release date and Full Release schedule for the Vol'Jin realm",
+        "step2Title": "Join the Right Beta",
+        "step2Description": "Understand Open Beta access, beta keys, and what carries over into the live realm",
+        "step3Title": "Check Server Status",
+        "step3Description": "Monitor realm and login server status before maintenance and new patches"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Articles"
     },
-    "crafting": {
-      "title": "Conquest of Azeroth Builds",
-      "description": "Master class builds, talent trees, and specialization choices with tested combinations for PvE and PvP.",
-      "metaTitle": "Conquest of Azeroth Builds - Talent Trees & Specs",
-      "metaDescription": "Master Conquest of Azeroth builds with class trees, specialization choices, and talent paths for every role and playstyle.",
-      "categoryLabel": "BUILDS & TALENTS",
-      "whatIs": "What are Builds?",
-      "whatIsDescription": "Builds combine your class tree, specialization tree, and talent choices into a focused role, such as tank, DPS, healer, or support.",
-      "why": "Why plan builds?",
+    "access": {
+      "title": "Conquest of Azeroth Access",
+      "description": "Learn how to download, install, and access Conquest of Azeroth - the Ascension launcher, account creation, realm selection, and free-to-play setup.",
+      "metaTitle": "How to Play Conquest of Azeroth - Download & Access Guide",
+      "metaDescription": "Start playing Conquest of Azeroth with our download and access guide covering the Ascension launcher, account setup, realm selection, and free entry.",
+      "categoryLabel": "DOWNLOAD & ACCESS",
+      "whatIs": "What is Access?",
+      "whatIsDescription": "Access guides explain how to download the Ascension launcher, create an account, patch the client, and connect to the Conquest of Azeroth Vol'Jin realm - the custom 21-class WoW experience that is free to play.",
+      "why": "Why check access guides?",
       "whySteps": {
-        "step1Title": "Pick the Right Spec",
-        "step1Description": "Match your specialization to your preferred role and content type",
-        "step2Title": "Use Auto-Build Early",
-        "step2Description": "Avoid talent confusion while learning a new class",
-        "step3Title": "Optimize for Content",
-        "step3Description": "Tune your build for leveling, dungeons, raids, or PvP"
+        "step1Title": "Install the Launcher",
+        "step1Description": "Download and set up the Project Ascension launcher on Windows, with community Linux guides available",
+        "step2Title": "Create Your Account",
+        "step2Description": "Register, verify, and prepare a free account for the Conquest of Azeroth realm",
+        "step3Title": "Pick the Vol'Jin Realm",
+        "step3Description": "Select the Conquest of Azeroth realm and log in to start playing with 21 original classes"
       },
       "featured": "Featured & Essential",
-      "all": "All Build Guides"
+      "all": "All Access Articles"
     },
-    "items": {
-      "title": "Conquest of Azeroth Gear",
-      "description": "Detailed gear guides covering open-world RPG loot, itemization, weapons, armor, and class equipment.",
-      "metaTitle": "Conquest of Azeroth Gear - Items & Equipment Guide",
-      "metaDescription": "Complete gear guide for Conquest of Azeroth including open-world RPG loot, itemization, weapons, armor, and class equipment.",
-      "categoryLabel": "GEAR & ITEMS",
-      "whatIs": "What is Gear?",
-      "whatIsDescription": "Guides for open-world RPG loot, itemization, weapons, armor, and class-specific equipment in Conquest of Azeroth.",
-      "why": "Why check gear guides?",
+    "classes": {
+      "title": "Conquest of Azeroth Classes",
+      "description": "Explore all 21 original Conquest of Azeroth classes like Necromancer, Starcaller, Tinker, and Guardian with their roles, resources, and class fantasy.",
+      "metaTitle": "Conquest of Azeroth Classes - All 21 Original Classes & Specs",
+      "metaDescription": "Browse all 21 original Conquest of Azeroth classes and 69 specializations including Necromancer, Starcaller, Tinker, and Guardian with roles and playstyles.",
+      "categoryLabel": "21 ORIGINAL CLASSES",
+      "whatIs": "What are Classes?",
+      "whatIsDescription": "Conquest of Azeroth introduces 21 original classes and 69 specializations built on a Dragonflight-style system, each with unique resources, class fantasy, and role options like tank, healer, and DPS.",
+      "why": "Why compare classes?",
       "whySteps": {
-        "step1Title": "Understand Stats",
-        "step1Description": "Learn which primary stats matter for your class and role",
-        "step2Title": "Find Loot Sources",
-        "step2Description": "Discover where open-world RPG items drop",
-        "step3Title": "Optimize Equipment",
-        "step3Description": "Choose the right weapons and armor for your build"
+        "step1Title": "Find Your Role",
+        "step1Description": "Match classes to tank, healer, melee DPS, or ranged DPS roles that fit your playstyle",
+        "step2Title": "Learn Resources",
+        "step2Description": "Understand each class's unique resource mechanic, from Soul Shards to Arcane charges",
+        "step3Title": "Plan Class Fantasy",
+        "step3Description": "Pick a class fantasy - undead Necromancer, celestial Starcaller, or inventive Tinker - that matches your theme"
       },
       "featured": "Featured & Essential",
-      "all": "All Gear Guides"
+      "all": "All Class Guides"
     },
-    "biomes": {
-      "title": "Conquest of Azeroth World",
-      "description": "Explore the enhanced open-world Azeroth, its regions, points of interest, custom areas, and danger zones.",
-      "metaTitle": "Conquest of Azeroth World - Regions & Exploration",
-      "metaDescription": "Explore the enhanced open-world Azeroth in Conquest of Azeroth including regions, points of interest, custom areas, and exploration tips.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What is the World?",
-      "whatIsDescription": "Guides to the enhanced open-world Azeroth, its regions, points of interest, custom areas, and environmental features.",
-      "why": "Why explore the world?",
+    "tier": {
+      "title": "Conquest of Azeroth Tier List",
+      "description": "Conquest of Azeroth tier list ranking all 21 classes and specs for PvE, PvP, DPS, healer, and tank roles, plus the best solo and endgame classes.",
+      "metaTitle": "Conquest of Azeroth Tier List - PvE & PvP Class Rankings",
+      "metaDescription": "See the full Conquest of Azeroth tier list with PvE and PvP class rankings, best DPS, healer, tank specs, and top solo classes for endgame.",
+      "categoryLabel": "TIER LISTS",
+      "whatIs": "What is a Tier List?",
+      "whatIsDescription": "The Conquest of Azeroth tier list ranks the 21 original classes and 69 specializations by performance across PvE, PvP, leveling, and solo content, helping you choose the strongest option for your goals.",
+      "why": "Why use a tier list?",
       "whySteps": {
-        "step1Title": "Find Content",
-        "step1Description": "Locate dungeons, raids, world bosses, and PvP zones",
-        "step2Title": "Understand Threats",
-        "step2Description": "Read about RPG creature stats and danger zones",
-        "step3Title": "Plan Your Route",
-        "step3Description": "Prepare the right gear for each region"
+        "step1Title": "Pick a Strong Class",
+        "step1Description": "Identify top-tier DPS, healer, and tank specs for raids, dungeons, and arena",
+        "step2Title": "Compare PvE vs PvP",
+        "step2Description": "See which classes lead in PvE endgame versus High Risk PvP environments",
+        "step3Title": "Choose for Solo Play",
+        "step3Description": "Find the best solo class for open-world leveling and farming efficiency"
       },
       "featured": "Featured & Essential",
-      "all": "All World Guides"
+      "all": "All Tier Lists"
     },
-    "building": {
-      "title": "Conquest of Azeroth Leveling",
-      "description": "Master the 1-60 leveling journey, class trainers, skill unlocks, talent points, and key milestones.",
-      "metaTitle": "Conquest of Azeroth Leveling - 1-60 Progression Guide",
-      "metaDescription": "Master Conquest of Azeroth leveling with the 1-60 progression path, class trainers, skill unlocks, talents, and milestones.",
-      "categoryLabel": "LEVELING",
-      "whatIs": "What is Leveling?",
-      "whatIsDescription": "Guides to the 1-60 leveling journey, class trainers, skill unlocks, talent points, and important progression milestones.",
-      "why": "Why plan leveling?",
+    "talents": {
+      "title": "Conquest of Azeroth Talents",
+      "description": "Master Conquest of Azeroth talent trees, specializations, and class builds - Dragonflight-style trees, Auto-Build, and recommended builds for every class.",
+      "metaTitle": "Conquest of Azeroth Talents - Talent Trees & Class Builds",
+      "metaDescription": "Plan your Conquest of Azeroth talents with Dragonflight-style talent trees, specialization paths, and tested class builds for every role and spec.",
+      "categoryLabel": "TALENTS & BUILDS",
+      "whatIs": "What are Talents?",
+      "whatIsDescription": "Conquest of Azeroth uses Dragonflight-style talent trees with alternating Class and Specialization points, giving every class flexible build paths and an Auto-Build option for new players.",
+      "why": "Why plan talents?",
       "whySteps": {
-        "step1Title": "Follow Class Trainers",
-        "step1Description": "Unlock your class quest and key abilities early",
-        "step2Title": "Spend Talents Well",
-        "step2Description": "Use Auto-Build to stay effective while learning",
-        "step3Title": "Hit Key Milestones",
-        "step3Description": "Reach spec choice at level 10 and beyond"
+        "step1Title": "Use the Talent Calculator",
+        "step1Description": "Plan class and spec tree points before spending them in-game with the talent calculator",
+        "step2Title": "Try Auto-Build First",
+        "step2Description": "Let Auto-Build handle early points while you learn a new class's resources and rotation",
+        "step3Title": "Follow Tested Builds",
+        "step3Description": "Copy proven Necromancer, Valkyrie, and Cultist builds for PvE leveling and PvP"
       },
       "featured": "Featured & Essential",
-      "all": "All Leveling Guides"
+      "all": "All Talent Builds"
     },
-    "support": {
-      "title": "Conquest of Azeroth Setup",
-      "description": "Technical setup, launcher install, account creation, realm selection, and troubleshooting for Conquest of Azeroth.",
-      "metaTitle": "Conquest of Azeroth Setup - Launcher, Account & Fixes",
-      "metaDescription": "Get set up for Conquest of Azeroth with launcher install, account creation, realm selection, and troubleshooting for common issues.",
-      "categoryLabel": "SETUP & SUPPORT",
-      "whatIs": "What is Setup?",
-      "whatIsDescription": "Technical guides covering launcher installation, account creation, realm selection, and common troubleshooting for Conquest of Azeroth.",
-      "why": "Why check setup?",
+    "guide": {
+      "title": "Conquest of Azeroth Guide",
+      "description": "Complete Conquest of Azeroth guides for beginners - setup, first class pick, leveling route, talent basics, and open-world survival on the Vol'Jin realm.",
+      "metaTitle": "Conquest of Azeroth Guide - Beginner Setup & Leveling Walkthrough",
+      "metaDescription": "Start strong with our Conquest of Azeroth beginner guide covering setup, first class, leveling route, talents, and open-world tips for Ascension players.",
+      "categoryLabel": "BEGINNER GUIDES",
+      "whatIs": "What is the Guide?",
+      "whatIsDescription": "The Conquest of Azeroth beginner guide walks new players through launcher setup, account creation, first class selection, early leveling, talent basics, and open-world survival on the Vol'Jin realm.",
+      "why": "Why read the guide?",
       "whySteps": {
-        "step1Title": "Install Correctly",
-        "step1Description": "Set up the Ascension launcher and patch the game",
-        "step2Title": "Pick the Right Realm",
-        "step2Description": "Select the Conquest of Azeroth realm (Vol'Jin)",
-        "step3Title": "Fix Issues Fast",
-        "step3Description": "Resolve launcher, login, and connection problems"
+        "step1Title": "Set Up Fast",
+        "step1Description": "Install the launcher, create an account, and log in to the Conquest of Azeroth realm",
+        "step2Title": "Pick a Friendly Class",
+        "step2Description": "Choose a beginner-friendly class like Necromancer or Bloodmage for smooth leveling",
+        "step3Title": "Level Efficiently",
+        "step3Description": "Follow a proven 1-60 route using Auto-Build, class trainers, and open-world quests"
       },
       "featured": "Featured & Essential",
-      "all": "All Setup Articles"
+      "all": "All Beginner Guides"
     }
   }
 }

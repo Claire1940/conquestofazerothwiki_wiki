@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Деревья талантов Conquest of Azeroth: Гайд по билдам и спекам 2026",
+  description: "Освойте кастомные деревья талантов Conquest of Azeroth. Узнайте о деревьях классов, специализаций, авто-билдах и лучших сборках для Project Ascension.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0b1118/f4c24e?text=Talent+Trees+Guide",
+  date: "2026-07-03",
+  author: "Команда вики Conquest of Azeroth",
+  keywords: "Conquest of Azeroth, таланты, билды, специализации, Project Ascension, гайд"
+}
+
+<Callout type="info" title="Краткое руководство">
+- **Переработка талантов**: Кастомные **деревья талантов Conquest of Azeroth** имеют двухдревесную структуру, вдохновленную современным дизайном актуальной версии игры.
+- **Фаза разблокировки**: Игроки выбирают свою основную специализацию на **10 уровне**, чтобы открыть общеклассовое и специфическое для спека деревья талантов [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md].
+- **Распределение очков**: Очки распределяются поочередно между **Древом класса** и **Древом специализации** в процессе прокачки [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+- **Функция авто-билда**: Новички могут включить **Авто-билд**, чтобы автоматически распределять очки талантов оптимальным образом во время изучения класса [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+</Callout>
+
+<Section icon={Sparkles} title="Понимание деревьев талантов Conquest of Azeroth">
+
+Кастомный Classic+ сервер Project Ascension представляет полностью переработанную систему прогрессии. Вместо использования стандартных бесклассовых механик, мир Vol'Jin вводит 21 кастомный класс и 69 специализаций [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md]. В центре этого опыта находятся кастомные **деревья талантов Conquest of Azeroth**, которые используют двухдревесную структуру, вдохновленную современным дизайном [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. 
+
+Каждый класс имеет доступ к общему Древу класса, которое содержит утилитарные способности, защитные инструменты и общие пассивные эффекты класса [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Рядом с ним находится Древо специализации, содержащее узконаправленные активные способности, модификаторы ротации и определяющие роль таланты последнего уровня (капстоны) [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Навигация в этой системе требует четкого понимания того, как распределяются очки, как масштабируются характеристики и как оптимизировать билд для эндгейм PvE и PvP контента [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+**Ключевые моменты видео:**
+- **Детали запуска**: Обзор запуска Vol'Jin 3 июля 2026 года [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md].
+- **Системы прогрессии**: Как работают кастомные классы, заклинания и таланты в открытом мире [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md].
+- **Эндгейм фокус**: Взгляд на подземелья, рейды и переработку талантов [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Full Release: Conquest of Azeroth - Ascension WoW" />
+
+Структура прогрессии жесткая, но очень вознаграждающая. По мере повышения уровня с 1 по 60, вы получаете очки талантов, которые должны тратиться поочередно [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Это гарантирует, что ваш персонаж получит баланс между полезностью и чистой мощью.
+
+| Уровень | Разблокируемая система | Правило распределения очков |
+| :--- | :--- | :--- |
+| **Уровень 1-9** | Базовый набор класса | Очки талантов недоступны |
+| **Уровень 10** | Выбор специализации | Разблокировка деревьев Класса и Спека |
+| **Уровень 11-60** | Чередующиеся очки | Древо класса (четные), Древо спека (нечетные) |
+| **Уровень 10+** | Система авто-билда | Автоматическое распределение очков |
+
+<Callout type="info" title="Механика системы">
+Очки, потраченные в Древе класса, открывают общую полезность, в то время как очки в Древе специализации открывают мощь, специфичную для вашей роли. Вы не можете копить очки, чтобы вложить их все в одно дерево [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Специализации, роли и авто-билды">
+
+На 10 уровне ваш персонаж достигает важной вехи: выбора основной специализации [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Этот выбор закрепляет вашу основную роль (Танк, ДД, Хилер или Саппорт) и открывает соответствующее дерево талантов специализации [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Поскольку многие из 21 класса являются истинными гибридами, выбор специализации полностью диктует ваш стиль игры [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md].
+
+Чтобы помочь игрокам ориентироваться в этом огромном количестве вариантов, Project Ascension включает интегрированную систему **Авто-билда** [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Включение этой опции позволяет клиенту автоматически распределять ваши очки талантов по заранее оптимизированному пути по мере повышения уровня [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Это настоятельно рекомендуется новичкам, которые хотят сосредоточиться на изучении ротации перед тем, как переходить к ручной настройке [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+<CardGrid cols={3}>
+  <Card title="Тинкер: Подрывник">
+    - **Основная стата**: Ловкость / Интеллект
+    - **Фокус**: Взрывчатка, черный порох, саперные заряды и ракетные установки
+    - **Лучше всего для**: Динамичного РДД с мощным AoE бурстом [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]
+  </Card>
+  <Card title="Пиромант: Испепеление">
+    - **Основная стата**: Интеллект
+    - **Фокус**: Прямой урон от огня, огненные доты, метеоры и проки воспламенения
+    - **Лучше всего для**: Традиционных заклинателей, любящих огромный урон в одну цель [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]
+  </Card>
+  <Card title="Маг крови: Сангвиник">
+    - **Основная стата**: Интеллект / Дух / Выносливость
+    - **Фокус**: Использование здоровья для заклинаний, высасывание жизни и вампирская выживаемость
+    - **Лучше всего для**: Игроков, которым нравится механика кастера с высоким риском и наградой [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]
+  </Card>
+</CardGrid>
+
+Для игроков, желающих понять весь спектр классовых ролей, в таблице ниже показано, как распределяются специализации некоторых популярных классов [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md].
+
+| Название класса | Основная стата | Доступные роли | Ключевые специализации |
+| :--- | :--- | :--- | :--- |
+| **Некромант** | Интеллект | ДД | Смерть, Анимация, Иней |
+| **Маг крови** | Интеллект / Дух | Танк, ДД, Хилер | Ткач плоти, Сангвиник, Проклятый, Вечный |
+| **Тинкер** | Ловкость / Интеллект | ДД, Хилер | Подрывник, Механик, Изобретатель |
+| **Культист** | Сила / Интеллект | Танк, ДД, Хилер | Божественный клинок, Порча, Влияние, Дредноут |
+| **Страж** | Сила | Танк, ДД, Саппорт | Гладиатор, Авангард, Вдохновение |
+
+<Callout type="success" title="Совет по авто-билду">
+Вы можете включить или выключить авто-билд в любое время. Если вы решите настроить билд вручную посреди прокачки, просто отключите тумблер и посетите тренера, чтобы сбросить очки [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Как собрать персонажа: Пошаговое руководство">
+
+Создание цельного билда требует системного подхода. Вместо случайного распределения очков, следуйте структурированному пути, чтобы ваш персонаж оставался сильным как во время прокачки, так и при переходе в эндгейм [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+<Steps>
+  <Step num="1" title="Выберите базовый класс">
+    Выберите один из 21 кастомных классов при создании персонажа [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md]. Выполните ранние классовые квесты к 3 уровню, чтобы найти своего первого тренера [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+  </Step>
+  <Step num="2" title="Разблокируйте специализации на 10 уровне">
+    Откройте интерфейс талантов и выберите основную специализацию [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Решите, использовать ли авто-билд или распределять очки вручную [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+  </Step>
+  <Step num="3" title="Чередуйте очки талантов">
+    По мере прокачки вкладывайте очки в Древо класса на четных уровнях и в Древо специализации на нечетных [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Сначала отдавайте приоритет активным навыкам ротации, затем пассивным множителям урона [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+  </Step>
+  <Step num="4" title="Взаимодействуйте с классовыми тренерами">
+    Регулярно посещайте классового тренера в стартовых зонах или крупных городах [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Тренеры позволяют вручную выбирать и покупать заклинания, которые дополняют ваш путь талантов [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+  </Step>
+  <Step num="5" title="Завершите настройку для эндгейма">
+    По достижении 60 уровня сбросьте таланты для оптимизации под конкретный контент [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Ваш билд для прокачки, скорее всего, будет отличаться от билда для Mythic+ подземелий или рейтинговых арен PvP [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+  </Step>
+</Steps>
+
+Во время прокачки отслеживание основных этапов поможет вам понять, когда происходят скачки вашей силы. Обратитесь к таблице ниже, чтобы спланировать свою прогрессию.
+
+| Диапазон уровней | Фокус талантов | Основная цель | Стоимость сброса |
+| :--- | :--- | :--- | :--- |
+| **Уровень 10-20** | Ключевые активные навыки | Создание базовой ротации | Бесплатно |
+| **Уровень 21-40** | Пассивные синергии | Увеличение генерации ресурсов | Низкая (серебро) |
+| **Уровень 41-55** | Капстоны (финальные таланты) | Разблокировка мощных КД | Средняя (серебро) |
+| **Уровень 56-60** | Настройка эндгейма | Оптимизация для PvE или PvP | Фиксированное золото |
+
+<Callout type="tip" title="Оптимизация респека">
+Воспользуйтесь бесплатными сбросами талантов до 20 уровня. Это идеальное время для экспериментов с различными специализациями, чтобы найти подходящий вам стиль игры.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Синергия экипировки и оптимизация талантов">
+
+Ваш выбор талантов не существует в вакууме. В Conquest of Azeroth система лута в открытом мире включает кастомные характеристики и предметы, разработанные для прямого масштабирования с вашими деревьями талантов [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]. Например, определенные таланты в ветке Тинкера: Подрывника масштабируются как от Ловкости, так и от Интеллекта, что делает гибридную экипировку невероятно ценной [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+Понимание приоритета характеристик имеет решающее значение для максимальной эффективности вашего билда. В таблице ниже подробно описано, как различные архетипы должны сочетать экипировку со своими путями талантов.
+
+| Архетип | Основная стата | Вторичная стата | Эффект синергии талантов |
+| :--- | :--- | :--- | :--- |
+| **Заклинатель** | Интеллект | Скорость / Крит | Снижает время каста и вызывает проки |
+| **Боец ближнего боя** | Сила / Ловкость | Искусность / Универсальность | Увеличивает физ. урон и самоисцеление |
+| **Гибридный хилер** | Интеллект / Дух | Крит / Скорость | Улучшает реген маны и поглощение щитов |
+| **Танк-уклонист** | Ловкость / Выносливость | Уклонение / Парирование | Усиливает активное смягчение и уклонение |
+
+Чтобы ваш билд был полностью оптимизирован для высокоуровневого контента, такого как Огненные Недра или рейтинговые арены, убедитесь, что вы выполнили следующий список [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+
+<Checklist
+  id="build-optimization"
+  title="Чек-лист эндгейм билда:"
+  items={[
+    "Соответствие всех типов брони пассивным навыкам вашего класса [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]",
+    "Разблокировка всех ключевых капстонов в основном дереве специализации [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]",
+    "Покупка всех необходимых утилитарных заклинаний у классового тренера [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]",
+    "Перераспределение очков из утилитарных талантов прокачки в чистый урон или защиту [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md]",
+    "Проверка соответствия вторичных характеристик требованиям ваших финальных талантов"
+  ]}
+/>
+
+<Callout type="warning" title="Пассивки на тип брони">
+Всегда проверяйте владение броней вашего класса. Использование неправильного типа брони (например, кольчуги на Пироманте, владеющем тканью) может отключить важные пассивные бонусы талантов, серьезно снижая вашу эффективность [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-1.md, file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Часто задаваемые вопросы">
+
+Понимание того, как настраивать, сбрасывать и оптимизировать свой билд, является ключом к освоению кастомных систем этого Classic+ мира. Ниже приведены ответы на самые частые вопросы о прогрессии.
+
+<FAQ items={[
+  {
+    question: "Чем кастомные деревья талантов Conquest of Azeroth отличаются от стандартного Project Ascension?",
+    answer: "Стандартный Project Ascension использует полностью бесклассовую систему, где вы выбираете отдельные заклинания. Conquest of Azeroth предлагает 21 определенный кастомный класс, каждый со своими структурированными деревьями Класса и Специализации, вдохновленными современным дизайном."
+  },
+  {
+    question: "Когда я разблокирую деревья талантов и выберу специализацию?",
+    answer: "Деревья талантов открываются на 10 уровне. На этом этапе вы должны выбрать основную специализацию, которая определяет вашу главную роль и дает доступ к дереву талантов конкретного спека."
+  },
+  {
+    question: "Могу ли я сбросить очки талантов, если совершил ошибку?",
+    answer: "Да. Вы можете посетить любого из ваших классовых тренеров в стартовых зонах или столицах, чтобы сбросить очки талантов. Сброс абсолютно бесплатен до 20 уровня, после чего его стоимость начинает расти в серебре и золоте."
+  },
+  {
+    question: "Что делает опция Авто-билда?",
+    answer: "Система авто-билда автоматически распределяет ваши очки талантов по заранее оптимизированному пути по мере повышения уровня. Это отличный инструмент для новичков, позволяющий избежать путаницы при изучении механик класса."
+  }
+]} />
+
+<Callout type="info" title="Сообщество и обновления">
+Для получения информации о статусе сервера, устранении неполадок лаунчера или обсуждения билдов с другими игроками, посетите официальные каналы Project Ascension на [ascension.gg](https://ascension.gg/en) [file:///root/Documents/GameProjects/0_meta/conquestofazerothwiki_wiki/00基础信息.md].
+</Callout>
+
+</Section>

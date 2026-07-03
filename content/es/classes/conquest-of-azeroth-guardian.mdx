@@ -1,0 +1,196 @@
+import { Shield, Swords, Target, Map, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guardián de Conquest of Azeroth: Guía de Builds de Tanque y Especializaciones",
+  description: "Domina al Guardián de Conquest of Azeroth con nuestra guía de 2026. Explora las builds de tanque de Vanguardia, DPS de Gladiador y soporte de Inspiración para Project Ascension.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guardian+Class+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Identidad del Guardián**: Un usuario de armadura de placas pesada especializado en la **maestría de armas marciales**, defensa con escudo y soporte para todo el grupo.
+- **Especializaciones principales**: Encrójate en **Vanguardia** para tanquear de forma pura, **Gladiador** para DPS físico o **Inspiración** para utilidad.
+- **Mecánica principal**: Utiliza **estandartes y cánticos** para otorgar mejoras únicas mientras mantiene una alta mitigación de daño físico.
+- **Estadísticas principales**: Prioriza la **Fuerza** para el daño y la parada, mientras que el **Aguante** sigue siendo vital para el tanqueo en el contenido de nivel máximo (endgame).
+- **Posición en el Meta de 2026**: Calificado como un **personaje inicial de nivel S (S-Tier)** debido a su clara identidad de rol y alta supervivencia en el juego de mundo abierto.
+</Callout>
+
+<Section icon={Shield} title="Resumen de la clase: El Guardián en Conquest of Azeroth">
+
+El **guardián de conquest of azeroth** se erige como un bastión de poder físico dentro del ecosistema de Project Ascension. A diferencia del sistema sin clases de Ascension estándar, Conquest of Azeroth introduce 21 clases definidas, y el Guardián es el arquetipo de "Señor de la guerra" por excelencia. Está diseñado para jugadores que disfrutan de la fantasía de un comandante fuertemente acorazado que lidera desde el frente con espada y escudo [1].
+
+En el meta actual de 2026, el Guardián es reconocido por su versatilidad. Aunque es principalmente un tanque, su capacidad para transformarse en un potente DPS físico o en un soporte dedicado mediante estandartes lo hace indispensable para mazmorras y bandas.
+
+| Característica | Descripción |
+|---|---|
+| **Tipo de armadura** | Placas |
+| **Estadística principal** | Fuerza |
+| **Armamento** | Espadas de una mano, hachas, mazas y escudos |
+| **Roles disponibles** | Tanque, Melee DPS, Soporte de grupo |
+| **Dificultad** | Baja a moderada (fácil de aprender, alto límite de habilidad para soporte) |
+
+<Callout type="success" title="Recomendación para principiantes">
+El Guardián está destacado oficialmente como una de las mejores opciones iniciales para nuevos jugadores en el reino de Vol'Jin. Su alta armadura base y su gestión sencilla de recursos hacen que el proceso de subir de nivel del 1 al 60 sea excepcionalmente fluido.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Especializaciones y mecánicas del Guardián">
+
+El **guardián de conquest of azeroth** ofrece tres especializaciones distintas al nivel 10. Cada especialización cambia fundamentalmente la forma en que interactúas con tus recursos y tu rol dentro de un grupo. Comprender estas especializaciones es el primer paso para optimizar tu build.
+
+<CardGrid cols={3}>
+  <Card title="Vanguardia">
+    - **Enfoque**: Tanque puro
+    - **Herramienta clave**: Maestría con escudo
+    - **Estilo de juego**: Alta mitigación, generación de amenaza y tiempos de reutilización defensivos.
+  </Card>
+  <Card title="Gladiador">
+    - **Enfoque**: DPS físico
+    - **Herramienta clave**: Maestría marcial
+    - **Estilo de juego**: Combate cuerpo a cuerpo agresivo utilizando escudos de forma ofensiva para golpear y aturdir.
+  </Card>
+  <Card title="Inspiración">
+    - **Enfoque**: Soporte / Utilidad
+    - **Herramienta clave**: Estandartes y cánticos
+    - **Estilo de juego**: Proporcionar mejoras masivas al grupo mientras se mantiene un rol secundario de DPS o tanque.
+  </Card>
+</CardGrid>
+
+### Mecánica principal: Maestría marcial y estandartes
+
+El estilo único del Guardián proviene de su capacidad para manipular el campo de batalla. La **Maestría marcial** aumenta tu efectividad con varios tipos de armas, mientras que los **Estandartes** actúan como tótems estacionarios que otorgan mejoras localizadas a tus aliados.
+
+| Nombre de la especialización | Rol principal | Mecánica principal | Habilidad clave |
+|---|---|---|---|
+| **Vanguardia** | Tanque | Acumulación de mitigación | Muro de escudo / Provocar |
+| **Gladiador** | DPS | Ofensiva con escudo | Embate con escudo / Tormenta de hojas |
+| **Inspiración** | Soporte | Utilidad de grupo | Estandartes de guerra / Cánticos de batalla |
+
+<Callout type="tip" title="Consejo profesional">
+Si juegas en solitario, la especialización de **Gladiador** es significativamente más rápida para subir de nivel debido a su alto daño de ráfaga. Sin embargo, ten lista una plantilla de talentos de **Vanguardia** para colas de mazmorra instantáneas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores builds y configuración de talentos del Guardián">
+
+Crear una build para el **guardián de conquest of azeroth** requiere equilibrar el Árbol de Clase y el Árbol de Especialización. Los puntos se alternan entre estos árboles a medida que subes de nivel, lo que te permite adquirir utilidades esenciales mientras profundizas en tu especialización.
+
+<Steps>
+  <Step num="1" title="Especialización inicial (Nivel 10)">
+    Al llegar al nivel 10, selecciona tu especialización principal. Para la mayoría de los jugadores, **Vanguardia** es la opción más segura para el contenido en grupo, mientras que **Gladiador** destaca en las misiones en solo.
+  </Step>
+  <Step num="2" title="Esenciales del Árbol de Clase">
+    Prioriza los talentos que aumenten tu **Valor de armadura** y tu **Fuerza**. Busca los nodos de "Proeza marcial" que otorgan aumentos de daño plano independientemente de tu especialización activa.
+  </Step>
+  <Step num="3" title="Profundizando en el Árbol de Especialización">
+    En el árbol de Vanguardia, ve directamente hacia "Defensa impenetrable". En el árbol de Gladiador, concéntrate en "Maestría con escudo" para convertir tu equipo defensivo en poder ofensivo.
+  </Step>
+  <Step num="4" title="Utilidad y estandartes">
+    Incluso como tanque, gasta unos pocos puntos en la rama de Inspiración para desbloquear "Grito de orden" y el "Estandarte de guerra" para aportar utilidad al grupo.
+  </Step>
+</Steps>
+
+### Prioridad de estadísticas recomendada
+
+Tus elecciones de equipo deben reflejar el rol que deseas desempeñar. Aunque la Fuerza es universal, las estadísticas secundarias varían significativamente entre las builds de tanque y de DPS.
+
+| Estadística | Vanguardia (Tanque) | Gladiador (DPS) |
+|---|---|---|
+| **Principal** | Fuerza / Aguante | Fuerza / Agilidad |
+| **Secundaria 1** | Índice de defensa | Golpe crítico |
+| **Secundaria 2** | Parada / Esquivar | Celeridad / Pen. de armadura |
+| **Secundaria 3** | Valor de bloqueo | Índice de golpe |
+
+<Callout type="warning" title="Advertencia sobre la asignación de talentos">
+Evita dispersar demasiado tus puntos en los tres árboles al principio. Concéntrate en completar tu árbol de especialización principal antes de sumergirte en utilidades secundarias para asegurarte de alcanzar tus picos de poder al llegar al nivel máximo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía de nivelación: Del 1 al 60">
+
+Subir de nivel a un **guardián de conquest of azeroth** es un viaje a través de un "Azeroth Renacido" que cuenta con estadísticas de criaturas personalizadas y botín inmersivo. La resistencia natural del Guardián te permite atraer a múltiples enemigos a la vez, lo que hace que el "farmear en área" (AoE Grinding) sea una estrategia viable.
+
+### Hitos de nivelación
+
+- **Nivel 3**: Visita al instructor de tu clase en Villadorada, Kharanos o Rémol. No te saltes esto; tu misión de clase inicial es vital para desbloquear habilidades principales.
+- **Nivel 10**: Desbloquea tu primera especialización. Utiliza la función de **Auto-Build** si no estás seguro de dónde colocar los talentos.
+- **Nivel 35**: Este es un gran pico de poder donde desbloqueas tu primer talento definitivo ("Capstone") en el árbol de especialización.
+- **Nivel 58**: Prepárate para el empuje final hacia los sistemas de nivel máximo como la Tormenta de maná (Manastorm) y las bandas iniciales.
+
+### Equipo esencial para subir de nivel
+Busca objetos con los sufijos **"del soldado"** o **"del campeón"**. Estos proporcionan la combinación de Fuerza y Aguante necesaria para la supervivencia del Guardián.
+
+| Rango de nivel | Zona recomendada | Objetivo clave |
+|---|---|---|
+| 1-15 | Zonas de inicio | Completar la misión de clase |
+| 15-30 | Los Baldíos / Páramos de Poniente | Primeras estancias en mazmorras |
+| 30-45 | Vega de Tuercespina | Mejorar a armadura de placas |
+| 45-60 | Tierras de la Peste del Oeste | Optimización final de talentos |
+
+<Callout type="info" title="Botín inmersivo">
+Conquest of Azeroth cuenta con un sistema de "Botín inmersivo". Encontrarás equipo diseñado específicamente para la clase Guardián en el mundo abierto, que a menudo incluye bonificaciones al bloqueo con escudo o a la duración de los estandartes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Roles de juego final: Bandas y PvP de alto riesgo">
+
+Al nivel 60, el **guardián de conquest of azeroth** se convierte en una piedra angular del meta de JvE (PvE) y JvJ (PvP). Ya sea que estés tanqueando a Ragnaros en el Núcleo de Magma o participando en PvP de alto riesgo, tu presencia se hace notar gracias a tu enorme durabilidad y control.
+
+### PvE: El tanque imparable
+En bandas como el Núcleo de Magma y Onyxia, se prefiere a los Guardianes por su mitigación de daño físico. Su capacidad para colocar estandartes proporciona mejoras únicas que otras clases de tanques, como el Segador o el Felsworn, no pueden replicar.
+
+### PvP: El comandante del campo de batalla
+En campos de batalla y arenas, los Guardianes actúan como saboteadores. Usando "Embate con escudo" e "Intervenir", puedes proteger a tus sanadores mientras aplicas presión ofensiva con "Tormenta de hojas" (si tienes talentos en Gladiador).
+
+<Checklist
+  id="guardian-endgame-goals"
+  title="Lista de objetivos de juego final:"
+  items={[
+    "Obtener un conjunto completo de armadura de placas de nivel de objeto (ilvl) 60",
+    "Desbloquear la versión 'Ascendida' de tu estandarte de guerra principal",
+    "Dominar la rotación de 'Bloqueo con escudo' para mantener un 100% de tiempo de actividad",
+    "Adquirir un arma de una mano de alto nivel para la generación de amenaza",
+    "Participar en un evento de JvJ de mundo abierto del Alijo del Cuervo"
+  ]}
+/>
+
+<Callout type="success" title="Estrategia de alto riesgo">
+En PvP de alto riesgo, usa tus estandartes de "Inspiración" para atraer a los enemigos a posiciones desfavorables. La alta tasa de supervivencia del Guardián lo convierte en una de las pocas clases que puede escapar de forma segura de una emboscada mientras transporta botín valioso.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es el Guardián mejor que el Segador para tanquear?",
+    answer: "Ambos pertenecen al nivel S (S-Tier). El Guardián destaca en la mitigación física y las mejoras de grupo, mientras que el Segador se centra en el robo de vida y la utilidad basada en las sombras. Elige al Guardián para una experiencia de tanque 'Guerrero' más tradicional."
+  },
+  {
+    question: "¿Puedo jugar con un Guardián sin escudo?",
+    answer: "Técnicamente sí, pero perderás acceso al 70% de tus habilidades principales de Vanguardia y Gladiador. La clase está diseñada en torno a la maestría con escudo."
+  },
+  {
+    question: "¿Cuál es la mejor profesión para un Guardián?",
+    answer: "Herrería e Ingeniería son las mejores opciones. La herrería te permite fabricar tu propio equipo de placas, mientras que la ingeniería proporciona artilugios que complementan tu repertorio marcial."
+  },
+  {
+    question: "¿Cómo encuentro al instructor de mi clase en Conquest of Azeroth?",
+    answer: "Busca el mensaje de la misión de clase de nivel 3. Los instructores se encuentran en todos los centros de inicio principales (Villadorada, Rémol, etc.) y están marcados con un icono de clase único."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Talent Calculator: Build Setup Guide",
+  description: "Master the 21 classes and 69 specs in Project Ascension's Classic+ WoW with the official Conquest of Azeroth talent calculator build guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/121a24/f4c24e?text=Talent+Calculator+Guide",
+  date: "2026-07-03",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Talent Calculator**: The official **conquest of azeroth talent calculator** allows you to plan builds for all 21 custom classes.
+- **Dual-Tree System**: Customize your character using both a **Class Tree** and a **Specialization Tree** as you level up.
+- **Level 10 Choice**: Unlock your **primary specialization** and spec-specific tree immediately upon reaching level 10 in the world.
+- **Auto-Build Option**: Utilize the in-game **Auto-Build option** to automatically allocate talent points based on popular community presets.
+- **Share Custom Builds**: Export and **share custom builds** directly with other players using the web-based theorycrafting interface.
+</Callout>
+
+<Section icon={Sparkles} title="How the Conquest of Azeroth Talent System Works">
+
+To truly master your character, utilizing the **conquest of azeroth talent calculator** is essential for mapping out your path. Conquest of Azeroth (CoA) features 21 completely original, Warcraft-inspired classes, each featuring unique spells, resources, and playstyles. To support this massive depth of character customization, the developers implemented a comprehensive talent overhaul heavily inspired by modern dual-talent tree designs. 
+
+In older versions of the alpha, classes suffered from clunky pacing, excessively long tooltips, and passive spell bloat in the spellbook. The modern system solves this by splitting your talent progression into two distinct, parallel paths: the **Class Tree** and the **Specialization Tree**. The Class Tree houses generic utility, defensive, and baseline offensive tools shared by all members of your class. The Specialization Tree, unlocked at level 10, contains highly specific nodes that define your primary role, whether you choose to play as a tank, healer, DPS, or hybrid support.
+
+As you level up from 10 to 60, you alternate between earning Class Tree points and Specialization Tree points. This alternating pacing forces meaningful decision-making at every level, ensuring that your character's power grows steadily without overwhelming your rotation.
+
+| Level Bracket | Point Type Awarded | Tree Spent In | System Unlocked |
+|---|---|---|---|
+| **Level 1-9** | None | None | Base class kit training |
+| **Level 10** | Specialization Point | Spec Tree | Primary specialization choice |
+| **Level 11** | Class Point | Class Tree | Class-wide utility nodes |
+| **Even Levels** | Class Point | Class Tree | Alternating progression path |
+| **Odd Levels** | Spec Point | Spec Tree | Alternating progression path |
+| **Level 60** | Capstone Point | Both Trees | Final tier capstone talents |
+
+<Callout type="success" title="Alternating Point Strategy">
+Because points alternate between Class and Specialization trees, plan your progression so that key rotation-enabling talents are prioritized on odd levels, while utility and defensive nodes are filled on even levels.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigating the Conquest of Azeroth Talent Calculator">
+
+Before committing your hard-earned gold to in-game respecs on the Vol'Jin realm, the web-based **conquest of azeroth talent calculator** serves as your primary theorycrafting sandbox. The official builder is hosted directly within Project Ascension's web ecosystem, allowing players to plan, optimize, and share their builds seamlessly. 
+
+The interface is designed to mirror the in-game experience, providing real-time tooltip updates, resource cost scaling, and prerequisite line tracking. By using the online calculator, you can visualize your level 60 capstone configurations and calculate exactly how many points you can afford to allocate to niche utility nodes without sacrificing core output.
+
+<Steps>
+  <Step num="1" title="Select Your Class">
+    Navigate to the builder page and choose one of the 21 original classes from the visual grid. This loads the baseline Class Tree on the left side of your screen.
+  </Step>
+  <Step num="2" title="Choose Your Specialization">
+    Click the specialization selector to choose your primary path. This action immediately unlocks the corresponding Specialization Tree on the right side of the interface.
+  </Step>
+  <Step num="3" title="Allocate Your Points">
+    Left-click nodes to allocate points, starting from the top of both trees and working downward. Right-click nodes to reclaim points. The calculator automatically enforces pathing prerequisites.
+  </Step>
+  <Step num="4" title="Export and Share">
+    Once your build is complete, click the export button to generate a unique build string or URL. You can share this link with guildmates or import it directly into the game client.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Auto-Build Integration">
+If you are overwhelmed by the 1,000+ spells and talents available across the classes, the in-game client features an Auto-Build option. This system automatically allocates your points based on popular configurations exported directly from the community calculator.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Class Archetypes and Spec Role Breakdown">
+
+Choosing the right class on the Vol'Jin realm is the most critical decision you will make, especially given the distinct mechanical differences between the 21 custom options. Unlike standard retail or classic WoW, many classes in Conquest of Azeroth can fulfill multiple roles depending on how you allocate your points in the **conquest of azeroth talent calculator**.
+
+For example, the Cultist can transition from a heavy plate-wearing tank (Dreadnought) to a dark, Old God-themed healer (Influence) that manages an Insanity resource bar. Similarly, the Tinker can deploy demolition explosives for ranged DPS or utilize nanobots and beacons to act as a highly efficient support healer.
+
+| Class | Armor Type | Primary Stats | Roles | Specializations |
+|---|---|---|---|---|
+| **Necromancer** | Cloth | Intellect | DPS | Death, Animation, Rime |
+| **Pyromancer** | Cloth | Intellect | DPS, Healer | Incineration, Draconic, Flameweaving |
+| **Cultist** | Cloth, Plate | Strength, Intellect | Tank, DPS, Healer | Godblade, Corruption, Influence, Dreadnought |
+| **Starcaller** | Mail, Plate | Intellect | Tank, DPS, Healer | Warden, Sentinel, Moon Priest, Moon Guard |
+| **Tinker** | Leather, Mail | Agility, Intellect | DPS, Healer | Demolition, Mechanics, Invention |
+| **Reaper** | Plate | Strength, Intellect | Tank, DPS | Harvest, Soul, Domination |
+| **Bloodmage** | Leather | Intellect, Spirit, Stamina | Tank, DPS, Healer | Fleshweaver, Sanguine, Accursed, Eternal |
+
+For players stepping into the Vol'Jin realm for the first time, selecting a class with straightforward mechanics and strong self-sustain is highly recommended. The following ratings outline the best starter choices based on ease of leveling, resource management, and overall build flexibility.
+
+| Class | Ease of Use | Core Resource | Best Starter Spec | Primary Playstyle |
+|---|---|---|---|---|
+| **Guardian** | ★★★★★ | Rage | Gladiator | Shield tanking, martial weapon mastery |
+| **Necromancer** | ★★★★★ | Runic Power, Mana | Animation | Pet-heavy summoner, ranged dark caster |
+| **Bloodmage** | ★★★★☆ | Health, Rage | Sanguine | Vampiric self-sustain, blood casting |
+| **Pyromancer** | ★★★★☆ | Mana | Incineration | Traditional fire caster, high burst AoE |
+| **Reaper** | ★★★★☆ | Mana | Harvest | Self-sustaining melee bruiser, shadow tank |
+
+<Callout type="info" title="Class Popularity Signals">
+Official beta statistics indicate that the Necromancer, Bloodmage, and Reaper are among the most popular classes due to their incredible solo-leveling efficiency and robust self-healing mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Build Planning Strategy and Best Practices">
+
+When sitting down with the **conquest of azeroth talent calculator**, it is easy to get distracted by flashy capstone talents at the bottom of the trees. However, a successful build requires a balanced approach that prioritizes resource generation, rotational synergy, and defensive utility. Effective theorycrafting relies on understanding how your chosen class mechanics interact with baseline stats.
+
+<CardGrid cols={3}>
+  <Card title="Pure DPS Focus">
+    - **High-damage scaling**
+    - Focuses on crit and haste
+    - Prioritizes offensive capstones
+    - Best for dungeons and raids
+  </Card>
+  <Card title="Hybrid Support Focus">
+    - **Balanced party utility**
+    - Focuses on group buffs
+    - Integrates off-healing nodes
+    - Best for coordinated PvE
+  </Card>
+  <Card title="Self-Sustain Melee">
+    - **High survival rating**
+    - Focuses on armor and lifesteal
+    - Prioritizes active mitigation
+    - Best for solo world leveling
+  </Card>
+</CardGrid>
+
+Stat priorities vary wildly depending on your build archetype. Before allocating your points, consult the general stat priority guidelines below to ensure your talent choices align with your intended gear progression.
+
+| Spec Archetype | Primary Stat | Secondary Stat | Tertiary Stat | Scaling Impact |
+|---|---|---|---|---|
+| **Spell Casters** | Intellect | Spell Power | Haste / Crit | Faster casting, heavier magic damage |
+| **Melee Bruisers** | Strength | Attack Power | Crit / Versatility | Stronger physical attacks, higher armor |
+| **Agile Ranged** | Agility | Ranged AP | Haste / Mastery | Faster ranged shots, higher dodge chance |
+| **Vampiric Tanks** | Stamina | Intellect | Spirit / Armor | Higher health pool, increased self-healing |
+
+To guarantee your build is fully optimized for the level 60 endgame phase on Project Ascension, run through this planning checklist before finalizing your layout in the calculator.
+
+<Checklist
+  id="build-optimization-checklist"
+  title="Theorycrafting Milestones:"
+  items={[
+    "Identify and secure your primary 31-point capstone talent in your Specialization Tree.",
+    "Allocate at least 15 points into the Class Tree to unlock essential crowd control and defensive tools.",
+    "Verify that your talent choices match your gear's primary stat scaling (e.g., Strength vs. Intellect).",
+    "Ensure your rotation has a reliable resource generator node to prevent dead space in combat.",
+    "Test your build concept using the in-game Auto-Build interface during early leveling phases."
+  ]}
+/>
+
+<Callout type="warning" title="Avoid Tooltip Bloat">
+Be cautious of older community guides that recommend stacking too many active spells. Focus on passive modifiers that streamline your core 3-to-4 button rotation to avoid cluttering your action bars.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where can I find the official conquest of azeroth talent calculator?",
+    answer: "The official web-based builder is hosted directly on the Project Ascension website under the BUILDER tab, specifically updated to support the Vol'Jin realm database."
+  },
+  {
+    question: "Can I reset my talent points if I make a mistake in my build?",
+    answer: "Yes, you can easily reset your talents in-game by visiting your class trainer. The online calculator allows you to experiment freely before committing any gold in-game."
+  },
+  {
+    question: "Are there pre-made builds available directly within the builder?",
+    answer: "Yes, the in-game client features an Auto-Build option that automatically applies optimized, community-tested talent configurations based on your chosen specialization."
+  },
+  {
+    question: "Does the calculator support all 21 classes and 69 specializations?",
+    answer: "Absolutely. The official builder is fully updated with accurate tooltips, resource costs, and prerequisites for all 21 original classes and their respective specs."
+  }
+]} />
+
+<Callout type="success" title="Community Sharing">
+Once you finish customizing a layout in the calculator, use the export button to generate a shortcode. You can share this code directly in the official Ascension Discord to get feedback from veteran players.
+</Callout>
+
+</Section>

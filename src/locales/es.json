@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Lanzamiento",
+    "access": "Acceso",
+    "classes": "Clases",
+    "tier": "Tier List",
+    "talents": "Talentos",
+    "guide": "Guía"
+  }
+}

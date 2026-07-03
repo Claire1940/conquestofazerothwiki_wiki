@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Wrench, Hammer } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Conquest of Azeroth Tüftler: Die besten Builds & Spezialisierungs-Guide 2026",
+  description: "Meistere den Conquest of Azeroth Tüftler mit unserem Guide für 2026. Erkunde die Spezialisierungen Demontage, Mechanik und Erfindung, die beste Ausrüstung und Level-Strategien.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Tinker+Class+Guide",
+  date: "2026-07-03",
+  author: "conquest of azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptschlüsselwort**: Der **Conquest of Azeroth Tüftler** ist eine vielseitige Hybridklasse, die sich auf Technologie, Sprengstoffe und mechanische Beschwörungen spezialisiert hat.
+- **Kernmechanik**: Tüftler nutzen ein einzigartiges **Runden-System** (Rounds), um ihre Fähigkeiten zu betreiben, und verwalten Bomben, Geschütztürme und Gadgets in Echtzeit.
+- **Beste Rollen**: Je nach Spezialisierung kannst du als **Fernkampf-DPS** (Demontage/Mechanik) oder als **Heiler** (Erfindung) glänzen.
+- **Wichtiger Tipp**: Halte deine Geschütztürme immer aktiv; sie bieten konstanten Druck und Nutzen, den traditionelle Zauberwirker nicht haben.
+- **Beste Wahl**: Für das Solo-Leveln wird die Spezialisierung **Mechanik** aufgrund ihrer starken, auf Begleitern basierenden Überlebensfähigkeit dringend empfohlen.
+</Callout>
+
+<Section icon={Wrench} title="Klassenübersicht und Kernmechaniken">
+
+Der **Conquest of Azeroth Tüftler** zeichnet sich als eine der 21 ursprünglichen Klassen aus, die im Project Ascension-Ökosystem eingeführt wurden. Im Gegensatz zu traditionellen Klassen, die auf Mana oder Wut angewiesen sind, ist der Tüftler ein Meister der „Runden“ (Rounds) und des mechanischen Einfallsreichtums. Diese Klasse ist für Spieler konzipiert, die einen Spielstil mit hohem Nutzen schätzen und direkten Schaden mit automatisierten Systemen wie Geschütztürmen und Leuchtfeuern verbinden.
+
+In der Umgebung von Reborn Azeroth tragen Tüftler Leder- oder Schwere Rüstung, was ihnen einen erheblichen Haltbarkeitsvorteil gegenüber Stoff tragenden Zauberwirkern verschafft. Ihre Primärwerte sind zwischen Beweglichkeit und Intelligenz aufgeteilt, was vielfältige Build-Pfade ermöglicht, die zwischen roher Sprengkraft und technischer Unterstützung wechseln können.
+
+| Merkmal | Details |
+| :--- | :--- |
+| **Primäre Rollen** | **Schadensverursacher (DPS), Heiler** |
+| **Rüstungstyp** | **Leder, Schwere Rüstung** |
+| **Primärwerte** | **Beweglichkeit, Intelligenz** |
+| **Kernressource** | **Runden (Rounds)** |
+| **Waffen** | **Armbrüste, Musketen, Einhandstreitkolben, Schilde** |
+| **Einzigartige Mechanik** | **Automatisierte Geschütztürme & Nanobots** |
+
+Die „Runden“-Mechanik fungiert als taktische Ressource. Bestimmte Fähigkeiten erzeugen Runden, während deine mächtigsten Gadgets – wie Raketenwerfer oder hochstufige Geschütztürme – diese verbrauchen. Das Meistern des Flusses der Rundengenerierung macht den Unterschied zwischen einem unerfahrenen Ingenieur und einem Meister-Tüftler aus.
+
+<Callout type="info" title="Meisterung der Klassenrolle">
+Tüftler sind eine der wenigen Klassen in Conquest of Azeroth, die nahtlos von einem Sprengstoffexperten zu einem Hightech-Kampfsanitäter wechseln können, indem sie Nanobots und Leuchtfeuer einsetzen.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Spezialisierungen: Wähle deinen Weg">
+
+Auf Stufe 10 muss der **Conquest of Azeroth Tüftler** eine primäre Spezialisierung wählen. Diese Wahl bestimmt deine Rolle in Gruppeninhalten und deine primäre Kampfrotation. Jede Spezialisierung verfügt über einen eigenen Talentbaum, der mit dem Kern-Talentbaum des Tüftlers synergiert.
+
+<CardGrid cols={3}>
+  <Card title="Demontage">
+    - **Fokus**: Sprengstoffe und Burst-Schaden
+    - **Wichtige Werkzeuge**: Schwarzpulver, Pionierladungen
+    - **Spielstil**: Schneller Fernkampf-DPS mit hohem AoE-Potenzial.
+  </Card>
+  <Card title="Mechanik">
+    - **Fokus**: Geschütztürme und Mechs
+    - **Wichtige Werkzeuge**: Landminen, Schredder-Anzüge
+    - **Spielstil**: Setup-basierter Kampf unter Verwendung beschworener mechanischer Geräte.
+  </Card>
+  <Card title="Erfindung">
+    - **Fokus**: Heilung und Unterstützung
+    - **Wichtige Werkzeuge**: Leuchtfeuer, Nanobots
+    - **Spielstil**: Technische Heilung, die vorausschauende Platzierung belohnt.
+  </Card>
+</CardGrid>
+
+Um dir bei der Entscheidung zu helfen, welche Spezialisierung zu deinen Zielen für den Start im Juli 2026 auf dem Vol'Jin-Realm passt, vergleiche die folgenden Leistungsmetriken:
+
+| Spezialisierung | DPS-Tier | Nutzen | Komplexität | Bestens geeignet für |
+| :--- | :--- | :--- | :--- | :--- |
+| **Demontage** | **S-Tier** | Mittel | Niedrig | Schnelle Dungeon-Clears |
+| **Mechanik** | **A-Tier** | **Hoch** | Hoch | Solo-Leveln & PvP |
+| **Erfindung** | **N/A** | **Hoch** | Hoch | Raid-Unterstützung & Heilung |
+
+<Callout type="tip" title="Profi-Spezialisierungstipp">
+Wenn du neu in der Klasse bist, verwende die **Auto-Build**-Funktion für die Demontage-Spezialisierung. Sie vereinfacht die Talentverteilung, sodass du dich zuerst auf das Erlernen der „Runden“-Rotation konzentrieren kannst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Levelguide">
+
+Das Leveln eines **Conquest of Azeroth Tüftlers** erfordert ein Gleichgewicht zwischen Questen und dem Verständnis des Standorts deines Klassenlehrers. Da CoA eine benutzerdefinierte Weltstruktur verwendet, ist dein früher Fortschritt entscheidend für das Freischalten wichtiger Gadgets.
+
+<Steps>
+  <Step num="1" title="Erstes Training (Stufen 1-10)">
+    Beginne in deiner Völkerzone und halte sofort Ausschau nach der Aufforderung für die Klassenquest auf Stufe 3. Finde deinen Klassenlehrer in Goldhain, Kharanos oder Brill, um deine erste Fähigkeit zur Rundengenerierung freizuschalten.
+  </Step>
+  <Step num="2" title="Spezialisierungsauswahl (Stufe 10)">
+    Schalte deine primäre Spezialisierung frei. Für das schnellste Leveln wähle **Mechanik**. Dies ermöglicht es dir, Geschütztürme aufzustellen, die Gegner tanken, während du aus der Distanz feuerst.
+  </Step>
+  <Step num="3" title="Kernrotation (Stufen 11-40)">
+    Konzentriere dich auf Talente, die die Rundengenerierung und die Dauer der Geschütztürme erhöhen. Ersetze deine Ausrüstung häufig und priorisiere Intelligenz, wenn du Geschütztürme verwendest (da diese mit Zaubermacht skalieren), oder Beweglichkeit für direkte Schüsse.
+  </Step>
+  <Step num="4" title="Fortgeschrittene Gadgets (Stufen 40-60)">
+    Schalte die Signaturfähigkeit deiner Spezialisierung frei – wie den Schredder-Mech-Anzug für Mechanik oder die Mega-Bombe für Demontage. Besuche deinen Lehrer alle 2 Stufen, um sicherzustellen, dass deine Gadgets auf dem neuesten Stand sind.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Lehrer-Warnung">
+Ignoriere die Nachricht für die Klassenquest auf Stufe 3 nicht. In Conquest of Azeroth ist das frühe Tempo streng daran gebunden, deinen Lehrer zu finden, um das grundlegende mechanische Set freizuschalten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ausrüstung und Wertepriorität">
+
+Die Ausrüstung deines **Conquest of Azeroth Tüftlers** hängt stark von deiner gewählten Rolle ab. Da Tüftler auf höheren Stufen Schwere Rüstung tragen können, sind sie deutlich robuster als Magier oder Priester. Die Wahl der falschen Werte kann deine Gadgets jedoch wirkungslos machen.
+
+| Priorität | Wert | Grund |
+| :--- | :--- | :--- |
+| **Primär** | **Intelligenz** | Erhöht die Zaubermacht für Geschütztürme, Nanobots und Sprengschaden. |
+| **Sekundär** | **Beweglichkeit** | Erhöht die kritische Trefferchance und den physischen Schaden für Musketen/Armbrüste. |
+| **Tertiär** | **Ausdauer** | Lebenswichtig für das Überleben im High-Risk-PvP oder bei Weltboss-Begegnungen. |
+| **Nutzen** | **Tempo** | Verringert die globale Abklingzeit und beschleunigt das Aufstellen von Geschütztürmen. |
+
+Achte bei der Auswahl der Ausrüstung frühzeitig auf die Suffixe „des Ältesten“ oder „des Adlers“. Diese bieten die beste Mischung aus Intelligenz und Ausdauer. Wenn du dich dem Endgame auf Stufe 60 auf dem Vol'Jin-Realm näherst, solltest du in Dungeons wie den Blackrocktiefen nach klassenspezifischer Ausrüstung suchen.
+
+<Callout type="success" title="Ausrüstungsstrategie">
+In der Meta von 2026 sind „blutgeschmiedete“ Versionen von Ausrüstung aus High-Risk-PvP-Phasen bei Tüftlern aufgrund ihrer zusätzlichen mechanischen Skalierungseigenschaften sehr begehrt.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tüftler-Meilensteine und Checkliste">
+
+Um sicherzustellen, dass dein **Conquest of Azeroth Tüftler** bereit für die Endgame-Schlachtzüge wie den Geschmolzenen Kern oder die hochkarätigen Arena-Kämpfe ist, befolge diese wichtige Fortschritts-Checkliste.
+
+<Checklist
+  id="tinker-progression"
+  title="Ziele zur Meisterung des Tüftlers:"
+  items={[
+    "Finde deinen Klassenlehrer bis Stufe 3",
+    "Schalte deine erste Spezialisierung auf Stufe 10 frei",
+    "Erhalte eine seltene Muskete oder Armbrust bis Stufe 30",
+    "Meistere die Rotation zur Verwaltung der „Runden“",
+    "Schließe die klassenspezifische Quest für fortgeschrittene Ingenieurswerkzeuge ab",
+    "Erreiche Stufe 60 und optimiere für PvE oder PvP"
+  ]}
+/>
+
+<Callout type="info" title="Endgame-Bereitschaft">
+Tüftler sind in Schlachtzügen mit 10–25 Spielern sehr geschätzt für ihre **Erfindungs**-Heilleuchtfeuer, die eine konsistente Gruppenheilung während bewegungsintensiver Phasen bieten.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tüftler FAQ">
+
+<FAQ items={[
+  {
+    question: "Ist der Conquest of Azeroth Tüftler gut für das Solospiel?",
+    answer: "Ja, insbesondere die Spezialisierung Mechanik. Geschütztürme fungieren als sekundäre Ziele für Gegner, sodass der Tüftler Elite-Monster alleine besiegen kann, mit denen andere Klassen Schwierigkeiten haben könnten."
+  },
+  {
+    question: "Welcher Primärwert ist besser: Beweglichkeit oder Intelligenz?",
+    answer: "Intelligenz ist im Allgemeinen für die meisten Builds überlegen, da sie den Schaden deiner Geschütztürme, Bomben und heilenden Nanobots skaliert. Beweglichkeit wird nur für bestimmte physische Builds im „Scharfschützen“-Stil priorisiert."
+  },
+  {
+    question: "Können Tüftler in Conquest of Azeroth tanken?",
+    answer: "Derzeit sind Tüftler für DPS- und Heiler-Rollen konzipiert. Obwohl die Mechanik-Spezialisierung einen Schredder-Anzug für zusätzliche Haltbarkeit bietet, fehlen ihnen die speziellen Bedrohungserzeugungswerkzeuge von Klassen wie dem Wächter oder Seelenschnitter."
+  },
+  {
+    question: "Wie verwalte ich meine „Runden“ effektiv?",
+    answer: "Nutze deine grundlegenden Erzeugerfähigkeiten (wie „Schneller Schuss“ oder „Schraubenschlüssel-Schlag“), um Runden aufzubauen, bevor du sie für wirkungsvolle Gadgets wie „Raketensalve“ oder „Nanobot-Schwarm“ ausgibst."
+  }
+]} />
+
+<Callout type="tip" title="Letzter Ratschlag">
+Trage immer zusätzliches Schwarzpulver und Ersatzteile bei dir. Der **Conquest of Azeroth Tüftler** ist nur so gut wie sein Inventarmanagement!
+</Callout>
+
+</Section>
