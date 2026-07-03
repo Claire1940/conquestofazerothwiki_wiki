@@ -1,10 +1,1541 @@
 {
+  "seo": {
+    "home": {
+      "title": "Conquest of Azeroth - Clases, Builds y Lanzamiento",
+      "description": "La Wiki de Conquest of Azeroth cubre 21 clases, 69 specs, talentos estilo Dragonflight, loot de RPG de mundo abierto, dungeons, raids, PvP, actualizaciones de lanzamiento y guías para principiantes para jugadores de Ascension.",
+      "keywords": "Conquest of Azeroth, Ascension, clases, builds, talentos, PvE, PvP, lanzamiento",
+      "ogTitle": "Conquest of Azeroth - Clases, Builds y Lanzamiento",
+      "ogDescription": "La Wiki de Conquest of Azeroth cubre 21 clases, 69 specs, talentos estilo Dragonflight, loot de RPG de mundo abierto, dungeons, raids, PvP, actualizaciones de lanzamiento y guías para principiantes para jugadores de Ascension.",
+      "twitterTitle": "Conquest of Azeroth - Clases, Builds y Lanzamiento",
+      "twitterDescription": "Wiki de Conquest of Azeroth - 21 clases, 69 specs, talentos, builds, dungeons, raids, PvP y guías de lanzamiento para jugadores de Ascension."
+    }
+  },
   "nav": {
     "release": "Lanzamiento",
     "access": "Acceso",
     "classes": "Clases",
-    "tier": "Tier List",
+    "tier": "Lista de niveles",
     "talents": "Talentos",
     "guide": "Guía"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Juega en Ascension",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "MMORPG de WoW personalizado Classic+",
+    "title": "Wiki de Conquest of Azeroth",
+    "description": "Explora 21 clases originales, 69 specs, talentos estilo Dragonflight, loot de RPG de mundo abierto, dungeons, raids, PvP, actualizaciones de lanzamiento y guías para principiantes de Ascension.",
+    "getFreeCodesCTA": "Ver guías de clases",
+    "playOnSteamCTA": "Juega en Ascension",
+    "stats": {
+      "stat1": {
+        "value": "21",
+        "label": "Nuevas clases"
+      },
+      "stat2": {
+        "value": "69",
+        "label": "Especializaciones"
+      },
+      "stat3": {
+        "value": "1000+",
+        "label": "Hechizos y talentos"
+      },
+      "stat4": {
+        "value": "PC",
+        "label": "Plataforma compatible"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Conquest of Azeroth",
+    "description": "Explora un Azeroth de mundo abierto mejorado con 21 clases originales, 69 especializaciones, árboles de talentos al estilo Dragonflight, botín de RPG inmersivo, mazmorras, bandas y PvP completo."
+  },
+  "tools": {
+    "title": "Conquest of Azeroth",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para empezar en el reino Vol'Jin, elegir una clase y comenzar tu aventura",
+    "cards": [
+      {
+        "icon": "Download",
+        "title": "Lanzamiento y descarga",
+        "description": "Fecha de lanzamiento, acceso al reino, configuración del launcher y creación de cuenta"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Primeros pasos desde la instalación hasta tu primera clase y especialización"
+      },
+      {
+        "icon": "Users",
+        "title": "Las 21 clases",
+        "description": "Roles de clase, mecánicas, especializaciones y quién se adapta a cada estilo"
+      },
+      {
+        "icon": "Star",
+        "title": "Tier List de clases",
+        "description": "Recomendaciones de clases enfocadas en el lanzamiento para jugadores nuevos"
+      },
+      {
+        "icon": "Network",
+        "title": "Árboles de talentos y builds",
+        "description": "Árboles de clase, árboles de especialización, Auto-Build y tarjetas de builds de ejemplo por clase"
+      },
+      {
+        "icon": "Route",
+        "title": "Hoja de ruta de nivelación",
+        "description": "Hitos del nivel 1 al 60, instructores de clase, elección de especialización y preparación para el endgame"
+      },
+      {
+        "icon": "Castle",
+        "title": "Mazmorras y bandas",
+        "description": "Mazmorras desde Normal hasta Mítica+ y bandas Ascended con Molten Core y Onyxia"
+      },
+      {
+        "icon": "Swords",
+        "title": "PvP y High Risk",
+        "description": "Campos de batalla, arenas, world PvP, botín de High Risk e identidad de control de clase"
+      }
+    ]
+  },
+  "modules": {
+    "coaReleaseDateDownloadGuide": {
+      "eyebrow": "Lanzamiento y acceso",
+      "title": "Fecha de lanzamiento, descarga y acceso al reino de Conquest of Azeroth",
+      "subtitle": "Conquest of Azeroth se lanza en el reino Vol'Jin el 3 de julio de 2026. Usa el launcher oficial de Project Ascension, crea una cuenta de Ascension y selecciona el reino Conquest of Azeroth en el menú del launcher.",
+      "intro": "El camino directo desde el lanzamiento hasta la creación de personajes: fecha de lanzamiento, descarga oficial, configuración de cuenta, elección de launcher, selección de reino y dónde consultar el estado del servidor en vivo.",
+      "items": [
+        {
+          "label": "Lanzamiento completo",
+          "date": "3 de julio de 2026",
+          "time": "7:00 AM Pacífico / 10:00 AM Este / 3:00 PM GMT",
+          "detail": "El lanzamiento está programado para el reino Vol'Jin de Conquest of Azeroth, con el video oficial de lanzamiento anunciando la misma fecha del 3 de julio."
+        },
+        {
+          "label": "Reino de lanzamiento",
+          "date": "3 de julio de 2026",
+          "time": "Vol'Jin",
+          "detail": "Vol'Jin es el reino de lanzamiento de Conquest of Azeroth que se muestra en el cronograma oficial de Ascension."
+        },
+        {
+          "label": "Estado del servidor en vivo",
+          "date": "Tiempo real",
+          "time": "Página de inicio de Ascension",
+          "detail": "La página de inicio de Ascension muestra etiquetas de servidor como Login Server, Bronzebeard, Area 52 y el estado de Vol'Jin para que los jugadores puedan confirmar que el reino está en línea antes de iniciar sesión."
+        },
+        {
+          "label": "Descarga oficial",
+          "date": "Disponible ahora",
+          "time": "Launcher de Project Ascension",
+          "detail": "Descarga el launcher oficial de Ascension para PC. El launcher parchea el juego, gestiona los addons aprobados y permite a los jugadores cambiar entre los reinos Bronzebeard, Elune y Conquest of Azeroth."
+        },
+        {
+          "label": "Configuración de cuenta",
+          "date": "Antes del lanzamiento",
+          "time": "Una cuenta de Ascension",
+          "detail": "Crea una cuenta de Ascension con un correo electrónico y contraseña, luego usa esa misma cuenta para iniciar sesión a través del launcher."
+        },
+        {
+          "label": "Historia de la Beta Abierta",
+          "date": "Pre-lanzamiento",
+          "time": "Eventos de beta abierta",
+          "detail": "Los eventos anteriores de la beta abierta permitieron a los jugadores probar las 21 clases en reinos de eventos, con límites de nivel de beta 45, 55 y 58 antes de que la ruta de lanzamiento completa se trasladara a Vol'Jin."
+        }
+      ],
+      "checklist": [
+        "Crea tu cuenta de Ascension con correo electrónico y contraseña",
+        "Descarga el launcher de Project Ascension y deja que parche el juego",
+        "Selecciona el reino Conquest of Azeroth (Vol'Jin) en la lista de reinos",
+        "Consulta la página de inicio de Ascension para confirmar que el reino está en línea",
+        "Inicia sesión y crea tu primer personaje de entre 21 clases originales"
+      ],
+      "downloadCta": "Descargar en Ascension",
+      "statusCta": "Comprobar el estado del reino"
+    },
+    "coaBeginnerGuide": {
+      "eyebrow": "Guía para nuevos jugadores",
+      "title": "Cómo empezar a jugar Conquest of Azeroth",
+      "subtitle": "Empieza con el launcher oficial, elige el reino Conquest of Azeroth, crea una de las 21 clases originales y sigue la ruta del instructor de clase desde el principio.",
+      "intro": "Conquest of Azeroth no es solo un inicio normal sin clases de Ascension. Utiliza 21 clases originales inspiradas en Warcraft, árboles de talentos personalizados, instructores de clase, nuevas estadísticas de criaturas RPG, botín de mundo abierto y progresión de reino de lanzamiento.",
+      "steps": [
+        {
+          "title": "Crea una cuenta de Ascension",
+          "description": "Usa el flujo oficial de registro de Ascension con un correo electrónico y contraseña. La misma cuenta funciona a través del launcher de Ascension."
+        },
+        {
+          "title": "Instala el launcher oficial",
+          "description": "Descarga el launcher de Project Ascension desde la página oficial de descarga y deja que parche el juego antes de elegir un reino."
+        },
+        {
+          "title": "Selecciona el reino Conquest of Azeroth",
+          "description": "Para jugar el lanzamiento, selecciona la ruta del reino Conquest of Azeroth (Vol'Jin) desde el launcher de Ascension y la lista de reinos."
+        },
+        {
+          "title": "Elige una de las 21 clases originales",
+          "description": "Elige entre clases como Necromancer, Pyromancer, Cultist, Starcaller, Tinker, Reaper, Bloodmage, Guardian, Felsworn, Witch Hunter, Ranger y más."
+        },
+        {
+          "title": "Sigue tu misión de clase inicial",
+          "description": "Se añadieron instructores de clase a las zonas de inicio esenciales, con un aviso temprano alrededor del nivel 3 para ayudar a los jugadores a encontrar su misión de clase e instructor."
+        },
+        {
+          "title": "Elige tu especialización al nivel 10",
+          "description": "Cada clase tiene tres o más especializaciones, con un árbol de clase y un árbol de especialización inspirados en las opciones de talentos al estilo de Dragonflight."
+        },
+        {
+          "title": "Usa los talentos para definir tu rol",
+          "description": "Muchas clases pueden cubrir más de un rol, incluyendo tank, DPS, healer o support. La opción Auto-Build ayuda a los jugadores a evitar la confusión de talentos inicial."
+        },
+        {
+          "title": "Aprende los sistemas del mundo reconstruidos",
+          "description": "Conquest of Azeroth añade estadísticas de criaturas de RPG, drops de equipo inmersivos, objetos de RPG de mundo abierto, nuevos puntos de interés, áreas personalizadas y opciones de PvE y PvP ampliadas."
+        }
+      ],
+      "quickTips": [
+        "Una cuenta de Ascension funciona en todos los reinos de Ascension compatibles.",
+        "Usa la opción Auto-Build pronto para evitar la confusión de talentos mientras aprendes tu clase.",
+        "Visita a tu instructor de clase en la zona de inicio para desbloquear tu misión de clase pronto.",
+        "El loot de RPG de mundo abierto significa que los drops de equipo importan desde los primeros niveles."
+      ]
+    },
+    "coaClassesGuide": {
+      "eyebrow": "Clases",
+      "title": "Todas las 21 clases de Conquest of Azeroth",
+      "subtitle": "Conquest of Azeroth presenta 21 clases originales con tres o más especializaciones, visuales personalizados, mecánicas únicas y roles construidos en torno al lore de Warcraft.",
+      "intro": "Usa esta cuadrícula de clases para comparar cada clase por rol, armadura, estadísticas principales, especializaciones, mecánica principal y el estilo de juego que mejor se adapte antes de elegir a tu personaje de lanzamiento.",
+      "classes": [
+        {
+          "name": "Necromancer",
+          "roles": [
+            "DPS"
+          ],
+          "primaryStats": [
+            "Intelecto"
+          ],
+          "armor": [
+            "Tela"
+          ],
+          "specializations": [
+            "Death",
+            "Animation",
+            "Rime"
+          ],
+          "mechanic": "Life Force alimenta a múltiples mascotas no-muertas y herramientas de dark caster.",
+          "bestFor": "Jugadores que quieren un dark caster centrado en mascotas con una jugabilidad de peste, frost y enjambre de no-muertos."
+        },
+        {
+          "name": "Pyromancer",
+          "roles": [
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Intelecto"
+          ],
+          "armor": [
+            "Tela"
+          ],
+          "specializations": [
+            "Incineration",
+            "Draconic",
+            "Flameweaving"
+          ],
+          "mechanic": "Magia de fuego, meteoros, herramientas de burst de temática dragónica y sanación de estilo fénix.",
+          "bestFor": "Jugadores que quieren daño de fuego directo con una ruta de sanación opcional."
+        },
+        {
+          "name": "Cultist",
+          "roles": [
+            "Tank",
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Fuerza",
+            "Intelecto"
+          ],
+          "armor": [
+            "Tela",
+            "Placas"
+          ],
+          "specializations": [
+            "Godblade",
+            "Corruption",
+            "Influence",
+            "Dreadnought"
+          ],
+          "mechanic": "Insanity recompensa el daño elevado pero castiga la acumulación descontrolada.",
+          "bestFor": "Jugadores que disfrutan de la fantasía de los Old God, el poder de alto riesgo y los roles híbridos oscuros."
+        },
+        {
+          "name": "Starcaller",
+          "roles": [
+            "Tank",
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Intelecto"
+          ],
+          "armor": [
+            "Malla",
+            "Placas"
+          ],
+          "specializations": [
+            "Warden",
+            "Sentinel",
+            "Moon Priest",
+            "Moon Guard"
+          ],
+          "mechanic": "El poder lunar moldea armas, sanación, barreras y estilos de combate astrales.",
+          "bestFor": "Jugadores que buscan un caballero lunar flexible con opciones de tank, healer y a distancia o cuerpo a cuerpo."
+        },
+        {
+          "name": "Sun Cleric",
+          "roles": [
+            "Tank",
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Fuerza",
+            "Intelecto"
+          ],
+          "armor": [
+            "Tela",
+            "Placas"
+          ],
+          "specializations": [
+            "Piety",
+            "Seraphim",
+            "Blessings",
+            "Valkyrie"
+          ],
+          "mechanic": "Las acumulaciones de Solar Power y Sunset potencian el daño de fuego sagrado, la defensa y la sanación.",
+          "bestFor": "Jugadores que buscan una fantasía de fuego sagrado con una verdadera cobertura de roles híbridos."
+        },
+        {
+          "name": "Tinker",
+          "roles": [
+            "DPS",
+            "Healer"
+          ],
+          "primaryStats": [
+            "Agilidad",
+            "Intelecto"
+          ],
+          "armor": [
+            "Cuero",
+            "Malla"
+          ],
+          "specializations": [
+            "Demolition",
+            "Mechanics",
+            "Invention"
+          ],
+          "mechanic": "Proyectiles, bombas, torretas, mechs, balizas y nanobots controlan el campo de batalla.",
+          "bestFor": "Jugadores que disfrutan de las herramientas de ingeniería, invocaciones, artefactos y una jugabilidad muy centrada en la utilidad."
+        },
+        {
+          "name": "Runemaster",
+          "roles": [
+            "DPS"
+          ],
+          "primaryStats": [
+            "Intelecto",
+            "Espíritu"
+          ],
+          "armor": [
+            "Tela"
+          ],
+          "specializations": [
+            "Spellslinger",
+            "Riftblade",
+            "Conjuration"
+          ],
+          "mechanic": "La sintonización alterna entre Frost, Fire y Arcane mientras las runas potencian las habilidades.",
+          "bestFor": "Jugadores a los que les gusta la jugabilidad técnica de taumaturgo, la planificación de runas y los combos mágicos."
+        },
+        {
+          "name": "Primalist",
+          "roles": [
+            "Tanque",
+            "Sanador",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Fuerza",
+            "Intelecto"
+          ],
+          "armor": [
+            "Placas"
+          ],
+          "specializations": [
+            "Geomancy",
+            "Mountain King",
+            "Wildwalker",
+            "Life"
+          ],
+          "mechanic": "Tierra, naturaleza, dioses salvajes, bendiciones, espíritus animales y un estilo de juego híbrido y duradero basado en placas.",
+          "bestFor": "Jugadores que quieren un híbrido robusto de temática de la naturaleza con opciones de tanque, sanación y daño."
+        },
+        {
+          "name": "Reaper",
+          "roles": [
+            "Tanque",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Fuerza",
+            "Intelecto"
+          ],
+          "armor": [
+            "Placas"
+          ],
+          "specializations": [
+            "Harvest",
+            "Soul",
+            "Domination"
+          ],
+          "mechanic": "Cosecha de almas, consumo de salud, robo de vida, trucos de las sombras y sustento de temática de la muerte.",
+          "bestFor": "Jugadores que buscan un luchador cuerpo a cuerpo autosuficiente o un tanque de las sombras."
+        },
+        {
+          "name": "Venomancer",
+          "roles": [
+            "Tanque",
+            "Sanador",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Intelecto"
+          ],
+          "armor": [
+            "Cuero",
+            "Malla"
+          ],
+          "specializations": [
+            "Podredumbre",
+            "Vizier",
+            "Stalking",
+            "Entereza"
+          ],
+          "mechanic": "Formas de cambio de forma de veneno, efectos de podredumbre, apoyo de sanación en el tiempo, sigilo y defensas de escorpión.",
+          "bestFor": "Jugadores que buscan veneno, cambio de forma y utilidad híbrida."
+        },
+        {
+          "name": "Chronomancer",
+          "roles": [
+            "DPS",
+            "Sanador"
+          ],
+          "primaryStats": [
+            "Intelecto",
+            "Espíritu"
+          ],
+          "armor": [
+            "Tela"
+          ],
+          "specializations": [
+            "Dualidad",
+            "Artífice",
+            "Desplazamiento"
+          ],
+          "mechanic": "Magia de orden y caos, potenciación de varitas, clones temporales, rebobinados, desplazamiento y utilidad de sanación.",
+          "bestFor": "Jugadores que quieren un mago embaucador con gran utilidad y opciones de sanador."
+        },
+        {
+          "name": "Bloodmage",
+          "roles": [
+            "Tanque",
+            "DPS",
+            "Sanador"
+          ],
+          "primaryStats": [
+            "Intelecto",
+            "Espíritu",
+            "Agilidad",
+            "Aguante"
+          ],
+          "armor": [
+            "Cuero"
+          ],
+          "specializations": [
+            "Fleshweaver",
+            "Sanguine",
+            "Accursed",
+            "Eternal"
+          ],
+          "mechanic": "La magia de sangre consume salud, genera Ira, drena vida y utiliza efectos de transformación.",
+          "bestFor": "Jugadores que buscan sustento vampírico, lanzamiento de hechizos alimentado por sangre y caminos flexibles de tanque/sanador/DPS."
+        },
+        {
+          "name": "Guardian",
+          "roles": [
+            "Tanque",
+            "DPS",
+            "Soporte"
+          ],
+          "primaryStats": [
+            "Fuerza"
+          ],
+          "armor": [
+            "Placas"
+          ],
+          "specializations": [
+            "Gladiator",
+            "Vanguard",
+            "Inspiration"
+          ],
+          "mechanic": "Maestría con armas marciales, tanqueo con escudo, estandartes, canciones y herramientas de soporte para el grupo.",
+          "bestFor": "Jugadores que buscan un luchador de placas definido con un tanqueo seguro y soporte para el grupo."
+        },
+        {
+          "name": "Stormbringer",
+          "roles": [
+            "DPS",
+            "Soporte"
+          ],
+          "primaryStats": [
+            "Intelecto"
+          ],
+          "armor": [
+            "Tela"
+          ],
+          "specializations": [
+            "Relámpago",
+            "Trueno",
+            "Vientos"
+          ],
+          "mechanic": "Las cargas de Estática aumentan las activaciones de hechizos y el daño, mientras que las herramientas de tormenta y el elemental de aire apoyan a los aliados.",
+          "bestFor": "Jugadores que buscan una jugabilidad de taumaturgo de relámpagos con presión de soporte."
+        },
+        {
+          "name": "Felsworn",
+          "roles": [
+            "Tanque",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Agilidad",
+            "Intelecto"
+          ],
+          "armor": [
+            "Cuero"
+          ],
+          "specializations": [
+            "Slaying",
+            "Infernal",
+            "Tyrant"
+          ],
+          "mechanic": "Las cargas de Furia vil, la Forma de demonio y los Golpes viles dan soporte a estilos de combate cuerpo a cuerpo ágil, taumaturgo móvil y tanque de esquiva.",
+          "bestFor": "Jugadores que buscan movilidad demoníaca, combos de daño ráfaga y una jugabilidad de tanque o DPS de temática vil."
+        },
+        {
+          "name": "Barbarian",
+          "roles": [
+            "DPS",
+            "Soporte"
+          ],
+          "primaryStats": [
+            "Agilidad"
+          ],
+          "armor": [
+            "Cuero"
+          ],
+          "specializations": [
+            "Ancestry",
+            "Brutality",
+            "Headhunting"
+          ],
+          "mechanic": "La Furia desenfrenada se acumula en combate, y los efectos de Enfurecer desbloquean ataques más fuertes.",
+          "bestFor": "Jugadores que buscan hachas, sangrados, presión física y beneficios para el grupo."
+        },
+        {
+          "name": "Witch Doctor",
+          "roles": [
+            "DPS",
+            "Sanador"
+          ],
+          "primaryStats": [
+            "Agilidad",
+            "Intelecto"
+          ],
+          "armor": [
+            "Cuero"
+          ],
+          "specializations": [
+            "Brewing",
+            "Voodoo",
+            "Shadowhunting"
+          ],
+          "mechanic": "Pociones, maleficios, maldiciones, resguardos de sanación, magia Loa e invocaciones de dinosaurios.",
+          "bestFor": "Jugadores que buscan sanación de utilidad, presión de daño en el tiempo y la fantasía vudú de los trols."
+        },
+        {
+          "name": "Witch Hunter",
+          "roles": [
+            "Tanque",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Agilidad"
+          ],
+          "armor": [
+            "Malla"
+          ],
+          "specializations": [
+            "Boltslinger",
+            "Darkness",
+            "Black Knight"
+          ],
+          "mechanic": "Ballestas, mosquetes, disparos de plata, sabuesos, herramientas de sombras y sustento de tanque oscuro.",
+          "bestFor": "Jugadores que buscan una jugabilidad móvil de cazador de monstruos con daño a distancia u opciones de tanque."
+        },
+        {
+          "name": "Knight of Xoroth",
+          "roles": [
+            "Tanque",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Fuerza",
+            "Intelecto"
+          ],
+          "armor": [
+            "Placas"
+          ],
+          "specializations": [
+            "War",
+            "Hellfire",
+            "Defiance"
+          ],
+          "mechanic": "Deathfire se acumula como un recurso de remate, potenciando ganchos, cadenas, hellfire, demonios y herramientas de tanque.",
+          "bestFor": "Jugadores que buscan un luchador pesado de tipo caballero infernal con combate cuerpo a cuerpo apocalíptico y fantasía de tanque."
+        },
+        {
+          "name": "Templar",
+          "roles": [
+            "Tanque",
+            "DPS"
+          ],
+          "primaryStats": [
+            "Agilidad"
+          ],
+          "armor": [
+            "Malla"
+          ],
+          "specializations": [
+            "Crusader",
+            "Martial",
+            "Discipline"
+          ],
+          "mechanic": "Los Openers y Followups culminan en movimientos finales de Combo Breaker.",
+          "bestFor": "Jugadores que disfrutan del ritmo de los combos, el combate ágil cuerpo a cuerpo y el tanqueo con bastón."
+        },
+        {
+          "name": "Ranger",
+          "roles": [
+            "DPS",
+            "Soporte"
+          ],
+          "primaryStats": [
+            "Agilidad"
+          ],
+          "armor": [
+            "Cuero"
+          ],
+          "specializations": [
+            "Arquería",
+            "Brigand",
+            "Farstrider"
+          ],
+          "mechanic": "Habilidades de carcaj, venenos, emboscadas cuerpo a cuerpo, War Falcons y cuernos de soporte.",
+          "bestFor": "Jugadores que quieren una jugabilidad de arquero, forajido o soporte de tierras salvajes."
+        }
+      ]
+    },
+    "coaClassTierList": {
+      "eyebrow": "Lista de niveles",
+      "title": "Tier List de clases de Conquest of Azeroth para el inicio del lanzamiento",
+      "subtitle": "Una cuadrícula de recomendaciones centrada en el lanzamiento para elegir tu primera clase en Vol'Jin, estructurada en torno a los roles oficiales de clase, las mecánicas de clase, las notas de popularidad de la beta y la facilidad de comprensión para principiantes.",
+      "intro": "Esta tier list está diseñada para la elección del primer personaje: una subida de nivel fluida, una identidad de rol clara, herramientas de grupo útiles y mecánicas permisivas importan más que perseguir una tabla de daño antes de haber instalado el launcher.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Mejores primeras elecciones",
+          "basis": "Sólido valor para empezar en el lanzamiento, bucle de juego claro, utilidad de rol y señales oficiales de popularidad en la beta.",
+          "classes": [
+            {
+              "name": "Necromancer",
+              "roles": [
+                "DPS"
+              ],
+              "reason": "Una de las clases más populares destacadas oficialmente, con una identidad clara de invocador de mascotas no-muertas y un objetivo de daño sencillo."
+            },
+            {
+              "name": "Bloodmage",
+              "roles": [
+                "Tanque",
+                "DPS",
+                "Sanador"
+              ],
+              "reason": "Una de las clases más populares destacadas oficialmente, con autosustento, magia de sangre y múltiples caminos de rol."
+            },
+            {
+              "name": "Reaper",
+              "roles": [
+                "Tanque",
+                "DPS"
+              ],
+              "reason": "Una de las clases más populares destacadas oficialmente, con armadura de placas, temáticas de robo de vida y un estilo cuerpo a cuerpo autosostenible."
+            },
+            {
+              "name": "Guardian",
+              "roles": [
+                "Tanque",
+                "DPS",
+                "Soporte"
+              ],
+              "reason": "Un luchador de placas directo con caminos de tanque, DPS y soporte, lo que lo convierte en una de las primeras opciones más seguras para el juego en grupo."
+            },
+            {
+              "name": "Pyromancer",
+              "roles": [
+                "DPS",
+                "Sanador"
+              ],
+              "reason": "Un lanzador de fuego fácil de entender con un fuerte daño a un solo objetivo y en área, además de una opción de sanador Flameweaving."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Elecciones fuertes y flexibles",
+          "basis": "Gran cobertura de roles y una sólida fantasía, con sistemas específicos de clase ligeramente más complejos de aprender.",
+          "classes": [
+            {
+              "name": "Starcaller",
+              "roles": [
+                "Tanque",
+                "DPS",
+                "Sanador"
+              ],
+              "reason": "Excelente variedad de roles con opciones de tanqueo lunar, sanación y daño."
+            },
+            {
+              "name": "Sun Cleric",
+              "roles": [
+                "Tanque",
+                "DPS",
+                "Sanador"
+              ],
+              "reason": "Una clase híbrida completa de fuego sagrado con Solar Power y una identidad de especialización clara."
+            },
+            {
+              "name": "Primalist",
+              "roles": [
+                "Tanque",
+                "Sanador",
+                "DPS"
+              ],
+              "reason": "Híbrido de placas resistente con sendas de sanación de tierra, bestias y naturaleza."
+            },
+            {
+              "name": "Cultist",
+              "roles": [
+                "Tanque",
+                "DPS",
+                "Sanador"
+              ],
+              "reason": "Potente cobertura híbrida con mecánicas de Old God, aunque la gestión de Insanity requiere más atención."
+            },
+            {
+              "name": "Tinker",
+              "roles": [
+                "DPS",
+                "Sanador"
+              ],
+              "reason": "Ideal para jugadores de gadgets a los que les gusten las torretas, bombas, munición, balizas y herramientas de apoyo."
+            },
+            {
+              "name": "Chronomancer",
+              "roles": [
+                "DPS",
+                "Sanador"
+              ],
+              "reason": "Sólida fantasía de utilidad con rebobinados, clones, desplazamientos, builds de varitas y herramientas de sanación."
+            },
+            {
+              "name": "Felsworn",
+              "roles": [
+                "Tanque",
+                "DPS"
+              ],
+              "reason": "Sendas móviles de combate cuerpo a cuerpo, taumaturgo y tanque de temática vil con Demon Form y Felfury Charges."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Buenas elecciones de especialista",
+          "basis": "Fuerte fantasía de clase y herramientas útiles, ideal para jugadores que ya saben qué estilo quieren.",
+          "classes": [
+            {
+              "name": "Venomancer",
+              "roles": [
+                "Tanque",
+                "Sanador",
+                "DPS"
+              ],
+              "reason": "El shapeshifting de Poison es flexible y con estilo, con las ramas de Rot, Vizier, Stalking y Fortitude."
+            },
+            {
+              "name": "Witch Doctor",
+              "roles": [
+                "DPS",
+                "Healer"
+              ],
+              "reason": "El gameplay de Potion, hex, ward y Loa ofrece una gran utilidad para los jugadores que disfrutan de un soporte enfocado en la preparación."
+            },
+            {
+              "name": "Witch Hunter",
+              "roles": [
+                "Tanque",
+                "DPS"
+              ],
+              "reason": "Sus herramientas de tanque oscuro y ataque a distancia móvil lo hacen elegante, y su kit de cazador de monstruos recompensa el juego activo."
+            },
+            {
+              "name": "Ranger",
+              "roles": [
+                "DPS",
+                "Soporte"
+              ],
+              "reason": "Las ramas de Archery, Brigand y Farstrider lo convierten en una gran elección para daño a distancia y cuernos de soporte."
+            },
+            {
+              "name": "Knight of Xoroth",
+              "roles": [
+                "Tanque",
+                "DPS"
+              ],
+              "reason": "Un luchador pesado de fuego infernal con remates de Deathfire, cadenas, demonios y opciones de tanque."
+            },
+            {
+              "name": "Templar",
+              "roles": [
+                "Tanque",
+                "DPS"
+              ],
+              "reason": "Melee basado en combos con Openers, Followups y Combo Breakers, ideal para jugadores que disfrutan del timing."
+            },
+            {
+              "name": "Stormbringer",
+              "roles": [
+                "DPS",
+                "Soporte"
+              ],
+              "reason": "La acumulación de Static, el daño de tormenta y el soporte de elementales de aire crean una identidad sólida de caster-soporte."
+            },
+            {
+              "name": "Barbarian",
+              "roles": [
+                "DPS",
+                "Soporte"
+              ],
+              "reason": "Hachas, rage, sangrados, buffs de ale y herramientas de ancestros funcionan mejor para los jugadores que buscan presión física."
+            },
+            {
+              "name": "Runemaster",
+              "roles": [
+                "DPS"
+              ],
+              "reason": "El almacenamiento de Rune, el ciclo de sintonización y las combinaciones de hechizos lo hacen poderoso para los jugadores que disfrutan de un DPS técnico."
+            }
+          ]
+        }
+      ]
+    },
+    "coaTalentTreesAndBuildsGuide": {
+      "eyebrow": "Talentos y Builds",
+      "title": "Guía de Talent Trees y Builds de Conquest of Azeroth",
+      "subtitle": "Aprende cómo funcionan las builds de CoA a través de Class Trees, Specialization Trees, la elección de especialización a nivel 10 y el soporte opcional de Auto-Build.",
+      "intro": "Conquest of Azeroth utiliza 21 clases originales, cada una con hechizos, talentos y mecánicas personalizadas, y tres o más especializaciones. A nivel 10, los jugadores eligen una especialización principal y luego gastan puntos tanto en un Class Tree como en un Specialization Tree para definir su rol, estilo de combate, utilidad e identidad de clase.",
+      "items": [
+        {
+          "id": "talent-system-basics",
+          "title": "Conceptos básicos del sistema de talentos",
+          "class": "Todas las clases",
+          "role": "Configuración de Build",
+          "best_for": "Jugadores eligiendo su primera especialización",
+          "core_data": [
+            "Elige una especialización primaria al nivel 10.",
+            "Usa dos árboles: un Árbol de Clase para herramientas de toda la clase y un Árbol de Especialización para la especialización elegida.",
+            "Los puntos de talento alternan entre el Árbol de Clase y el Árbol de Especialización al subir de nivel.",
+            "Auto-Build puede asignar talentos automáticamente basándose en la build seleccionada."
+          ],
+          "player_tip": "Elige Auto-Build al aprender una clase, luego haz respec manualmente una vez que la rotación de la clase se sienta natural."
+        },
+        {
+          "id": "tinker-demolition-build",
+          "title": "Build de Tinker Demolition",
+          "class": "Tinker",
+          "role": "DPS",
+          "primary_stats": [
+            "Agilidad",
+            "Intelecto"
+          ],
+          "armor": [
+            "Cuero",
+            "Malla"
+          ],
+          "class_mechanic": "Rondas",
+          "specialization_focus": "Demolition se enfoca en explosivos, Blackpowder, Explosive Rounds, Sapper Charges, Rocket Launchers, Handcannons y Cannonballs.",
+          "best_for": "Jugadores que buscan una fantasía de DPS a distancia rápido con explosivos, gadgets y herramientas de campo de batalla.",
+          "player_tip": "Usa esto como una ficha de build inicial para jugadores que buscan build de Tinker, build de Demolition o DPS explosivo."
+        },
+        {
+          "id": "tinker-mechanics-build",
+          "title": "Build de Tinker Mechanics",
+          "class": "Tinker",
+          "role": "DPS de Desarrollador / Utilidad",
+          "primary_stats": [
+            "Agilidad",
+            "Intelecto"
+          ],
+          "armor": [
+            "Cuero",
+            "Malla"
+          ],
+          "class_mechanic": "Rondas",
+          "specialization_focus": "Mechanics se especializa en torretas, minas terrestres, artilugios que escalan con intelecto y jugabilidad de Shredder mechsuit.",
+          "best_for": "Jugadores que prefieren el combate basado en preparación, dispositivos invocados y control mecánico.",
+          "player_tip": "Muestra esto junto a Demolition para que los visitantes puedan comparar explosiones directas con la planificación de torretas."
+        },
+        {
+          "id": "pyromancer-incineration-build",
+          "title": "Build de Pyromancer Incineration",
+          "class": "Pyromancer",
+          "role": "DPS",
+          "primary_stats": [
+            "Intelecto"
+          ],
+          "armor": [
+            "Tela"
+          ],
+          "specialization_focus": "Incineration quema a los enemigos con daño de fuego directo, DoTs de fuego, meteoros, roca fundida, Ignite y efectos de Blaze.",
+          "best_for": "Jugadores que buscan un gran daño de hechizos a un solo objetivo y en área (AoE).",
+          "player_tip": "Bueno para visitantes que buscan la mejor build de caster, build de fuego o especialización de DPS para principiantes."
+        },
+        {
+          "id": "ranger-archery-build",
+          "title": "Build de Ranger Archery",
+          "class": "Ranger",
+          "role": "DPS",
+          "primary_stats": [
+            "Agilidad"
+          ],
+          "armor": [
+            "Cuero"
+          ],
+          "specialization_focus": "Los Rangers Archery luchan a distancia, usan habilidades de Quiver para modificar el daño y dependen de la movilidad para mantener la presión sobre los enemigos.",
+          "best_for": "Jugadores que quieren una build física a distancia con movilidad y un estilo de juego centrado en las flechas.",
+          "player_tip": "Usa esta carta para búsquedas de build de Ranger, DPS a distancia y especialización Archery."
+        },
+        {
+          "id": "cultist-influence-build",
+          "title": "Build de Cultist Influence",
+          "class": "Cultist",
+          "role": "Sanador",
+          "primary_stats": [
+            "Fuerza",
+            "Intelecto"
+          ],
+          "armor": [
+            "Tela",
+            "Placas"
+          ],
+          "class_mechanic": "Demencia",
+          "specialization_focus": "Los Cultists Influence actúan como sanadores oscuros, usando protección temática de Yogg-Saron, escudos de absorción, sanación y efectos de Edict.",
+          "best_for": "Jugadores que buscan una build de sanador con temática de los Dioses Antiguos y utilidad de apoyo.",
+          "player_tip": "Explica la Demencia claramente porque la mecánica de clase afecta directamente al daño y a la gestión de riesgos."
+        }
+      ]
+    },
+    "coaLevelingGuide": {
+      "eyebrow": "Ruta de leveo",
+      "title": "Guía de leveo de Conquest of Azeroth",
+      "subtitle": "Sigue los principales hitos de leveo de CoA, desde las misiones de clase iniciales hasta las pruebas de límite de nivel, entrenadores de clase, talentos y preparación para el endgame.",
+      "intro": "El leveo en Conquest of Azeroth se basa en aprender una de las 21 clases originales mientras exploras un Azeroth Renacido con estadísticas de criaturas de RPG, botines inmersivos, objetos de RPG de mundo abierto, entrenadores de clase, opciones de talentos y equipo de clase personalizado. Los hitos oficiales de la beta pasaron por los límites de evento de nivel 45, nivel 55 y nivel 58, mientras que el contenido alfa también incluye la fase de endgame de nivel 60.",
+      "items": [
+        {
+          "id": "levels-1-3",
+          "range": "Nivel 1-3",
+          "title": "Comienza tu viaje de clase",
+          "goals": [
+            "Crea un personaje de CoA y comienza a aprender el kit básico de la clase.",
+            "Presta atención al mensaje de la misión de clase de nivel 3.",
+            "Encuentra a tu entrenador de clase en zonas de inicio como Villadorada, Kharanos o Rémol."
+          ],
+          "systems_unlocked": [
+            "Guía de misiones de clase",
+            "Entrenadores de clase de la zona de inicio"
+          ],
+          "player_tip": "No ignores el mensaje del entrenador; el ritmo inicial se basa en encontrar al entrenador y aprender las misiones de clase."
+        },
+        {
+          "id": "level-10-spec-choice",
+          "range": "Nivel 10",
+          "title": "Elige tu especialización primaria",
+          "goals": [
+            "Elige una especialización primaria.",
+            "Abre la interfaz de talentos y revisa tanto el Árbol de Clase como el Árbol de Especialización.",
+            "Usa Auto-Build cuando quieras que el juego asigne los talentos mientras subes de nivel."
+          ],
+          "systems_unlocked": [
+            "Especialización primaria",
+            "Árbol de Clase",
+            "Árbol de Especialización",
+            "Opción de Auto-Build"
+          ],
+          "player_tip": "Para un primer personaje, elige la spec que coincida con tu rol previsto antes de ajustar el daño, la utilidad o las opciones de PvP."
+        },
+        {
+          "id": "levels-10-35",
+          "range": "Nivel 10-35",
+          "title": "Construye tu Rotación Principal",
+          "goals": [
+            "Gasta puntos de talento en ambos árboles a medida que alternan mientras subes de nivel.",
+            "Aprende la mecánica de clase que define tu build, como Tinker Rounds, Cultist Insanity o Knight of Xoroth Deathfire.",
+            "Reemplaza el equipo débil con objetos que apoyen tu rol de clase y estadísticas principales."
+          ],
+          "systems_unlocked": [
+            "Rotación principal",
+            "Identidad temprana de talentos",
+            "Opciones de equipo específicas de clase"
+          ],
+          "player_tip": "Prioriza las habilidades que estabilicen tu rotación antes de añadir opciones de utilidad o de PvP situacionales."
+        },
+        {
+          "id": "levels-35-45",
+          "range": "Nivel 35-45",
+          "title": "Prepárate para pruebas de clase más intensas",
+          "goals": [
+            "Refina el kit de herramientas de clase, interrupciones, botones defensivos y el uso de control de masas.",
+            "Prueba los instructores de clase y las misiones de clase pulidos.",
+            "Prepárate para el contenido de nivel 45, como el hito del jefe de mundo Zanzrakka de la beta de marzo."
+          ],
+          "systems_unlocked": [
+            "Kits de herramientas de PvP pulidos",
+            "Actualizaciones de instructores de clase",
+            "Pruebas de jefes de mundo de nivel 45"
+          ],
+          "player_tip": "Este rango es útil para aprender contra qué es efectiva tu clase y cómo funcionan sus herramientas de控制."
+        },
+        {
+          "id": "levels-45-55",
+          "range": "Nivel 45-55",
+          "title": "Expande hechizos, equipo e identidad de rol",
+          "goals": [
+            "Visita a los instructores de clase para elegir hechizos en lugar de depender de desbloqueos forzados.",
+            "Prueba los efectos visuales de hechizos mejorados, el pulido de descripciones y el soporte de equipo específico de clase.",
+            "Usa la fase de nivel 55 para comparar los roles de clase entre las 21 clases."
+          ],
+          "systems_unlocked": [
+            "Implementación completa de instructores de clase",
+            "Revisión mayor de hechizos y habilidades",
+            "Renovación del Demolition Tinker"
+          ],
+          "player_tip": "En este punto, la mejor build para subir de nivel debería equilibrar la velocidad de limpieza, la supervivencia y una gestión de recursos sencilla."
+        },
+        {
+          "id": "levels-55-58",
+          "range": "Nivel 55-58",
+          "title": "Impulso final de la beta abierta",
+          "goals": [
+            "Aventúrate a través del hito de nivel 58 de la beta de junio.",
+            "Explora las características de Reborn Azeroth: estadísticas de criaturas de RPG, botines inmersivos y objetos de RPG en el mundo abierto.",
+            "Pule tu elección de spec antes de entrar en los sistemas de nivel máximo."
+          ],
+          "systems_unlocked": [
+            "Hito de la beta de nivel 58",
+            "Talentos pulidos",
+            "Nuevos efectos y elementos visuales de hechizos"
+          ],
+          "player_tip": "Usa esta franja para probar si tu build funciona en el juego de mundo abierto, mazmorras y bajo la presión de PvP."
+        },
+        {
+          "id": "level-60-endgame",
+          "range": "Nivel 60",
+          "title": "Adéntrate en los sistemas de endgame",
+          "goals": [
+            "Transiciona del leveo a las mazmorras de endgame, bandas, campos de batalla, arenas, jefes de mundo y la Manastorm.",
+            "Ajusta tus talentos para PvE, PvP o PvP de alto riesgo en lugar de usar una configuración de leveo genérica.",
+            "Empieza a conseguir equipo que se adapte exactamente a tu rol de clase."
+          ],
+          "systems_unlocked": [
+            "Mazmorras de endgame",
+            "Bandas",
+            "Campos de batalla",
+            "Arenas",
+            "PvP de mundo",
+            "PvP de alto riesgo"
+          ],
+          "player_tip": "Separa las builds de leveo de las builds de endgame, ya que las prioridades en mazmorras, bandas, arenas y PvP de alto riesgo son diferentes."
+        }
+      ]
+    },
+    "coaDungeonsAndRaidsGuide": {
+      "eyebrow": "Endgame PvE",
+      "title": "Guía de mazmorras y bandas de Conquest of Azeroth",
+      "subtitle": "Compara las dificultades de las mazmorras y bandas de CoA, desde mazmorras normales hasta Mítico+ y bandas Ascendidas.",
+      "intro": "Conquest of Azeroth lleva el PvE al estilo de Ascension a una estructura personalizada de WoW de 21 clases. El contenido PvE incluye mazmorras de Vanilla en los modos Normal, Heroico, Mítico y Mítico+, bandas en las dificultades Normal, Heroica, Mítica y Ascendida, mecánicas de jefes originales, itemización ampliada, nuevos jefes de mundo y botín adaptado a cada clase.",
+      "items": [
+        {
+          "id": "normal-dungeons",
+          "title": "Mazmorras normales",
+          "category": "Mazmorras",
+          "difficulty": "Inicial",
+          "party_size": "Formato de mazmorra de 5 jugadores",
+          "content_focus": "Rutas clásicas de mazmorras de Vanilla y juego en grupo básico.",
+          "best_for": "Leveo, aprendizaje de mazmorras por primera vez y primeras mejoras de equipo.",
+          "key_rewards": [
+            "Equipo de mazmorra",
+            "Práctica de equipamiento para el rol de clase",
+            "Familiarización con las rutas"
+          ]
+        },
+        {
+          "id": "heroic-dungeons",
+          "title": "Mazmorras heroicas",
+          "category": "Mazmorras",
+          "difficulty": "Intermedio",
+          "party_size": "Formato de mazmorra de 5 jugadores",
+          "content_focus": "Versiones potenciadas de mazmorras conocidas con un ajuste de dificultad más exigente y mejores recompensas.",
+          "best_for": "Jugadores listos para ir más allá de las mazmorras normales sin entrar en la presión de Mítico.",
+          "key_rewards": [
+            "Objetos de mazmorra mejorados",
+            "Oportunidades para probar tu rol",
+            "Mejor preparación para Mítico"
+          ]
+        },
+        {
+          "id": "mythic-dungeons",
+          "title": "Mazmorras míticas",
+          "category": "Mazmorras",
+          "difficulty": "Avanzado",
+          "party_size": "Formato de mazmorra de 5 jugadores",
+          "content_focus": "Dificultad de mazmorra más alta con mecánicas de mazmorra ampliadas.",
+          "best_for": "Grupos coordinados que ponen a prueba interrupciones, sincronización de defensivos, control de masas y sinergias de clase.",
+          "key_rewards": [
+            "Progresión de mazmorras de alto nivel",
+            "Dominio de las mecánicas",
+            "Pruebas de estrés de builds"
+          ]
+        },
+        {
+          "id": "mythic-plus-dungeons",
+          "title": "Mazmorras Míticas+",
+          "category": "Mazmorras",
+          "difficulty": "Endgame escalable",
+          "party_size": "Formato de mazmorra de 5 jugadores",
+          "content_focus": "Un sistema completo de Mazmorras Míticas+ de Vanilla para jugadores dedicados que quieren progresar a través de contenido de 5 jugadores.",
+          "best_for": "Grupos que quieren una progresión de mazmorras de endgame repetible en lugar de solo progresión de bandas.",
+          "key_rewards": [
+            "Progresión de endgame para 5 jugadores",
+            "Presión de optimización de builds",
+            "Equipamiento centrado en mazmorras"
+          ]
+        },
+        {
+          "id": "normal-raid",
+          "title": "Bandas normales flexibles",
+          "category": "Bandas",
+          "difficulty": "Banda de entrada",
+          "party_size": "10-25 jugadores",
+          "content_focus": "Acceso a bandas de nivel de entrada para jugadores que quieren experimentar el contenido de bandas.",
+          "best_for": "Grupos de banda casuales y primeras limpiezas.",
+          "key_rewards": [
+            "Equipo de banda",
+            "Aprendizaje de jefes",
+            "Entrada de grupo flexible"
+          ]
+        },
+        {
+          "id": "heroic-raid",
+          "title": "Bandas heroicas flexibles",
+          "category": "Bandas",
+          "difficulty": "Banda de progresión",
+          "party_size": "10-25 jugadores",
+          "content_focus": "Ajuste de banda más difícil para grupos que buscan mejores recompensas y una ejecución más limpia.",
+          "best_for": "Grupos organizados que se preparan para la progresión Mítica y Ascendida.",
+          "key_rewards": [
+            "Mejor botín de banda",
+            "Práctica de progresión",
+            "Pruebas de grupo más exigentes"
+          ]
+        },
+        {
+          "id": "mythic-ascended-raids",
+          "title": "Bandas Míticas y Ascendidas",
+          "category": "Bandas",
+          "difficulty": "Banda de alto nivel",
+          "party_size": "Formato de banda flexible",
+          "content_focus": "Mecánicas ampliadas en bandas Míticas y Ascendidas, con encuentros diseñados para desafiar a las clases de CoA.",
+          "best_for": "Hermandades y grupos de alto nivel que buscan el contenido JcE más difícil.",
+          "key_rewards": [
+            "Progresión de bandas de alto nivel",
+            "Equipo épico",
+            "Pruebas de maestría de clase"
+          ]
+        },
+        {
+          "id": "molten-core",
+          "title": "Molten Core",
+          "category": "Banda destacada",
+          "difficulty": "Normal, Heroico, Mítico, Ascendido",
+          "party_size": "10-25 jugadores",
+          "content_focus": "Enfréntate a Ragnaros y a los jefes de Molten Core con 21 clases originales y 69 especializaciones.",
+          "best_for": "Jugadores que buscan contenido de Molten Core, Ragnaros, lanzamiento de bandas y objetos legendarios.",
+          "key_rewards": [
+            "Botín de banda de Molten Core",
+            "Búsqueda de objetos legendarios",
+            "Progresión basada en la dificultad"
+          ]
+        },
+        {
+          "id": "onyxia",
+          "title": "Onyxia",
+          "category": "Banda destacada",
+          "difficulty": "Hito de banda de la alfa de nivel 60",
+          "party_size": "Grupo de banda",
+          "content_focus": "Onyxia llega a Rexxar como parte de la ruta de contenido de la alfa de nivel 60, con nuevos tesoros para el equipamiento de clases de CoA.",
+          "best_for": "Jugadores que siguen la ruta de bandas de la alfa de nivel 60 después de Molten Core y otros hitos de bandas de Vanilla.",
+          "key_rewards": [
+            "Armas",
+            "Abalorios",
+            "Mejoras de poder de clase"
+          ]
+        }
+      ]
+    },
+    "coaPvpAndHighRiskGuide": {
+      "eyebrow": "Modos JcJ",
+      "title": "Guía de JcJ y alto riesgo de Conquest of Azeroth",
+      "subtitle": "Compara campos de batalla, arenas, JcJ en el mundo abierto, JcJ de alto riesgo, Crow's Cache y Blood Bowl.",
+      "intro": "El JcJ de CoA está diseñado en torno a la identidad de clase, funciones de control de masas más limpias y el sistema de riesgo híbrido de Ascension. Los jugadores pueden elegir la fase de JcE, JcJ o una fase separada de JcJ de alto riesgo, y luego pasar a campos de batalla, arenas, eventos de JcJ en el mundo abierto y combates de riesgo y recompensa en el mundo abierto.",
+      "items": [
+        {
+          "id": "pve-mode",
+          "title": "Modo JcE",
+          "mode_type": "Configuración de riesgo",
+          "risk_level": "Bajo",
+          "player_count": "Mundo abierto",
+          "core_rules": [
+            "Los jugadores que eligen el modo PvE no pueden ser atacados en PvP de mundo abierto a menos que inicien la acción PvP primero.",
+            "Los jugadores de PvE y PvP aún pueden agruparse, hacer misiones, comerciar, realizar dungeons, raids y battlegrounds en la misma estructura del reino."
+          ],
+          "rewards": [
+            "Leveling seguro",
+            "Acceso a dungeons y raids",
+            "Exploración de mundo abierto"
+          ],
+          "best_for": "Jugadores que quieren clases de CoA y contenido PvE sin ganking en el mundo abierto."
+        },
+        {
+          "id": "pvp-mode",
+          "title": "Modo PvP",
+          "mode_type": "Ajuste de riesgo",
+          "risk_level": "Medio",
+          "player_count": "Mundo abierto",
+          "core_rules": [
+            "El Modo PvP crea una experiencia completa de PvP en mundo abierto.",
+            "Los jugadores pueden buscar enemigos en el mundo abierto mientras siguen compartiendo la fase de mundo general con los jugadores de PvE para agruparse y comerciar."
+          ],
+          "rewards": [
+            "Combates en mundo abierto",
+            "Identidad PvP",
+            "Conflicto mundial"
+          ],
+          "best_for": "Jugadores que quieren peligro en el mundo abierto sin la pérdida de objetos de High Risk."
+        },
+        {
+          "id": "high-risk-pvp",
+          "title": "High Risk PvP",
+          "mode_type": "Fase PvP separada",
+          "risk_level": "Alto",
+          "player_count": "Mundo abierto",
+          "core_rules": [
+            "High Risk PvP es una fase separada.",
+            "Derrotar a un jugador en High Risk puede hacer que suelte un cofre con piezas de equipo equipado y del inventario.",
+            "Los jugadores de High Risk pueden encontrar versiones Bloodforged de equipo de dungeon y raid de monstruos del mundo abierto."
+          ],
+          "rewards": [
+            "Botín de equipo de enemigos",
+            "Equipo de mundo abierto Bloodforged",
+            "Botín PvP comerciable"
+          ],
+          "best_for": "Jugadores que quieren las apuestas más altas en el mundo abierto y aceptan perder equipo en combate PvP."
+        },
+        {
+          "id": "battlegrounds",
+          "title": "Battlegrounds",
+          "mode_type": "PvP instanciado",
+          "risk_level": "Estructurado",
+          "player_count": "Basado en equipos",
+          "core_rules": [
+            "Los Battlegrounds proporcionan objetivos PvP por equipos.",
+            "Los Battlegrounds de nivel 60 son parte del conjunto de características PvP de endgame de CoA."
+          ],
+          "rewards": [
+            "Progresión PvP por equipos",
+            "Juego por objetivos",
+            "Práctica de enfrentamiento entre clases"
+          ],
+          "best_for": "Jugadores que quieren combates organizados sin las reglas de emboscada del mundo abierto."
+        },
+        {
+          "id": "arenas",
+          "title": "Arenas",
+          "mode_type": "PvP instanciado",
+          "risk_level": "Competitivo",
+          "player_count": "1v1, 2v2, 3v3",
+          "core_rules": [
+            "CoA incluye Arenas de nivel 60 en formatos 1v1, 2v2 y 3v3.",
+            "El artículo de renovación de talentos también enumera Arenas puntuadas con cola en solitario 1v1, 2v2 y 3v3 como parte de la dirección del endgame de nivel 60."
+          ],
+          "rewards": [
+            "Pruebas de clases competitivas",
+            "Dominio de enfrentamientos en equipos pequeños",
+            "Optimización de builds de PvP"
+          ],
+          "best_for": "Jugadores que buscan arenas, la mejor clase de PvP, duelos y builds de PvP para equipos pequeños."
+        },
+        {
+          "id": "world-pvp-events",
+          "title": "Eventos de PvP en el mundo abierto",
+          "mode_type": "Evento de mundo abierto",
+          "risk_level": "Variable",
+          "player_count": "Conflicto en solitario, en grupo o de hermandad",
+          "core_rules": [
+            "Los eventos de PvP en el mundo abierto incluyen Crow's Cache y la Gurubashi Blood Bowl.",
+            "Crow's Cache se centra en el combate de hermandad contra hermandad por un cofre de botín.",
+            "La Blood Bowl se centra en el combate de gladiadores 1v1 y en rachas de muertes de enemigos."
+          ],
+          "rewards": [
+            "Botín de mundo abierto",
+            "Conflicto de hermandad",
+            "Combates de estilo gladiador"
+          ],
+          "best_for": "Jugadores que quieren PvP basado en eventos en lugar de combates aleatorios en el mundo abierto."
+        },
+        {
+          "id": "crowd-control-identity",
+          "title": "Identidad de control de masas de las clases",
+          "mode_type": "Sistema de builds de PvP",
+          "risk_level": "Basado en enfrentamientos",
+          "player_count": "Todos los modos de PvP",
+          "core_rules": [
+            "Las clases de CoA tienen menos herramientas genéricas de control de masas que las versiones anteriores.",
+            "Cada clase se inclina hacia una identidad de control más temática, como el miedo del Necromancer o la ralentización del Chronomancer.",
+            "El tiempo de actividad del sigilo está restringido a menos que la especialización elegida se centre en el sigilo."
+          ],
+          "rewards": [
+            "Counters más claros",
+            "Enfrentamientos más legibles",
+            "Identidad de clase más fuerte"
+          ],
+          "best_for": "Jugadores que eligen builds de PvP y tratan de entender por qué una clase controla los combates de manera diferente a otra."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Conquest of Azeroth",
+    "questions": [
+      {
+        "question": "¿Qué es Conquest of Azeroth?",
+        "answer": "Conquest of Azeroth es un MMORPG de WoW personalizado Classic+ creado sobre Project Ascension, que cuenta con 21 clases originales, 69 especializaciones, árboles de talentos al estilo Dragonflight, botín de RPG inmersivo en el mundo abierto, mazmorras, bandas y PvP completo."
+      },
+      {
+        "question": "¿Cuándo se lanza Conquest of Azeroth?",
+        "answer": "Conquest of Azeroth llega a su lanzamiento completo el 3 de julio de 2026 en el reino Vol'Jin, con la ventana de lanzamiento anunciada en el video oficial de lanzamiento de Ascension a las 7:00 AM Pacífico / 3:00 PM GMT."
+      },
+      {
+        "question": "¿Cómo descargo y juego Conquest of Azeroth?",
+        "answer": "Descarga el lanzador oficial de Project Ascension desde ascension.gg, crea una cuenta de Ascension, deja que el lanzador parchee el juego y luego selecciona el reino Conquest of Azeroth (Vol'Jin) de la lista de reinos."
+      },
+      {
+        "question": "¿Cuántas clases hay en Conquest of Azeroth?",
+        "answer": "Conquest of Azeroth cuenta con 21 clases originales, cada una con tres o más especializaciones, para un total de 69 especializaciones y más de 1000 hechizos y talentos en los árboles de clases y especializaciones."
+      },
+      {
+        "question": "¿Qué reinos son compatibles con Conquest of Azeroth?",
+        "answer": "Conquest of Azeroth se lanza en el reino Vol'Jin. El lanzador de Ascension permite a los jugadores cambiar entre los reinos Bronzebeard, Elune y Conquest of Azeroth usando una sola cuenta."
+      },
+      {
+        "question": "¿Puedo jugar Conquest of Azeroth con amigos?",
+        "answer": "Sí. Conquest of Azeroth incluye contenido PvE en grupo como mazmorras y bandas, además de campos de batalla, arenas y JcJ de mundo, por lo que el juego en grupo es una parte fundamental de la experiencia de lanzamiento."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar Conquest of Azeroth?",
+    "description": "Descarga Ascension, elige entre 21 clases originales y únete a la comunidad en Discord y Reddit para builds, actualizaciones y debates.",
+    "joinCommunity": "Únete a Discord",
+    "joinGame": "Juega en Ascension"
+  },
+  "footer": {
+    "title": "Wiki de Conquest of Azeroth",
+    "description": "Tu centro de recursos completo para clases, builds, talentos, mazmorras, bandas, JcJ y guías de lanzamiento de Conquest of Azeroth para jugadores de Ascension.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
+    "steamStore": "Sitio web oficial",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Conquest of Azeroth Wiki. No afiliado a Blizzard Entertainment, World of Warcraft ni Project Ascension.",
+    "disclaimer": "Sitio de guías no oficial creado por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Lanzamiento de Conquest of Azeroth",
+      "description": "Sigue la fecha de lanzamiento de Conquest of Azeroth, la beta abierta, la cronología del lanzamiento completo, el lanzamiento del reino y el estado del servidor para el reino personalizado de WoW de Ascension.",
+      "metaTitle": "Fecha de lanzamiento de Conquest of Azeroth - Cronología de la beta y el lanzamiento",
+      "metaDescription": "Obtén las últimas novedades sobre la fecha de lanzamiento de Conquest of Azeroth, la beta abierta, el lanzamiento completo, el lanzamiento del reino y el estado del servidor para los jugadores de Ascension.",
+      "categoryLabel": "LANZAMIENTO Y BETA",
+      "whatIs": "¿Qué es el lanzamiento?",
+      "whatIsDescription": "El lanzamiento de Conquest of Azeroth abarca toda la cronología de lanzamiento del reino personalizado de WoW de Project Ascension, incluyendo la beta cerrada, la beta abierta, el lanzamiento completo del reino Vol'Jin y los parches de contenido continuos.",
+      "why": "¿Por qué seguir el lanzamiento?",
+      "whySteps": {
+        "step1Title": "Conoce la fecha de lanzamiento",
+        "step1Description": "Sigue la fecha de lanzamiento oficial de Conquest of Azeroth y el calendario de lanzamiento completo para el reino Vol'Jin",
+        "step2Title": "Únete a la beta correcta",
+        "step2Description": "Entiende el acceso a la Open Beta, las beta keys y qué se transfiere al reino live",
+        "step3Title": "Consulta el Estado del Servidor",
+        "step3Description": "Monitorea el estado del reino y del servidor de inicio de sesión antes de los mantenimientos y nuevos parches"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Lanzamiento"
+    },
+    "access": {
+      "title": "Acceso a Conquest of Azeroth",
+      "description": "Aprende cómo descargar, instalar y acceder a Conquest of Azeroth: el Ascension launcher, creación de cuenta, selección de reino y configuración free-to-play.",
+      "metaTitle": "Cómo jugar Conquest of Azeroth - Guía de Descarga y Acceso",
+      "metaDescription": "Comienza a jugar Conquest of Azeroth con nuestra guía de descarga y acceso que cubre el Ascension launcher, configuración de cuenta, selección de reino y entrada gratuita.",
+      "categoryLabel": "DESCARGA Y ACCESO",
+      "whatIs": "¿Qué es el Acceso?",
+      "whatIsDescription": "Las guías de acceso explican cómo descargar el Ascension launcher, crear una cuenta, parchear el cliente y conectarse al reino Vol'Jin de Conquest of Azeroth, la experiencia personalizada de WoW con 21 clases que es free to play.",
+      "why": "¿Por qué consultar las guías de acceso?",
+      "whySteps": {
+        "step1Title": "Instala el Launcher",
+        "step1Description": "Descarga y configura el Project Ascension launcher en Windows, con guías de la comunidad para Linux disponibles",
+        "step2Title": "Crea tu Cuenta",
+        "step2Description": "Regístrate, verifica y prepara una cuenta gratuita para el reino Conquest of Azeroth",
+        "step3Title": "Elige el Reino Vol'Jin",
+        "step3Description": "Selecciona el reino Conquest of Azeroth e inicia sesión para empezar a jugar con 21 clases originales"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Acceso"
+    },
+    "classes": {
+      "title": "Clases de Conquest of Azeroth",
+      "description": "Explora las 21 clases originales de Conquest of Azeroth como Necromancer, Starcaller, Tinker y Guardian con sus roles, recursos y fantasía de clase.",
+      "metaTitle": "Clases de Conquest of Azeroth - Las 21 Clases y Specs Originales",
+      "metaDescription": "Explora las 21 clases originales de Conquest of Azeroth y sus 69 especializaciones, incluyendo Necromancer, Starcaller, Tinker y Guardian con roles y estilos de juego.",
+      "categoryLabel": "21 CLASES ORIGINALES",
+      "whatIs": "¿Qué son las Clases?",
+      "whatIsDescription": "Conquest of Azeroth introduce 21 clases originales y 69 especializaciones basadas en un sistema al estilo Dragonflight, cada una con recursos únicos, fantasía de clase y opciones de rol como tank, healer y DPS.",
+      "why": "¿Por qué comparar clases?",
+      "whySteps": {
+        "step1Title": "Encuentra tu Rol",
+        "step1Description": "Empareja las clases con los roles de tank, healer, melee DPS o ranged DPS que se adapten a tu estilo de juego",
+        "step2Title": "Aprende sobre los Recursos",
+        "step2Description": "Entiende la mecánica de recursos única de cada clase, desde Soul Shards hasta Arcane charges",
+        "step3Title": "Planifica la Fantasía de Clase",
+        "step3Description": "Elige una fantasía de clase (Necromancer no-muerto, Starcaller celestial o Tinker inventivo) que encaje con tu temática"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de Clases"
+    },
+    "tier": {
+      "title": "Tier List de Conquest of Azeroth",
+      "description": "Tier list de Conquest of Azeroth clasificando las 21 clases y specs para roles de PvE, PvP, DPS, healer y tank, además de las mejores clases para jugar en solitario y endgame.",
+      "metaTitle": "Tier List de Conquest of Azeroth - Rankings de Clases PvE y PvP",
+      "metaDescription": "Mira la tier list completa de Conquest of Azeroth con rankings de clases PvE y PvP, las mejores specs de DPS, healer y tank, y las mejores clases para jugar en solitario en el endgame.",
+      "categoryLabel": "LISTAS DE NIVELES",
+      "whatIs": "¿Qué es una Tier List?",
+      "whatIsDescription": "La tier list de Conquest of Azeroth clasifica las 21 clases originales y 69 especializaciones según su rendimiento en PvE, PvP, leveo y contenido en solitario, ayudándote a elegir la opción más fuerte para tus objetivos.",
+      "why": "¿Por qué usar una tier list?",
+      "whySteps": {
+        "step1Title": "Elige una clase fuerte",
+        "step1Description": "Identifica las mejores specs de DPS, healer y tank para raids, mazmorras y arenas",
+        "step2Title": "Compara PvE vs PvP",
+        "step2Description": "Mira qué clases lideran en el endgame de PvE frente a entornos de PvP de alto riesgo (High Risk PvP)",
+        "step3Title": "Elige para jugar en solitario",
+        "step3Description": "Encuentra la mejor clase para jugar solo, levear en mundo abierto y farmear con eficiencia"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las Tier Lists"
+    },
+    "talents": {
+      "title": "Talentos de Conquest of Azeroth",
+      "description": "Domina los árboles de talentos, especializaciones y builds de clase de Conquest of Azeroth: árboles al estilo Dragonflight, Auto-Build y builds recomendadas para cada clase.",
+      "metaTitle": "Talentos de Conquest of Azeroth - Árboles de talentos y builds de clase",
+      "metaDescription": "Planifica tus talentos de Conquest of Azeroth con árboles de talentos al estilo Dragonflight, rutas de especialización y builds de clase probadas para cada rol y spec.",
+      "categoryLabel": "TALENTOS Y BUILDS",
+      "whatIs": "¿Qué son los talentos?",
+      "whatIsDescription": "Conquest of Azeroth utiliza árboles de talentos al estilo Dragonflight con puntos alternos de Clase y Especialización, lo que otorga a cada clase rutas de builds flexibles y una opción de Auto-Build para jugadores nuevos.",
+      "why": "¿Por qué planificar los talentos?",
+      "whySteps": {
+        "step1Title": "Usa la calculadora de talentos",
+        "step1Description": "Planifica los puntos de los árboles de clase y spec antes de gastarlos en el juego con la calculadora de talentos",
+        "step2Title": "Prueba primero el Auto-Build",
+        "step2Description": "Deja que el Auto-Build gestione los primeros puntos mientras aprendes los recursos y la rotación de una nueva clase",
+        "step3Title": "Sigue builds probadas",
+        "step3Description": "Copia builds probadas de Necromancer, Valkyrie y Cultist para leveo en PvE y para PvP"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las builds de talentos"
+    },
+    "guide": {
+      "title": "Guía de Conquest of Azeroth",
+      "description": "Guías completas de Conquest of Azeroth para principiantes: configuración, elección de la primera clase, ruta de leveo, conceptos básicos de talentos y supervivencia en mundo abierto en el reino Vol'Jin.",
+      "metaTitle": "Guía de Conquest of Azeroth - Configuración para principiantes y guía de leveo",
+      "metaDescription": "Empieza con fuerza con nuestra guía para principiantes de Conquest of Azeroth, que cubre la configuración, la primera clase, la ruta de leveo, los talentos y consejos para el mundo abierto para jugadores de Ascension.",
+      "categoryLabel": "GUÍAS PARA PRINCIPIANTES",
+      "whatIs": "¿Qué es la guía?",
+      "whatIsDescription": "La guía para principiantes de Conquest of Azeroth orienta a los nuevos jugadores en la configuración del launcher, creación de cuenta, selección de la primera clase, leveo inicial, conceptos básicos de talentos y supervivencia en mundo abierto en el reino Vol'Jin.",
+      "why": "¿Por qué leer la guía?",
+      "whySteps": {
+        "step1Title": "Configuración rápida",
+        "step1Description": "Instala el launcher, crea una cuenta e inicia sesión en el reino de Conquest of Azeroth",
+        "step2Title": "Elige una clase amigable",
+        "step2Description": "Elige una clase amigable para principiantes como Necromancer o Bloodmage para subir de nivel de manera fluida",
+        "step3Title": "Sube de nivel de manera eficiente",
+        "step3Description": "Sigue una ruta probada del 1 al 60 usando Auto-Build, instructores de clase y misiones de mundo abierto"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías para principiantes"
+    }
   }
 }

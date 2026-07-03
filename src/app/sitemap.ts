@@ -7,28 +7,24 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.conquestofazerothwiki.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（与 src/config/navigation.ts 的 CoA 6 分类一致）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'release': 0.9,
+	'access': 0.9,
+	'classes': 0.8,
+	'tier': 0.8,
+	'talents': 0.8,
+	'guide': 0.8,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'release': 'weekly',
+	'access': 'weekly',
+	'classes': 'weekly',
+	'tier': 'weekly',
+	'talents': 'weekly',
+	'guide': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
