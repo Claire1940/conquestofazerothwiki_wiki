@@ -10,14 +10,7 @@
       "twitterDescription": "Conquest of Azeroth Wiki - 21 classes, 69 specs, talents, builds, dungeons, raids, PvP, and release guides for Ascension players."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
