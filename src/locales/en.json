@@ -79,6 +79,26 @@
         "icon": "Star",
         "title": "Class Tier List",
         "description": "Launch-focused class recommendations for first-time players"
+      },
+      {
+        "icon": "Network",
+        "title": "Talent Trees & Builds",
+        "description": "Class trees, spec trees, Auto-Build, and sample build cards per class"
+      },
+      {
+        "icon": "Route",
+        "title": "Leveling Roadmap",
+        "description": "Level 1 to 60 milestones, class trainers, spec choice, and endgame prep"
+      },
+      {
+        "icon": "Castle",
+        "title": "Dungeons & Raids",
+        "description": "Normal to Mythic+ dungeons and Ascended raids with Molten Core and Onyxia"
+      },
+      {
+        "icon": "Swords",
+        "title": "PvP & High Risk",
+        "description": "Battlegrounds, arenas, world PvP, High Risk loot, and class control identity"
       }
     ]
   },
@@ -426,6 +446,473 @@
             { "name": "Barbarian", "roles": ["DPS", "Support"], "reason": "Axes, rage, bleeds, ale buffs, and ancestor tools work best for players who want physical pressure." },
             { "name": "Runemaster", "roles": ["DPS"], "reason": "Rune storage, attunement cycling, and spell combinations make it powerful for players who enjoy technical DPS." }
           ]
+        }
+      ]
+    },
+    "coaTalentTreesAndBuildsGuide": {
+      "eyebrow": "Talents & Builds",
+      "title": "Conquest of Azeroth Talent Trees and Builds Guide",
+      "subtitle": "Learn how CoA builds work through Class Trees, Specialization Trees, level 10 spec choice, and optional Auto-Build support.",
+      "intro": "Conquest of Azeroth uses 21 original classes, each with custom spells, talents, mechanics, and three or more specializations. At level 10, players choose a primary specialization, then spend points across both a Class Tree and a Specialization Tree to shape their role, combat style, utility, and class identity.",
+      "items": [
+        {
+          "id": "talent-system-basics",
+          "title": "Talent System Basics",
+          "class": "All Classes",
+          "role": "Build Setup",
+          "best_for": "Players choosing their first specialization",
+          "core_data": [
+            "Pick a primary specialization at level 10.",
+            "Use two trees: one Class Tree for class-wide tools and one Specialization Tree for the chosen spec.",
+            "Talent points alternate between Class Tree and Specialization Tree while leveling.",
+            "Auto-Build can automatically allocate talents based on the selected build."
+          ],
+          "player_tip": "Choose Auto-Build when learning a class, then respec manually once the class loop feels natural."
+        },
+        {
+          "id": "tinker-demolition-build",
+          "title": "Tinker Demolition Build",
+          "class": "Tinker",
+          "role": "DPS",
+          "primary_stats": ["Agility", "Intellect"],
+          "armor": ["Leather", "Mail"],
+          "class_mechanic": "Rounds",
+          "specialization_focus": "Demolition focuses on explosives, Blackpowder, Explosive Rounds, Sapper Charges, Rocket Launchers, Handcannons, and Cannonballs.",
+          "best_for": "Players who want a fast ranged DPS fantasy with explosives, gadgets, and battlefield tools.",
+          "player_tip": "Use this as an early build card for players searching Tinker build, Demolition build, or explosive DPS."
+        },
+        {
+          "id": "tinker-mechanics-build",
+          "title": "Tinker Mechanics Build",
+          "class": "Tinker",
+          "role": "Developer DPS / Utility",
+          "primary_stats": ["Agility", "Intellect"],
+          "armor": ["Leather", "Mail"],
+          "class_mechanic": "Rounds",
+          "specialization_focus": "Mechanics specializes in turrets, land mines, intellect-scaling contraptions, and Shredder mechsuit gameplay.",
+          "best_for": "Players who prefer setup-based combat, summoned devices, and mechanical control.",
+          "player_tip": "Display this next to Demolition so visitors can compare direct explosions against turret planning."
+        },
+        {
+          "id": "pyromancer-incineration-build",
+          "title": "Pyromancer Incineration Build",
+          "class": "Pyromancer",
+          "role": "DPS",
+          "primary_stats": ["Intellect"],
+          "armor": ["Cloth"],
+          "specialization_focus": "Incineration burns enemies with direct fire damage, fire DoTs, meteors, molten rock, Ignite, and Blaze effects.",
+          "best_for": "Players who want heavy single-target and AoE spell damage.",
+          "player_tip": "Good for visitors searching best caster build, fire build, or beginner DPS spec."
+        },
+        {
+          "id": "ranger-archery-build",
+          "title": "Ranger Archery Build",
+          "class": "Ranger",
+          "role": "DPS",
+          "primary_stats": ["Agility"],
+          "armor": ["Leather"],
+          "specialization_focus": "Archery Rangers fight from range, use Quiver abilities to modify damage, and rely on mobility to keep pressure on enemies.",
+          "best_for": "Players who want a ranged physical build with movement and arrow-focused gameplay.",
+          "player_tip": "Use this card for Ranger build, ranged DPS, and Archery spec searches."
+        },
+        {
+          "id": "cultist-influence-build",
+          "title": "Cultist Influence Build",
+          "class": "Cultist",
+          "role": "Healer",
+          "primary_stats": ["Strength", "Intellect"],
+          "armor": ["Cloth", "Plate"],
+          "class_mechanic": "Insanity",
+          "specialization_focus": "Influence Cultists act as dark healers, using Yogg-Saron-themed protection, absorb shields, healing, and Edict effects.",
+          "best_for": "Players looking for a healer build with Old God flavor and support utility.",
+          "player_tip": "Explain Insanity clearly because the class mechanic directly affects damage and risk management."
+        }
+      ]
+    },
+    "coaLevelingGuide": {
+      "eyebrow": "Leveling Roadmap",
+      "title": "Conquest of Azeroth Leveling Guide",
+      "subtitle": "Follow the main CoA leveling milestones from early class quests to level-cap testing, class trainers, talents, and endgame preparation.",
+      "intro": "Leveling in Conquest of Azeroth is built around learning one of 21 original classes while exploring a Reborn Azeroth with RPG creature stats, immersive loot drops, open-world RPG items, class trainers, talent choices, and custom class gear. The official beta milestones moved through level 45, level 55, and level 58 event caps, while the alpha content also includes the level 60 endgame phase.",
+      "items": [
+        {
+          "id": "levels-1-3",
+          "range": "Level 1-3",
+          "title": "Start Your Class Journey",
+          "goals": [
+            "Create a CoA character and begin learning the base class kit.",
+            "Watch for the level 3 class quest message.",
+            "Find your class trainer in starting zones such as Goldshire, Kharanos, or Brill."
+          ],
+          "systems_unlocked": [
+            "Class quest guidance",
+            "Starting-zone class trainers"
+          ],
+          "player_tip": "Do not ignore the trainer message; early pacing is built around finding the trainer and learning class quests."
+        },
+        {
+          "id": "level-10-spec-choice",
+          "range": "Level 10",
+          "title": "Choose Your Primary Specialization",
+          "goals": [
+            "Pick a primary specialization.",
+            "Open the talent interface and review both the Class Tree and Specialization Tree.",
+            "Use Auto-Build when you want the game to allocate talents while leveling."
+          ],
+          "systems_unlocked": [
+            "Primary specialization",
+            "Class Tree",
+            "Specialization Tree",
+            "Auto-Build option"
+          ],
+          "player_tip": "For a first character, choose the spec that matches your intended role before fine-tuning damage, utility, or PvP choices."
+        },
+        {
+          "id": "levels-10-35",
+          "range": "Level 10-35",
+          "title": "Build Your Core Rotation",
+          "goals": [
+            "Spend talent points across both trees as they alternate while leveling.",
+            "Learn the class mechanic that defines your build, such as Tinker Rounds, Cultist Insanity, or Knight of Xoroth Deathfire.",
+            "Replace weak gear with items that support your class role and primary stats."
+          ],
+          "systems_unlocked": [
+            "Core rotation",
+            "Early talent identity",
+            "Class-specific gear choices"
+          ],
+          "player_tip": "Prioritize abilities that make your rotation stable before adding niche PvP or utility picks."
+        },
+        {
+          "id": "levels-35-45",
+          "range": "Level 35-45",
+          "title": "Prepare for Stronger Class Testing",
+          "goals": [
+            "Refine class toolkit, interrupts, defensive buttons, and crowd-control usage.",
+            "Test polished class trainers and class quests.",
+            "Prepare for level 45 content such as the Zanzrakka world boss milestone from the March beta."
+          ],
+          "systems_unlocked": [
+            "Polished PvP toolkits",
+            "Class trainer updates",
+            "Level 45 world boss testing"
+          ],
+          "player_tip": "This bracket is useful for learning what your class counters and how its control tools work."
+        },
+        {
+          "id": "levels-45-55",
+          "range": "Level 45-55",
+          "title": "Expand Spells, Gear, and Role Identity",
+          "goals": [
+            "Visit class trainers to choose spells instead of relying on forced unlocks.",
+            "Test improved spell visuals, tooltip polish, and class-specific gear support.",
+            "Use the level 55 phase to compare class roles across all 21 classes."
+          ],
+          "systems_unlocked": [
+            "Full class trainer implementation",
+            "Major spell and skill pass",
+            "Demolition Tinker overhaul"
+          ],
+          "player_tip": "At this point, the best leveling build should balance clear speed, survivability, and simple resource management."
+        },
+        {
+          "id": "levels-55-58",
+          "range": "Level 55-58",
+          "title": "Final Open Beta Push",
+          "goals": [
+            "Adventure through the June beta level 58 milestone.",
+            "Explore Reborn Azeroth features: RPG creature stats, immersive loot drops, and RPG items in the open world.",
+            "Polish your spec choice before stepping into max-level systems."
+          ],
+          "systems_unlocked": [
+            "Level 58 beta milestone",
+            "Polished talents",
+            "New spell visuals and effects"
+          ],
+          "player_tip": "Use this bracket to test whether your build works in open-world play, dungeons, and PvP pressure."
+        },
+        {
+          "id": "level-60-endgame",
+          "range": "Level 60",
+          "title": "Move Into Endgame Systems",
+          "goals": [
+            "Transition from leveling into endgame dungeons, raids, battlegrounds, arenas, world bosses, and the Manastorm.",
+            "Tune talents for PvE, PvP, or High Risk PvP instead of using one generic leveling setup.",
+            "Start collecting gear that supports your exact class role."
+          ],
+          "systems_unlocked": [
+            "End-game dungeons",
+            "Raids",
+            "Battlegrounds",
+            "Arenas",
+            "World PvP",
+            "High Risk PvP"
+          ],
+          "player_tip": "Split leveling builds from endgame builds because dungeon, raid, arena, and High Risk PvP priorities are different."
+        }
+      ]
+    },
+    "coaDungeonsAndRaidsGuide": {
+      "eyebrow": "PvE Endgame",
+      "title": "Conquest of Azeroth Dungeons and Raids Guide",
+      "subtitle": "Compare CoA dungeon and raid difficulties, from Normal dungeons to Mythic+ and Ascended raids.",
+      "intro": "Conquest of Azeroth brings Ascension-style PvE into a 21-class custom WoW framework. PvE content includes Vanilla dungeons across Normal, Heroic, Mythic, and Mythic+ modes, raids across Normal, Heroic, Mythic, and Ascended difficulties, original boss mechanics, expanded itemization, new world bosses, and class-tailored loot.",
+      "items": [
+        {
+          "id": "normal-dungeons",
+          "title": "Normal Dungeons",
+          "category": "Dungeons",
+          "difficulty": "Entry",
+          "party_size": "5-player dungeon format",
+          "content_focus": "Classic Vanilla dungeon routes and baseline group play.",
+          "best_for": "Leveling, first-time dungeon learning, and early gear upgrades.",
+          "key_rewards": [
+            "Dungeon gear",
+            "Class-role gearing practice",
+            "Route familiarity"
+          ]
+        },
+        {
+          "id": "heroic-dungeons",
+          "title": "Heroic Dungeons",
+          "category": "Dungeons",
+          "difficulty": "Intermediate",
+          "party_size": "5-player dungeon format",
+          "content_focus": "Powered-up versions of familiar dungeons with stronger tuning and better rewards.",
+          "best_for": "Players ready to move beyond Normal dungeons without entering Mythic pressure.",
+          "key_rewards": [
+            "Improved dungeon items",
+            "Role-testing opportunities",
+            "Better preparation for Mythic"
+          ]
+        },
+        {
+          "id": "mythic-dungeons",
+          "title": "Mythic Dungeons",
+          "category": "Dungeons",
+          "difficulty": "Advanced",
+          "party_size": "5-player dungeon format",
+          "content_focus": "Harder dungeon difficulty with expanded dungeon mechanics.",
+          "best_for": "Coordinated groups testing interrupts, defensive timing, crowd control, and class synergies.",
+          "key_rewards": [
+            "Higher-end dungeon progression",
+            "Mechanic mastery",
+            "Build stress testing"
+          ]
+        },
+        {
+          "id": "mythic-plus-dungeons",
+          "title": "Mythic+ Dungeons",
+          "category": "Dungeons",
+          "difficulty": "Scaling Endgame",
+          "party_size": "5-player dungeon format",
+          "content_focus": "A full Mythic+ Vanilla Dungeon system for dedicated players who want to progress through 5-man content.",
+          "best_for": "Groups that want repeatable endgame dungeon progression instead of only raid progression.",
+          "key_rewards": [
+            "Endgame 5-man progression",
+            "Build optimization pressure",
+            "Dungeon-focused gearing"
+          ]
+        },
+        {
+          "id": "normal-raid",
+          "title": "Flex Normal Raids",
+          "category": "Raids",
+          "difficulty": "Entry Raid",
+          "party_size": "10-25 players",
+          "content_focus": "Entry-level raid access for players who want to experience raid content.",
+          "best_for": "Casual raid groups and first clears.",
+          "key_rewards": [
+            "Raid gear",
+            "Boss learning",
+            "Flexible group entry"
+          ]
+        },
+        {
+          "id": "heroic-raid",
+          "title": "Flex Heroic Raids",
+          "category": "Raids",
+          "difficulty": "Progression Raid",
+          "party_size": "10-25 players",
+          "content_focus": "Harder raid tuning for groups seeking stronger rewards and cleaner execution.",
+          "best_for": "Organized groups building toward Mythic and Ascended progression.",
+          "key_rewards": [
+            "Better raid loot",
+            "Progression practice",
+            "Stronger group checks"
+          ]
+        },
+        {
+          "id": "mythic-ascended-raids",
+          "title": "Mythic and Ascended Raids",
+          "category": "Raids",
+          "difficulty": "Top-End Raid",
+          "party_size": "Flexible raid format",
+          "content_focus": "Expanded mechanics in Mythic and Ascended raids, with encounters designed to challenge CoA classes.",
+          "best_for": "Guilds and high-skill groups chasing the hardest PvE content.",
+          "key_rewards": [
+            "Top-end raid progression",
+            "Epic gear",
+            "Class mastery checks"
+          ]
+        },
+        {
+          "id": "molten-core",
+          "title": "Molten Core",
+          "category": "Raid Highlight",
+          "difficulty": "Normal, Heroic, Mythic, Ascended",
+          "party_size": "10-25 players",
+          "content_focus": "Face Ragnaros and Molten Core bosses with 21 original classes and 69 specializations.",
+          "best_for": "Players searching for Molten Core, Ragnaros, raid release, and legendary item content.",
+          "key_rewards": [
+            "Molten Core raid loot",
+            "Legendary-item chase",
+            "Difficulty-based progression"
+          ]
+        },
+        {
+          "id": "onyxia",
+          "title": "Onyxia",
+          "category": "Raid Highlight",
+          "difficulty": "Level 60 alpha raid milestone",
+          "party_size": "Raid group",
+          "content_focus": "Onyxia arrives on Rexxar as part of the level 60 alpha content path, with new treasure for CoA class gearing.",
+          "best_for": "Players following the level 60 alpha raid path after Molten Core and other Vanilla raid milestones.",
+          "key_rewards": [
+            "Weapons",
+            "Trinkets",
+            "Class power upgrades"
+          ]
+        }
+      ]
+    },
+    "coaPvpAndHighRiskGuide": {
+      "eyebrow": "PvP Modes",
+      "title": "Conquest of Azeroth PvP and High Risk Guide",
+      "subtitle": "Compare Battlegrounds, Arenas, World PvP, High Risk PvP, Crow's Cache, and Blood Bowl.",
+      "intro": "CoA PvP is built around class identity, cleaner crowd-control roles, and Ascension's Hybrid Risk System. Players can choose PvE, PvP, or a separate High Risk PvP phase, then move into battlegrounds, arenas, world PvP events, and open-world risk-reward combat.",
+      "items": [
+        {
+          "id": "pve-mode",
+          "title": "PvE Mode",
+          "mode_type": "Risk Setting",
+          "risk_level": "Low",
+          "player_count": "Open world",
+          "core_rules": [
+            "Players who choose PvE Mode are untargetable for open-world PvP unless they start PvP action first.",
+            "PvE and PvP players can still group, quest, trade, run dungeons, raids, and battlegrounds on the same realm structure."
+          ],
+          "rewards": [
+            "Safe leveling",
+            "Dungeon and raid access",
+            "Open-world exploration"
+          ],
+          "best_for": "Players who want CoA classes and PvE content without open-world ganking."
+        },
+        {
+          "id": "pvp-mode",
+          "title": "PvP Mode",
+          "mode_type": "Risk Setting",
+          "risk_level": "Medium",
+          "player_count": "Open world",
+          "core_rules": [
+            "PvP Mode creates a full open-world PvP experience.",
+            "Players can seek out enemies in the open world while still sharing the broader world phase with PvE players for grouping and trading."
+          ],
+          "rewards": [
+            "Open-world fights",
+            "PvP identity",
+            "World conflict"
+          ],
+          "best_for": "Players who want open-world danger without High Risk item loss."
+        },
+        {
+          "id": "high-risk-pvp",
+          "title": "High Risk PvP",
+          "mode_type": "Separate PvP Phase",
+          "risk_level": "High",
+          "player_count": "Open world",
+          "core_rules": [
+            "High Risk PvP is a separate phase.",
+            "Defeating a player in High Risk can make them drop a chest containing pieces of equipped and inventory gear.",
+            "High Risk players can find Bloodforged versions of dungeon and raid gear from open-world monsters."
+          ],
+          "rewards": [
+            "Enemy gear drops",
+            "Bloodforged open-world gear",
+            "Tradeable PvP loot"
+          ],
+          "best_for": "Players who want the highest open-world stakes and accept losing gear in PvP combat."
+        },
+        {
+          "id": "battlegrounds",
+          "title": "Battlegrounds",
+          "mode_type": "Instanced PvP",
+          "risk_level": "Structured",
+          "player_count": "Team-based",
+          "core_rules": [
+            "Battlegrounds provide team PvP objectives.",
+            "Level 60 Battlegrounds are part of the CoA endgame PvP feature set."
+          ],
+          "rewards": [
+            "Team PvP progression",
+            "Objective play",
+            "Class matchup practice"
+          ],
+          "best_for": "Players who want organized fights without open-world ambush rules."
+        },
+        {
+          "id": "arenas",
+          "title": "Arenas",
+          "mode_type": "Instanced PvP",
+          "risk_level": "Competitive",
+          "player_count": "1v1, 2v2, 3v3",
+          "core_rules": [
+            "CoA includes level 60 Arenas in 1v1, 2v2, and 3v3 formats.",
+            "The talent overhaul article also lists rated Arenas with 1v1, 2v2, and 3v3 solo queue as part of the level 60 endgame direction."
+          ],
+          "rewards": [
+            "Competitive class testing",
+            "Small-team matchup mastery",
+            "PvP build optimization"
+          ],
+          "best_for": "Players searching arena, best PvP class, duels, and small-team PvP builds."
+        },
+        {
+          "id": "world-pvp-events",
+          "title": "World PvP Events",
+          "mode_type": "Open-World Event",
+          "risk_level": "Variable",
+          "player_count": "Solo, group, or guild conflict",
+          "core_rules": [
+            "World PvP Events include Crow's Cache and the Gurubashi Blood Bowl.",
+            "Crow's Cache centers on guild-vs-guild combat over a chest of spoils.",
+            "The Blood Bowl focuses on 1v1 gladiatorial combat and enemy-slaying streaks."
+          ],
+          "rewards": [
+            "Open-world spoils",
+            "Guild conflict",
+            "Gladiator-style fights"
+          ],
+          "best_for": "Players who want event-based PvP instead of random open-world fights."
+        },
+        {
+          "id": "crowd-control-identity",
+          "title": "Class Crowd-Control Identity",
+          "mode_type": "PvP Build System",
+          "risk_level": "Matchup-Based",
+          "player_count": "All PvP modes",
+          "core_rules": [
+            "CoA classes have fewer generic crowd-control tools than earlier versions.",
+            "Each class leans into more thematic control identity, such as Necromancer fear or Chronomancer slow.",
+            "Stealth uptime is restricted unless the chosen specialization focuses on stealth."
+          ],
+          "rewards": [
+            "Clearer counters",
+            "More readable matchups",
+            "Stronger class identity"
+          ],
+          "best_for": "Players choosing PvP builds and trying to understand why one class controls fights differently from another."
         }
       ]
     }

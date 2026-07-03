@@ -4,22 +4,41 @@ import { Suspense, lazy } from "react";
 import {
   Activity,
   ArrowRight,
+  Bomb,
+  Castle,
   Check,
+  Cog,
+  Compass,
+  Crosshair,
+  Crown,
+  DoorOpen,
   Download,
+  Eye,
   ExternalLink,
+  Flag,
+  Flame,
+  GitBranch,
   GraduationCap,
   HeartPulse,
   History,
+  Landmark,
+  Lightbulb,
   MonitorDown,
+  Mountain,
+  Network,
   Rocket,
+  Route,
   Server,
   Shield,
+  Skull,
   Sparkles,
   Star,
   Swords,
+  Target,
   Trophy,
   UserPlus,
   Users,
+  Zap,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import Link from "next/link";
@@ -215,6 +234,66 @@ export default function HomePageClient({
     B: Shield,
   };
 
+  // Module 5: Build card icons (distinct per build id)
+  const BUILD_ICONS: Record<string, LucideIcon> = {
+    "talent-system-basics": Lightbulb,
+    "tinker-demolition-build": Bomb,
+    "tinker-mechanics-build": Cog,
+    "pyromancer-incineration-build": Flame,
+    "ranger-archery-build": Target,
+    "cultist-influence-build": Skull,
+  };
+
+  // Module 6: Leveling milestone icons (distinct per milestone id)
+  const LEVELING_ICONS: Record<string, LucideIcon> = {
+    "levels-1-3": Compass,
+    "level-10-spec-choice": GitBranch,
+    "levels-10-35": Swords,
+    "levels-35-45": Shield,
+    "levels-45-55": Zap,
+    "levels-55-58": Flag,
+    "level-60-endgame": Trophy,
+  };
+
+  // Module 7: Dungeon & raid card icons (distinct per content id)
+  const DUNGEON_ICONS: Record<string, LucideIcon> = {
+    "normal-dungeons": DoorOpen,
+    "heroic-dungeons": Shield,
+    "mythic-dungeons": Swords,
+    "mythic-plus-dungeons": Crown,
+    "normal-raid": Castle,
+    "heroic-raid": Landmark,
+    "mythic-ascended-raids": Mountain,
+    "molten-core": Flame,
+    onyxia: Skull,
+  };
+
+  // Module 7: dungeon content grouping order
+  const DUNGEON_CATEGORY_ORDER = ["Dungeons", "Raids", "Raid Highlight"];
+
+  // Module 8: PvP mode icons (distinct per mode id)
+  const PVP_ICONS: Record<string, LucideIcon> = {
+    "pve-mode": Shield,
+    "pvp-mode": Swords,
+    "high-risk-pvp": Skull,
+    battlegrounds: Flag,
+    arenas: Crosshair,
+    "world-pvp-events": Crown,
+    "crowd-control-identity": Eye,
+  };
+
+  // Module 8: risk-level badge styles (semantic palette, no hardcoded hex)
+  const RISK_STYLES: Record<string, string> = {
+    Low: "bg-emerald-500/10 border-emerald-500/30 text-emerald-300",
+    Medium: "bg-amber-500/10 border-amber-500/30 text-amber-300",
+    High: "bg-red-500/10 border-red-500/30 text-red-400",
+    Structured:
+      "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]",
+    Competitive: "bg-violet-500/10 border-violet-500/30 text-violet-300",
+    Variable: "bg-slate-500/10 border-slate-500/30 text-slate-300",
+    "Matchup-Based": "bg-cyan-500/10 border-cyan-500/30 text-cyan-300",
+  };
+
   return (
     <div className="home-shell min-h-screen bg-background text-foreground">
       {/* Structured data */}
@@ -298,7 +377,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Tools Grid - 4 Navigation Cards (位于视频区之后、Latest Updates 之前) */}
+      {/* Tools Grid - 8 Navigation Cards (位于视频区之后、Latest Updates 之前) */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
@@ -321,6 +400,10 @@ export default function HomePageClient({
                 "beginner-guide",
                 "classes-guide",
                 "class-tier-list",
+                "talent-trees-and-builds-guide",
+                "leveling-guide",
+                "dungeons-and-raids-guide",
+                "pvp-and-high-risk-guide",
               ];
               const sectionId = sectionIds[index];
 
@@ -712,6 +795,380 @@ export default function HomePageClient({
               Compare All 21 Classes
               <ArrowRight className="w-4 h-4" />
             </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Talent Trees and Builds Guide */}
+      <section
+        id="talent-trees-and-builds-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-block text-xs md:text-sm font-semibold uppercase tracking-wider mb-3 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+              {t.modules.coaTalentTreesAndBuildsGuide.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["coaTalentTreesAndBuildsGuide"]}
+                locale={locale}
+              >
+                {t.modules.coaTalentTreesAndBuildsGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.coaTalentTreesAndBuildsGuide.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-2xl mx-auto">
+              {t.modules.coaTalentTreesAndBuildsGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.coaTalentTreesAndBuildsGuide.items.map(
+              (build: any, index: number) => {
+                const Icon = BUILD_ICONS[build.id] || Sparkles;
+                return (
+                  <div
+                    key={index}
+                    className="flex flex-col p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex-shrink-0">
+                        <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <h3 className="font-bold text-base md:text-lg">
+                        {build.title}
+                      </h3>
+                    </div>
+                    <div className="flex flex-wrap gap-1.5 mb-3">
+                      {build.class && (
+                        <span className="text-xs px-2 py-0.5 rounded-md bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                          {build.class}
+                        </span>
+                      )}
+                      {build.role && <RoleBadge role={build.role} />}
+                    </div>
+                    {(build.primary_stats ||
+                      build.armor ||
+                      build.class_mechanic) && (
+                      <div className="flex flex-wrap gap-1.5 mb-3 text-xs">
+                        {build.primary_stats && (
+                          <span className="px-2 py-0.5 rounded-md bg-white/5 border border-border text-muted-foreground">
+                            {build.primary_stats.join(", ")}
+                          </span>
+                        )}
+                        {build.armor && (
+                          <span className="px-2 py-0.5 rounded-md bg-white/5 border border-border text-muted-foreground">
+                            {build.armor.join(", ")}
+                          </span>
+                        )}
+                        {build.class_mechanic && (
+                          <span className="px-2 py-0.5 rounded-md bg-white/5 border border-border text-muted-foreground">
+                            {build.class_mechanic}
+                          </span>
+                        )}
+                      </div>
+                    )}
+                    {build.specialization_focus && (
+                      <p className="text-sm text-muted-foreground mb-3">
+                        {build.specialization_focus}
+                      </p>
+                    )}
+                    {build.core_data && (
+                      <ul className="space-y-1.5 mb-3">
+                        {build.core_data.map((d: string, i: number) => (
+                          <li
+                            key={i}
+                            className="flex items-start gap-2 text-sm text-muted-foreground"
+                          >
+                            <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                            <span>{d}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    <p className="text-xs text-muted-foreground/80 italic mt-auto mb-3">
+                      Best for: {build.best_for}
+                    </p>
+                    <div className="p-2.5 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)]">
+                      <p className="text-xs text-muted-foreground">
+                        <span className="font-semibold text-[hsl(var(--nav-theme-light))]">
+                          Tip:
+                        </span>{" "}
+                        {build.player_tip}
+                      </p>
+                    </div>
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Leveling Guide */}
+      <section
+        id="leveling-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-block text-xs md:text-sm font-semibold uppercase tracking-wider mb-3 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+              {t.modules.coaLevelingGuide.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["coaLevelingGuide"]}
+                locale={locale}
+              >
+                {t.modules.coaLevelingGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.coaLevelingGuide.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-2xl mx-auto">
+              {t.modules.coaLevelingGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal relative pl-6 md:pl-8 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-4 md:space-y-5">
+            {t.modules.coaLevelingGuide.items.map(
+              (milestone: any, index: number) => {
+                const Icon = LEVELING_ICONS[milestone.id] || Flag;
+                return (
+                  <div key={index} className="relative">
+                    <div className="absolute -left-[1.6rem] md:-left-[2.1rem] w-8 h-8 md:w-10 md:h-10 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                      <Icon className="w-4 h-4 md:w-5 md:h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div className="p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                      <div className="flex flex-wrap items-center gap-2 mb-3">
+                        <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] font-semibold text-[hsl(var(--nav-theme-light))]">
+                          {milestone.range}
+                        </span>
+                        <h3 className="font-bold text-base md:text-lg">
+                          {milestone.title}
+                        </h3>
+                      </div>
+                      <ul className="space-y-1.5 mb-3">
+                        {milestone.goals.map((g: string, gi: number) => (
+                          <li
+                            key={gi}
+                            className="flex items-start gap-2 text-sm text-muted-foreground"
+                          >
+                            <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                            <span>{g}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      <div className="flex flex-wrap gap-1 mb-3">
+                        {milestone.systems_unlocked.map(
+                          (s: string, si: number) => (
+                            <span
+                              key={si}
+                              className="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-border"
+                            >
+                              {s}
+                            </span>
+                          ),
+                        )}
+                      </div>
+                      <p className="text-xs text-muted-foreground/80 italic">
+                        <span className="font-semibold not-italic text-[hsl(var(--nav-theme-light))]">
+                          Tip:
+                        </span>{" "}
+                        {milestone.player_tip}
+                      </p>
+                    </div>
+                  </div>
+                );
+              },
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Dungeons and Raids Guide */}
+      <section
+        id="dungeons-and-raids-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-block text-xs md:text-sm font-semibold uppercase tracking-wider mb-3 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+              {t.modules.coaDungeonsAndRaidsGuide.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["coaDungeonsAndRaidsGuide"]}
+                locale={locale}
+              >
+                {t.modules.coaDungeonsAndRaidsGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.coaDungeonsAndRaidsGuide.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-2xl mx-auto">
+              {t.modules.coaDungeonsAndRaidsGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-8 md:space-y-10">
+            {DUNGEON_CATEGORY_ORDER.map((cat: string) => {
+              const catItems =
+                t.modules.coaDungeonsAndRaidsGuide.items.filter(
+                  (it: any) => it.category === cat,
+                );
+              if (!catItems.length) return null;
+              return (
+                <div key={cat}>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="h-px flex-1 bg-[hsl(var(--nav-theme)/0.3)]" />
+                    <h3 className="text-sm md:text-base font-bold uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+                      {cat}
+                    </h3>
+                    <div className="h-px flex-1 bg-[hsl(var(--nav-theme)/0.3)]" />
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {catItems.map((item: any, index: number) => {
+                      const Icon = DUNGEON_ICONS[item.id] || Castle;
+                      return (
+                        <div
+                          key={index}
+                          className="flex flex-col p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                        >
+                          <div className="flex items-center gap-2.5 mb-3">
+                            <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex-shrink-0">
+                              <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                            </div>
+                            <h4 className="font-bold text-base">
+                              {item.title}
+                            </h4>
+                          </div>
+                          <div className="flex flex-wrap gap-1.5 mb-3">
+                            <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] font-semibold">
+                              {item.difficulty}
+                            </span>
+                            <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border text-muted-foreground">
+                              {item.party_size}
+                            </span>
+                          </div>
+                          <p className="text-sm text-muted-foreground mb-3">
+                            {item.content_focus}
+                          </p>
+                          <div className="flex flex-wrap gap-1 mb-3">
+                            {item.key_rewards.map((r: string, ri: number) => (
+                              <span
+                                key={ri}
+                                className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border"
+                              >
+                                {r}
+                              </span>
+                            ))}
+                          </div>
+                          <p className="text-xs text-muted-foreground/80 italic mt-auto">
+                            Best for: {item.best_for}
+                          </p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: PvP and High Risk Guide */}
+      <section
+        id="pvp-and-high-risk-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-block text-xs md:text-sm font-semibold uppercase tracking-wider mb-3 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+              {t.modules.coaPvpAndHighRiskGuide.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              <LinkedTitle
+                linkData={moduleLinkMap["coaPvpAndHighRiskGuide"]}
+                locale={locale}
+              >
+                {t.modules.coaPvpAndHighRiskGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.coaPvpAndHighRiskGuide.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground/80 max-w-2xl mx-auto">
+              {t.modules.coaPvpAndHighRiskGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.coaPvpAndHighRiskGuide.items.map(
+              (mode: any, index: number) => {
+                const Icon = PVP_ICONS[mode.id] || Swords;
+                const riskStyle =
+                  RISK_STYLES[mode.risk_level] || RISK_STYLES.Variable;
+                return (
+                  <div
+                    key={index}
+                    className="flex flex-col p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  >
+                    <div className="flex items-center gap-2.5 mb-3">
+                      <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex-shrink-0">
+                        <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <h3 className="font-bold text-base md:text-lg">
+                        {mode.title}
+                      </h3>
+                    </div>
+                    <div className="flex flex-wrap gap-1.5 mb-3">
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-border text-muted-foreground">
+                        {mode.mode_type}
+                      </span>
+                      <span
+                        className={`text-xs px-2 py-0.5 rounded-full border font-semibold ${riskStyle}`}
+                      >
+                        {mode.risk_level}
+                      </span>
+                      <span className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border text-muted-foreground">
+                        {mode.player_count}
+                      </span>
+                    </div>
+                    <ul className="space-y-1.5 mb-3">
+                      {mode.core_rules.map((r: string, ri: number) => (
+                        <li
+                          key={ri}
+                          className="flex items-start gap-2 text-sm text-muted-foreground"
+                        >
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          <span>{r}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <div className="flex flex-wrap gap-1 mb-3">
+                      {mode.rewards.map((rw: string, rwi: number) => (
+                        <span
+                          key={rwi}
+                          className="text-xs px-2 py-0.5 rounded-md bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)]"
+                        >
+                          {rw}
+                        </span>
+                      ))}
+                    </div>
+                    <p className="text-xs text-muted-foreground/80 italic mt-auto">
+                      Best for: {mode.best_for}
+                    </p>
+                  </div>
+                );
+              },
+            )}
           </div>
         </div>
       </section>
