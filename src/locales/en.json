@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Ascension",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,696 +52,380 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Conquest of Azeroth Gameplay",
+    "description": "Explore an enhanced open-world Azeroth with 21 original classes, 69 specializations, Dragonflight-style talent trees, immersive RPG loot, dungeons, raids, and full PvP."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Conquest of Azeroth",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to launch on the Vol'Jin realm, pick a class, and start your adventure",
     "cards": [
+      {
+        "icon": "Download",
+        "title": "Release & Download",
+        "description": "Launch date, realm access, launcher setup, and account creation"
+      },
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First steps from install to your first class and specialization"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "icon": "Users",
+        "title": "All 21 Classes",
+        "description": "Class roles, mechanics, specializations, and who fits each style"
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Class Tier List",
+        "description": "Launch-focused class recommendations for first-time players"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "coaReleaseDateDownloadGuide": {
+      "eyebrow": "Release & Access",
+      "title": "Conquest of Azeroth Release Date, Download, and Realm Access",
+      "subtitle": "Conquest of Azeroth launches on the Vol'Jin realm on July 3, 2026. Use the official Project Ascension launcher, create one Ascension account, and select the Conquest of Azeroth realm from the launcher flow.",
+      "intro": "The clean path from release time to character creation: launch date, official download, account setup, launcher choice, realm selection, and where to check live server status.",
+      "items": [
+        {
+          "label": "Full Release",
+          "date": "July 3, 2026",
+          "time": "7:00 AM Pacific / 10:00 AM Eastern / 3:00 PM GMT",
+          "detail": "The launch is set for the Vol'Jin Conquest of Azeroth realm, with the official release video announcing the same July 3 release window."
+        },
+        {
+          "label": "Launch Realm",
+          "date": "July 3, 2026",
+          "time": "Vol'Jin",
+          "detail": "Vol'Jin is the Conquest of Azeroth launch realm shown on the official Ascension timeline."
+        },
+        {
+          "label": "Live Server Status",
+          "date": "Real-time",
+          "time": "Ascension homepage",
+          "detail": "The Ascension homepage shows server labels such as Login Server, Bronzebeard, Area 52, and Vol'Jin status so players can confirm the realm is online before logging in."
+        },
+        {
+          "label": "Official Download",
+          "date": "Available now",
+          "time": "Project Ascension launcher",
+          "detail": "Download the official Ascension PC launcher. The launcher patches the game, manages approved addons, and lets players switch between Bronzebeard, Elune, and Conquest of Azeroth realms."
+        },
+        {
+          "label": "Account Setup",
+          "date": "Before launch",
+          "time": "One Ascension account",
+          "detail": "Create one Ascension account with an email and password, then use that same account to log in through the launcher."
+        },
+        {
+          "label": "Open Beta History",
+          "date": "Pre-launch",
+          "time": "Open beta events",
+          "detail": "Earlier open beta events let players test all 21 classes on event realms, with level 45, level 55, and level 58 beta caps before the full launch path moved to Vol'Jin."
+        }
+      ],
+      "checklist": [
+        "Create your Ascension account with email and password",
+        "Download the Project Ascension launcher and let it patch the game",
+        "Select the Conquest of Azeroth realm (Vol'Jin) from the realm list",
+        "Check the Ascension homepage to confirm the realm is online",
+        "Log in and create your first character from 21 original classes"
+      ],
+      "downloadCta": "Download on Ascension",
+      "statusCta": "Check Realm Status"
+    },
+    "coaBeginnerGuide": {
+      "eyebrow": "New Player Guide",
+      "title": "How to Start Playing Conquest of Azeroth",
+      "subtitle": "Start with the official launcher, choose the Conquest of Azeroth realm, create one of the 21 original classes, and follow your class trainer path early.",
+      "intro": "Conquest of Azeroth is not just a normal classless Ascension start. It uses 21 original Warcraft-inspired classes, custom talent trees, class trainers, new RPG creature stats, open-world item drops, and launch realm progression.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Create an Ascension account",
+          "description": "Use the official Ascension sign-up flow with an email and password. The same account works through the Ascension launcher."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Install the official launcher",
+          "description": "Download the Project Ascension launcher from the official download page and let it patch the game before choosing a realm."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Select the Conquest of Azeroth realm",
+          "description": "For launch play, select the Conquest of Azeroth realm path (Vol'Jin) from the Ascension launcher and realm list."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Choose one of 21 original classes",
+          "description": "Pick from classes such as Necromancer, Pyromancer, Cultist, Starcaller, Tinker, Reaper, Bloodmage, Guardian, Felsworn, Witch Hunter, Ranger, and more."
+        },
+        {
+          "title": "Follow your early class quest",
+          "description": "Class trainers were added to essential starting zones, with an early prompt around level 3 to help players find their class quest and trainer."
+        },
+        {
+          "title": "Choose your specialization at level 10",
+          "description": "Each class has three or more specializations, with a class tree and a specialization tree inspired by Dragonflight-style talent choices."
+        },
+        {
+          "title": "Use talents to shape your role",
+          "description": "Many classes can cover more than one role, including tank, DPS, healer, or support. The Auto-Build option helps players avoid early talent confusion."
+        },
+        {
+          "title": "Learn the rebuilt world systems",
+          "description": "Conquest of Azeroth adds RPG creature stats, immersive gear drops, open-world RPG items, new points of interest, custom areas, and expanded PvE and PvP options."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "One Ascension account works across all supported Ascension realms.",
+        "Use the Auto-Build option early to avoid talent confusion while learning your class.",
+        "Visit your class trainer in the starting zone to unlock your class quest early.",
+        "Open-world RPG loot means gear drops matter from the very first levels."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "coaClassesGuide": {
+      "eyebrow": "Classes",
+      "title": "All 21 Conquest of Azeroth Classes",
+      "subtitle": "Conquest of Azeroth features 21 original classes with three or more specializations, custom visuals, unique mechanics, and roles built around Warcraft lore.",
+      "intro": "Use this class grid to compare each class by role, armor, primary stats, specializations, core mechanic, and best-fit playstyle before choosing your launch character.",
+      "classes": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Necromancer",
+          "roles": ["DPS"],
+          "primaryStats": ["Intellect"],
+          "armor": ["Cloth"],
+          "specializations": ["Death", "Animation", "Rime"],
+          "mechanic": "Life Force fuels multiple undead pets and dark caster tools.",
+          "bestFor": "Players who want a pet-heavy dark caster with plague, frost, and undead swarm gameplay."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Pyromancer",
+          "roles": ["DPS", "Healer"],
+          "primaryStats": ["Intellect"],
+          "armor": ["Cloth"],
+          "specializations": ["Incineration", "Draconic", "Flameweaving"],
+          "mechanic": "Fire magic, meteors, dragon-themed burst tools, and phoenix-style healing.",
+          "bestFor": "Players who want direct fire damage with an optional healing path."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "Cultist",
+          "roles": ["Tank", "DPS", "Healer"],
+          "primaryStats": ["Strength", "Intellect"],
+          "armor": ["Cloth", "Plate"],
+          "specializations": ["Godblade", "Corruption", "Influence", "Dreadnought"],
+          "mechanic": "Insanity rewards high damage but punishes uncontrolled buildup.",
+          "bestFor": "Players who like Old God fantasy, high-risk power, and dark hybrid roles."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Starcaller",
+          "roles": ["Tank", "DPS", "Healer"],
+          "primaryStats": ["Intellect"],
+          "armor": ["Mail", "Plate"],
+          "specializations": ["Warden", "Sentinel", "Moon Priest", "Moon Guard"],
+          "mechanic": "Lunar power shapes weapons, healing, barriers, and astral combat styles.",
+          "bestFor": "Players who want a flexible lunar knight with tank, healer, and ranged or melee options."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Sun Cleric",
+          "roles": ["Tank", "DPS", "Healer"],
+          "primaryStats": ["Strength", "Intellect"],
+          "armor": ["Cloth", "Plate"],
+          "specializations": ["Piety", "Seraphim", "Blessings", "Valkyrie"],
+          "mechanic": "Solar Power and Sunset stacks empower holy fire damage, defense, and healing.",
+          "bestFor": "Players who want holy fire fantasy with true hybrid role coverage."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "Tinker",
+          "roles": ["DPS", "Healer"],
+          "primaryStats": ["Agility", "Intellect"],
+          "armor": ["Leather", "Mail"],
+          "specializations": ["Demolition", "Mechanics", "Invention"],
+          "mechanic": "Rounds, bombs, turrets, mechs, beacons, and nanobots control the battlefield.",
+          "bestFor": "Players who enjoy engineering tools, summons, gadgets, and utility-heavy gameplay."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "name": "Runemaster",
+          "roles": ["DPS"],
+          "primaryStats": ["Intellect", "Spirit"],
+          "armor": ["Cloth"],
+          "specializations": ["Spellslinger", "Riftblade", "Conjuration"],
+          "mechanic": "Attunement cycles through Frost, Fire, and Arcane while runes empower abilities.",
+          "bestFor": "Players who like technical caster gameplay, rune planning, and magic combos."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "name": "Primalist",
+          "roles": ["Tank", "Healer", "DPS"],
+          "primaryStats": ["Strength", "Intellect"],
+          "armor": ["Plate"],
+          "specializations": ["Geomancy", "Mountain King", "Wildwalker", "Life"],
+          "mechanic": "Earth, nature, wild gods, boons, animal spirits, and durable plate-based hybrid play.",
+          "bestFor": "Players who want a sturdy nature-themed hybrid with tanking, healing, and damage paths."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "name": "Reaper",
+          "roles": ["Tank", "DPS"],
+          "primaryStats": ["Strength", "Intellect"],
+          "armor": ["Plate"],
+          "specializations": ["Harvest", "Soul", "Domination"],
+          "mechanic": "Soul harvesting, health spending, lifesteal, shadow tricks, and death-themed sustain.",
+          "bestFor": "Players who want a self-sustaining melee bruiser or shadow tank."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "name": "Venomancer",
+          "roles": ["Tank", "Healer", "DPS"],
+          "primaryStats": ["Intellect"],
+          "armor": ["Leather", "Mail"],
+          "specializations": ["Rot", "Vizier", "Stalking", "Fortitude"],
+          "mechanic": "Poison shapeshift forms, rot effects, healing-over-time support, stealth, and scorpion defenses.",
+          "bestFor": "Players who want poison, shapeshifting, and hybrid utility."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "name": "Chronomancer",
+          "roles": ["DPS", "Healer"],
+          "primaryStats": ["Intellect", "Spirit"],
+          "armor": ["Cloth"],
+          "specializations": ["Duality", "Artificer", "Displacement"],
+          "mechanic": "Order and chaos magic, wand ramping, time clones, rewinds, displacement, and healing utility.",
+          "bestFor": "Players who want a trickster mage with strong utility and healer options."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "name": "Bloodmage",
+          "roles": ["Tank", "DPS", "Healer"],
+          "primaryStats": ["Intellect", "Spirit", "Agility", "Stamina"],
+          "armor": ["Leather"],
+          "specializations": ["Fleshweaver", "Sanguine", "Accursed", "Eternal"],
+          "mechanic": "Blood magic spends health, builds Rage, siphons life, and uses transformation effects.",
+          "bestFor": "Players who want vampiric sustain, blood-fueled spellcasting, and flexible tank/healer/DPS paths."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "name": "Guardian",
+          "roles": ["Tank", "DPS", "Support"],
+          "primaryStats": ["Strength"],
+          "armor": ["Plate"],
+          "specializations": ["Gladiator", "Vanguard", "Inspiration"],
+          "mechanic": "Martial weapon mastery, shield tanking, banners, songs, and group support tools.",
+          "bestFor": "Players who want a clear plate fighter with safe tanking and party support."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Stormbringer",
+          "roles": ["DPS", "Support"],
+          "primaryStats": ["Intellect"],
+          "armor": ["Cloth"],
+          "specializations": ["Lightning", "Thunder", "Winds"],
+          "mechanic": "Static stacks increase spell procs and damage while storm tools and air elemental support allies.",
+          "bestFor": "Players who want lightning caster gameplay with support pressure."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Felsworn",
+          "roles": ["Tank", "DPS"],
+          "primaryStats": ["Agility", "Intellect"],
+          "armor": ["Leather"],
+          "specializations": ["Slaying", "Infernal", "Tyrant"],
+          "mechanic": "Felfury Charges, Demon Form, and Felstrikes support agile melee, mobile caster, and dodge tank styles.",
+          "bestFor": "Players who want demonic mobility, burst combos, and fel-themed tank or DPS gameplay."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "name": "Barbarian",
+          "roles": ["DPS", "Support"],
+          "primaryStats": ["Agility"],
+          "armor": ["Leather"],
+          "specializations": ["Ancestry", "Brutality", "Headhunting"],
+          "mechanic": "Unbridled Rage builds in combat, with Enraged effects unlocking stronger attacks.",
+          "bestFor": "Players who want axes, bleeds, physical pressure, and party buffs."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "Witch Doctor",
+          "roles": ["DPS", "Healer"],
+          "primaryStats": ["Agility", "Intellect"],
+          "armor": ["Leather"],
+          "specializations": ["Brewing", "Voodoo", "Shadowhunting"],
+          "mechanic": "Potions, hexes, jinxes, healing wards, Loa magic, and dinosaur summons.",
+          "bestFor": "Players who want utility healing, damage-over-time pressure, and troll voodoo fantasy."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "Witch Hunter",
+          "roles": ["Tank", "DPS"],
+          "primaryStats": ["Agility"],
+          "armor": ["Mail"],
+          "specializations": ["Boltslinger", "Darkness", "Black Knight"],
+          "mechanic": "Crossbows, muskets, silver shots, hounds, shadow tools, and dark tank sustain.",
+          "bestFor": "Players who want mobile monster-hunter gameplay with ranged damage or tank options."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Knight of Xoroth",
+          "roles": ["Tank", "DPS"],
+          "primaryStats": ["Strength", "Intellect"],
+          "armor": ["Plate"],
+          "specializations": ["War", "Hellfire", "Defiance"],
+          "mechanic": "Deathfire builds like a finisher resource, powering hooks, chains, hellfire, demons, and tank tools.",
+          "bestFor": "Players who want a heavy hell-knight bruiser with apocalyptic melee and tank fantasy."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "name": "Templar",
+          "roles": ["Tank", "DPS"],
+          "primaryStats": ["Agility"],
+          "armor": ["Mail"],
+          "specializations": ["Crusader", "Martial", "Discipline"],
+          "mechanic": "Openers and Followups build into Combo Breaker finishing moves.",
+          "bestFor": "Players who enjoy combo timing, agile melee combat, and staff-based tanking."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "name": "Ranger",
+          "roles": ["DPS", "Support"],
+          "primaryStats": ["Agility"],
+          "armor": ["Leather"],
+          "specializations": ["Archery", "Brigand", "Farstrider"],
+          "mechanic": "Quiver abilities, poisons, melee ambushes, War Falcons, and support horns.",
+          "bestFor": "Players who want archer, outlaw, or wilderness support gameplay."
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
+    "coaClassTierList": {
+      "eyebrow": "Tier List",
+      "title": "Conquest of Azeroth Class Tier List for Launch Starters",
+      "subtitle": "A launch-focused recommendation grid for choosing your first class on Vol'Jin, built around official class roles, class mechanics, beta popularity notes, and beginner readability.",
+      "intro": "This tier list is designed for the first character choice: smooth leveling, clear role identity, useful group tools, and forgiving mechanics matter more than chasing a damage chart before you have even installed the launcher.",
+      "tiers": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "tier": "S",
+          "label": "Best First Picks",
+          "basis": "Strong launch starter value, clear gameplay loop, role usefulness, and official beta popularity signals.",
+          "classes": [
+            { "name": "Necromancer", "roles": ["DPS"], "reason": "One of the officially highlighted top popular classes, with a clear undead pet-summoner identity and a simple damage goal." },
+            { "name": "Bloodmage", "roles": ["Tank", "DPS", "Healer"], "reason": "One of the officially highlighted top popular classes, with self-sustain, blood magic, and multiple role paths." },
+            { "name": "Reaper", "roles": ["Tank", "DPS"], "reason": "One of the officially highlighted top popular classes, with plate armor, lifesteal themes, and a self-sustaining melee style." },
+            { "name": "Guardian", "roles": ["Tank", "DPS", "Support"], "reason": "A direct plate fighter with tank, DPS, and support paths, making it one of the safest first choices for group play." },
+            { "name": "Pyromancer", "roles": ["DPS", "Healer"], "reason": "A readable fire caster with heavy single-target and AoE damage plus a Flameweaving healer option." }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "tier": "A",
+          "label": "Flexible Strong Picks",
+          "basis": "Great role coverage and strong fantasy, with slightly more class-specific systems to learn.",
+          "classes": [
+            { "name": "Starcaller", "roles": ["Tank", "DPS", "Healer"], "reason": "Excellent role spread with lunar tanking, healing, and damage options." },
+            { "name": "Sun Cleric", "roles": ["Tank", "DPS", "Healer"], "reason": "A full hybrid holy-fire class with Solar Power and clear spec identity." },
+            { "name": "Primalist", "roles": ["Tank", "Healer", "DPS"], "reason": "Durable plate hybrid with earth, beast, and nature healing paths." },
+            { "name": "Cultist", "roles": ["Tank", "DPS", "Healer"], "reason": "Powerful hybrid coverage with Old God mechanics, though Insanity management asks for more attention." },
+            { "name": "Tinker", "roles": ["DPS", "Healer"], "reason": "Great for gadget players who like turrets, bombs, rounds, beacons, and support tools." },
+            { "name": "Chronomancer", "roles": ["DPS", "Healer"], "reason": "Strong utility fantasy with rewinds, clones, displacement, wand builds, and healing tools." },
+            { "name": "Felsworn", "roles": ["Tank", "DPS"], "reason": "Mobile fel-themed melee, caster, and tank paths with Demon Form and Felfury Charges." }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "tier": "B",
+          "label": "Good Specialist Picks",
+          "basis": "Strong class fantasy and useful tools, best for players who already know which style they want.",
+          "classes": [
+            { "name": "Venomancer", "roles": ["Tank", "Healer", "DPS"], "reason": "Poison shapeshifting is flexible and flavorful, with Rot, Vizier, Stalking, and Fortitude paths." },
+            { "name": "Witch Doctor", "roles": ["DPS", "Healer"], "reason": "Potion, hex, ward, and Loa gameplay offers strong utility for players who enjoy setup-heavy support." },
+            { "name": "Witch Hunter", "roles": ["Tank", "DPS"], "reason": "Mobile ranged and dark tank tools make it stylish, and its monster-hunter kit rewards active play." },
+            { "name": "Ranger", "roles": ["DPS", "Support"], "reason": "Archery, Brigand, and Farstrider paths make it a strong pick for ranged damage and support horns." },
+            { "name": "Knight of Xoroth", "roles": ["Tank", "DPS"], "reason": "A heavy hellfire bruiser with Deathfire finishers, chains, demons, and tank options." },
+            { "name": "Templar", "roles": ["Tank", "DPS"], "reason": "Combo-based melee with Openers, Followups, and Combo Breakers, best for players who enjoy timing." },
+            { "name": "Stormbringer", "roles": ["DPS", "Support"], "reason": "Static stacking, storm damage, and air elemental support create a strong caster-support identity." },
+            { "name": "Barbarian", "roles": ["DPS", "Support"], "reason": "Axes, rage, bleeds, ale buffs, and ancestor tools work best for players who want physical pressure." },
+            { "name": "Runemaster", "roles": ["DPS"], "reason": "Rune storage, attunement cycling, and spell combinations make it powerful for players who enjoy technical DPS." }
           ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
         }
       ]
     }
@@ -749,31 +433,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Conquest of Azeroth",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Conquest of Azeroth?",
+        "answer": "Conquest of Azeroth is a Classic+ custom WoW MMORPG built on Project Ascension, featuring 21 original classes, 69 specializations, Dragonflight-style talent trees, immersive open-world RPG loot, dungeons, raids, and full PvP."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "When does Conquest of Azeroth release?",
+        "answer": "Conquest of Azeroth reaches full release on July 3, 2026 on the Vol'Jin realm, with the launch window announced in the official Ascension release video as 7:00 AM Pacific / 3:00 PM GMT."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I download and play Conquest of Azeroth?",
+        "answer": "Download the official Project Ascension launcher from ascension.gg, create one Ascension account, let the launcher patch the game, then select the Conquest of Azeroth realm (Vol'Jin) from the realm list."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How many classes are in Conquest of Azeroth?",
+        "answer": "Conquest of Azeroth features 21 original classes, each with three or more specializations, for 69 total specializations and 1000+ spells and talents across the class and specialization trees."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Which realms support Conquest of Azeroth?",
+        "answer": "Conquest of Azeroth launches on the Vol'Jin realm. The Ascension launcher lets players switch between Bronzebeard, Elune, and Conquest of Azeroth realms using one account."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Can I play Conquest of Azeroth with friends?",
+        "answer": "Yes. Conquest of Azeroth includes group PvE content such as dungeons and raids, plus Battlegrounds, Arena, and World PvP, so party play is a core part of the launch experience."
       }
     ]
   },
@@ -802,124 +486,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Conquest of Azeroth Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced class builds, leveling, and endgame strategies for Conquest of Azeroth.",
+      "metaTitle": "Conquest of Azeroth Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Conquest of Azeroth guides covering beginner tips, classes, builds, talents, leveling, dungeons, raids, and PvP for Ascension players.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, class builds, leveling strategies, and endgame content for Conquest of Azeroth.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand classes, talent trees, and specializations to avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven leveling and gearing paths to thrive in the open world",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for dungeons, raids, and PvP"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Conquest of Azeroth Builds",
+      "description": "Master class builds, talent trees, and specialization choices with tested combinations for PvE and PvP.",
+      "metaTitle": "Conquest of Azeroth Builds - Talent Trees & Specs",
+      "metaDescription": "Master Conquest of Azeroth builds with class trees, specialization choices, and talent paths for every role and playstyle.",
+      "categoryLabel": "BUILDS & TALENTS",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "Builds combine your class tree, specialization tree, and talent choices into a focused role, such as tank, DPS, healer, or support.",
+      "why": "Why plan builds?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Pick the Right Spec",
+        "step1Description": "Match your specialization to your preferred role and content type",
+        "step2Title": "Use Auto-Build Early",
+        "step2Description": "Avoid talent confusion while learning a new class",
+        "step3Title": "Optimize for Content",
+        "step3Description": "Tune your build for leveling, dungeons, raids, or PvP"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Build Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Conquest of Azeroth Gear",
+      "description": "Detailed gear guides covering open-world RPG loot, itemization, weapons, armor, and class equipment.",
+      "metaTitle": "Conquest of Azeroth Gear - Items & Equipment Guide",
+      "metaDescription": "Complete gear guide for Conquest of Azeroth including open-world RPG loot, itemization, weapons, armor, and class equipment.",
+      "categoryLabel": "GEAR & ITEMS",
+      "whatIs": "What is Gear?",
+      "whatIsDescription": "Guides for open-world RPG loot, itemization, weapons, armor, and class-specific equipment in Conquest of Azeroth.",
+      "why": "Why check gear guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Understand Stats",
+        "step1Description": "Learn which primary stats matter for your class and role",
+        "step2Title": "Find Loot Sources",
+        "step2Description": "Discover where open-world RPG items drop",
+        "step3Title": "Optimize Equipment",
+        "step3Description": "Choose the right weapons and armor for your build"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Gear Guides"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
+      "title": "Conquest of Azeroth World",
+      "description": "Explore the enhanced open-world Azeroth, its regions, points of interest, custom areas, and danger zones.",
+      "metaTitle": "Conquest of Azeroth World - Regions & Exploration",
+      "metaDescription": "Explore the enhanced open-world Azeroth in Conquest of Azeroth including regions, points of interest, custom areas, and exploration tips.",
       "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "whatIs": "What is the World?",
+      "whatIsDescription": "Guides to the enhanced open-world Azeroth, its regions, points of interest, custom areas, and environmental features.",
+      "why": "Why explore the world?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Find Content",
+        "step1Description": "Locate dungeons, raids, world bosses, and PvP zones",
+        "step2Title": "Understand Threats",
+        "step2Description": "Read about RPG creature stats and danger zones",
+        "step3Title": "Plan Your Route",
+        "step3Description": "Prepare the right gear for each region"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All World Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Conquest of Azeroth Leveling",
+      "description": "Master the 1-60 leveling journey, class trainers, skill unlocks, talent points, and key milestones.",
+      "metaTitle": "Conquest of Azeroth Leveling - 1-60 Progression Guide",
+      "metaDescription": "Master Conquest of Azeroth leveling with the 1-60 progression path, class trainers, skill unlocks, talents, and milestones.",
+      "categoryLabel": "LEVELING",
+      "whatIs": "What is Leveling?",
+      "whatIsDescription": "Guides to the 1-60 leveling journey, class trainers, skill unlocks, talent points, and important progression milestones.",
+      "why": "Why plan leveling?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Follow Class Trainers",
+        "step1Description": "Unlock your class quest and key abilities early",
+        "step2Title": "Spend Talents Well",
+        "step2Description": "Use Auto-Build to stay effective while learning",
+        "step3Title": "Hit Key Milestones",
+        "step3Description": "Reach spec choice at level 10 and beyond"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Leveling Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Conquest of Azeroth Setup",
+      "description": "Technical setup, launcher install, account creation, realm selection, and troubleshooting for Conquest of Azeroth.",
+      "metaTitle": "Conquest of Azeroth Setup - Launcher, Account & Fixes",
+      "metaDescription": "Get set up for Conquest of Azeroth with launcher install, account creation, realm selection, and troubleshooting for common issues.",
+      "categoryLabel": "SETUP & SUPPORT",
+      "whatIs": "What is Setup?",
+      "whatIsDescription": "Technical guides covering launcher installation, account creation, realm selection, and common troubleshooting for Conquest of Azeroth.",
+      "why": "Why check setup?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Install Correctly",
+        "step1Description": "Set up the Ascension launcher and patch the game",
+        "step2Title": "Pick the Right Realm",
+        "step2Description": "Select the Conquest of Azeroth realm (Vol'Jin)",
+        "step3Title": "Fix Issues Fast",
+        "step3Description": "Resolve launcher, login, and connection problems"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Setup Articles"
     }
   }
 }
