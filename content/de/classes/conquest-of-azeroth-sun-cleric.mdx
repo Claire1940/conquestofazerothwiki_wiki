@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Sonnenkleriker: Build-Guide & Spezialisierungs-Rankings",
+  description: "Meistern Sie die Sonnenkleriker-Klasse in Conquest of Azeroth im Jahr 2026. Entdecken Sie Top-Builds, Spezialisierungsmechaniken und Rotationsstrategien.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/d97706/fff?text=Sun+Cleric+Build+Guide",
+  date: "2026-07-03",
+  author: "conquest of azeroth Wiki-Team",
+  keywords: "Sonnenkleriker, Conquest of Azeroth, Build-Guide, Spezialisierungen, WoW Klasse"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Conquest of Azeroth Sonnenkleriker**: Eine äußerst vielseitige Klasse, die als Tank, Heiler, Nahkampf-DPS oder Zauber-DPS fungieren kann.
+- **Dämmerung-Mechanik**: Sammeln Sie Stapel von Solarenergie, um die Dämmerung auszulösen, die Ihre nächsten fünf Fähigkeiten erheblich verstärkt.
+- **Spezialisierungsvielfalt**: Wählen Sie zwischen Frömmigkeit (Zauberer), Walküre (Nahkampf), Seraphim (Tank) oder Segen (Heiler).
+- **Ressourcen-Synergie**: Meistern Sie das Gleichgewicht von Mana, Wut und Solarenergie, um Ihre Rotation zu optimieren.
+</Callout>
+
+<Section icon={Sparkles} title="Kernmechaniken und Solarenergie">
+
+Der Sonnenkleriker von Conquest of Azeroth steht als strahlender Champion auf dem Schlachtfeld und nutzt die Kraft der brennenden Sonne, um Feinde zu verbrennen, Verbündete zu schützen und Gerechtigkeit in die dunkelsten Ecken der Welt zu bringen. Diese Klasse ist einzigartig vielseitig und ermöglicht es den Spielern, sich auf Nahkampf, Fernkampfzauber, Tanken oder Heilung zu spezialisieren. Um diese Klasse effektiv zu spielen, müssen Sie verstehen, wie sie ihre Kernressourcensysteme manipuliert, um verheerende göttliche Zauber zu entfesseln.
+
+**Video-Highlights:**
+- **Vielseitige Rollen**: Demonstriert den Sonnenkleriker in den Rollen als Tank, Heiler, Nahkampf-DPS und Zauber-DPS.
+- **Solarenergie-System**: Erklärt, wie man Solarenergie stapelt, um die mächtige Dämmerung-Mechanik zu aktivieren.
+- **Spezialisierungs-Übersicht**: Details zu den Spielstilen von Frömmigkeit, Walküre, Seraphim und Segen.
+
+<YouTubeEmbed videoId="LQ5kUApKG8w" title="Neue WoW-Klasse: Sonnenkleriker - Conquest of Azeroth" />
+
+Im Gegensatz zu traditionellen Klassen, die auf eine einzige Ressource angewiesen sind, nutzt der Sonnenkleriker eine Kombination aus Mana, Wut und einem einzigartigen stapelbaren Buff namens Solarenergie. Während Sie Kampfhandlungen durchführen und Ihre Klassenfähigkeiten einsetzen, erzeugen Sie Stapel von Solarenergie. Sobald Ihr Lichtpool vollständig aufgeladen ist, können Sie die Dämmerung entfesseln. Die Aktivierung der Dämmerung verstärkt Ihre nächsten fünf Fähigkeiten mit zusätzlichen Strahlungseffekten, wie erhöhtem Heiligschaden, Bonusheilung oder garantierten kritischen Treffern.
+
+| Ressource | Erzeugungsmethode | Primäre Verwendung | Zugehörige Specs |
+|---|---|---|---|
+| **Mana** | Passive Regeneration, Talente | Zauber, Heilung, Nutzen | Segen, Frömmigkeit |
+| **Wut** | Nahkampfangriffe, spezifische Zauber | Brennende Angriffe, schwere Schläge | Walküre, Frömmigkeit, Seraphim |
+| **Solarenergie** | Ausführung von Klassenfähigkeiten | Aktivierung der Dämmerungs-Verstärkung | Alle Spezialisierungen |
+
+<Callout type="tip" title="Solarenergie-Management">
+Verschwenden Sie Ihre Dämmerungs-Verstärkung nicht für Fähigkeiten mit geringer Wirkung. Planen Sie Ihre Rotation so, dass Ihre Zauber mit dem höchsten Schaden oder der höchsten Heilung von den garantierten kritischen Treffern und Strahlungsboni profitieren.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Spezialisierungsprofile und Spielstile">
+
+Der Sonnenkleriker verfügt über vier verschiedene Spezialisierungen, die jeweils eine völlig unterschiedliche Rolle in Gruppeninhalten und im Solo-Fortschritt abdecken. Egal, ob Sie es vorziehen, mit einem massiven Schild an der Front zu stehen oder Sonnenflammen aus der Ferne herabzurufen, es gibt einen Spielstil, der Ihren Vorlieben entspricht.
+
+<CardGrid cols={2}>
+  <Card title="Frömmigkeit (Zauber-DPS)">
+    - **Fernkampf-Feuer- und Heiligmagie**
+    - Hohe Burst-Schaden-Fähigkeiten
+    - Nutzt Wut, um Sonnenzorn zu befeuern
+  </Card>
+  <Card title="Walküre (Nahkampf-DPS)">
+    - **Führt zwei Zweihandwaffen gleichzeitig**
+    - Hohe Mobilität und Angriffsgeschwindigkeit
+    - Erzeugt Tagesanbruch-Stapel für Sofortzauber
+  </Card>
+  <Card title="Seraphim (Tank)">
+    - **Hohe Verteidigungsfähigkeiten**
+    - Nutzt einen massiven Schild zum Schutz
+    - Badet das Schlachtfeld in rechtschaffenen Flammen
+  </Card>
+  <Card title="Segen (Heiler)">
+    - **Erzeugt schadensabsorbierende Schilde**
+    - Führung-Mechanik strahlt Zauber von Verbündeten aus
+    - Heilige Form verstärkt die Heilleistung enorm
+  </Card>
+</CardGrid>
+
+Jede Spezialisierung verändert die Art und Weise, wie der Sonnenkleriker mit dem Feind interagiert und Ressourcen verwaltet. Zum Beispiel fungieren Frömmigkeits-Kleriker als Kampfzauberer, die Zauber wie Horath-Explosion verwenden, um Wut zu erzeugen, die dann für mächtige Verzückungen ausgegeben wird. Walküren hingegen verlassen sich auf physische Angriffe, um Tagesanbruch-Stapel aufzubauen, was es ihnen ermöglicht, Zauber mitten im Kampf sofort zu wirken, ohne ihren Nahkampf-Fluss zu unterbrechen.
+
+| Spezialisierung | Rolle | Wichtigste Waffen | Kernmechanik | Spielstil |
+|---|---|---|---|---|
+| **Frömmigkeit** | Zauber-DPS | Stab / Zaubermacht | Horath-Explosion & Wut | Fernkampf-Burst |
+| **Walküre** | Nahkampf-DPS | Zwei 2H-Waffen | Tagesanbruch-Stapel | Schneller Nahkampf |
+| **Seraphim** | Tank | 1H-Waffe & Schild | Rechtschaffene Flamme | Schadensvermeidung |
+| **Segen** | Heiler | Streitkolben & Nebenhand | Bollwerk & Führung | Schild-Heilung |
+
+<Callout type="warning" title="Ressourcenknappheit">
+Die Spezialisierungen Frömmigkeit und Walküre erfordern eine sorgfältige Überwachung der Wut. Wenn Ihnen in kritischen Momenten die Wut ausgeht, kann dies Ihre Rotation stoppen und Ihren Schadensausstoß erheblich senken.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kampfrotation und Build-Schritte">
+
+Um die Effizienz Ihres Sonnenklerikers zu maximieren, müssen Sie einen strukturierten Ansatz im Kampf verfolgen. Die Rotation ändert sich je nach gewählter Spezialisierung, aber das grundlegende Ziel bleibt gleich: Solarenergie erzeugen, Dämmerung aktivieren und Ihre verstärkten Fähigkeiten ausführen.
+
+<Steps>
+  <Step num="1" title="Initiale Ressourcen generieren">
+    Beginnen Sie den Kampf mit Ihren primären Ressourcengeneratoren. Wirken Sie für Frömmigkeit Horath-Explosion, um Wut aufzubauen. Für die Walküre begeben Sie sich in den Nahkampf, um Tagesanbruch zu stapeln.
+  </Step>
+  <Step num="2" title="Solarenergie stapeln">
+    Nutzen Sie weiterhin Ihre Rotationsfähigkeiten, um Ihren Solarenergie-Pool aufzubauen. Beobachten Sie den Buff-Tracker, um zu sehen, wann Ihr Pool fast voll ist.
+  </Step>
+  <Step num="3" title="Die Dämmerung entfesseln">
+    Lösen Sie die Dämmerung-Fähigkeit aus, sobald Ihre Solarenergie maximiert ist. Dies wird Ihre nächsten fünf Zauber oder Angriffe mit Strahlungseigenschaften verstärken.
+  </Step>
+  <Step num="4" title="Verstärkte Zauber ausführen">
+    Wirken Sie Ihre schwergewichtigen Fähigkeiten, wie Sonnenzorn für DPS oder massive Heilungen für Segen, um die garantierten kritischen Treffer zu nutzen.
+  </Step>
+</Steps>
+
+Bei der Ausrüstung Ihres Charakters ist die Priorisierung der richtigen Werte entscheidend für die Leistungsoptimierung. Die folgende Tabelle skizziert die empfohlenen Werteprioritäten für jeden der vier Pfade.
+
+| Spezialisierung | Primärwert | Sekundärwert | Tertiärwert |
+|---|---|---|---|
+| **Frömmigkeit** | Intelligenz | Tempo | Kritischer Zaubertreffer |
+| **Walküre** | Stärke | Kritischer Nahkampftreffer | Tempo |
+| **Seraphim** | Stärke | Rüstung / Ausdauer | Parieren / Ausweichen |
+| **Segen** | Intelligenz | Zaubermacht | Manaregeneration |
+
+<Callout type="success" title="Tipp zur Ausrüstungswahl">
+Suchen Sie nach Ausrüstung, die Hybrid-Werte bietet, wenn Sie planen, die Spezialisierung häufig zu wechseln. Stärkebasierte Ausrüstung mit Rüstung funktioniert sowohl für die Walküre als auch für den Seraphim gut.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritts-Meilensteine und Ziele">
+
+Während Sie Ihren Charakter durch die verschiedenen Zonen leveln, schalten Sie wichtige Talente und Fähigkeiten frei, die Ihre Spezialisierung definieren. Das Setzen von Fortschritts-Meilensteinen hilft sicherzustellen, dass Ihr Charakter mächtig genug bleibt, um Endgame-Inhalte zu bewältigen.
+
+<Checklist
+  id="sun-cleric-milestones"
+  title="Wichtige Klassen-Meilensteine:"
+  items={[
+    "Schalten Sie Ihren primären Spezialisierungs-Talentbaum frei",
+    "Erwerben Sie Ihren ersten Satz dual geführter Zweihandwaffen (Walküre)",
+    "Erhalten Sie einen Schild mit hohem Blockwert für die defensive Skalierung (Seraphim)",
+    "Meistern Sie das Timing des Dämmerungs-Verstärkungsfensters"
+  ]}
+/>
+
+Der Levelfortschritt erfordert, dass Sie sich an neue Fähigkeiten anpassen, sobald diese verfügbar sind. Nutzen Sie den untenstehenden Fortschrittsleitfaden, um Ihre Levelroute und den Talenterwerb zu planen.
+
+| Levelbereich | Fokusbereich | Wichtige Freischaltung | Empfohlene Aktivität |
+|---|---|---|---|
+| **1 - 10** | Grundrotation | Solarenergie-System | Quests in Startgebieten |
+| **11 - 30** | Spezialisierungswahl | Spezialisierungstalente | Dungeons & Gruppenquests |
+| **31 - 50** | Synergie & Ausrüstung | Dämmerungs-Verstärkung | Elite-Zonen & Handwerk |
+| **51 - 60** | Endgame-Vorbereitung | Heilige Form / Capstones | Raids & Heroische Dungeons |
+
+<Callout type="info" title="Anforderung für Beidhändigkeit">
+Walküren müssen in spezifische Talente in ihrem Spezialisierungsbaum investieren, um erfolgreich zwei Zweihandwaffen führen zu können, ohne schwere Genauigkeitsstrafen zu erleiden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+Überprüfen Sie diese häufigen Fragen zu den Klassenmechaniken und Build-Pfaden, um Ihr Gameplay zu optimieren.
+
+<FAQ items={[
+  {
+    question: "Was ist die primäre Rolle des Conquest of Azeroth Sonnenklerikers?",
+    answer: "Der Sonnenkleriker ist eine äußerst vielseitige Klasse, die jede Rolle ausfüllen kann: Tank (Seraphim), Heiler (Segen), Nahkampf-DPS (Walküre) oder Zauber-DPS (Frömmigkeit)."
+  },
+  {
+    question: "Wie funktioniert die Dämmerung-Mechanik?",
+    answer: "Die Verwendung von Fähigkeiten erzeugt Solarenergie-Stapel. Sobald diese voll sind, können Sie die Dämmerung aktivieren, die Ihre nächsten fünf Fähigkeiten mit kritischen Treffern, zusätzlicher Heilung oder Bonus-Schaden verstärkt."
+  },
+  {
+    question: "Kann ein Segen-Kleriker Gruppenmitglieder effektiv heilen?",
+    answer: "Ja. Segen-Kleriker nutzen regeneratives Licht, erzeugen schützende Bollwerke und können einen Verbündeten so führen, dass Heilzauber direkt von ihm ausstrahlen."
+  },
+  {
+    question: "Welche Ressource nutzt die Spezialisierung Frömmigkeit?",
+    answer: "Frömmigkeits-Kleriker sind Kampfzauberer, die neben Mana auch Wut erzeugen und verbrauchen, um ihre Feuer- und Heiligzauber zu speisen."
+  }
+]} />
+
+<Callout type="tip" title="Dual-Spec-Lebensfähigkeit">
+Da der Sonnenkleriker unterschiedliche Primärwerte verwendet (Stärke für Nahkampf/Tank, Intelligenz für Zauberer/Heiler), wird dringend empfohlen, zwei separate Ausrüstungssets in Ihrem Inventar zu behalten, wenn Sie eine duale Spezialisierung planen.
+</Callout>
+
+</Section>

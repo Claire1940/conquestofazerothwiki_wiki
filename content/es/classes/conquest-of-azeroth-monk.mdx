@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Monje de Conquest of Azeroth: Guía 2026 de Tanque con Bastón de Guerra y DPS Marcial",
+  description: "Domina al Monje de Conquest of Azeroth (Templario) con nuestra guía sobre la build de tanque Maestro del Bastón de Guerra y especializaciones de DPS Marcial. Aprende talentos, equipo y combos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Monk+Warstaff+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "monje, templario, tanque, bastón de guerra, dps marcial, talentos, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Monje de Conquest of Azeroth**: Utiliza principalmente el marco de la clase Templario, específicamente las especializaciones de Disciplina y Marcial.
+- **Build de Maestro del Bastón de Guerra**: Una configuración de tanque de primer nivel centrada en una alta probabilidad de esquiva, grandes valores de armadura y mitigación de daño físico.
+- **Mecánica Principal**: El sistema de Combos permite a los jugadores entrelazar Iniciadores y Continuaciones en devastadores Remates de Combo (Combo Breakers).
+- **Prioridad de Estadísticas**: La Agilidad es la reina tanto para las builds de Tanque como de DPS, proporcionando golpe crítico, esquiva y armadura.
+- **Versatilidad**: La build es altamente flexible, permitiendo intercambios rápidos entre inmunidades defensivas y ráfagas ofensivas.
+</Callout>
+
+<Section icon={Map} title="Monje de Conquest of Azeroth: Descripción General de la Clase Templario">
+
+La experiencia del **monje de Conquest of Azeroth** se ofrece principalmente a través de la clase Templario, un devoto artista marcial capaz de desempeñar múltiples roles. Ya sea que busques absorber cantidades masivas de daño como tanque de primera línea o desatar una ráfaga de golpes como DPS cuerpo a cuerpo, las especializaciones del Templario proporcionan las herramientas necesarias para conquistar el entorno personalizado de Vanilla+.
+
+**Puntos Destacados del Video:**
+- Desglose detallado de los talentos de tanque de Maestro del Bastón de Guerra.
+- Perspectivas sobre estrategias de mitigación de daño físico vs. mágico.
+- Explicación de las sinergias defensivas principales del árbol de Disciplina.
+- Flexibilidad de hechizos de utilidad como Palma Rápida (Quick Palm) y Tempestad Divina (Divine Tempest).
+
+<YouTubeEmbed videoId="17joudu4lDw" title="Conquest of Azeroth - Build de Monje: Maestro del Bastón de Guerra" />
+
+In el meta actual de 2026, el Templario destaca por su mecánica única de "Combo". Este sistema requiere que los jugadores piensen varios pasos por delante, encadenando habilidades en un orden específico para maximizar la eficiencia. A diferencia de las clases tradicionales que dependen de rotaciones de prioridad simples, el jugador de Monje/Templario debe dominar el flujo del combate para activar remates poderosos.
+
+| Especialización | Rol Principal | Arma Clave | Enfoque de Estilo de Juego |
+| :--- | :--- | :--- | :--- |
+| **Disciplina** | Tanque | Bastón | Evasión, Armadura, Mitigación |
+| **Marcial** | DPS Cuerpo a Cuerpo | Puños/Hojas | Combos Rápidos, Daño de Ráfaga |
+| **Cruzado** | DPS Sagrado | Espadas/Bastones | Corte de Espíritu, Luz Sagrada |
+
+<Callout type="tip" title="Dominando el Flujo">
+La clave del Templario es entender el sistema de "Combos". Asegúrate siempre de que tu Iniciador conduzca a una Continuación válida para habilitar tus Remates de Combo más potentes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="El Maestro del Bastón de Guerra: La Build de Tanque Definitiva">
+
+El Maestro del Bastón de Guerra es la build de tanque definitiva para el **monje de Conquest of Azeroth**. Esta build aprovecha el árbol de talentos de Disciplina para transformar a un artista marcial que empuña un bastón en un muro impenetrable. La fuerza de la build reside en su capacidad para acumular altas probabilidades de esquiva y valores de armadura, lo que la hace particularmente efectiva contra atacantes físicos en mazmorras y bandas.
+
+El núcleo de esta build se basa en talentos específicos que sinergizan con el uso de bastones y resguardos defensivos. A continuación se muestra un desglose de los talentos esenciales para el Maestro del Bastón de Guerra:
+
+| Nombre del Talento | Tipo | Descripción del Efecto |
+| :--- | :--- | :--- |
+| **Righteous Duel** | Amenaza | Aumenta la generación de amenaza y el daño durante el combate |
+| **Transcendent Ward** | Escudo | Proporciona una barrera mágica que absorbe el daño entrante |
+| **Bastion** | Pasivo | Aumenta significativamente los índices de armadura y bloqueo |
+| **Armor of Faith** | Defensivo | Convierte el espíritu o el intelecto en armadura adicional |
+| **Rune Staff Slam** | Activo | Un golpe de gran impacto que genera mucha amenaza |
+
+Si bien la build es excepcionalmente fuerte contra amenazas físicas, requiere una gestión cuidadosa de los tiempos de reutilización al enfrentar encuentros con mucha magia. Talentos como **Grace of Aman'Thul** e **Infallible Ward** a menudo se intercambian para ayudar con la mitigación mágica y la generación de acumulaciones de "Resguardo Roto" (Broken Ward).
+
+<CardGrid cols={2}>
+  <Card title="Dominio Físico">
+    - **Alta Armadura**: Lograda a través de Armor of Faith y Bastion.
+    - **Escalado de Esquiva**: La Agilidad proporciona estadísticas de evasión masivas.
+    - **Sinergia con Bastón**: Rune Staff Slam proporciona una amenaza constante.
+  </Card>
+  <Card title="Mitigación Mágica">
+    - **Transcendent Ward**: Herramienta principal para absorber hechizos.
+    - **Quick Palm**: Espacio flexible para inmunidades o reducciones.
+    - **Divine Tempest**: Una alternativa viable para una mayor protección sagrada.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Flexibilidad de Talentos">
+No tengas miedo de cambiar "Quick Palm" por "Staff Whirling" o "Light's Grace" dependiendo de las mecánicas específicas del jefe al que te enfrentes en el contenido de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Progresión Paso a Paso">
+
+La transición a un **monje de Conquest of Azeroth** de alto nivel requiere un enfoque estructurado para la asignación de talentos y la adquisición de equipo. Sigue estos pasos para optimizar tu personaje para el contenido de nivel máximo.
+
+<Steps>
+  <Step num="1" title="Selección Inicial de Especialización">
+    Elige la clase Templario al crear el personaje. Enfoca tus primeros puntos en el árbol Marcial para velocidad de leveo, luego haz la transición a Disciplina una vez que comiences a tanquear mazmorras.
+  </Step>
+  <Step num="2" title="Asignación de Talentos Principales">
+    Prioriza **Righteous Duel** y **Bastion** desde el principio. Estos proporcionan la amenaza base y la supervivencia necesarias para las mazmorras de nivel bajo de Vanilla.
+  </Step>
+  <Step num="3" title="Adquisición de Armas">
+    Busca bastones con alta Agilidad y Aguante. En Conquest of Azeroth, la itemización ha sido renovada, así que busca variantes "Bloodforged" (Forjadas por la sangre) en zonas PvP de alto riesgo para obtener una ventaja extra.
+  </Step>
+  <Step num="4" title="Dominio de la Rotación de Combos">
+    Practica tu secuencia de Iniciador -> Continuación -> Remate de Combo. Para los tanques, asegurar que tu Rune Staff Slam se use dentro de una ventana de combo es vital para la gestión de la amenaza.
+  </Step>
+  <Step num="5" title="Ajuste Avanzado de Mitigación">
+    Una vez que alcances el nivel 60, perfecciona tu build usando la mecánica de "Resguardo Roto". Usa talentos como Infallible Ward para asegurar que el tiempo de actividad de tu escudo sea cercano al 100%.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia de Equipo">
+En el meta de 2026, la Agilidad es tu estadística principal. Alimenta tu armadura, esquiva y golpe crítico, lo que la convierte en la estadística más eficiente para un estilo de juego híbrido de Monje.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Marcial y Cruzado: Alternativas de DPS">
+
+Si tanquear no es tu objetivo principal, el **monje de Conquest of Azeroth** sobresale como infligidor de daño cuerpo a cuerpo. La especialización Marcial se centra en la velocidad física pura, mientras que la especialización de Cruzado combina artes marciales con magia sagrada para cercenar los espíritus de los enemigos.
+
+La especialización Marcial se construye alrededor del sistema de "Movimientos de Combate". Al utilizar armas de puño rápidas o dagas, puedes generar puntos de combo rápidamente, lo que lleva a movimientos finales devastadores que pueden atravesar múltiples objetivos.
+
+| Característica de Espec. | Marcial (Físico) | Cruzado (Sagrado) |
+| :--- | :--- | :--- |
+| **Estadística Principal** | Agilidad | Agilidad / Intelecto |
+| **Elección de Arma** | Puños / Una Mano | Espadas / Bastones |
+| **Tipo de Daño** | Físico / Sangrado | Sagrado / Arcano |
+| **Utilidad** | Alta Movilidad | Abdicaciones Espirituales |
+
+El Cruzado, por otro lado, es un luchador elegante. Utilizan "Abdicaciones Espirituales" para confundir a los enemigos y repartir daño sagrado en un vórtice brillante de hojas. Esta especialización es ideal para jugadores que desean proporcionar algo de utilidad a la banda mientras mantienen un DPS competitivo.
+
+<CardGrid cols={3}>
+  <Card title="DPS Marcial">
+    - Jugabilidad de ritmo rápido.
+    - Depende de activaciones de crítico.
+    - Excelente para subir de nivel en solitario.
+  </Card>
+  <Card title="DPS Cruzado">
+    - Escalado de daño sagrado.
+    - Fuerte potencial de área (AoE).
+    - Ideal para sinergia de grupo.
+  </Card>
+  <Card title="Disciplina (Off-Tank)">
+    - Supervivencia híbrida.
+    - Daño basado en bastón.
+    - Útil para jefes específicos.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Prioridad de Estadísticas para DPS">
+Para el DPS Marcial, prioriza el Índice de Golpe hasta alcanzar el tope, seguido de Agilidad y Celeridad para maximizar la generación de combos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Fin de Juego y Lista de Verificación">
+
+Para ser considerado un maestro **monje de Conquest of Azeroth**, debes completar varios hitos que demuestren tu dominio sobre los complejos sistemas del Templario. Usa esta lista de verificación para seguir tu progreso a través del contenido de la expansión 2026.
+
+<Checklist
+  id="monk-progression"
+  title="Objetivos de Maestría del Monje:"
+  items={[
+    "Alcanzar el nivel 60 y desbloquear las 69 combinaciones de especialización posibles",
+    "Adquirir un Bastón de Guerra de nivel Mítico para la build de Disciplina",
+    "Dominar la rotación de 3 pasos de Remate de Combo sin perder acumulaciones",
+    "Tanquea con éxito una mazmorra Mythic+ de Vanilla",
+    "Obtener un conjunto completo de armadura de Placas o Malla basada en Agilidad"
+  ]}
+/>
+
+Lograr estos objetivos requiere participar en los diversos modos PvE y PvP que ofrece el proyecto. Ya sea que prefieras el desafío de "Tormenta de Maná" o el PvP de alto riesgo, la versatilidad del Monje asegura que tengas un lugar en cualquier composición de equipo.
+
+<Callout type="tip" title="Consejo Pro: Recompensas de Alto Riesgo">
+Participar en PvP de alto riesgo puede otorgarte equipo "Bloodforged", que a menudo presenta activaciones únicas que aumentan significativamente el daño de los combos del Monje.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es mejor el monje de Conquest of Azeroth como tanque o como DPS?",
+    answer: "Depende de tu estilo de juego. La especialización de Disciplina es uno de los tanques físicos más únicos y efectivos del juego, mientras que la especialización Marcial ofrece un DPS cuerpo a cuerpo de alta velocidad que destaca tanto en PvE como en PvP."
+  },
+  {
+    question: "¿Necesito usar un bastón para la build de monje tanque?",
+    answer: "Sí, la build de Maestro del Bastón de Guerra requiere específicamente un bastón para beneficiarse de talentos como Rune Staff Slam y los diversos bufos defensivos basados en bastón del árbol de Disciplina."
+  },
+  {
+    question: "¿Cuál es la estadística más importante para un Templario?",
+    answer: "La Agilidad es la estadística más importante para casi todas las builds de Templario en 2026. Proporciona armadura, esquiva y probabilidad de golpe crítico, que son esenciales tanto para la supervivencia como para el daño."
+  },
+  {
+    question: "¿Puedo jugar como Monje sanador en Conquest of Azeroth?",
+    answer: "Si bien el Templario tiene algo de utilidad sagrada, está diseñado principalmente para Tanque y DPS. Si buscas un sanador dedicado al estilo de artes marciales, podrías investigar las especializaciones de Médico Brujo o Clérigo del Sol en su lugar."
+  }
+]} />
+
+</Section>

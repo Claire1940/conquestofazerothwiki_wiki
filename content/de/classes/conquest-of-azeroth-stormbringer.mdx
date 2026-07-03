@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Sturmbringer: Klassen-Guide & Meta-Build 2026",
+  description: "Meistere die Sturmbringer-Klasse in Conquest of Azeroth mit unserem umfassenden Guide zu Statik-Management, Spezialisierungspfaden und Meta-Rotationen für 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Stormbringer+Class+Guide",
+  date: "2026-07-03",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Conquest of Azeroth Sturmbringer**: Eine vielseitige Hybridklasse, die Blitz-, Wind- und Wassermagie einsetzt.
+- **Statik-Mechanik**: Die Hauptressource, die sich durch das Wirken von Zaubern aufbaut und für massiven Schaden entfesselt werden muss.
+- **Spezialisierungen**: Wähle zwischen Blitz (Reiner DPS), Mahlstrom (Frost-Sturm-Hybrid) oder Wind (Unterstützung/Utility).
+- **Kernstrategie**: Halte eine hohe Zauber-Uptime aufrecht, um Statik zu erzeugen, und gib sie dann für Donnernde Eruption aus, um Burst-Schaden zu verursachen.
+- **Unterstützerrolle**: Bietet wichtige Gruppen-Buffs, darunter Tempo, Manawiederherstellung und Giftreinigung.
+</Callout>
+
+<Section icon={Map} title="Sturmbringer Klassenübersicht & Kernmechaniken">
+
+Der **Sturmbringer in Conquest of Azeroth** repräsentiert den rohen Zorn der Elemente und agiert als Meister von Gewittern und atmosphärischem Druck. Im Gegensatz zu traditionellen Magiern funktioniert der Sturmbringer über ein einzigartiges Ressourcensystem namens **Statik**. Diese Ressource wird durch normales Zauberwirken schnell aufgebaut, baut sich jedoch ebenso rasch wieder ab, wenn der Spieler untätig bleibt. Den Rhythmus des Aufbaus und Verbrauchs von Statik zu meistern, entscheidet über den Unterschied zwischen einem Anfänger und einem hochkarätigen Elementaristen.
+
+**Video-Highlights:**
+- Übersicht über die duale Rolle des Sturmbringers als DPS oder Unterstützung.
+- Detaillierte Erklärung der Statik-Ressource und ihres schnellen Abbaus.
+- Visuelle Präsentation der drei verschiedenen Spezialisierungspfade.
+- Demonstration der Stapelmechanik des Schwächungseffekts „Leitfähig“.
+
+<YouTubeEmbed videoId="W5C0-U3RvW8" title="New WoW Class: Stormbringer - Conquest of Azeroth" />
+
+Sturmbringer glänzen dank ihrer enormen Vielseitigkeit sowohl in Solo- als auch in Gruppenumgebungen. Ob du dich im Boden verwurzelst, um deine Zauberreichweite zu erhöhen, oder einen stürmischen Begleiter beschwörst, um deine Verbündeten abzuschirmen – die Klasse bietet für jede taktische Herausforderung eine Lösung.
+
+| Rollentyp | Primärer Fokus | Hauptressource | Typischer Spielstil |
+| :--- | :--- | :--- | :--- |
+| **Schaden (DPS)** | Burst & AOE | Statik | Aggressives Zaubern und Eruptionen |
+| **Unterstützung** | Buffs & Utility | Mana/Statik | Reaktives Abschirmen und Temposteigerung |
+
+<Callout type="tip" title="Statik-Management">
+Statik ist eine „Nutzen oder Verlieren“-Ressource. Stelle in hochstufigen Begegnungen sicher, dass du einen Verbraucher wie Donnernde Eruption bereit hast, sobald deine Statik-Leiste 80 % erreicht, um keinen potenziellen Schaden zu verschwenden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Spezialisierungspfade: Wind, Mahlstrom und Blitz">
+
+In der Meta von 2026 wird der Sturmbringer durch seine drei Spezialisierungsbäume definiert. Jeder Pfad verändert radikal, wie du mit der Welt und deinen Gruppenmitgliedern interagierst. Die Wahl der richtigen Spezialisierung ist entscheidend, um deine Leistung in Schlachtzügen oder beim Solo-Fortschritt zu optimieren.
+
+<CardGrid cols={3}>
+  <Card title="Blitz">
+    - **Reiner DPS-Fokus**
+    - Hohe Statik-Erzeugung
+    - Abklingzeit-Reset-Procs
+    - **Bestens geeignet für:** Raids und Solo-Leveln
+  </Card>
+  <Card title="Mahlstrom">
+    - **Frost-Sturm-Hybrid**
+    - Nutzt Wasser, um Gegner zu durchnässen
+    - Bringt „Leitfähig“-Stapel zum Explodieren
+    - **Bestens geeignet für:** Taktischen Burst-Schaden
+  </Card>
+  <Card title="Wind">
+    - **Unterstützung & Utility**
+    - Tempo- und Mana-Buffs
+    - Rückstöße und Schilde
+    - **Bestens geeignet für:** Gruppenspiel und PvP
+  </Card>
+</CardGrid>
+
+Die **Blitz**-Spezialisierung ist die direkteste und konzentriert sich auf schnelle Stromschläge und AOE-Elektrisierung. **Mahlstrom** fügt eine komplexere Ebene hinzu, bei der Spieler Gegner mit Wasserzaubern durchnässen müssen, um den Schwächungseffekt **Leitfähig** aufzutragen, welcher den Schaden nachfolgender Blitzschläge erheblich verstärkt. Die **Wind**-Spezialisierung schließlich macht den Sturmbringer zu einem defensiven Kraftpaket, das in der Lage ist, Verbündete aus Gefahrenzonen zu ziehen und Rückenwinde zu beschwören, um die gesamte Gruppe zu beschleunigen.
+
+| Spezialisierung | Schlüsselfertigkeit | Primärer Debuff | Hauptvorteil |
+| :--- | :--- | :--- | :--- |
+| **Blitz** | Donnernde Eruption | Elektrisiert | Maximaler Einzelziel-DPS |
+| **Mahlstrom** | Froststurm | Leitfähig | Massives AOE-Burst-Potenzial |
+| **Wind** | Rückenwind | Böe/Rückstoß | Außergewöhnliche Gruppen-Utility |
+
+<Callout type="warning" title="Komplexität des Mahlstroms">
+Mahlstrom erfordert präzises Timing. Wenn du deine „Leitfähig“-Stapel zu früh detonieren lässt, entgeht dir der exponentielle Schadensmultiplikator. Strebe immer die maximale Stapelanzahl an, bevor du deine Froststurm-Finisher entfesselst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Leveling und Progression">
+
+Der Fortschritt eines **Sturmbringers in Conquest of Azeroth** erfordert ein Gleichgewicht zwischen offensivem Output und defensiver Nachhaltigkeit. Befolge diese Schritte, um eine reibungslose Reise vom angehenden Blitzmagier zum Avatar des Sturms zu gewährleisten.
+
+<Steps>
+  <Step num="1" title="Erste Statik-Erzeugung">
+    Konzentriere dich auf deine grundlegenden Blitzschläge, um ein Gefühl für die Statik-Erzeugungsrate zu bekommen. Übe, die Ressourcenleiste während der Bewegung aufrechtzuerhalten, um einen Abbau zu verhindern.
+  </Step>
+  <Step num="2" title="Wahl der Spezialisierung">
+    Lege dich auf der entsprechenden Stufe auf eine Spezialisierung fest. Für Anfänger wird die Blitz-Spezialisierung aufgrund ihrer hohen Schadensuntergrenze und der einfachen Rotation empfohlen.
+  </Step>
+  <Step num="3" title="Meistern der Leitfähig-Schleife">
+    Wenn du Mahlstrom spielst, lerne den Rhythmus von „Durchnässen und Schocken“. Trage zuerst wasserbasierte Zauber auf, stapele den „Leitfähig“-Debuff und nutze dann deinen Statik-Verbraucher für den Todesstoß.
+  </Step>
+  <Step num="4" title="Integration von Utility">
+    Integriere windbasierte Hilfszauber wie Levitation und Rückstoß in deine regelmäßige Rotation, um die Positionierung von Gegnern zu kontrollieren und die Sicherheit der Gruppe zu gewährleisten.
+  </Step>
+</Steps>
+
+| Stufenbereich | Priorisierte Aktivität | Empfohlene Spezialisierung | Schlüssel-Talent |
+| :--- | :--- | :--- | :--- |
+| **1-20** | Grundlegende Mechaniken | Blitz | Statikfluss |
+| **21-40** | Dungeon-Utility | Wind/Blitz | Rückenwind |
+| **41-60** | Endgame-Bereitschaft | Mahlstrom/Blitz | Donnernde Eruption |
+
+<Callout type="success" title="Effizienz-Tipp">
+Nutze die Fähigkeit „Erdverwurzelung“ immer dann, wenn du dich in einer sicheren Position befindest. Dies erhöht deine Reichweite und deinen Schaden erheblich, sodass du gegnerische Lager ausschalten kannst, bevor sie dich überhaupt erreichen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampfrotation und Attributsprioritäten">
+
+Die Optimierung deiner Kampfleistung erfordert das Erreichen bestimmter Attributsschwellenwerte und das Befolgen einer strikten Prioritätenliste. Für den Sturmbringer ist **Tempo** das wichtigste Attribut, da es direkt damit zusammenhängt, wie schnell du Statik erzeugen und verbrauchen kannst.
+
+**Primäre Attributsprioritäten:**
+1. **Intellekt**: Erhöht die allgemeine Zaubermacht und den Manapool.
+2. **Tempo**: Verringert die Zauberzeit und beschleunigt die Statik-Erzeugung.
+3. **Kritischer Trefferwert**: Entscheidend für proc-basierte Abklingzeit-Resets im Blitz-Baum.
+4. **Vielseitigkeit**: Bietet dringend benötigte Schadensreduktion für Unterstützer-Builds.
+
+**Standard-DPS-Rotation (Blitz/Mahlstrom):**
+- Trage **Leitfähig**-Stapel auf (falls Mahlstrom).
+- Wirke **Blitzschlag** oder **Schock**, um Statik aufzubauen.
+- Nutze **Lebendiger Blitz** bei einem Proc für kostenlosen Schaden.
+- Führe **Donnernde Eruption** bei 90 %+ Statik aus.
+- Nutze **Rückstoß** oder **Verwurzelung**, wenn Gegner die Distanz verkürzen.
+
+| Attribut | Priorität | Zielwert (Stufe 60) | Auswirkung |
+| :--- | :--- | :--- | :--- |
+| **Tempo** | Hoch | 25 % - 30 % | Schnellerer Statikaufbau |
+| **Krit** | Mittel | 20 % | Mehr Abklingzeit-Resets |
+| **Meisterschaft** | Hoch | 15 % | Erhöhter Elementarschaden |
+
+<Callout type="info" title="Unterstützer-Rotation">
+Wenn du als Wind-Unterstützer spielst, verlagert sich deine Priorität darauf, eine 100-prozentige Uptime von **Rückenwind** aufrechtzuerhalten und das Mana der Gruppe im Auge zu behalten. Nutze deine Luftschilde eher reaktiv als proaktiv, um Mana zu sparen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ausrüstung und Kampfbereitschaft">
+
+Um das Potenzial des **Sturmbringers in Conquest of Azeroth** zu maximieren, muss deine Ausrüstung zu deiner gewählten Spezialisierung passen. Obwohl Stoffrüstung der Standard ist, solltest du nach Teilen Ausschau halten, die speziell den Elementarschaden erhöhen oder Boni für „Statik-Erhalt“ bieten.
+
+<Checklist
+  id="stormbringer-checklist"
+  title="Checkliste für die Endgame-Bereitschaft:"
+  items={[
+    "Erreiche den Schwellenwert von 25 % Tempo für schnelleres Zaubern",
+    "Besorge dir einen Stab oder Zauberstab mit hohem Intellekt und hoher Meisterschaft",
+    "Schalte die finale Talentstufe für Donnernde Eruption frei",
+    "Rüste mindestens zwei Teile des Set-Gegenstands 'Sturmberührt' aus",
+    "Meistere das Timing für die Detonation des 'Leitfähig'-Debuffs"
+  ]}
+/>
+
+| Platz | Empfohlener Bonus | Quelle |
+| :--- | :--- | :--- |
+| **Kopf** | +Statik-Obergrenze | Hochstufige Schlachtzüge |
+| **Brust** | +Tempo / Meisterschaft | Handwerk / Dungeons |
+| **Waffe** | +Proc: Blitzschlag | Weltbosse |
+| **Schmuckstück** | Manaregeneration bei Zauberwirken | Unterstützermarken |
+
+<Callout type="warning" title="Ausrüstungswahl">
+Ignoriere Ausdauer in den Builds für 2026 nicht. Obwohl Glaskanonen-Blitz-Builds sehr beliebt sind, macht dich die Mechanik „Erdverwurzelung“ des Sturmbringers zu einem unbeweglichen Ziel, was einen soliden Gesundheitspool erfordert, um unerwarteten AOE-Schaden zu überleben.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Was ist die wichtigste Mechanik für einen Sturmbringer in Conquest of Azeroth?",
+    answer: "Die Statik-Ressource ist die Kernmechanik. Du musst ständig Zauber wirken, um Statik aufzubauen, und dann schadensträchtige Verbraucher wie Donnernde Eruption einsetzen, bevor die Ressource verfällt."
+  },
+  {
+    question: "Kann der Sturmbringer als Hauptheiler fungieren?",
+    answer: "Nein, der Sturmbringer ist ein Hybrid aus Unterstützung und DPS. Sie können zwar Gifte und Krankheiten lindern sowie Mana wiederherstellen, aber ihnen fehlt die direkte, hohe Heilungsleistung, die für eine Hauptheiler-Rolle erforderlich ist."
+  },
+  {
+    question: "Welche Spezialisierung eignet sich am besten für das Solo-Leveln?",
+    answer: "Blitz ist im Allgemeinen die beste Wahl für das Solospiel, da sie hohen Rohschaden und eine einfachere Rotation bietet. Mahlstrom ist jedoch hervorragend, wenn du einen taktischeren Ansatz mit AOE-Burst bevorzugst."
+  },
+  {
+    question: "Wie funktioniert der Schwächungseffekt „Leitfähig“?",
+    answer: "Der „Leitfähig“-Debuff wird durch wasserbasierte Zauber im Mahlstrom-Baum aufgetragen. Sobald er gestapelt ist, verbrauchen Blitzzauber diese Stapel, um massiven Froststurm-Bonus-Schaden zu verursachen."
+  }
+]} />
+
+<Callout type="success" title="Fazit">
+Der Sturmbringer ist eine der lohnendsten Klassen in Conquest of Azeroth für Spieler, die schnelles Zaubern und wirkungsvolle Utility schätzen. Indem du das Statik-Management meisterst, wirst du zu einem unverzichtbaren Mitglied für jede Abenteurergruppe.
+</Callout>
+
+</Section>

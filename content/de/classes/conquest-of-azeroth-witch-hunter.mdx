@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Hexenjäger: Spezialisierte Skillungen & Kampf-Loadouts",
+  description: "Meistere die Hexenjäger-Klasse in Conquest of Azeroth. Entdecke die Skillungen Bolzenschütze, Inquisitor, Dunkelheit und Schwarzer Ritter mit unserem ausführlichen Guide für 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Witch+Hunter+Class+Guide",
+  date: "2026-07-03",
+  author: "Conquest of Azeroth Wiki-Team",
+  keywords: "Hexenjäger, Conquest of Azeroth, Klasse, Guide, Bolzenschütze, Inquisitor, Schwarzer Ritter"
+}
+
+<Callout type="info" title="Kurzguide">
+- **Hauptrolle**: Der **Conquest of Azeroth Hexenjäger** ist eine hochmobile Hybridklasse, die sowohl Fernkampf-DPS als auch schattendurchdrungenes Tanken beherrscht.
+- **Primärattribute**: Konzentriere dich in der 2026-Meta stark auf **Beweglichkeit** für Schaden und **Kettenrüstung** für das Überleben.
+- **Waffenvielseitigkeit**: Nutze Repetierarmbrüste für Mobilität, Musketen für explosiven Schattenschaden oder flammende Klingen für den Nahkampf-Eifer.
+- **Kernmechanik**: Verwalte **Momentum** (Schwung) und **Schattenmarkierungen**, um den Schadensausstoß und die Selbsterhaltung in allen Spezialisierungen zu maximieren.
+- **Top-Empfehlung**: Der **Bolzenschütze** ist derzeit die beste Wahl für das Solo-Leveln, da er in der Lage ist, während der Bewegung zu feuern.
+</Callout>
+
+<Section icon={Map} title="Hexenjäger Klassenübersicht & Mechaniken">
+
+Der **Conquest of Azeroth Hexenjäger** gilt als Azeroths führender dunkler Gesetzeshüter. Geschworen, das Böse auszurotten, kombiniert diese Klasse die Präzision eines Scharfschützen mit dem Eifer eines Inquisitors. Im Gegensatz zu traditionellen Jägern nutzt der Hexenjäger schattenhafte Schusswaffen, antike alchemistische Tonika und spektrale Beschwörungen, um das Schlachtfeld zu dominieren. Ob du gegnerische Ränge mit Verkleidungen infiltrierst oder dich mit flammenden Klingen ins Getümmel stürzt – die Klasse bietet eine hohe spielerische Tiefe für Spieler, die Wert auf Mobilität und taktische Positionierung legen.
+
+**Video-Highlights:**
+- Übersicht der vier einzigartigen Spezialisierungen: Bolzenschütze, Dunkelheit, Inquisitor und Schwarzer Ritter.
+- Demonstration der einzigartigen Mechanik "Feuern während der Bewegung" für Armbrustschützen.
+- Präsentation des Schattenhund-Begleiters und der spektralen Beschwörungen.
+- Vorschau auf den Haltungswechsel (Purity & Wickedness) des Inquisitors.
+
+<YouTubeEmbed videoId="4opoBFzyvsU" title="New WoW Class: Witch Hunter - Conquest of Azeroth" />
+
+| Attribut | Detail |
+| :--- | :--- |
+| **Primärwert** | **Beweglichkeit** (Hauptquelle für Angriffskraft und Krit) |
+| **Rüstungstyp** | **Kette** (Balance zwischen Schutz und Mobilität) |
+| **Verfügbare Rollen** | Nahkampf-DPS, Fernkampf-DPS, Tank |
+| **Kernwaffen** | Armbrüste, Gewehre, Zweihandschwerter/-äxte, Heilige Klingen |
+| **Einzigartiger Nutzen** | Tarnung, Stille-Effekte, Sprünge, Infiltrations-Verkleidungen |
+
+<Callout type="tip" title="Profi-Tipp">
+Trage immer eine Auswahl an Tonika bei dir. Die Selbsterhaltung des Hexenjägers hängt stark von seinem alchemistischen Wissen ab, was in High-Risk-PvP über Leben und Tod entscheiden kann.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fernkampf-Spezialisierungen: Bolzenschütze vs. Dunkelheit">
+
+Der Hexenjäger bietet zwei unterschiedliche Fernkampf-Spielstile, die verschiedene Kampfphilosophien bedienen. Der Bolzenschütze konzentriert sich auf anhaltenden Druck und unvergleichliches Kiting, während die Dunkelheit-Skillung auf explosive Schattenmagie und Begleiter-Management setzt.
+
+<CardGrid cols={2}>
+  <Card title="Bolzenschütze (Mobiler Scharfschütze)">
+    - **Waffe**: Repetierarmbrüste
+    - **Stärke**: Kann die meisten Fähigkeiten während der Bewegung abfeuern.
+    - **Spielstil**: Hohe Mobilität beim Kiting durch **Momentum**-Stapel.
+    - **Kernzauber**: **Peinigerbolzen** für Schatten-DoT-Druck.
+  </Card>
+  <Card title="Dunkelheit (Schatten-Inquisitor)">
+    - **Waffe**: Musketen / Gewehre
+    - **Stärke**: Hoher Burst-Schaden durch **Schwarzpulver**-Stapel.
+    - **Spielstil**: Beschwörung von **Schattenhunden**, um Ziele zu überwältigen.
+    - **Kernzauber**: **Hexenstrahler** für massive Schusswaffen-Salven.
+  </Card>
+</CardGrid>
+
+| Feature | Bolzenschütze | Dunkelheit |
+| :--- | :--- | :--- |
+| **Bewegung** | **Außergewöhnlich** (Feuern im Lauf) | **Statisch** (Hohe Zauberzeiten) |
+| **Burst-Potenzial** | Moderat / Konstant | **Hoch** (Explosive Finisher) |
+| **Begleiter** | Keiner (Solo-Fokus) | **Schattenhund** (Pet-Management) |
+| **AoE-Stil** | Querschläger & Dunkle Raserei | Ruf des Hundemeisters (Schwarm) |
+
+<Callout type="warning" title="Kampfwarnung">
+Bolzenschützen müssen ständig ihre **Momentum**-Stapel im Auge behalten. Wenn du zu lange stehen bleibst, fallen dein Schadensausstoß und deine Bewegungsgeschwindigkeits-Boni erheblich ab.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Inquisitor: Der Pfad des rechtschaffenen Feuers">
+
+Der Inquisitor ist ein unerbittlicher Nahkampf-Eiferer, der von der Dualität von Licht und Schatten lebt. Diese Skillung erfordert das Meistern des "Stance Dancing" (Haltungswechsel), um den Schaden zu maximieren. Du wechselst zwischen **Reinheit** (Purity), um Ressourcen aufzubauen, und **Bosheit** (Wickedness), um verheerenden Feuer- und Heiligschaden zu entfesseln.
+
+<Steps>
+  <Step num="1" title="Reinheit-Haltung einnehmen">
+    Greife den Feind in der **Reinheit-Haltung** an. Dies erhöht dein Nahkampftempo und ermöglicht es dir, Stapel von **Gespürtem Bösen** durch Standardangriffe und heilige Schläge aufzubauen.
+  </Step>
+  <Step num="2" title="Wechsel zu Bosheit">
+    Sobald **Gespürtes Böses** voll aufgeladen ist, wechsle in die **Bosheit-Haltung**. Dies verbraucht deine Stapel, um einen Verwundbarkeits-Debuff auf das Ziel anzuwenden, der den erlittenen Heilig- und Feuerschaden erhöht.
+  </Step>
+  <Step num="3" title="Flammen der Sünde entfesseln">
+    Nutze **Sengende Klinge** und **Böses züchtigen**, während das Ziel verwundbar ist. Dieses Zeitfenster bietet das höchste Burst-Schadenspotenzial für den Nahkampf-Hexenjäger.
+  </Step>
+</Steps>
+
+| Haltung | Hauptvorteil | Kernfähigkeit |
+| :--- | :--- | :--- |
+| **Reinheit** | **Tempo-Buff** / Ressourcengeneration | Heilige Klingenschläge |
+| **Bosheit** | **Feuerschaden** / Verwundbarkeit | Flammen der Sünde |
+
+<Callout type="success" title="Expertenstrategie">
+Koordiniere in Gruppeninhalten dein **Bosheit**-Fenster mit anderen feuerbasierten Zauberern (wie Pyromanten), um von dem erhöhten Verwundbarkeits-Debuff zu profitieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Schwarzer Ritter: Der schattendurchdrungene Tank">
+
+Der Schwarze Ritter ist der defensive Pfeiler der **Conquest of Azeroth Hexenjäger**-Klasse. Durch das Anlegen von "Hexenketten" und das Führen einer Zweihandwaffe pariert der Schwarze Ritter eingehende Schläge, während er seinen Angreifern die Lebenskraft entzieht.
+
+**Kern-Defensivmechaniken:**
+- **Schattenmarkierung**: Ein dauerhafter DoT, der als primärer Bedrohungserzeuger und Heilquelle dient.
+- **Entweihen**: Verbraucht Schattenmarkierungen, um sofort einen Prozentsatz deiner maximalen HP wiederherzustellen.
+- **Pariermeisterschaft**: Im Gegensatz zu traditionellen Schild-Tanks verlässt sich der Schwarze Ritter auf hohe Parrierchancen mit Zweihandwaffen.
+- **Tonika-Erhaltung**: Verstärkte alchemistische Effekte bieten eine einzigartige Schadensminderung, die bei anderen Tank-Klassen nicht zu finden ist.
+
+| Fähigkeit | Typ | Effekt |
+| :--- | :--- | :--- |
+| **Schattenmarkierung** | Debuff | Verursacht Schattenschaden und markiert das Ziel für Lebensentzug. |
+| **Entweihen** | Heilung | Verbraucht Markierungen, um **Max HP** wiederherzustellen. |
+| **Hexenketten** | Passiv | Erhöht Rüstung und Schattenwiderstand signifikant. |
+| **Dunkle Gerechtigkeit** | Spott | Zwingt den Gegner zum Angriff und verursacht eine leichte Verlangsamung. |
+
+<Callout type="info" title="Tank-Tipp">
+Der Schwarze Ritter zeichnet sich durch **unvergleichliche Ausdauer** aus. Obwohl du vielleicht mehr direkten Schaden erleidest als ein Vorhut-Wächter, macht dich deine Fähigkeit, dich durch **Entweihen** gegenzuheilen, zu einem "unsterblichen" Avatar in langen Kämpfen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschrittsziele & Ausrüstung">
+
+Um den Gipfel der Macht des Hexenjägers in der 2026 Conquest of Azeroth Meta zu erreichen, musst du einem strengen Ausrüstungs- und Fortschrittspfad folgen. Die Konzentration auf die richtigen Werte zu Beginn wird den Übergang in Mythic+ Dungeons erheblich erleichtern.
+
+<Checklist
+  id="witch-hunter-goals"
+  title="Hexenjäger-Meilensteine:"
+  items={[
+    "Erreiche Stufe 60 und schalte alle 4 Spezialisierungen frei",
+    "Erwirb ein komplettes Set an beweglichkeitsbasierter Kettenrüstung",
+    "Erhalte einen silberbeschichteten Repetierer für Bolzenschützen-Builds",
+    "Meistere den Haltungswechsel zwischen Reinheit/Bosheit in unter 2 Sekunden",
+    "Schließe die Questreihe 'Dunkle Mahnwache' für das Schattenhund-Upgrade ab"
+  ]}
+/>
+
+<Callout type="tip" title="Ausrüstungshinweis">
+Priorisiere im frühen Spiel **Kritische Trefferwertung** gegenüber reiner Beweglichkeit. Viele Procs des Hexenjägers, besonders beim Bolzenschützen und in der Dunkelheit-Skillung, basieren auf kritischen Treffern, um Resets auszulösen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Kann ich den Hexenjäger als reinen Heiler spielen?",
+    answer: "Nein, der Hexenjäger ist als Hybrid aus Tank und DPS konzipiert. Wenn du einen Heiler mit dunklem Thema suchst, sind die Klassen Hexendoktor oder Venomancer bessere Alternativen innerhalb des Conquest of Azeroth Ökosystems."
+  },
+  {
+    question: "Welche Waffe ist am besten für den Conquest of Azeroth Hexenjäger?",
+    answer: "Das hängt von deiner Skillung ab. Bolzenschützen benötigen Armbrüste, Dunkelheit-Nutzer brauchen Gewehre/Musketen, Inquisitoren nutzen einhändige Heilige Klingen und Schwarze Ritter benötigen eine Zweihandwaffe."
+  },
+  {
+    question: "Ist der Schattenhund permanent?",
+    answer: "Für die Dunkelheit-Spezialisierung fungiert der Schattenhund als permanenter Begleiter. Andere Skillungen können jedoch temporär spektrale Hunde durch spezifische Nützlichkeitszauber wie 'Ruf des Hundemeisters' beschwören."
+  },
+  {
+    question: "Wie funktioniert die Infiltrations-Verkleidung im PvP?",
+    answer: "Der Hexenjäger kann Verkleidungen nutzen, um aus der Ferne wie ein freundlicher NPC oder ein Mitglied der gegnerischen Fraktion zu erscheinen. Das Erleiden von Schaden oder das Ausführen einer aggressiven Aktion bricht die Illusion jedoch sofort ab."
+  }
+]} />
+
+<Callout type="success" title="Fazit">
+Der Hexenjäger ist eine der vielseitigsten Klassen im Spiel. Egal, ob du ein mobiles Geschütz oder ein lebensentziehender Tank sein möchtest, diese Klasse bietet die Werkzeuge, um das Böse in ganz Azeroth auszumerzen.
+</Callout>
+
+</Section>

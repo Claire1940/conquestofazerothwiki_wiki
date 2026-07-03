@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cultista en Conquest of Azeroth: Guía de Clase 2026 y Análisis de Especializaciones",
+  description: "Domina la clase Cultista en Conquest of Azeroth. Aprende sobre las mecánicas de Demencia, sanación de Hereje, DPS de Hoja de Dios y tanqueo de Dreadnought en esta guía de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d1b4e/ffffff?text=Cultist+Class+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica Principal**: El **cultista de Conquest of Azeroth** depende de la **Demencia**, un recurso que se acumula con cada lanzamiento de hechizo.
+- **Versatilidad**: Esta clase puede desempeñar los tres roles (**Tanque, Sanador y DPS**) según la especialización elegida.
+- **Transformación**: Alcanzar 100 acumulaciones de Demencia activa **transformaciones extremas (Eldritch)** únicas o una pérdida temporal del control.
+- **Elección de Arma**: Especializaciones como el **Hereje** y la **Hoja de Dios** requieren armas de dos manos para una máxima efectividad.
+- **Riesgo vs. Recompensa**: Los niveles altos de Demencia (70+) otorgan enormes mejoras de daño, pero te acercan al borde de la locura.
+</Callout>
+
+<Section icon={Sparkles} title="Resumen de la Clase y Mecánicas Principales">
+
+El **cultista de Conquest of Azeroth** es una clase híbrida de taumaturgo única que extrae poder de los horrores antiguos y los Dioses Antiguos del vacío. A diferencia de los magos o sacerdotes tradicionales, el Cultista no solo usa maná; equilibran su propia cordura en el filo de la navaja. Cada descarga de sombra y cada tentáculo invocado empuja al personaje más hacia un estado de locura, representado por la barra de **Demencia**. Dominar esta clase requiere saber exactamente cuándo presionar para llegar a las 100 acumulaciones y cuándo retroceder para mantener el control.
+
+**Puntos Destacados del Video:**
+- Desglose detallado del sistema de recursos de **Demencia**.
+- Exhibición visual de las transformaciones de **Horror Eldritch**.
+- Resumen de las cuatro especializaciones principales: **Hereje, Corrupción, Hoja de Dios y Dreadnought**.
+- Explicación de cómo las elecciones de armas cambian tu rol y tus habilidades.
+
+<YouTubeEmbed videoId="g0NkjXMVSPA" title="New WoW Class: Cultist - Conquest of Azeroth" />
+
+El ciclo de juego principal consiste en disparar **Descargas de Horror** y utilizar hechizos de apoyo que potencian a los aliados mientras corrompen simultáneamente el entorno. Si inclinas la balanza demasiado lejos sin un plan, tu mente se quebrará, pero si te mantienes "lo suficientemente cuerdo", desatarás la fuerza máxima del vacío.
+
+| Mecánica | Descripción | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Acumulaciones de Demencia** | Recurso que se acumula de 0 a 100 mediante el lanzamiento de hechizos | Determina la transformación y las mejoras de daño |
+| **Evolución Eldritch** | Cambio automático a las 100 acumulaciones para especializaciones específicas | Otorga nuevas habilidades y estadísticas aumentadas |
+| **Infusión de Sombra** | Mejora pasiva al daño cuerpo a cuerpo y de hechizos | Escala con los niveles actuales de Demencia |
+| **Apoyo del Vacío** | Hechizos de utilidad que protegen o potencian a los miembros del grupo | Esencial para el juego en grupo y bandas |
+
+<Callout type="tip" title="Consejo de Gestión">
+Vigila siempre tu barra de Demencia. Para las especializaciones de DPS, mantenerse entre 70 y 90 de Demencia es el "punto ideal" para obtener el máximo daño sin perder el control antes de tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análisis Profundo de Especializaciones">
+
+El **cultista de Conquest of Azeroth** ofrece cuatro caminos distintos, lo que la convierte en una de las clases más flexibles en el ecosistema de Project Ascension. Ya sea que quieras liderar la carga como un tanque imponente o sanar heridas a través de la violencia, hay una especialización para ti.
+
+<CardGrid cols={2}>
+  <Card title="Hereje (Sanador)">
+    - **Rol**: Sanador Cuerpo a Cuerpo
+    - **Arma**: De dos manos
+    - **Estilo**: Sana a los aliados infligiendo daño a los enemigos.
+    - **Evolución**: Evoluciona a las 100 acumulaciones de Demencia en lugar de volverse loco.
+  </Card>
+  <Card title="Corrupción (DPS a Distancia)">
+    - **Rol**: Taumaturgo a Distancia
+    - **Arma**: Bastón o Daga/Sostener con la mano secundaria
+    - **Estilo**: Se tambalea al borde de la locura para un alto daño de ráfaga.
+    - **Hechizo Clave**: Ira del Imperio Negro.
+  </Card>
+  <Card title="Hoja de Dios (DPS Cuerpo a Cuerpo)">
+    - **Rol**: Combatiente Cuerpo a Cuerpo
+    - **Arma**: De dos manos
+    - **Estilo**: Asesta golpes infundidos de sombras y aplica control de masas (CC).
+    - **Hechizo Clave**: Tentáculos del Vacío.
+  </Card>
+  <Card title="Dreadnought (Tanque)">
+    - **Rol**: Tanque con Escudo
+    - **Arma**: Escudo y Arma de una mano
+    - **Estilo**: Se transforma en un Horror Eldritch para absorber daño.
+    - **Enfoque**: Alta resistencia al daño Mágico.
+  </Card>
+</CardGrid>
+
+El **Hereje** es particularmente único, ya que combina el combate a corta distancia con poderes restauradores. Cuando estás equipado con un arma de dos manos, tus ataques cuerpo a cuerpo generan escudos para los aliados cercanos. Este estilo de "sanación ofensiva" es perfecto para los jugadores que encuentran la sanación tradicional demasiado pasiva.
+
+| Especialización | Estadística Principal | Ideal Para | Complejidad del Rol |
+| :--- | :--- | :--- | :--- |
+| **Hereje** | Intelecto / Fuerza | Mazmorras y Bandas | Alta (requiere posicionamiento) |
+| **Corrupción** | Intelecto / Celeridad | Subida de nivel en solitario y JcJ | Media (gestión de recursos) |
+| **Hoja de Dios** | Fuerza / Crítico | JcJ y DPS de Ráfaga | Media (tiempo de actividad cuerpo a cuerpo) |
+| **Dreadnought** | Aguante / Armadura | Tanquear Taumaturgos | Alta (sincronización de transformación) |
+
+<Callout type="success" title="Recomendación de Especialización">
+Para los jugadores nuevos, la especialización de **Corrupción** es la forma más directa de aprender la mecánica de Demencia. Te permite mantenerte a distancia mientras observas cómo los diferentes hechizos afectan tus niveles de locura.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando la Mecánica de Demencia">
+
+El núcleo del **cultista de Conquest of Azeroth** es el "Filo de la Navaja". Esto no es solo texto de ambientación; es una realidad matemática de tu DPS y supervivencia. Para la especialización de **Corrupción**, mantener tu Demencia por encima de 70 es obligatorio para el juego de alto nivel.
+
+**Hechizos de Sinergia Clave:**
+- **Ira del Imperio Negro**: Tu principal ataque concentrado que escala con la Demencia.
+- **Extracción de Cordura**: Una utilidad crucial que te permite ajustar manualmente tus niveles de Demencia, evitando "quiebres" accidentales.
+- **Supresión Psíquica**: Una poderosa herramienta de control de masas utilizada por las **Hojas de Dios** para dominar el campo de batalla.
+- **Armagedón**: Un enorme hechizo de área (AoE) utilizado por los **Dreadnoughts** para mantener la amenaza contra múltiples enemigos.
+
+<Callout type="warning" title="El Peligro de las 100 Acumulaciones">
+Para las especializaciones que no son tanques, alcanzar las 100 acumulaciones de Demencia sin estar en un estado de "Evolución" controlado puede provocar una pérdida temporal del control del personaje. En bandas de alto riesgo, esto puede causar una derrota total del grupo. ¡Usa **Extracción de Cordura** sabiamente!
+</Callout>
+
+El tanque **Dreadnought** adopta el enfoque opuesto. Su objetivo es alcanzar las 100 acumulaciones de Demencia lo más rápido posible. Al llegar al límite, ascienden a su forma de **Dreadnought Corrupto**, lo que aumenta drásticamente su durabilidad y resistencia a la magia. Esto los convierte en el tanque principal para encuentros que presentan un gran daño de hechizos.
+
+| Habilidad | Espec. | Efecto | Costo/Ganancia de Demencia |
+| :--- | :--- | :--- | :--- |
+| **Tentáculos del Vacío** | Hoja de Dios | Enraíza a los enemigos en el lugar | Ganancia Moderada |
+| **Presencia de Yashar** | Dreadnought | Amenaza masiva en área (AoE) | Gran Ganancia |
+| **Golpes de Sombra** | Hoja de Dios | Daño de Sombra adicional | Pasivo (Escala) |
+| **Descarga de Horror** | Todas | Ataque básico a distancia | Baja Ganancia |
+
+</Section>
+
+<Section icon={Map} title="Guía de Progresión y Subida de Nivel">
+
+Subir de nivel a un **cultista de Conquest of Azeroth** en 2026 requiere centrarse en un equipo que equilibre las estadísticas principales de tu rol con suficiente sustento para manejar la locura. Sigue estos pasos para llegar al final del juego de manera eficiente.
+
+<Steps>
+  <Step num="1" title="Dominio Temprano (Niveles 1-20)">
+    Concéntrate en lo básico de **Corrupción**. Usa **Descarga de Horror** para atraer enemigos y aprender qué tan rápido se acumula tu Demencia. En esta etapa, no tienes muchas formas de reducir la locura, así que atrae grupos pequeños.
+  </Step>
+  <Step num="2" title="Selección de Rol (Niveles 20-40)">
+    Aquí es donde te comprometes con una especialización. Si quieres tanquear, comienza a recolectar equipo de **Escudos** y **Aguante**. Si prefieres el camino del **Hereje**, busca un **arma de dos manos** de alto daño con Intelecto.
+  </Step>
+  <Step num="3" title="Desbloqueando la Evolución (Niveles 40-60)">
+    Obtendrás acceso a tus formas definitivas y pasivas de evolución. Practica tu "rotación" para asegurarte de alcanzar las 100 acumulaciones de Demencia (para Tanques/Sanadores) o mantenerte en 70-90 (para DPS) durante los combates contra jefes.
+  </Step>
+  <Step num="4" title="Optimización del Final del Juego">
+    Concéntrate en la **Celeridad** y el **Crítico**. La celeridad te permite acumular Demencia más rápido, mientras que el crítico activa efectos pasivos del vacío específicos que pueden restablecer el tiempo de reutilización de tus hechizos de sombra más poderosos.
+  </Step>
+</Steps>
+
+| Rango de Nivel | Zona Recomendada | Tarea de Enfoque |
+| :--- | :--- | :--- |
+| **10-20** | Páramos de Poniente / Los Baldíos | Desbloquear la gestión básica de Demencia |
+| **20-40** | Vega de Tuercespina | Experimentar con combos cuerpo a cuerpo de Hoja de Dios |
+| **40-55** | Tierras de la Peste del Oeste | Dominar la transformación de Dreadnought |
+| **55-60** | Silithus | Conseguir equipo temático de los Dioses Antiguos por estética y estadísticas |
+
+<Callout type="info" title="Prioridad de Equipo">
+Independientemente de la especialización, el **Intelecto** es vital para el Cultista, ya que aumenta tu reserva total de maná y tu poder con hechizos, con el cual todavía escalan muchas de tus habilidades "cuerpo a cuerpo".
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación del Final del Juego">
+
+Para dominar verdaderamente a Azeroth como Cultista, debes completar hitos específicos que desbloquean todo tu potencial. Usa esta lista de verificación para seguir tu progreso a lo largo del ciclo de contenido de 2026.
+
+<Checklist
+  id="cultist-progression"
+  title="Objetivos de Dominio del Cultista:"
+  items={[
+    "Obtener un arma de dos manos de Nivel 1 (para Hereje/Hoja de Dios)",
+    "Dominar el 'punto ideal' de 70-90 de Demencia durante 5 minutos seguidos",
+    "Desbloquear la transformación de Dreadnought Corrupto",
+    "Sanar con éxito una mazmorra usando la especialización de sanación cuerpo a cuerpo de Hereje",
+    "Completar la cadena de misiones 'Susurros de los Dioses Antiguos'"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo Profesional Final">
+El Cultista es una clase con un techo de habilidad muy alto. No te desanimes si accidentalmente te vuelves loco y pierdes el control durante tus primeras partidas. Los mejores Cultistas son aquellos que han "quebrado" sus mentes mil veces para aprender dónde se encuentra realmente el límite.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes del Cultista">
+
+<FAQ items={[
+  {
+    question: "¿Qué pasa si alcanzo las 100 acumulaciones de Demencia como Cultista de Corrupción?",
+    answer: "A diferencia del Dreadnought o el Hereje que evolucionan, un Cultista de Corrupción normalmente perderá el control de su personaje durante una corta duración, atacando a objetivos cercanos o corriendo sin rumbo. Es vital usar Extracción de Cordura para evitar esto."
+  },
+  {
+    question: "¿Puede la especialización de Hereje sanar tan bien como un Sacerdote?",
+    answer: "Sí, pero es situacional. El Hereje sobresale en combates donde puede mantener un tiempo de actividad constante cuerpo a cuerpo contra un jefe. En combates con mucho movimiento, pueden tener dificultades en comparación con los sanadores tradicionales a distancia."
+  },
+  {
+    question: "¿Qué arma es mejor para un Cultista Hoja de Dios?",
+    answer: "Una espada o hacha de dos manos lenta y de golpe fuerte es ideal. Dado que tus habilidades infligen daño de Sombra adicional según el daño del arma, cuanto mayor sea el daño máximo del arma, mayores serán tus ráfagas."
+  },
+  {
+    question: "¿Es bueno el Cultista para jugar en solitario en Conquest of Azeroth?",
+    answer: "Absolutamente. La especialización de Corrupción ofrece una gran capacidad para mantener a distancia a los enemigos (kiting) con Tentáculos del Vacío, mientras que el Dreadnought es prácticamente inmortal contra monstruos de élite, incluso si tarda un poco más en derrotarlos."
+  }
+]} />
+
+</Section>

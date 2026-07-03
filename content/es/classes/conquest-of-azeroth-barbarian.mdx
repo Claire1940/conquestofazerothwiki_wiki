@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bárbaro en Conquest of Azeroth: Guía de Clase y Builds 2026",
+  description: "Domina al Bárbaro en Conquest of Azeroth con nuestra guía de 2026. Explora las especializaciones de Brutalidad, Caza de Cabezas y Ancestros, incluyendo las mejores builds y mecánicas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Barbarian+Class+Guide",
+  date: "2026-07-03",
+  author: "Equipo de Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **Bárbaro en Conquest of Azeroth** es un atacante salvaje de gran movilidad que prospera en el caos del combate.
+- **Tres Especializaciones** ofrecen estilos de juego únicos: Caza de Cabezas (A distancia), Brutalidad (Cuerpo a cuerpo) y Ancestros (Soporte/Escarcha).
+- Las **Mecánicas de Furia** potencian tus ataques, mientras que estar por debajo del 35% de salud otorga una regeneración de energía y sanación significativas.
+- Un **Combate Versátil** que permite empuñar dos armas para ataques rápidos, asestar golpes masivos a dos manos o lanzar lanzas a distancia.
+- El **Soporte de Ancestros** proporciona mejoras únicas para todo el grupo, incluyendo celeridad, poder y resistencia a la escarcha.
+</Callout>
+
+<Section icon={Swords} title="Descripción General de la Clase Bárbaro en Conquest of Azeroth">
+
+El **Bárbaro en Conquest of Azeroth** representa el testimonio de la furia pura y desenfrenada en el campo de batalla. Nacidos en las tierras salvajes e indómitas, estos guerreros no son simples luchadores, sino fuerzas de la naturaleza que utilizan una fuerza brutal para abrirse paso a través de cualquier oposición. Ya sea que prefieras la carnicería rítmica del combate cuerpo a cuerpo o la precisión táctica de las lanzas a distancia, el Bárbaro ofrece un conjunto de herramientas dinámico centrado en la agresión y la supervivencia.
+
+**Puntos Destacados del Video:**
+- Desglose detallado de las tres especializaciones principales del Bárbaro.
+- Demostración de las mecánicas exclusivas de "Combate a Muerte" y "Tanque de Cerveza".
+- Exhibición de habilidades de alta movilidad como Carga de Rabioso.
+- Guía visual de las habilidades de escarcha inspiradas en los Vrykul de la especialización de Ancestros.
+
+<YouTubeEmbed videoId="5VYpy1JEp4U" title="New WoW Class: Barbarian - Conquest of Azeroth" />
+
+La identidad de la clase gira en torno a la mecánica "Caminar por la Línea". Los bárbaros se vuelven cada vez más peligrosos a medida que disminuye su salud. Mientras que la mayoría de las clases temen caer por debajo del 35% de salud, el Bárbaro lo acepta, obteniendo una mayor generación de energía y autosanación. Este estilo de juego de alto riesgo y alta recompensa los convierte en una de las clases más emocionantes de pilotar en el meta de 2026.
+
+<Callout type="tip" title="Estrategia de Supervivencia">
+Vigila siempre tu umbral de salud. Estar por debajo del 35% de salud es una ventaja táctica para un Bárbaro, pero debes asegurarte de que tu autosanación supere el daño de ráfaga entrante para mantenerte en la pelea.
+</Callout>
+
+| Atributo | Impacto en el Bárbaro | Prioridad |
+| :--- | :--- | :--- |
+| **Fuerza** | Aumenta el Poder de Ataque base y la Parada | ★★★★★ |
+| **Golpe Crítico** | Activa Enfurecer y efectos de alto daño | ★★★★★ |
+| **Celeridad** | Reduce el TCG y aumenta la generación de recursos | ★★★★☆ |
+| **Aguante** | Proporciona un mayor colchón para jugar con poca salud | ★★★☆☆ |
+| **Versatilidad** | Incremento directo de daño y reducción de daño recibido | ★★★★☆ |
+
+</Section>
+
+<Section icon={Target} title="Especialización de Brutalidad: Destrucción Cuerpo a Cuerpo">
+
+La especialización de Brutalidad representa la cumbre del combate a corta distancia. Los jugadores que elijan este camino deben decidir entre dos configuraciones de armas distintas: el arma masiva a Dos Manos o la implacable configuración de Doble Empuñadura. Cada camino ofrece un ritmo de combate único, centrado en la penetración de armadura y los movimientos de remate.
+
+<CardGrid cols={2}>
+  <Card title="Camino a Dos Manos">
+    - **Ráfaga Masiva**: Se centra en golpes lentos y colosales.
+    - **Decapitar**: Conseguir una muerte restablece esta poderosa habilidad.
+    - **Estilo Ejecutor**: Ideal para limpiar grupos de enemigos con poca salud.
+  </Card>
+  <Card title="Camino de Doble Empuñadura">
+    - **Torbellino de Acero**: Ataques rápidos que perforan la armadura.
+    - **Velocidad de Ataque**: Alta sinergia con efectos al golpear y celeridad.
+    - **DPS Sostenido**: Presión constante sobre objetivos únicos.
+  </Card>
+</CardGrid>
+
+Una de las mecánicas más singulares del árbol de Brutalidad es el **Combate a Muerte**. Esta habilidad fuerza un escenario 1v1 donde tanto el Bárbaro como su objetivo ven reducida su armadura a cero. Es una carrera literal para ver quién puede despedazar al otro primero, resumiendo a la perfección la naturaleza salvaje de la clase.
+
+<Callout type="warning" title="Advertencia de Combate a Muerte">
+Usa Combate a Muerte solo cuando confíes en tu potencial de daño de ráfaga o tengas activos tus efectos de sanación con poca salud, ya que serás tan vulnerable como tu enemigo.
+</Callout>
+
+| Habilidad | Efecto | Tiempo de Reutilización |
+| :--- | :--- | :--- |
+| **Decapitar** | Ejecución de alto daño; se restablece al matar | 15s (Base) |
+| **Combate a Muerte** | Reduce la armadura a 0 para uno mismo y el objetivo | 2m |
+| **Golpes Brutales** | Aumenta la penetración de armadura en un 15% | Pasivo |
+| **Hender** | Golpea hasta a 3 objetivos para un 70% de daño | Ninguno |
+
+</Section>
+
+<Section icon={Map} title="Caza de Cabezas: Precisión a Distancia y Maestría Tribal">
+
+Inspirada en las antiguas técnicas de los Troles, la especialización de Caza de Cabezas transforma al **Bárbaro en Conquest of Azeroth** en un letal depredador a distancia. A diferencia de los cazadores tradicionales que dependen de mascotas, el Cazador de Cabezas confía en su propia fuerza, lanzando hachas y lanzas con una precisión letal.
+
+Esta especialización se centra en gran medida en el desate (kiting) y la movilidad. Al utilizar **Carga de Rabioso**, el Bárbaro puede desengancharse rápidamente del rango cuerpo a cuerpo, creando el espacio necesario para desatar una lluvia de proyectiles. El objetivo es mantener a los enemigos a distancia mientras se desangran por múltiples heridas punzantes.
+
+<Steps>
+  <Step num="1" title="Iniciar Sangrados">
+    Abre el combate con Lanzas Arrojadizas para infligir heridas profundas y ralentizar el movimiento del objetivo.
+  </Step>
+  <Step num="2" title="Mantener la Distancia">
+    Usa Carga de Rabioso o mejoras de velocidad de movimiento para mantenerte fuera del alcance cuerpo a cuerpo del enemigo.
+  </Step>
+  <Step num="3" title="Ejecutar">
+    Una vez que el objetivo esté debilitado por los sangrados, usa lanzamientos de hachas a gran velocidad para acabar con él.
+  </Step>
+</Steps>
+
+<Callout type="info" title="La Movilidad es Clave">
+Los Cazadores de Cabezas ganan velocidad de movimiento adicional de forma natural. Usa esto a tu favor para superar tácticamente a tus oponentes tanto en escenarios de JcJ como de JcE.
+</Callout>
+
+| Herramienta a Distancia | Función Principal | Efecto de Estado |
+| :--- | :--- | :--- |
+| **Hacha Arrojadiza** | Ataque de relleno rápido y constante | Sangrado Menor |
+| **Lanza Pesada** | Gran daño, iniciador de largo alcance | Empalar (Ralentización) |
+| **Carga de Rabioso** | Herramienta de reposicionamiento rápido | Aumento de Velocidad |
+| **Gancho Barbado** | Atrae a los enemigos o los mantiene en su sitio | Trampa |
+
+</Section>
+
+<Section icon={Sparkles} title="Ancestros: El Camino Vrykul Tocado por la Escarcha">
+
+La especialización de Ancestros es quizás la más singular de las tres, ya que combina el combate cuerpo a cuerpo con magia basada en la escarcha y una poderosa utilidad de grupo. Inspirándose en su linaje Vrykul, estos bárbaros utilizan un recurso ancestral conocido como el **Tanque de Cerveza**. Este tanque se llena con el tiempo, y "beber" de él proporciona importantes ventajas tácticas.
+
+Los Bárbaros de Ancestros son muy valorados en el contenido de grupo por sus capacidades de soporte. No solo infligen daño, sino que mejoran la eficacia de todo el grupo a través de diversas bendiciones y resistencias.
+
+<CardGrid cols={3}>
+  <Card title="Daño de Escarcha">
+    - Potencia los ataques con poder gélido.
+    - Ralentiza la velocidad de ataque del enemigo.
+    - Alta sinergia con la resistencia a la escarcha.
+  </Card>
+  <Card title="Mecánica de Tanque de Cerveza">
+    - Reduce los tiempos de reutilización de habilidades al usarse.
+    - Permite desatar poderosos alientos de escarcha.
+    - Requiere una sincronización cuidadosa para dominarse.
+  </Card>
+  <Card title="Utilidad de Grupo">
+    - Aumenta la celeridad y el poder del grupo.
+    - Otorga mejoras de Golpe Crítico.
+    - Proporciona Resistencia a la Escarcha esencial.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia de Grupo">
+En las bandas, un Bárbaro de Ancestros puede aumentar significativamente el daño total de la banda. Asegúrate de coordinar el uso de tu Tanque de Cerveza con las ventanas de daño de ráfaga del grupo.
+</Callout>
+
+| Habilidad de Soporte | Beneficio para el Grupo | Duración |
+| :--- | :--- | :--- |
+| **Bendición de Vrykul** | +10% de Poder de Ataque y de Hechizo | 30s |
+| **Presencia Gélida** | Aumenta la Resistencia a la Escarcha en 50 | Aura |
+| **Celeridad Ancestral** | Aumenta la Celeridad en un 5% para todos los aliados | 20s |
+| **Aliento de Escarcha** | Daño en cono frontal y ralentización del 30% | 8s |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión y Build">
+
+Para dominar verdaderamente al **Bárbaro en Conquest of Azeroth**, debes progresar a través de hitos específicos y optimizar tu equipo para la especialización elegida. Ya sea que estés subiendo de nivel en las tierras salvajes o preparándote para las bandas de nivel máximo, seguir un camino estructurado es esencial para el éxito en 2026.
+
+<Checklist
+  id="barbarian-progression"
+  title="Hitos de Maestría del Bárbaro:"
+  items={[
+    "Desbloquear las tres especializaciones al nivel 20",
+    "Adquirir un arma a Dos Manos de alto DPS para subir de nivel en Brutalidad",
+    "Dominar la gestión de energía 'Por Debajo del 35% de Salud'",
+    "Obtener la reliquia 'Tanque de Cerveza' para builds de Ancestros",
+    "Alcanzar el límite máximo de velocidad de movimiento para Caza de Cabezas"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de Equipo">
+Prioriza siempre las armas con un daño máximo elevado. Para los Bárbaros, el rango de daño base del arma a menudo supera las pequeñas diferencias de estadísticas en otras piezas de equipo.
+</Callout>
+
+| Rango de Nivel | Actividad Recomendada | Enfoque |
+| :--- | :--- | :--- |
+| **1-20** | Misiones Básicas y Pruebas de Especialización | Comprender la Furia |
+| **21-40** | Limpieza de Mazmorras (Brutalidad) | Rotación en Área (AoE) |
+| **41-60** | JcJ en Mundo Abierto / Caza de Elites | Desate (Kiting) y Supervivencia |
+| **60+** | Bandas y Desafíos Heroicos | Utilidad de Grupo |
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué arma es mejor para un Bárbaro de Brutalidad: Dos Manos o Doble Empuñadura?",
+    answer: "Depende del encuentro. Las armas a dos manos son superiores para el daño de ráfaga y para acabar con grupos de enemigos debido al reinicio de Decapitar. La doble empuñadura ofrece un mayor daño sostenido a un solo objetivo y una mejor sinergia con los efectos de penetración de armadura."
+  },
+  {
+    question: "¿Cómo funciona la mecánica 'Por Debajo del 35% de Salud'?",
+    answer: "Cuando tu salud cae por debajo del 35%, se activa un rasgo pasivo que aumenta tu generación de energía y proporciona una curación basada en un porcentaje con cada ataque. Esto permite al Bárbaro permanecer más tiempo en combate mientras inflige el máximo daño."
+  },
+  {
+    question: "¿Se puede jugar la especialización de Caza de Cabezas en el rango cuerpo a cuerpo?",
+    answer: "Aunque puedes luchar cuerpo a cuerpo, pierdes los beneficios de tu mayor velocidad de movimiento y tus herramientas de desate (kiting). Caza de Cabezas está optimizada para mantener la distancia y dejar que los sangrados hagan el trabajo."
+  },
+  {
+    question: "¿Es la especialización de Ancestros una opción viable para tanquear?",
+    answer: "Ancestros es principalmente una especialización de Daño/Soporte. Aunque cuenta con algunas mejoras defensivas y resistencia a la escarcha, carece de la generación de amenaza y la mitigación de una clase dedicada a tanquear en Conquest of Azeroth."
+  }
+]} />
+
+</Section>

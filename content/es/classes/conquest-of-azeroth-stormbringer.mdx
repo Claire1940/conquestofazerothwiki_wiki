@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Stormbringer: Guía de Clase y Build Meta 2026",
+  description: "Domina la clase Stormbringer de Conquest of Azeroth con nuestra guía completa sobre gestión de Estática, rutas de especialización y rotaciones meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Stormbringer+Class+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "Conquest of Azeroth, Stormbringer, guía de clase, build meta, WoW Ascension"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Stormbringer de Conquest of Azeroth**: Una clase híbrida versátil que maneja magia de rayos, viento y agua.
+- **Mecánica de Estática**: El recurso principal que se genera al lanzar hechizos y debe liberarse para infligir un daño masivo.
+- **Especializaciones**: Elige entre Rayo (DPS puro), Maelstrom (Híbrido Escarcha-Tormenta) o Viento (Soporte/Utilidad).
+- **Estrategia Principal**: Mantener un alto tiempo de actividad de hechizos para generar Estática, luego gastarla en Erupción Tronante para ráfagas de daño.
+- **Rol de Soporte**: Proporciona beneficios esenciales para el grupo, incluyendo celeridad, restauración de maná y limpieza de venenos.
+</Callout>
+
+<Section icon={Map} title="Descripción General de la Clase Stormbringer y Mecánicas Principales">
+
+El **Stormbringer de Conquest of Azeroth** representa la furia pura de los elementos, actuando como un maestro de las tormentas eléctricas y la presión atmosférica. A diferencia de los magos tradicionales, el Stormbringer funciona a través de un sistema de recursos único conocido como **Estática**. Este recurso se genera rápidamente mediante el lanzamiento de hechizos estándar, pero se disipa velozmente si el jugador permanece inactivo. Dominar el ritmo de generación y gasto de Estática es lo que diferencia a un novato de un elementalista de alto nivel.
+
+**Puntos Destacados del Video:**
+- Resumen de las capacidades de rol dual del Stormbringer como DPS o Soporte.
+- Explicación detallada del recurso Estática y su rápida disipación.
+- Muestra visual de las tres rutas de especialización distintas.
+- Demostraciones de la mecánica de acumulación del perjuicio "Conductivo".
+
+<YouTubeEmbed videoId="W5C0-U3RvW8" title="Nueva clase de WoW: Stormbringer - Conquest of Azeroth" />
+
+Los Stormbringers destacan tanto en entornos solitarios como grupales debido a su inmensa versatilidad. Ya sea que te enraíces a la tierra para aumentar el alcance de tus hechizos o invoques a un compañero racheado para proteger a tus aliados, la clase ofrece una solución para cada desafío táctico.
+
+| Tipo de Rol | Enfoque Principal | Recurso Clave | Estilo de Juego Típico |
+| :--- | :--- | :--- | :--- |
+| **Daño (DPS)** | Ráfaga y Área (AOE) | Estática | Lanzamiento agresivo y erupción |
+| **Soporte** | Beneficios y Utilidad | Maná/Estática | Escudos reactivos y aumento de celeridad |
+
+<Callout type="tip" title="Gestión de Estática">
+La Estática es un recurso de "úsalo o piérdelo". En encuentros de alto nivel, asegúrate de tener listo un finalizador como Erupción Tronante tan pronto como tu barra de Estática alcance el 80% para evitar desperdiciar daño potencial.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rutas de Especialización: Viento, Maelstrom y Rayo">
+
+In el meta de 2026, el Stormbringer se define por sus tres árboles de especialización. Cada ruta altera radicalmente la forma en que interactúas con el mundo y los miembros de tu grupo. Elegir la especialización adecuada es crítico para optimizar tu rendimiento en bandas o progresión en solitario.
+
+<CardGrid cols={3}>
+  <Card title="Rayo">
+    - **Enfoque en DPS puro**
+    - Alta generación de Estática
+    - Activaciones de reinicio de enfriamiento
+    - **Ideal para:** Bandas y nivelación en solitario
+  </Card>
+  <Card title="Maelstrom">
+    - **Híbrido Escarcha-Tormenta**
+    - Usa agua para empapar a los enemigos
+    - Explota acumulaciones de Conductivo
+    - **Ideal para:** Daño de ráfaga táctico
+  </Card>
+  <Card title="Viento">
+    - **Soporte y Utilidad**
+    - Beneficios de celeridad y maná
+    - Empujones y Escudos
+    - **Ideal para:** Juego en grupo y PvP
+  </Card>
+</CardGrid>
+
+La especialización de **Rayo** es la más directa, centrándose en descargas de fuego rápido y electrificación en área. **Maelstrom** introduce una capa más compleja, requiriendo que los jugadores empapen a los enemigos con hechizos de agua para aplicar el perjuicio **Conductivo**, lo que amplifica significativamente el daño de los ataques de rayo posteriores. Finalmente, la especialización de **Viento** convierte al Stormbringer en una potencia defensiva, capaz de alejar a los aliados del peligro e invocar Vientos de Cola para acelerar a todo el grupo.
+
+| Especialización | Habilidad Clave | Perjuicio Principal | Beneficio Principal |
+| :--- | :--- | :--- | :--- |
+| **Rayo** | Erupción Tronante | Electrocutado | Máximo DPS a un solo objetivo |
+| **Maelstrom** | Tormenta de Escarcha | Conductivo | Potencial masivo de ráfaga en área |
+| **Viento** | Vientos de Cola | Ráfaga/Empujón | Utilidad excepcional para el grupo |
+
+<Callout type="warning" title="Complejidad de Maelstrom">
+Maelstrom requiere una sincronización precisa. Si detonas tus acumulaciones de Conductivo demasiado pronto, perderás el multiplicador de daño exponencial. Apunta siempre al máximo de acumulaciones antes de lanzar tus finalizadores de tormenta de escarcha.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Nivelación y Progresión Paso a Paso">
+
+Progresar con un **Stormbringer de Conquest of Azeroth** requiere un equilibrio entre la potencia ofensiva y la sostenibilidad defensiva. Sigue estos pasos para asegurar un viaje fluido de mago de rayos novato a avatar de la tormenta.
+
+<Steps>
+  <Step num="1" title="Generación Inicial de Estática">
+    Concéntrate en tus descargas de relámpagos básicas para entender la tasa de generación de Estática. Practica el mantenimiento de la barra de recursos durante el movimiento para evitar la disipación.
+  </Step>
+  <Step num="2" title="Elección de Especialización">
+    Al nivel apropiado, comprométete con una especialización. Para principiantes, se recomienda Rayo por su alto umbral de daño y rotación sencilla.
+  </Step>
+  <Step num="3" title="Dominando el Ciclo Conductivo">
+    Si juegas Maelstrom, aprende el ritmo de "Empapar y Sacudir". Aplica primero hechizos de agua, acumula el perjuicio Conductivo y luego usa tu gastador de Estática para rematar.
+  </Step>
+  <Step num="4" title="Integración de Utilidad">
+    Incorpora hechizos de utilidad basados en Viento como Levitar y Empujón en tu rotación regular para gestionar el posicionamiento de los enemigos y la seguridad del grupo.
+  </Step>
+</Steps>
+
+| Rango de Nivel | Actividad Prioritaria | Especialización Recomendada | Talento Clave |
+| :--- | :--- | :--- | :--- |
+| **1-20** | Mecánicas Básicas | Rayo | Flujo Estático |
+| **21-40** | Utilidad en Mazmorras | Viento/Rayo | Vientos de Cola |
+| **41-60** | Preparación para el Juego Final | Maelstrom/Rayo | Erupción Tronante |
+
+<Callout type="success" title="Consejo de Eficiencia">
+Usa la habilidad "Enraizar a la Tierra" siempre que estés en una posición segura. Esto aumenta significativamente tu alcance y daño, permitiéndote limpiar campamentos antes de que lleguen a ti.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Rotación de Combate y Prioridades de Estadísticas">
+
+Optimizar tu rendimiento en combate implica alcanzar umbrales de estadísticas específicos y seguir una lista de prioridades estricta. Para el Stormbringer, la **Celeridad** es la estadística reina, ya que se correlaciona directamente con la rapidez con la que puedes generar y gastar Estática.
+
+**Prioridades de Estadísticas Principales:**
+1. **Intelecto**: Aumenta el poder de hechizos general y la reserva de maná.
+2. **Celeridad**: Reduce los tiempos de lanzamiento y acelera la generación de Estática.
+3. **Golpe Crítico**: Vital para los reinicios de enfriamiento basados en activaciones en el árbol de Rayo.
+4. **Versatilidad**: Proporciona la reducción de daño necesaria para las builds de soporte.
+
+**Rotación de DPS Estándar (Rayo/Maelstrom):**
+- Aplica acumulaciones de **Conductivo** (si eres Maelstrom).
+- Lanza **Descarga de Relámpagos** o **Choque** para generar Estática.
+- Usa **Relámpago Vivo** al activarse para daño gratuito.
+- Ejecuta **Erupción Tronante** al 90%+ de Estática.
+- Usa **Empujón** o **Raíz** si los enemigos acortan la distancia.
+
+| Estadística | Prioridad | Objetivo (Nivel 60) | Impacto |
+| :--- | :--- | :--- | :--- |
+| **Celeridad** | Alta | 25% - 30% | Generación de Estática más rápida |
+| **Crítico** | Media | 20% | Más reinicios de enfriamiento |
+| **Maestría** | Alta | 15% | Aumento del daño elemental |
+
+<Callout type="info" title="Rotación de Soporte">
+Cuando juegues como soporte de Viento, tu prioridad cambia a mantener un 100% de tiempo de actividad en **Vientos de Cola** y monitorear los niveles de maná del grupo. Usa tus escudos de aire de forma reactiva en lugar de proactiva para ahorrar maná.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamiento y Preparación para el Combate">
+
+Para maximizar el potencial del **Stormbringer de Conquest of Azeroth**, tu equipo debe complementar la especialización elegida. Aunque la armadura de tela es el estándar, busca piezas que mejoren específicamente el daño elemental o proporcionen bonificaciones de "Retención de Estática".
+
+<Checklist
+  id="stormbringer-checklist"
+  title="Lista de Verificación para el Juego Final:"
+  items={[
+    "Alcanzar el umbral del 25% de Celeridad para lanzamientos más rápidos",
+    "Obtener un bastón o varita con alto Intelecto y Maestría",
+    "Desbloquear el último nivel de talentos de Erupción Tronante",
+    "Equipar al menos dos piezas del conjunto 'Storm-Touched'",
+    "Dominar el tiempo de la detonación del perjuicio Conductivo"
+  ]}
+/>
+
+| Ranura | Bonificación Recomendada | Fuente |
+| :--- | :--- | :--- |
+| **Cabeza** | +Límite de Estática | Bandas de alto nivel |
+| **Pecho** | +Celeridad / Maestría | Profesiones / Mazmorras |
+| **Arma** | +Activación: Descarga de Rayos | Jefes de Mundo |
+| **Abalorio** | Regen. de Maná al lanzar hechizos | Fichas de Soporte |
+
+<Callout type="warning" title="Selección de Equipo">
+No ignores el Aguante en las builds de 2026. Aunque las builds de Rayo de "cañón de cristal" son populares, la mecánica "Enraizar a la Tierra" del Stormbringer te convierte en un objetivo estacionario, lo que requiere una reserva de salud decente para sobrevivir a áreas de efecto inesperadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mecánica más importante para un Stormbringer de Conquest of Azeroth?",
+    answer: "El recurso Estática es la mecánica central. Debes lanzar hechizos constantemente para generar Estática y luego usar gastadores de alto daño como Erupción Tronante antes de que el recurso se disipe."
+  },
+  {
+    question: "¿Puede el Stormbringer actuar como sanador principal?",
+    answer: "No, el Stormbringer es un híbrido Soporte/DPS. Aunque pueden aliviar venenos y enfermedades y proporcionar restauración de maná, carecen de la alta producción de sanación directa requerida para el rol de sanador principal."
+  },
+  {
+    question: "¿Qué especialización es mejor para nivelar en solitario?",
+    answer: "Rayo es generalmente la mejor para jugar en solitario debido a su alto daño bruto y rotación más simple. Sin embargo, Maelstrom es excelente si prefieres un enfoque más táctico con ráfagas en área."
+  },
+  {
+    question: "¿Cómo funciona el perjuicio Conductivo?",
+    answer: "El perjuicio Conductivo se aplica mediante hechizos basados en agua en el árbol de Maelstrom. Una vez acumulado, los hechizos de rayo consumirán estas acumulaciones para infligir un daño masivo de tormenta de escarcha adicional."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+El Stormbringer es una de las clases más gratificantes en Conquest of Azeroth para los jugadores que disfrutan del lanzamiento de hechizos a alta velocidad y una utilidad impactante. Al dominar la gestión de la Estática, te conviertes en un activo indispensable para cualquier grupo de aventura.
+</Callout>
+
+</Section>

@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clérigo del Sol en Conquest of Azeroth: Guía de Builds y Clasificación",
+  description: "Domina la clase Clérigo del Sol en Conquest of Azeroth en 2026. Descubre las mejores builds, mecánicas de especialización y estrategias de rotación.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/d97706/fff?text=Sun+Cleric+Build+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "clérigo del sol, conquest of azeroth, guía de build, especializaciones, poder solar"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Clérigo del Sol de Conquest of Azeroth**: Una clase sumamente versátil capaz de desempeñar roles de Tanque, Sanador, DPS Cuerpo a Cuerpo o DPS a Distancia.
+- **Mecánica de Amanecer**: Acumula acumulaciones de Poder Solar para activar Amanecer, lo que potencia significativamente tus próximas cinco habilidades.
+- **Diversidad de Especializaciones**: Elige entre Piedad (Taumaturgo), Valquiria (Cuerpo a cuerpo), Serafín (Tanque) o Bendiciones (Sanador).
+- **Sinergia de Recursos**: Domina el equilibrio entre Maná, Ira y Poder Solar para optimizar tu rotación.
+</Callout>
+
+<Section icon={Sparkles} title="Mecánicas Principales y Poder Solar">
+
+El clérigo del sol de Conquest of Azeroth se erige como un campeón radiante en el campo de batalla, empuñando el poder del sol abrasador para incinerar enemigos, proteger aliados y llevar justicia a los rincones más oscuros del mundo. Esta clase es excepcionalmente versátil, permitiendo a los jugadores especializarse en combate cuerpo a cuerpo, lanzamiento de hechizos a distancia, tanqueo o sanación. Para jugar esta clase de manera efectiva, debes comprender cómo manipula sus sistemas de recursos principales para desatar devastadores hechizos divinos.
+
+**Puntos destacados del video:**
+- **Roles Versátiles**: Demuestra al Clérigo del Sol jugando como tanque, sanador, DPS cuerpo a cuerpo y DPS a distancia.
+- **Sistema de Poder Solar**: Explica cómo acumular Poder Solar para activar la poderosa mecánica de Amanecer.
+- **Resumen de Especializaciones**: Detalla los estilos de juego de Piedad, Valquiria, Serafín y Bendiciones.
+
+<YouTubeEmbed videoId="LQ5kUApKG8w" title="Nueva clase de WoW: Clérigo del Sol - Conquest of Azeroth" />
+
+A diferencia de las clases tradicionales que dependen de un solo recurso, el Clérigo del Sol utiliza una combinación de Maná, Ira y un beneficio acumulable único conocido como Poder Solar. A medida que realizas acciones de combate y usas tus habilidades de clase, generas acumulaciones de Poder Solar. Una vez que tu reserva de luz está completamente cargada, puedes desatar Amanecer. Activar Amanecer potencia tus próximas cinco habilidades con efectos radiantes adicionales, como mayor daño sagrado, sanación adicional o golpes críticos garantizados.
+
+| Recurso | Método de Generación | Uso Principal | Especializaciones Asociadas |
+|---|---|---|---|
+| **Maná** | Regeneración pasiva, talentos | Hechizos, sanación, utilidad | Bendiciones, Piedad |
+| **Ira** | Ataques cuerpo a cuerpo, hechizos específicos | Ataques abrasadores, golpes pesados | Valquiria, Piedad, Serafín |
+| **Poder Solar** | Ejecución de habilidades de clase | Activación de la potenciación de Amanecer | Todas las especializaciones |
+
+<Callout type="tip" title="Gestión del Poder Solar">
+No desperdicies tu potenciación de Amanecer en habilidades de bajo impacto. Planifica tu rotación para que tus hechizos de mayor daño o mayor sanación se beneficien de los golpes críticos garantizados y las bonificaciones radiantes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perfiles de Especialización y Estilos de Juego">
+
+El Clérigo del Sol presenta cuatro especializaciones distintas, cada una orientada a un rol completamente diferente tanto en contenido de grupo como en progresión en solitario. Ya sea que prefieras estar en primera línea con un escudo masivo o invocar llamaradas solares desde la distancia, hay un estilo de juego adaptado a tus preferencias.
+
+<CardGrid cols={2}>
+  <Card title="Piedad (DPS a Distancia)">
+    - **Magia de fuego y sagrada a distancia**
+    - Altas capacidades de daño de ráfaga
+    - Utiliza Ira para alimentar las cóleras solares
+  </Card>
+  <Card title="Valquiria (DPS Cuerpo a Cuerpo)">
+    - **Empuña dos armas de dos manos**
+    - Alta movilidad y velocidad de ataque
+    - Genera acumulaciones de Alba para hechizos instantáneos
+  </Card>
+  <Card title="Serafín (Tanque)">
+    - **Altas capacidades defensivas**
+    - Utiliza un escudo masivo para protección
+    - Baña el campo de batalla en llamas justicieras
+  </Card>
+  <Card title="Bendiciones (Sanador)">
+    - **Crea escudos que absorben daño**
+    - Mecánica de Guía que irradia hechizos desde los aliados
+    - La Forma Sagrada potencia enormemente la producción de sanación
+  </Card>
+</CardGrid>
+
+Cada especialización altera la forma en que el Clérigo del Sol interactúa con el enemigo y gestiona los recursos. Por ejemplo, los clérigos de Piedad funcionan como taumaturgos de guerra, usando hechizos como Explosión de Horath para generar Ira, que luego se gasta en poderosas Rapturas. Las Valquirias, por otro lado, dependen de ataques físicos para acumular acumulaciones de Alba, lo que les permite lanzar hechizos instantáneamente en medio del combate sin interrumpir su flujo cuerpo a cuerpo.
+
+| Especialización | Rol | Armamento Clave | Mecánica Principal | Estilo de Juego |
+|---|---|---|---|---|
+| **Piedad** | DPS a Distancia | Bastón / Poder con hechizos | Explosión de Horath e Ira | Ráfaga a distancia |
+| **Valquiria** | DPS Cuerpo a Cuerpo | Doble arma de 2 manos | Acumulaciones de Alba | Cuerpo a cuerpo rápido |
+| **Serafín** | Tanque | Arma de 1 mano y Escudo | Llama Justiciera | Mitigación |
+| **Bendiciones** | Sanador | Maza y Mano izquierda | Baluarte y Guía | Sanación con escudos |
+
+<Callout type="warning" title="Escasez de Recursos">
+Las especializaciones de Piedad y Valquiria requieren un monitoreo cuidadoso de la Ira. Quedarse sin Ira en momentos críticos puede estancar tu rotación y reducir significativamente tu producción de daño.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotación de Combate y Pasos de la Build">
+
+Para maximizar la eficiencia de tu Clérigo del Sol, debes seguir un enfoque estructurado para el combate. La rotación cambia según la especialización elegida, pero el objetivo fundamental sigue siendo el mismo: generar Poder Solar, activar Amanecer y ejecutar tus habilidades potenciadas.
+
+<Steps>
+  <Step num="1" title="Generar Recursos Iniciales">
+    Comienza el combate usando tus generadores de recursos principales. Para Piedad, lanza Explosión de Horath para acumular Ira. Para Valquiria, entra en combate cuerpo a cuerpo para acumular Alba.
+  </Step>
+  <Step num="2" title="Acumular Poder Solar">
+    Continúa usando tus habilidades de rotación para aumentar tu reserva de Poder Solar. Observa el rastreador de beneficios para monitorear cuándo tu reserva está cerca de llenarse.
+  </Step>
+  <Step num="3" title="Desatar el Amanecer">
+    Activa la habilidad Amanecer una vez que tu Poder Solar esté al máximo. Esto potenciará tus próximos cinco hechizos o ataques con propiedades radiantes.
+  </Step>
+  <Step num="4" title="Ejecutar Hechizos Potenciados">
+    Lanza tus habilidades de gran impacto, como Cólera Solar para DPS o sanaciones masivas para Bendiciones, para utilizar los golpes críticos garantizados.
+  </Step>
+</Steps>
+
+Al equipar a tu personaje, priorizar las estadísticas correctas es esencial para optimizar el rendimiento. La tabla a continuación describe las prioridades de estadísticas recomendadas para cada uno de los cuatro caminos.
+
+| Especialización | Estadística Principal | Estadística Secundaria | Estadística Terciaria |
+|---|---|---|---|
+| **Piedad** | Intelecto | Celeridad | Crítico de Hechizos |
+| **Valquiria** | Fuerza | Crítico Cuerpo a Cuerpo | Celeridad |
+| **Serafín** | Fuerza | Armadura / Aguante | Parada / Esquiva |
+| **Bendiciones** | Intelecto | Poder con Hechizos | Regeneración de Maná |
+
+<Callout type="success" title="Consejo de Selección de Equipo">
+Busca equipo que ofrezca estadísticas híbridas si planeas cambiar de especialización con frecuencia. El equipo basado en Fuerza con armadura funciona bien tanto para Valquiria como para Serafín.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de Progresión y Objetivos">
+
+A medida que subes de nivel a tu personaje a través de las diversas zonas, desbloquearás talentos y habilidades clave que definen tu especialización. Establecer hitos de progresión ayuda a asegurar que tu personaje siga siendo lo suficientemente poderoso para enfrentar el contenido de nivel máximo.
+
+<Checklist
+  id="sun-cleric-milestones"
+  title="Hitos Esenciales de Clase:"
+  items={[
+    "Desbloquea tu árbol de talentos de especialización principal",
+    "Adquiere tu primer conjunto de armas de dos manos para empuñadura doble (Valquiria)",
+    "Obtén un escudo de alto bloqueo para el escalado defensivo (Serafín)",
+    "Domina el tiempo de la ventana de potenciación de Amanecer"
+  ]}
+/>
+
+La progresión de nivel requiere que te adaptes a nuevas habilidades a medida que estén disponibles. Usa la guía de progresión a continuación para planificar tu ruta de nivelación y adquisición de talentos.
+
+| Rango de Nivel | Área de Enfoque | Desbloqueo Clave | Actividad Recomendada |
+|---|---|---|---|
+| **1 - 10** | Rotación Básica | Sistema de Poder Solar | Misiones de zona inicial |
+| **11 - 30** | Selección de Especialización | Talentos de Especialización | Mazmorras y misiones de grupo |
+| **31 - 50** | Sinergia y Equipo | Potenciación de Amanecer | Zonas Élite y Profesiones |
+| **51 - 60** | Preparación para el Endgame | Forma Sagrada / Talentos Finales | Raids y Mazmorras Heroicas |
+
+<Callout type="info" title="Requisito de Empuñadura Doble">
+Las Valquirias deben invertir en talentos específicos en su árbol de especialización para poder empuñar con éxito dos armas de dos manos sin sufrir penalizaciones severas de precisión.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Revisa estas preguntas comunes sobre las mecánicas de la clase y las rutas de build para optimizar tu juego.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el rol principal del clérigo del sol en Conquest of Azeroth?",
+    answer: "El Clérigo del Sol es una clase sumamente versátil que puede ocupar cualquier rol: Tanque (Serafín), Sanador (Bendiciones), DPS Cuerpo a Cuerpo (Valquiria) o DPS a Distancia (Piedad)."
+  },
+  {
+    question: "¿Cómo funciona la mecánica de Amanecer?",
+    answer: "El uso de habilidades genera acumulaciones de Poder Solar. Una vez lleno, puedes activar Amanecer, que potencia tus próximas cinco habilidades con golpes críticos, sanación adicional o daño extra."
+  },
+  {
+    question: "¿Puede un Clérigo de Bendiciones sanar a los miembros del grupo de manera efectiva?",
+    answer: "Sí. Los Clérigos de Bendiciones usan luz restauradora, crean baluartes protectores y pueden guiar a un aliado para que irradie hechizos de sanación directamente desde él."
+  },
+  {
+    question: "¿Qué recurso utiliza la especialización de Piedad?",
+    answer: "Los Clérigos de Piedad son taumaturgos de guerra que generan y gastan Ira junto con Maná para alimentar sus hechizos de fuego y sagrados."
+  }
+]} />
+
+<Callout type="tip" title="Viabilidad de Doble Especialización">
+Debido a que el Clérigo del Sol utiliza diferentes estadísticas principales (Fuerza para cuerpo a cuerpo/tanque, Intelecto para taumaturgo/sanador), se recomienda encarecidamente mantener dos conjuntos de equipo separados en tu inventario si planeas usar doble especialización.
+</Callout>
+
+</Section>

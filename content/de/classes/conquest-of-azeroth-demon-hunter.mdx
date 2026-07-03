@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Dämonenjäger: Felsworn Klassen- & Spezialisierungs-Guide",
+  description: "Meistere den Felsworn, das Äquivalent des Dämonenjägers in Conquest of Azeroth. Erfahre alles über die Spezialisierungen Slayer, Infernal und Tyrant, Dämonenformen und Combo-Mechaniken.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d1b4e/fff?text=Felsworn+Demon+Hunter+Guide",
+  date: "2026-07-03",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Kern-Archetyp**: Der **Conquest of Azeroth Dämonenjäger** ist offiziell als **Felsworn** (Teufelsgeschworener) bekannt – ein agiler Kämpfer, der physische Angriffe mit Teufelsfeuer verschmilzt.
+- **Einzigartige Mechaniken**: Nutzt **Felfury Charges** (Teufelszorn-Ladungen), **Felstrikes** (Teufelsstöße) und eine mächtige **Dämonenform**, die bei maximalem Zorn aktiviert wird.
+- **Vielseitige Rollen**: Kann sich als Nahkampf-DPS (Slayer), Chaos-Zauberer (Infernal) oder ausweichbasierter Tank (Tyrant) spezialisieren.
+- **Wichtigste Werte**: Beweglichkeit ist der Hauptwert für Nahkampf und Tanken, während Intelligenz den Zauberpfad des Infernals stärkt.
+- **Waffenauswahl**: Verwendet hauptsächlich zwei einhändige Klingen im Beidhändigkeitskampf, während Tyrant-Tanks Schilde nutzen und Infernal-Zauberer sich auf Ausrüstung mit Zaubermacht konzentrieren.
+</Callout>
+
+<Section icon={Map} title="Felsworn: Der Conquest of Azeroth Dämonenjäger im Überblick">
+
+Der **Conquest of Azeroth Dämonenjäger**, offiziell als **Felsworn** bezeichnet, verkörpert einen chaotischen Exilierten – einen schattenhaften Ausgestoßenen, der sich verbotene dämonische Magie zu eigen gemacht hat, um Azeroth zu schützen. Im Gegensatz zur Standard-Version aus dem modernen Retail-WoW bietet der Felsworn in diesem Classic+-Erlebnis ein tiefergehendes Spezialisierungssystem. Spieler können zwischen drei völlig unterschiedlichen Spielweisen wählen, die jedoch alle durch die Teufelsermächtigung und die dämonische Verwandlung miteinander verbunden sind.
+
+**Video-Highlights:**
+- **Kampfkunst-Eleganz**: Der Felsworn nutzt schnelle Angriffe und Teufelsfeuer, um Feinde zu vernichten.
+- **Ressourcenmanagement**: Das Ausbalancieren von Felfury Charges und der Aufbau von Zorn für die Dämonenform.
+- **Spezialisierungsvielfalt**: Einführung in die Spezialisierungen Slayer, Infernal und Tyrant.
+
+<YouTubeEmbed videoId="7mcE4UtAxNs" title="New WoW Class: Felsworn - Conquest of Azeroth" />
+
+Der Felsworn blüht auf der Jagd auf und jagt jedem, der sich ihm in den Weg stellt, Angst ein. Ob du nun als Slayer durch die Schatten preschst oder als Tyrant wie ein chaotisches Bollwerk standhältst – deine Meisterung des Nahkampfs ermöglicht es dir, Fähigkeiten in bestimmten Abfolgen zu verketten, um verheerende Bonuseffekte freizusetzen.
+
+| Attribut | Details |
+| :--- | :--- |
+| **Hauptrolle** | Nahkampf-DPS, Fernkampf-DPS (Zauberer), Tank |
+| **Hauptwerte** | Beweglichkeit (Slayer/Tyrant), Intelligenz (Infernal) |
+| **Rüstungsklasse** | Leder |
+| **Hauptressourcen** | Felfury Charges & Dämonenzorn |
+| **Signatur-Fähigkeit** | Dämonenform-Verwandlung |
+
+<Callout type="tip" title="Die Combo meistern">
+Die Macht des Felsworn liegt in der Reihenfolge der Aktionen. Wenn du deine Fähigkeiten in einer bestimmten Abfolge einsetzt, erzeugst du **Runes of Fel Fury** (Runen des Teufelszorns), die deine stärksten Angriffe antreiben – darunter Lebensentzug und massiver Flächenschaden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Felsworn-Spezialisierungen und Spielweisen">
+
+Die Wahl deiner Spezialisierung als **Conquest of Azeroth Dämonenjäger** bestimmt deine gesamte Herangehensweise an den Kampf. Der Felsworn ist insofern einzigartig, als er neben den traditionellen Nahkampf- und Tankrollen, die man mit dem Dämonenjäger-Archetyp verbindet, auch einen reinen Zaubererpfad (Infernal) bietet.
+
+<CardGrid cols={3}>
+  <Card title="Slayer (Nahkampf-DPS)">
+    - **Spezialist für Beidhändigkeit**: Konzentriert sich auf schnelle, tödliche Nahkampf-Combos.
+    - **Hohe Mobilität**: Nutzt Fähigkeiten wie Fel Hoof Charge, um durch Ziele hindurchzustürmen.
+    - **Burst-Schaden**: Bietet die Chance, Felstrikes für zusätzlichen Feuerschaden auszulösen.
+  </Card>
+  <Card title="Infernal (Zauber-DPS)">
+    - **Chaosmagier**: Verwebt Teufelsfeuer und Schattenflamme zu mächtigen Schadenssalven.
+    - **Kontrolle**: Nutzt Zauber wie Fel Prison und Engulf, um Gegner zu betäuben oder festzuwurzeln.
+    - **Fernkampfmacht**: Beschießt Feinde aus der Distanz mit Fel Fireballs und Energie-Lanzen.
+  </Card>
+  <Card title="Tyrant (Ausweich-Tank)">
+    - **Chaotisches Bollwerk**: Tauscht reinen Schaden gegen erhöhte Rüstung und Resistenzen ein.
+    - **Fokus auf Ausweichen**: Nutzt hohe Ausweichraten, um Schlägen elegant zu entgehen.
+    - **Verbündete stärken**: Nutzt Infernal Whip Crack, um das Tempo der gesamten Gruppe zu erhöhen.
+  </Card>
+</CardGrid>
+
+| Spez | Spielweise | Schlüsselfertigkeit | Hauptziel |
+| :--- | :--- | :--- | :--- |
+| **Slayer** | Agiler Meuchelmörder | Illidan's Guise | Tödliche Nahkampf-Combos ausführen |
+| **Infernal** | Teufels-Zauberer | Chaos Bolt | Aus der Ferne korrumpieren und vernichten |
+| **Tyrant** | Ausweich-Tank | Infernal Whip Crack | Schaden abmildern und Verbündete stärken |
+
+<Callout type="success" title="Flexibilität bei den Spezialisierungen">
+In Conquest of Azeroth bist du nicht auf eine einzige Rolle festgelegt. Die Infernal-Spezialisierung des Felsworn gehört zu den mobilsten Zauberklassen im Spiel. Sie ist auf Spontanzauber und regelmäßigen Schaden (DoTs) spezialisiert, was sie zu einem Albtraum im PvP macht.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kernmechaniken und Rotationsstrategie">
+
+Um den **Conquest of Azeroth Dämonenjäger** effektiv zu spielen, musst du das Zusammenspiel zwischen deinen drei Hauptressourcen verstehen: Felfury Charges, Runen und Zorn. Im Gegensatz zu anderen Klassen, die sich auf einfache Abklingzeiten verlassen, erfordert der Felsworn strategisches Denken, um eine hohe Schadensleistung oder Überlebensfähigkeit aufrechtzuerhalten.
+
+<Steps>
+  <Step num="1" title="Teufelszorn erzeugen">
+    Beginne deine Rotation mit einfachen physischen Angriffen oder Teufelszaubern, um Felfury Charges zu generieren. Diese passiven Ladungen regenerieren sich im Laufe der Zeit, werden aber von deinen Kern-Combo-Fähigkeiten verbraucht.
+  </Step>
+  <Step num="2" title="Combo-Angriffe ausführen">
+    Folge bestimmten Fähigkeiten-Abfolgen (z. B. Angriff A -> Angriff B), um eine **Rune of Fel Fury** zu erzeugen. Jede erzeugte Rune verstärkt deinen nächsten Finishing-Move, wie etwa das Spalten mehrerer Feinde oder Lebensentzug.
+  </Step>
+  <Step num="3" title="Dämonenzorn aufbauen">
+    Während des Kampfes sammelst du Zorn an. Sobald deine Zornleiste das Maximum erreicht hat, verwandelst du dich automatisch (oder manuell, je nach Talenten) in deine **Dämonenform**, was deinen Schaden erheblich steigert und neue visuelle Effekte freischaltet.
+  </Step>
+  <Step num="4" title="Felstrikes auslösen">
+    Halte deine Waffen stets mit Teufelsenergie erfüllt. Viele Angriffe des Felsworn haben eine Chance, einen zusätzlichen Felstrike auszulösen, der Feinden in der Nähe eine Explosion aus Teufelsflammen zufügt.
+  </Step>
+</Steps>
+
+| Mechanik | Effekt | Ressourcentyp |
+| :--- | :--- | :--- |
+| **Felstrikes** | Zusätzlicher AoE-Feuerschaden | Prozedural (Zufallschance) |
+| **Runes of Fel Fury** | Verstärkt Finisher/Spaltangriffe | Combo-generiert |
+| **Demon Form** | Massiver Attributs-Boost | Zorn-abhängig |
+
+<Callout type="warning" title="Ressourcenmanagement">
+Verbrauche nicht all deine Felfury Charges auf einmal. Wenn dir die Ladungen ausgehen, bevor du genug Zorn für die Dämonenform aufgebaut hast, bricht dein Schaden während der Aufladephase drastisch ein.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Überleben und Nützlichkeit des Felsworn">
+
+Der **Conquest of Azeroth Dämonenjäger** glänzt nicht nur durch rohen Schaden; er bringt auch enormen Nutzen für das Solospiel und Gruppeninhalte mit sich. Sein Überleben hängt von seiner Agilität und seiner Fähigkeit ab, seinen Opfern das Leben zu entziehen.
+
+- **Illidan's Guise**: Eine Slayer-spezifische Verteidigungsfähigkeit, die dich für einige Sekunden vor Schaden schützt.
+- **Fel Prison**: Ein unverzichtbares Werkzeug zur Gegnerkontrolle (Crowd Control) für Infernal-Zauberer, um Nahkampfbedrohungen auf Distanz zu halten.
+- **Evasion Mastery**: Tyrant-Tanks verlassen sich eher auf hohe Ausweichwerte als auf reine Gesundheitspunkte, was sie extrem stark gegen schnell angreifende Bosse macht.
+- **Gruppen-Buffs**: Die Tyrant-Spezialisierung kann Verbündete anspornen und ihnen Tempoboni gewähren, von denen der gesamte Schlachtzug profitiert.
+
+<Checklist
+  id="felsworn-essentials"
+  title="Checkliste für das Überleben als Felsworn:"
+  items={[
+    "Halte die Teufels-Ermächtigung deiner Waffen zu 100 % aktiv",
+    "Nutze Fel Hoof Charge, um bodenbasierten AoE-Effekten zu entkommen",
+    "Hebe dir die Dämonenform für die Burn-Phasen der Bosse auf",
+    "Behalte die Regenerationsraten deiner Felfury Charges im Auge",
+    "Trage DoTs auf, bevor du deine Burst-Combos startest"
+  ]}
+/>
+
+<Callout type="info" title="Experten-Tipp">
+Wenn du einen Tyrant-Tank spielst, löst deine „Rache“ zusätzliche Felstrikes aus. Das bedeutet: Je mehr Gegner du zusammenziehst, desto mehr AoE-Bedrohung erzeugst du durch passive Procs, was den Felsworn zu einem hervorragenden Dungeon-Tank macht.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Felsworn-Ausrüstung und Progression">
+
+Der Fortschritt als **Conquest of Azeroth Dämonenjäger** erfordert eine sorgfältige Auswahl deiner Werte. Da die Klasse so unterschiedliche Spezialisierungen bietet, ändern sich deine Ausrüstungsanforderungen dramatisch, wenn du vom Slayer zum Infernal wechselst.
+
+| Spez | Primärer Wert | Sekundärer Wert | Empfohlene Waffe |
+| :--- | :--- | :--- | :--- |
+| **Slayer** | Beweglichkeit | Tempo / Kritischer Treffer | Zwei Einhandschwerter/-äxte |
+| **Infernal** | Intelligenz | Zaubermacht / Tempo | Stab oder Dolch + Schildhand |
+| **Tyrant** | Beweglichkeit | Rüstung / Ausweichen | Einhandschwert & Schild |
+
+In der Alpha von Conquest of Azeroth wurden Gegenstände überarbeitet, um neue Synergien zu schaffen. Suche nach Ausrüstung, die gezielt den Teufelsschaden erhöht oder die Auslöserate deiner Felstrikes steigert. Als Lederträger teilst du dir den Beutepool mit Schurken und Waldläufern, aber aufgrund deines Fokus auf Teufelsfeuer sind spezifische Suffixe wie „des Zauberers“ oder „des Banditen“ für dich besonders wertvoll.
+
+<Callout type="tip" title="Ausrüstung im High-Risk-Modus">
+Wenn du im High-Risk-PvP-Modus spielst, halte Ausschau nach **blutgeschmiedeten** (Bloodforged) Versionen der Dungeon-Ausrüstung. Diese können deinen Teufelsschaden massiv steigern, was unerlässlich ist, um die natürlichen Resistenzen anderer Spieler zu überwinden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Conquest of Azeroth Dämonenjäger">
+
+<FAQ items={[
+  {
+    question: "Ist der Felsworn exakt wie der Dämonenjäger auf den Retail-Servern?",
+    answer: "Nein. Er teilt zwar das Thema der Teufelsmagie und Agilität, aber der Felsworn bietet eine eigene Zauberer-Spezialisierung (Infernal) und nutzt ein einzigartiges Combo-System, das Runen und Zorn anders generiert als der Verwüstungs- oder Rachsucht-Dämonenjäger in Retail."
+  },
+  {
+    question: "Welche Felsworn-Spezialisierung eignet sich am besten für das Solo-Leveln?",
+    answer: "Der Slayer gilt aufgrund seiner hohen Mobilität und seines starken Einzelziel-Bursts allgemein als der schnellste Weg zum Leveln, obwohl der Tyrant eine überragende Überlebensfähigkeit bietet, um Elite-Gegner im Alleingang zu bezwingen."
+  },
+  {
+    question: "Kann ich den Felsworn als Tank in Schlachtzügen spielen?",
+    answer: "Ja, die Tyrant-Spezialisierung ist ein vollwertiger Ausweich-Tank. Der Fokus liegt darauf, Angriffen auszuweichen und teufelsdurchwirkte Rüstung zu nutzen, um Schaden abzumildern, während gleichzeitig Tempoboni für den Schlachtzug bereitgestellt werden."
+  },
+  {
+    question: "Wie aktiviere ich die Dämonenform?",
+    answer: "Die Dämonenform wird ausgelöst, indem du im Kampf genügend Zorn ansammelst. Sobald deine Zornleiste voll ist, verwandelst du dich, wodurch du erhöhten Schaden verursachst und neue Effekte für deine Fähigkeiten freischaltest."
+  }
+]} />
+
+<Callout type="success" title="Fazit">
+Der Felsworn ist die ultimative Wahl für Spieler, die eine Klasse mit hoher spielerischer Anspruchsklasse suchen, die präzises Timing und taktische Positionierung belohnt. Ob du nun als Infernal die Welt in Schutt und Asche legst oder dich als Slayer durch deine Feinde schneidest – die Macht des Teufels steht unter deinem Befehl.
+</Callout>
+
+</Section>

@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cazador de Brujas de Conquest of Azeroth: Especializaciones y Equipamientos de Combate",
+  description: "Domina la clase Cazador de Brujas en Conquest of Azeroth. Explora las especializaciones Tirador de Pernos, Inquisidor, Oscuridad y Caballero Negro con nuestra guía detallada de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Witch+Hunter+Class+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "cazador de brujas, conquest of azeroth, guía de clase, tirador de pernos, inquisidor, caballero negro"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Rol Principal**: El **cazador de brujas de conquest of azeroth** es una clase híbrida altamente móvil capaz de realizar DPS a distancia y tanquear mediante el uso de Sombras.
+- **Atributos Primarios**: Céntrate principalmente en la **Agilidad** para el daño y en la **Armadura de malla** para la supervivencia en el meta de 2026.
+- **Versatilidad de Armas**: Utiliza ballestas de repetición para la movilidad, mosquetes para el daño de sombra explosivo o hojas llameantes para el fanatismo cuerpo a cuerpo.
+- **Mecánica Clave**: Gestiona el **Impulso (Momentum)** y las **Marcas de Sombra (Shadow Brands)** para maximizar el daño y el autosustento en todas las especializaciones.
+- **Mejor Opción**: El **Tirador de Pernos (Boltslinger)** es actualmente la mejor opción para subir de nivel en solitario debido a su capacidad para disparar mientras se mueve.
+</Callout>
+
+<Section icon={Map} title="Descripción General y Mecánicas del Cazador de Brujas">
+
+El **cazador de brujas de conquest of azeroth** se erige como el principal vigilante oscuro de Azeroth. Juramentado para erradicar a los malvados, esta clase combina la precisión de un tirador con el fervor de un inquisidor. A diferencia de los cazadores tradicionales, el Cazador de Brujas utiliza armas de fuego sombrías, antiguos tónicos alquímicos e invocaciones espectrales para dominar el campo de batalla. Ya sea infiltrándote en las filas enemigas con disfraces o saltando a la refriega con hojas llameantes, la clase ofrece un techo de habilidad alto para los jugadores que valoran la movilidad y el posicionamiento táctico.
+
+**Puntos Destacados del Video:**
+- Resumen de las cuatro especializaciones únicas: Tirador de Pernos, Oscuridad, Inquisidor y Caballero Negro.
+- Demostración de la mecánica única "Disparar mientras te mueves" para usuarios de ballestas.
+- Exhibición del compañero Sabueso de las Sombras e invocaciones espectrales.
+- Vista previa del cambio de posturas de Pureza y Maldad del Inquisidor.
+
+<YouTubeEmbed videoId="4opoBFzyvsU" title="New WoW Class: Witch Hunter - Conquest of Azeroth" />
+
+| Atributo | Detalle |
+| :--- | :--- |
+| **Estadística Principal** | **Agilidad** (Fuente principal de Poder de Ataque y Crítico) |
+| **Tipo de Armadura** | **Malla** (Equilibrio entre protección y movilidad) |
+| **Roles Disponibles** | DPS Melé, DPS Rango, Tanque |
+| **Armas Principales** | Ballestas, Rifles, Espadas/Hachas de dos manos, Hojas Sagradas |
+| **Utilidad Única** | Sigilo, Silencios, Saltos, Disfraces de infiltración enemiga |
+
+<Callout type="tip" title="Consejo Pro">
+Lleva siempre una variedad de tónicos. El sustento del Cazador de Brujas está estrechamente ligado a su conocimiento alquímico, lo que puede marcar la diferencia entre la vida y la muerte en el PvP de Alto Riesgo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Especializaciones de Rango: Tirador de Pernos vs. Oscuridad">
+
+El Cazador de Brujas ofrece dos estilos de juego a distancia distintos que se adaptan a diferentes filosofías de combate. El Tirador de Pernos se centra en la presión sostenida y un kiting inigualable, mientras que la especialización de Oscuridad se inclina hacia la magia de sombras explosiva y la gestión de mascotas.
+
+<CardGrid cols={2}>
+  <Card title="Tirador de Pernos (Tirador Móvil)">
+    - **Arma**: Ballestas de repetición
+    - **Fortaleza**: Puede disparar la mayoría de las habilidades mientras se mueve.
+    - **Estilo de juego**: Kiting de alta movilidad con acumulaciones de **Impulso**.
+    - **Hechizo clave**: **Perno Atormentador** para presión de daño en el tiempo (DoT) de Sombras.
+  </Card>
+  <Card title="Oscuridad (Inquisidor de Sombras)">
+    - **Arma**: Mosquetes / Rifles
+    - **Fortaleza**: Gran ráfaga de daño mediante acumulaciones de **Pólvora Negra**.
+    - **Estilo de juego**: Invocar **Sabuesos de las Sombras** para abrumar a los objetivos.
+    - **Hechizo clave**: **Explosión de Bruja** para ráfagas masivas con armas de fuego.
+  </Card>
+</CardGrid>
+
+| Característica | Tirador de Pernos | Oscuridad |
+| :--- | :--- | :--- |
+| **Movimiento** | **Excepcional** (Dispara al correr) | **Estático** (Tiempos de casteo altos) |
+| **Potencial de Ráfaga** | Moderado / Sostenido | **Alto** (Rematadores explosivos) |
+| **Compañero** | Ninguno (Enfoque en solitario) | **Sabueso de las Sombras** (Gestión de mascota) |
+| **Estilo de Área (AoE)** | Rebote y Frenesí Oscuro | Llamada del Maestro de Sabuesos (Enjambre) |
+
+<Callout type="warning" title="Advertencia de Combate">
+Los Tiradores de Pernos deben vigilar constantemente sus acumulaciones de **Impulso**. Si dejas de moverte por demasiado tiempo, tus bonificaciones de daño y velocidad de movimiento caerán significativamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Inquisidor: El Camino del Fuego Justo">
+
+El Inquisidor es un fanático cuerpo a cuerpo implacable que prospera en la dualidad de la Luz y la Sombra. Esta especialización requiere dominar el "Cambio de Posturas" para maximizar el daño. Alternas entre **Pureza** para generar recursos y **Maldad** para desatar un devastador daño sagrado y de fuego.
+
+<Steps>
+  <Step num="1" title="Entrar en Postura de Pureza">
+    Ataca al enemigo en **Postura de Pureza**. Esto aumenta tu celeridad cuerpo a cuerpo y te permite acumular **Maldad Detectada** a través de ataques básicos y golpes sagrados.
+  </Step>
+  <Step num="2" title="Cambiar a Maldad">
+    Una vez que **Maldad Detectada** esté completamente cargada, cambia a la **Postura de Maldad**. Esto consume tus acumulaciones para aplicar un perjuicio de vulnerabilidad al objetivo, aumentando el daño que recibe de Sagrado y Fuego.
+  </Step>
+  <Step num="3" title="Desatar Llamas de Pecado">
+    Usa **Hoja Abrasadora** y **Castigar el Mal** mientras el objetivo es vulnerable. Esta ventana proporciona el mayor potencial de daño de ráfaga para el Cazador de Brujas cuerpo a cuerpo.
+  </Step>
+</Steps>
+
+| Postura | Beneficio Principal | Habilidad Clave |
+| :--- | :--- | :--- |
+| **Pureza** | **Buff de Celeridad** / Gen. de Recursos | Golpes de Hoja Sagrada |
+| **Maldad** | **Daño de Fuego** / Vulnerabilidad | Llamas de Pecado |
+
+<Callout type="success" title="Estrategia Experta">
+En contenido de grupo, coordina tu ventana de **Maldad** con otros lanzadores basados en Fuego (como Piromantes) para aprovechar el aumento del perjuicio de vulnerabilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Caballero Negro: El Tanque Infundido en Sombras">
+
+El Caballero Negro es el pilar defensivo de la clase **cazador de brujas de conquest of azeroth**. Al vestir "Malla de Bruja" y empuñar un arma de dos manos, el Caballero Negro para los golpes entrantes mientras drena la fuerza vital de sus atacantes.
+
+**Mecánicas Defensivas Principales:**
+- **Marca de Sombra**: Un DoT persistente que actúa como tu principal generador de amenaza y fuente de curación.
+- **Profanar**: Consume las Marcas de Sombra para restaurar instantáneamente un porcentaje de tu salud máxima.
+- **Maestría en Parada**: A diferencia de los tanques tradicionales con escudo, el Caballero Negro confía en altas probabilidades de parada con armas de dos manos.
+- **Sustento de Tónicos**: Los efectos alquímicos mejorados proporcionan una mitigación de daño única que no se encuentra en otras clases de tanque.
+
+| Habilidad | Tipo | Efecto |
+| :--- | :--- | :--- |
+| **Marca de Sombra** | Perjuicio | Inflige daño de Sombra y marca al objetivo para el drenaje de vida. |
+| **Profanar** | Curación | Consume marcas para restaurar **Salud Máxima**. |
+| **Malla de Bruja** | Pasiva | Aumenta significativamente la armadura y la resistencia a las Sombras. |
+| **Justicia Oscura** | Provocación | Obliga al enemigo a atacar, aplicando una ralentización menor. |
+
+<Callout type="info" title="Consejo de Tanqueo">
+El Caballero Negro destaca por su **sustento inigualable**. Aunque puedes recibir más daño bruto que un Guardián de Vanguardia, tu capacidad para curarte mediante **Profanar** te convierte en un avatar "eterno" en encuentros largos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Progresión y Equipo">
+
+Para alcanzar la cima del poder del Cazador de Brujas en el meta de 2026 de Conquest of Azeroth, debes seguir una ruta estricta de equipamiento y progresión. Centrarse en las estadísticas correctas desde el principio hará que la transición a las mazmorras Míticas+ sea mucho más fluida.
+
+<Checklist
+  id="witch-hunter-goals"
+  title="Hitos del Cazador de Brujas:"
+  items={[
+    "Alcanzar el nivel 60 y desbloquear las 4 especializaciones",
+    "Adquirir un conjunto completo de armadura de malla basada en Agilidad",
+    "Obtener una Ballesta de repetición recubierta de plata para builds de Tirador de Pernos",
+    "Dominar el cambio de postura Pureza/Maldad en menos de 2 segundos",
+    "Completar la cadena de misiones 'Vigilia Oscura' para la mejora del Sabueso de las Sombras"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de Equipamiento">
+En el juego temprano, prioriza la **Probabilidad de Crítico** sobre la Agilidad pura. Muchos efectos del Cazador de Brujas, especialmente para las especializaciones de Tirador de Pernos y Oscuridad, dependen de asestar golpes críticos para activar reinicios de habilidades.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar al Cazador de Brujas como sanador puro?",
+    answer: "No, el Cazador de Brujas está diseñado como un híbrido de Tanque y DPS. Si buscas un sanador de temática oscura, las clases Médico Brujo o Venomante son mejores alternativas dentro del ecosistema de Conquest of Azeroth."
+  },
+  {
+    question: "¿Qué arma es mejor para el cazador de brujas de conquest of azeroth?",
+    answer: "Depende de tu especialización. Los Tiradores de Pernos requieren Ballestas, los usuarios de Oscuridad necesitan Rifles/Mosquetes, los Inquisidores usan Hojas Sagradas de una mano y los Caballeros Negros requieren un arma de Dos Manos."
+  },
+  {
+    question: "¿Es el Sabueso de las Sombras permanente?",
+    answer: "Para la especialización de Oscuridad, el Sabueso de las Sombras actúa como una mascota permanente. Sin embargo, otras especializaciones pueden invocar sabuesos espectrales temporalmente mediante hechizos de utilidad específicos como Llamada del Maestro de Sabuesos."
+  },
+  {
+    question: "¿Cómo funciona el disfraz de infiltración en PvP?",
+    answer: "El Cazador de Brujas puede usar disfraces para aparecer como un PNJ aliado o un miembro de la facción enemiga desde la distancia. Sin embargo, recibir daño o realizar una acción agresiva romperá la ilusión inmediatamente."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+El Cazador de Brujas es una de las clases más versátiles del juego. Ya sea que quieras ser una torreta móvil o un tanque que drena vida, esta clase proporciona las herramientas para purgar el mal en todo Azeroth.
+</Callout>
+
+</Section>

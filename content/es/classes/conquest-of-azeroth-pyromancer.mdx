@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Piromante de Conquest of Azeroth: Guía de mejores especializaciones y builds",
+  description: "Domina al Piromante de Conquest of Azeroth con nuestra guía de 2026. Explora las especializaciones de Tejedor de Llamas, Incineración y Dracónico para un DPS y sanación de primer nivel.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Pyromancer+Class+Guide",
+  date: "2026-07-03",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "piromante, guía, conquest of azeroth, builds, especializaciones, wow"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **Piromante de Conquest of Azeroth** es una clase versátil capaz de infligir un alto DPS de ráfaga o proporcionar una poderosa sanación de grupo mediante la magia de fuego.
+- El **Golpe Crítico** es la estadística secundaria más importante, ya que aumenta directamente la potencia del fuego y reduce los tiempos de lanzamiento de hechizos.
+- **Tres especializaciones** ofrecen estilos de juego distintos: Tejedor de Llamas (Sanador), Incineración (DPS a distancia) y Dracónico (Asesino ágil).
+- Las **habilidades de utilidad** incluyen la capacidad única de derretir cerraduras, disipar hechizos hostiles y resucitar aliados caídos con llamas de fénix.
+- La **gestión de recursos** varía según la especialización, utilizando Maná tradicional o cargas de Aliento especializadas para ataques basados en dragones.
+</Callout>
+
+<Section icon={Sparkles} title="Descripción general de la clase y mecánicas principales">
+
+El **piromante de Conquest of Azeroth** se erige como un maestro de las magias llameantes, actuando tanto como heraldo de la destrucción como fuente de renacimiento. Canalizando la fuerza bruta del fuego elemental, estos lanzadores de hechizos pueden devastar a sus enemigos con lava fundida o sanar a sus aliados con el suave calor de un fénix. A diferencia de los magos tradicionales, el Piromante integra mecánicas únicas de utilidad y transformación que lo convierten en un campeón versátil en cualquier composición de grupo.
+
+**Puntos destacados del video:**
+- Desglose detallado de las tres especializaciones principales: Tejedor de Llamas, Incineración y Dracónico.
+- Explicación de la sinergia del Golpe Crítico que acelera el lanzamiento de hechizos.
+- Demostración de la transformación en Señor del Fuego y las mecánicas de vuelo de Dracthyr.
+- Resumen de hechizos de utilidad como derretir cerraduras y quemar hechizos.
+
+<YouTubeEmbed videoId="eED_TiScjM8" title="Nueva clase de WoW: Piromante - Conquest of Azeroth" />
+
+La clase depende en gran medida de la sinergia entre el fuego y la vida. Ya sea que estés desatando una Tormenta de cometas o usando Llama de fénix para restaurar a tu grupo, tu efectividad está ligada a tu capacidad para gestionar el calor y tus recursos.
+
+| Atributo | Impacto en el Piromante | Prioridad |
+| :--- | :--- | :--- |
+| **Golpe Crítico** | Aumenta el daño/sanación y permite lanzamientos más rápidos | **S-Tier** |
+| **Intelecto** | Aumenta la reserva total de Maná y el Poder de hechizos bruto | **A-Tier** |
+| **Celeridad** | Aumenta la frecuencia de los DoT y la regeneración de recursos | **B-Tier** |
+| **Versatilidad** | Proporciona un aumento de daño plano y reducción de daño | **C-Tier** |
+
+<Callout type="tip" title="Consejo de prioridad de estadísticas">
+Prioriza siempre el Golpe Crítico sobre la Celeridad. Aunque la Celeridad suele ser buena para los lanzadores, el Piromante tiene una mecánica integrada que recompensa los golpes críticos con lanzamientos de seguimiento más rápidos, convirtiendo al Crítico en el motor superior para tu rotación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparación de especializaciones">
+
+Elegir tu camino como **piromante de Conquest of Azeroth** determina tu papel en el grupo. La clase es única porque permite una transición fluida entre un sanador dedicado y un aterrador distribuidor de daño.
+
+<CardGrid cols={3}>
+  <Card title="Tejedor de Llamas">
+    - **Rol**: Sanador
+    - **Mecánica**: Convierte el daño infligido en sanación para el grupo
+    - **Visual clave**: Compañero Fénix mítico
+  </Card>
+  <Card title="Incineración">
+    - **Rol**: DPS a distancia
+    - **Mecánica**: DoTs de alto impacto y forma de Señor del Fuego
+    - **Visual clave**: Pilares de llama que lo consumen todo
+  </Card>
+  <Card title="Dracónico">
+    - **Rol**: Asesino ágil / Lanzador
+    - **Mecánica**: Cargas de Aliento y vuelo
+    - **Visual clave**: Transformación en Dracthyr
+  </Card>
+</CardGrid>
+
+Cada especialización utiliza el fuego de manera diferente. A continuación, se muestra una comparación de sus sistemas de recursos principales y estilos de juego.
+
+| Especialización | Recurso principal | Tipo de estilo de juego | Dificultad |
+| :--- | :--- | :--- | :--- |
+| **Tejedor de Llamas** | Maná | Híbrido Daño/Sanación | Moderada |
+| **Incineración** | Maná | Destrucción pura a distancia | Fácil |
+| **Dracónico** | Cargas de Aliento | Alta movilidad / Corto alcance | Difícil |
+
+<Callout type="info" title="Nota sobre recursos">
+Los Piromantes Dracónicos son la única especialización que se aleja del Maná, centrándose en su lugar en las cargas de Aliento, que se generan mediante el movimiento y habilidades específicas de bajo coste.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tejedor de Llamas: El camino de la llama renovadora">
+
+El Tejedor de Llamas es la rama de sanación del **piromante de Conquest of Azeroth**. Utilizan la fuerza de la llama renovadora del Fénix para reavivar el espíritu de lucha de sus aliados. Esta especialización es ideal para jugadores que disfrutan de un estilo de juego tipo "fist-weaving" o "expiación", donde infligir daño contribuye directamente a la supervivencia del grupo.
+
+Los Tejedores de Llamas restauran a sus aliados usando una combinación de efectos de sanación en el tiempo (HoT) y ráfagas de fuego cauterizante. Su mítico compañero fénix asiste en el lanzamiento, a menudo duplicando o mejorando los hechizos del sanador para asegurar que el grupo se mantenga saludable durante el combate intenso.
+
+| Hechizo de sanación clave | Descripción del efecto | Mejor caso de uso |
+| :--- | :--- | :--- |
+| **Llama de fénix** | Sana al grupo con una ráfaga de vida | Sanación de grupo de emergencia |
+| **Llama renovadora** | Un poderoso HoT que escala con el Crítico | Mantenimiento sostenido del tanque |
+| **Fuego cauterizante** | Limpia las heridas mientras inflige daño menor | Sanación puntual a un solo objetivo |
+| **Abrazo del fénix** | Resucita a un aliado caído en pleno combate | Recuperación tras una muerte accidental |
+
+<Callout type="success" title="Estrategia de sanación">
+Como Tejedor de Llamas, nunca dejes de lanzar hechizos de daño. Tus habilidades pasivas convierten una parte de tu daño de fuego en sanación inteligente para los aliados cercanos, permitiéndote mantener la presión sobre el jefe mientras mantienes las barras de salud llenas.
+</Callout>
+
+</Section>
+
+<Section icon={Flame} title="Incineración: Maestro de la llama consumidora">
+
+Si tu objetivo es reducir a cenizas todo lo que encuentres a tu paso, la especialización de Incineración es tu mejor opción. Estos piromantes son encarnaciones de la destrucción, empuñando una variedad de efectos de daño en el tiempo y hechizos de área de efecto (AoE) de gran impacto.
+
+El pináculo de esta especialización es la **transformación en Señor del Fuego**. Al entrar en este estado, los hechizos del piromante se ven enormemente potenciados y dejan un rastro de destrucción al que pocos enemigos pueden sobrevivir.
+
+**Hechizos clave en el arsenal de Incineración:**
+- **Tormenta de cometas**: Invoca fragmentos de fuego helado para golpear un área objetivo.
+- **Caída de fuego**: Un impacto masivo de meteorito que inflige un gran daño repartido.
+- **Pilar de fuego**: Erupciona debajo del enemigo, lanzando a los objetivos más pequeños por los aires.
+- **Ignición**: Un DoT principal que se propaga a los enemigos cercanos cuando inflige un golpe crítico.
+
+| Hechizo de daño | Tiempo de lanzamiento | Beneficio principal |
+| :--- | :--- | :--- |
+| **Bola de fuego** | 2.5s (Base) | Generador principal, alta sinergia con crítico |
+| **Tormenta de cometas** | Instantáneo | La mejor ráfaga AoE de su clase |
+| **Pilar de fuego** | 1.5s | Interrumpe el lanzamiento y movimiento enemigo |
+| **Forma de Señor del Fuego** | Instantáneo | 20% de aumento de daño y nuevas habilidades |
+
+<Callout type="warning" title="Advertencia de movilidad">
+Los piromantes de Incineración tienen tiempos de lanzamiento largos. Posiciónate con cuidado antes de comenzar tu rotación, ya que moverte con frecuencia reducirá significativamente tu producción de DPS. Usa Pilar de fuego para ganar tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Dracónico: Transformación ágil en dragón">
+
+La especialización Dracónica es el camino más singular para el **piromante de Conquest of Azeroth**. Estos piromantes se transforman en Dracthyr, lo que les permite lanzarse al combate de lanzamiento de hechizos a corta distancia. Funcionan como asesinos astutos, usando sus llamas para mejorar sus formas de dragón y cazar presas con una agilidad inigualable.
+
+<Steps>
+  <Step num="1" title="Transformarse en Dracthyr">
+    Activa tu forma dracónica para obtener acceso a las cargas de Aliento y una resistencia física mejorada.
+  </Step>
+  <Step num="2" title="Generar cargas de Aliento">
+    Usa movimientos ágiles y ataques de "Barrido de cola" o "Garra" para acumular tu barra de recursos.
+  </Step>
+  <Step num="3" title="Desatar ataques de Aliento">
+    Gasta cargas en devastadores ataques de aliento de fuego que carbonizan a los enemigos en un cono amplio.
+  </Step>
+  <Step num="4" title="Utilizar el vuelo">
+    Surca los cielos por periodos cortos para reposicionarte o perseguir a enemigos que huyen en PvP.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Movilidad Dracónica">
+A diferencia de las otras dos especializaciones, los piromantes Dracónicos son altamente móviles. Su habilidad "Planear" les permite sortear obstáculos del terreno y atacar desde ángulos que los lanzadores estáticos no pueden alcanzar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de progresión y maestría">
+
+Para dominar verdaderamente al **piromante de Conquest of Azeroth**, debes ir más allá del simple lanzamiento de hechizos y aprovechar la utilidad que ofrece la clase. Desde quemar beneficios hostiles hasta abrir cofres cerrados, un piromante habilidoso es un activo en cada mazmorra.
+
+<Checklist
+  id="pyromancer-mastery"
+  title="Objetivos del Piromante para 2026:"
+  items={[
+    "Alcanzar el nivel 60 y desbloquear las transformaciones de Señor del Fuego/Dracthyr",
+    "Adquirir un conjunto completo de equipo priorizando el Golpe Crítico",
+    "Dominar la conversión de daño en sanación como Tejedor de Llamas",
+    "Usar con éxito 'Derretir cerradura' en un cofre de mazmorra de alto nivel",
+    "Lograr un 40% de probabilidad de Golpe Crítico sin beneficios"
+  ]}
+/>
+
+<Callout type="tip" title="Recordatorio de utilidad">
+¡No olvides tu utilidad! Los piromantes pueden "Quemar" lanzamientos de hechizos hostiles. En bandas de alto nivel, este híbrido de interrupción/disipación suele ser más valioso que el daño puro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor estadística secundaria para un Piromante de Conquest of Azeroth?",
+    answer: "El Golpe Crítico es la prioridad absoluta. Aumenta el daño y la sanación de tus hechizos de fuego y activa una pasiva que reduce tus tiempos de lanzamiento, creando una rotación más rápida y poderosa."
+  },
+  {
+    question: "¿Pueden los piromantes realmente sanar y hacer DPS al mismo tiempo?",
+    answer: "Sí, específicamente en la especialización Tejedor de Llamas. Utilizas a tu compañero fénix y hechizos específicos para convertir el daño de fuego que infliges en sanación para los miembros de tu grupo."
+  },
+  {
+    question: "¿En qué se diferencia la especialización Dracónica de un Mago normal?",
+    answer: "La especialización Dracónica te transforma en un Dracthyr, cambia tu recurso a cargas de Aliento y se centra en el combate de alta movilidad a corta distancia y el vuelo, en lugar del lanzamiento estático a larga distancia."
+  },
+  {
+    question: "¿Es permanente la transformación en Señor del Fuego?",
+    answer: "No, la transformación en Señor del Fuego es un poderoso tiempo de reutilización para la especialización de Incineración. Dura un tiempo limitado pero potencia significativamente tus capacidades destructivas mientras está activa."
+  }
+]} />
+
+</Section>

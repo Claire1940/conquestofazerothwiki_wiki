@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Barbar: Klassenguide & Build-Rankings für 2026",
+  description: "Meistere den Conquest of Azeroth Barbaren mit unserem Guide für 2026. Erkunde die Spezialisierungen Brutalität, Kopfjagd und Ahnen sowie die besten Builds und Mechaniken.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Barbarian+Class+Guide",
+  date: "2026-07-03",
+  author: "Conquest of Azeroth Wiki-Team",
+  keywords: "conquest of azeroth, barbar, klassenguide, builds, brutalität, kopfjagd, ahnen, wow"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Der Conquest of Azeroth Barbar** ist ein hochmobiler, wilder Schadensverursacher, der im Chaos des Kampfes aufblüht.
+- **Drei Spezialisierungen** bieten unterschiedliche Spielstile: Kopfjagd (Fernkampf), Brutalität (Nahkampf) und Ahnen (Unterstützung/Frost).
+- **Wut-Mechaniken** verstärken deine Schläge, während ein Lebenspunkte-Wert von unter 35% erhebliche Energieregeneration und Heilung gewährt.
+- **Vielseitiger Kampf** ermöglicht schnelle Schläge mit zwei Waffen, gewaltige Hiebe mit Zweihandwaffen oder das Werfen von Speeren aus der Ferne.
+- **Die Ahnen-Spezialisierung** bietet einzigartige, gruppenweite Stärkungszauber wie Tempo, Macht und Frostwiderstand.
+</Callout>
+
+<Section icon={Swords} title="Klassenübersicht: Conquest of Azeroth Barbar">
+
+Der **Conquest of Azeroth Barbar** steht für rohe, ungezügelte Wut auf dem Schlachtfeld. In der ungezähmten Wildnis geboren, sind diese Krieger nicht bloß Kämpfer, sondern Naturgewalten, die mit brutaler Stärke jeden Widerstand zerschmettern. Ob du das rhythmische Gemetzel des Nahkampfs oder die taktische Präzision von geworfenen Speeren bevorzugst – der Barbar bietet ein dynamisches Toolkit, das ganz auf Aggression und Überleben ausgerichtet ist.
+
+**Video-Highlights:**
+- Detaillierte Analyse der drei Kernspezialisierungen des Barbaren.
+- Vorstellung der einzigartigen Mechaniken „Todeskampf“ und „Trinkhorn“ (Tanker).
+- Demonstration von hochmobilen Fähigkeiten wie Berserkerrausch.
+- Visueller Leitfaden zu den Vrykul-inspirierten Frostfähigkeiten der Ahnen-Spezialisierung.
+
+<YouTubeEmbed videoId="5VYpy1JEp4U" title="New WoW Class: Barbarian - Conquest of Azeroth" />
+
+Die Klassenidentität dreht sich um die Mechanik „Gratwanderung“ (Walk the Line). Barbaren werden immer gefährlicher, je weiter ihre Gesundheit sinkt. Während die meisten Klassen Angst davor haben, unter 35% HP zu fallen, nimmt der Barbar dies dankend an und gewinnt dadurch eine erhöhte Energieregeneration sowie Selbstheilung. Dieser risikoreiche, aber lohnende Spielstil macht ihn zu einer der aufregendsten Klassen in der Meta von 2026.
+
+<Callout type="tip" title="Überlebensstrategie">
+Behalte deine Gesundheitsschwelle immer im Auge. Unter 35% HP zu sein, ist für einen Barbaren ein taktischer Vorteil, aber du musst sicherstellen, dass deine Selbstheilung den eingehenden Initialschaden übersteigt, um im Kampf zu bleiben.
+</Callout>
+
+| Attribut | Auswirkung auf den Barbaren | Priorität |
+| :--- | :--- | :--- |
+| **Stärke** | Erhöht die reine Angriffskraft und das Parieren | ★★★★★ |
+| **Kritischer Trefferwert** | Löst Enrage und Effekte mit hohem Schaden aus | ★★★★★ |
+| **Tempo** | Reduziert die globale Abklingzeit (GCD) und erhöht die Ressourcenregeneration | ★★★★☆ |
+| **Ausdauer** | Bietet ein größeres Polster für das Spiel mit wenig Gesundheit | ★★★☆☆ |
+| **Vielseitigkeit** | Direkte Schadenserhöhung und Schadensreduktion | ★★★★☆ |
+
+</Section>
+
+<Section icon={Target} title="Spezialisierung Brutalität: Zerstörung im Nahkampf">
+
+Die Brutalität-Spezialisierung stellt den Gipfel des Nahkampfs dar. Spieler, die diesen Weg wählen, müssen sich zwischen zwei unterschiedlichen Waffenkonfigurationen entscheiden: der gewaltigen Zweihandwaffe oder der unerbittlichen Führung von zwei Einhandwaffen (Beidhändigkeit). Jeder Pfad bietet einen eigenen Kampfrythmus und konzentriert sich auf Rüstungsdurchschlag sowie Finishing-Moves.
+
+<CardGrid cols={2}>
+  <Card title="Zweihand-Pfad">
+    - **Gewaltiger Burst**: Konzentriert sich auf langsame, kolossale Treffer.
+    - **Enthaupten**: Das Erzielen eines Todesstoßes setzt diese mächtige Fähigkeit zurück.
+    - **Scharfrichter-Stil**: Ideal zum schnellen Ausschalten von Gruppen mit schwachen Gegnern.
+  </Card>
+  <Card title="Beidhändigkeits-Pfad">
+    - **Wirbelwind aus Stahl**: Schnelle, rüstungsdurchbrechende Schläge.
+    - **Angriffstempo**: Hohe Synergie mit Treffereffekten (On-Hit) und Tempo.
+    - **Anhaltender Schaden**: Konstanter Druck auf einzelne Ziele.
+  </Card>
+</CardGrid>
+
+Eine der einzigartigsten Mechaniken im Brutalität-Baum ist der **Todeskampf** (Death Match). Diese Fähigkeit erzwingt ein 1v1-Szenario, bei dem sowohl die Rüstung des Barbaren als auch die seines Ziels auf Null reduziert werden. Es ist ein buchstäbliches Wettrennen, wer den anderen zuerst in Stücke reißen kann – ein perfektes Abbild der wilden Natur dieser Klasse.
+
+<Callout type="warning" title="Warnung zum Todeskampf">
+Nutze den Todeskampf nur, wenn du dir deines Burst-Potenzials sicher bist oder deine Heilungseffekte bei niedriger Gesundheit aktiv sind, da du genauso anfällig bist wie dein Feind.
+</Callout>
+
+| Fähigkeit | Effekt | Abklingzeit |
+| :--- | :--- | :--- |
+| **Enthaupten** | Exekutionsangriff mit hohem Schaden; setzt sich bei Tötung zurück | 15 Sek. (Basis) |
+| **Todeskampf** | Reduziert die Rüstung für dich und dein Ziel auf 0 | 2 Min. |
+| **Brutale Schläge** | Erhöht den Rüstungsdurchschlag um 15% | Passiv |
+| **Spalten** | Trifft bis zu 3 Ziele für 70% des Schadens | Keine |
+
+</Section>
+
+<Section icon={Map} title="Kopfjagd: Fernkampfpräzision & Stammesmeisterschaft">
+
+Inspiriert von den uralten Techniken der Trolle verwandelt die Spezialisierung Kopfjagd den **Conquest of Azeroth Barbaren** in einen tödlichen Fernkampf-Jäger. Im Gegensatz zu traditionellen Jägern, die sich auf Begleiter verlassen, verlässt sich der Kopfjäger auf seine eigene Kraft und schleudert Wurfäxte und Speere mit tödlicher Präzision.
+
+Diese Spezialisierung setzt stark auf Kiting und Mobilität. Durch den Einsatz von **Berserkerrausch** kann sich der Barbar schnell aus dem Nahkampf zurückziehen, um den nötigen Freiraum für einen Hagel von Projektilen zu schaffen. Das Ziel ist es, Feinde auf Distanz zu halten, während sie durch mehrere klaffende Wunden verbluten.
+
+<Steps>
+  <Step num="1" title="Blutungen einleiten">
+    Eröffne den Kampf mit Wurfspeeren, um tiefe Wunden zuzufügen und die Bewegung des Ziels zu verlangsamen.
+  </Step>
+  <Step num="2" title="Abstand wahren">
+    Nutze Berserkerrausch oder Erhöhungen der Bewegungsgeschwindigkeit, um außerhalb der Nahkampfreichweite des Gegners zu bleiben.
+  </Step>
+  <Step num="3" title="Exekutieren">
+    Sobald das Ziel durch Blutungen geschwächt ist, verpasse ihm mit rasanten Axtwürfen den Todesstoß.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mobilität ist alles">
+Kopfjäger erhalten von Natur aus eine erhöhte Bewegungsgeschwindigkeit. Nutze dies zu deinem Vorteil, um Gegner sowohl im PvP als auch im PvE auszumanövrieren.
+</Callout>
+
+| Fernkampfwaffe | Primäre Funktion | Statuseffekt |
+| :--- | :--- | :--- |
+| **Wurfaxt** | Schneller, konstanter Füllangriff | Leichte Blutung |
+| **Schwerer Speer** | Hoher Schaden, Eröffnung auf große Distanz | Pfählen (Verlangsamung) |
+| **Berserkerrausch** | Werkzeug zur schnellen Neupositionierung | Geschwindigkeitsboost |
+| **Widerhaken-Haken** | Zieht Feinde heran oder hält sie an Ort und Stelle | Fessel |
+
+</Section>
+
+<Section icon={Sparkles} title="Ahnen: Der frostberührte Pfad der Vrykul">
+
+Die Ahnen-Spezialisierung ist wohl die einzigartigste der drei, da sie Nahkampf mit Frostmagie und mächtiger Gruppenunterstützung verbindet. Diese Barbaren besinnen sich auf ihre Vrykul-Abstammung und nutzen eine uralte Ressource namens **Trinkhorn** (Tanker). Dieses Trinkhorn füllt sich im Laufe der Zeit, und das „Trinken“ daraus bietet erhebliche taktische Vorteile.
+
+Ahnen-Barbaren sind in Gruppeninhalten wegen ihrer unterstützenden Fähigkeiten sehr geschätzt. Sie verursachen nicht nur Schaden, sondern verbessern die Effektivität der gesamten Gruppe durch verschiedene Segen und Resistenzen.
+
+<CardGrid cols={3}>
+  <Card title="Frostschaden">
+    - Verstärkt Angriffe mit frostiger Macht.
+    - Verlangsamt das Angriffstempo von Gegnern.
+    - Hohe Synergie mit Frostwiderstand.
+  </Card>
+  <Card title="Trinkhorn-Mechanik">
+    - Verringert bei Nutzung die Abklingzeiten von Fähigkeiten.
+    - Ermöglicht mächtige Frost-Odem-Angriffe.
+    - Erfordert sorgfältiges Timing zur Meisterung.
+  </Card>
+  <Card title="Gruppen-Utility">
+    - Erhöht das Tempo und die Macht der Gruppe.
+    - Gewährt Stärkungszauber für kritische Treffer.
+    - Bietet essenziellen Frostwiderstand.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Gruppensynergie">
+In Schlachtzügen kann ein Ahnen-Barbar den Gesamtschaden des Raids erheblich steigern. Stimme die Nutzung deines Trinkhorns unbedingt mit den Burst-Phasen deiner Gruppe ab.
+</Callout>
+
+| Unterstützungsfähigkeit | Vorteil für die Gruppe | Dauer |
+| :--- | :--- | :--- |
+| **Segen der Vrykul** | +10% Angriffs- und Zaubermacht | 30 Sek. |
+| **Unterkühlende Präsenz** | Erhöht den Frostwiderstand um 50 | Aura |
+| **Ahnen-Schnelligkeit** | Erhöht das Tempo aller Verbündeten um 5% | 20 Sek. |
+| **Frost-Odem** | Kegelförmiger Schaden vor dem Wirker und 30% Verlangsamung | 8 Sek. |
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritt und Build-Checkliste">
+
+Um den **Conquest of Azeroth Barbaren** wirklich zu meistern, musst du bestimmte Meilensteine erreichen und deine Ausrüstung für deine gewählte Spezialisierung optimieren. Egal, ob du in der Wildnis levelst oder dich auf End-Game-Raids vorbereitest – ein strukturierter Pfad ist der Schlüssel zum Erfolg im Jahr 2026.
+
+<Checklist
+  id="barbarian-progression"
+  title="Meilensteine zur Barbaren-Meisterschaft:"
+  items={[
+    "Schalte alle drei Spezialisierungen bis Stufe 20 frei",
+    "Besorge dir eine Zweihandwaffe mit hohem Schaden für die Brutalität-Nivellierung",
+    "Meistere das Energiemanagement bei 'unter 35% HP'",
+    "Erhalte das 'Trinkhorn'-Relikt für Ahnen-Builds",
+    "Erreiche das maximale Bewegungstempo-Limit für die Kopfjagd"
+  ]}
+/>
+
+<Callout type="tip" title="Ausrüstungstipp">
+Priorisiere immer Waffen mit hohem Maximalschaden. Für Barbaren wiegt die reine Schadensspanne der Waffe oft schwerer als geringfügige Attributsunterschiede auf anderen Rüstungsteilen.
+</Callout>
+
+| Stufenbereich | Empfohlene Aktivität | Fokus |
+| :--- | :--- | :--- |
+| **1-20** | Einfaches Questen & Testen der Specs | Wut-Mechanik verstehen |
+| **21-40** | Dungeon-Cleaven (Brutality) | AoE-Rotation |
+| **41-60** | Open-World-PvP / Elite-Jagd | Kiting & Überleben |
+| **60+** | Schlachtzüge & Heroische Herausforderungen | Gruppenunterstützung |
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Welche Waffe ist besser für einen Brutalitäts-Barbaren: Zweihand oder Beidhändigkeit?",
+    answer: "Das hängt von der Begegnung ab. Zweihandwaffen sind dank des Resets von 'Enthaupten' überlegen für Burst-Schaden und das schnelle Besiegen von Gegnergruppen. Die Beidhändigkeit bietet hingegen einen höheren konstanten Schaden gegen Einzelziele und harmoniert besser mit Rüstungsdurchschlagseffekten."
+  },
+  {
+    question: "Wie funktioniert die Mechanik 'Unter 35% HP'?",
+    answer: "Sobald deine Gesundheit unter 35% sinkt, wird eine passive Eigenschaft aktiviert, die deine Energieregeneration erhöht und dir bei jedem Angriff eine prozentuale Heilung gewährt. Dadurch kann der Barbar länger im Kampf bleiben, während er maximalen Schaden verursacht."
+  },
+  {
+    question: "Kann die Kopfjagd-Spezialisierung im Nahkampf gespielt werden?",
+    answer: "Du kannst zwar im Nahkampf kämpfen, verlierst dann jedoch die Vorteile deiner erhöhten Bewegungsgeschwindigkeit und deiner Kiting-Werkzeuge. Kopfjagd ist darauf optimiert, auf Distanz zu bleiben und die Gegner verbluten zu lassen."
+  },
+  {
+    question: "Ist die Ahnen-Spezialisierung eine brauchbare Tank-Option?",
+    answer: "Ahnen ist primär eine Schadens- und Unterstützungs-Spezialisierung. Obwohl sie einige defensive Stärkungszauber und Frostwiderstand bietet, fehlen ihr die Bedrohungserzeugung und die Schadensvermeidung einer echten Tank-Klasse in Conquest of Azeroth."
+  }
+]} />
+
+</Section>

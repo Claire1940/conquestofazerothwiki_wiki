@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de clase y especialización del Felsworn: Cazador de Demonios en Conquest of Azeroth",
+  description: "Domina al Felsworn, el equivalente al cazador de demonios en Conquest of Azeroth. Aprende sobre las especializaciones de Slayer, Infernal y Tyrant, las formas demoníacas y las mecánicas de combo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d1b4e/fff?text=Felsworn+Demon+Hunter+Guide",
+  date: "2026-07-03",
+  author: "Equipo de Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Arquetipo principal**: El **cazador de demonios en Conquest of Azeroth** se conoce oficialmente como **Felsworn**, un luchador ágil que combina golpes marciales con fuego vil.
+- **Mecánicas únicas**: Utiliza **Cargas de Felfury**, **Golpes Viles (Felstrikes)** y una poderosa **Forma Demoníaca** que se activa al alcanzar el máximo de furia.
+- **Roles versátiles**: Puede especializarse como DPS cuerpo a cuerpo (Slayer), lanzador de hechizos basado en el caos (Infernal) o tanque basado en la evasión (Tyrant).
+- **Estadísticas clave**: La agilidad es fundamental para el combate cuerpo a cuerpo y la defensa, mientras que el intelecto potencia la rama de lanzamiento de hechizos Infernal.
+- **Armamento**: Utiliza principalmente hojas duales, aunque los tanques Tyrant emplean escudos y los lanzadores Infernal se enfocan en equipo de poder con hechizos.
+</Callout>
+
+<Section icon={Map} title="Felsworn: Visión general del Cazador de Demonios en Conquest of Azeroth">
+
+El **cazador de demonios en Conquest of Azeroth**, designado oficialmente como **Felsworn**, representa a un exiliado caótico: un marginado sombrío que ha abrazado magias demoníacas prohibidas para proteger Azeroth. A diferencia de la versión estándar del juego, el Felsworn en esta experiencia Classic+ ofrece un sistema de especialización más profundo, permitiendo a los jugadores elegir entre tres estilos de juego distintos que comparten el hilo común del empoderamiento vil y la transformación demoníaca.
+
+**Aspectos destacados del video:**
+- **Gracia marcial**: El Felsworn utiliza golpes rápidos y fuego vil para diezmar a sus enemigos.
+- **Gestión de recursos**: Equilibra las cargas de Felfury y acumula furia para la Forma Demoníaca.
+- **Diversidad de especializaciones**: Introducción a las especializaciones de Slayer, Infernal y Tyrant.
+
+<YouTubeEmbed videoId="7mcE4UtAxNs" title="Nueva clase de WoW: Felsworn - Conquest of Azeroth" />
+
+El Felsworn prospera en la caza, infundiendo miedo en los corazones de cualquiera que se interponga en su camino. Ya sea que te desplaces por las sombras como un Slayer o te mantengas firme como un baluarte caótico siendo un Tyrant, tu dominio del combate marcial te permite combinar habilidades en secuencias específicas para liberar devastadores efectos adicionales.
+
+| Atributo | Detalles |
+| :--- | :--- |
+| **Rol principal** | DPS cuerpo a cuerpo, DPS a distancia (Lanzador), Tanque |
+| **Estadísticas principales** | Agilidad (Slayer/Tyrant), Intelecto (Infernal) |
+| **Tipo de armadura** | Cuero |
+| **Recurso principal** | Cargas de Felfury y Furia Demoníaca |
+| **Movimiento distintivo** | Transformación en Forma Demoníaca |
+
+<Callout type="tip" title="Dominando el combo">
+El poder del Felsworn proviene del orden de las operaciones. Usar habilidades en una secuencia específica genera **Runas de Furia Vil**, que potencian tus golpes más poderosos, incluyendo drenaje de vida y quemaduras masivas en área.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Especializaciones y estilos de juego del Felsworn">
+
+Elegir tu especialización como **cazador de demonios en Conquest of Azeroth** dicta todo tu enfoque en el combate. El Felsworn es único porque ofrece una ruta de lanzador puro (Infernal) junto con los roles tradicionales de cuerpo a cuerpo y tanque asociados con el arquetipo de cazador de demonios.
+
+<CardGrid cols={3}>
+  <Card title="Slayer (DPS Cuerpo a cuerpo)">
+    - **Especialista en doble empuñadura**: Se enfoca en combos cuerpo a cuerpo rápidos y letales.
+    - **Alta movilidad**: Utiliza habilidades como Carga de Pezuña Vil para lanzarse a través de los objetivos.
+    - **Daño explosivo**: Tiene la posibilidad de activar Golpes Viles para daño de fuego adicional.
+  </Card>
+  <Card title="Infernal (DPS Lanzador)">
+    - **Mago del Caos**: Teje fuego vil y llamas de las sombras en poderosas ráfagas.
+    - **Control**: Utiliza hechizos como Prisión Vil y Engullir para aturdir o enraizar enemigos.
+    - **Poder a distancia**: Ataca a sus enemigos con Bolas de Fuego Vil y lanzas de energía.
+  </Card>
+  <Card title="Tyrant (Tanque de Evasión)">
+    - **Baluarte caótico**: Cambia el daño bruto por mayor armadura y resistencia.
+    - **Enfoque en evasión**: Utiliza altas tasas de esquiva para sortear los golpes.
+    - **Potenciación de aliados**: Utiliza Latigazo Infernal para aumentar la celeridad del grupo.
+  </Card>
+</CardGrid>
+
+| Especialización | Estilo de juego | Habilidad clave | Objetivo principal |
+| :--- | :--- | :--- | :--- |
+| **Slayer** | Asesino ágil | Disfraz de Illidan | Ejecutar combos cuerpo a cuerpo letales |
+| **Infernal** | Lanzador de magia vil | Descarga del Caos | Corromper y atacar a distancia |
+| **Tyrant** | Tanque de evasión | Latigazo Infernal | Mitigar daño y potenciar aliados |
+
+<Callout type="success" title="Flexibilidad de especialización">
+En Conquest of Azeroth, no estás bloqueado en un solo rol. La especialización Infernal del Felsworn es uno de los lanzadores más móviles del juego, especializado en hechizos instantáneos y DoTs, lo que lo convierte en una pesadilla en PvP.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas principales y estrategia de rotación">
+
+Para jugar eficazmente como **cazador de demonios en Conquest of Azeroth**, debes entender la interacción entre tus tres recursos principales: Cargas de Felfury, Runas y Furia. A diferencia de otras clases que pueden depender de tiempos de reutilización simples, el Felsworn requiere una mentalidad táctica para mantener un alto daño o supervivencia.
+
+<Steps>
+  <Step num="1" title="Generar Felfury">
+    Comienza tu rotación con golpes marciales básicos o hechizos viles para generar Cargas de Felfury. Estas son cargas pasivas que se regeneran con el tiempo, pero son consumidas por tus habilidades de combo principales.
+  </Step>
+  <Step num="2" title="Ejecutar golpes de combo">
+    Sigue secuencias de habilidades específicas (ej. Golpe A -> Golpe B) para generar una **Runa de Furia Vil**. Cada runa generada potencia tu siguiente rematador, como golpear a múltiples enemigos o drenar salud.
+  </Step>
+  <Step num="3" title="Acumular Furia Demoníaca">
+    A medida que luchas, acumularás Furia. Una vez que tu barra de Furia esté al máximo, te transformarás automática o manualmente (según los talentos) en tu **Forma Demoníaca**, aumentando significativamente tu daño y desbloqueando nuevos efectos visuales.
+  </Step>
+  <Step num="4" title="Activar Golpes Viles">
+    Mantén tus armas infundidas. Muchos ataques del Felsworn tienen la posibilidad de activar un Golpe Vil adicional, causando una ráfaga de fuego vil a los enemigos cercanos.
+  </Step>
+</Steps>
+
+| Mecánica | Efecto | Tipo de recurso |
+| :--- | :--- | :--- |
+| **Golpes Viles** | Daño de fuego en área adicional | Basado en procs |
+| **Runas de Furia Vil** | Potencia rematadores/golpes en área | Generado por combos |
+| **Forma Demoníaca** | Aumento masivo de estadísticas | Dependiente de la furia |
+
+<Callout type="warning" title="Gestión de recursos">
+No gastes todas tus Cargas de Felfury a la vez. Si te quedas sin cargas antes de generar suficiente Furia para la Forma Demoníaca, tu daño caerá significativamente durante la ventana de "recarga".
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Supervivencia y utilidad del Felsworn">
+
+El **cazador de demonios en Conquest of Azeroth** no se trata solo de daño bruto; aporta una utilidad significativa tanto para el juego en solitario como para el contenido de grupo. Su supervivencia depende de su agilidad y su capacidad para drenar la vida de sus víctimas.
+
+- **Disfraz de Illidan**: Una habilidad defensiva específica de Slayer que te protege del daño durante unos segundos.
+- **Prisión Vil**: Una herramienta de control de masas vital para que los lanzadores Infernal mantengan a raya las amenazas cuerpo a cuerpo.
+- **Maestría en Evasión**: Los tanques Tyrant confían en altas tasas de esquiva en lugar de solo salud bruta, lo que los hace excelentes contra jefes que atacan rápidamente.
+- **Potenciadores de grupo**: La especialización Tyrant puede preparar a los aliados, otorgando bonificaciones de celeridad que benefician a toda la banda.
+
+<Checklist
+  id="felsworn-essentials"
+  title="Lista de control de supervivencia del Felsworn:"
+  items={[
+    "Mantén el 100% de tiempo de actividad en la infusión vil de arma",
+    "Usa Carga de Pezuña Vil para escapar de áreas de efecto en el suelo",
+    "Cronometra la Forma Demoníaca para las fases de daño intenso del jefe",
+    "Monitorea las tasas de regeneración de Carga de Felfury",
+    "Aplica DoTs antes de iniciar combos explosivos"
+  ]}
+/>
+
+<Callout type="info" title="Consejo de experto">
+Cuando juegas como tanque Tyrant, tu "Venganza" activa Golpes Viles adicionales. Esto significa que cuantos más enemigos atraigas, más amenaza en área generarás a través de procs pasivos, haciendo del Felsworn un excelente tanque de mazmorras.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Equipo y progresión del Felsworn">
+
+La progresión como **cazador de demonios en Conquest of Azeroth** requiere una cuidadosa selección de equipo. Debido a que la clase tiene especializaciones tan diversas, tus necesidades de equipo cambiarán drásticamente si cambias de Slayer a Infernal.
+
+| Especialización | Estadística prioritaria | Estadística secundaria | Arma recomendada |
+| :--- | :--- | :--- | :--- |
+| **Slayer** | Agilidad | Celeridad / Crítico | Espadas/Hachas de una mano duales |
+| **Infernal** | Intelecto | Poder con hechizos / Celeridad | Bastón o Daga/Mano izquierda |
+| **Tyrant** | Agilidad | Armadura / Esquiva | Espada de una mano y Escudo |
+
+En la versión Alpha de Conquest of Azeroth, los objetos han sido revisados para crear nuevas sinergias. Busca equipo que mejore específicamente el daño vil o aumente la tasa de activación de tus Golpes Viles. Al ser un usuario de cuero, compartes el grupo de equipo con pícaros y exploradores, pero tu dependencia del fuego vil hace que prefijos específicos como "del Hechicero" o "del Bandido" sean altamente valiosos.
+
+<Callout type="tip" title="Equipamiento de alto riesgo">
+Si juegas en modo PvP de Alto Riesgo, busca versiones **Forjadas en Sangre** del equipo de mazmorras. Estas pueden proporcionar enormes aumentos a tu daño vil, lo cual es esencial para superar las resistencias naturales de otros jugadores.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Cazador de Demonios en Conquest of Azeroth">
+
+<FAQ items={[
+  {
+    question: "¿Es el Felsworn exactamente igual al cazador de demonios de la versión retail?",
+    answer: "No. Aunque comparte el tema de la magia vil y la agilidad, el Felsworn incluye una especialización de lanzador dedicada (Infernal) y utiliza un sistema de combo único que genera Runas y Furia de manera diferente a Havoc o Vengeance de la versión retail."
+  },
+  {
+    question: "¿Qué especialización de Felsworn es mejor para subir de nivel en solitario?",
+    answer: "El Slayer se considera generalmente el más rápido para subir de nivel debido a su alta movilidad y fuerte daño explosivo en un solo objetivo, aunque el Tyrant ofrece una supervivencia superior para enfrentarse a enemigos de élite solo."
+  },
+  {
+    question: "¿Puedo jugar como Felsworn tanque en bandas?",
+    answer: "Sí, la especialización Tyrant es un tanque de evasión totalmente funcional. Se enfoca en esquivar golpes y usar armadura infundida de energía vil para mitigar el daño mientras proporciona beneficios de celeridad a la banda."
+  },
+  {
+    question: "¿Cómo activo la Forma Demoníaca?",
+    answer: "La Forma Demoníaca se activa acumulando suficiente Furia a través del combate. Una vez que tu barra de Furia está llena, te transformas, ganando mayor daño y nuevos efectos de habilidad."
+  }
+]} />
+
+<Callout type="success" title="Veredicto final">
+El Felsworn es la elección definitiva para los jugadores que quieren una clase con un techo de habilidad alto que recompense la sincronización precisa y el posicionamiento táctico. Ya sea que estés quemando el mundo como un Infernal o abriéndote paso a través de él como un Slayer, el poder de lo vil está bajo tu mando.
+</Callout>
+
+</Section>

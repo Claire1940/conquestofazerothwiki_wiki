@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Kultist: 2026 Klassen-Guide & Spezialisierungs-Übersicht",
+  description: "Meistere die Kultist-Klasse in Conquest of Azeroth. Erfahre alles über Wahnsinns-Mechaniken, Häretiker-Heilung, Götterklingen-DPS und Dreadnought-Tanken in diesem Guide für 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d1b4e/ffffff?text=Cultist+Class+Guide",
+  date: "2026-07-03",
+  author: "Conquest of Azeroth Wiki-Team",
+  keywords: "Kultist, Conquest of Azeroth, Klasse, Guide, Wahnsinn, Spezialisierung"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kernmechanik**: Der **Conquest of Azeroth Kultist** basiert auf **Wahnsinn** (Insanity), einer Ressource, die sich mit jedem gewirkten Zauber aufbaut.
+- **Vielseitigkeit**: Diese Klasse kann alle drei Rollen ausfüllen – **Tank, Heiler und DPS** – abhängig von der gewählten Spezialisierung.
+- **Transformation**: Das Erreichen von 100 Stapeln Wahnsinn löst einzigartige **Eldritch-Transformationen** oder einen vorübergehenden Kontrollverlust aus.
+- **Waffenwahl**: Spezialisierungen wie der **Häretiker** und die **Götterklinge** erfordern Zweihandwaffen für maximale Effektivität.
+- **Risiko vs. Belohnung**: Hohe Wahnsinnswerte (70+) gewähren massive Schadensbuffs, bringen dich aber näher an den Abgrund des Wahnsinns.
+</Callout>
+
+<Section icon={Sparkles} title="Klassenübersicht und Kernmechaniken">
+
+Der **Conquest of Azeroth Kultist** ist eine einzigartige Zauberer-Hybrid-Klasse, die ihre Macht aus den uralten Schrecken und den Alten Göttern der Leere bezieht. Im Gegensatz zu traditionellen Magiern oder Priestern nutzt der Kultist nicht nur Mana; er balanciert seinen Verstand auf einer messerscharfen Kante. Jeder Schattenblitz und jede beschworene Tentakel treibt den Charakter weiter in einen Zustand des Wahnsinns, dargestellt durch den **Wahnsinns-Balken**. Die Meisterschaft dieser Klasse erfordert das Wissen, wann man die 100 Stapel anstrebt und wann man sich zurückhalten muss, um die Kontrolle zu behalten.
+
+**Video-Highlights:**
+- Detaillierte Aufschlüsselung des **Wahnsinns-Ressourcensystems**.
+- Visuelle Präsentation der **Eldritch-Horror-Transformationen**.
+- Übersicht über die vier primären Spezialisierungen: **Häretiker, Verderbnis, Götterklinge und Dreadnought**.
+- Erklärung, wie die Waffenwahl deine Rolle und Fähigkeiten verändert.
+
+<YouTubeEmbed videoId="g0NkjXMVSPA" title="Neue WoW-Klasse: Kultist - Conquest of Azeroth" />
+
+Der primäre Gameplay-Loop besteht darin, **Horror-Blitze** abzufeuern und Unterstützungszauber zu nutzen, die Verbündete stärken, während sie gleichzeitig die Umgebung korrumpieren. Wenn du die Waagschale ohne Plan zu weit neigst, wird dein Verstand brechen, aber wenn du "gerade noch bei Verstand" bleibst, entfesselst du die ultimative Stärke der Leere.
+
+| Mechanik | Beschreibung | Auswirkung auf das Gameplay |
+| :--- | :--- | :--- |
+| **Wahnsinns-Stapel** | Ressource, die durch Zauberwirken von 0 bis 100 aufgebaut wird | Bestimmt Transformation und Schadensbuffs |
+| **Eldritch-Evolution** | Automatischer Wechsel bei 100 Stapeln für bestimmte Specs | Gewährt neue Fähigkeiten und erhöhte Stats |
+| **Schatteninfusion** | Passiver Buff für Nahkampf- und Zauberschaden | Skaliert mit dem aktuellen Wahnsinnslevel |
+| **Leeren-Unterstützung** | Hilfszauber, die Gruppenmitglieder schützen oder stärken | Essenziell für Gruppenspiel und Raids |
+
+<Callout type="tip" title="Management-Tipp">
+Behalte deinen Wahnsinns-Balken immer im Auge. Für DPS-Spezialisierungen ist ein Wert zwischen 70 und 90 Wahnsinn der "Sweet Spot" für maximalen Schaden, ohne vorzeitig die Kontrolle zu verlieren.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Spezialisierungen im Detail">
+
+Der **Conquest of Azeroth Kultist** bietet vier verschiedene Pfade und ist damit eine der flexibelsten Klassen im Project Ascension-Ökosystem. Egal, ob du als massiver Tank die Front anführen oder Wunden durch Gewalt heilen möchtest, es gibt eine Spezialisierung für dich.
+
+<CardGrid cols={2}>
+  <Card title="Häretiker (Heiler)">
+    - **Rolle**: Nahkampf-Heiler
+    - **Waffe**: Zweihändig
+    - **Stil**: Heilt Verbündete, indem er Feinden Schaden zufügt.
+    - **Evolution**: Entwickelt sich bei 100 Wahnsinn weiter, anstatt wahnsinnig zu werden.
+  </Card>
+  <Card title="Verderbnis (Zauberer-DPS)">
+    - **Rolle**: Fernkampf-Zauberer
+    - **Waffe**: Stab oder Dolch/Schildhand
+    - **Stil**: Balanciert am Rande des Wahnsinns für hohen Burst-Schaden.
+    - **Schlüsselzauber**: Zorn des Schwarzen Imperiums.
+  </Card>
+  <Card title="Götterklinge (Nahkampf-DPS)">
+    - **Rolle**: Nahkämpfer
+    - **Waffe**: Zweihändig
+    - **Stil**: Teilt schatteninfundierte Schläge und CC aus.
+    - **Schlüsselzauber**: Leerententakel.
+  </Card>
+  <Card title="Dreadnought (Tank)">
+    - **Rolle**: Schild-Tank
+    - **Waffe**: Schild und Einhandwaffe
+    - **Stil**: Transformiert sich in einen Eldritch-Horror, um Schaden einzustecken.
+    - **Fokus**: Hohe Resistenz gegen Magieschaden.
+  </Card>
+</CardGrid>
+
+Der **Häretiker** ist besonders einzigartig, da er Nahkampf mit regenerativen Kräften verbindet. Wenn du mit einer Zweihandwaffe ausgerüstet bist, erzeugen deine Nahkampfangriffe Schilde für nahe Verbündete. Dieser "offensive Heilungsstil" ist perfekt für Spieler, denen traditionelles Heilen zu passiv ist.
+
+| Spezialisierung | Primärwert | Bestens geeignet für | Rollenkomplexität |
+| :--- | :--- | :--- | :--- |
+| **Häretiker** | Intelligenz / Stärke | Dungeons & Raids | Hoch (erfordert Positionierung) |
+| **Verderbnis** | Intelligenz / Tempo | Solo-Leveling & PvP | Mittel (Ressourcenmanagement) |
+| **Götterklinge** | Stärke / Krit | PvP & Burst-DPS | Mittel (Nahkampf-Uptime) |
+| **Dreadnought** | Ausdauer / Rüstung | Tanken von Zauberern | Hoch (Transformations-Timing) |
+
+<Callout type="success" title="Empfehlung">
+Für neue Spieler ist die **Verderbnis**-Spezialisierung der einfachste Weg, die Wahnsinns-Mechanik zu erlernen. Sie ermöglicht es dir, auf Distanz zu bleiben, während du beobachtest, wie verschiedene Zauber dein Wahnsinnslevel beeinflussen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Meisterung der Wahnsinns-Mechanik">
+
+Der Kern des **Conquest of Azeroth Kultisten** ist der "Gratwanderung". Dies ist nicht nur Fluff-Text; es ist eine mathematische Realität für deinen Schaden und dein Überleben. Für die **Verderbnis**-Spezialisierung ist es für High-Tier-Gameplay zwingend erforderlich, den Wahnsinn über 70 zu halten.
+
+**Wichtige Synergie-Zauber:**
+- **Zorn des Schwarzen Imperiums**: Dein primärer Nuke, der mit Wahnsinn skaliert.
+- **Sanity Tap**: Ein entscheidendes Hilfsmittel, mit dem du dein Wahnsinnslevel manuell anpassen kannst, um versehentliche "Ausbrüche" zu verhindern.
+- **Psychische Unterdrückung**: Ein mächtiges Werkzeug zur Massenkontrolle, das von **Götterklingen** verwendet wird, um das Schlachtfeld zu dominieren.
+- **Armageddon**: Ein massiver AoE-Effekt, den **Dreadnoughts** nutzen, um die Bedrohung gegen mehrere Gegner zu halten.
+
+<Callout type="warning" title="Die Gefahr bei 100 Stapeln">
+Für Nicht-Tank-Spezialisierungen kann das Erreichen von 100 Wahnsinn ohne einen kontrollierten "Evolutions-Zustand" zu einem vorübergehenden Verlust der Charakterkontrolle führen. In anspruchsvollen Raids kann dies zu einem Wipe führen. Nutze **Sanity Tap** weise!
+</Callout>
+
+Der **Dreadnought**-Tank verfolgt den entgegengesetzten Ansatz. Sein Ziel ist es, so schnell wie möglich 100 Wahnsinn zu erreichen. Sobald das Limit erreicht ist, steigt er in seine Form als **Verderbter Dreadnought** auf, was seine Haltbarkeit und Magieresistenz drastisch erhöht. Dies macht ihn zum erstklassigen Tank für Begegnungen mit schwerem Magieschaden.
+
+| Fähigkeit | Spec | Effekt | Wahnsinn Kosten/Gewinn |
+| :--- | :--- | :--- | :--- |
+| **Leerententakel** | Götterklinge | Wurzelt Gegner fest | Moderater Gewinn |
+| **Präsenz von Yashar** | Dreadnought | Massive AoE-Bedrohung | Hoher Gewinn |
+| **Schattenschläge** | Götterklinge | Bonus-Schattenschaden | Passiv (Skaliert) |
+| **Horror-Blitz** | Alle | Basis-Fernkampfangriff | Geringer Gewinn |
+
+</Section>
+
+<Section icon={Map} title="Fortschritts- und Leveling-Guide">
+
+Das Leveln eines **Conquest of Azeroth Kultisten** im Jahr 2026 erfordert einen Fokus auf Ausrüstung, die deine primären Rollen-Stats mit genügend Sustain ausbalanciert, um den Wahnsinn zu handhaben. Folge diesen Schritten, um das End-Game effizient zu erreichen.
+
+<Steps>
+  <Step num="1" title="Frühe Meisterschaft (Level 1-20)">
+    Konzentriere dich auf die Grundlagen der **Verderbnis**. Nutze **Horror-Blitz**, um Mobs zu ziehen und lerne, wie schnell sich dein Wahnsinn aufbaut. In dieser Phase hast du noch nicht viele Möglichkeiten, den Wahnsinn zu reduzieren, also ziehe kleine Gruppen.
+  </Step>
+  <Step num="2" title="Rollenwahl (Level 20-40)">
+    Hier legst du dich auf eine Spezialisierung fest. Wenn du tanken möchtest, sammle **Schilde** und **Ausdauer**-Ausrüstung. Wenn du den Pfad des **Häretikers** bevorzugst, suche nach einer schlagkräftigen **Zweihandwaffe** mit Intelligenz.
+  </Step>
+  <Step num="3" title="Evolution freischalten (Level 40-60)">
+    Du erhältst Zugang zu deinen ultimativen Formen und Evolutions-Passiven. Übe deine "Rotation", um sicherzustellen, dass du in Bosskämpfen 100 Wahnsinn (für Tanks/Heiler) erreichst oder bei 70-90 (für DPS) bleibst.
+  </Step>
+  <Step num="4" title="End-Game-Optimierung">
+    Konzentriere dich auf **Tempo** (Haste) und **Krit**. Tempo ermöglicht es dir, Wahnsinn schneller aufzubauen, während Krit spezifische Leeren-Procs auslöst, die die Abklingzeit deiner mächtigsten Schattenzauber zurücksetzen können.
+  </Step>
+</Steps>
+
+| Levelbereich | Empfohlene Zone | Fokus-Aufgabe |
+| :--- | :--- | :--- |
+| **10-20** | Westfall / Brachland | Einfaches Wahnsinnsmanagement freischalten |
+| **20-40** | Schlingendorntal | Mit Götterklingen-Nahkampf-Combos experimentieren |
+| **40-55** | Westliche Pestländer | Die Dreadnought-Transformation meistern |
+| **55-60** | Silithus | Ausrüstung im Stil der Alten Götter für Ästhetik und Stats farmen |
+
+<Callout type="info" title="Ausrüstungspriorität">
+Unabhängig von der Spezialisierung ist **Intelligenz** für den Kultisten lebenswichtig, da sie deinen gesamten Manapool und deine Zaubermacht erhöht, mit der viele deiner "Nahkampf"-Fähigkeiten immer noch skalieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="End-Game-Checkliste">
+
+Um Azeroth als Kultist wirklich zu dominieren, musst du bestimmte Meilensteine erreichen, die dein volles Potenzial freischalten. Nutze diese Checkliste, um deinen Fortschritt im Content-Zyklus 2026 zu verfolgen.
+
+<Checklist
+  id="cultist-progression"
+  title="Ziele zur Kultisten-Meisterschaft:"
+  items={[
+    "Erhalte eine Tier-1-Zweihandwaffe (für Häretiker/Götterklinge)",
+    "Meistere den 70-90 Wahnsinn 'Sweet Spot' für 5 Minuten am Stück",
+    "Schalte die Transformation zum Verderbten Dreadnought frei",
+    "Heile erfolgreich einen Dungeon mit der Häretiker-Nahkampf-Heilspezialisierung",
+    "Schließe die Questreihe 'Flüstern der Alten Götter' ab"
+  ]}
+/>
+
+<Callout type="tip" title="Abschließender Expertenrat">
+Der Kultist ist eine Klasse mit einer hohen spielerischen Obergrenze. Lass dich nicht entmutigen, wenn du bei deinen ersten Durchläufen versehentlich wahnsinnig wirst und die Kontrolle verlierst. Die besten Kultisten sind diejenigen, die ihren Verstand tausendmal "gebrochen" haben, um zu lernen, wo das wahre Limit liegt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Kultist FAQ">
+
+<FAQ items={[
+  {
+    question: "Was passiert, wenn ich als Verderbnis-Kultist 100 Wahnsinn erreiche?",
+    answer: "Im Gegensatz zum Dreadnought oder Häretiker, die sich weiterentwickeln, verliert ein Verderbnis-Kultist normalerweise für kurze Zeit die Kontrolle über seinen Charakter, greift nahegelegene Ziele an oder rennt ziellos umher. Es ist lebenswichtig, Sanity Tap zu nutzen, um dies zu verhindern."
+  },
+  {
+    question: "Kann der Häretiker wirklich so gut heilen wie ein Priester?",
+    answer: "Ja, aber es ist situationsabhängig. Der Häretiker glänzt in Kämpfen, in denen er ständige Nahkampf-Uptime an einem Boss aufrechterhalten kann. In bewegungsintensiven Kämpfen könnte er im Vergleich zu traditionellen Fernkampf-Heilern Schwierigkeiten haben."
+  },
+  {
+    question: "Welche Waffe ist am besten für einen Götterklingen-Kultisten?",
+    answer: "Ein langsames, hart schlagendes Zweihandschwert oder eine Axt ist ideal. Da deine Fähigkeiten Bonus-Schattenschaden basierend auf dem Waffenschaden verursachen, gilt: Je höher der Maximalschaden der Waffe, desto größer dein Burst."
+  },
+  {
+    question: "Ist der Kultist gut für das Solo-Spiel in Conquest of Azeroth geeignet?",
+    answer: "Absolut. Die Verderbnis-Spezialisierung bietet großartiges Kiting mit Leerententakeln, während der Dreadnought gegen Elite-Mobs praktisch unbesiegbar ist, auch wenn es etwas länger dauert, sie zu besiegen."
+  }
+]} />
+
+</Section>
