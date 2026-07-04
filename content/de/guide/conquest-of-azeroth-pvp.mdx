@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth PvP: Klassen-Rangliste & Kampfsystem-Guide",
+  description: "Meistere das Conquest of Azeroth PvP mit unserem Guide zu High-Risk-Systemen, Klassen-Ranglisten und Arena-Strategien für die Ascension WoW Custom-Erweiterung.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PvP+Combat+Guide",
+  date: "2026-07-04",
+  author: "Conquest of Azeroth Wiki-Team",
+  keywords: "Conquest of Azeroth, PvP, Klassen-Ranking, High Risk, Bloodforged, Arena Guide"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Conquest of Azeroth PvP** verfügt über ein einzigartiges Hybrid-Risk-System, das es Spielern ermöglicht, zwischen PvE, Standard-PvP und High-Risk-Modus zu wechseln.
+- **Der High-Risk-Modus** ist die ultimative Herausforderung, bei der Spieler beim Tod ausgerüstete Gegenstände und Inventar verlieren, dafür aber exklusive blutgeschmiedete (Bloodforged) Ausrüstung verdienen können.
+- **Top-Tier-Klassen** bevorzugen derzeit Pyromanten und Kultisten aufgrund ihrer hohen Mobilität, Selbsterhaltung und aggressiven Heilung-durch-Schaden-Mechaniken.
+- **Arena-Optionen** umfassen 1v1, 2v2 und 3v3 Brackets mit originellen Karten, die speziell für die Interaktionen der neuen Klassen entwickelt wurden.
+- **Die Ausrüstungsstrategie** konzentriert sich auf die offene Welt im High-Risk-Modus, wo Schatzsucher-Buffs es ermöglichen, Beute auf Dungeon-Niveau zu finden, ohne Instanzen betreten zu müssen.
+</Callout>
+
+<Section icon={Map} title="Das Hybrid-Risk-PvP-System verstehen">
+
+Der Kern von **Conquest of Azeroth PvP** basiert auf einer flexiblen Architektur, die verschiedenen Spielerpräferenzen gerecht wird. Im Gegensatz zu herkömmlichen Servern, die dich auf einen bestimmten Realm-Typ festlegen, nutzt dieses Projekt ein "Hybrid-Risk"-System. Dies ermöglicht es allen Spielern, in derselben Weltphase zu existieren, während sie den Grad der Gefahr wählen, mit dem sie sich wohlfühlen.
+
+| Modus | PvP-Interaktion | Loot-Regeln | Besondere Vorteile |
+| :--- | :--- | :--- | :--- |
+| **PvE-Modus** | Keine (Nicht anvisierbar) | Standard | Voller Zugang zu Gruppen und Raids |
+| **PvP-Modus** | Open-World-Kampf | Standard | Standardmäßige Ehre- und Prestigegewinne |
+| **High Risk** | Voller Kampf (Separate Phase) | **Gegenstandsverlust bei Tod** | Zugang zu Bloodforged-Items und seltenen Mats |
+
+Im High-Risk-PvP wirst du als Schatzsucher (Treasure Hunter) eingestuft. Dieser spezifische Status gewährt einen mächtigen Buff, der es Monstern in der offenen Welt ermöglicht, blutgeschmiedete Versionen von Dungeon- und Raid-Ausrüstung fallen zu lassen. Das bedeutet, dass du dich effektiv für High-Level-Kämpfe allein durch die Teilnahme an der offenen Welt ausrüsten kannst, vorausgesetzt, du überlebst die Bedrohungen durch andere Spieler.
+
+<Callout type="warning" title="High-Risk-Warnung">
+Im High-Risk-Modus erlaubt das Besiegen eines Helden das Plündern einer Truhe, die Teile seiner ausgerüsteten Ausrüstung und seines Inventars enthält. Trage immer Ersatz-Sets bei dir, wenn du dich in umkämpfte Gebiete begibst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="PvP-Klassentauglichkeit und Heiler-Ranking">
+
+Die Wahl der richtigen Klasse ist die wichtigste Entscheidung für jeden Spieler, der im **Conquest of Azeroth PvP** dominieren möchte. Mit 21 originellen Klassen und insgesamt 69 Spezialisierungen ist das Meta vielfältig. Insbesondere Heiler spielen in Gruppenscharmützeln und Arenen eine entscheidende Rolle.
+
+**Video-Highlights:**
+- Analyse aller 8 primären Heiler-Archetypen für das kompetitive Spiel.
+- Warum schadensverursachende Heiler wie der Pyromant und der Kultist derzeit das Meta dominieren.
+- Vergleich von Mobilität vs. reinem Durchsatz für verschiedene Arena-Brackets.
+- Einblicke in die "spaßfreien" vs. "effektiven" Mechaniken des Sonnenklerikers (Sun Cleric) und Sternenrufers (Starcaller).
+
+<YouTubeEmbed videoId="wum8A2L3HWM" title="Conquest of Azeroth HEILER TIERLISTE! (Ascension CoA)" />
+
+Das aktuelle Meta legt den Schwerpunkt auf Klassen, die zum offensiven Druck der Gruppe beitragen können, während sie gleichzeitig die Lebensbalken oben halten. Passive "Back-Line"-Heiler haben oft Schwierigkeiten gegen die hochmobilen Assassinen, die in der aktuellen Alpha weit verbreitet sind.
+
+| Klasse | PvP-Tier | Primäre Stärke | PvP-Rolle |
+| :--- | :--- | :--- | :--- |
+| **Pyromancer** | **S-Tier** | Hohe Mobilität / Tod überlisten | Aggressiver Heiler / DPS |
+| **Cultist** | **S-Tier** | Wahnsinns-Burst / Intelligente Heilung | Nahkampf-Heiler / Tank |
+| **Tinker** | **A-Tier** | Geschützturm-Zonierung / CC-Bomben | Support / Healer |
+| **Venomancer** | **A-Tier** | Gestaltwandel / HoT-Ramping | Kontinuierlicher Heiler |
+| **Chronomancer** | **B-Tier** | Zeitrücklauf / Nützlichkeit | Support / Utility |
+| **Sun Cleric** | **C-Tier** | Hohe Verteidigung / Hard Casting | Defensiver Heiler |
+
+<Callout type="tip" title="Experten-Einblick">
+Die "Phönix"-Mechanik des Pyromanten ist ein absoluter Game-Changer im PvP. Sie ermöglicht es dir, dich nach dem Tod zu verwandeln, weiter zu zaubern und mit vollen Ressourcen wieder aufzuerstehen, was den Feind effektiv dazu zwingt, dich zweimal zu töten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kern-PvP-Klassenarchetypen">
+
+Neben der Heilung sind die 21 Klassen in spezialisierte Rollen unterteilt, die ihren Einfluss auf dem Schlachtfeld definieren. Egal, ob du die rohe Gewalt eines Barbaren oder die subtile List eines Schnitters (Reaper) bevorzugst, das Verständnis deines Archetyps ist unerlässlich.
+
+<CardGrid cols={3}>
+  <Card title="Physische Assassinen">
+    - **Reaper**: Erntet Seelen und nutzt Gesundheit, um Schläge zu verstärken.
+    - **Ranger**: Vielseitige Überlebenskünstler mit Bögen und Nahkampf-Fallen.
+    - **Witch Hunter**: Nutzt zwei Armbrüste und Silberbolzen, um Feinde zu läutern.
+  </Card>
+  <Card title="Elementar-Zauberer">
+    - **Stormbringer**: Blitzmagier, die Statik für massiven Flächenschaden aufbauen.
+    - **Runemaster**: Webt alte Runen, um durch elementare Einstimmungen zu wechseln.
+    - **Necromancer**: Überrennt Feinde mit mehreren untoten Dienern und Plagen.
+  </Card>
+  <Card title="Schwere Juggernauts">
+    - **Knight of Xoroth**: Höllenritter, die auf dunklen Rossen in den Kampf reiten.
+    - **Guardian**: Die ultimativen Schildträger-Tanks mit hoher CC.
+    - **Primalist**: Kanalisiert die Erde, um zu einem defensiven Bollwerk zu werden.
+  </Card>
+</CardGrid>
+
+Jede dieser Klassen nutzt einzigartige Ressourcen. Zum Beispiel nutzt der **Felsworn** Teufelszorn-Ladungen und eine Dämonenform-Verwandlung, was ihn exzellent für Burst-Fenster in 2v2-Arenen macht. Im Gegensatz dazu verlässt sich der **Barbarian** auf Unbändige Wut, wodurch er gefährlicher wird, je länger der Kampf dauert.
+
+| Ressourcensystem | Klassen | PvP-Einfluss |
+| :--- | :--- | :--- |
+| **Wahnsinn** | Cultist | Hohes Todesrisiko bei Fehlmanagement, aber massiver Schaden. |
+| **Sonnenenergie** | Sun Cleric | Erfordert Aufbau; vorhersehbare, aber kraftvolle Bursts. |
+| **Statik** | Stormbringer | Erhöht Proc-Chancen; belohnt das Verbleiben im Kampf. |
+| **Todesfeuer** | Knight of Xoroth | Wird für apokalyptische Finishing-Moves verwendet. |
+
+<Callout type="success" title="Strategie-Tipp">
+Wenn du einen Runenmeister spielst, beherrsche den 8-sekündigen Einstimmungs-Zyklus (Attunement). Das Timing deines Bursts mit dem richtigen Element (Feuer für Schaden, Frost für CC) entscheidet in 1v1-Szenarien über Sieg oder Niederlage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ausrüstung für PvP: Der blutgeschmiedete Pfad">
+
+Die Ausrüstung in **Conquest of Azeroth PvP** unterscheidet sich erheblich vom herkömmlichen WoW. Während du Dungeons und Raids für Standardausrüstung laufen kannst, ist der effizienteste Weg für einen engagierten PvP-Spieler die High-Risk-Open-World.
+
+<Steps>
+  <Step num="1" title="High-Risk-Modus aktivieren">
+    Wechsle über den Realm-Selector in die High-Risk-Phase. Stelle sicher, dass du ein Basisset an Ausrüstung hast, das du bereit bist zu verlieren.
+  </Step>
+  <Step num="2" title="Schatzsucher aktivieren">
+    Sobald du in der High-Risk-Phase bist, erhältst du den Schatzsucher-Buff (Treasure Hunter). Dieser erhöht dein Glück und ermöglicht einzigartige Drops von allen Welt-Mobs.
+  </Step>
+  <Step num="3" title="Umkämpfte Zonen farmen">
+    Suche Gebiete mit hoher Gegnerdichte in Kalimdor oder den Östlichen Königreichen auf. Besiege Monster, um **blutgeschmiedete Ausrüstung** (Bloodforged gear) zu finden, die im Vergleich zu Standardversionen verbesserte Werte aufweist.
+  </Step>
+  <Step num="4" title="Extrahieren und Handeln">
+    Blutgeschmiedete Ausrüstung ist nicht seelengebunden. Wenn du ein Teil findest, das nicht zu deiner Klasse passt, kannst du es im Auktionshaus gegen Gold verkaufen, um die Teile zu kaufen, die du benötigst.
+  </Step>
+</Steps>
+
+Blutgeschmiedete Gegenstände sind die Spitze der PvP-Ausrüstung. Sie schließen oft die Lücke zwischen Gelegenheitsspielern und Raid-Veteranen, indem sie es ermöglichen, dass Können und Risikobereitschaft das Machtniveau bestimmen und nicht nur die in Instanzen verbrachte Zeit.
+
+<Callout type="warning" title="Anti-Zerg-Mechaniken">
+High-Risk-Zonen haben oft Mechaniken, die verhindern sollen, dass massive Gruppen einzelne Spieler campen. Bleibe mobil und vermeide es, zu lange in einer Sub-Zone zu bleiben, um deine Sichtbarkeit auf der Karte zu minimieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Vorbereitung auf Arena und Schlachtfelder">
+
+Für diejenigen, die strukturierten Kampf bevorzugen, bieten die 1v1, 2v2 und 3v3 Arenen eine kontrolliertere Umgebung. Diese Matches finden auf originellen Karten statt, die speziell für die Vertikalität und Mobilität der neuen Klassensets entwickelt wurden.
+
+<Checklist
+  id="pvp-prep"
+  title="Checkliste vor dem Match:"
+  items={[
+    "Überprüfe, ob alle 69 Spezialisierungs-Talente korrekt verteilt sind",
+    "Decke dich mit Hexendoktor-Elixieren und Tränken ein",
+    "Stelle sicher, dass dein Primärwert (Stärke/Beweglichkeit/Intelligenz) in der Ausrüstung priorisiert wird",
+    "Richte Makros für klassenspezifische Mechaniken wie den Zeitrücklauf des Chronomanten ein",
+    "Überprüfe die Haltbarkeit deiner Ausrüstung, bevor du dich in die Warteschlange einreihst"
+  ]}
+/>
+
+Der Manasturm (Manastorm) ist ein weiteres einzigartiges Feature für PvP-Enthusiasten. Obwohl er primär PvE ist, lassen sich die in den über 4000 Levels des Manasturms erlernten Fähigkeiten direkt auf die mechanische Präzision übertragen, die für das High-Level-Arenaspiel erforderlich ist.
+
+| Arena-Bracket | Beste Archetypen | Schlüsselstrategie |
+| :--- | :--- | :--- |
+| **1v1** | Reaper, Felsworn, Duelist | Länger durchhalten und Ressourcen-Erschöpfung. |
+| **2v2** | Pyromancer + Guardian | Schütze den Zauberer, während er den Schaden aufbaut. |
+| **3v3** | Cultist + Stormbringer + Tinker | Massiver AoE-Druck und Zonen-Kontrolle. |
+
+<Callout type="info" title="Kartenkenntnis">
+Die ursprünglichen Arenakarten in Conquest of Azeroth enthalten interaktive Elemente. Nutze das Gelände, um die Sichtlinie gegen Pyromanten zu unterbrechen, da deren kegelförmige Heilungen und Schadenszauber einen direkten Pfad erfordern.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Ist das Conquest of Azeroth PvP für alle 21 Klassen ausbalanciert?",
+    answer: "Balance ist ein fortlaufender Prozess während der Alpha-Phase. Während sich einige Klassen wie der Pyromant derzeit stärker anfühlen, veröffentlicht das engagierte Entwicklungsteam regelmäßig Patches, um Skalierung und Mechaniken basierend auf dem Feedback der Spieler anzupassen."
+  },
+  {
+    question: "Kann ich meine Ausrüstung im Standard-PvP-Modus verlieren?",
+    answer: "Nein. Gegenstandsverlust gibt es exklusiv im High-Risk-PvP-Modus. Im Standard-PvP-Modus verlierst du nur Haltbarkeit und gewinnst/verlierst Ehre-Punkte, ähnlich wie auf einem traditionellen PvP-Server."
+  },
+  {
+    question: "Wie bekomme ich blutgeschmiedete Ausrüstung, ohne High Risk zu betreten?",
+    answer: "Da blutgeschmiedete Gegenstände nicht seelengebunden sind, kannst du sie von anderen Spielern im Auktionshaus kaufen. Dies ermöglicht es PvE-orientierten Spielern, High-Tier-Ausrüstung mit Gold zu erwerben, das sie durch andere Aktivitäten verdient haben."
+  },
+  {
+    question: "Was ist der beste Primärwert für eine Hybridklasse wie den Sternenrufer (Starcaller)?",
+    answer: "Für PvP profitieren Sternenrufer meist am meisten von Intelligenz, da sie sowohl ihre Heilung als auch ihre astralen Schadenszauber verstärkt. Einige tank-orientierte Builds könnten jedoch Stärke für die Effizienz von Plattenrüstung priorisieren."
+  }
+]} />
+
+</Section>

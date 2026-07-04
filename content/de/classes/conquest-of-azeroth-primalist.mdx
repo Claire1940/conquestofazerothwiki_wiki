@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Primalist: Beste Spezialisierungen & Build-Guide",
+  description: "Meistern Sie die Conquest of Azeroth Primalist-Klasse. Entdecken Sie die besten Spezialisierungen, Build-Pfade und rollenspezifischen Strategien für die Meta 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Primalist+Class+Guide",
+  date: "2026-07-04",
+  author: "conquest of azeroth Wiki-Team",
+  keywords: "Primalist, Conquest of Azeroth, Build Guide, Spezialisierungen, WoW Ascension"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Primalisten-Macht**: Der **Conquest of Azeroth Primalist** ist eine vielseitige, plattenrüstungs-tragende Klasse, die Erd-, Geist- und Wildnismagie nutzt.
+- **Rollenflexibilität**: Er kann als unnachgiebiger Tank, Heiler mit hohem Durchsatz oder schlagkräftiger Nahkampf-/Zauber-DPS fungieren.
+- **Ressourcen-Meisterschaft**: Nutzt ein hybrides Ressourcensystem aus Mana und Wut, um Ahnen- und Elementarzauber zu wirken.
+- **Vier Spezialisierungen**: Wählen Sie zwischen Bergkönig (Tank), Leben (Heiler), Wildläufer (Nahkampf-DPS) oder Geomantie (Zauber-DPS).
+- **Hauptattribut**: Konzentriert sich auf Stärke für physische Rollen oder Intelligenz für Zauberer-Rollen.
+</Callout>
+
+<Section icon={Map} title="Primalist Übersicht & Klassenmechaniken">
+
+Der **Conquest of Azeroth Primalist** ist ein Eckpfeiler unter den Champions der Wildnis und bezieht seine rohe Kraft direkt von der Erdenmutter und uralten Geisterbestien [ukNiDWKWEtI]. In schwerer Plattenrüstung passt sich dieses Hybrid-Kraftpaket jeder Gruppenzusammensetzung an, indem es jede Rolle im PvE oder PvP ausfüllen kann [ukNiDWKWEtI, 332]. Egal, ob Sie vernichtende Schläge einstecken, tödliche Wunden heilen oder Feinde mit urzeitlicher Wut zerreißen wollen – der Primalist bietet die Werkzeuge, um an vorderster Front zu dominieren [ukNiDWKWEtI].
+
+**Video-Highlights:**
+- **Vielseitigkeit**: Zeigt die Fähigkeit der Klasse, nahtlos zwischen Tank-, Heil- und Dual-DPS-Rollen zu wechseln [ukNiDWKWEtI].
+- **Visuals**: Präsentiert die benutzerdefinierten Erdbändiger- und Ahnengeister-Animationen, die exklusiv für den Conquest of Azeroth Client entwickelt wurden [ukNiDWKWEtI, 332].
+- **Kernfähigkeiten**: Hebt ikonische Zauber wie Urwelle, Hammer des Lebens und Tektonische Verschiebung im Echtzeit-Kampf hervor [ukNiDWKWEtI].
+
+<YouTubeEmbed videoId="ukNiDWKWEtI" title="New WoW Class: Primalist - Conquest of Azeroth" />
+
+### Kernattribute & Rollenauswahl
+
+Bevor Sie Ihre Spezialisierung wählen, ist es wichtig zu verstehen, wie die Kernmechaniken des Primalisten mit Ihrer Ausrüstung skalieren. Nutzen Sie die folgende Tabelle, um Ihren Build-Pfad zu planen:
+
+| Spezialisierung | Rolle | Hauptattribut | Kern-Waffensetup | Spielstil-Fokus |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bergkönig** | Tank | Stärke | Einhand + Schild | Hohe Rüstung, AoE-Bedrohung, Betäubungsbarrieren |
+| **Leben** | Heiler | Intelligenz / Stärke | Zweihand oder Schild | Wut-basierte Nahkampfheilung, AoE-Segnungen |
+| **Wildläufer** | Nahkampf-DPS | Stärke | Zweihand oder Beidhändigkeit | Totemtiere, Blutungen, Physischer Burst |
+| **Geomantie** | Zauber-DPS | Intelligenz | Stab oder Main-Hand + Off-Hand | Erdbändigen, Sandstürme, Magmaspalten |
+
+<Callout type="tip" title="Tipp zur Werte-Priorität">
+Passen Sie das Hauptattribut Ihrer Ausrüstung immer an Ihre aktive Spezialisierung an. Geomantie mit stärke-lastiger Platte zu spielen, wird Ihren Zauberschaden und Ihre Zaubergeschwindigkeit massiv beeinträchtigen [ukNiDWKWEtI, 332].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Wahl Ihrer Spezialisierung">
+
+Die Stärke des **Conquest of Azeroth Primalisten** liegt in seinen vier höchst unterschiedlichen Spezialisierungen. Jede Spezialisierung verändert Ihre Ressourcengeneration, Ihre aktiven Fähigkeiten und Ihre Positionierung im Kampf grundlegend [ukNiDWKWEtI, 332].
+
+<CardGrid cols={2}>
+  <Card title="Bergkönig (Die unnachgiebige Bastion)">
+    - **Rolle**: Tank [ukNiDWKWEtI]
+    - **Kernfähigkeit**: Tektonische Verschiebung [ukNiDWKWEtI]
+    - **Mechanik**: Erzeugt massive AoE-Bedrohung, indem er die Erde erschüttert und bis zu 10 Ziele gleichzeitig schädigt [ukNiDWKWEtI].
+    - **Warnung**: Die übermäßige Nutzung tektonischer Fähigkeiten kann Ihre Verteidigung vorübergehend überlasten und Sie selbst betäuben, wenn sie nicht sorgfältig verwaltet wird [332].
+  </Card>
+  <Card title="Leben (Die Gnade der Erdenmutter)">
+    - **Rolle**: Heiler [ukNiDWKWEtI]
+    - **Kernfähigkeit**: Urwelle & Hammer des Lebens [ukNiDWKWEtI]
+    - **Mechanik**: Ein einzigartiger, nahkampforientierter und wut-basierter Heiler, der an der Seite von Tanks an vorderster Front kämpft [332].
+    - **Vorteil**: Strahlt passive AoE-Heilung aus und wirkt schützende Smaragdgrüne Traumbarrieren, um Schaden abzuwehren [ukNiDWKWEtI].
+  </Card>
+  <Card title="Wildläufer (Der wilde Totemist)">
+    - **Rolle**: Nahkampf-DPS [ukNiDWKWEtI]
+    - **Kernfähigkeit**: Ursos wilde Macht [ukNiDWKWEtI]
+    - **Mechanik**: Ruft uralte Bestiengeister an, um Geisttier-Gefährten zu beschwören [ukNiDWKWEtI, 332].
+    - **Vorteil**: Hoher physischer Burst-Schaden durch Urkrallen, Zähne und Totem-Buffs, um die gegnerische Verteidigung zu zerfetzen [ukNiDWKWEtI].
+  </Card>
+  <Card title="Geomantie (Der irdische Katalysator)">
+    - **Rolle**: Zauber-DPS [ukNiDWKWEtI]
+    - **Kernfähigkeit**: Geodensalve [ukNiDWKWEtI]
+    - **Mechanik**: Opfert schwere Plattenverteidigung für eine überwältigende elementare Fernkampf-Offensive [332].
+    - **Vorteil**: Entfesselt Sandstürme, Magmaspalten und Eruptionen, um Ziele aus der Ferne einzuschließen und zu vernichten [ukNiDWKWEtI, 332].
+  </Card>
+</CardGrid>
+
+### Vergleich der Spezialisierungs-Leistung
+
+Bewerten Sie, wie jede Spezialisierung in verschiedenen Endgame-Aktivitäten in der aktuellen Meta 2026 abschneidet:
+
+| Spezialisierung | Solo-Leveln | Dungeon-Nützlichkeit | Raid-Leistung | PvP-Tauglichkeit |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bergkönig** | Gut | Exzellent | Exzellent | Gut |
+| **Leben** | Mäßig | Exzellent | Exzellent | Großartig |
+| **Wildläufer** | Exzellent | Großartig | Gut | Exzellent |
+| **Geomantie** | Großartig | Gut | Exzellent | Mäßig |
+
+<Callout type="warning" title="Tektonische Überlastung">
+Behalten Sie als Bergkönig Ihre Stapel von "Tektonische Verschiebung" genau im Auge. Das Auslösen einer Eigenbetäubung während eines hochstufigen Mythisch+-Pulls kann zu einem sofortigen Gruppen-Wipe führen [332].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt Leveling & Build-Pfad">
+
+Um Ihren **Conquest of Azeroth Primalisten** erfolgreich zu leveln, müssen Sie Ihren Build anpassen, während Sie höherstufige Talente freischalten und von der offenen Welt in benutzerdefinierte Dungeons wechseln [332].
+
+<Steps>
+  <Step num="1" title="Frühes Spiel (Stufe 1-20)">
+    Beginnen Sie als Wildläufer. Der physische Schaden durch Tiergefährten und die niedrigen Manakosten machen das Questen in der Welt unglaublich schnell [ukNiDWKWEtI, 332]. Konzentrieren Sie sich auf Stärke-Plattenrüstung und eine langsame Zweihandwaffe, um Ihren Schlagschaden zu maximieren [ukNiDWKWEtI].
+  </Step>
+  <Step num="2" title="Dungeon-Übergang (Stufe 21-40)">
+    Beginnen Sie damit, sekundäre Intelligenz-Plattenteile zu sammeln. Wenn Sie das Gruppenspiel bevorzugen, wechseln Sie zur Lebens-Spezialisierung für sofortige Dungeon-Warteschlangen [ukNiDWKWEtI]. Nutzen Sie Urwelle und Hammer des Lebens, um Ihren Tank gesund zu halten, während Sie zum Nahkampf-DPS beitragen [ukNiDWKWEtI].
+  </Step>
+  <Step num="3" title="Endgame-Spezialisierung (Stufe 41-60)">
+    Legen Sie sich auf Ihre Hauptrolle fest. Für Raids optimieren Sie Ihre Geomantie-Spezialisierung, indem Sie Zaubertempo stapeln, um die Zauberzeit von Geodensalve zu verringern [ukNiDWKWEtI, 332]. Für riskantes PvP bleiben Sie beim Wildläufer oder Bergkönig für überlegene Massenkontrolle und Überlebensfähigkeit [ukNiDWKWEtI, 332].
+  </Step>
+</Steps>
+
+<Callout type="success" title="High-Risk Vorteil">
+Wenn Sie im High-Risk PvP-Modus von Ascension leveln, machen Sie die hohe natürliche Rüstung und die Betäubungsbarrieren des Bergkönigs zu einem unglaublich schwierigen Ziel für Ganker [332].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Endgame-Ausrüstung & Rotations-Prioritäten">
+
+Die Maximierung Ihres Outputs auf Stufe 60 erfordert eine strikte Rotation und die richtige Optimierung der benutzerdefinierten [Ascension WoW](https://ascension.gg/) Itemisierungssysteme [332].
+
+### Rotations-Prioritäten nach Spezialisierung
+
+| Spezialisierung | Primärer Opener | Kern-Rotationszauber | Defensiv- / Utility-Cooldown |
+| :--- | :--- | :--- | :--- |
+| **Bergkönig** | Sturmangriff / Erdschock | Tektonische Verschiebung, Rüstung zerreißen, Steinhammer | Erdbarriere, Avatar-Form |
+| **Leben** | Hammer des Lebens | Urwelle, Smaragdgrüne Traumranken, Erdenheilung | Ahnenwiederbeleb., Gift reinigen |
+| **Wildläufer** | Totembeschwörung | Ursos wilde Macht, Klauenschlag, Urzähne | Geist-Schildkrötenpanzer, Ahnengeist |
+| **Geomantie** | Magmaspalte | Geodensalve, Sandsturm, Erdwoge | Steingrab, Magmaschild |
+
+### Werte-Optimierung
+
+- **Tanks (Bergkönig)**: Rüstung > Ausdauer > Verteidigungswertung > Stärke
+- **Heiler (Leben)**: Zaubermacht > Intelligenz > Kritische Trefferwertung > Tempo
+- **Nahkampf-DPS (Wildläufer)**: Stärke > Angriffskraft > Trefferwertung > Kritische Trefferwertung
+- **Zauber-DPS (Geomantie)**: Zaubermacht > Tempo > Intelligenz > Zauberkritisch
+
+<Callout type="info" title="Benutzerdefinierte Itemisierung">
+Vergessen Sie nicht, die benutzerdefinierten Item-Upgrade-Systeme von Conquest of Azeroth zu nutzen. Sie können schwache Vanilla-Gegenstände aufwerten, damit sie Werte erhalten, die perfekt zu Ihrer Primalisten-Spezialisierung passen [332].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Primalist Fortschritts-Checkliste">
+
+Verfolgen Sie den Fortschritt Ihres Charakters, um sicherzustellen, dass Sie für Endgame-Raids und hochstufige Mythisch+ Dungeons voll optimiert sind [332].
+
+<Checklist
+  id="primalist-progression"
+  title="Endgame-Meilensteine:"
+  items={[
+    "Stufe 60 erreichen und alle Tier-Talente freischalten.",
+    "Ein vollständiges Set spezialisierter Plattenrüstung erwerben (Stärke oder Intelligenz).",
+    "Die für Ihre Spezialisierung entscheidende Waffe erhalten (z. B. 2H mit hohem DPS für Wildläufer oder Zaubermacht-Stab für Geomanten).",
+    "Den Schwellenwert der Tektonischen Verschiebung meistern, um als Tank Eigenbetäubungen zu vermeiden.",
+    "Benutzerdefinierte Weltbosse besiegen, um blutgeschmiedete Ausrüstungs-Upgrades zu sichern."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Kann der Conquest of Azeroth Primalist beidhändig geführte Waffen benutzen?",
+    answer: "Ja. Die Wildläufer-Spezialisierung kann effektiv entweder mit einer massiven Zweihandwaffe oder mit zwei Einhandwaffen gespielt werden, abhängig von Ihrer Talentwahl."
+  },
+  {
+    question: "Ist die Lebens-Spezialisierung als Solo-Heiler in Mythisch+ Dungeons lebensfähig?",
+    answer: "Absolut. Obwohl Leben ein nahkampfbasierter Heiler ist, machen ihn seine ausstrahlenden AoE-Heilungen, die schützenden Smaragdgrünen Traumbarrieren und die starken Einzelziel-Heilungen in 5-Mann-Inhalten sehr wettbewerbsfähig."
+  },
+  {
+    question: "Wie funktioniert die Eigenbetäubungs-Mechanik des Bergkönigs?",
+    answer: "Die Verwendung tektonischer Fähigkeiten wie Tektonische Verschiebung baut seismische Energie auf. Wenn Sie zu viel tektonische Aktivität erzeugen, ohne die Energie abklingen zu lassen, überlastet Ihre irdische Verteidigung und betäubt Sie kurzzeitig."
+  },
+  {
+    question: "Was ist die Hauptressource des Primalisten?",
+    answer: "Der Primalist ist eine Hybridklasse, die je nach aktiver Spezialisierung und Fähigkeiten sowohl Mana als auch Wut kanalisiert, was einen einzigartigen Kampffluss ermöglicht."
+  }
+]} />
+
+</Section>

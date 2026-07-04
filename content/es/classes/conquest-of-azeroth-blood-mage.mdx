@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mago de sangre de Conquest of Azeroth: Resumen completo de la clase",
+  description: "Explora la clase Mago de sangre en Conquest of Azeroth. Aprende sobre especializaciones, estilos de juego y cómo dominar a este oscuro lanzador de conjuros que drena la vida.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Blood+Mage+Guide",
+  date: "2026-07-04",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **Mago de sangre de Conquest of Azeroth** es una clase versátil que utiliza Ira y su propia salud (PS) para lanzar hechizos.
+- Los jugadores pueden elegir entre las especializaciones **Fleshweaver, Sanguine, Accursed y Eternal** para cumplir cualquier rol.
+- Los Magos de sangre destacan en las **mecánicas de robo de vida**, lo que les permite sostenerse a sí mismos y a sus aliados durante el combate.
+- El dominio del **estado de Hambre** (Hunger state) y los rituales de sangre es esencial para optimizar el daño y la curación.
+</Callout>
+
+<Section icon={BookOpen} title="Entendiendo al Mago de sangre">
+
+El Mago de sangre es un lanzador de conjuros oscuro y único introducido en Conquest of Azeroth. A diferencia de los taumaturgos tradicionales que dependen únicamente del maná, los Magos de sangre canalizan su propia fuerza vital y acumulan Ira para ejecutar sus siniestros propósitos. Ya sea que quieras actuar como tanque en forma de bestia, curar mediante daño ritualista o infligir un devastador daño a distancia, esta clase ofrece un estilo de juego muy interactivo y agresivo.
+
+**Puntos clave del video:**
+- Los Magos de sangre usan Ira y salud para lanzar facultades.
+- La clase es capaz de desempeñar los roles de Tanque, DPS y Sanador.
+- Las mecánicas de transformación son fundamentales para las especializaciones Accursed y Eternal.
+- El robo de vida es el método principal para mantener la supervivencia durante el combate.
+
+<YouTubeEmbed videoId="4mEVTHzHkqY" title="Nueva clase de WoW: Mago de sangre - Conquest of Azeroth" />
+
+<Callout type="tip" title="Filosofía de la clase">
+Vigila siempre tu barra de salud. Dado que tus hechizos drenan tu propia vitalidad, equilibrar tu daño infligido con tus mecánicas de supervivencia es la clave para dominar al Mago de sangre.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Especializaciones del Mago de sangre">
+
+El Mago de sangre ofrece cuatro caminos distintos, cada uno adaptado a diferentes roles de combate. Elegir la especialización adecuada depende de si prefieres el tanqueo en primera línea o el lanzamiento de hechizos tácticos.
+
+| Especialización | Rol principal | Estadística clave | Enfoque de estilo de juego |
+| :--- | :--- | :--- | :--- |
+| **Fleshweaver** | Sanador | Espíritu | Curación ritualista, robo de vida en área |
+| **Sanguine** | DPS a distancia | Intelecto | Hechizos con coste de salud, estado de Hambre |
+| **Accursed** | DPS cuerpo a cuerpo | Agilidad | Híbrido de magia/cuerpo a cuerpo, forma vampírica |
+| **Eternal** | Tanque | Aguante | Licantropía, reducción de daño |
+
+<CardGrid cols={2}>
+  <Card title="Fleshweaver">
+    Un sanador ritualista que manipula la sangre para restaurar a sus aliados. Inflige daño para potenciar poderosos efectos de curación y acumula Vitalidad de reserva (Pooled Vitality) para ráfagas de sanación.
+  </Card>
+  <Card title="Sanguine">
+    Un taumaturgo puro que transmuta la fuerza vital en devastación. Gestiona un estado de Hambre (Hunger state) que aumenta el poder a costa de un rápido drenaje de salud.
+  </Card>
+  <Card title="Accursed">
+    Un luchador híbrido que alterna entre la magia a distancia y una monstruosa forma vampírica cuerpo a cuerpo. Destaca en daño por sangrado y robo de vida.
+  </Card>
+  <Card title="Eternal">
+    Un tanque salvaje que adopta la licantropía. Se transforma en huargen (Worgen) para reducir el daño, invocar lobos espectrales y liderar la manada.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Flexibilidad de roles">
+El Mago de sangre es una de las pocas clases en Conquest of Azeroth que puede realizar la transición cómodamente entre los tres roles principales de grupo, lo que lo convierte en una excelente opción para los jugadores que disfrutan de la versatilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión y mecánicas">
+
+Dominar al Mago de sangre requiere comprender el ciclo de recursos. Debes aprender cuándo gastar tu salud y cuándo robársela a tus enemigos.
+
+<Steps>
+  <Step num="1" title="Gestión de recursos">
+    Comienza por comprender la interacción entre tu Ira y tus PS. Usa facultades para generar Ira mientras vigilas de cerca tus niveles de salud actuales.
+  </Step>
+  <Step num="2" title="Dominio de las transformaciones">
+    Para las especializaciones Accursed y Eternal, aprende el momento oportuno para tus transformaciones. Activarlas en el instante adecuado puede cambiar el rumbo de un encuentro difícil.
+  </Step>
+  <Step num="3" title="Combate sostenido">
+    Utiliza tus hechizos de robo de vida como Colmillo vampírico (Vampiric Fang) o Drenador de vida (Life Drinker) para recuperar la cordura y la salud, asegurándote de no sucumbir a tus propios poderes oscuros.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Vigila tu salud">
+Entrar en el estado de Hambre o permanecer transformado durante demasiado tiempo puede dejarte vulnerable. Ten siempre preparado un hechizo de robo de vida para recuperarte del coste de salud de tus poderosos ataques.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos e hitos">
+
+Para convertirte en un maestro de las artes de sangre, sigue esta lista de verificación para asegurarte de progresar de manera eficiente a través del contenido disponible en Conquest of Azeroth.
+
+<Checklist
+  id="blood-mage-goals"
+  title="Hitos de desarrollo del Mago de sangre:"
+  items={[
+    "Selecciona tu especialización preferida según el rol deseado",
+    "Domina el ciclo de robo de vida para tu especialización específica",
+    "Completa las misiones de clase especializadas para el camino elegido",
+    "Adquiere equipo que mejore tu estadística principal (Espíritu, Intelecto, Agilidad o Aguante)",
+    "Practica el momento de la transformación en entornos de mazmorras de bajo riesgo"
+  ]}
+/>
+
+| Hito | Objetivo | Beneficio |
+| :--- | :--- | :--- |
+| **Maestría básica** | Alcanzar el nivel 20 | Desbloquea hechizos básicos de transformación/ritual |
+| **Optimización de rol** | Equiparse para la estadística principal | Maximiza el rendimiento para el rol elegido |
+| **Juego avanzado** | Completar mazmorras heroicas | Pone a prueba tu capacidad para gestionar los PS bajo presión |
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puede el Mago de sangre curar de manera efectiva en grupo?",
+    answer: "Sí, la especialización Fleshweaver está diseñada específicamente para la curación en grupo. Utiliza rituales basados en el daño y mecánicas de robo de vida para mantener a los aliados al máximo de salud."
+  },
+  {
+    question: "¿Es el Mago de sangre difícil de jugar para principiantes?",
+    answer: "La clase tiene un techo de habilidad alto debido a sus mecánicas de gestión de salud. Se recomienda para jugadores familiarizados con los sistemas básicos de Conquest of Azeroth."
+  },
+  {
+    question: "¿Qué raza es la mejor para un Mago de sangre?",
+    answer: "Tanto la Alianza como la Horda tienen acceso a la clase. Elige según tu preferencia de facción, ya que las pasivas raciales otorgan beneficios menores en lugar de cambios que definan la clase."
+  }
+]} />
+
+<Callout type="info" title="Recursos oficiales">
+Para obtener información más detallada y debates de la comunidad, visita la [Wiki de Project Ascension](https://project-ascension.fandom.com/wiki/Bloodmage) para mantenerte al día con los cambios de equilibrio y las mecánicas.
+</Callout>
+
+</Section>

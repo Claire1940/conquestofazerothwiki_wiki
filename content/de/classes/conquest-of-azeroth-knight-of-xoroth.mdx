@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Ritter von Xoroth: Build- & Spezialisierungs-Guide",
+  description: "Meistere den Ritter von Xoroth in Conquest of Azeroth. Entdecke die besten Builds, Talent-Spezialisierungen und Rotationsprioritäten für Krieg, Höllenfeuer und Trotz.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/7a1b1b/fff?text=Knight+of+Xoroth+Guide",
+  date: "2026-07-04",
+  author: "conquest of azeroth Wiki-Team",
+  keywords: "Ritter von Xoroth, Conquest of Azeroth, Build, Spezialisierung, Guide, Krieg, Höllenfeuer, Trotz"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Primäre Meisterschaft**: Der **Ritter von Xoroth** in Conquest of Azeroth ist ein schwerer, plattenrüstungs-tragender Hybrid-Juggernaut, der auf feurigen Nahkampfschaden, dämonische Beschwörungen und defensive Bollwerke spezialisiert ist.
+- **Einzigartige Ressource**: Erzeugt **Wut** (Rage), um Stapel von **Todesfeuer** (Deathfire) aufzubauen, die verbraucht werden, um verheerende apokalyptische Zauber zu entfesseln.
+- **Vielseitige Rollen**: Kann sich als physischer Schadensverursacher (**Krieg**), als zauberwirkender Nahkampf-Hybrid (**Höllenfeuer**) oder als dämonischer Tank (**Trotz**) spezialisieren.
+- **Nützlichkeits-Werkzeuge**: Verfügt über unglaubliche Hilfsmittel wie Fleischhaken, Ketten, persönliche Portale und ein reitbares Höllenross.
+</Callout>
+
+<Section icon={Swords} title="Überblick über den Ritter von Xoroth">
+
+Der **Ritter von Xoroth** ist ein Bote des Verderbens, ein Höllenritter, der in infernalischen Feuern geschmiedet und in dunkle Plattenrüstung gehüllt wurde [5]. Diese blutgetränkten Krieger verheeren ihre Feinde mit markerschütternden Schlägen, Schattenflammenmagie und apokalyptischen Kräften [5]. Wenn du hochmobile Plattenklassen magst, die fliehende Feinde auf furchteinflößenden Schlachtrossen zur Strecke bringen können, bietet diese Klasse eine perfekte Mischung aus kriegerischem Können und chaotischer Zauberei [5].
+
+**Video-Highlights:**
+- **Todesfeuer-Mechanik**: Baue Todesfeuer-Stapel auf und gib sie aus, um deinen Zauberschaden zu verstärken [5].
+- **Wilde Spezialisierungen**: Ein detaillierter Blick auf die Spielstile Krieg, Höllenfeuer und Trotz [5].
+- **Klassen-Utility**: Präsentation der Fleischhaken, der flammenden Schmiede und des Höllenrosses des Ritters [5].
+
+<YouTubeEmbed videoId="54rKyrsNqWM" title="Neue WoW-Klasse: Ritter von Xoroth - Conquest of Azeroth" />
+
+### Kernmechaniken der Klasse
+
+Die Klasse verlässt sich stark auf die Verwaltung von zwei unterschiedlichen Ressourcen: Wut und Todesfeuer [5]. Du erzeugst Wut durch grundlegende physische Angriffe und das Erleiden von Schaden, und nutzt diese Wut dann, um Stapel von Todesfeuer aufzubauen [5]. Sobald deine Todesfeuer-Stapel hoch sind, entfesselst du sie über mächtige Finishing-Zauber, die direkt mit der Anzahl der verbrauchten Stapel skalieren [5].
+
+| Ressource | Erwerbsmethode | Primäre Nutzung |
+|--- |--- |--- |
+| **Wut** | Auto-Angriffe, Schaden erleiden, spezifische physische Schläge | Wird verbraucht, um Todesfeuer-Stapel zu erzeugen und Basis-Fähigkeiten zu speisen |
+| **Todesfeuer** | Erzeugt durch das Ausgeben von Wut für Kernfähigkeiten der Klasse | Wird verbraucht, um verheerende apokalyptische Finishing-Moves zu wirken |
+
+<Callout type="tip" title="Profi-Tipp">
+Sammle deine Todesfeuer-Stapel immer bis zur maximalen Kapazität, bevor du deine primären Finishing-Zauber wirkst. Dies stellt sicher, dass du feindliche Resistenzen umgehst und dein Burst-Potenzial maximierst [5].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Vergleich der Spezialisierungen & Tier-Bewertungen">
+
+Der Ritter von Xoroth verfügt über drei höchst unterschiedliche Spezialisierungen, die jeweils einen völlig anderen Spielstil bedienen [5]. Ob du dich mit rohen physischen Schlägen durch Fleisch schneiden, Höllenfeuer aus der Ferne regnen lassen oder eine Armee von Wichteln in die Schlacht führen willst – es gibt einen Pfad für dich [5].
+
+<CardGrid cols={3}>
+  <Card title="Krieg-Spez.">
+    - **Physischer Nahkampf-DPS** [5]
+    - Starke Blutungseffekte [5]
+    - Hoher Einzelziel-Burst [5]
+    - Gute Selbsterhaltung [5]
+  </Card>
+  <Card title="Höllenfeuer-Spez.">
+    - **Hybrid Nahkampf/Zauberer** [5]
+    - Feuer- & Schattenzauber [5]
+    - Fernkampf-Initiation [5]
+    - Rüstungsdurchschlag [5]
+  </Card>
+  <Card title="Trotz-Spez.">
+    - **Dämonisches Tanken** [5]
+    - Wichtel-Armeen beschwören [5]
+    - Hohe defensive Schildblocks [5]
+    - Starke Massenkontrolle [5]
+  </Card>
+</CardGrid>
+
+### Leistungsmatrix
+
+| Spezialisierung | Rolle | Primäres Attribut | Kern-Waffensetup | Einzelziel | Flächenschaden (AoE) | Überlebensfähigkeit |
+|--- |--- |--- |--- |--- |--- |--- |
+| **Krieg** | Nahkampf-DPS | Stärke | Zweihandwaffe | Exzellent | Gut | Hoch |
+| **Höllenfeuer** | Hybrid-DPS | Intelligenz / Stärke | Zweihandwaffe | Großartig | Exzellent | Moderat |
+| **Trotz** | Tank | Stärke / Intelligenz | Einhandwaffe & Schild | Moderat | Exzellent | Extrem |
+
+<Callout type="warning" title="Warnung zur Ausrüstungswahl">
+Höllenfeuer-Ritter müssen Zaubermacht- und Intelligenz-Plattenrüstung gegenüber reiner Stärke priorisieren [5]. Ihr primärer Schaden skaliert mit Zaubermacht, was traditionelle Kriegerausrüstung suboptimal macht [5].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt Spezialisierungs-Guides">
+
+Um deine Effizienz als Ritter von Xoroth in der [Conquest of Azeroth Alpha](https://ascension.gg/en/news/conquest-of-azeroth-alpha/332) zu maximieren, folge diesen maßgeschneiderten Entwicklungspfaden für jede Spezialisierung [5].
+
+<Steps>
+  <Step num="1" title="Die Krieg-Spezialisierung: Physischer Schlächter">
+    Konzentriere dich auf rohen physischen Kampf und Blutvergießen [5]. Nutze **Demon Strike**, um triefende Blutungen zu verursachen, und lasse **Hell Burn** folgen, um die Rüstung des Gegners zu durchschlagen [5]. Sobald deine Todesfeuer-Stapel maximiert sind, richte dein Ziel mit **Skull Taker** hin, um es in Stücke zu reißen [5]. Nutze deine Fleischhaken und Ketten, um fliehende Ziele heranzuziehen [5].
+  </Step>
+  <Step num="2" title="Die Höllenfeuer-Spezialisierung: Flammen-Okkultist">
+    Diese Spezialisierung verbindet Nahkampf mit zerstörerischen Feuerzaubern aus der Distanz [5]. Initiiere den Kampf von weitem mit **Seeking Flame** und **Demon Flare** [5]. Sobald du die Distanz überbrückt hast, baue deine Todesfeuer-Stapel auf und entfessle die **Blade of Xoroth**, einen verheerenden Einzelziel-Schlag, der alle feindlichen Immunitäten und Resistenzen durchdringt [5].
+  </Step>
+  <Step num="3" title="Die Trotz-Spezialisierung: Dämonischer Kommandant">
+    Als ultimative Tank-Spezialisierung ist es dein Ziel, mit deinen Schlägen Höllentore aufzureißen und eine Horde von Höllenfeuerwichteln zu beschwören [5]. Nutze diese Wichtel als temporäre Schilde und opfere sie, um deine eigene Rüstung und Gesundheit zu stärken [5]. Ziehe mehrere Gruppen von Gegnern mit Ketten zusammen, spieße sie mit deinem Schild auf und beschwöre Abyssale Höllenbestien als Verbündete, um die Bedrohung zu halten [5].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Synergie-Tipp">
+Wenn du Trotz spielst, behalte immer deine Wichtel-Anzahl im Auge. Das Opfern deiner Wichtel im richtigen Moment gewährt einen massiven defensiven Schild, der dich vor Boss-Mechaniken retten kann [5].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für Ritter von Xoroth Utility">
+
+Über reinen Schaden und Tanken hinaus bietet der Ritter von Xoroth einige der einzigartigsten Utility-Fähigkeiten in der gesamten Conquest of Azeroth Erweiterung [5]. Stelle sicher, dass du diese wesentlichen Fähigkeiten freigeschaltet und gemeistert hast:
+
+<Checklist
+  id="xoroth-utility"
+  title="Wichtige Utility-Meilensteine:"
+  items={[
+    "Höllenross beschwören: Lerne, dein persönliches Klassen-Reittier für schnelles Reisen auf der Karte zu beschwören [5].",
+    "Fleischhaken: Meistere die Kunst, fliehende PvP-Ziele zu greifen und in den Nahkampf zurückzuziehen [5].",
+    "Flammende Schmiede beschwören: Beschwöre überall auf der Welt eine temporäre Schmiede für Schmiedearbeiten unterwegs [5].",
+    "Höllentore: Lerne, Risse in den Dimensionen aufzureißen, um verbündete dämonische Armeen zu rufen [5].",
+    "Seelenentzug: Ernte die Gesundheit gefallener Feinde, um beim Solo-Leveln maximale Ausdauer zu behalten [5]."
+  ]}
+/>
+
+<Callout type="info" title="Welt-Nutzen">
+Die flammende Schmiede ist unglaublich nützlich während langer Dungeon-Runs oder beim Farmen in der offenen Welt. Sie ermöglicht es dir und deinen Gruppenmitgliedern, Ausrüstung zu reparieren und Gegenstände herzustellen, ohne in eine Großstadt zurückkehren zu müssen [5].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Was ist die primäre Ressource für den Ritter von Xoroth in Conquest of Azeroth?",
+    answer: "Die Klasse verwendet ein duales Ressourcensystem. Du erzeugst im Kampf Wut, die dann ausgegeben wird, um Todesfeuer-Stapel aufzubauen. Diese Stapel werden anschließend verbraucht, um mächtige apokalyptische Zauber zu entfesseln."
+  },
+  {
+    question: "Kann sich der Ritter von Xoroth als Dungeon-Tank anmelden?",
+    answer: "Ja, die Trotz-Spezialisierung ist eine vollwertige Tank-Spezialisierung, die Schilde, dämonische Wichtel und Massenkontroll-Ketten nutzt, um Schaden zu mindern und die Bedrohung der Gruppe zu halten."
+  },
+  {
+    question: "Spielt sich die Höllenfeuer-Spezialisierung wie ein Zauberer oder eine Nahkampfklasse?",
+    answer: "Es ist ein Hybrid. Du wirst Fernkampf-Feuerzauber wie Suchende Flamme nutzen, um den Kampf zu initiieren, musst dich aber in Nahkampf-Reichweite begeben, um mit deiner physischen Waffe zuzuschlagen und Ziele mit der Klinge von Xoroth hinzurichten."
+  },
+  {
+    question: "Welche Waffen sind am besten für die Krieg-Spezialisierung?",
+    answer: "Die Krieg-Spezialisierung glänzt beim Führen massiver Zweihandwaffen, da ihre primären physischen Schläge und Blutungen stark mit hohem Waffenschaden skalieren."
+  }
+]} />
+
+</Section>

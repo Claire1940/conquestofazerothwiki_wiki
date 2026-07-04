@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth PvP: Class Rankings & Combat Systems Guide",
+  description: "Master Conquest of Azeroth PvP with our guide on high-risk systems, class rankings, and arena strategies for the Ascension WoW custom expansion.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PvP+Combat+Guide",
+  date: "2026-07-04",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Conquest of Azeroth PvP** features a unique Hybrid Risk system allowing players to toggle between PvE, standard PvP, and High Risk modes.
+- **High Risk Mode** is the ultimate challenge where players drop equipped and inventory items upon death, but earn exclusive Bloodforged gear.
+- **Top Tier Classes** currently favor Pyromancers and Cultists for their high mobility, self-sustain, and aggressive healing-through-damage mechanics.
+- **Arena Options** include 1v1, 2v2, and 3v3 brackets with original maps designed specifically for custom class interactions.
+- **Gearing Strategy** focuses on the Open World in High Risk, where Treasure Hunter buffs allow you to find dungeon-tier loot without entering instances.
+</Callout>
+
+<Section icon={Map} title="Understanding the Hybrid Risk PvP System">
+
+The core of **conquest of azeroth pvp** is built upon a flexible architecture that accommodates various player preferences. Unlike traditional servers that lock you into a specific realm type, this project utilizes a "Hybrid Risk" system. This allows all players to exist in the same world phase while choosing the level of danger they are comfortable with.
+
+| Mode | PvP Interaction | Loot Rules | Special Benefits |
+| :--- | :--- | :--- | :--- |
+| **PvE Mode** | None (Untargetable) | Standard | Full access to grouping and raids |
+| **PvP Mode** | Open World Combat | Standard | Standard honor and prestige gains |
+| **High Risk** | Full Combat (Separate Phase) | **Item Drop on Death** | Access to Bloodforged items and rare mats |
+
+In High Risk PvP, you are classified as a Treasure Hunter. This specific status grants a powerful buff that enables monsters in the open world to drop Bloodforged versions of Dungeon and Raid gear. This means you can effectively gear up for high-level combat entirely through open-world participation, provided you can survive the player-driven threats.
+
+<Callout type="warning" title="High Risk Warning">
+In High Risk mode, slaying a hero allows you to loot a chest containing pieces of their equipped gear and inventory. Always carry backup sets if you intend to venture into contested territories.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="PvP Class Viability and Healer Rankings">
+
+Selecting the right class is the most critical decision for any player looking to dominate in **conquest of azeroth pvp**. With 21 original classes and 69 total specializations, the meta is diverse. Healers, in particular, play a transformative role in group skirmishes and arenas.
+
+**Video Highlights:**
+- Analysis of all 8 primary healing archetypes for competitive play.
+- Why damage-dealing healers like the Pyromancer and Cultist are currently dominating the meta.
+- Breakdown of mobility vs. raw throughput for different arena brackets.
+- Insights into the "unfun" vs. "effective" mechanics of the Sun Cleric and Starcaller.
+
+<YouTubeEmbed videoId="wum8A2L3HWM" title="Conquest of Azeroth HEALER TIERLIST! (Ascension CoA)" />
+
+The current meta emphasizes classes that can contribute to the group's offensive pressure while maintaining health bars. Passive "back-line" healers often struggle against the high-mobility assassins prevalent in the current alpha.
+
+| Class | PvP Tier | Primary Strength | PvP Role |
+| :--- | :--- | :--- | :--- |
+| **Pyromancer** | **S-Tier** | High Mobility / Cheat Death | Aggressive Healer / DPS |
+| **Cultist** | **S-Tier** | Insanity Burst / Smart Heals | Melee Healer / Tank |
+| **Tinker** | **A-Tier** | Turret Zoning / CC Bombs | Support / Healer |
+| **Venomancer** | **A-Tier** | Shapeshifting / HoT Ramping | Sustained Healer |
+| **Chronomancer** | **B-Tier** | Time Rewind / Utility | Support / Utility |
+| **Sun Cleric** | **C-Tier** | High Defense / Hard Casting | Defensive Healer |
+
+<Callout type="tip" title="Professional Insight">
+The Pyromancer's "Phoenix" mechanic is a literal game-changer in PvP. It allows you to transform upon death, continue casting, and revive with full resources, effectively forcing the enemy to kill you twice.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core PvP Class Archetypes">
+
+Beyond healing, the 21 classes are divided into specialized roles that define their impact on the battlefield. Whether you prefer the brute force of a Barbarian or the subtle trickery of a Reaper, understanding your archetype is essential.
+
+<CardGrid cols={3}>
+  <Card title="Physical Assassins">
+    - **Reaper**: Harvests souls and uses health to empower strikes.
+    - **Ranger**: Versatile survivalists with bows and melee traps.
+    - **Witch Hunter**: Uses dual crossbows and silver bolts to purge foes.
+  </Card>
+  <Card title="Elemental Casters">
+    - **Stormbringer**: Lightning mages that build static for massive AoE.
+    - **Runemaster**: Weaves ancient runes to cycle through elemental attunements.
+    - **Necromancer**: Swarms enemies with multiple undead pets and plagues.
+  </Card>
+  <Card title="Heavy Juggernauts">
+    - **Knight of Xoroth**: Hell Knights that ride dark steeds into combat.
+    - **Guardian**: The ultimate shield-bearing tanks with high CC.
+    - **Primalist**: Channels the earth to become a defensive bastion.
+  </Card>
+</CardGrid>
+
+Each of these classes utilizes unique resources. For example, the **Felsworn** uses Felfury Charges and a Demon Form transformation, making them excellent for burst windows in 2v2 arenas. Conversely, the **Barbarian** relies on Unbridled Rage, becoming more dangerous as the fight lasts longer.
+
+| Resource System | Classes | PvP Impact |
+| :--- | :--- | :--- |
+| **Insanity** | Cultist | High risk of death if mismanaged, but massive damage. |
+| **Solar Power** | Sun Cleric | Requires buildup; predictable but powerful bursts. |
+| **Static** | Stormbringer | Increases proc chances; rewards staying in combat. |
+| **Deathfire** | Knight of Xoroth | Used for apocalyptic finishing moves. |
+
+<Callout type="success" title="Strategy Tip">
+When playing a Runemaster, master the 8-second Attunement cycle. Timing your burst with the correct element (Fire for damage, Frost for CC) is the difference between a win and a loss in 1v1 scenarios.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Gearing for PvP: The Bloodforged Path">
+
+Gearing in **conquest of azeroth pvp** differs significantly from retail WoW. While you can run dungeons and raids for standard gear, the most efficient path for a dedicated PvP player is the High Risk open world.
+
+<Steps>
+  <Step num="1" title="Enable High Risk Mode">
+    Switch to the High Risk phase via the realm selector. Ensure you have a basic set of gear that you are willing to lose.
+  </Step>
+  <Step num="2" title="Activate Treasure Hunter">
+    Once in the High Risk phase, you receive the Treasure Hunter buff. This increases your luck and enables unique drops from all world mobs.
+  </Step>
+  <Step num="3" title="Farm Contested Zones">
+    Target high-density areas in Kalimdor or the Eastern Kingdoms. Slay monsters to find **Bloodforged gear**, which features upgraded stats compared to standard versions.
+  </Step>
+  <Step num="4" title="Extract and Trade">
+    Bloodforged gear is non-soulbound. If you find a piece that doesn't fit your class, you can trade it on the Auction House for gold to buy the pieces you need.
+  </Step>
+</Steps>
+
+Bloodforged items are the pinnacle of PvP equipment. They often bridge the gap between casual players and raid-tier veterans, allowing skill and risk-taking to dictate power levels rather than just time spent in instances.
+
+<Callout type="warning" title="Anti-Zerg Mechanics">
+High Risk zones often have mechanics to discourage massive groups from camping single players. Stay mobile and avoid staying in one sub-zone for too long to minimize your visibility on the map.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Arena and Battleground Preparation">
+
+For those who prefer structured combat, the 1v1, 2v2, and 3v3 arenas offer a more controlled environment. These matches take place on original maps specifically designed to handle the verticality and mobility of the new class kits.
+
+<Checklist
+  id="pvp-prep"
+  title="Pre-Match Checklist:"
+  items={[
+    "Verify all 69 spec talents are correctly allocated",
+    "Stock up on Witch Doctor elixirs and potions",
+    "Ensure your primary stat (Str/Agi/Int) is prioritized in gear",
+    "Set up macros for class-specific mechanics like Chronomancer's Rewind",
+    "Check your gear durability before entering the queue"
+  ]}
+/>
+
+The Manastorm is another unique feature for PvP enthusiasts. While primarily PvE, the skills learned in the 4000+ levels of the Manastorm translate directly to the mechanical precision required for high-level arena play.
+
+| Arena Bracket | Best Archetypes | Key Strategy |
+| :--- | :--- | :--- |
+| **1v1** | Reaper, Felsworn, Duelist | Out-sustain and resource exhaustion. |
+| **2v2** | Pyromancer + Guardian | Protect the caster while they ramp damage. |
+| **3v3** | Cultist + Stormbringer + Tinker | Heavy AoE pressure and zone control. |
+
+<Callout type="info" title="Map Knowledge">
+The original arena maps in Conquest of Azeroth feature interactive elements. Use the terrain to break line-of-sight against Pyromancers, as their frontal cone heals and damage require a direct path.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is conquest of azeroth pvp balanced for all 21 classes?",
+    answer: "Balance is an ongoing process during the Alpha phase. While some classes like the Pyromancer currently feel stronger, the dedicated development team frequently releases patches to adjust scaling and mechanics based on player feedback."
+  },
+  {
+    question: "Can I lose my gear in standard PvP mode?",
+    answer: "No. Item loss is exclusive to the High Risk PvP mode. In standard PvP mode, you only lose durability and gain/lose honor points, similar to a traditional PvP server."
+  },
+  {
+    question: "How do I get Bloodforged gear without entering High Risk?",
+    answer: "Since Bloodforged items are non-soulbound, you can purchase them from other players on the Auction House. This allows PvE-focused players to acquire high-tier gear using gold earned through other activities."
+  },
+  {
+    question: "What is the best primary stat for a hybrid class like the Starcaller?",
+    answer: "For PvP, Starcallers usually benefit most from Intellect, as it powers both their healing and their astral damage spells. However, some tank-oriented builds may prioritize Strength for Plate armor efficiency."
+  }
+]} />
+
+</Section>

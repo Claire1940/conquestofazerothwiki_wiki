@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Star } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Templer: Klassenguide für Mechaniken & Spezialisierungen 2026",
+  description: "Meistere die Templer-Klasse in Conquest of Azeroth mit unserem Guide zu Combo-Breakern, heiligen Kampfkünsten und Spezialisierungs-Builds für Tanks und DPS.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/000?text=Templar+Class+Guide",
+  date: "2026-07-04",
+  author: "Conquest of Azeroth Wiki-Team",
+  keywords: "Templer, Conquest of Azeroth, Klassenguide, Spezialisierung, Tank, DPS, Combo-Breaker"
+}
+
+<Callout type="info" title="Schnellzugriff-Guide">
+- **Combo-Breaker-System**: Der **Conquest of Azeroth Templer** verlässt sich auf bestimmte Fähigkeiten-Reihenfolgen, um mächtige Finishing-Moves auszulösen.
+- **Vielseitige Rollen**: Wähle zwischen dem **Eidwahrer** (Tank), dem **Eiferer** (Beidhändiger DPS) oder dem **Kreuzfahrer** (Zweihand-Burst-DPS).
+- **Heilige Mobilität**: Zu den einzigartigen Klassenmerkmalen gehören **Doppelsprünge** und **Wasserwandeln** durch heilige Ermächtigung.
+- **Primärattribute**: Die meisten Builds konzentrieren sich auf **Beweglichkeit** und tragen **Schwere Rüstung** für eine ausgewogene Balance aus Geschwindigkeit und Schutz.
+- **Völker-Auswahl**: Verfügbar für Menschen und Zwerge (Allianz) sowie Untote und Trolle (Horde).
+</Callout>
+
+<Section icon={Swords} title="Klassenübersicht: Der heilige Kampfkünstler">
+
+Der **Conquest of Azeroth Templer** ist ein Meister des bewaffneten und unbewaffneten Nahkampfs – ein gottesfürchtiger Krieger, der tödliche Effizienz mit göttlichem Glauben verbindet. Im Gegensatz zu traditionellen Paladinen, die auf schwere Plattenrüstung und langsame Schläge setzen, ist der Templer ein agiler Plänkler. Sie verweben Kampfkunst und Schwertkampf miteinander und nutzen Energie, um verheerende Combo-Angriffe zu entfesseln, die entweder Feinde zerschmettern oder Verbündete stärken. Egal, ob du mit bloßen Händen oder einer Klinge kämpfst, der Templer ist ein unübertroffener Frontkämpfer, der in jede Gruppenkonstellation passt.
+
+**Video-Highlights:**
+- **Kampfkunst-Fähigkeiten**: Detaillierter Blick auf die waffenlosen und klingenbasierten Kampfstile des Templers.
+- **Combo-Mechaniken**: Erklärung, wie Energie bestimmte Fähigkeiten-Reihenfolgen antreibt.
+- **Spezialisierungen**: Übersicht über die Pfade des Eiferers, Kreuzfahrers und Eidwahrers.
+- **Nützlichkeitszauber**: Demonstration von Doppelsprüngen und heiligen Stärkungszaubern.
+
+<YouTubeEmbed videoId="zPLCEhx0tiI" title="New WoW Class: Templar - Conquest of Azeroth" />
+
+Der Templer nutzt ein einzigartiges Ressourcensystem, bei dem Fähigkeiten in einer bestimmten Reihenfolge eingesetzt werden müssen, um sogenannte „Combo-Breaker“ auszuführen. Diese Finisher verändern sich je nach Abfolge, was im Eifer des Gefechts eine hohe Anpassungsfähigkeit ermöglicht. Du kannst von einer defensiven Haltung zu einem gewaltigen AOE-Angriff wechseln, indem du einfach deine Rotation anpasst.
+
+| Feature | Beschreibung |
+| --- | --- |
+| **Primäre Ressource** | Energie (wird für Kampfkunst- und heilige Fähigkeiten genutzt) |
+| **Kampfstil** | Nahkampf-Plänkler / Heiliger Moloch |
+| **Rüstungsklasse** | Schwere Rüstung (Mail) |
+| **Hauptattribut** | Beweglichkeit / Stärke (abhängig von der Spezialisierung) |
+| **Einzigartiges Merkmal** | Doppelsprung und Wasserwandeln |
+
+<Callout type="tip" title="Beweglichkeit ist der Schlüssel">
+Obwohl sie heilige Krieger sind, solltest du sie nicht mit reinen Stärke-Klassen verwechseln. Die meisten Fähigkeiten des Templers skalieren hervorragend mit Beweglichkeit, was sowohl die kritische Trefferchance als auch das Ausweichen erhöht.
+</Callout>
+
+</Section>
+
+<Section icon={Star} title="Spezialisierungen und Spielstile">
+
+Der **Conquest of Azeroth Templer** bietet drei verschiedene Pfade, die es Spielern ermöglichen, die Rolle eines widerstandsfähigen Tanks oder eines schadensstarken Angreifers einzunehmen. Jede Spezialisierung verändert grundlegend die Art und Weise, wie das Combo-Breaker-System genutzt wird.
+
+<CardGrid cols={3}>
+  <Card title="Eidwahrer (Tank)">
+    - **Defensivmeister**: Konzentriert sich darauf, tödliche Schläge abzulenken und zu parieren.
+    - **Gruppenunterstützung**: Wandelt erlittenen Schaden in Heilung für die Gruppe um.
+    - **Heiliger Schutz**: Nutzt Segen, um die Verteidigung von Verbündeten zu stärken.
+  </Card>
+  <Card title="Eiferer (Beidhändiger DPS)">
+    - **Schnelllebig**: Führt zwei Einhandwaffen für rasante Angriffe.
+    - **Combo-fokussiert**: Baut schnell Combopunkte auf, um häufig Finisher einzusetzen.
+    - **Beweglichkeits-Skalierung**: Hohe kritische Trefferchance und Wendigkeit auf dem Schlachtfeld.
+  </Card>
+  <Card title="Kreuzfahrer (Zweihand-DPS)">
+    - **Schwerer Angreifer**: Nutzt gewaltige Zweihandklingen für massiven Burst-Schaden.
+    - **Heilige Macht**: Tauscht Geschwindigkeit gegen rohe Stärke und lichtdurchflutete Schläge.
+    - **AOE-Wirbelsturm**: Spezialisiert auf weitreichende heilige Schadensangriffe.
+  </Card>
+</CardGrid>
+
+### Vergleichstabelle der Spezialisierungen
+
+| Spezialisierung | Rolle | Waffenpräferenz | Schlüsselmechanik |
+| --- | --- | --- | --- |
+| **Eidwahrer** | Tank | Schild + 1H | Umwandlung von Schaden in Heilung |
+| **Eiferer** | Nahkampf-DPS | Beidhändig (1H) | Hochfrequente Combo-Breaker |
+| **Kreuzfahrer** | Nahkampf-DPS | 2H-Schwert/Streitkolben | Langsame, gewaltige heilige/physische Bursts |
+
+<Callout type="success" title="Vielseitigkeit der Rollen">
+Der Templer ist eine der wenigen Klassen, die nahtlos von einem ausweichstarken Tank zu einem Burst-DPS wechseln können, ohne die Kernidentität der Klasse zu verlieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Meisterung des Combo-Breaker-Systems">
+
+Das Herzstück des Gameplays des **Conquest of Azeroth Templers** ist der Combo-Breaker. Im Gegensatz zu Standard-Rotationen, bei denen du Tasten nach dem Abklingen drückst, erfordert der Templer Präzision. Der Einsatz von Fähigkeiten in der richtigen Reihenfolge schaltet verstärkte Effekte frei, die das Blatt in einem Schlachtzug oder PvP-Kampf wenden können.
+
+<Steps>
+  <Step num="1" title="Energie aufbauen">
+    Beginne den Kampf mit einfachen Kampfkunst-Angriffen, um deine Energiereserven aufzubauen.
+  </Step>
+  <Step num="2" title="Sequenz einleiten">
+    Nutze deine sequenzeinleitenden Fähigkeiten (z. B. bestimmte Schläge), um die Combo vorzubereiten.
+  </Step>
+  <Step num="3" title="Finisher wählen">
+    Verwende je nach Bedarf (AOE vs. Einzelziel) die letzte Fähigkeit in der Sequenz, um einen Combo-Breaker auszulösen.
+  </Step>
+  <Step num="4" title="Stärkungszauber aufrechterhalten">
+    Viele Finisher gewähren temporäre Buffs wie erhöhtes Ausweichen oder heiligen Schaden. Sorge dafür, dass diese eine hohe Laufzeit haben.
+  </Step>
+</Steps>
+
+| Combo-Typ | Ziel der Sequenz | Resultierender Effekt |
+| --- | --- | --- |
+| **Vorhut-Schlag** | AOE-Schaden | Gewaltige heilige Explosion um den Templer herum |
+| **Defensiver Fluss** | Überlebensfähigkeit | Erhöhtes Parieren und Ausweichen für 10 Sekunden |
+| **Gerechter Zorn** | Einzelziel | Erhöhter kritischer Schaden für die nächsten 3 Angriffe |
+| **Heilungswelle** | Utility | Kleine gruppenweite Heilung basierend auf dem verursachten Schaden |
+
+<Callout type="warning" title="Empfindlichkeit der Reihenfolge">
+Wenn du einen Schritt in deiner Combo-Sequenz verfehlst, wird der Combo-Breaker nicht ausgelöst, was zu einem deutlich geringeren Schaden oder weniger Bedrohungserzeugung führt. Übe deinen „Rhythmus“ an Trainingspuppen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Völkerauswahl und Einstieg">
+
+Die Wahl deines Volkes ist der erste Schritt auf deiner Reise als **Conquest of Azeroth Templer**. Während die Klassenmechaniken gleich bleiben, können Volksfähigkeiten in bestimmten Rollen einen kleinen Vorteil verschaffen.
+
+| Fraktion | Volk | Empfohlene Spezialisierung | Bemerkenswerter Vorteil |
+| --- | --- | --- | --- |
+| **Allianz** | **Mensch** | Jede | Erhöhte Willenskraft und Schwert-Spezialisierung |
+| **Allianz** | **Zwerg** | Eidwahrer | Steingestalt für zusätzliche Zähigkeit beim Tanken |
+| **Horde** | **Untoter** | Eiferer | Wille der Verlassenen für Mobilität im PvP |
+| **Horde** | **Troll** | Kreuzfahrer | Berserker für schnellere Angriffsgeschwindigkeit mit 2H-Waffen |
+
+### Essenzielle Templer-Utility
+Abseits des Kampfes besitzt der Templer mehrere praktische Zauber, die das Erkunden der Welt und das Leveln erheblich erleichtern:
+- **Doppelsprung**: Erreiche hohe Vorsprünge und überspringe schwieriges Terrain.
+- **Wasserwandeln**: Überquere Seen und Ozeane ohne Reittiere.
+- **Wiederbelebung**: Bring gefallene Verbündete sofort wieder zurück in den Kampf.
+- **Lichtdurchflutung**: Erhöht das Bewegungstempo und die Primärattribute der Gruppe.
+
+<Callout type="info" title="Erkundungs-Profi">
+Nutze den Doppelsprung in Kombination mit dem Wasserwandeln, um die erweiterten Karten von Conquest of Azeroth weitaus schneller als andere Klassen zu durchqueren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ausrüstung und Progressionsziele">
+
+Um deine Effizienz als **Conquest of Azeroth Templer** zu maximieren, musst du dich auf Ausrüstung konzentrieren, die deine spezifische Spezialisierung unterstützt. Da die Klasse schwere Rüstung (Mail) nutzt, wirst du oft mit Jägern oder Schamanen um Beute konkurrieren, aber deine Attributspriorität ist einzigartig.
+
+<Checklist
+  id="templar-progression"
+  title="Ausrüstungs-Meilensteine des Templers:"
+  items={[
+    "Erwirb ein vollständiges Set aus beweglichkeitsbasierter schwerer Rüstung",
+    "Besorge dir zwei schnelle Einhandwaffen (Eiferer) oder eine schadensstarke Zweihandklinge (Kreuzfahrer)",
+    "Schalte die Tier-1-Combo-Breaker-Talente im Heldenarchitekten frei",
+    "Erreiche das Trefferwert-Cap (6 % für gelbe Angriffe), um sicherzustellen, dass Combos nie fehlschlagen",
+    "Meistere die 'Heiliger Moloch'-Rotation für das Endspiel im Raid"
+  ]}
+/>
+
+### Attributspriorität nach Rolle
+
+| Rolle | Priorität 1 | Priorität 2 | Priorität 3 |
+| --- | --- | --- | --- |
+| **Tank (Eidwahrer)** | Ausdauer | Beweglichkeit (Ausweichen) | Parierwertung |
+| **DPS (Eiferer)** | Beweglichkeit | Tempo | Kritischer Trefferwert |
+| **DPS (Kreuzfahrer)** | Stärke/Beweglichkeit | Angriffskraft | Rüstungsdurchschlag |
+
+<Callout type="tip" title="Die Waffenwahl ist entscheidend">
+Für Kreuzfahrer gilt: Je langsamer die Zweihandwaffe, desto besser. Deine Combo-Breaker verursachen Schaden basierend auf einem Prozentsatz des Waffenschadens, was langsame, schwerfällige Klingen verheerend macht.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Ist der Conquest of Azeroth Templer besser im Tanken oder als DPS?",
+    answer: "Er glänzt in beiden Rollen. Der Eidwahrer ist ein erstklassiger 'Vermeidungs-Tank', der der Gruppe großen Nutzen bringt, während der Eiferer derzeit zu den stärksten Nahkampf-DPS-Klassen mit konstantem Schaden im Meta gehört."
+  },
+  {
+    question: "Nutzt der Templer Mana oder Energie?",
+    answer: "Der Templer nutzt primär Energie für seine Kampfkunst-Fähigkeiten, obwohl einige hochstufige heilige Zauber je nach gewählten Talenten auch geringe Mengen Mana kosten können."
+  },
+  {
+    question: "Kann ich einen Templer als Heiler spielen?",
+    answer: "Obwohl der Templer über leichte Heilungen verfügt und als Eidwahrer Schaden in Gruppenheilung umwandeln kann, ist er kein reiner Vollheiler wie ein Priester oder Druide."
+  },
+  {
+    question: "Was ist das wichtigste Attribut für einen Eiferer-Templer?",
+    answer: "Beweglichkeit ist das wichtigste Attribut für einen Eiferer, da es deine Angriffskraft, deine kritische Trefferchance und dein Ausweichen erhöht – all das ist essenziell für den schnellen Kampfstil mit zwei Waffen."
+  }
+]} />
+
+</Section>

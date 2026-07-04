@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ranger de Conquest of Azeroth: Mejores Especializaciones y Builds de Nivelación",
+  description: "Domina la clase Ranger de Conquest of Azeroth. Explora las mejores builds, configuraciones de habilidades y las mejores especializaciones como Arquero, Bandido y Forestal.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2b3a42/fff?text=Ranger+Class+Guide",
+  date: "2026-07-04",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "ranger, builds, especializaciones, nivelación, conquest of azeroth, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Clase Principal**: El **ranger de conquest of azeroth** es un atacante altamente móvil basado en la agilidad con opciones excepcionales de combate híbrido [DCKG674yIZ0].
+- **Diseño sin Mascotas**: A diferencia de los cazadores tradicionales de WoW retail, esta clase personalizada funciona completamente sin mascotas, enfocándose totalmente en la habilidad personal [DCKG674yIZ0].
+- **Atributo Principal**: La Agilidad es tu estadística principal, escalando directamente tanto tu poder de ataque a distancia como tu celeridad a distancia [DCKG674yIZ0].
+- **Mejor Especialización**: Elige **Arquero** para DPS puro a distancia, **Bandido** para configuraciones de sangrado/veneno cuerpo a cuerpo, o **Forestal** para un juego híbrido dinámico [Project-Ascension Wiki].
+</Callout>
+
+<Section icon={Map} title="Introducción al Ranger de Conquest of Azeroth">
+
+El **ranger de conquest of azeroth** destaca como una de las clases más dinámicas y atractivas en el repertorio personalizado de 21 clases del reino Conquest of Azeroth en Project Ascension [DCKG674yIZ0]. Diseñado como un personaje basado puramente en la Agilidad, el Ranger ofrece un estilo de juego de alta movilidad que cierra perfectamente la brecha entre la precisión de largo alcance y las veloces escaramuzas cuerpo a cuerpo [DCKG674yIZ0]. 
+
+Un rasgo definitorio de esta clase es su diseño sin mascotas [DCKG674yIZ0]. Si disfrutas de la estética de un cazador pero no te gusta la microgestión de la IA de las mascotas, el Ranger está hecho específicamente para ti [DCKG674yIZ0]. Presenta un sistema único de puntos de combo llamado **Puntos de Arquería**, que se generan en ti mismo en lugar de en tu objetivo, lo que te permite llevar tu impulso ofensivo de un enemigo directamente al siguiente [DCKG674yIZ0].
+
+**Puntos destacados del video:**
+- **Resumen de Nivel 30**: Una inmersión profunda en las mecánicas principales, rasgos pasivos y habilidades activas del Ranger [DCKG674yIZ0].
+- **Movilidad y Utilidad**: Demostración de cómo funcionan Salto del Rastreador y Señuelo (sigilo) en campos de batalla en tiempo real [DCKG674yIZ0].
+- **Muestra de PvP**: Jugabilidad en vivo que demuestra el alto potencial de ráfaga del Ranger y su naturaleza defensiva frágil en PvP [DCKG674yIZ0].
+
+<YouTubeEmbed videoId="DCKG674yIZ0" title="RANGER A NIVEL 30 | Conquest of Azeroth | WoW con 21 Clases Personalizadas" />
+
+| Característica | Detalle | Impacto en el juego |
+| --- | --- | --- |
+| **Estadística Principal** | Agilidad | Aumenta el poder de ataque a distancia en un 30% y la celeridad a distancia en un 10% [DCKG674yIZ0]. |
+| **Tipo de Armadura** | Cuero | Proporciona una mitigación física decente manteniendo la movilidad alta [Project-Ascension Wiki]. |
+| **Sistema de Combo** | Puntos de Arquería | Se generan en el jugador, permitiendo que los puntos de combo persistan entre objetivos [DCKG674yIZ0]. |
+| **Fantasía de Clase** | Cazador sin mascota | Elimina la microgestión de mascotas en favor de habilidades puras de arquería y espada [DCKG674yIZ0]. |
+
+<Callout type="tip" title="Escalado de Agilidad">
+Concéntrate totalmente en equipo de Agilidad durante tu progresión inicial. La pasiva **Enfoque del Ranger** convierte tu Agilidad directamente tanto en poder bruto como en velocidad de ataque, lo que la hace muy superior a las estadísticas de Poder de Ataque puro [DCKG674yIZ0].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Especializaciones y Estilos de Juego del Ranger">
+
+A medida que progreses con tu **ranger de conquest of azeroth**, tendrás la oportunidad de especializarte en una de tres sendas distintas [Project-Ascension Wiki]. Cada especialización altera tu enfoque mecánico, transformándote de un francotirador de retaguardia a un letal asesino sigiloso o un vanguardia híbrido de apoyo [Project-Ascension Wiki].
+
+<CardGrid cols={3}>
+  <Card title="Arquero (DPS a Distancia)">
+    - **Enfoque**: Disparos rápidos y combos de arquería devastadores [Project-Ascension Wiki]
+    - **Estilo de juego**: Mantente en la retaguardia, lanzando daño de un solo objetivo y de área [Project-Ascension Wiki]
+    - **Característica clave**: Consume Puntos de Arquería para remates de ráfaga masivos [DCKG674yIZ0, Project-Ascension Wiki]
+  </Card>
+  <Card title="Bandido (DPS Cuerpo a Cuerpo)">
+    - **Enfoque**: Combate de corto alcance, sangrados y venenos [Project-Ascension Wiki]
+    - **Estilo de juego**: Alta probabilidad de parada y control de masas para dominar objetivos individuales [Project-Ascension Wiki]
+    - **Característica clave**: Destaca desmantelando enemigos aislados en rango cuerpo a cuerpo [Project-Ascension Wiki]
+  </Card>
+  <Card title="Forestal (Utilidad Híbrida)">
+    - **Enfoque**: Combate dinámico con doble empuñadura y arquería [Project-Ascension Wiki]
+    - **Estilo de juego**: Daño equilibrado mientras apoya al grupo con cuernos de batalla [DCKG674yIZ0, Project-Ascension Wiki]
+    - **Característica clave**: Proporciona beneficios ofensivos masivos a todo el grupo [DCKG674yIZ0, Project-Ascension Wiki]
+  </Card>
+</CardGrid>
+
+| Especialización | Rango de Combate | Mecánicas Principales | Rol de Grupo |
+| --- | --- | --- | --- |
+| **Arquero** | Distancia (5-45 yardas) | Puntos de Arquería, Disparo Perforador de Cráneos [DCKG674yIZ0, Project-Ascension Wiki] | DPS puro a distancia [Project-Ascension Wiki] |
+| **Bandido** | Cuerpo a cuerpo (0-5 yardas) | Sangrados, Venenos, Parada alta [Project-Ascension Wiki] | DPS cuerpo a cuerpo / Duelista [Project-Ascension Wiki] |
+| **Forestal** | Híbrido (Cualquier rango) | Buffs de Cuerno de Guerra, Armas Dobles [DCKG674yIZ0, Project-Ascension Wiki] | DPS de utilidad / Soporte [Project-Ascension Wiki] |
+
+<Callout type="warning" title="Advertencia de Fragilidad">
+Los Rangers carecen de habilidades nativas de autocuración [DCKG674yIZ0]. Si eliges las sendas de Bandido o Forestal, asegúrate de llevar suficientes consumibles, vendas de primeros auxilios o utiliza habilidades raciales como Canibalizar para recuperar salud entre combates [DCKG674yIZ0].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades Principales y Desglose de Capacidades">
+
+El conjunto de herramientas del Ranger se divide en arquería a distancia, ataques cuerpo a cuerpo y habilidades de utilidad que permiten un excelente kiting y control de masas [DCKG674yIZ0]. Entender cómo interactúan estas habilidades es clave para maximizar tu rotación de DPS [DCKG674yIZ0].
+
+### Habilidades de Arquería a Distancia
+*   **Disparo Rápido**: Tu generador principal. Genera 1 Punto de Arquería por lanzamiento con un tiempo de casteo insignificante [DCKG674yIZ0].
+*   **Disparo Perforador de Cráneos**: Tu rematador principal. Consume todos los Puntos de Arquería, aumentando el daño base en un 60% por punto consumido [DCKG674yIZ0].
+*   **Disparo Cortacuellos**: Una interrupción de lanzamiento instantáneo con un rango de 8 a 40 yardas [DCKG674yIZ0]. Evita el lanzamiento de hechizos durante 3 segundos y reduce la celeridad de hechizos del objetivo en un 30% [DCKG674yIZ0].
+*   **Lluvia de Flechas**: Una habilidad de área canalizada que se puede lanzar mientras te mueves, aunque reduce tu velocidad de movimiento en un 80% durante la canalización [DCKG674yIZ0].
+
+### Habilidades Cuerpo a Cuerpo y Utilidad
+*   **Golpe Salvaje**: Un ataque cuerpo a cuerpo instantáneo que aumenta tu velocidad de ataque cuerpo a cuerpo en un 8% durante 20 segundos, acumulándose hasta 4 veces (32% de bonificación total) [DCKG674yIZ0].
+*   **Salto del Rastreador**: Un salto dirigido al suelo con un tiempo de reutilización de 5 segundos que aumenta tu velocidad de movimiento en un 20% durante 3 segundos [DCKG674yIZ0]. Excelente para kitear oponentes cuerpo a cuerpo [DCKG674yIZ0].
+*   **Señuelo (Lure)**: Una habilidad de sigilo de utilidad con un tiempo de reutilización de 10 segundos [DCKG674yIZ0]. No se puede usar para escapar del combate como el Esfumarse de un Pícaro, pero te permite iniciar peleas desde el sigilo a velocidad de movimiento normal [DCKG674yIZ0].
+*   **Cuerno de Guerra**: Un poderoso tiempo de reutilización de 1 minuto que aumenta el poder de ataque de los miembros de tu grupo y banda en un 25% y la probabilidad de golpe en un 40% durante 15 segundos [DCKG674yIZ0].
+
+| Nombre de la Habilidad | Coste de Recurso | Reutilización | Efecto Principal |
+| --- | --- | --- | --- |
+| **Disparo Rápido** | 20 Enfoque | Ninguno | Inflige daño de arma; genera 1 Punto de Arquería [DCKG674yIZ0]. |
+| **Perforador de Cráneos** | 20 Enfoque | 2.9 Segundos | Consume Puntos de Arquería para hasta +300% de daño extra [DCKG674yIZ0]. |
+| **Salto del Rastreador** | Ninguno | 5.0 Segundos | Salta a la ubicación objetivo; otorga 20% de velocidad [DCKG674yIZ0]. |
+| **Cuerno de Guerra** | Ninguno | 1.0 Minuto | Otorga +25% de Poder de Ataque y +40% de Golpe al grupo [DCKG674yIZ0]. |
+
+<Callout type="success" title="Ventaja de Sigilo">
+A diferencia de las mecánicas de sigilo estándar en muchos MMORPG, la habilidad **Señuelo** del Ranger no penaliza tu velocidad de movimiento [DCKG674yIZ0]. Úsala para atravesar rápidamente áreas peligrosas o posicionarte perfectamente para una emboscada en PvP [DCKG674yIZ0].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotación de Nivelación Paso a Paso">
+
+Para nivelar tu Ranger de manera eficiente hasta el nivel 30 y más allá, sigue este ciclo de combate optimizado para mantener una alta recuperación de Enfoque y maximizar tu producción de Puntos de Arquería [DCKG674yIZ0].
+
+<Steps>
+  <Step num="1" title="Iniciar desde el Sigilo">
+    Activa **Señuelo** antes de enfrentarte a un enemigo [DCKG674yIZ0]. Posiciónate al rango máximo (alrededor de 40 yardas) para obtener el beneficio completo de tus disparos iniciales [DCKG674yIZ0].
+  </Step>
+  <Step num="2" title="Aplicar Buffs de Grupo">
+    Toca tu **Cuerno de Guerra** para aumentar instantáneamente tu daño físico y tu índice de golpe antes de realizar tu primer disparo [DCKG674yIZ0].
+  </Step>
+  <Step num="3" title="Generar Puntos de Arquería">
+    Usa repetidamente **Disparo Rápido** para acumular hasta 5 Puntos de Arquería [DCKG674yIZ0]. Usa **Disparo Cortacuellos** al instante si el objetivo comienza a lanzar un hechizo [DCKG674yIZ0].
+  </Step>
+  <Step num="4" title="Desatar el Rematador">
+    Dispara **Disparo Perforador de Cráneos** con 5 Puntos de Arquería para ejecutar al objetivo con un daño físico de ráfaga masivo [DCKG674yIZ0].
+  </Step>
+  <Step num="5" title="Kitear o Transición a Cuerpo a Cuerpo">
+    Si el enemigo sobrevive y acorta la distancia, usa **Salto del Rastreador** para saltar hacia atrás y restablecer tu distancia [DCKG674yIZ0]. Alternativamente, cambia a cuerpo a cuerpo y acumula **Golpe Salvaje** para acabar con ellos [DCKG674yIZ0].
+  </Step>
+</Steps>
+
+<Callout type="info" title="Persistencia de Puntos de Combo">
+Recuerda que tus Puntos de Arquería se almacenan en tu personaje, no en tu objetivo [DCKG674yIZ0]. Si un enemigo muere mientras tienes 5 puntos, no los desperdicies; atrae al siguiente enemigo y abre inmediatamente con un **Disparo Perforador de Cráneos** completamente cargado [DCKG674yIZ0].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos del Ranger y Lista de Verificación de Progresión">
+
+Sigue el desarrollo de tu personaje a medida que avanzas por el contenido estacional de Conquest of Azeroth con esta lista de verificación [Project-Ascension Wiki].
+
+<Checklist
+  id="ranger-progression"
+  title="Hitos del Personaje Ranger:"
+  items={[
+    "Alcanzar el Nivel 30 para desbloquear la pasiva de Duelo y la utilidad de desarme [DCKG674yIZ0]",
+    "Adquirir un arma a distancia de alto DPS (arco, ballesta o arma de fuego) para escalar los disparos físicos [DCKG674yIZ0]",
+    "Desbloquear tu Especialización elegida (Arquero, Bandido o Forestal) [Project-Ascension Wiki]",
+    "Obtener un conjunto completo de armadura de cuero pesada en Agilidad para maximizar el Enfoque del Ranger [DCKG674yIZ0, Project-Ascension Wiki]",
+    "Dominar las mecánicas de apuntado al suelo de Salto del Rastreador para un kiting fluido en PvP [DCKG674yIZ0]"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar armas de fuego como Ranger en Conquest of Azeroth, o estoy limitado a los arcos?",
+    answer: "Absolutamente puedes usar armas de fuego. Aunque el árbol de habilidades principal se llama Arquería, todas las habilidades principales a distancia funcionan perfectamente con cualquier arma a distancia, incluyendo rifles y ballestas."
+  },
+  {
+    question: "¿Tiene el Ranger una mascota como el Cazador de WoW retail?",
+    answer: "No. El Ranger en Conquest of Azeroth está diseñado completamente como una clase sin mascotas, confiando en su lugar en la movilidad personal, el sigilo y las habilidades físicas con armas."
+  },
+  {
+    question: "¿Cómo funcionan los Puntos de Arquería en comparación con los puntos de combo del Pícaro?",
+    answer: "Los puntos de combo del Pícaro se generan directamente en el objetivo y se pierden si este muere. Los Puntos de Arquería del Ranger se generan en tu propio personaje, lo que significa que puedes llevarlos contigo hacia tu próximo objetivo."
+  },
+  {
+    question: "¿Cuál es la mejor estadística para priorizar en una build de Ranger?",
+    answer: "La Agilidad es tu prioridad absoluta. Gracias a la pasiva Enfoque del Ranger, la Agilidad escala directamente tanto tu poder de ataque a distancia como tu celeridad a distancia."
+  }
+]} />
+
+</Section>

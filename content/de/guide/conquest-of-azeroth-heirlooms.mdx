@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Conquest of Azeroth Erbstücke: 2026 Fortschritts- & Speed-Leveling-Guide",
+  description: "Maximieren Sie Ihre Level-Effizienz in Conquest of Azeroth. Entdecken Sie die Erbstück-Updates 2026, Waffen-Token, Kosten und Speed-Leveling-Strategien.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Conquest+of+Azeroth+Heirlooms",
+  date: "2026-07-04",
+  author: "conquest of azeroth Wiki-Team",
+  keywords: "Erbstücke, Conquest of Azeroth, Leveling Guide, Project Ascension, Speed Leveling, WoW Erbstücke"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Conquest of Azeroth Erbstücke**: Accountgebundene Gegenstände, die dynamisch mit Ihrem Level skalieren und bis zu **+10% EP-Bonus pro Rüstungsteil** sowie **+20% EP auf Zweihandwaffen** gewähren [2].
+- **S9-Update**: Das alte zweistufige Upgrade-System wurde entfernt; alle Erbstücke sind zum Zeitpunkt des Kaufs bereits vollständig aufgewertet [1].
+- **Vollständige Slot-Abdeckung**: Schilde, Nebenhand-Gegenstände, Relikte und Fernkampfwaffen sind jetzt vollständig abgedeckt, sodass kein Ausrüstungsplatz leer bleibt [1].
+- **Trial-Kompatibilität**: Erbstücke können in den Trials Ironman, Hardcore, Nightmare und Prestige verwendet werden [3].
+- **Bronzebart-Regel**: Sie müssen mindestens einen Charakter auf Stufe 60 normal auf dem Server gelevelt haben, bevor Sie Erbstücke auf Ihren Alts ausrüsten können.
+</Callout>
+
+<Section icon={Sparkles} title="Conquest of Azeroth Erbstücke: Systemübersicht 2026">
+
+Die Erbstücke in Project Ascensions **Conquest of Azeroth** wurden massiv überarbeitet. Um das Level-Skalierungssystem zu meistern und Ihre benutzerdefinierten Klassensetups zu optimieren, ist ein solides Verständnis der Funktionsweise dieser mächtigen Gegenstände erforderlich. Erbstücke sind accountgebundene Items, die mit der Stufe Ihres Charakters skalieren und kompetitive Werte bieten, die sich beim Leveln zwischen ungewöhnlicher (grün) und seltener (blau) Qualität bewegen.
+
+Ihre wahre Stärke liegt in zwei Merkmalen: der dauerhaften Beibehaltung von Verzauberungen (Verzauberungen skalieren herunter, verschwinden aber nie beim Levelaufstieg) und massiven Erfahrungspunkt-Boosts.
+
+<CardGrid cols={3}>
+  <Card title="EP-Beschleunigung">
+    - **+10% EP** pro Rüstungsslot [2]
+    - **+20% EP** für 2H-Waffen [2]
+    - Beschleunigt Prestige-Zyklen
+  </Card>
+  <Card title="Dynamische Skalierung">
+    - Skaliert automatisch von 1 bis 60 [1]
+    - Keine manuellen Upgrade-Token mehr [1]
+    - Passt den Rüstungstyp ab Stufe 40 an
+  </Card>
+  <Card title="Trial-Integration">
+    - Nutzbar in Hardcore & Ironman [3]
+    - Behält benutzerdefinierte Enchants bei
+    - Accountweite Vanity-Zustellung
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mechanik der Verzauberungsskalierung">
+Sie können bereits auf Stufe 1 hochstufige Verzauberungen auf Ihre Erbstücke anwenden. Während mächtige Enchants wie *Kreuzfahrer* anfangs inaktiv bleiben, aktivieren sie sich automatisch in dem Moment, in dem Ihr Charakter den entsprechenden Meilenstein erreicht (z. B. Stufe 30 für Kreuzfahrer).
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="So erwerben Sie Erbstücke schnell">
+
+Um Ihr Erbstück-Set zu vervollständigen, müssen Sie bestimmte Währungen sammeln. Je nach Spielstil können Sie diese Währungen im Spiel farmen oder direkt erwerben.
+
+| Erwerbsmethode | Hauptwährung | Kosten pro Stück | Beste Farming-Methode |
+| :--- | :--- | :--- | :--- |
+| **Wächter der Zeit** | Runen des Aufstiegs | 75.000 - 192.000 | Tägliche Callboards und skalierende LFG-Dungeons abschließen |
+| **Chromie (Prestige)** | Prestige-Marken | 375 - 1.200 | Prestige-Trials und Weltereignisse abschließen |
+| **Spendenshop** | Spenderpunkte (DP) | Variiert (Bundles verfügbar) | Webstore-Support oder Kauf von Basar-Marken mit Gold |
+
+<Callout type="warning" title="Einschränkung auf dem Bronzebart-Server">
+Wenn Sie auf dem Bronzebart-Server spielen, können Sie keine Erbstücke verwenden, um Ihren allerersten Charakter zu leveln. Sie müssen die Reise auf Stufe 60 zuerst normal abschließen. Sobald Sie einen Charakter auf Stufe 60 haben, wird das Erbstück-System für alle nachfolgenden Alt-Charaktere freigeschaltet.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Alle Erbstück-Sets & Wertverteilungen">
+
+Conquest of Azeroth bietet spezialisierte Erbstück-Sets, die auf verschiedene Klassen-Archetypen zugeschnitten sind. Da sich die Rüstungstypen (wie Kette und Platte) auf Stufe 40 ändern, aktualisieren diese Sets ihre Rüstungswerte dynamisch, um Ihren Klassenanforderungen zu entsprechen.
+
+### Schlachtenausrüstung des Champions (Physischer DPS)
+Entwickelt für physische Schadensverursacher wie Jäger oder physisch skalierende benutzerdefinierte Specs.
+- **Hauptwerte**: Beweglichkeit, Angriffskraft, Tempo, Trefferwertung, Intelligenz, Ausdauer.
+- **Rüstungsskalierung**: Fungiert als Leder von Stufe 1–39, wird auf Stufe 40 automatisch zu Kette aufgewertet.
+
+### Befleckte Schattenkunst (Beweglichkeit/Nahkampf-DPS)
+Optimiert für hochmobile Nahkampf-Specs.
+- **Hauptwerte**: Beweglichkeit, Angriffskraft, Kritischer Trefferwert, Tempo, Trefferwertung, Ausdauer.
+- **Rüstungstyp**: Leder.
+
+### Mystische Elemente (Zauberer/Heiler-Hybrid)
+Bestens geeignet für Elementar- und Wiederherstellungs-Hybrid-Specs.
+- **Hauptwerte**: Intelligenz, Zaubermacht, Tempo, Manaregeneration (Mp5), Ausdauer.
+- **Rüstungsskalierung**: Fungiert als Leder von Stufe 1–39, wird auf Stufe 40 automatisch zu Kette aufgewertet.
+
+### Schlachtenausrüstung der Tapferkeit (Stärke-DPS)
+Entwickelt für platten tragende Schadens-Specs an der Front.
+- **Hauptwerte**: Stärke, Kritischer Trefferwert, Tempo, Trefferwertung, Ausdauer.
+- **Rüstungsskalierung**: Fungiert als Kette von Stufe 1–39, wird auf Stufe 40 automatisch zu Platte aufgewertet.
+
+### Zerlumpter Totenbeschwörer (Zauber-DPS/Stoff)
+Die erste Wahl für reine Zauberer.
+- **Hauptwerte**: Zaubermacht, Intelligenz, Tempo, Trefferwertung, Willenskraft, Ausdauer.
+- **Rüstungstyp**: Stoff.
+
+### Polierte Rüstung der Macht (Tanking)
+Das definitive Set für Frontline-Tanks.
+- **Hauptwerte**: Stärke, Blockwert, Verteidigung, Ausweichen, Trefferwertung, Ausdauer.
+- **Rüstungsskalierung**: Fungiert als Kette von Stufe 1–39, wird auf Stufe 40 automatisch zu Platte aufgewertet.
+
+### Gepflegte Eisenfeder (Zauberer/Druide)
+Hervorragend für manabasierte Zauberklassen.
+- **Hauptwerte**: Zaubermacht, Intelligenz, Kritischer Trefferwert, Willenskraft, Ausdauer.
+- **Rüstungstyp**: Leder.
+
+| Erbstück-Teil | Runen des Aufstiegs | Prestige-Marken | DP-Kosten |
+| :--- | :--- | :--- | :--- |
+| **Umhänge (Alle Sets)** | 75.000 | 375 | -- |
+| **Gürtel (Alle Sets)** | 75.000 | 375 | -- |
+| **Gepflegte Eisenfederbrust** | 192.000 | 1.200 | 25 |
+| **Schnelle Hand der Gerechtigkeit** | 80.000 | 500 | 25 |
+| **Insignien der Allianz/Horde** | 80.000 | 500 | 25 |
+
+<Callout type="success" title="Unbegrenzte Alt-Zustellungen">
+Sie müssen Erbstücke niemals zwischen Ihren Charakteren per Post verschicken. Öffnen Sie einfach den **Vanity-Tab** (Zierwerk) auf einem beliebigen Alt-Charakter und klicken Sie auf **Gegenstand liefern**, um eine brandneue Kopie Ihres Erbstücks direkt in Ihr Inventar zu generieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt Speed-Leveling-Setup">
+
+Um Ihre Level-Geschwindigkeit in Conquest of Azeroth zu maximieren, folgen Sie diesem optimierten Setup-Prozess.
+
+<Steps>
+  <Step num="1" title="Ersten Charakter auf Stufe 60 bringen">
+    Schließen Sie Ihren ersten normalen Level-Run auf Stufe 60 in Ihrem Heimatrealm ab, um die Erbstück-Beschränkung aufzuheben.
+  </Step>
+  <Step num="2" title="Runen und Marken sammeln">
+    Farmen Sie tägliche Callboards und skalierende Dungeons mit Ihrem Hauptcharakter, um Runen des Aufstiegs und Prestige-Marken zu horten.
+  </Step>
+  <Step num="3" title="Kern-EP-Teile kaufen">
+    Priorisieren Sie den Kauf von Brust, Schultern, Umhang und Waffen, da dies die spezifischen Slots sind, die rohe Erfahrungsboni gewähren.
+  </Step>
+  <Step num="4" title="Skalierende Low-Level-Enchants anwenden">
+    Wenden Sie mächtige Verzauberungen auf Ihre Erbstücke an. Nutzen Sie Werte-Enchants auf Brust, Umhängen und Waffen, um Kämpfe im frühen Spiel trivial zu machen.
+  </Step>
+  <Step num="5" title="Auf Alts einfordern">
+    Loggen Sie sich mit Ihrem neuen Custom-Class-Alt ein, öffnen Sie den Vanity-Tab und klicken Sie auf „Liefern“, um Ihre voll verzauberte, skalierende Ausrüstung sofort anzulegen.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Meilensteine für Speed-Leveling">
+
+Nutzen Sie diese Checkliste, um Ihren Fortschritt zu verfolgen und sicherzustellen, dass Sie Ihre Erbstücke optimal nutzen.
+
+<Checklist
+  id="coa-heirloom-checklist"
+  title="Ziele zur Level-Optimierung:"
+  items={[
+    "Erreichen Sie Stufe 60 mit Ihrem Hauptcharakter, um die Erbstück-Nutzung für Alts freizuschalten",
+    "Erwerben Sie ein komplettes 4-teiliges Erbstück-Rüstungsset für den +40% EP-Boost",
+    "Holen Sie sich eine Zweihand-Erbstückwaffe (oder Dolche für Beidhändigkeit) für zusätzliche +20% EP",
+    "Verzaubern Sie alle Erbstücke mit skalierenden Werten, bevor Sie sie an Alts liefern",
+    "Synchronisieren Sie Ihre Vanity-Sammlung, wenn Sie Gegenstände über saisonale Realms hinweg übertragen"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Gibt es neue Erbstücke in Conquest of Azeroth?",
+    answer: "Ja. Project Ascension hat eine vollständige Slot-Abdeckung für Erbstücke eingeführt, einschließlich Schilden, Nebenhand-Gegenständen, Relikten und Fernkampfwaffen, während das alte manuelle Upgrade-System komplett entfernt wurde."
+  },
+  {
+    question: "Geben Erbstücke auch nach Stufe 60 noch EP?",
+    answer: "Ja. Der Erfahrungsbonus gilt weiterhin bis zur aktuellen Maximalstufe der Erweiterung auf dem aktiven Realm."
+  },
+  {
+    question: "Kann ich Erbstücke in Hardcore- oder Ironman-Trials verwenden?",
+    answer: "Ja. Alle wichtigen Trial-Modi, einschließlich Hardcore, Ironman und Nightmare, erlauben es den Spielern, ihre Erbstücke sowohl für die Werte als auch für die EP-Boosts zu nutzen."
+  },
+  {
+    question: "Was passiert mit meinem EP-Bonus, wenn ich den Resolute-Trial nutze?",
+    answer: "Während Sie Ihre Erbstücke während eines Resolute-Trials weiterhin wegen ihrer skalierenden Werte und Verzauberungen tragen können, wird der Bonus auf den Erfahrungsgewinn deaktiviert."
+  }
+]} />
+
+</Section>

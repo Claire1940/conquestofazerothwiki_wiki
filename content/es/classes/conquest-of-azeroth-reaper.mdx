@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Reaper en Conquest of Azeroth: Análisis de Nivel 30 y Guía de Build",
+  description: "Domina la clase Reaper (Segador) en Conquest of Azeroth. Explora sus habilidades clave, la mecánica de infusión de almas, consejos de leveo y las builds óptimas para esta clase personalizada de WoW.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Reaper+Class+Guide",
+  date: "2026-07-04",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "conquest of azeroth, reaper, segador, guía, build, nivel 30, wow personalizado"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Reaper en Conquest of Azeroth**: Un luchador cuerpo a cuerpo oscuro que viste placas, utiliza daño de sombras y físico para cosechar almas y mantener su salud [OCaUxzQg8dE, 332].
+- **Recurso Principal**: Administra maná, salud y un sistema secundario único de almas cosechadas para desatar devastadoras infusiones de almas [OCaUxzQg8dE].
+- **Roles Versátiles**: Capaz de actuar como un DPS cuerpo a cuerpo de gran sostenibilidad (especializaciones de Cosecha/Alma) o como un tanque de placas de alta amenaza (especialización de Dominación) [332].
+- **Mecánica Clave**: Acumular tres cargas de almas cosechadas activa una infusión de almas, lo que mejora tus habilidades de combate principales [OCaUxzQg8dE].
+</Callout>
+
+<Section icon={Sparkles} title="Resumen de la Clase Reaper en Conquest of Azeroth">
+
+El **reaper de conquest of azeroth** (Segador) es una de las 21 clases completamente personalizadas disponibles en el ecosistema de WoW personalizado Ascension Classic+ [OCaUxzQg8dE, 332]. A diferencia de las clases tradicionales de WoW, el Reaper viste armadura de placas pesada y se apoya en una oscura sinergia de magia de sombras, golpes físicos y habilidades de drenaje de vida [332]. Esta clase está diseñada como un combatiente de alta supervivencia y gran generación de amenaza que destaca tanto en el leveo en solitario como en el contenido grupal coordinado [OCaUxzQg8dE, 332].
+
+**Puntos Destacados del Vídeo:**
+- Desglose detallado del conjunto de habilidades del Reaper de nivel 30 y sus facultades activas [OCaUxzQg8dE].
+- Demostración de las mecánicas de cosecha e infusión de almas en combates JVE (PvE) [OCaUxzQg8dE].
+- Exhibición de habilidades de gran impacto como Poseer (Possess), Sifón de sangre (Blood Siphon) y Guadaña del obturador (Shutter Scythe) [OCaUxzQg8dE].
+
+<YouTubeEmbed videoId="OCaUxzQg8dE" title="REAPER LVL 30 Review | Conquest of Azeroth | WoW with 21 Custom Classes" />
+
+Los Reapers utilizan una variedad de herramientas para manipular el campo de batalla. Pueden adentrarse en el reino de los espíritus para escabullirse de los enemigos, ralentizar a los oponentes mientras aumentan su propia velocidad, e incluso poseer temporalmente a sus objetivos para volverse completamente invulnerables [OCaUxzQg8dE, 332].
+
+| Característica | Detalles |
+| :--- | :--- |
+| **Tipo de Armadura** | Placas [332] |
+| **Estadísticas Principales** | Fuerza, Intelecto [332] |
+| **Roles** | Tanque, DPS [332] |
+| **Estilo de Armas** | Doble empuñadura o Dos manos [OCaUxzQg8dE, 332] |
+
+<Callout type="tip" title="Sinergia de la Clase">
+Dado que el Reaper escala tanto con Fuerza como con Intelecto dependiendo de tu especialización, elegir el equipo adecuado es fundamental para maximizar tu ráfaga física o el poder de tus hechizos de sombras [332].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Especializaciones Principales y Estilos de Juego">
+
+El Reaper cuenta con tres especializaciones distintas, cada una adaptando las mecánicas de la clase hacia un rol de combate específico [332]. Ya sea que quieras avanzar absorbiendo la vida de los enemigos, lanzar hechizos de sombras desde el rango cuerpo a cuerpo o erigirte como un tanque inquebrantable en primera línea, hay una especialización diseñada para tu estilo de juego [332].
+
+<CardGrid cols={3}>
+  <Card title="Especialización de Cosecha (DPS)">
+    - **Enfoque**: Luchador cuerpo a cuerpo y drenador de vida [332].
+    - **Mecánica**: Utiliza una guadaña para extraer los PS del enemigo y restaurar su propia salud [332].
+    - **Riesgo/Recompensa**: Sacrifica salud propia para aumentar el daño general y el daño en área (cleave) [332].
+  </Card>
+  <Card title="Especialización de Alma (DPS)">
+    - **Enfoque**: Lanzador de conjuros de sombras cuerpo a cuerpo [332].
+    - **Mecánica**: Combina golpes con doble empuñadura y un gran poder de hechizos de sombras [332].
+    - **Utilidad**: Se desvanece en el reino de los espíritus y aísla a los objetivos en combates 1v1 [332].
+  </Card>
+  <Card title="Especialización de Dominación (Tanque)">
+    - **Enfoque**: Tanqueo salvaje con placas [332].
+    - **Mecánica**: Consume salud para generar una enorme cantidad de amenaza y daño en área [332].
+    - **Defensa**: Utiliza un arma de dos manos para parar ataques y resistir el daño recibido [332].
+  </Card>
+</CardGrid>
+
+Para ayudarte a elegir el camino correcto, aquí tienes una comparación de cómo rinde cada especialización en los diferentes pilares del juego:
+
+| Especialización | Leveo en Solitario | JVE en Grupo | Utilidad en JVP | Arma Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Cosecha** | Excelente | Bueno | Moderado | Guadaña de dos manos [332] |
+| **Alma** | Bueno | Excelente | Alto | Doble empuñadura [OCaUxzQg8dE, 332] |
+| **Dominación** | Moderado | Excelente | Moderado | Dos manos [332] |
+
+<Callout type="warning" title="Costes de Salud">
+Tanto la rama de Cosecha como la de Dominación requieren que sacrifiques tu propia salud para activar tus habilidades más poderosas [332]. Gestionar tu reserva de salud junto con tus tiempos de reutilización defensivos es clave para evitar muertes accidentales [OCaUxzQg8dE, 332].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Habilidades Activas Clave y Mecánicas">
+
+Para jugar eficazmente con el **reaper de conquest of azeroth**, debes entender cómo interactúan sus habilidades. El ciclo básico consiste en generar maná, cosechar almas y gastar esas almas para desatar ataques potenciados [OCaUxzQg8dE].
+
+### El Ciclo de Cosecha de Almas
+1. **Cosechar (Reap)**: Tu ataque cuerpo a cuerpo principal. Inflige daño de arma normalizado y restaura un 5% de tu salud máxima [OCaUxzQg8dE]. El segundo uso consecutivo inflige daño en área a los enemigos cercanos, y el tercer uso consecutivo te otorga una **Alma Cosechada** [OCaUxzQg8dE].
+2. **Asesinar (Murder)**: Un lanzamiento instantáneo con 40 metros de alcance que envía un cuervo de almas a golpear al objetivo y restaurar un 10% de tu maná máximo [OCaUxzQg8dE]. Utilízalo siempre que esté disponible para mantener tu reserva de maná [OCaUxzQg8dE].
+3. **Infusión de Almas (Soul Infusion)**: Una vez que reúnes tres Almas Cosechadas, entras en estado de **Infusión de Almas** [OCaUxzQg8dE]. Este estado rodea visualmente a tu personaje con una energía púrpura y mejora significativamente ciertas habilidades; por ejemplo, transforma Guadaña del obturador (Shutter Scythe) de ser una canalización de 5 golpes a una rápida ráfaga de 10 golpes [OCaUxzQg8dE].
+
+| Habilidad | Coste / Reutilización | Alcance | Efecto Principal |
+| :--- | :--- | :--- | :--- |
+| **Cosechar (Reap)** | 41 de Maná / 1s de CD [OCaUxzQg8dE] | Cuerpo a cuerpo | Inflige daño físico, cura un 5% de la salud máxima y genera almas [OCaUxzQg8dE]. |
+| **Asesinar (Murder)** | Ninguno / 10s de CD [OCaUxzQg8dE] | 40 metros | Inflige daño de sombras y restaura un 10% del maná máximo [OCaUxzQg8dE]. |
+| **Canto Fúnebre (Dirge)** | 5% de Salud Máx / 5s de CD [OCaUxzQg8dE] | Cuerpo a cuerpo | Requiere doble empuñadura. Inflige un 220% de daño de arma y otorga 1 alma [OCaUxzQg8dE]. |
+| **Lamento (Lament)** | 1 Alma Cosechada / 5s de CD [OCaUxzQg8dE] | 40 metros | Consume un alma para infligir un gran daño de sombras instantáneo [OCaUxzQg8dE]. |
+| **Sifón de Sangre (Blood Siphon)**| 77 de Maná / 30s de CD [OCaUxzQg8dE] | Cono de 20 metros | Roba salud a todos los objetivos frente a ti y aplica un perjuicio de curación del 50% [OCaUxzQg8dE]. |
+| **Poseer (Possess)** | Ninguno / 3m de CD [OCaUxzQg8dE] | 40 metros | Te canalizas en un objetivo, volviéndote invulnerable. Explota para infligir gran daño [OCaUxzQg8dE]. |
+
+<Callout type="success" title="El Truco de Poseer">
+Poseer funciona como una herramienta defensiva y de aproximación increíble [OCaUxzQg8dE]. Dado que tu cuerpo físico no puede ser atacado mientras posees a un enemigo, puedes utilizarlo para esquivar por completo mecánicas pesadas de jefes o ráfagas de daño masivas en JVP [OCaUxzQg8dE].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progresión de Leveo y Guía de Rotación">
+
+Subir de nivel a un Reaper es una experiencia sumamente satisfactoria gracias a la autocuración integrada de la clase y su control de masas [OCaUxzQg8dE]. Al utilizar una rotación específica, puedes atraer a varios enemigos a la vez sin quedarte sin salud ni maná [OCaUxzQg8dE].
+
+<Steps>
+  <Step num="1" title="Iniciar y Controlar">
+    Comienza el combate a distancia usando **Choque de Almas (Soul Shock)** para dormir al objetivo durante un máximo de 30 segundos [OCaUxzQg8dE]. Tu primer ataque contra esta "cáscara" dormida infligirá un 100% más de daño [OCaUxzQg8dE].
+  </Step>
+  <Step num="2" title="Apertura con Ráfaga">
+    Acércate al objetivo dormido y abre el combate con **Canto Fúnebre (Dirge)** para asestar un golpe físico masivo y ganar inmediatamente tu primera Alma Cosechada [OCaUxzQg8dE].
+  </Step>
+  <Step num="3" title="Ciclo de Generación de Almas">
+    Usa repetidamente **Cosechar (Reap)** para acumular hasta tres Almas Cosechadas, activando tu estado de **Infusión de Almas** [OCaUxzQg8dE]. Utiliza **Asesinar (Murder)** cada vez que esté disponible para mantener tu maná al máximo [OCaUxzQg8dE].
+  </Step>
+  <Step num="4" title="Ejecución Potenciada">
+    Con la Infusión de Almas activa, desata **Guadaña del obturador (Shutter Scythe)** para asestar 10 golpes rápidos, derritiendo la barra de salud del objetivo mientras restauras rápidamente tus propios PS [OCaUxzQg8dE].
+  </Step>
+</Steps>
+
+Para grupos de enemigos, modifica tu estrategia utilizando **Sifón de Sangre (Blood Siphon)** al inicio de la atracción para dañar y curarte de múltiples objetivos simultáneamente, seguido por el uso repetido de la mecánica de tajo en área del segundo golpe de **Cosechar (Reap)** [OCaUxzQg8dE].
+
+<Callout type="info" title="Herramientas de Utilidad">
+No olvides tus hechizos de utilidad. **Garra Fantasma (Ghost Claw)** te permite robar el 40% de la velocidad de movimiento de un enemigo, haciendo que les sea imposible huir de ti [OCaUxzQg8dE]. Si necesitas escapar o posicionarte, utiliza **Paseo Subterráneo (Underwalk)** para entrar en el reino de los espíritus y pasar sigilosamente ante el peligro [OCaUxzQg8dE].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Hitos de Nivel 30">
+
+A medida que progresas a través del contenido alfa de Conquest of Azeroth, apuntar a hitos específicos asegurará que tu Reaper esté optimizado para mazmorras de nivel máximo y JVP [OCaUxzQg8dE, 332]. Utiliza esta lista de verificación para seguir el progreso de tu personaje.
+
+<Checklist
+  id="reaper-leveling-milestones"
+  title="Lista de verificación del Reaper de nivel 30:"
+  items={[
+    "Desbloquear la pasiva de doble empuñadura para habilitar las facultades Canto Fúnebre (Dirge) y Paseo Subterráneo (Underwalk) [OCaUxzQg8dE].",
+    "Adquirir un conjunto de armas físicas de alto DPS o equipo de placas con daño de sombras [OCaUxzQg8dE, 332].",
+    "Dominar el ciclo de 3 acumulaciones de Infusión de Almas en combates JVE reales [OCaUxzQg8dE].",
+    "Probar la especialización de tanque de Dominación en una mazmorra heroica clásica [332].",
+    "Practicar el uso de Poseer (Possess) para esquivar mecánicas enemigas de gran daño [OCaUxzQg8dE]."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el recurso principal del Reaper en Conquest of Azeroth?",
+    answer: "El Reaper utiliza principalmente Maná para lanzar hechizos y Salud como recurso para sus ataques físicos pesados. Adicionalmente, gestionan las Almas Cosechadas, que se generan durante el combate para activar la Infusión de Almas."
+  },
+  {
+    question: "¿Puede el Reaper actuar como tanque principal en mazmorras?",
+    answer: "Sí, la especialización de Dominación es una rama dedicada exclusivamente al tanqueo con armadura de placas. Aumenta la generación de amenaza, incrementa el índice de parada según la agilidad y proporciona múltiples herramientas de autosostenimiento."
+  },
+  {
+    question: "¿Cómo funciona la mecánica de Infusión de Almas?",
+    answer: "Cuando acumulas tres Almas Cosechadas (obtenidas a través de habilidades como Cosechar o Canto Fúnebre), obtienes el beneficio de Infusión de Almas. Este beneficio mejora tus habilidades principales, como duplicar la cantidad de golpes que asesta Guadaña del obturador."
+  },
+  {
+    question: "¿Requiere el Reaper armas específicas?",
+    answer: "Sí, ciertas habilidades clave como Canto Fúnebre (Dirge) y Paseo Subterráneo (Underwalk) requieren que empuñes dos armas de una mano. Sin embargo, las especializaciones de Cosecha y Dominación también pueden utilizar armas de dos manos de manera efectiva."
+  }
+]} />
+
+</Section>

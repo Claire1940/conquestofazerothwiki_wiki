@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Reaper: Stufe 30 Klassen-Review & Build-Guide",
+  description: "Meistere die Reaper-Klasse in Conquest of Azeroth. Entdecke Schlüsselfertigkeiten, die Seeleninfusion-Mechanik, Level-Tipps und optimale Builds für diese benutzerdefinierte WoW-Klasse.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Reaper+Class+Guide",
+  date: "2026-07-04",
+  author: "conquest of azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **Conquest of Azeroth Reaper**: Ein düsterer, plattenragender Nahkämpfer, der Schatten- und physischen Schaden nutzt, um Seelen zu ernten und seine Gesundheit aufrechtzuerhalten [OCaUxzQg8dE, 332].
+- **Kernressource**: Verwaltet Mana, Gesundheit und ein einzigartiges sekundäres System von geernteten Seelen, um verheerende Seeleninfusionen auszulösen [OCaUxzQg8dE].
+- **Vielseitige Rollen**: Kann als Nahkampf-DPS mit hoher Selbsterhaltung (Ernte-/Seelen-Spezialisierung) oder als bedrohungsstarker Plattentank (Dominanz-Spezialisierung) agieren [332].
+- **Schlüsselmechanik**: Das Sammeln von drei Stapeln geernteter Seelen löst eine Seeleninfusion aus, die deine primären Kampffähigkeiten aufwertet [OCaUxzQg8dE].
+</Callout>
+
+<Section icon={Sparkles} title="Überblick über die Conquest of Azeroth Reaper-Klasse">
+
+Der **Conquest of Azeroth Reaper** (Schnitter) ist eine der 21 völlig eigenständigen Klassen, die im maßgeschneiderten WoW-Ökosystem von Ascension Classic+ verfügbar sind [OCaUxzQg8dE, 332]. Im Gegensatz zu traditionellen WoW-Klassen trägt der Reaper schwere Plattenrüstung und verlässt sich auf eine dunkle Synergie aus Schattenmagie, physischen Schlägen und lebensentziehenden Fähigkeiten [332]. Diese Klasse ist als kampfstarker Charakter mit hoher Selbsterhaltung und hoher Bedrohung konzipiert, der sich sowohl beim Solo-Leveln als auch in koordinierten Gruppeninhalten auszeichnet [OCaUxzQg8dE, 332].
+
+**Video-Highlights:**
+- Detaillierte Aufschlüsselung des Reaper-Kits auf Stufe 30 und der aktiven Fähigkeiten [OCaUxzQg8dE].
+- Demonstration der Seelenernte- und Seeleninfusion-Mechaniken im PvE-Kampf [OCaUxzQg8dE].
+- Präsentation von wirkungsvollen Fähigkeiten wie Besessenheit (Possess), Blutentzug (Blood Siphon) und Verschlusssense (Shutter Scythe) [OCaUxzQg8dE].
+
+<YouTubeEmbed videoId="OCaUxzQg8dE" title="REAPER LVL 30 Review | Conquest of Azeroth | WoW with 21 Custom Classes" />
+
+Reaper nutzen eine Vielzahl von Werkzeugen, um das Schlachtfeld zu manipulieren. Sie können in das Geisterreich eintreten, um sich an Feinden vorbeizuschleichen, Gegner verlangsamen, während sie ihr eigenes Tempo erhöhen, und sogar vorübergehend Ziele besessen machen, um völlig unverwundbar zu werden [OCaUxzQg8dE, 332].
+
+| Feature | Details |
+| :--- | :--- |
+| **Rüstungstyp** | Platte [332] |
+| **Hauptattribute** | Stärke, Intelligenz [332] |
+| **Rollen** | Tank, DPS [332] |
+| **Waffenstil** | Beidhändigkeit (Dual-Wield) oder Zweihändig [OCaUxzQg8dE, 332] |
+
+<Callout type="tip" title="Klassensynergie">
+Da der Reaper je nach Spezialisierung sowohl mit Stärke als auch mit Intelligenz skaliert, ist die Wahl der richtigen Ausrüstung entscheidend, um entweder deinen physischen Burst oder deine Schattenschadensmacht zu maximieren [332].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kern-Spezialisierungen & Spielstile">
+
+Der Reaper verfügt über drei verschiedene Spezialisierungen, die die Klassenmechanik jeweils auf eine bestimmte Kampfrolle zuschneiden [332]. Ob du dich als Drain-Tank durch Monsterhorden kämpfen, Schattenzauber aus der Nahkampfdistanz wirken oder als unnachgiebiger Frontlinien-Tank stehen möchtest – es gibt eine Spezialisierung für deinen Spielstil [332].
+
+<CardGrid cols={3}>
+  <Card title="Ernte-Spezialisierung (DPS)">
+    - **Fokus**: Nahkampf-Bruiser und Lebensentzieher [332].
+    - **Mechanik**: Nutzt eine Sense, um die Lebenspunkte von Feinden abzusaugen und die eigene Gesundheit wiederherzustellen [332].
+    - **Risiko/Belohnung**: Verbraucht eigene Gesundheit, um den Gesamtschaden und den Spaltflächenschaden (Cleave) zu erhöhen [332].
+  </Card>
+  <Card title="Seelen-Spezialisierung (DPS)">
+    - **Fokus**: Nahkampf-Schattenzauberer [332].
+    - **Mechanik**: Kombiniert beidhändige Angriffe mit hoher Schattenschadensmacht [332].
+    - **Nützlichkeit**: Entgleitet in das Geisterreich und isoliert Ziele in 1v1-Kämpfen [332].
+  </Card>
+  <Card title="Dominanz-Spezialisierung (Tank)">
+    - **Fokus**: Wilder Plattentank [332].
+    - **Mechanik**: Verbraucht Gesundheit, um massive Bedrohung und AoE-Schaden zu erzeugen [332].
+    - **Verteidigung**: Nutzt eine Zweihandwaffe, um Angriffe zu parieren und trotz Schmerz durchzuhalten [332].
+  </Card>
+</CardGrid>
+
+Um dir bei der Wahl des richtigen Weges zu helfen, zeigt dieser Vergleich, wie sich die einzelnen Spezialisierungen in verschiedenen Gameplay-Bereichen schlagen:
+
+| Spezialisierung | Solo-Leveln | Gruppen-PvE | PvP-Nutzen | Primärwaffe |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ernte** | Exzellent | Gut | Mäßig | Zweihändige Sense [332] |
+| **Seele** | Gut | Exzellent | Hoch | Beidhändigkeit [OCaUxzQg8dE, 332] |
+| **Dominanz** | Mäßig | Exzellent | Mäßig | Zweihändig [332] |
+
+<Callout type="warning" title="Gesundheitskosten">
+Sowohl die Ernte- als auch die Dominanz-Spezialisierung erfordern, dass du deine eigene Gesundheit opferst, um deine mächtigsten Fähigkeiten zu aktivieren [332]. Das Verwalten deines Gesundheitspools zusammen mit deinen defensiven Cooldowns ist der Schlüssel, um versehentliche Tode zu vermeiden [OCaUxzQg8dE, 332].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wichtige aktive Fähigkeiten & Mechaniken">
+
+Um den **Conquest of Azeroth Reaper** effektiv zu spielen, musst du verstehen, wie seine Fähigkeiten interagieren. Der Kern-Gameplay-Loop dreht sich darum, Mana zu generieren, Seelen zu ernten und diese Seelen auszugeben, um verstärkte Angriffe zu entfesseln [OCaUxzQg8dE].
+
+### Der Seelenernte-Loop
+1. **Ernten (Reap)**: Dein primärer Nahkampfangriff. Er verursacht normalisierten Waffenschaden und stellt 5 % deiner maximalen Gesundheit wieder her [OCaUxzQg8dE]. Die zweite aufeinanderfolgende Anwendung spaltet nahegelegene Feinde, und die dritte aufeinanderfolgende Anwendung gewährt dir eine **Geerntete Seele** [OCaUxzQg8dE].
+2. **Mord (Murder)**: Ein Sofortzauber mit 40 Metern Reichweite, der eine Seelenkrähe aussendet, die das Ziel trifft und 10 % deines maximalen Manas wiederherstellt [OCaUxzQg8dE]. Nutze diese Fähigkeit direkt nach Ablauf der Abklingzeit, um deinen Manapool aufrechtzuerhalten [OCaUxzQg8dE].
+3. **Seeleninfusion (Soul Infusion)**: Sobald du drei Geerntete Seelen gesammelt hast, wirst du mit **Seeleninfusion** erfüllt [OCaUxzQg8dE]. Dieser Zustand umhüllt deinen Charakter visuell mit violetter Energie und wertet bestimmte Fähigkeiten erheblich auf – so wird beispielsweise Verschlusssense (Shutter Scythe) von einer kanalisierten Attacke mit 5 Schlägen in ein schnelles Gewitter von 10 Schlägen verwandelt [OCaUxzQg8dE].
+
+| Fähigkeit | Kosten / Abklingzeit | Reichweite | Primärer Effekt |
+| :--- | :--- | :--- | :--- |
+| **Ernten (Reap)** | 41 Mana / 1s CD [OCaUxzQg8dE] | Nahkampf | Verursacht physischen Schaden, heilt um 5 % der max. HP, erzeugt Seelen [OCaUxzQg8dE]. |
+| **Mord (Murder)** | Keine / 10s CD [OCaUxzQg8dE] | 40 Meter | Verursacht Schattenschaden und stellt 10 % des maximalen Manas wieder her [OCaUxzQg8dE]. |
+| **Klagelied (Dirge)** | 5 % max. HP / 5s CD [OCaUxzQg8dE] | Nahkampf | Erfordert Beidhändigkeit. Verursacht 220 % Waffenschaden und gewährt 1 Seele [OCaUxzQg8dE]. |
+| **Wehklage (Lament)** | 1 Geerntete Seele / 5s CD [OCaUxzQg8dE] | 40 Meter | Verbraucht eine Seele, um hohen sofortigen Schattenschaden zu verursachen [OCaUxzQg8dE]. |
+| **Blutentzug (Blood Siphon)** | 77 Mana / 30s CD [OCaUxzQg8dE] | 20-Meter-Kegel | Stiehlt Gesundheit von allen Zielen vor dir und belegt sie mit einem Heilungs-Debuff von 50 % [OCaUxzQg8dE]. |
+| **Besitzen (Possess)** | Keine / 3m CD [OCaUxzQg8dE] | 40 Meter | Kanalisiert in ein Ziel und macht dich unverwundbar. Bricht aus, um hohen Schaden zu verursachen [OCaUxzQg8dE]. |
+
+<Callout type="success" title="Der Besessenheits-Trick">
+Besitzen fungiert als unglaublicher Lückenbüßer und defensives Werkzeug [OCaUxzQg8dE]. Da dein physischer Körper während des Besitzens eines Feindes nicht angegriffen werden kann, kannst du diese Fähigkeit nutzen, um schweren Bossmechaniken oder hohem Schadens-Burst im PvP komplett auszuweichen [OCaUxzQg8dE].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Level-Fortschritt & Rotations-Guide">
+
+Das Leveln eines Reapers ist dank der klasseneigenen Selbstheilung und der Massenkontrolle eine äußerst befriedigende Erfahrung [OCaUxzQg8dE]. Durch die Verwendung einer bestimmten Rotation kannst du mehrere Mobs gleichzeitig anlocken, ohne dass deine Gesundheit gefährlich sinkt oder dir das Mana ausgeht [OCaUxzQg8dE].
+
+<Steps>
+  <Step num="1" title="Initiieren und Kontrollieren">
+    Beginne den Kampf aus der Ferne mit **Seelenschock (Soul Shock)**, um das Ziel für bis zu 30 Sekunden in Schlaf zu versetzen [OCaUxzQg8dE]. Dein erster Angriff gegen diese schlafende „Hülle“ verursacht 100 % mehr Schaden [OCaUxzQg8dE].
+  </Step>
+  <Step num="2" title="Burst-Eröffnung">
+    Nähere dich dem schlafenden Ziel und eröffne den Kampf mit **Klagelied (Dirge)**, um einen massiven physischen Schlag zu landen und sofort deine erste Geerntete Seele zu erhalten [OCaUxzQg8dE].
+  </Step>
+  <Step num="3" title="Loop zur Seelengenerierung">
+    Spamme **Ernten (Reap)**, um bis zu drei Geerntete Seelen aufzubauen und so deinen Zustand der **Seeleninfusion** auszulösen [OCaUxzQg8dE]. Nutze **Mord (Murder)** immer dann, wenn die Abklingzeit abgelaufen ist, um dein Mana vollzuhalten [OCaUxzQg8dE].
+  </Step>
+  <Step num="4" title="Verstärkte Exekution">
+    Entfessle bei aktiver Seeleninfusion die **Verschlusssense (Shutter Scythe)**, um 10 schnelle Schläge abzugeben, die die Lebensleiste des Ziels dahinschmelzen lassen, während deine eigenen HP rasant wiederhergestellt werden [OCaUxzQg8dE].
+  </Step>
+</Steps>
+
+Passe deine Strategie bei Gegnergruppen an, indem du früh im Kampf **Blutentzug (Blood Siphon)** einsetzt, um mehreren Zielen gleichzeitig Schaden zuzufügen und dich daran zu heilen, gefolgt vom Spammen der Spalt-Mechanik des zweiten Schlags von **Ernten (Reap)** [OCaUxzQg8dE].
+
+<Callout type="info" title="Nützliche Werkzeuge">
+Vergiss deine Hilfszauber nicht. **Geisterklaue (Ghost Claw)** ermöglicht es dir, 40 % des Bewegungstempos eines Gegners zu stehlen, was es für ihn unmöglich macht, dich zu kiten [OCaUxzQg8dE]. Wenn du entkommen oder dich neu positionieren musst, nutze **Untergang (Underwalk)**, um das Geisterreich zu betreten und dich an Gefahren vorbeizuschleichen [OCaUxzQg8dE].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Meilenstein-Checkliste für Stufe 30">
+
+Während du die Alpha-Inhalte von Conquest of Azeroth durchspielst, hilft dir das Erreichen bestimmter Meilensteine dabei, deinen Reaper optimal für das Endgame in Dungeons und im PvP vorzubereiten [OCaUxzQg8dE, 332]. Nutze diese Checkliste, um den Fortschritt deines Charakters zu verfolgen.
+
+<Checklist
+  id="reaper-leveling-milestones"
+  title="Reaper Stufe 30 Checkliste:"
+  items={[
+    "Schalte die passive Beidhändigkeit frei, um die Fähigkeiten Klagelied (Dirge) und Untergang (Underwalk) nutzen zu können [OCaUxzQg8dE].",
+    "Besorge dir ein Waffenset mit hohem physischen Schaden oder eine Plattenrüstung mit Schattenschaden [OCaUxzQg8dE, 332].",
+    "Meistere den Seeleninfusions-Zyklus mit 3 Stapeln im aktiven PvE-Kampf [OCaUxzQg8dE].",
+    "Teste die Dominanz-Tank-Spezialisierung in einem klassischen heroischen Dungeon [332].",
+    "Übe den Einsatz von Besitzen (Possess), um hart treffenden gegnerischen Mechaniken auszuweichen [OCaUxzQg8dE]."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Was ist die primäre Ressource für den Conquest of Azeroth Reaper?",
+    answer: "Der Reaper nutzt hauptsächlich Mana für das Wirken von Zaubern und Gesundheit als Ressource für schwere physische Angriffe. Zusätzlich verwalten sie Geerntete Seelen, die im Kampf generiert werden, um die Seeleninfusion auszulösen."
+  },
+  {
+    question: "Kann der Reaper als Haupt-Tank in Dungeons spielen?",
+    answer: "Ja, die Dominanz-Spezialisierung ist eine dedizierte Tank-Spezialisierung für Plattenträger. Sie erhöht die Bedrohungserzeugung, steigert die Parierwertung basierend auf Beweglichkeit und bietet mehrere Werkzeuge zur Selbsterhaltung."
+  },
+  {
+    question: "Wie funktioniert die Seeleninfusion-Mechanik?",
+    answer: "Wenn du drei Geerntete Seelen angesammelt hast (erhalten durch Fähigkeiten wie Ernten oder Klagelied), erhältst du den Buff Seeleninfusion. Dieser Buff wertet deine Hauptfertigkeiten auf, indem er beispielsweise die Anzahl der Schläge von Verschlusssense verdoppelt."
+  },
+  {
+    question: "Benötigt der Reaper bestimmte Waffen?",
+    answer: "Ja, bestimmte Schlüsselfähigkeiten wie Klagelied und Untergang erfordern, dass du einhändige Waffen beidhändig führst. Die Ernte- und Dominanz-Spezialisierungen können jedoch auch Zweihandwaffen effektiv nutzen."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Primalista de Conquest of Azeroth: Guía de las Mejores Especializaciones y Builds",
+  description: "Domina la clase Primalista en Conquest of Azeroth. Descubre las mejores especializaciones, rutas de progreso y estrategias de rol para el meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Primalist+Class+Guide",
+  date: "2026-07-04",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "primalista, conquest of azertoh, builds, especializaciones, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Poder Primalista**: El **primalista de conquest of azeroth** es una clase versátil que viste armadura de placas y utiliza magia de la tierra, de los espíritus y de la naturaleza [ukNiDWKWEtI].
+- **Flexibilidad de Rol**: Capaz de desempeñarse como un tanque inquebrantable, un sanador de alto rendimiento o un DPS de melé/hechizos de gran impacto [ukNiDWKWEtI, 332].
+- **Maestría de Recursos**: Utiliza un sistema híbrido de maná y ira para potenciar sus hechizos ancestrales y elementales.
+- **Cuatro Especializaciones**: Elige entre Rey de la Montaña (Tanque), Vida (Sanador), Caminante Salvaje (DPS de melé) o Geomancia (DPS de hechizos) [ukNiDWKWEtI].
+- **Atributo Principal**: Se enfoca en Fuerza para roles físicos o Intelecto para roles de lanzamiento de conjuros [ukNiDWKWEtI, 332].
+</Callout>
+
+<Section icon={Map} title="Descripción General del Primalista y Mecánicas de Clase">
+
+El **primalista de conquest of azeroth** se erige como un campeón fundamental de las tierras salvajes, extrayendo poder puro directamente de la Madre Tierra y de antiguos espíritus de bestias [ukNiDWKWEtI]. Equipado con armadura pesada de placas, este portento híbrido se adapta a cualquier composición de grupo al cumplir cualquier rol en PvE o PvP [ukNiDWKWEtI, 332]. Ya sea que desees absorber golpes demoledores, sanar heridas mortales o destrozar enemigos con furia primordial, el Primalista te proporciona las herramientas para dominar el frente de batalla [ukNiDWKWEtI].
+
+**Aspectos Destacados del Video:**
+- **Versatilidad**: Muestra la capacidad de la clase para alternar sin problemas entre roles de tanque, sanador y doble DPS [ukNiDWKWEtI].
+- **Efectos Visuales**: Exhibe las animaciones personalizadas de control de tierra y espíritus ancestrales exclusivas del cliente personalizado de Conquest of Azeroth [ukNiDWKWEtI, 332].
+- **Habilidades Clave**: Destaca hechizos icónicos como Ola Primordial, Martillo de Vida y Cambio Tectónico en combate a tiempo real [ukNiDWKWEtI].
+
+<YouTubeEmbed videoId="ukNiDWKWEtI" title="New WoW Class: Primalist - Conquest of Azeroth" />
+
+### Atributos Clave y Selección de Rol
+
+Antes de elegir tu especialización, es vital comprender cómo escalan las mecánicas principales del Primalista con tu equipo. Utiliza la siguiente tabla para planificar tu ruta de build:
+
+| Especialización | Rol | Estadística Principal | Configuración de Armas Clave | Enfoque de Estilo de Juego |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rey de la Montaña** | Tanque | Fuerza | Una Mano + Escudo | Armadura Alta, Amenaza en Área, Barreras de Aturdimiento |
+| **Vida** | Sanador | Intelecto / Fuerza | Dos Manos o Escudo | Sanación en Melé Basada en Ira, Bendiciones en Área |
+| **Caminante Salvaje** | DPS Cuerpo a Cuerpo | Fuerza | Dos Manos o Doble Empuñadura | Tótems de Animales, Sangrados, Ráfaga de Daño Físico |
+| **Geomancia** | DPS a Distancia | Intelecto | Bastón o Arma de Mano Derecha + Mano Izquierda | Control de Tierra, Tormentas de Arena, Fisuras de Magma |
+
+<Callout type="tip" title="Consejo de Prioridad de Estadísticas">
+Haz coincidir siempre la estadística principal de tu equipo con tu especialización activa. Jugar Geomancia con placas orientadas a Fuerza mermará gravemente tu daño de hechizos y velocidad de lanzamiento [ukNiDWKWEtI, 332].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Elegir tu Especialización">
+
+La fuerza del **primalista de conquest of azeroth** radica en sus cuatro especializaciones sumamente distintivas. Cada una altera por completo tu generación de recursos, tus habilidades activas y tu posicionamiento en combate [ukNiDWKWEtI, 332].
+
+<CardGrid cols={2}>
+  <Card title="Rey de la Montaña (El Bastión Inquebrantable)">
+    - **Rol**: Tanque [ukNiDWKWEtI]
+    - **Habilidad Clave**: Cambio Tectónico [ukNiDWKWEtI]
+    - **Mecánica**: Genera una enorme amenaza en área sacudiendo la tierra, dañando hasta a 10 objetivos simultáneamente [ukNiDWKWEtI].
+    - **Advertencia**: Usar en exceso las habilidades tectónicas puede sobrecargar temporalmente tus defensas, aturdiéndote si no se gestiona con cuidado [332].
+  </Card>
+  <Card title="Vida (La Gracia de la Madre Tierra)">
+    - **Rol**: Sanador [ukNiDWKWEtI]
+    - **Habilidades Clave**: Ola Primordial y Martillo de Vida [ukNiDWKWEtI]
+    - **Mecánica**: Un sanador único centrado en el combate cuerpo a cuerpo y basado en ira que lucha en primera línea junto a los tanques [332].
+    - **Beneficio**: Irradia sanación pasiva en área y aplica barreras protectoras del Sueño Esmeralda para mitigar el daño [ukNiDWKWEtI].
+  </Card>
+  <Card title="Caminante Salvaje (El Totemista Feral)">
+    - **Rol**: DPS de Melé [ukNiDWKWEtI]
+    - **Habilidad Clave**: Fuerza Salvaje de Urso [ukNiDWKWEtI]
+    - **Mecánica**: Invoca espíritus de bestias ancestrales para llamar a compañeros animales espirituales [ukNiDWKWEtI, 332].
+    - **Beneficio**: Alto daño físico de ráfaga usando garras primordiales, colmillos y mejoras de tótems para destrozar las defensas enemigas [ukNiDWKWEtI].
+  </Card>
+  <Card title="Geomancia (El Catalizador Terrestre)">
+    - **Rol**: DPS de Hechizos [ukNiDWKWEtI]
+    - **Habilidad Clave**: Aluvión de Geodas [ukNiDWKWEtI]
+    - **Mecánica**: Sacrifica defensas pesadas de placas a cambio de una abrumadora ofensiva elemental a distancia [332].
+    - **Beneficio**: Lanza tormentas de arena, fisuras de magma y erupciones para sepultar y destruir a los objetivos desde lejos [ukNiDWKWEtI, 332].
+  </Card>
+</CardGrid>
+
+### Comparación de Rendimiento de Especializaciones
+
+Evalúa cómo se desempeña cada especialización en las diferentes actividades de juego final en el meta actual de 2026:
+
+| Especialización | Nivelación en Solitario | Utilidad en Mazmorras | Rendimiento en Bandas | Viabilidad en PvP |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rey de la Montaña** | Bueno | Excelente | Excelente | Bueno |
+| **Vida** | Moderado | Excelente | Excelente | Fantástico |
+| **Caminante Salvaje** | Excelente | Fantástico | Bueno | Excelente |
+| **Geomancia** | Fantástico | Bueno | Excelente | Moderado |
+
+<Callout type="warning" title="Sobrecarga Tectónica">
+Como Rey de la Montaña, vigila de cerca tus acumulaciones de Cambio Tectónico. Provocar un autoaturdimiento durante un pull difícil en una mítica alta puede resultar en la derrota inmediata del grupo [332].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Nivelación Paso a Paso">
+
+Para subir de nivel con éxito a tu **primalista de conquest of azeroth**, debes ir adaptando tu build a medida que desbloqueas talentos de mayor nivel y transicionas del mundo abierto a las mazmorras personalizadas [332].
+
+<Steps>
+  <Step num="1" title="Fase Inicial (Niveles 1-20)">
+    Comienza como Caminante Salvaje. El daño físico de tus compañeros animales y los bajos costes de maná hacen que completar misiones en el mundo abierto sea increíblemente rápido [ukNiDWKWEtI, 332]. Concéntrate en conseguir equipo de placas con Fuerza y un arma lenta de dos manos para maximizar tu daño de golpe [ukNiDWKWEtI].
+  </Step>
+  <Step num="2" title="Transición a Mazmorras (Niveles 21-40)">
+    Empieza a reunir piezas secundarias de placas con Intelecto. Si prefieres el juego en grupo, cambia a la especialización de Vida para conseguir colas de mazmorra instantáneas [ukNiDWKWEtI]. Utiliza Ola Primordial y Martillo de Vida para mantener sano a tu tanque mientras contribuyes al daño cuerpo a cuerpo [ukNiDWKWEtI].
+  </Step>
+  <Step num="3" title="Especialización de Fin de Juego (Niveles 41-60)">
+    Comprométete con tu rol principal. Para bandas, optimiza tu especialización de Geomancia acumulando celeridad de hechizos para reducir el tiempo de lanzamiento de Aluvión de Geodas [ukNiDWKWEtI, 332]. Para PvP de alto riesgo, mantente como Caminante Salvaje o Rey de la Montaña para obtener un control de masas y una supervivencia superiores [ukNiDWKWEtI, 332].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ventaja de Alto Riesgo">
+Si estás subiendo de nivel en el modo PvP de Alto Riesgo de Ascension, la elevada armadura natural del Rey de la Montaña y sus barreras de aturdimiento te convierten en un objetivo sumamente difícil de emboscar [332].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipo de Fin de Juego y Prioridades de Rotación">
+
+Maximizar tu rendimiento al nivel 60 requiere una rotación estricta y una optimización adecuada de los sistemas de estadísticas personalizados de [Ascension WoW](https://ascension.gg/) [332].
+
+### Prioridades de Rotación por Especialización
+
+| Especialización | Abridor Principal | Hechizos de Rotación Clave | Cooldown Defensivo / Utilidad |
+| :--- | :--- | :--- | :--- |
+| **Rey de la Montaña** | Cargar / Choque de Tierra | Cambio Tectónico, Hender, Martillo de Pied | Barrera de Tierra, Forma de Avatar |
+| **Vida** | Martillo de Vida | Ola Primordial, Zarzas del Sueño Esmeralda, Sanación de Tierra | Resurrección Ancestral, Limpiar Veneno |
+| **Caminante Salvaje** | Invocar Tótem | Fuerza Salvaje de Urso, Golpe de Garra, Colmillos Primales | Caparazón de Tortuga Espíritu, Espíritu Ancestral |
+| **Geomancia** | Fisura de Magma | Aluvión de Geodas, Tormenta de Arena, Oleada de Tierra | Tumba de Piedra, Escudo de Magma |
+
+### Optimización de Estadísticas
+
+- **Tanques (Rey de la Montaña)**: Armadura > Aguante > Índice de Defensa > Fuerza
+- **Sanadores (Vida)**: Poder con Hechizos > Intelecto > Golpe Crítico > Celeridad
+- **DPS de Melé (Caminante Salvaje)**: Fuerza > Poder de Ataque > Índice de Golpe > Golpe Crítico
+- **DPS de Hechizos (Geomancia)**: Poder con Hechizos > Celeridad > Intelecto > Crítico de Hechizos
+
+<Callout type="info" title="Estadísticas Personalizadas">
+No olvides utilizar los sistemas de mejora de objetos personalizados de Conquest of Azeroth. Puedes mejorar objetos clásicos para que cuenten con estadísticas que se alineen perfectamente con tu especialización de Primalista [332].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progreso del Primalista">
+
+Sigue el progreso de tu personaje para asegurarte de estar completamente optimizado para las bandas de fin de juego y las mazmorras Míticas+ de alto nivel [332].
+
+<Checklist
+  id="primalist-progression"
+  title="Hitos de Fin de Juego:"
+  items={[
+    "Alcanzar el nivel 60 y desbloquear todos los talentos de nivel.",
+    "Adquirir un conjunto completo de armadura de placas especializada (Fuerza o Intelecto).",
+    "Obtener tu arma definitiva de especialización (ej. arma de 2H de alto DPS para Caminante Salvaje o bastón de Poder con Hechizos para Geomancia).",
+    "Dominar el límite de Cambio Tectónico para evitar autoaturdimientos como tanque.",
+    "Derrotar a los Jefes de Mundo personalizados para asegurar mejoras de equipo Forjado por la Sangre."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puede el Primalista de Conquest of Azeroth usar armas de doble empuñadura?",
+    answer: "Sí. La especialización de Caminante Salvaje se puede jugar de manera efectiva utilizando tanto una enorme arma de dos manos como empuñando dos armas de una mano, dependiendo de tu configuración de talentos."
+  },
+  {
+    question: "¿Es viable la especialización de Vida como sanador único en mazmorras Míticas+?",
+    answer: "Por supuesto. Aunque Vida es un sanador de melé, sus sanaciones en área constantes, sus barreras protectoras de Sueño Esmeralda y sus fuertes curas a un solo objetivo lo hacen sumamente competitivo en contenido de 5 jugadores."
+  },
+  {
+    question: "¿Cómo funciona la mecánica de autoaturdimiento del Rey de la Montaña?",
+    answer: "El uso de habilidades tectónicas como Cambio Tectónico acumula energía sísmica. Si generas demasiada actividad tectónica sin permitir que la energía se disipe, tus defensas terrestres se sobrecargan, aturdiéndote brevemente."
+  },
+  {
+    question: "¿Cuál es el recurso principal que utiliza el Primalista?",
+    answer: "El Primalista es una clase híbrida que canaliza tanto Maná como Ira dependiendo de tu especialización activa y tus habilidades, lo que permite un flujo de combate muy singular."
+  }
+]} />
+
+</Section>

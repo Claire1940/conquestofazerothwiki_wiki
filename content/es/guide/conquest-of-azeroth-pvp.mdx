@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth PvP: Guía de Clasificación de Clases y Sistemas de Combate",
+  description: "Domina el PvP de Conquest of Azeroth con nuestra guía sobre sistemas de alto riesgo, clasificaciones de clases y estrategias de arena para la expansión personalizada de Ascension WoW.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PvP+Combat+Guide",
+  date: "2026-07-04",
+  author: "Equipo de Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Conquest of Azeroth PvP** cuenta con un sistema único de Riesgo Híbrido que permite a los jugadores alternar entre los modos PvE, PvP estándar y Alto Riesgo.
+- **Modo de Alto Riesgo** es el desafío definitivo donde los jugadores pierden los objetos equipados y del inventario al morir, pero obtienen equipo forjado con sangre (Bloodforged) exclusivo.
+- **Las Clases de Nivel Superior** actualmente favorecen a los Piromantes y Cultistas por su alta movilidad, autosuficiencia y mecánicas agresivas de curación a través del daño.
+- **Opciones de Arena** incluyen brackets de 1v1, 2v2 y 3v3 con mapas originales diseñados específicamente para las interacciones de clases personalizadas.
+- **Estrategia de Equipamiento** se centra en el mundo abierto en Alto Riesgo, donde las mejoras de Buscador de Tesoros te permiten encontrar botín de nivel de mazmorra sin entrar en instancias.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el Sistema PvP de Riesgo Híbrido">
+
+El núcleo de **conquest of azeroth pvp** está construido sobre una arquitectura flexible que se adapta a las diversas preferencias de los jugadores. A diferencia de los servidores tradicionales que te limitan a un tipo de reino específico, este proyecto utiliza un sistema de "Riesgo Híbrido". Esto permite que todos los jugadores coexistan en la misma fase del mundo mientras eligen el nivel de peligro con el que se sientan cómodos.
+
+| Modo | Interacción PvP | Reglas de Botín | Beneficios Especiales |
+| :--- | :--- | :--- | :--- |
+| **Modo PvE** | Ninguna (No seleccionable) | Estándar | Acceso total a grupos y bandas |
+| **Modo PvP** | Combate en Mundo Abierto | Estándar | Ganancias estándar de honor y prestigio |
+| **Alto Riesgo** | Combate Total (Fase Separada) | **Pérdida de Objetos al Morir** | Acceso a objetos Bloodforged y materiales raros |
+
+En el PvP de Alto Riesgo, se te clasifica como un Buscador de Tesoros. Este estado específico otorga una poderosa mejora que permite a los monstruos del mundo abierto soltar versiones Bloodforged del equipo de Mazmorra y Banda. Esto significa que puedes equiparte eficazmente para el combate de alto nivel participando por completo en el mundo abierto, siempre que puedas sobrevivir a las amenazas de otros jugadores.
+
+<Callout type="warning" title="Advertencia de Alto Riesgo">
+En el modo de Alto Riesgo, derrotar a un héroe te permite saquear un cofre que contiene piezas de su equipo equipado y de su inventario. Lleva siempre conjuntos de repuesto si tienes la intención de aventurarte en territorios en disputa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Viabilidad de Clases PvP y Clasificación de Sanadores">
+
+Seleccionar la clase adecuada es la decisión más crítica para cualquier jugador que busque dominar en **conquest of azeroth pvp**. Con 21 clases originales y 69 especializaciones en total, el meta es diverso. Los sanadores, en particular, juegan un papel transformador en las escaramuzas grupales y arenas.
+
+**Puntos Destacados del Video:**
+- Análisis de los 8 arquetipos principales de sanación para el juego competitivo.
+- Por qué los sanadores que infligen daño como el Piromante y el Cultista están dominando actualmente el meta.
+- Desglose de movilidad frente a rendimiento bruto para diferentes brackets de arena.
+- Información sobre las mecánicas "poco divertidas" frente a las "efectivas" del Clérigo del Sol y el Clamaestrellas.
+
+<YouTubeEmbed videoId="wum8A2L3HWM" title="Conquest of Azeroth HEALER TIERLIST! (Ascension CoA)" />
+
+El meta actual enfatiza las clases que pueden contribuir a la presión ofensiva del grupo mientras mantienen las barras de salud. Los sanadores pasivos de "línea trasera" a menudo sufren contra los asesinos de alta movilidad que prevalecen en la alfa actual.
+
+| Clase | Nivel PvP | Fuerza Principal | Rol en PvP |
+| :--- | :--- | :--- | :--- |
+| **Piromante** | **Nivel S** | Alta Movilidad / Burlar a la Muerte | Sanador Agresivo / DPS |
+| **Cultista** | **Nivel S** | Ráfaga de Demencia / Curas Inteligentes | Sanador Cuerpo a Cuerpo / Tanque |
+| **Manitas** | **Nivel A** | Zonificación con Torretas / Bombas de CC | Soporte / Sanador |
+| **Venomante** | **Nivel A** | Cambio de Forma / Incremento de HoT | Sanador Sostenido |
+| **Cronomante** | **Nivel B** | Retroceso del Tiempo / Utilidad | Soporte / Utilidad |
+| **Clérigo del Sol** | **Nivel C** | Alta Defensa / Lanzamiento de Hechizos | Sanador Defensivo |
+
+<Callout type="tip" title="Opinión Profesional">
+La mecánica de "Fénix" del Piromante cambia las reglas del juego en PvP. Te permite transformarte al morir, continuar lanzando hechizos y revivir con todos los recursos, lo que obliga al enemigo a tener que matarte dos veces.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Arquetipos de Clases PvP Principales">
+
+Más allá de la sanación, las 21 clases se dividen en roles especializados que definen su impacto en el campo de batalla. Ya sea que prefieras la fuerza bruta de un Bárbaro o los sutiles trucos de un Segador, comprender tu arquetipo es esencial.
+
+<CardGrid cols={3}>
+  <Card title="Asesinos Físicos">
+    - **Segador**: Cosecha almas y utiliza la salud para potenciar sus golpes.
+    - **Ranger**: Supervivientes versátiles con arcos y trampas cuerpo a cuerpo.
+    - **Cazador de Brujas**: Utiliza ballestas dobles y virotes de plata para purgar enemigos.
+  </Card>
+  <Card title="Taumaturgos Elementales">
+    - **Clama tormentas**: Magos de rayos que acumulan estática para un daño masivo en área.
+    - **Maestro de las Runas**: Teje runas antiguas para rotar a través de sintonías elementales.
+    - **Nigromante**: Abruma a los enemigos con múltiples mascotas no muertas y plagas.
+  </Card>
+  <Card title="Colosos Pesados">
+    - **Caballero de Xoroth**: Caballeros del infierno que cabalgan corceles oscuros hacia el combate.
+    - **Guardián**: Los tanques definitivos con escudo y alto control de masas (CC).
+    - **Primalista**: Canaliza la tierra para convertirse en un bastión defensivo.
+  </Card>
+</CardGrid>
+
+Cada una de estas clases utiliza recursos únicos. Por ejemplo, el **Jurado del Caos** utiliza Cargas de Furia de Fuego y una transformación en Forma de Demonio, lo que los hace excelentes para momentos de ráfaga de daño en arenas 2v2. Por el contrario, el **Bárbaro** depende de la Ira Desenfrenada, volviéndose más peligroso a medida que la lucha se prolonga.
+
+| Sistema de Recursos | Clases | Impacto en PvP |
+| :--- | :--- | :--- |
+| **Demencia** | Cultista | Alto riesgo de muerte si se gestiona mal, pero daño masivo. |
+| **Poder Solar** | Clérigo del Sol | Requiere acumulación; ráfagas predecibles pero poderosas. |
+| **Estática** | Clama tormentas | Aumenta la probabilidad de activación; recompensa permanecer en combate. |
+| **Fuego de Muerte** | Caballero de Xoroth | Se utiliza para movimientos finales apocalípticos. |
+
+<Callout type="success" title="Consejo de Estrategia">
+Cuando juegues con un Maestro de las Runas, domina el ciclo de Sintonía de 8 segundos. Sincronizar tu ráfaga con el elemento correcto (Fuego para daño, Escarcha para CC) es la diferencia entre ganar y perder en escenarios 1v1.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Equiparse para el PvP: El Camino Bloodforged">
+
+Equiparse en **conquest of azeroth pvp** difiere significativamente del WoW oficial. Aunque puedes realizar mazmorras y bandas para obtener equipo estándar, el camino más eficiente para un jugador dedicado al PvP es el mundo abierto de Alto Riesgo.
+
+<Steps>
+  <Step num="1" title="Activa el Modo de Alto Riesgo">
+    Cambia a la fase de Alto Riesgo a través del selector de reino. Asegúrate de tener un conjunto básico de equipo que estés dispuesto a perder.
+  </Step>
+  <Step num="2" title="Activa Buscador de Tesoros">
+    Una vez en la fase de Alto Riesgo, recibirás la mejora de Buscador de Tesoros. Esto aumenta tu suerte y permite la obtención de botines únicos de todas las criaturas del mundo.
+  </Step>
+  <Step num="3" title="Farmea en Zonas en Disputa">
+    Dirígete a áreas de alta densidad en Kalimdor o los Reinos del Este. Derrota monstruos para encontrar **equipo Bloodforged**, el cual cuenta con estadísticas mejoradas en comparación con las versiones estándar.
+  </Step>
+  <Step num="4" title="Extrae y Comercia">
+    El equipo Bloodforged no se vincula al alma. Si encuentras una pieza que no se adapta a tu clase, puedes venderla en la Casa de Subastas por oro para comprar las piezas que necesitas.
+  </Step>
+</Steps>
+
+Los objetos Bloodforged son la cumbre del equipamiento PvP. A menudo reducen la brecha entre los jugadores casuales y los veteranos de bandas, permitiendo que la habilidad y la asunción de riesgos dicten los niveles de poder en lugar de solo el tiempo dedicado a las instancias.
+
+<Callout type="warning" title="Mecánicas Anti-Grupos">
+Las zonas de Alto Riesgo a menudo tienen mecánicas para desalentar a los grupos masivos de acampar a jugadores individuales. Mantente en movimiento y evita permanecer en una misma subzona durante demasiado tiempo para minimizar tu visibilidad en el mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparación para Arenas y Campos de Batalla">
+
+Para aquellos que prefieren el combate estructurado, las arenas 1v1, 2v2 y 3v3 ofrecen un entorno más controlado. Estos encuentros tienen lugar en mapas originales diseñados específicamente para manejar la verticalidad y la movilidad de los nuevos conjuntos de habilidades de las clases.
+
+<Checklist
+  id="pvp-prep"
+  title="Lista de Verificación Previa al Encuentro:"
+  items={[
+    "Verifica que los 69 talentos de especialización estén correctamente asignados",
+    "Abastécete de elixires y pociones de Médico Brujo",
+    "Asegúrate de priorizar tu estadística principal (Fuerza/Agilidad/Intelecto) en el equipo",
+    "Configura macros para mecánicas específicas de clase, como el Retroceso del Cronomante",
+    "Comprueba la durabilidad de tu equipo antes de entrar en la cola"
+  ]}
+/>
+
+La Tormenta de Maná es otra característica única para los entusiastas del PvP. Aunque es principalmente PvE, las habilidades aprendidas en los más de 4000 niveles de la Tormenta de Maná se traducen directamente en la precisión mecánica requerida para el juego de arena de alto nivel.
+
+| Bracket de Arena | Mejores Arquetipos | Estrategia Clave |
+| :--- | :--- | :--- |
+| **1v1** | Segador, Jurado del Caos, Duelista | Superar en aguante y agotamiento de recursos. |
+| **2v2** | Piromante + Guardián | Proteger al taumaturgo mientras incrementa su daño. |
+| **3v3** | Cultista + Clama tormentas + Manitas | Presión masiva en área y control de zonas. |
+
+<Callout type="info" title="Conocimiento del Mapa">
+Los mapas de arena originales en Conquest of Azeroth cuentan con elementos interactivos. Utiliza el terreno para romper la línea de visión contra los Piromantes, ya que sus curaciones y daños en cono frontal requieren una trayectoria directa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Está el PvP de Conquest of Azeroth equilibrado para las 21 clases?",
+    answer: "El equilibrio es un proceso continuo durante la fase Alfa. Aunque algunas clases como el Piromante se sienten más fuertes actualmente, el equipo de desarrollo dedicado lanza parches con frecuencia para ajustar el escalado y las mecánicas basándose en los comentarios de los jugadores."
+  },
+  {
+    question: "¿Puedo perder mi equipo en el modo PvP estándar?",
+    answer: "No. La pérdida de objetos es exclusiva del modo PvP de Alto Riesgo. En el modo PvP estándar, solo pierdes durabilidad y ganas o pierdes puntos de honor, de manera similar a un servidor PvP tradicional."
+  },
+  {
+    question: "¿Cómo obtengo equipo Bloodforged sin entrar en Alto Riesgo?",
+    answer: "Dado que los objetos Bloodforged no se vinculan al alma, puedes comprárselos a otros jugadores en la Casa de Subastas. Esto permite a los jugadores enfocados en PvE adquirir equipo de alto nivel utilizando el oro obtenido a través de otras actividades."
+  },
+  {
+    question: "¿Cuál es la mejor estadística principal para una clase híbrida como el Clamaestrellas?",
+    answer: "Para PvP, los Clamaestrellas generalmente se benefician más del Intelecto, ya que potencia tanto sus curaciones como sus hechizos de daño astral. Sin embargo, algunas configuraciones orientadas a tanque pueden priorizar la Fuerza para la eficiencia de la armadura de Placas."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Blood Mage: Complete Class Overview",
+  description: "Explore the Blood Mage class in Conquest of Azeroth. Learn about specializations, playstyles, and how to master this dark, life-draining caster.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Blood+Mage+Guide",
+  date: "2026-07-04",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Conquest of Azeroth Blood Mage** is a versatile class that utilizes Rage and personal HP for spellcasting.
+- Players can choose between **Fleshweaver, Sanguine, Accursed, and Eternal** specializations to fill any role.
+- Blood Mages excel at **life-leeching mechanics**, allowing them to sustain themselves and their allies through combat.
+- Mastery of the **Hunger state** and blood rituals is essential for optimizing damage and healing output.
+</Callout>
+
+<Section icon={BookOpen} title="Understanding the Blood Mage">
+
+The Blood Mage is a unique, dark spellcaster introduced in Conquest of Azeroth. Unlike traditional casters who rely solely on mana, Blood Mages channel their own life force and build Rage to execute sinister designs. Whether you want to tank as a beast, heal through ritualistic damage, or deal devastating ranged damage, this class offers a highly interactive and aggressive playstyle.
+
+**Video Highlights:**
+- Blood Mages use Rage and health to cast abilities.
+- The class is capable of fulfilling Tank, DPS, and Healer roles.
+- Transformation mechanics are central to the Accursed and Eternal specializations.
+- Life-leeching is the primary method for maintaining survival during combat.
+
+<YouTubeEmbed videoId="4mEVTHzHkqY" title="New WoW Class: Bloodmage - Conquest of Azeroth" />
+
+<Callout type="tip" title="Class Philosophy">
+Always keep an eye on your HP bar. Since your spells drain your own vitality, balancing your damage output with your survival mechanics is the key to mastering the Blood Mage.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Blood Mage Specializations">
+
+The Blood Mage offers four distinct paths, each catering to different combat roles. Choosing the right specialization depends on whether you prefer frontline tanking or tactical spellcasting.
+
+| Specialization | Primary Role | Core Stat | Playstyle Focus |
+| :--- | :--- | :--- | :--- |
+| **Fleshweaver** | Healer | Spirit | Ritualistic healing, AoE life-steal |
+| **Sanguine** | Ranged DPS | Intellect | Health-cost spells, Hunger state |
+| **Accursed** | Melee DPS | Agility | Hybrid magic/melee, Vampiric form |
+| **Eternal** | Tank | Stamina | Lycanthropy, Damage reduction |
+
+<CardGrid cols={2}>
+  <Card title="Fleshweaver">
+    A ritualistic healer who manipulates blood to restore allies. Deals damage to fuel powerful healing effects and builds Pooled Vitality for burst output.
+  </Card>
+  <Card title="Sanguine">
+    A pure caster that transmutes life force into devastation. Manages a Hunger state that boosts power at the cost of rapid HP drain.
+  </Card>
+  <Card title="Accursed">
+    A hybrid fighter that shifts between ranged magic and a monstrous vampiric melee form. Excels at bleed damage and life-leeching.
+  </Card>
+  <Card title="Eternal">
+    A savage tank that embraces lycanthropy. Transforms into a Worgen to reduce damage, summon spectral wolves, and lead the pack.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Role Flexibility">
+The Blood Mage is one of the few classes in Conquest of Azeroth that can comfortably transition between all three major group roles, making it an excellent choice for players who enjoy versatility.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression and Mechanics">
+
+Mastering the Blood Mage requires understanding the cycle of resources. You must learn when to spend your health and when to leech it back from enemies.
+
+<Steps>
+  <Step num="1" title="Resource Management">
+    Begin by understanding your Rage and HP interaction. Use abilities to build Rage while carefully monitoring your current health levels.
+  </Step>
+  <Step num="2" title="Mastering Transformations">
+    For Accursed and Eternal specs, learn the timing for your transformations. Triggering these at the right moment can turn the tide of a difficult encounter.
+  </Step>
+  <Step num="3" title="Sustained Combat">
+    Utilize your life-leeching spells like Vampiric Fang or Life Drinker to regain sanity and health, ensuring you do not succumb to your own dark powers.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Watch Your Health">
+Entering the Hunger state or staying in a transformed form for too long can leave you vulnerable. Always have a leeching spell ready to recover from the health cost of your powerful attacks.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Goals and Milestones">
+
+To become a master of the Blood Arts, follow this checklist to ensure you are progressing efficiently through the content available in Conquest of Azeroth.
+
+<Checklist
+  id="blood-mage-goals"
+  title="Blood Mage Development Milestones:"
+  items={[
+    "Select your preferred specialization based on desired role",
+    "Master the life-leech cycle for your specific spec",
+    "Complete the specialized class quests for your chosen path",
+    "Acquire gear that enhances your primary stat (Spirit, Intellect, Agility, or Stamina)",
+    "Practice transformation timing in low-risk dungeon environments"
+  ]}
+/>
+
+| Milestone | Objective | Benefit |
+| :--- | :--- | :--- |
+| **Core Mastery** | Reach Level 20 | Unlocks core transformation/ritual spells |
+| **Role Optimization** | Gear for Primary Stat | Maximizes throughput for your chosen role |
+| **Advanced Play** | Clear Heroic Dungeons | Tests your ability to manage HP under pressure |
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can the Blood Mage heal effectively in groups?",
+    answer: "Yes, the Fleshweaver specialization is specifically designed for group healing. It uses damage-based rituals and life-steal mechanics to keep allies topped off."
+  },
+  {
+    question: "Is the Blood Mage difficult to play for beginners?",
+    answer: "The class has a high skill ceiling due to its health-management mechanics. It is recommended for players familiar with Conquest of Azeroth's core systems."
+  },
+  {
+    question: "Which race is best for a Blood Mage?",
+    answer: "Both Alliance and Horde have access to the class. Choose based on your faction preference, as racial passives provide minor benefits rather than class-defining changes."
+  }
+]} />
+
+<Callout type="info" title="Official Resources">
+For more in-depth data and community discussions, visit the [Project Ascension Wiki](https://project-ascension.fandom.com/wiki/Bloodmage) to stay updated on balance changes and mechanics.
+</Callout>
+
+</Section>

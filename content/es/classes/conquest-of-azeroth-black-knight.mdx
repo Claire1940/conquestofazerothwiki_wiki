@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Caballero Negro: Guía de Build y Tanqueo",
+  description: "Domina la especialización de Caballero Negro en Conquest of Azeroth. Aprende mitigación activa, rotaciones de robo de vida y escalado de equipo para dominar las mazmorras de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Black+Knight+Guide",
+  date: "2026-07-04",
+  author: "Equipo de Wiki de Conquest of Azeroth",
+  keywords: "conquest of azeroth, caballero negro, tanque, guía, build"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Build Principal**: El **caballero negro de conquest of azeroth** es una especialización de tanque de complejidad intermedia construida en torno al desvío activo y el robo de vida basado en las sombras [1].
+- **Mecánica Clave**: A diferencia de los tanques tradicionales con escudo, usas armadura de malla y dependes de **Noctis Blade** y la curación activa para mitigar el daño entrante [1].
+- **Prioridad de Recursos**: Equilibra tu generación de ira para alimentar **Desecrate** mientras usas **Dawn Blade** para mantener tu reserva de maná [1].
+- **Mejor Estrategia**: Mantén **March of the Black King** activa en todo momento para infligir daño de sombras pasivo en área de efecto (AoE) y generar ira constante [1].
+- **Mejor Utilidad**: Usa **Chains of Darkness** para atraer y provocar a todos los enemigos cercanos, posicionándolos perfectamente para tus curaciones AoE [1].
+- **Nota del Cronograma**: Esta guía está actualizada para la fase de transición Alfa/Beta de 2026 [1].
+</Callout>
+
+<Section icon={Shield} title="Presentando la Fantasía de Clase del Caballero Negro">
+
+El **caballero negro de conquest of azeroth** destaca como uno de los tanques de mitigación activa de diseño más exclusivo en el ecosistema de Project Ascension [1]. Combinando la estética de un cruzado oscuro con la profundidad mecánica de un caballero de la muerte orientado a la sangre, esta especialización cambia la armadura pesada de placas y los escudos por una gran agilidad, índice de desvío y robo de vida basado en las sombras [1]. 
+
+Dado que usas armadura de malla y no puedes bloquear, tu supervivencia depende por completo de tu capacidad para encadenar tiempos de reutilización defensivos, aplicar maldiciones de sombras debilitantes y curarte activamente del daño que recibes [1]. Esto crea un estilo de juego con un límite de habilidad muy alto, donde errar el cálculo de una habilidad puede llevarte a una muerte rápida, pero una ejecución perfecta te hace casi inmortal en el contenido grupal [1].
+
+**Puntos Destacados del Video:**
+- **Resumen de las Cuatro Ramas**: Análisis del árbol de clases del Cazador de Brujas (Witch Hunter), que incluye Caballero Negro, Oscuridad, Lanzador de virotes (Bolt Slinger) e Inquisición [1].
+- **Gestión de Recursos**: Cómo equilibrar la intrincada relación entre la ira y el maná [1].
+- **Mitigación Activa**: Demostración del poder de los escudos de Noctis Blade y las autocuraciones de Desecrate en Manastorms en vivo [1].
+
+<YouTubeEmbed videoId="oeCL1ZL0BIg" title="I CAN BE A BLACK KNIGHT? FOUR SPECS?! | Conquest of Azeroth CLOSED ALPHA | Project Ascension" />
+
+<Callout type="tip" title="Perspectiva del Desarrollador">
+El Caballero Negro fue diseñado para ofrecer un estilo de juego de alto riesgo y alta recompensa. Escala increíblemente bien con la Agilidad, que se convierte directamente en Índice de Desvío, lo que lo convierte en una opción de tanque altamente ofensiva [1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades y Mecánicas Principales">
+
+Para jugar con éxito al **caballero negro de conquest of azeroth**, debes comprender cómo interactúan tus habilidades principales para generar amenaza, mitigar golpes físicos y recuperar salud [1]. La especialización depende de un delicado equilibrio entre la ira y el maná, lo que requiere que entrelaces golpes de tipo hechizo con ataques físicos [1].
+
+| Habilidad | Coste / Tiempo de Reutilización | Efecto Principal | Rol en Combate |
+| :--- | :--- | :--- | :--- |
+| **March of the Black King** | Generador de Ira Principal | Daño de sombras AoE a 8 objetivos; genera ira | **Esencial** (Mantener activo) |
+| **Noctis Blade** | Activo / Post-Desvío | Golpe físico/sombras; cura en función del daño | **Mitigación Activa** |
+| **Desecrate** | Consume Marca / Juramento | Consume Marca de las Sombras para curar y restaurar maná | **Autocuración de Ráfaga** |
+| **Dawn Blade** | Bajo Coste de Maná | Inflige daño Sagrado/Sombras; restaura maná | **Sustento de Recursos** |
+| **Night Seal** | Maldición AoE | Maldice a 8 enemigos; aplica Juramento Oscuro para reducir el daño | **Reducción de Daño** |
+| **Chains of Darkness** | Utilidad / Provocación | Atrae a todos los objetivos a tu ubicación y los provoca | **Control de Masas / Agro** |
+
+### Sinergias Pasivas
+- **Agilidad a Desvío**: Tu árbol pasivo convierte un porcentaje masivo de tu Agilidad directamente en Índice de Desvío [1].
+- **Protección de Noctis**: Acertar con éxito un Noctis Blade te otorga un escudo de absorción de daño físico [1].
+- **Daño del Crepúsculo**: Combinar tipos de daño de Sombras y Sagrado permite que tus ataques ignoren los valores de armadura estándar [1].
+
+<Callout type="warning" title="Trampa de Recursos">
+No ignores tu maná. Aunque tus habilidades ofensivas cuestan ira, tu utilidad, autocuraciones y Dawn Blade dependen del maná [1]. Si te quedas sin maná, no podrás lanzar Desecrate para salvarte [1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotación de Tanqueo del Caballero Negro">
+
+La rotación del Caballero Negro se divide en una fase de atracción (pull), un ciclo de mantenimiento de mitigación y una fase de recuperación de emergencia [1]. Debido a que careces de escudo, establecer una amenaza inmediata y escudos activos es tu máxima prioridad al enfrentarte a los enemigos [1].
+
+<Steps>
+  <Step num="1" title="La Atracción y Agrupación">
+    Inicia el combate lanzando **March of the Black King** para empezar a generar ira [1]. Usa **Chains of Darkness** para agrupar a los enemigos cuerpo a cuerpo y a distancia directamente sobre ti, asegurando instantáneamente una sólida amenaza AoE [1].
+  </Step>
+  <Step num="2" title="Aplicar Debilitamientos">
+    Aplica **Night Seal** a todos los objetivos para maldecirlos y ganar el beneficio de **Juramento Oscuro**, que reduce tu daño general recibido [1]. Usa **Saber Slash** para esparcir la **Marca de las Sombras** en tus objetivos principales [1].
+  </Step>
+  <Step num="3" title="Ciclo de Mitigación Activa">
+    Una vez que desvíes un ataque, activa inmediatamente **Noctis Blade** para encender tu escudo físico [1]. Intercala **Dawn Blade** para mantener tu maná al máximo y sostener una alta amenaza de un solo objetivo [1].
+  </Step>
+  <Step num="4" title="La Curación de Desecrate">
+    Cuando tu salud caiga por debajo del 70%, consume tus marcas de sombras activas y las acumulaciones de Juramento Oscuro usando **Desecrate** [1]. Esto restaura instantáneamente una gran parte de tu salud y de tu reserva de maná [1].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Supervivencia">
+Guarda siempre tu **Dark Tonic** (que actúa como un aumento de salud de Última carga) para cuando tu sanador esté bajo control de masas o cuando te enfrentes a mecánicas de jefes con un daño de ráfaga muy alto [1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Opciones de Build de Caballero Negro">
+
+Dependiendo de si estás realizando mazmorras de nivel mítico o enfrentándote a Manastorms de alto nivel, tu configuración de talentos cambiará ligeramente para favorecer la supervivencia pura o el daño AoE de alta amenaza [1].
+
+<CardGrid cols={3}>
+  <Card title="Build de Supervivencia">
+    - **Protección de Noctis** al máximo
+    - Se enfoca en el tamaño del escudo
+    - Alta disponibilidad de **Estoicismo**
+    - Ideal para progresión de bandas (raids)
+  </Card>
+  <Card title="Build de Velocidad AoE">
+    - **Plaga de Brujas** mejorada
+    - Alto escalado de daño de sombras
+    - **March of the Black King** más rápido
+    - Ideal para farmear en niveles bajos
+  </Card>
+  <Card title="Build Híbrida de Utilidad">
+    - Se enfoca en **Chains of Darkness**
+    - Incluye **Aura de Limpieza**
+    - Altas opciones de control de masas
+    - Ideal para grupos caóticos con desconocidos (PUG)
+  </Card>
+</CardGrid>
+
+### Prioridad de Estadísticas para el Escalado de Equipo
+1. **Agilidad**: Tu mejor estadística absoluta. Aumenta tu armadura, probabilidad de golpe crítico y potencia directamente tu índice de desvío [1].
+2. **Aguante**: Esencial para sobrevivir a los golpes iniciales antes de que se activen tu robo de vida y tus escudos de desvío [1].
+3. **Daño de Sombras/Sagrado**: Incrementa la cantidad de curación de tus habilidades de robo de vida como Plaga de Brujas y Desecrate [1].
+4. **Celeridad**: Reduce tus tiempos de reutilización globales, lo que te permite reaccionar más rápido a los efectos de desvío [1].
+
+<Callout type="info" title="Limitaciones de la Armadura">
+Recuerda que, al ser un tanque que usa malla, tu reducción de daño físico por armadura es menor que la de los tanques de placas. Debes compensar esto manteniendo tus escudos activos y tus mejoras de desvío el 100% del tiempo [1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para la Progresión del Juego Tardío">
+
+Para optimizar por completo a tu **caballero negro de conquest of azeroth** para bandas de alto nivel y el meta de JcJ (PvP) de 2026, asegúrate de haber cumplido todos los siguientes objetivos de progresión [1]:
+
+<Checklist
+  id="black-knight-progression"
+  title="Hitos del Caballero Negro:"
+  items={[
+    "Alcanzar el nivel 50 y desbloquear todos los talentos de tanqueo intermedios",
+    "Adquirir un conjunto completo de equipo de tanqueo de malla con gran cantidad de agilidad",
+    "Dominar el tiempo de lanzamiento de Noctis Blade inmediatamente después de un desvío",
+    "Configurar alertas personalizadas en la interfaz para rastrear tus acumulaciones de Marca de las Sombras y Juramento Oscuro",
+    "Obtener la receta de Dark Tonic para una autocuración de emergencia confiable"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puede el Caballero Negro de Conquest of Azeroth bloquear ataques?",
+    answer: "No. El Caballero Negro es un tanque de agilidad que usa malla y depende por completo del desvío, los escudos de absorción activos y el robo de vida basado en las sombras para sobrevivir a los golpes físicos."
+  },
+  {
+    question: "¿Cómo genera maná el Caballero Negro durante combates largos?",
+    answer: "Debes lanzar Dawn Blade con regularidad. Inflige daño del Crepúsculo y actúa como tu herramienta principal para restaurar tu reserva de maná durante encuentros de combate prolongados."
+  },
+  {
+    question: "¿Cuál es la principal diferencia entre el Caballero Negro y el Caballero de la Muerte Sangre?",
+    answer: "Aunque ambos son tanques basados en el robo de vida, el Caballero Negro usa malla en lugar de placas, no puede bloquear y depende de los efectos de desvío para activar sus escudos de absorción en lugar de golpes mortales reactivos."
+  },
+  {
+    question: "¿Es Chains of Darkness obligatorio para la build?",
+    answer: "Sí. Combina tu atracción AoE principal y tu provocación en un solo botón, convirtiéndose en la forma más eficiente de agrupar y controlar a los enemigos."
+  }
+]} />
+
+</Section>

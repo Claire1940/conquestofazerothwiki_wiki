@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Schwarzer Ritter: Build- & Tank-Guide",
+  description: "Meistere die Conquest of Azeroth Schwarzer Ritter Spezialisierung. Lerne aktive Schadensvermeidung, Lebensraub-Rotationen und Ausrüstungsskalierung, um die Dungeons von 2026 zu dominieren.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Black+Knight+Guide",
+  date: "2026-07-04",
+  author: "Conquest of Azeroth Wiki-Team",
+  keywords: "schwarzer ritter, tank guide, conquest of azeroth, projekt ascension, tanking, lebensraub"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Primärer Build**: Der **Conquest of Azeroth Schwarze Ritter** ist eine Tank-Spezialisierung mittlerer Komplexität, die auf aktivem Parieren und schattenbasiertem Lebensraub basiert [1].
+- **Kernmechanik**: Im Gegensatz zu traditionellen Schild-Tanks trägst du Kettenrüstung und verlässt dich auf **Noctis Blade** sowie aktive Heilung, um eingehenden Schaden zu mildern [1].
+- **Ressourcen-Priorität**: Balanciere deine Wuterzeugung, um **Desecrate** zu speisen, während du **Dawn Blade** nutzt, um deinen Manavorrat aufrechtzuerhalten [1].
+- **Beste Strategie**: Halte **March of the Black King** jederzeit aktiv, um passiven Flächenschaden (AoE) zu verursachen und konstant Wut zu generieren [1].
+- **Nützlichkeit**: Nutze **Chains of Darkness**, um alle Gegner in der Nähe heranzuziehen und zu spotten, um sie perfekt für deine AoE-Heilungen zu positionieren [1].
+- **Zeitplan-Hinweis**: Dieser Guide wurde für die Alpha/Beta-Übergangsphase 2026 aktualisiert [1].
+</Callout>
+
+<Section icon={Shield} title="Einführung in die Klassenphantasie des Schwarzen Ritters">
+
+Der **Conquest of Azeroth Schwarze Ritter** sticht als einer der am einzigartigsten gestalteten Tanks mit aktiver Schadensvermeidung im Project Ascension-Ökosystem hervor [1]. Diese Spezialisierung verbindet die Ästhetik eines dunklen Kreuzritters mit der mechanischen Tiefe eines blut-orientierten Todesritters und tauscht schwere Plattenrüstung und Schilde gegen hohe Beweglichkeit, Parierwertung und schattenbasierten Lebensraub ein [1].
+
+Da du Kettenrüstung trägst und nicht blocken kannst, hängt dein Überleben vollständig von deiner Fähigkeit ab, defensive Cooldowns zu nutzen, schwächende Schattenflüche zu wirken und den erlittenen Schaden aktiv gegenzuheilen [1]. Dies schafft einen Spielstil mit hoher Skill-Obergrenze, bei dem ein falsches Timing einer Fähigkeit zum schnellen Tod führen kann, perfekte Ausführung dich jedoch in Gruppeninhalten nahezu unsterblich macht [1].
+
+**Video-Highlights:**
+- **Überblick über vier Specs**: Analyse des Hexenjäger-Klassenbaums einschließlich Schwarzer Ritter, Dunkelheit, Bolzenschleuderer und Inquisition [1].
+- **Ressourcenmanagement**: Wie man die komplexe Beziehung zwischen Wut und Mana ausbalanciert [1].
+- **Aktive Schadensvermeidung**: Demonstration der Stärke von Noctis Blade-Schilden und Desecrate-Selbstheilungen in Live-Manastürmen [1].
+
+<YouTubeEmbed videoId="oeCL1ZL0BIg" title="ICH KANN EIN SCHWARZER RITTER SEIN? VIER SPECS?! | Conquest of Azeroth CLOSED ALPHA | Project Ascension" />
+
+<Callout type="tip" title="Entwickler-Einblick">
+Der Schwarze Ritter wurde entwickelt, um ein High-Risk, High-Reward-Gameplay zu bieten. Er skaliert unglaublich gut mit Beweglichkeit, die direkt in Parierwertung umgewandelt wird, was ihn zu einer hochgradig offensiven Tank-Option macht [1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kernfähigkeiten und Mechaniken">
+
+Um den **Conquest of Azeroth Schwarzen Ritter** erfolgreich zu spielen, musst du verstehen, wie deine Primärfähigkeiten interagieren, um Bedrohung zu erzeugen, physische Treffer abzumildern und Gesundheit wiederherzustellen [1]. Die Spec verlässt sich auf ein empfindliches Gleichgewicht zwischen Wut und Mana, was erfordert, dass du zauberähnliche Schläge mit physischen Angriffen verwebst [1].
+
+| Fähigkeit | Kosten / Abklingzeit | Haupteffekt | Kampfrolle |
+| :--- | :--- | :--- | :--- |
+| **March of the Black King** | Kern-Wuterzeuger | AoE-Schattenschaden an 8 Zielen; erzeugt Wut | **Essenziell** (Aktiv halten) |
+| **Noctis Blade** | Aktiv / Nach Parieren | Physischer/Schattenschlag; heilt basierend auf Schaden | **Aktive Mitigation** |
+| **Desecrate** | Verbraucht Brand / Oath | Verbraucht Schattenbrand zur Heilung und Manaregeneration | **Burst-Selbstheilung** |
+| **Dawn Blade** | Geringe Manakosten | Verursacht Heilig-/Schattenschaden; stellt Mana wieder her | **Ressourcen-Erhalt** |
+| **Night Seal** | AoE-Fluch | Verflucht 8 Feinde; gewährt Dark Oath zur Schadensreduktion | **Schadensreduktion** |
+| **Chains of Darkness** | Utility / Spott | Zieht alle Ziele zu deiner Position und spottet sie | **Crowd Control / Aggro** |
+
+### Passive Synergien
+- **Beweglichkeit zu Parieren**: Dein passiver Baum wandelt einen massiven Prozentsatz deiner Beweglichkeit direkt in Parierwertung um [1].
+- **Noctis Protection**: Ein erfolgreicher Treffer mit Noctis Blade gewährt dir einen Absorptionsschild für physischen Schaden [1].
+- **Twilight-Schaden**: Die Kombination von Schatten- und Heiligschadensarten ermöglicht es deinen Angriffen, Standard-Rüstungswerte zu umgehen [1].
+
+<Callout type="warning" title="Ressourcen-Falle">
+Ignoriere dein Mana nicht. Während deine offensiven Fähigkeiten Wut kosten, hängen deine Utility, Selbstheilungen und Dawn Blade von Mana ab [1]. Wenn dir das Mana ausgeht, kannst du Desecrate nicht wirken, um dich zu retten [1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotation des Schwarzen Ritters">
+
+Die Rotation des Schwarzen Ritters ist unterteilt in eine Pull-Phase, eine Schleife zur Aufrechterhaltung der Schadensvermeidung und eine Notfall-Wiederherstellungsphase [1]. Da dir ein Schild fehlt, hat der Aufbau sofortiger Bedrohung und aktiver Schilde oberste Priorität beim Kampfbeginn [1].
+
+<Steps>
+  <Step num="1" title="Der Pull & Zusammenziehen">
+    Beginne den Kampf, indem du **March of the Black King** wirkst, um Wut zu generieren [1]. Nutze **Chains of Darkness**, um Fern- und Nahkampfgegner direkt auf dir zu gruppieren und sofort solide AoE-Bedrohung zu sichern [1].
+  </Step>
+  <Step num="2" title="Debuffs auftragen">
+    Wende **Night Seal** auf alle Ziele an, um sie zu verfluchen und den **Dark Oath**-Buff zu erhalten, der deinen insgesamt erlittenen Schaden reduziert [1]. Nutze **Saber Slash**, um **Shadow Brand** auf deine Primärziele zu verteilen [1].
+  </Step>
+  <Step num="3" title="Aktive Schadensvermeidungs-Schleife">
+    Sobald du einen Angriff parierst, feure sofort **Noctis Blade** ab, um deinen physischen Schild zu aktivieren [1]. Flechte **Dawn Blade** ein, um dein Mana aufzufüllen und eine hohe Einzelziel-Bedrohung aufrechtzuerhalten [1].
+  </Step>
+  <Step num="4" title="Die Desecrate-Heilung">
+    Wenn deine Gesundheit unter 70% fällt, verbrauche deine aktiven Schattenbrände und Dark Oath-Stapel mit **Desecrate** [1]. Dies stellt sofort einen massiven Teil deiner Gesundheit und deines Manapools wieder her [1].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Überlebens-Tipp">
+Hebe dir dein **Dark Tonic** (das wie ein "Letztes Gefecht"-Gesundheitsboost wirkt) immer für Momente auf, in denen dein Heiler unter Crowd Control steht oder wenn du mit Boss-Mechaniken mit hohem Burst konfrontiert wirst [1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Build-Optionen für den Schwarzen Ritter">
+
+Je nachdem, ob du Dungeons auf Mythisch-Niveau läufst oder hochstufige Manastürme bestreitest, wird sich dein Talent-Setup leicht verschieben, um entweder pures Überleben oder hohen AoE-Bedrohungsschaden zu bevorzugen [1].
+
+<CardGrid cols={3}>
+  <Card title="Überlebens-Build">
+    - **Noctis Protection** maximiert
+    - Fokus auf Schildgröße
+    - Hohe **Stoicism**-Uptime
+    - Bestens geeignet für Progress-Raids
+  </Card>
+  <Card title="Speedrun AoE-Build">
+    - Verbessertes **Witch Blight**
+    - Hohe Skalierung des Schattenschadens
+    - Schnelleres **March of the Black King**
+    - Bestens geeignet für Low-Tier Farming
+  </Card>
+  <Card title="Hybrid-Utility-Build">
+    - Fokus auf **Chains of Darkness**
+    - Beinhaltet **Cleansing Aura**
+    - Hohe Crowd-Control-Optionen
+    - Bestens geeignet für chaotische Random-Gruppen
+  </Card>
+</CardGrid>
+
+### Stat-Priorität für die Ausrüstungsskalierung
+1. **Beweglichkeit**: Dein absolut bester Wert. Er erhöht deine Rüstung, die kritische Trefferchance und steigert direkt deine Parierwertung [1].
+2. **Ausdauer**: Essenziell, um die ersten Treffer zu überleben, bevor dein Lebensraub und deine Parierschilde greifen [1].
+3. **Schatten-/Heiligschaden**: Erhöht die Heilleistung deiner Lebensraub-Fähigkeiten wie Witch Blight und Desecrate [1].
+4. **Tempo**: Verringert deine globalen Abklingzeiten, sodass du schneller auf Parier-Procs reagieren kannst [1].
+
+<Callout type="info" title="Rüstungsbeschränkungen">
+Denke daran, dass als Kettenrüstung tragender Tank deine physische Schadensreduktion durch Rüstung niedriger ist als bei Platten-Tanks. Du musst dies kompensieren, indem du deine aktiven Schilde und Parier-Buffs zu 100% der Zeit aufrechterhältst [1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für den Endgame-Fortschritt">
+
+Um deinen **Conquest of Azeroth Schwarzen Ritter** für High-End-Raids und die PvP-Metas von 2026 vollständig zu optimieren, stelle sicher, dass du die folgenden Fortschrittsziele erreicht hast [1]:
+
+<Checklist
+  id="black-knight-progression"
+  title="Meilensteine des Schwarzen Ritters:"
+  items={[
+    "Erreiche Stufe 50 und schalte alle fortgeschrittenen Tank-Talente frei",
+    "Erwirb ein vollständiges Set an Ketten-Tank-Ausrüstung mit viel Beweglichkeit",
+    "Meistere das Timing von Noctis Blade unmittelbar nach einer Parade",
+    "Konfiguriere benutzerdefinierte UI-Warnungen, um Schattenbrand- und Dark Oath-Stapel zu verfolgen",
+    "Erhalte das Rezept für Dark Tonic für zuverlässige Notfall-Selbstheilung"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Kann der Conquest of Azeroth Schwarze Ritter Angriffe blocken?",
+    answer: "Nein. Der Schwarze Ritter ist ein Beweglichkeits-Tank in Kettenrüstung, der sich vollständig auf Parieren, aktive Absorptionsschilde und schattenbasierten Lebensraub verlässt, um physische Treffer zu überleben."
+  },
+  {
+    question: "Wie generiert der Schwarze Ritter Mana in langen Kämpfen?",
+    answer: "Du musst regelmäßig Dawn Blade wirken. Es verursacht Twilight-Schaden und dient als dein primäres Werkzeug, um deinen Manapool während langer Kampfbegegnungen wiederherzustellen."
+  },
+  {
+    question: "Was ist der Hauptunterschied zwischen dem Schwarzen Ritter und einem Blut-DK?",
+    answer: "Obwohl beide Lebensraub-Tanks sind, trägt der Schwarze Ritter Kette statt Platte, kann nicht blocken und verlässt sich auf Parier-Trigger, um Absorptionsschilde zu aktivieren, anstatt auf reaktive Todesstöße."
+  },
+  {
+    question: "Ist Chains of Darkness obligatorisch für den Build?",
+    answer: "Ja. Es kombiniert deinen primären AoE-Pull und deinen Spott in einer einzigen Taste, was es zum effizientesten Weg macht, Gegner zu gruppieren und zu kontrollieren."
+  }
+]} />
+
+</Section>

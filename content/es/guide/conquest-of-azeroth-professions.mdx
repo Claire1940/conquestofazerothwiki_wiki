@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hammer, BookOpen, Wrench, Pickaxe } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Profesiones de Conquest of Azeroth: Guía de Sinergias de Clase y Artesanía de 2026",
+  description: "Domina el renovado sistema de profesiones de Conquest of Azeroth. Conoce las ventajas específicas de cada clase, la nueva profesión de Carpintería y las sinergias de artesanía.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d3436/dfe6e9?text=Professions+and+Crafting+Guide",
+  date: "2026-07-04",
+  author: "Equipo de Wiki de Conquest of Azeroth",
+  keywords: "profesiones, artesanía, carpintería, sinergia de clase, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las profesiones de Conquest of Azeroth** están profundamente integradas en las identidades de clase, ofreciendo bonificaciones únicas como mayor competencia y habilidades de utilidad.
+- **Carpintería y Tala** son profesiones secundarias completamente nuevas que permiten a cualquier jugador fabricar bastones, varitas, arcos y escudos.
+- **Las sinergias de clase** permiten que ciertas clases coloquen yunques (Caballero de Zoroth) o utilicen materiales de encantamiento para potenciar hechizos poderosos (Maestro de las Runas).
+- **La itemización dinámica** introduce afijos aleatorios en el equipo fabricado, lo que permite configuraciones únicas como armas de fuego basadas en Intelecto o armas arrojadizas basadas en Fuerza.
+- **La progresión** se ha simplificado gracias a la obtención de experiencia mediante la recolección y la artesanía, además de la posibilidad de mejorar el equipo usando Kits de Mejora.
+</Callout>
+
+<Section icon={Hammer} title="La renovación de las profesiones en Conquest of Azeroth">
+
+En la actualización del reino de 2026, **las profesiones de Conquest of Azeroth** han evolucionado de ser actividades secundarias opcionales a convertirse en componentes esenciales del poder del personaje y de la fantasía de clase. A diferencia de las versiones estándar del juego, donde las profesiones son en gran medida independientes de tu clase, aquí aportan profundidad temática y ventajas mecánicas que definen cómo interactúas con el mundo. Ya seas un maestro inventor o un superviviente salvaje, tu elección de oficio influye significativamente en tu eficacia en combate y tu utilidad.
+
+**Aspectos destacados del vídeo:**
+- Resumen de las 21 nuevas clases y sus interacciones únicas con las profesiones.
+- Introducción a la profesión de Carpintería y su impacto en la progresión del equipo.
+- Explicación de la renovación de las criaturas RPG y cómo el equipo fabricado contrarresta amenazas específicas.
+- Información sobre la prueba de modo extremo \"Artesano Solitario\" para jugadores centrados en las profesiones.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Full Release: Conquest of Azeroth - Ascension WoW" />
+
+El sistema incentiva a los jugadores a dedicarse a la artesanía desde el principio. Obtienes experiencia para tu personaje con cada objeto que recolectas o fabricas, en proporción a la dificultad para conseguir los materiales. Esto significa que puedes subir de nivel a tu personaje simplemente siendo un artesano dedicado. Además, la introducción de afijos aleatorios garantiza que cada objeto fabricado tenga el potencial de convertirse en una pieza \"BiS\" (el mejor en su ranura) para configuraciones de clase especializadas.
+
+<Callout type="tip" title="Consejo de Eficiencia">
+Lleva siempre herramientas de profesión desde el nivel 1. Dado que la recolección otorga experiencia, acelerará notablemente tu camino hacia el nivel máximo mientras acumulas recursos para la artesanía de nivel máximo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sinergias de profesión específicas de cada clase">
+
+Una de las características más innovadoras de **las profesiones de Conquest of Azeroth** es cómo se vinculan directamente con las 21 nuevas clases. Ciertas clases reciben mejoras pasivas en profesiones específicas, mientras que otras obtienen habilidades activas que facilitan la artesanía en el mundo abierto. Esto crea un entorno sumamente inmersivo donde un Manitas se siente realmente como un ingeniero y un Médico Brujo se siente como un maestro de los brebajes vudú.
+
+| Clase | Sinergia Principal | Habilidad de Utilidad Única |
+| :--- | :--- | :--- |
+| **Manitas** (Tinker) | Ingeniería | Puede construir torretas y robots usando componentes de ingeniería |
+| **Médico Brujo** (Witch Doctor) | Alquimia | Mayor competencia al elaborar potentes pociones vudú |
+| **Caballero de Zoroth** | Herrería | Puede colocar un **Yunque** portátil para reparaciones y artesanía en el campo |
+| **Piromántico** | Cocina | Puede encender una pequeña hoguera en cualquier lugar para cocinar alimentos que mejoran estadísticas |
+| **Explorador** (Ranger) | Desuello | **Supervivencia en el bosque**: Convierte el cuero en potentes consumibles de supervivencia |
+| **Maestro de las Runas** | Encantamiento | Utiliza esencias y polvos de encantamiento como componentes para sus hechizos principales |
+| **Primalista** | Encantamiento | Consume polvo mágico para potenciar la geomancia basada en la tierra |
+
+<Callout type="success" title="Integración Temática">
+Los Exploradores que utilizan la Supervivencia en el bosque pueden crear objetos únicos como campamentos y planeadores, que son esenciales para explorar el terreno ampliado y los puntos de interés ocultos de Azeroth.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Utilidad sobre la marcha">
+    Clases como el Caballero de Zoroth y el Piromántico eliminan la necesidad de regresar a las ciudades para cubrir las necesidades básicas de artesanía. Ser capaz de forjar equipo o cocinar comida en mitad de una mazmorra o en una zona de alto riesgo es una ventaja táctica enorme.
+  </Card>
+  <Card title="Componentes de recursos">
+    Los Maestros de las Runas y los Primalistas transforman la economía del Encantamiento. En lugar de usar los materiales únicamente para mejorar el equipo, estos materiales se convierten en componentes de combate esenciales, lo que aumenta el valor de mercado de los objetos desencantados.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={BookOpen} title="Nuevas profesiones: Carpintería y Tala">
+
+La expansión de 2026 introduce la **Carpintería** como profesión principal de artesanía y la **Tala** como su contraparte de recolección. Estas profesiones fueron diseñadas para cubrir los vacíos de las profesiones tradicionales, proporcionando específicamente una fuente confiable de armas a distancia, instrumentos mágicos y escudos.
+
+**Características clave de Carpintería:**
+- **Variedad de armas**: Fabrica bastones, varitas, arcos, ballestas y armas arrojadizas.
+- **Equipo defensivo**: Crea escudos especializados y objetos para la mano secundaria.
+- **Munición**: Produce flechas y virotes de alta calidad con propiedades únicas.
+- **Afijos aleatorios**: Cada pieza fabricada puede obtener estadísticas específicas, como Penetración de armadura para Cazadores de Brujas o Poder con hechizos para Manitas.
+
+| Objeto Fabricable | Estadísticas Principales | Clases Objetivo |
+| :--- | :--- | :--- |
+| **Arcos reforzados** | Agilidad, Golpe Crítico, Celeridad | Explorador, Clamaestrellas, Cazador de Brujas |
+| **Bastones grabados** | Intelecto, Espíritu, Celeridad | Cronomante, Necromante, Piromántico |
+| **Escudos pesados** | Fuerza, Bloqueo, Parada | Guardián, Templario, Clérigo del Sol |
+| **Hachas arrojadizas** | Fuerza, Poder de Ataque | Bárbaro (Especialización en Caza de Cabezas) |
+| **Varitas arcanas** | Intelecto, Poder con hechizos | Clama tormentas, Mago de Sangre, Cultista |
+
+<Steps>
+  <Step num="1" title="Adquirir Tala">
+    Visita a un instructor de profesión en cualquier zona de inicio principal para aprender Tala. Esto te permitirá rastrear y talar nodos de madera por todo Azeroth.
+  </Step>
+  <Step num="2" title="Recolectar madera en bruto">
+    Explora bosques como Elwynn o Cañada Sombría. Las zonas de mayor nivel otorgan maderas más raras necesarias para recetas de Carpintería de calidad azul y épica.
+  </Step>
+  <Step num="3" title="Refinar y fabricar">
+    Utiliza un banco de carpintería (que se encuentra en las ciudades o mediante la utilidad de clase) para transformar la madera en bruto en armas y escudos. Utiliza **Kits de Mejora** para mantener tus creaciones favoritas actualizadas a medida que subes de nivel.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestión de Inventario">
+La madera y los troncos pueden ocupar mucho espacio en las bolsas. Se recomienda encarecidamente invertir en bolsas de profesión grandes o utilizar un personaje secundario en el banco para gestionar tus reservas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas avanzadas de artesanía y mejoras de equipo">
+
+La artesanía en el sistema de **profesiones de Conquest of Azeroth** no consiste solo en fabricar un objeto una vez. Es un proceso continuo de perfeccionamiento. La actualización de 2026 destaca el uso de **Kits de Mejora** y **Runas de Ascensión** para garantizar que las profesiones sigan siendo útiles desde el nivel 1 hasta los niveles más altos de las mazmorras Míticas+ y las bandas Ascendidas.
+
+**Sistemas clave de artesanía:**
+- **Kits de Mejora**: Te permiten aumentar el nivel de objeto y las estadísticas de una pieza fabricada varias veces, evitando que el equipo quede obsoleto cada pocos niveles.
+- **Afijos aleatorios**: El equipo fabricado puede obtener estadísticas \"híbridas\" que normalmente son raras, como armaduras de placas con Intelecto o dagas con Fuerza.
+- **Integración con Forja del Mundo**: Puedes combinar objetos fabricados por profesionales con efectos de la Forja del Mundo para crear configuraciones de personajes verdaderamente únicas.
+
+| Etapa de Mejora | Materiales Requeridos | Efecto |
+| :--- | :--- | :--- |
+| **Mejora Básica** | Materiales de profesión estándar | Pequeño aumento de estadísticas, +5 de Nivel de Objeto |
+| **Mejora Avanzada** | Materiales recolectados raros | Incremento significativo de estadísticas, +10 de Nivel de Objeto |
+| **Obra Maestra** | Botines de mazmorras/bandas | Desbloquea una segunda ranura de afijo aleatorio |
+| **Ascendido** | Runas de Ascensión | Escala el objeto al nivel actual de contenido final |
+
+<Callout type="info" title="Potencial de Afijos Aleatorios">
+Un Caballero de Zoroth con Herrería puede forjar una Segadora de arcanita con **Fuerza y Poder con hechizos**, complementando perfectamente su estilo de juego híbrido de cuerpo a cuerpo y taumaturgo. Del mismo modo, un Manitas con Carpintería puede fabricar un arma de fuego con **Intelecto y Golpe Crítico**.
+</Callout>
+
+<Checklist
+  id="crafting-goals"
+  title="Lista de tareas diarias de artesanía:"
+  items={[
+    "Recolectar al menos un montón de recursos del nivel actual",
+    "Completar las misiones diarias de profesión para obtener Runes de Ascensión",
+    "Buscar recetas raras con afijos aleatorios en la Casa de Subastas",
+    "Mejorar al menos una pieza de equipo para que coincida con tu nivel actual",
+    "Acumular componentes para los requisitos de hechizos específicos de tu clase"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Profesiones en los modos Extremo y de Alto Riesgo">
+
+Para los jugadores que buscan un desafío mayor, las profesiones desempeñan un papel fundamental en las **Pruebas de Modo Extremo** (Hardcore) y en los entornos de **JcJ de Alto Riesgo**. En estos modos, la capacidad de autoabastecerse mediante la artesanía suele marcar la diferencia entre el progreso y la pérdida del personaje.
+
+**Prueba del Artesano Solitario:**
+En este desafío extremo específico, solo obtienes experiencia a través de la artesanía y la recolección. Esto convierte el juego en una experiencia pura de gestión RPG en la que debes dominar la economía y las rutas de recursos de Azeroth para alcanzar el nivel máximo.
+
+**Supervivencia de Alto Riesgo:**
+En el JcJ de Alto Riesgo, pierdes tu equipo al morir. Tener profesiones de nivel alto te permite reemplazar rápidamente las piezas perdidas sin depender de los costosos precios de la Casa de Subastas o de peligrosas estancias en mazmorras.
+
+<CardGrid cols={3}>
+  <Card title="Autosuficiencia">
+    - Fabrica tus propios consumibles
+    - Repara tu equipo en el mundo abierto
+    - Reemplaza los objetos de JcJ perdidos
+  </Card>
+  <Card title="Poder Económico">
+    - Vende equipo con afijos raros
+    - Ofrece servicios de Yunque a cambio de una tarifa
+    - Domina el mercado de la Carpintería
+  </Card>
+  <Card title="Éxito en las Pruebas">
+    - Domina el Artesano Solitario
+    - Completa desafíos con restricciones de equipo
+    - Consigue recompensas prestigiosas
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Artesanía de Alto Riesgo">
+Al fabricar en zonas en disputa, ten en cuenta que el sonido y los efectos visuales de ciertas habilidades (como el Yunque del Caballero de Zoroth) pueden atraer a jugadores enemigos. Explora siempre los alrededores antes de instalarte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes: Profesiones de Conquest of Azeroth">
+
+<FAQ items={[
+  {
+    question: "¿Qué clase es la mejor para un jugador centrado completamente en las profesiones?",
+    answer: "El Manitas y el Médico Brujo son excelentes opciones debido a sus bonificaciones naturales de competencia. Sin embargo, el Caballero de Zoroth es posiblemente el mejor por su comodidad gracias a la habilidad del Yunque portátil."
+  },
+  {
+    question: "¿Puedo aprender tanto Carpintería como Tala?",
+    answer: "Sí. Carpintería y Tala se clasifican como profesiones secundarias en Conquest of Azeroth, lo que significa que no cuentan para el límite de dos profesiones principales."
+  },
+  {
+    question: "¿Cómo consigo los mejores afijos aleatorios en mi equipo?",
+    answer: "Los afijos aleatorios se generan al fabricar el objeto. Para conseguir las estadísticas perfectas, es posible que necesites fabricar un objeto varias veces o utilizar componentes especializados que se encuentran en mazmorras y bandas de nivel superior."
+  },
+  {
+    question: "¿Son obligatorias las profesiones para las bandas de nivel máximo?",
+    answer: "Aunque no son estrictamente obligatorias, se recomiendan encarecidamente. La capacidad de fabricar equipo con combinaciones de estadísticas específicas (como Penetración de armadura o Celeridad con hechizos) proporciona una ventaja significativa en las dificultades de banda Mítica y Ascendida."
+  }
+]} />
+
+</Section>

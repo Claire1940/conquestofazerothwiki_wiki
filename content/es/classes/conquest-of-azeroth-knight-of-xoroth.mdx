@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Caballero de Xoroth en Conquest of Azeroth: Guía de Builds y Especializaciones",
+  description: "Domina al Caballero de Xoroth en Conquest of Azeroth. Descubre las mejores builds, talentos y prioridades de rotación para Guerra, Fuego Infernal y Desafío.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7a1b1b/fff?text=Knight+of+Xoroth+Guide",
+  date: "2026-07-04",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Maestría principal**: El **caballero de Xoroth de Conquest of Azeroth** es un coloso híbrido con armadura de placas pesada que se especializa en daño cuerpo a cuerpo de fuego, invocación demoníaca y baluartes defensivos.
+- **Recurso único**: Genera **Ira** para acumular cargas de **Fuego de la Muerte**, que se consumen para desatar hechizos apocalípticos devastadores.
+- **Roles versátiles**: Capable of specializing as a physical damage dealer (**Guerra**), a spell-casting melee hybrid (**Fuego Infernal**), or a demonic tank (**Desafío**).
+- **Herramientas de utilidad**: Cuenta con una utilidad increíble que incluye ganchos de carne, cadenas, portales personales y un corcel de fuego montable.
+</Callout>
+
+<Section icon={Swords} title="Resumen del Caballero de Xoroth en Conquest of Azeroth">
+
+El **caballero de Xoroth de Conquest of Azeroth** es un heraldo de la perdición, un caballero infernal forjado en fuegos abisales y revestido con una armadura de placas oscuras [5]. Estos guerreros alimentados por la sangre asolan a sus enemigos con golpes desgarradores, magia de pirosombra y poderes apocalípicos [5]. Si disfrutas de las clases de placas de alta movilidad que pueden perseguir a los enemigos en retirada sobre temibles corceles de guerra, esta clase ofrece una combinación perfecta de destreza marcial y lanzamiento de hechizos caóticos [5].
+
+**Puntos destacados del video:**
+- **Mecánica de Fuego de la Muerte**: Acumula y gasta cargas de Fuego de la Muerte para amplificar el daño de tus hechizos [5].
+- **Especializaciones salvajes**: Análisis detallado de los estilos de juego de Guerra, Fuego Infernal y Desafío [5].
+- **Utilidad de la clase**: Demostración de los ganchos de carne, la forja llameante y el corcel de fuego del caballero [5].
+
+<YouTubeEmbed videoId="54rKyrsNqWM" title="New WoW Class: Knight of Xoroth - Conquest of Azeroth" />
+
+### Mecánicas principales de la clase
+
+La clase depende en gran medida de la gestión de dos recursos distintos: la Ira y el Fuego de la Muerte [5]. Generas Ira a través de ataques físicos básicos y al recibir daño, y luego utilizas esa Ira para acumular cargas de Fuego de la Muerte [5]. Una vez que tus cargas de Fuego de la Muerte son altas, las desatas mediante poderosos hechizos finales que escalan directamente con la cantidad de cargas consumidas [5].
+
+| Recurso | Método de obtención | Uso principal |
+|--- |--- |--- |
+| **Ira** | Ataques automáticos, recibir daño, golpes físicos específicos | Se gasta para generar cargas de Fuego de la Muerte y alimentar habilidades básicas |
+| **Fuego de la Muerte** | Se genera al gastar Ira en habilidades principales de la clase | Se consume para lanzar devastadores movimientos finales apocalípicos |
+
+<Callout type="tip" title="Consejo profesional">
+Acumula siempre tus cargas de Fuego de la Muerte al máximo antes de lanzar tus hechizos finales principales. Esto asegura que ignores las resistencias del enemigo y maximices tu potencial de daño explosivo [5].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comparación de especializaciones y calificaciones de nivel">
+
+El Caballero de Xoroth cuenta con tres especializaciones muy distintas, cada una adaptada a un estilo de juego completamente diferente [5]. Ya sea que quieras desgarrar carne con golpes físicos puros, hacer llover fuego infernal desde lejos o liderar un ejército de diablillos en la batalla, hay un camino para ti [5].
+
+<CardGrid cols={3}>
+  <Card title="Especialidad de Guerra">
+    - **DPS físico cuerpo a cuerpo** [5]
+    - Efectos de sangrado potentes [5]
+    - Gran daño explosivo a un solo objetivo [5]
+    - Excelente autosuficiencia [5]
+  </Card>
+  <Card title="Especialidad de Fuego Infernal">
+    - **Híbrido cuerpo a cuerpo/lanzador** [5]
+    - Hechizos de fuego y sombras [5]
+    - Iniciación a distancia [5]
+    - Penetración de armadura [5]
+  </Card>
+  <Card title="Especialidad de Desafío">
+    - **Tanque demoníaco** [5]
+    - Invocar ejércitos de diablillos [5]
+    - Altos bloqueos con escudo defensivo [5]
+    - Fuerte control de masas [5]
+  </Card>
+</CardGrid>
+
+### Matriz de rendimiento
+
+| Especialización | Rol | Estadística principal | Configuración de arma principal | Un solo objetivo | Daño en área (AoE) | Supervivencia |
+|--- |--- |--- |--- |--- |--- |--- |
+| **Guerra** | DPS cuerpo a cuerpo | Fuerza | Arma a dos manos | Excelente | Bueno | Alta |
+| **Fuego Infernal** | DPS híbrido | Intelecto / Fuerza | Arma a dos manos | Excelente | Excelente | Moderada |
+| **Desafío** | Tanque | Fuerza / Intelecto | Arma a una mano y escudo | Moderada | Excelente | Extrema |
+
+<Callout type="warning" title="Advertencia de selección de equipo">
+Los Caballeros de Fuego Infernal deben priorizar el poder con hechizos y el equipo de placas con intelecto sobre la fuerza pura [5]. Su daño principal escala con el poder de hechizos, lo que hace que el equipo tradicional de guerrero sea subóptimo [5].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guías de especialización paso a paso">
+
+Para maximizar tu eficiencia como Caballero de Xoroth en la [Alfa de Conquest of Azeroth](https://ascension.gg/en/news/conquest-of-azeroth-alpha/332), sigue estas rutas de progresión personalizadas para cada especialización [5].
+
+<Steps>
+  <Step num="1" title="La especialidad de Guerra: Carnicero físico">
+    Concéntrate en el combate físico puro y el derramamiento de sangre [5]. Usa **Golpe de demonio** (Demon Strike) para aplicar sangrados constantes, luego continúa con **Quemadura infernal** (Hell Burn) para atravesar la armadura del enemigo [5]. Una vez que tus cargas de Fuego de la Muerte estén al máximo, ejecuta a tu objetivo con **Toma de cráneos** (Skull Taker) para despedazarlo [5]. Usa tus ganchos de carne y cadenas para atraer a los objetivos que huyen [5].
+  </Step>
+  <Step num="2" title="La especialidad de Fuego Infernal: Ocultista de la llama">
+    Esta especialización combina el combate cuerpo a cuerpo con hechizos de fuego destructivos a distancia [5]. Inicia el combate desde lejos usando **Llama buscadora** (Seeking Flame) y **Fogonazo demoníaco** (Demon Flare) [5]. Una vez que acortes la distancia, acumula tus cargas de Fuego de la Muerte y desata la **Hoja de Xoroth** (Blade of Xoroth), un devastador golpe a un solo objetivo que atraviesa todas las inmunidades y resistencias enemigas [5].
+  </Step>
+  <Step num="3" title="La especialidad de Desafío: Comandante demoníaco">
+    Como la especialización de tanque definitiva, tu objetivo es abrir portales del infierno con tus golpes, invocando a una horda de diablillos de fuego infernal [5]. Usa a estos diablillos como escudos temporales, sacrificándolos para reforzar tu propia armadura y salud [5]. Junta a múltiples grupos de enemigos usando cadenas, embístelos con tu escudo e invoca aliados infernales abisales para mantener la amenaza [5].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de sinergia">
+Cuando juegues con Desafío, vigila siempre tu cantidad de diablillos. Sacrificar a tus diablillos en el momento adecuado proporciona un escudo defensivo enorme que puede salvarte de las mecánicas de los jefes [5].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de utilidad del Caballero de Xoroth">
+
+Más allá del daño puro y el tanqueo, el Caballero de Xoroth ofrece algunas de las habilidades de utilidad más exclusivas de toda la expansión de Conquest of Azeroth [5]. Asegúrate de haber desbloqueado y dominado estas habilidades esenciales:
+
+<Checklist
+  id="xoroth-utility"
+  title="Hitos esenciales de utilidad:"
+  items={[
+    "Invocar corcel de fuego: Aprende a invocar tu montura de clase personal para recorrer el mapa a gran velocidad [5].",
+    "Ganchos de carne: Domina el arte de agarrar y atraer a los objetivos de JcJ que huyen de regreso al rango cuerpo a cuerpo [5].",
+    "Conjurar forja llameante: Invoca una forja temporal en cualquier parte del mundo para realizar herrería sobre la marcha [5].",
+    "Portales del infierno: Aprende a abrir fisuras planares para invocar ejércitos demoníacos aliados [5].",
+    "Sifón de alma: Cosecha la salud de los enemigos caídos para mantener la máxima sustentabilidad al subir de nivel en solitario [5]."
+  ]}
+/>
+
+<Callout type="info" title="Utilidad en el mundo">
+La forja llameante es increíblemente útil durante largas estancias en mazmorras o sesiones de farmeo en el mundo abierto. Te permite a ti y a los miembros de tu grupo reparar equipo y fabricar objetos sin tener que regresar a una ciudad principal [5].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el recurso principal del caballero de Xoroth en Conquest of Azeroth?",
+    answer: "La clase utiliza un sistema de doble recurso. Generas Ira en combate, que luego se gasta para acumular cargas de Fuego de la Muerte. Posteriormente, estas cargas se consumen para desatar poderosos hechizos apocalípticos."
+  },
+  {
+    question: "¿Puede el Caballero de Xoroth hacer cola como tanque de mazmorra?",
+    answer: "Sí, la especialización de Desafío es una especialización de tanque completa que utiliza escudos, diablillos demoníacos y cadenas de control de masas para mitigar el daño y mantener la amenaza del grupo."
+  },
+  {
+    question: "¿La especialidad de Fuego Infernal se juega como un lanzador de conjuros o como una clase cuerpo a cuerpo?",
+    answer: "Es un híbrido. Usarás hechizos de fuego a distancia como Llama buscadora (Seeking Flame) para iniciar el combate, pero debes moverte al rango cuerpo a cuerpo para golpear con tu arma física y ejecutar objetivos con Hoja de Xoroth (Blade of Xoroth)."
+  },
+  {
+    question: "¿Qué armas son mejores para la especialización de Guerra?",
+    answer: "La especialidad de Guerra destaca al empuñar armas masivas a dos manos, ya que sus golpes físicos principales y sangrados escalan en gran medida con el alto daño del arma."
+  }
+]} />
+
+</Section>

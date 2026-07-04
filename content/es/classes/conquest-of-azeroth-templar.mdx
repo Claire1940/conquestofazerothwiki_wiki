@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Star } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Templario de Conquest of Azeroth: Guía de Mecánicas de Clase y Especializaciones para 2026",
+  description: "Domina la clase Templario en Conquest of Azeroth con nuestra guía sobre combo breakers, artes marciales sagradas y construcciones de especialización para tanques y DPS.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/000?text=Templar+Class+Guide",
+  date: "2026-07-04",
+  author: "Equipo de Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Sistema de Combo Breaker**: El **Templario de Conquest of Azeroth** depende de secuencias de habilidades específicas para activar remates masivos.
+- **Roles Versátiles**: Elige entre el **Guardián del Juramento** (Tanque), el **Celote** (DPS de doble empuñadura) o el **Cruzado** (DPS de ráfaga con arma de dos manos).
+- **Movilidad Sagrada**: Las características únicas de la clase incluyen el **doble salto** y el **caminar sobre el agua** gracias al empoderamiento sagrado.
+- **Estadísticas Principales**: La mayoría de las configuraciones se centran en la **Agilidad** y utilizan **Armadura de malla** para lograr un equilibrio entre velocidad y protección.
+- **Acceso Racial**: Disponible para Humanos y Enanos (Alianza) o No-muertos y Trolls (Horda).
+</Callout>
+
+<Section icon={Swords} title="Descripción de la Clase: El Artista Marcial Sagrado">
+
+El **Templario de Conquest of Azeroth** es un maestro del combate marcial, un luchador piadoso que combina una eficiencia letal con una fe divina. A diferencia de los Paladines tradicionales que dependen de placas pesadas y golpes lentos, el Templario es un escaramuzador ágil. Combinan las artes marciales y el juego de espada, utilizando energía para alimentar devastadores golpes de combo que pueden pulverizar a los enemigos o empoderar a los aliados. Ya sea que luches cuerpo a cuerpo o con una hoja, el Templario sirve como un luchador de primera línea inigualable, adecuado para cualquier composición de grupo.
+
+**Puntos Destacados del Video:**
+- **Destreza Marcial**: Análisis detallado de los estilos de combate cuerpo a cuerpo y con espada del Templario.
+- **Mecánicas de Combo**: Explicación de cómo la energía alimenta secuencias de habilidades específicas.
+- **Especializaciones**: Resumen de los caminos del Celote, el Cruzado y el Guardián del Juramento.
+- **Hechizos de Utilidad**: Demostración de dobles saltos y bendiciones sagradas.
+
+<YouTubeEmbed videoId="zPLCEhx0tiI" title="New WoW Class: Templar - Conquest of Azeroth" />
+
+El Templario utiliza un sistema de recursos único en el que las habilidades deben usarse en un orden específico para ejecutar "Combo Breakers". Estos remates cambian según la secuencia, lo que permite una alta adaptabilidad en el fragor de la batalla. Puedes pasar de una postura defensiva a un golpe de área masivo simplemente alterando tu rotación.
+
+| Característica | Descripción |
+| --- | --- |
+| **Recurso Primario** | Energía (utilizada para habilidades marciales y sagradas) |
+| **Estilo de Combate** | Escaramuzador cuerpo a cuerpo / Juggernaut sagrado |
+| **Tipo de Armadura** | Armadura de malla |
+| **Estadística Principal** | Agilidad / Fuerza (Depende de la especialización) |
+| **Rasgo Único** | Doble salto y Caminar sobre el agua |
+
+<Callout type="tip" title="La Agilidad es Clave">
+Aunque son luchadores sagrados, no los confundas con clases que solo usan Fuerza. La mayoría de las habilidades del Templario escalan excepcionalmente bien con la Agilidad, proporcionando tanto golpe crítico como esquiva.
+</Callout>
+
+</Section>
+
+<Section icon={Star} title="Especializaciones y Estilos de Juego">
+
+El **Templario de Conquest of Azeroth** ofrece tres caminos distintos, lo que permite a los jugadores cumplir el rol de un tanque resistente o de un infligidor de daño de alto rendimiento. Cada especialización cambia fundamentalmente la forma en que se utiliza el sistema de Combo Breaker.
+
+<CardGrid cols={3}>
+  <Card title="Guardián del Juramento (Tanque)">
+    - **Maestro Defensivo**: Se centra en desviar golpes letales y parar ataques.
+    - **Soporte de Grupo**: Convierte el daño recibido en curación para el grupo.
+    - **Protección Sagrada**: Utiliza bendiciones para reforzar las defensas de los aliados.
+  </Card>
+  <Card title="Celote (DPS de Doble Empuñadura)">
+    - **Ritmo Rápido**: Empuña dos armas de una mano para realizar golpes rápidos.
+    - **Enfocado en Combos**: Acumula puntos de combo rápidamente para realizar remates frecuentes.
+    - **Escalado de Agilidad**: Alta probabilidad de golpe crítico y agilidad en el campo de batalla.
+  </Card>
+  <Card title="Cruzado (DPS de 2 Manos)">
+    - **Golpeador Pesado**: Utiliza colosales espadas de dos manos para infligir ráfagas masivas.
+    - **Poder Sagrado**: Cambia velocidad por fuerza bruta y golpes imbuidos de luz.
+    - **Tempestad en Área**: Se especializa en golpes de daño sagrado de amplio alcance.
+  </Card>
+</CardGrid>
+
+### Tabla Comparativa de Especializaciones
+
+| Nombre de Espec. | Rol | Preferencia de Arma | Mecánica Clave |
+| --- | --- | --- | --- |
+| **Guardián del Juramento** | Tanque | Escudo + 1 Mano | Conversión de daño en curación |
+| **Celote** | DPS Melé | Doble empuñadura 1 Mano | Combo Breakers de alta frecuencia |
+| **Cruzado** | DPS Melé | Espada/Maza de 2 Manos | Ráfagas lentas y masivas de daño Sagrado/Físico |
+
+<Callout type="success" title="Versatilidad de Roles">
+El Templario es una de las pocas clases que puede pasar sin problemas de ser un tanque de alta esquiva a un DPS de ráfaga sin perder la identidad central de la clase.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando el Sistema de Combo Breaker">
+
+El núcleo de la jugabilidad del **Templario de Conquest of Azeroth** es el Combo Breaker. A diferencia de las rotaciones estándar donde presionas botones cuando termina su tiempo de reutilización, el Templario requiere precisión. Usar las habilidades en el orden correcto desbloquea efectos mejorados que pueden cambiar el rumbo de una banda o un encuentro JcJ.
+
+<Steps>
+  <Step num="1" title="Generar Energía">
+    Comienza el encuentro usando golpes marciales básicos para acumular tus reservas de energía.
+  </Step>
+  <Step num="2" title="Iniciar Secuencia">
+    Utiliza tus habilidades de inicio de secuencia (por ejemplo, golpes específicos) para preparar el combo.
+  </Step>
+  <Step num="3" title="Elegir Remate">
+    Dependiendo de la necesidad (daño en área frente a un solo objetivo), usa la habilidad final de la secuencia para activar un Combo Breaker.
+  </Step>
+  <Step num="4" title="Mantenimiento de Beneficios">
+    Muchos remates otorgan mejoras temporales como mayor Esquiva o Daño Sagrado; asegúrate de mantener un alto tiempo de actividad de estos efectos.
+  </Step>
+</Steps>
+
+| Tipo de Combo | Objetivo de la Secuencia | Efecto Resultante |
+| --- | --- | --- |
+| **Golpe de Vanguardia** | Daño en Área | Explosión sagrada masiva alrededor del Templario |
+| **Flujo Defensivo** | Supervivencia | Aumento de Parada y Esquiva durante 10 segundos |
+| **Furia Justiciera** | Un Solo Objetivo | Mayor Daño Crítico en los siguientes 3 golpes |
+| **Ola de Sanación** | Utilidad | Pequeña curación para todo el grupo basada en el daño infligido |
+
+<Callout type="warning" title="Sensibilidad de la Secuencia">
+Perder un paso en tu secuencia de combo hará que no se active el Combo Breaker, lo que resultará en un DPS o generación de amenaza significativamente menores. Practica tu "ritmo" en los muñecos de entrenamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Elecciones Raciales y Primeros Pasos">
+
+Elegir tu raza es el primer paso en tu viaje como un **Templario de Conquest of Azeroth**. Aunque las mecánicas de la clase siguen siendo las mismas, las pasivas raciales pueden proporcionar una ligera ventaja en roles específicos.
+
+| Facción | Raza | Espec. Recomendada | Beneficio Destacado |
+| --- | --- | --- | --- |
+| **Alianza** | **Humano** | Cualquiera | Mayor Espíritu y especialización en espadas |
+| **Alianza** | **Enano** | Guardián del Juramento | Forma de piedra para una mayor resistencia como tanque |
+| **Horde** | **No-muerto** | Celote | Voluntad de los Renegados para movilidad en JcJ |
+| **Horde** | **Troll** | Cruzado | Rabia para una velocidad de ataque más rápida con armas de 2 manos |
+
+### Utilidades Esenciales del Templario
+Más allá del combate, el Templario posee varios hechizos de "calidad de vida" que los hacen excelentes para la exploración del mundo y la subida de nivel:
+- **Doble Salto**: Alcanza cornisas altas y salta terrenos difíciles.
+- **Caminar sobre el Agua**: Atraviesa lagos y océanos sin necesidad de monturas.
+- **Resurrección**: Trae de vuelta a los aliados caídos al combate de inmediato.
+- **Imbuir Luz**: Mejora la velocidad de movimiento y las estadísticas principales del grupo.
+
+<Callout type="info" title="Profesional de la Exploración">
+Utiliza el Doble Salto en combinación con Caminar sobre el Agua para navegar por los mapas expandidos de Conquest of Azeroth mucho más rápido que otras clases.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Equipo y Progresión">
+
+Para maximizar tu eficiencia como un **Templario de Conquest of Azeroth**, debes concentrarte en el equipo que apoye tu especialización específica. Dado que la clase utiliza armadura de malla, a menudo te encontrarás compitiendo con Cazadores o Chamanes por el botín, pero tu prioridad de estadísticas es única.
+
+<Checklist
+  id="templar-progression"
+  title="Hitos de Equipo para el Templario:"
+  items={[
+    "Adquirir un conjunto completo de Armadura de malla basada en Agilidad",
+    "Obtener dos armas rápidas de 1 mano (Celote) o una hoja de 2 manos de alto daño (Cruzado)",
+    "Desbloquear los talentos de Combo Breaker de Nivel 1 en el Arquitecto de Héroes",
+    "Alcanzar el límite de golpe (6% para ataques amarillos) para asegurar que los combos nunca fallen",
+    "Dominar la rotación de 'Juggernaut Sagrado' para las bandas de contenido avanzado"
+  ]}
+/>
+
+### Prioridad de Estadísticas por Rol
+
+| Rol | Prioridad 1 | Prioridad 2 | Prioridad 3 |
+| --- | --- | --- | --- |
+| **Tanque (Guardián del Juramento)** | Aguante | Agilidad (Esquiva) | Índice de Parada |
+| **DPS (Celote)** | Agilidad | Celeridad | Golpe Crítico |
+| **DPS (Cruzado)** | Fuerza/Agilidad | Poder de Ataque | Penetración de Armadura |
+
+<Callout type="tip" title="La Elección del Arma Importa">
+Para los Cruzados, cuanto más lenta sea el arma de 2 manos, mejor. Tus Combo Breakers golpean por un porcentaje del daño del arma, lo que hace que las hojas lentas y de golpe pesado sean devastadoras.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es el Templario de Conquest of Azeroth mejor como tanque o como DPS?",
+    answer: "Sobresale en ambos. El Guardián del Juramento es un tanque de evasión de primer nivel que proporciona una gran utilidad al grupo, mientras que el Celote ofrece uno de los DPS cuerpo a cuerpo sostenidos más altos en el metajuego actual."
+  },
+  {
+    question: "¿El Templario usa Maná o Energía?",
+    answer: "El Templario utiliza principalmente Energía para sus habilidades marciales, aunque algunos hechizos sagrados de alto nivel pueden tener un pequeño coste de Maná dependiendo de tus elecciones de talentos específicas."
+  },
+  {
+    question: "¿Puedo jugar como Templario sanador?",
+    answer: "Aunque el Templario tiene 'curaciones ligeras' y puede convertir el daño en curación para el grupo como Guardián del Juramento, no es un sanador puro dedicado como un Sacerdote o un Druida."
+  },
+  {
+    question: "¿Cuál es la estadística más importante para un Templario Celote?",
+    answer: "La Agilidad es la estadística más importante para un Celote, ya que aumenta tu poder de ataque, la probabilidad de golpe crítico y la esquiva, elementos vitales para su rápido estilo de doble empuñadura."
+  }
+]} />
+
+</Section>
