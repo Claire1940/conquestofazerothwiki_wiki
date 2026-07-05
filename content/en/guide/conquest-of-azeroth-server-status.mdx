@@ -1,0 +1,223 @@
+import { Map, Shield, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "conquest of azeroth server status: launch checks, fixes",
+  description: "Track Conquest of Azeroth availability, read online/offline labels, and use a launch-day checklist to fix common login problems fast.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Server+Status+Guide",
+  date: "2026-07-06",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **conquest of azeroth server status** tells you whether the realm is reachable, delayed, or still in a launch window.
+- **Check status first** so you do not waste time reinstalling, relogging, or changing settings for a realm-side issue.
+- **Use short retry intervals** during launch pressure; constant relogs usually make troubleshooting harder, not faster.
+- **Fix local problems early** by testing addons, cache, and network settings before you assume the server is down.
+</Callout>
+
+<Section icon={Map} title="conquest of azeroth server status: Reading the signals">
+
+The fastest way to handle **conquest of azeroth server status** is to read it like a live queue, not a static label. When a realm is healthy, you should be able to move from the client to character select without friction. When a realm is under pressure, the first clue is usually delay, then disconnects, then longer login waits.
+
+The featured launch update points to a **July 3, 2026** release window at **3:00 p.m. GMT**, and that matters because launch-day traffic changes the meaning of “normal.” A server can be technically up while still acting unstable under heavy load. That is why the right workflow starts with the status, then the client, then the connection.
+
+**Video Highlights:**
+- **Release timing**: The launch window is announced for July 3, 2026 at 3:00 p.m. GMT.
+- **Feature spike**: New classes, zones, and PvP options can create a rush of logins.
+- **Free access**: The full release is framed as open to everyone.
+- **Practical takeaway**: Status checks matter more when the launch window is hot.
+
+<YouTubeEmbed videoId="RR-HLDRwkzI" title="Ascension Conquest of Azeroth - FULL RELEASE DATE!" />
+
+<CardGrid cols={3}>
+  <Card title="Online">
+    - **Best-case signal**
+    - The realm should accept connections
+    - Move straight to login testing
+  </Card>
+  <Card title="Offline">
+    - **Maintenance or outage**
+    - Stop relogging and wait
+    - Recheck after the window changes
+  </Card>
+  <Card title="Upcoming">
+    - **Not live yet**
+    - Do not treat it as a client error
+    - Return when the launch opens
+  </Card>
+</CardGrid>
+
+| Status | What it usually means | Best response |
+|---|---|---|
+| Online | Realm should be reachable | Log in once, then test character select |
+| Offline | Maintenance, outage, or shutdown window | Wait and recheck later |
+| Upcoming | Scheduled but not open yet | Stop retrying and return at the announced time |
+
+<Callout type="tip" title="What Matters Most">
+If the realm is not live, the best fix is patience. If the realm is live but your client fails, start troubleshooting locally.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="How to verify availability without wasting time">
+
+The cleanest approach is to follow the same verification order every time. That keeps you from chasing the wrong problem. If the realm is not open, client repair will not help. If the realm is open, repeated relogs will not solve a broken addon stack or a stale cache.
+
+A good routine is to check status, confirm the client version, strip away obvious conflicts, and then test the connection again. Use a calm pace. Launch nights reward players who verify once, adjust once, and then wait for the next stable window.
+
+<Steps>
+  <Step num="1" title="Check the status label">
+    Confirm whether the realm is marked online, offline, or upcoming before you change anything in your client.
+  </Step>
+  <Step num="2" title="Match the label to the problem">
+    If the realm is offline, do not troubleshoot your PC first. If it is online, move to client-side checks.
+  </Step>
+  <Step num="3" title="Test a clean login path">
+    Disable heavy addons, close extra apps, and try the most direct connection you can.
+  </Step>
+  <Step num="4" title="Retry on a short timer">
+    Wait a few minutes between attempts so you can tell whether the situation is improving.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avoid the Retry Trap">
+Fast repeated logins can make a stable issue look worse. Check, adjust, and then give the realm a short recovery window.
+</Callout>
+
+| Checkpoint | What to verify | Why it helps |
+|---|---|---|
+| Client version | Up-to-date build and launcher state | Prevents version mismatch errors |
+| Addons | Heavy UI mods, broken helpers, old profiles | Removes common local conflicts |
+| Network | VPN, DNS, router, firewall | Separates server issues from home network issues |
+| Login timing | Peak hour vs off-peak retry | Helps you spot queue pressure |
+
+</Section>
+
+<Section icon={Swords} title="Common login problems and the right fix">
+
+When the status looks fine but the login still fails, treat the issue as a triage problem. The goal is not to touch every setting. The goal is to isolate the cause in the fewest steps possible. In practice, that means starting with the client, then moving to your network, then looking at the realm again.
+
+This is also where players waste the most time. A disconnect at character select, a stalled “connecting” screen, and a login timeout often share the same root pattern: one layer is failing before the next layer can finish loading. Keep your response simple and systematic.
+
+<Callout type="info" title="Fix the Local Variables First">
+If the realm is online but the client is failing, assume your setup is the problem until the clean test proves otherwise.
+</Callout>
+
+| Symptom | Likely cause | Best fix |
+|---|---|---|
+| Stuck on connecting | Traffic spike or handshake delay | Restart once, then wait a few minutes |
+| Instant disconnect | Version mismatch or addon conflict | Repair the client and disable addons |
+| Character select error | Realm load pressure | Recheck status and try again later |
+| Login works, then lags | Peak-hour congestion | Stay logged in and avoid relogs |
+
+<CardGrid cols={4}>
+  <Card title="Client">
+    - Repair game files
+    - Update launcher state
+    - Remove stale addons
+  </Card>
+  <Card title="Network">
+    - Test without VPN
+    - Restart router if needed
+    - Check firewall rules
+  </Card>
+  <Card title="Account">
+    - Confirm password entry
+    - Retry only after a pause
+    - Avoid rapid failed attempts
+  </Card>
+  <Card title="Realm">
+    - Recheck live status
+    - Wait for maintenance to finish
+    - Try again outside rush hour
+  </Card>
+</CardGrid>
+
+| Fix order | What to try first | When to stop |
+|---|---|---|
+| 1 | Restart client | If the same error repeats immediately |
+| 2 | Disable addons | If the login path becomes clean |
+| 3 | Repair files | If version or asset issues keep showing up |
+| 4 | Network test | If the client still fails on a clean setup |
+
+</Section>
+
+<Section icon={Trophy} title="Launch timing, queues, and your login checklist">
+
+The launch window announced for **2026-07-03** means timing still matters even after the first rush passes. Hotfixes, restarts, and queue spikes can return whenever a major update lands. The safest habit is to prepare before you click login, then react based on the current server state instead of guessing.
+
+For most players, the best advantage is not speed alone. It is readiness. If you already cleared the usual blockers, you can move from a realm check to an actual test without wasting your first attempt.
+
+<Callout type="success" title="Launch Window Rule">
+If the realm is live, enter with a clean client and a calm retry cycle. If the realm is not live, save your time and come back later.
+</Callout>
+
+<Checklist
+  id="launch-ready"
+  title="Pre-Login Checklist"
+  items={[
+    "Confirm the current server status before opening the client",
+    "Disable unnecessary addons and overlays",
+    "Close VPN tools unless you truly need them",
+    "Make sure your password manager or notes are ready",
+    "Plan one clean login attempt before you start retrying"
+  ]}
+/>
+
+| Time window | Best use | Player expectation |
+|---|---|---|
+| Before peak traffic | Initial login test | Fastest way to confirm stability |
+| First launch hour | Queue observation | Expect delays and avoid spam relogs |
+| After the rush | Real play session | Better for settings, alts, and testing |
+| Maintenance windows | Do not force retries | Wait for the next status update |
+
+| Status result | Next move | Why |
+|---|---|---|
+| Online, but login fails | Repair client or disable addons | The issue is likely local |
+| Offline | Wait and check back later | The realm is unavailable |
+| Upcoming | Stop trying | The realm is not open yet |
+| Online, but queue is heavy | Stay logged in | Relogs can lose your place |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<Callout type="tip" title="FAQ Notes">
+Use these answers as a quick decision map when the status page and your client seem to disagree.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What does conquest of azeroth server status tell me?",
+    answer: "It tells you whether the realm should be reachable now, whether it is under maintenance, or whether it is still scheduled for a later window."
+  },
+  {
+    question: "Should I keep retrying if the realm looks offline?",
+    answer: "No. If the realm is offline, repeated login attempts usually waste time. Wait for the state to change, then test once on a clean client."
+  },
+  {
+    question: "Why can login fail when the status says online?",
+    answer: "The most common causes are client issues, addon conflicts, stale files, or a network problem on your side. Start with the local setup."
+  },
+  {
+    question: "Is it better to log in immediately or wait?",
+    answer: "If you want the earliest access, log in once with a clean setup. If the queue is unstable, waiting a short period can be the smarter move."
+  }
+]} />
+
+| FAQ topic | Main takeaway |
+|---|---|
+| Status vs client | A live realm can still fail locally |
+| Offline label | Do not force repeated retries |
+| Addons | A clean setup is easier to diagnose |
+| Queue pressure | Stay patient and keep the session alive |
+
+</Section>

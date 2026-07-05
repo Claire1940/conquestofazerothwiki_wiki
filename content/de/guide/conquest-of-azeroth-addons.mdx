@@ -1,0 +1,217 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth-Addons: Bester UI-Einrichtungsleitfaden 2026",
+  description: "Baue einen sauberen Conquest of Azeroth-Addon-Stack mit der richtigen UI sowie Kampf-, Beutel- und Tracking-Tools für Leveln, PvP und das Chaos am Starttag.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Addon+Setup+Guide",
+  date: "2026-07-06",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **conquest of azeroth addons** funktionieren am besten, wenn du mit einer minimalistischen UI startest und nur die Tools hinzufügst, die du wirklich brauchst.
+- **Das Chaos am Starttag** macht Namensplaketten, Cooldown-Tracking und Beutel-Bereinigung wertvoller als kosmetische Extras.
+- **Klassen mit vielen Gestaltwechseln** profitieren von starkem Aura-Tracking und Tastbelegungen, die das Bildschirmchaos reduzieren.
+- **PvP und Dungeon-Spiel** verbessern sich beide, wenn Kampflog, Unterbrechungswarnungen und Zielrahmen sichtbar bleiben.
+</Callout>
+
+<Section icon={Map} title="Warum conquest of azeroth addons am Starttag wichtig sind">
+
+Auf einem überfüllten Release-Server ist die erste Aufgabe deiner UI nicht Stil, sondern Klarheit. Ein Start voller benutzerdefinierter Klassen, voller Städte und schnellem Leveln lässt nur wenig Raum für visuelle Ablenkung. Ein gutes Addon-Setup hilft dir, Procs, gegnerische Zauber, Ressourcen und Beutel zu verfolgen, ohne gegen den Bildschirm ankämpfen zu müssen.
+
+**Video-Highlights:**
+- Hoher Andrang zum Start macht lesbare UI-Entscheidungen wichtiger als Luxusfunktionen.
+- Benutzerdefinierte Klassen und Gestaltwechsel-Tools erzeugen mehr Buttons und mehr Statuseffekte, die man im Blick behalten muss.
+- Frühes Leveln läuft schnell genug, dass Aufräumen und Geschwindigkeit schon ab dem ersten Login zählen.
+- Dichtes PvP und Gruppenkämpfe belohnen klare Namensplaketten und zuverlässiges Cooldown-Tracking.
+
+<YouTubeEmbed videoId="PICYx25zl4A" title="Conquest of Azeroth IST ENDLICH ERSCHIENEN! | 21 BENUTZERDEFINIERTE KLASSEN in World of Warcraft | Tag 1" />
+
+| Addon-Priorität | Warum es wichtig ist | Auswirkung am Starttag |
+|---|---|---|
+| **Namensplaketten** | Zauber, Debuffs und Zielwechsel schneller erkennen | **Hoch** |
+| **Cooldown-Tracking** | Procs, Burst-Fenster und Defensivfähigkeiten verwalten | **Hoch** |
+| **Aktionsleisten** | Button-Verrutschen reduzieren und den Keybind-Fluss verbessern | **Hoch** |
+| **Beutel-Bereinigung** | Beute schneller verkaufen, sortieren und erkennen | **Mittel** |
+| **Kampflogging** | Schaden, Heilung und Fehler auswerten | **Mittel** |
+
+<Callout type="tip" title="Redaktionelle Regel">
+Beginne zuerst mit Lesbarkeit. Wenn ein Addon keine bessere Entscheidung im Kampf, beim Leveln oder im Inventar-Management ermöglicht, lass es vorerst weg.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Der Kern-Addon-Stack, den du zuerst installieren solltest">
+
+Der sicherste Conquest of Azeroth-Addon-Stack ist ein schlanker. Du willst ein paar Tools, die offensichtliche Probleme lösen, nicht einen überfüllten Ordner voller sich überschneidender Funktionen. Denke in Schichten: Kampfübersicht, Aktionskontrolle und Inventar-Bereinigung.
+
+<CardGrid cols={3}>
+  <Card title="Kampfschicht">
+    - **WeakAuras-artiges Tracking**
+    - Proc-Warnungen und Buff-Timer
+    - Erinnerungen an Defensivfähigkeiten
+  </Card>
+  <Card title="Rahmenschicht">
+    - **Namensplaketten und Einheitenfenster**
+    - Einfachere Zielwechsel
+    - Klare Anzeige von Zaubern und Debuffs
+  </Card>
+  <Card title="Nutzschicht">
+    - **Beutel- und Händler-Tools**
+    - Schnellere Inventar-Bereinigung
+    - Weniger Leerlauf zwischen Pulls
+  </Card>
+</CardGrid>
+
+| Addon-Typ | Beispiel-Tools | Bester Anwendungsfall |
+|---|---|---|
+| **Aktionsleisten** | Bartender4, Dominos | Sauberere Keybinds und kompakte Layouts |
+| **Namensplaketten** | Plater, Threat Plates | Feindliche Zauber verfolgen und Ziele fokussieren |
+| **Kampf-HUD** | WeakAuras | Procs, Debuffs, Cooldown-Erinnerungen |
+| **Logging** | Details! | Schaden, Heilung und Nachbesprechung |
+| **Inventar** | Bagnon, AdiBags | Beute, Reagenzien und Questgegenstände sortieren |
+| **QoL-Tools** | Leatrix Plus | Schnellere Interaktionen und weniger Reibung |
+
+<Callout type="tip" title="Empfohlene Reihenfolge">
+Installiere zuerst je ein Addon aus jeder Schicht. So bleibt die Fehlersuche einfach und es wird sofort klar, welches Tool dein Setup tatsächlich verbessert hat.
+</Callout>
+
+| Setup-Stil | Stärke | Schwäche |
+|---|---|---|
+| **Minimal** | Schnell, sauber, leicht zu pflegen | Weniger visuelle Informationen |
+| **Ausgewogen** | Gute Lesbarkeit bei wenig Unordnung | Braucht etwas Feintuning |
+| **Fortgeschritten** | Am besten für High-End-Spiel und PvP | Kann überladen wirken, wenn es zu viel wird |
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Setup für eine saubere UI">
+
+Nutze einen einfachen Installationsablauf, damit du dich nicht schon vor der ersten Warteschlange in Einstellungen vergräbst. Das Ziel ist, die Oberfläche am ersten Tag spielbar zu machen und sie dann zu verfeinern, nachdem du gespürt hast, wie sich deine Klasse tatsächlich anfühlt.
+
+<Steps>
+  <Step num="1" title="Die Basis-UI festlegen">
+    Deaktiviere unnötige Fenster, verschiebe wichtige Elemente in den Mittelpunkt deines Blickfelds und halte den ersten Durchgang einfach.
+  </Step>
+  <Step num="2" title="Kampfübersicht hinzufügen">
+    Installiere deine wichtigsten Namensplaketten- und Cooldown-Tools und teste sie dann an einer Trainingspuppe oder draußen in der Welt, bevor du weitermachst.
+  </Step>
+  <Step num="3" title="Klassen-spezifisches Tracking einrichten">
+    Baue WeakAuras oder vergleichbare Erinnerungen für Ressourcen, Procs, Formen und wichtige Defensiv-Cooldowns.
+  </Step>
+  <Step num="4" title="Inventar und Utilities feinjustieren">
+    Füge Beutel-Sortierung, Händler-Bereinigung und Komfort-Tools erst hinzu, wenn sich der Kampfkern stabil anfühlt.
+  </Step>
+</Steps>
+
+| Setup-Aufgabe | Was ändern | Ergebnis |
+|---|---|---|
+| **Leisten** | Kernfähigkeiten auf gut erreichbare Tasten legen | Schnellere Reaktionszeit |
+| **Fenster** | Spieler-, Ziel- und Gruppenfenster lesbar halten | Weniger visuelles Suchen |
+| **Namensplaketten** | Zauber, Debuffs und Gegner mit wenig Leben hervorheben | Bessere Zielauswahl |
+| **Auren** | Procs, Formen und Defensivfenster verfolgen | Weniger verpasste Chancen |
+| **Beutel** | Sortier- und Verkaufsunterstützung aktivieren | Weniger Leerlauf |
+
+<Checklist
+  id="coa-ui-setup"
+  title="Checkliste für den ersten Login:"
+  items={[
+    "Aktionsleisten vor dem Kampf verschieben",
+    "Sichtbarkeit von Ziel- und Fokusfenster testen",
+    "Bestätigen, dass die Namensplaketten gegnerische Zauber anzeigen",
+    "Eine Tastbelegungsgruppe für Bewegung und eine für Kampf festlegen",
+    "Beutel-Sortierung erst hinzufügen, wenn sich die Kern-UI stabil anfühlt"
+  ]}
+/>
+
+<Callout type="warning" title="Diesen Fehler vermeiden">
+Installiere nicht fünf Tools, die alle dieselbe Aufgabe erfüllen. Überlappende Addons machen Bugs schwerer zu isolieren und erzeugen oft mehr Unordnung, als sie lösen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Die besten UI-Profile für unterschiedliche Spielstile">
+
+Unterschiedliche Spezialisierungen brauchen unterschiedliche Mengen an Informationen. Ein Tank will Bedrohungs- und Überlebenshinweise. Ein Zauberwirker will Zaubertiming und sichtbare Procs. Ein PvP-Spieler will Unterbrechungen, Crowd-Control und gegnerische Cooldowns im Blick behalten. Passe die UI an die Aufgabe an.
+
+| Spielstil | Bester Addon-Fokus | Warum es funktioniert |
+|---|---|---|
+| **Solo-Leveln** | Leisten, Beutel, leichtes Tracking | Schnelles Setup, geringer Pflegeaufwand |
+| **Caster-DPS** | Procs, Zauber, Debuffs, Zielrahmen | Einfachere Rotationskontrolle |
+| **Nahkampf-DPS** | Namensplaketten, Unterbrechungen, Buff-Fenster | Bessere Uptime und Zielwechsel |
+| **Tank** | Bedrohung, gegnerische Zauber, Defensiv-Timer | Sicherere Pull-Kontrolle |
+| **PvP** | Gegnische Cooldowns, DR-Tracking, Fokusfenster | Bessere Reaktion auf Burst und CC |
+
+<CardGrid cols={3}>
+  <Card title="Leveling-Profil">
+    - **Wenig Unordnung**
+    - Schnelles Questen
+    - Minimaler Pflegeaufwand
+  </Card>
+  <Card title="Dungeon-Profil">
+    - **Gruppenübersicht**
+    - Tracking von Unterbrechungen
+    - Hinweise für Heilung und Tank
+  </Card>
+  <Card title="PvP-Profil">
+    - **Gegnerische Cooldowns**
+    - Fokus-Unterstützung
+    - Klare Crowd-Control-Timings
+  </Card>
+</CardGrid>
+
+| Profil | Bildschirmdichte | Am besten für |
+|---|---|---|
+| **Niedrig** | Sehr leicht | Questen und Erkunden |
+| **Mittel** | Ausgewogen | Allgemeines Spiel und frühe Dungeons |
+| **Hoch** | Informationsreich | PvP, Raids und komplexe Spezialisierungen |
+
+<Callout type="success" title="Best Practice">
+Erstelle ein Profil fürs Leveln und eins für kampflastige Inhalte. Zwischen ihnen zu wechseln ist sauberer, als zu versuchen, mit einem einzigen Layout alles zu erledigen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fehlerbehebung und FAQ für das Addon-Setup">
+
+Wenn sich etwas falsch anfühlt, grenze das Problem ein, bevor du weitere Tools hinzufügst. Die meisten Probleme entstehen durch Versionskonflikte, doppelte Funktionen oder eine einzelne WeakAura, die zu viel auf einmal versucht.
+
+| Problem | Wahrscheinliche Ursache | Schnelle Lösung |
+|---|---|---|
+| **Fehlende UI-Elemente** | Addon deaktiviert oder falsches Profil | Neu laden, Profile prüfen, jeweils nur ein Addon testen |
+| **Überladener Bildschirm** | Zu viele überlappende Tracker | Doppelte Auren entfernen und Fenster verschlanken |
+| **Lags-Spitzen** | Schweres Kampflogging oder zu viele Warnungen | Visuelle Effekte reduzieren und Trigger vereinfachen |
+| **Unlesbare Namensplaketten** | Falsche Farben oder Größen | Kontrast erhöhen und unruhige Transparenz verringern |
+| **Beutel-Chaos** | Zu viele Inventar-Helper | Einen Sortier-Addon behalten und den Rest deaktivieren |
+
+<Callout type="info" title="Einfache Regel">
+Im Zweifel ein Addon entfernen und erneut testen. Ein kleinerer Stack ist leichter zu reparieren und meist auch angenehmer zu spielen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was ist der beste Ausgangspunkt für conquest of azeroth addons?",
+    answer: "Beginne mit einer sauberen Basis-UI, einem Namensplaketten-Tool, einem Kampf-Tracker und einem Beutel-Helper. So bekommst du den größten Nutzen bei geringstem Einrichtungsrisiko."
+  },
+  {
+    question: "Sollte ich am ersten Tag viele Addons verwenden?",
+    answer: "Wenn du es vermeiden kannst, eher nicht. Ein kleiner Stack hilft dir, deine Klasse schneller zu lernen, und macht es einfacher zu erkennen, was wirklich die Leistung verbessert."
+  },
+  {
+    question: "Brauchen Klassen mit vielen Gestaltwechseln spezielle Tracking-Tools?",
+    answer: "Ja. Klassen mit Formen, Haltungswechseln oder Proc-Ketten profitieren von starkem Aura-Tracking und klarer Button-Platzierung, damit du wichtige Fenster nicht verpasst."
+  },
+  {
+    question: "Was sollte ich für PvP priorisieren?",
+    answer: "Gegnerische Zauber, Unterbrechungen, Crowd-Control-Tracking und Fokusfenster sollten zuerst kommen. Wenn der Bildschirm zu voll ist, vereinfache erst, bevor du mehr hinzufügst."
+  }
+]} />
+
+</Section>

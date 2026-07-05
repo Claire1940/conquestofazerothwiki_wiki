@@ -1,0 +1,223 @@
+import { Map, Swords, Sparkles, Target, Trophy, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Notas del parche de Conquest of Azeroth: guía de cambios del lanzamiento",
+  description: "Un desglose al estilo de notas del parche sobre los cambios del lanzamiento de Conquest of Azeroth, nuevas clases, zonas y prioridades de progresión para la primera semana.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Patch+Notes+Guide",
+  date: "2026-07-06",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Las notas del parche de Conquest of Azeroth** se leen mejor como un mapa de lanzamiento: clases, especializaciones, zonas y sistemas de progresión.
+- **El anuncio oficial** confirma 21 clases, 69 especializaciones y una amplia expansión de las opciones de JcE y JcJ.
+- **Venomancer, Chronomancer y Necromancer** destacan por sus mecánicas poco comunes y una identidad muy marcada.
+- **JcJ de Alto Riesgo** cambia las decisiones tempranas de equipamiento porque los combates en el mundo abierto pueden generar una presión real sobre el botín.
+- **Pale Reach y Dunshire** son las primeras zonas nuevas que merece la pena revisar si quieres rutas de misión nuevas.
+</Callout>
+
+<Section icon={Map} title="Qué cambiaron las notas del parche de Conquest of Azeroth">
+
+Estas notas del parche de Conquest of Azeroth se leen más como una actualización de sistemas a escala de lanzamiento que como un pequeño ajuste de balance. La propuesta central del juego es simple: un Azeroth de estilo clásico reconstruido alrededor de **21 clases originales, 69 especializaciones totales, nuevas misiones, áreas personalizadas, mazmorras ampliadas y múltiples modos de JcJ**. Eso significa que el valor real de la actualización no está en una sola función por separado, sino en cómo cada sistema alimenta al siguiente.
+
+Para ver el conjunto base de funciones, usa el anuncio oficial aquí: [Resumen de Conquest of Azeroth Alpha](https://ascension.gg/en/news/conquest-of-azeroth-alpha/332). Expone la estructura con suficiente claridad como para planear tu primer personaje sin tener que adivinar.
+
+**Destacados del video:**
+- El día del lanzamiento mostró lo concurrido que puede estar el reino en las horas punta.
+- La jugabilidad de Venomancer destaca por las transformaciones, los venenos y la autosupervivencia.
+- Las misiones personalizadas y las nuevas zonas ya forman parte de la experiencia de subida de nivel.
+- Las áreas de alto nivel y el acceso a mazmorras importan casi de inmediato.
+
+<YouTubeEmbed videoId="PICYx25zl4A" title="¡Conquest of Azeroth POR FIN HA SALIDO! | 21 CLASES PERSONALIZADAS en World of Warcraft | Día 1" />
+
+<CardGrid cols={3}>
+  <Card title="Variedad de clases">
+    - **21 clases originales**
+    - 3+ especializaciones por clase
+    - Identidad de rol clara
+  </Card>
+  <Card title="Expansión del mundo">
+    - **Nuevas misiones**
+    - Zonas personalizadas
+    - Nodos de subida de nivel rediseñados
+  </Card>
+  <Card title="Presión de final del juego">
+    - Mazmorras y bandas
+    - Soporte para arena
+    - JcJ de Alto Riesgo
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Lee el lanzamiento como una actualización de sistema">
+Si quieres entender el parche rápido, céntrate en los sistemas que afectan cada minuto de juego: mecánicas de clase, desplazamiento, densidad de zonas y selección de modo. Esos son los verdaderos pilares de poder aquí.
+</Callout>
+
+| Área | Qué cambió | Por qué importa |
+|---|---|---|
+| Clases | 21 originales, 69 especializaciones | La diversidad de builds es el principal atractivo |
+| Hechizos | Cientos de habilidades personalizadas | Las rotaciones se sienten frescas incluso en roles conocidos |
+| Misiones | Líneas de misión nuevas y ampliadas | Subir de nivel no es solo repetir Vanilla de forma lineal |
+| Mazmorras | Diseño de encuentros ampliado | El contenido en grupo importa antes y con más frecuencia |
+| JcJ | Riesgo híbrido, Alto Riesgo, arenas | Tu modo elegido afecta al equipo y a la seguridad |
+
+</Section>
+
+<Section icon={Swords} title="Las mejores clases y especializaciones para leer primero">
+
+Si estás revisando las notas del parche de Conquest of Azeroth para decidir qué jugar primero, empieza por clases con una identidad bien definida. Las mejores elecciones de lanzamiento no siempre son las más sencillas, pero normalmente enseñan sus mecánicas con rapidez y recompensan la repetición. Por eso Venomancer, Chronomancer, Necromancer y Ranger merecen atención temprana.
+
+El patrón más interesante es que cada clase parece construida alrededor de un único ciclo de fantasía. Venomancer se inclina por las transformaciones y la acumulación de veneno. Chronomancer retuerce el tiempo y crea clones. Necromancer inunda el campo con no muertos. Ranger juega como un combatiente móvil de la naturaleza, con rutas claras de combate a distancia y cuerpo a cuerpo.
+
+<Callout type="warning" title="No juzgues solo por el daño">
+Las primeras impresiones pueden engañar. Algunas clases parecen más lentas al principio porque su verdadero poder está bloqueado tras herramientas de especialización, cambios de forma o escalado de recursos. Prueba el ciclo mecánico antes de clasificar la clase.
+</Callout>
+
+| Clase | Rol | Mecánica central | Ideal para |
+|---|---|---|---|
+| Venomancer | DPS, Tanque, Sanador | Formas de veneno y transformaciones | Jugadores que disfrutan de utilidad flexible |
+| Necromancer | DPS | Mascotas no muertas y fuerza vital | Fans de clases con mascotas y gestión de esbirros |
+| Chronomancer | DPS, Sanador | Efectos temporales, clones, retrocesos | Jugadores que disfrutan de utilidad combinada |
+| Ranger | DPS, Tanque | Arco, cuerpo a cuerpo, movilidad | Jugadores solitarios y subida de nivel en exterior |
+| Tinker | DPS, Sanador | Cargadores de munición y artilugios | Cualquiera que quiera un conjunto de herramientas de alta tecnología |
+
+<Callout type="info" title="Elecciones amigables para el lanzamiento">
+Si quieres que tu primer personaje sea fácil de entender, Ranger y Tinker son opciones más seguras. Si buscas la jugabilidad más distintiva, Venomancer y Chronomancer son las clases que conviene estudiar primero.
+</Callout>
+
+| Enfoque de especialización | Qué hace bien | Primera impresión |
+|---|---|---|
+| Rot Venomancer | Presión de veneno y daño de lanzador | Fuerte si te gusta el juego basado en procs |
+| Death Necromancer | Propagación de enfermedades y agresión de esbirros | Bueno para presión sostenida en grupo |
+| Artificer Chronomancer | Juego con varita y escalado de ataque | Único si te gustan las builds de rampas |
+| Archery Ranger | Escaramuzas a larga distancia | Fácil de entender, difícil de dominar |
+
+</Section>
+
+<Section icon={Sparkles} title="Zonas, mazmorras y la nueva capa del mapa">
+
+Las notas del parche de lanzamiento importan porque el propio mundo es distinto. La prueba más visible es la nueva capa de zonas: **Pale Reach**, **Dunshire**, **Gray Sky City** y las áreas circundantes de la cadena de misiones crean una ruta de subida de nivel nueva, pensada más para la exploración que para la velocidad pura. Incluso el mundo antiguo se está replanteando, con Westfall y otros espacios familiares recibiendo cambios visibles.
+
+Aquí es donde el lanzamiento empieza a sentirse ambicioso. El arte de las zonas amplía la escala, la música acompaña el ambiente y la distribución sugiere que los núcleos de misiones están diseñados para mantenerte moviéndote por espacios conectados en lugar de por bolsas aisladas.
+
+<Callout type="success" title="Mejor valor de exploración">
+Si eres de los jugadores que disfrutan descubrir lugares antes de optimizar rutas, empieza por la cadena de zonas nuevas y luego vuelve a las zonas antiguas. Eso ofrece la mejor primera impresión de cuánto ha cambiado el mundo.
+</Callout>
+
+| Área | Tipo | Notas |
+|---|---|---|
+| Pale Reach | Zona nueva de misiones | Diseñada para exploración de niveles tempranos a medios |
+| Dunshire | Núcleo de pueblo | Asentamiento de estilo humano con gran ambientación |
+| Gray Sky City | Zona de ciudad principal | Arquitectura a gran escala y acceso a vuelo |
+| Shadow Bone Depths | Mazmorra | Uno de los nuevos nombres de mazmorra del mapa |
+| Temple of Embers | Mazmorra | Otra nueva ruta de instancia que merece seguimiento |
+| Westfall | Zona clásica renovada | Terreno familiar, pero con nuevos detalles de núcleo |
+
+La estructura de modos también es igual de importante porque cambia cómo afrontas el viaje en mundo abierto, la farmeo y el equipo.
+
+| Modo | Reglas | Por qué importa |
+|---|---|---|
+| Modo JcE | Seguro frente al JcJ en mundo abierto, salvo que lo inicies | Mejor para subir de nivel y hacer misiones con calma |
+| Modo JcJ | JcJ completo en mundo abierto con fase compartida | Bueno si quieres peligro sin la presión de perder equipo |
+| JcJ de Alto Riesgo | Fase separada con botín al matar | Ideal para jugadores que quieren apuestas reales y botín del mundo |
+
+<Callout type="warning" title="Alto Riesgo es otro juego">
+El JcJ de Alto Riesgo no es simplemente JcJ normal con otra etiqueta. Cambia el comportamiento, las rutas y la tolerancia al riesgo, así que entra solo cuando tus herramientas de escape y tu plan de equipo estén listos.
+</Callout>
+
+| Función | Impacto |
+|---|---|
+| Estructura de Riesgo Híbrido | Todos los estilos de juego pueden existir en un solo reino |
+| Escalera de mazmorras | Más razones para agruparse mientras subes de nivel |
+| Soporte para arena | El JcJ de final del juego sigue siendo relevante |
+| Cambios de itemización | El equipo antiguo puede importar de formas nuevas |
+| Jefes del mundo y contenido personalizado | El juego en mundo abierto sigue teniendo valor |
+
+</Section>
+
+<Section icon={Target} title="Plan de progresión para la primera sesión">
+
+Si tu objetivo es convertir las notas del parche en progreso real, la primera sesión debería centrarse en desbloquear tu especialización, estabilizar tu ruta de viaje y elegir el modo adecuado para tu ritmo. El entorno de lanzamiento está muy concurrido, así que los mejores resultados vienen de un orden de operaciones simple: asegurar primero la identidad de tu clase y luego pasar al contenido que mejor encaje con ella.
+
+Una ruta inteligente para el lanzamiento es usar las herramientas de viaje gratuitas, llegar al primer punto importante de la especialización y decidir después si quieres hacer misiones, hacer cola o explorar. Ese enfoque evita que pierdas tiempo en un núcleo abarrotado cuando el mundo tiene cosas mucho mejores que ofrecer.
+
+<Callout type="tip" title="Mantén estructurada tu primera hora">
+No intentes hacerlo todo a la vez. Elige una sola ruta de subida de nivel, un estilo de combate y una meta de equipo. Así tu personaje inicial tendrá una dirección real en lugar de un inventario desordenado.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Llega a tu primer punto de ruptura de especialización">
+    Avanza hasta el nivel en el que se abre la identidad de tu clase. Para muchas builds, eso significa obtener la forma, postura o herramienta que define la especialización lo antes posible.
+  </Step>
+  <Step num="2" title="Asegura tu núcleo de viaje">
+    Coloca tu piedra de hogar o tu punto de retorno cerca de la zona que planeas farmear. Reducir el tiempo de viaje importa más en un lanzamiento concurrido que en una semana normal.
+  </Step>
+  <Step num="3" title="Prueba tu rotación principal">
+    Dedica un rato breve a enemigos de objetivo único y luego prueba una limpieza AoE o una escaramuza. Quieres saber si tu autosupervivencia y tu movilidad funcionan de verdad.
+  </Step>
+  <Step num="4" title="Elige tu modo de riesgo con cuidado">
+    Quédate en JcE si quieres consistencia, pásate a JcJ si quieres interferencia y entra en Alto Riesgo solo cuando estés listo para perder impulso al morir.
+  </Step>
+</Steps>
+
+<Checklist
+  id="launch-priority-list"
+  title="Objetivos de la primera semana:"
+  items={[
+    "Desbloquea tu especialización y las herramientas de forma principal",
+    "Encuentra una ruta de subida de nivel que puedas repetir con limpieza",
+    "Prueba una mazmorra o un campo de batalla antes de comprometerte demasiado",
+    "Visita al menos un núcleo de zona nuevo",
+    "Decide si el JcJ de Alto Riesgo encaja con tu ruta"
+  ]}
+/>
+
+| Prioridad | Acción | Resultado |
+|---|---|---|
+| 1 | Desbloquear herramientas de especialización | Tu clase por fin se siente completa |
+| 2 | Asegurar el viaje | Menos tiempo muerto, subida de nivel más rápida |
+| 3 | Probar el ciclo de combate | Aprendes tus verdaderos puntos fuertes |
+| 4 | Hacer cola para contenido en grupo | Mejor equipo y mejores opciones de ritmo |
+| 5 | Entrar en Alto Riesgo más tarde | Menos posibilidades de perder el ritmo inicial |
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<Callout type="info" title="Preguntas frecuentes">
+Estas respuestas son la forma más rápida de aplicar las notas del parche sin volver a leer cada descripción de sistema.
+</Callout>
+
+<FAQ
+  items={[
+    {
+      question: "¿Cuál es el enfoque principal de las notas del parche de Conquest of Azeroth?",
+      answer: "El enfoque principal es la expansión a escala de lanzamiento del juego: 21 clases, 69 especializaciones, nuevas misiones, nuevas zonas, nuevas mazmorras y una estructura sólida de JcJ."
+    },
+    {
+      question: "¿Qué clase debería probar primero si quiero una sensación nueva?",
+      answer: "Venomancer es una de las mejores primeras pruebas si quieres una clase que se sienta realmente distinta, mientras que Ranger es una opción más segura si buscas una curva de aprendizaje más clara."
+    },
+    {
+      question: "¿Merece la pena entrar pronto en JcJ de Alto Riesgo?",
+      answer: "Puede merecer la pena, pero solo si te sientes cómodo con la presión y la pérdida. El modo ofrece buenas recompensas en el mundo, pero también cambia cómo recorres, farmeas y luchas."
+    },
+    {
+      question: "¿Qué debería priorizar antes de salir de la zona inicial?",
+      answer: "Concéntrate en desbloquear tu especialización, tu punto de viaje y tus herramientas principales de daño o autosupervivencia. Una vez eso esté listo, pasa a una zona o actividad que encaje con tu build."
+    }
+  ]}
+/>
+
+<Callout type="success" title="Conclusión">
+Si solo recuerdas una cosa, que sea esta: la mejor forma de leer las notas del parche de Conquest of Azeroth es tratarlas como una hoja de ruta de cómo el juego quiere que juegues, no solo como una lista de añadidos.
+</Callout>
+
+</Section>

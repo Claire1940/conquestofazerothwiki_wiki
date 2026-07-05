@@ -1,0 +1,201 @@
+import { Map, Shield, Target, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Venomancer: Spezialisierungsleitfaden",
+  description: "Lerne die Formen, Spezialisierungen, Nützlichkeit und Build-Prioritäten des Conquest of Azeroth Venomancer für Tanking, Nahkampf-DPS, Zauber-DPS oder Heilen kennen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Venomancer+Specializations+Guide",
+  date: "2026-07-06",
+  author: "conquest of azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellübersicht">
+- **Conquest of Azeroth Venomancer** verbindet giftiges Gestaltwandeln, flexible Kontrolle und Rollenwechsel in einer einzigen Klasse.
+- **Fortitude, Stalking, Rot Weaver und Vizir** stehen jeweils für eine andere Aufgabe auf dem Schlachtfeld und eine andere Wertungspriorität.
+- **Aufrechterhaltung von DoTs und Giftstapelung** treiben den Großteil des Schadens und des Unterstützungswerts der Klasse an.
+- **Nützlichkeitswerkzeuge** wie Kokons, Verwandlungen und Eingraben machen die Klasse stärker als nur einen simplen Schadenspick.
+</Callout>
+
+<Section icon={Map} title="Worin der Conquest of Azeroth Venomancer am besten ist">
+
+Der Conquest of Azeroth Venomancer ist für Spieler gedacht, die eine Klasse wollen, die sich von Frontverteidigung über Druckschaden bis hin zu Heilunterstützung wandeln kann, ohne ihre Gift-Identität zu verlieren. Die Klasse dreht sich um Gestaltformen, stapelnde Gifte und ein Werkzeugset, das Planung über wildes Tastendrücken belohnt.
+
+**Video-Highlights:**
+- Giftiges Gestaltwandeln prägt die Klassenfantasie und den Kampfrhythmus.
+- Die Klasse kann tanken, Nahkampfschaden verursachen, aus der Distanz zaubern oder heilen.
+- Kontrollwerkzeuge wie Kokons und Eingraben bringen starke Nützlichkeit.
+- Fortitude, Stalking, Rot Weaver und Vizir schaffen jeweils eine eigene Rolle.
+
+<YouTubeEmbed videoId="RSOJihG0_aQ" title="Neue WoW-Klasse: Venomancer - Conquest of Azeroth" />
+
+| Kernpfeiler | Bedeutung | Warum es wichtig ist |
+|---|---|---|
+| Gestaltwandeln | Mehrere giftthematische Formen | Ermöglicht Anpassung an Gruppe und Kampfsituation |
+| Schaden über Zeit | Gifte und Seuchen bauen Druck auf | Anhaltender Schaden ist oft wichtiger als Burst |
+| Nützlichkeit | Kontrolle, schleichähnliche Bewegung und Defensivwerkzeuge | Macht die Klasse in mehr als einem Slot nützlich |
+| Rollenflexibilität | Tank, Nahkampf-DPS, Zauber-DPS, Heiler | Verringert das Risiko, den falschen Pfad zu wählen |
+
+<Callout type="tip" title="Kernhaltung">
+Spiele den Venomancer zuerst als Kontrollklasse und erst danach als Schadensklasse. Wenn deine Formen, Gifte und Utility aktiv bleiben, fühlt sich die Klasse deutlich runder an.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Aufschlüsselung der Spezialisierungen und Rollenpassung">
+
+Die vier Spezialisierungen teilen die Klasse in klare Aufgaben auf. Das ist der größte Grund, warum sich der Venomancer so anders anfühlt als ein gewöhnlicher Hybrid. Du wählst nicht nur eine Schadensvariante, sondern auch, wie die Klasse mit Rüstung, Heilung, Reichweite und Schlachtfeldkontrolle interagiert.
+
+<CardGrid cols={4}>
+  <Card title="Fortitude">
+    - **Frontline-Tanking**
+    - Fokus auf Rüstung und maximales Leben
+    - Selbstheilung durch beschädigte Exoskelette
+  </Card>
+  <Card title="Stalking">
+    - **Nahkampf-DPS**
+    - Schneller Druck im Raubtierstil
+    - Leech und hohe DoT-Uptime
+  </Card>
+  <Card title="Rot Weaver">
+    - **Zauber-DPS**
+    - DoTs können kritische Treffer erzielen und mit Tempo skalieren
+    - Starke giftige Ausbreitung aus der Distanz
+  </Card>
+  <Card title="Vizir">
+    - **Heiler**
+    - HoTs, Schilde und Manaverwaltung
+    - Gift wird in Wiederherstellung umgewandelt
+  </Card>
+</CardGrid>
+
+| Spezialisierung | Beste Rolle | Kampffeeling | Hauptstärke |
+|---|---|---|---|
+| Fortitude | Tank | Langsam, schwer, widerstandsfähig | Schadensreduktion und Gruppenschutz |
+| Stalking | Nahkampf-DPS | Schnell, aggressiv, leech-lastig | Starker anhaltender Druck |
+| Rot Weaver | Fernkampf-DPS | Methodisch, zauberorientiert | Gift-Krits und Tempo-Synergie |
+| Vizir | Heiler | Reaktiv, unterstützend, technisch | HoTs, Schilde und Manarückgewinnung |
+
+Fortitude setzt auf unnachgiebige Skorpid-Formen und skaliert seine Zähigkeit über Intelligenz und Beweglichkeit. Stalking bevorzugt bissige Raubtierformen und hält Gegner mit Nahkampfdruck blutend. Rot Weaver verbreitet Verfall mit Zaubertempo und kritischen DoTs. Vizir wandelt das Gift-Thema in Wiederherstellung um und kanalisiert Unterstützung über Shadra’s Vigil.
+
+<Callout type="warning" title="Wähle zuerst eine Hauptaufgabe">
+Der Versuch, gleichzeitig für Tanking, Nahkampfdruck, Zauberdruck und Heilung zu bauen, schwächt die Klasse meist. Starte mit einer Rolle und erweitere später.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wie du deinen ersten Venomancer-Build auswählst">
+
+Wähle als Erstes das, was zu den Inhalten passt, die du am häufigsten spielst. Die Klasse ist flexibel genug, dass auch die falsche Spezialisierung funktionieren kann, aber die richtige fühlt sich deutlich leichter zu spielen an.
+
+<Steps>
+  <Step num="1" title="Wähle deine Hauptgruppenrolle">
+    Entscheide, ob du tanken, Schaden machen oder heilen willst. Diese eine Entscheidung sollte den restlichen Build bestimmen.
+  </Step>
+  <Step num="2" title="Passe deine Form an deine Rolle an">
+    Fortitude unterstützt Zähigkeit, Stalking unterstützt Nahkampfdruck, Rot Weaver unterstützt Zauberschaden und Vizir unterstützt Heilung.
+  </Step>
+  <Step num="3" title="Priorisiere die richtige Skalierung">
+    Baue bei Fortitude um Rüstung und Leben herum, bei Stalking um Leech und Uptime, bei Rot Weaver um Tempo und Krit und bei Vizir um Manaverwaltung.
+  </Step>
+  <Step num="4" title="Teste in echten Dungeon-Pulls">
+    Der Venomancer wirkt auf dem Papier flexibel, aber die beste Spezialisierung ist die, die unter Druck in deinem tatsächlichen Gruppeninhalt funktioniert.
+  </Step>
+</Steps>
+
+| Dein Ziel | Beste erste Wahl | Warum es passt |
+|---|---|---|
+| Überlebensfähigkeit solo | Fortitude | Hohe Zähigkeit und Selbstheilung |
+| Schneller Nahkampfdruck | Stalking | Starkes Verfolgen und anhaltender Schaden |
+| Reichweite und DoTs | Rot Weaver | Giftzauber skalieren natürlich |
+| Gruppenheilung | Vizir | Direkte Unterstützung und Wiederherstellungswerkzeuge |
+
+<Callout type="info" title="Einfache Regel">
+Wenn du zwischen zwei Spezialisierungen schwankst, wähle die, die zu deiner häufigsten Warteschlangen-Art passt. Solospieler sollten meist Fortitude oder Stalking bevorzugen, während gruppenorientierte Spieler oft Rot Weaver oder Vizir wählen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Nützlichkeit, Kontrolle und Prioritäten in der Rotation">
+
+Die Klasse sticht hervor, weil ihre Nützlichkeit nicht bloß Dekoration ist. Kontrolle, Fluchtwerkzeuge und Schlachtfeldverweigerung stützen die Giftfantasie im Kern. Das bedeutet, deine Rotation sollte nicht nur aus Schadensfähigkeiten bestehen. Sie sollte auch Sicherheit, Positionierung und Uptime bewahren.
+
+| Werkzeug | Beste Verwendung | Auswirkung auf die Rolle |
+|---|---|---|
+| Kokons | Gefährliche Ziele festsetzen | Hervorragend für kontrolllastige Pulls |
+| Polymorph-ähnliche Kontrolle | Eingehenden Druck senken | Gibt der Gruppe Luft zum Atmen |
+| Eingraben | Neu positionieren oder Gefahr ausweichen | Stark für Überleben und Resets |
+| Giftbolzen | Druck aus der Distanz verteilen | Zentrales Schadensmuster von Rot Weaver |
+| Schlangenspulen | Giftbasierten Schadensfluss ergänzen | Hilft, anhaltenden DoT-Druck aufrechtzuerhalten |
+| Giftpilze | Gedrängte Gegner kontrollieren | Starke Flächenverweigerung im Kampf |
+| Shadra’s Vigil | Heilen, Schilde und Mana wiederherstellen | Signatur-Unterstützungswerkzeug von Vizir |
+
+Ein guter Venomancer nutzt Kontrolle, um Zeit zu schaffen, nicht nur Raum. Jede Sekunde, in der ein Gegner festgesetzt, verlangsamt oder umgelenkt ist, ist eine weitere Sekunde, in der Gift-Effekte arbeiten können. Das gilt besonders in schwereren Dungeon-Pulls, in denen die Defensivwerkzeuge und die Massenkontrolle der Klasse verhindern, dass dein Heiler oder Tank überrannt wird.
+
+| Priorität | Fortitude | Stalking | Rot Weaver | Vizir |
+|---|---|---|---|---|
+| Hauptaufgabe | Schaden absorbieren | Nahkampfdruck aufrechterhalten | Giftzauber aufrechterhalten | Verbündete am Leben halten |
+| Schadensmuster | Wenig Burst, stetige Bedrohung | DoTs im Nahbereich | Krit-fähige DoTs | Heilung über Zeit |
+| Ressourcenfokus | Zähigkeit | Leech und Uptime | Tempo und Krit | Tempo und Manafluss |
+
+<Callout type="tip" title="Rotationstipp">
+Halte deine Nützlichkeit als Teil der Rotation aktiv. Eingraben, Kontrolleffekte und das Setzen von Giften sind keine Paniktasten; sie gehören zu deiner Kampfeffizienz.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Praktische Prioritäten für ein starkes Setup">
+
+Sobald du deine Spezialisierung kennst, halte Ausrüstung und Spielweise fokussiert. Der Venomancer belohnt Disziplin: Halte deine Gifteffekte aufrecht, respektiere deine Form und verschwende keine Abklingzeiten darauf, gleichzeitig jede mögliche Aufgabe abzudecken.
+
+<Checklist
+  id="venomancer-setup"
+  title="Bevor du dich anmeldest:"
+  items={[
+    "Wähle eine Hauptspezialisierung und verpflichte dich zu ihrer Rolle",
+    "Halte deine Gift- oder Heileffekte jederzeit aktiv",
+    "Nutze Kontrollwerkzeuge, bevor Schadensspitzen auftreten",
+    "Passe deinen Ausrüstungsfokus an deine Spezialisierung an",
+    "Übe Formwechsel und das Timing von Eingraben zuerst in leichtem Inhalt"
+  ]}
+/>
+
+| Spezialisierung | Ausrüstungsfokus | Spielmuster |
+|---|---|---|
+| Fortitude | Rüstung, Leben, Intelligenz, Beweglichkeit | Erst stabilisieren, dann Bedrohung halten |
+| Stalking | Leech, Nahkampf-Uptime, Überlebensfähigkeit | Am Ziel bleiben und Druck dauerhaft aufrechterhalten |
+| Rot Weaver | Tempo, Krit, Skalierung im Stil von Zauberkraft | DoTs aufrechterhalten und im Rhythmus zaubern |
+| Vizir | Tempo, Manaverwaltung, Heilungsdurchsatz | Die Gruppe vorab mit HoTs versehen und bei Bedarf kanalisieren |
+
+Der sicherste Weg zur Verbesserung besteht darin, zu prüfen, ob dein Klassenwert aus rohem Schaden, Schadensminderung oder Unterstützung stammt. Wenn die Antwort von Pull zu Pull wechselt, braucht dein Build wahrscheinlich klarere Grenzen.
+
+<Callout type="success" title="Beste langfristige Gewohnheit">
+Verfolge, ob jeder Kampf deinen Gifteindruck, deine Kontrollwerkzeuge und deine Formboni effizient genutzt hat. Diese Gewohnheit verbessert alle Venomancer-Spezialisierungen auf einmal.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was ist die Hauptstärke des Conquest of Azeroth Venomancer?",
+    answer: "Seine größte Stärke ist Flexibilität. Die Klasse kann tanken, Nahkampf- oder Zauberschaden verursachen und heilen, während sie starke giftthematische Nützlichkeit beibehält."
+  },
+  {
+    question: "Welche Spezialisierung ist für neue Spieler am besten?",
+    answer: "Fortitude ist meist der sicherste Einstieg, weil sie Zähigkeit, Selbstheilung und Gruppenschutz betont."
+  },
+  {
+    question: "Verlässt sich der Venomancer mehr auf Burst oder auf Schaden über Zeit?",
+    answer: "Schaden über Zeit ist der Kern der Klasse. Burst kann wichtig sein, aber Giftstapelung und anhaltender Druck definieren meist das beste Spiel."
+  },
+  {
+    question: "Wie sollte ich Rot Weaver oder Vizir angehen?",
+    answer: "Rot Weaver sollte sich auf Giftzauber, Tempo und kritfreundliche DoTs konzentrieren, während Vizir HoTs, Schilde und Manaverwaltung priorisieren sollte."
+  }
+]} />
+
+</Section>

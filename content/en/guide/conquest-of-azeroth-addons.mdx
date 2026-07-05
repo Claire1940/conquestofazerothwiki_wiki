@@ -1,0 +1,217 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "conquest of azeroth addons: Best UI Setup Guide 2026",
+  description: "Build a clean Conquest of Azeroth addon stack with the right UI, combat, bag, and tracking tools for leveling, PvP, and launch-day chaos.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Addon+Setup+Guide",
+  date: "2026-07-06",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **conquest of azeroth addons** work best when you start with a minimal UI and add only the tools you truly need.
+- **Launch-day chaos** makes nameplates, cooldown tracking, and bag cleanup more valuable than cosmetic extras.
+- **Shapeshift-heavy classes** benefit from strong aura tracking and keybind layouts that reduce screen clutter.
+- **PvP and dungeon play** both improve when combat text, interrupt alerts, and target frames stay visible.
+</Callout>
+
+<Section icon={Map} title="Why conquest of azeroth addons Matter on Launch Day">
+
+On a crowded release server, the first job of your UI is not style; it is clarity. A launch full of custom classes, packed cities, and fast leveling leaves very little room for visual noise. A good addon setup helps you track procs, enemy casts, resources, and bags without fighting the screen.
+
+**Video Highlights:**
+- Heavy launch traffic makes readable UI choices more important than luxury features.
+- Custom classes and shapeshift tools create more buttons and more status effects to watch.
+- Early leveling moves quickly enough that cleanup and speed matter from the first login.
+- Dense PvP and group fights reward clear nameplates and reliable cooldown tracking.
+
+<YouTubeEmbed videoId="PICYx25zl4A" title="Conquest of Azeroth HAS FINALLY RELEASED! | 21 CUSTOM CLASSES in World of Warcraft | Day 1" />
+
+| Addon Priority | Why It Matters | Launch-Day Impact |
+|---|---|---|
+| **Nameplates** | See casts, debuffs, and target swaps faster | **High** |
+| **Cooldown tracking** | Manage procs, burst windows, and defensives | **High** |
+| **Action bars** | Reduce button drift and improve keybind flow | **High** |
+| **Bag cleanup** | Sell, sort, and identify loot faster | **Medium** |
+| **Combat logging** | Review damage, healing, and mistakes | **Medium** |
+
+<Callout type="tip" title="Editorial Rule">
+Start with readability first. If an addon does not improve decision-making in combat, leveling, or inventory management, skip it for now.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Core Addon Stack to Install First">
+
+The safest Conquest of Azeroth addon stack is a thin one. You want a few tools that solve obvious problems, not a crowded folder full of overlapping features. Think in layers: combat visibility, action control, and inventory cleanup.
+
+<CardGrid cols={3}>
+  <Card title="Combat Layer">
+    - **WeakAuras-style tracking**
+    - Proc alerts and buff timers
+    - Defensive reminders
+  </Card>
+  <Card title="Frame Layer">
+    - **Nameplates and unit frames**
+    - Easier target swaps
+    - Clear cast and debuff reads
+  </Card>
+  <Card title="Utility Layer">
+    - **Bags and vendor tools**
+    - Faster inventory cleanup
+    - Less downtime between pulls
+  </Card>
+</CardGrid>
+
+| Addon Type | Example Tools | Best Use Case |
+|---|---|---|
+| **Action bars** | Bartender4, Dominos | Cleaner keybinds and compact layouts |
+| **Nameplates** | Plater, Threat Plates | Enemy cast tracking and target focus |
+| **Combat HUD** | WeakAuras | Procs, debuffs, cooldown reminders |
+| **Logging** | Details! | Damage, healing, and post-fight review |
+| **Inventory** | Bagnon, AdiBags | Sorting loot, reagents, and quest items |
+| **QoL tools** | Leatrix Plus | Faster interactions and less friction |
+
+<Callout type="tip" title="Recommended Order">
+Install one addon from each layer first. That keeps troubleshooting easy and makes it obvious which tool actually improved your setup.
+</Callout>
+
+| Setup Style | Strength | Weakness |
+|---|---|---|
+| **Minimal** | Fast, clean, easy to maintain | Less visual information |
+| **Balanced** | Strong readability with low clutter | Takes a little tuning |
+| **Advanced** | Best for high-end play and PvP | Can become noisy if overbuilt |
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Setup for a Clean UI">
+
+Use a simple install workflow so you do not bury yourself in settings before you ever queue for content. The goal is to make the interface playable on day one, then refine it after you see how your class actually feels.
+
+<Steps>
+  <Step num="1" title="Lock in the base UI">
+    Disable unnecessary frames, move essential elements to the center of your attention zone, and keep the first pass simple.
+  </Step>
+  <Step num="2" title="Add combat readability">
+    Install your main nameplate and cooldown tools, then test them on a target dummy or in the field before you keep going.
+  </Step>
+  <Step num="3" title="Map class-specific tracking">
+    Build weak auras or equivalent reminders for resources, procs, forms, and major defensive cooldowns.
+  </Step>
+  <Step num="4" title="Tune inventory and utility">
+    Add bag sorting, vendor cleanup, and quality-of-life helpers only after the combat core feels stable.
+  </Step>
+</Steps>
+
+| Setup Task | What to Change | Result |
+|---|---|---|
+| **Bars** | Put core abilities on reachable keys | Faster reaction time |
+| **Frames** | Keep player, target, and party frames readable | Less visual hunting |
+| **Nameplates** | Highlight casts, debuffs, and low-health enemies | Better target selection |
+| **Auras** | Track procs, forms, and defensive windows | Fewer missed opportunities |
+| **Bags** | Enable sort and sell support | Less downtime |
+
+<Checklist
+  id="coa-ui-setup"
+  title="First-Login Checklist:"
+  items={[
+    "Move action bars before entering combat",
+    "Test target and focus frame visibility",
+    "Confirm your nameplates show enemy casts",
+    "Set one keybind group for movement and one for combat",
+    "Add bag sorting only after the core UI feels stable"
+  ]}
+/>
+
+<Callout type="warning" title="Avoid This Mistake">
+Do not install five tools that all do the same job. Overlapping addons make bugs harder to isolate and often create more clutter than they solve.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best UI Profiles for Different Playstyles">
+
+Different specs need different amounts of information. A tank wants threat and survival cues. A caster wants cast timing and proc visibility. A PvP player wants interrupts, crowd control, and enemy cooldown awareness. Match the UI to the job.
+
+| Playstyle | Best Addon Focus | Why It Works |
+|---|---|---|
+| **Solo leveling** | Bars, bags, lightweight tracking | Fast setup, low maintenance |
+| **Caster DPS** | Procs, casts, debuffs, target frames | Easier rotation control |
+| **Melee DPS** | Nameplates, interrupts, buff windows | Better uptime and target swaps |
+| **Tank** | Threat, enemy casts, defensive timers | Safer pull control |
+| **PvP** | Enemy cooldowns, DR tracking, focus frame | Better reaction to burst and CC |
+
+<CardGrid cols={3}>
+  <Card title="Leveling Profile">
+    - **Low clutter**
+    - Fast questing
+    - Minimal upkeep
+  </Card>
+  <Card title="Dungeon Profile">
+    - **Party awareness**
+    - Interrupt tracking
+    - Healing and tank cues
+  </Card>
+  <Card title="PvP Profile">
+    - **Enemy cooldowns**
+    - Focus support
+    - Clear crowd-control timing
+  </Card>
+</CardGrid>
+
+| Profile | Screen Density | Best For |
+|---|---|---|
+| **Low** | Very light | Questing and exploration |
+| **Medium** | Balanced | General play and early dungeons |
+| **High** | Information-rich | PvP, raids, and complex specs |
+
+<Callout type="success" title="Best Practice">
+Build one profile for leveling and one for combat-heavy content. Switching between them is cleaner than trying to make one layout do everything.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Troubleshooting and FAQ for Addon Setup">
+
+If something feels off, isolate the problem before adding more tools. Most issues come from version mismatch, duplicated functionality, or one weak aura trying to do too much at once.
+
+| Problem | Likely Cause | Fast Fix |
+|---|---|---|
+| **Missing UI elements** | Disabled addon or wrong profile | Reload, check profiles, test one addon at a time |
+| **Cluttered screen** | Too many overlapping trackers | Remove duplicate auras and trim frames |
+| **Lag spikes** | Heavy combat logging or too many alerts | Reduce visual effects and simplify triggers |
+| **Unreadable nameplates** | Wrong colors or size settings | Increase contrast and reduce opacity noise |
+| **Bag confusion** | Too many inventory helpers | Keep one sorting addon and disable the rest |
+
+<Callout type="info" title="Simple Rule">
+When in doubt, remove one addon and test again. A smaller stack is easier to repair and usually easier to play with.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the best starting point for conquest of azeroth addons?",
+    answer: "Begin with a clean base UI, a nameplate tool, a combat tracker, and a bag helper. That gives you the biggest benefit with the least setup risk."
+  },
+  {
+    question: "Should I use a lot of addons on day one?",
+    answer: "Not if you can avoid it. A small stack helps you learn your class faster and makes it easier to spot what actually improves performance."
+  },
+  {
+    question: "Do shapeshift-heavy classes need special tracking?",
+    answer: "Yes. Classes with forms, stance changes, or proc chains benefit from strong aura tracking and clear button placement so you do not miss key windows."
+  },
+  {
+    question: "What should I prioritize for PvP?",
+    answer: "Enemy casts, interrupts, crowd-control tracking, and target focus frames should come first. If the screen is too busy, simplify before you add more."
+  }
+]} />
+
+</Section>

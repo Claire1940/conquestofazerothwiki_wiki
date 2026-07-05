@@ -1,0 +1,211 @@
+import { Map, Target, Clock, Sparkles, Trophy, Shield, AlertTriangle, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "conteo de jugadores de conquest of azeroth: Guía del estado del reino",
+  description: "Consulta el estado actual de los reinos de Conquest of Azeroth, interpreta las señales de población y decide cuándo entrar para disfrutar de la sesión de juego más fluida.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Realm+Status+Guide",
+  date: "2026-07-06",
+  author: "Equipo de la Wiki de conquest of azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **conquest of azeroth player count** se interpreta mejor a través del estado del reino, el comportamiento de las colas y la velocidad para formar grupos.
+- **Rexxar** y **Vol'jin** son los reinos de Conquest of Azeroth activos que aparecen en la página oficial de estado.
+- **Online** significa que el reino acepta conexiones, no que se publique una cifra numérica de población.
+- **El mejor momento** suele venir de comprobar el acceso al login durante las horas punta de tu propia región.
+- **La variedad de clases** puede hacer que el juego se sienta más concurrido porque más jugadores pueden cubrir roles de mazmorra.
+</Callout>
+
+<Section icon={Map} title="conquest of azeroth player count: Lo que muestra la página de estado">
+
+A fecha de **2026-07-06**, la [página oficial de estado de los reinos](https://ascension.gg/en/status) muestra **Rexxar - Conquest of Azeroth** y **Vol'jin - Conquest of Azeroth** como **Online**. Esa es la señal pública más clara que puedes usar ahora mismo, porque la página se centra en la disponibilidad y no en la concurrencia exacta.
+
+La distinción importante es sencilla: **player count** es una medida numérica, mientras que el **estado del reino** es una medida de acceso. Para planificar de forma práctica, el acceso importa primero. Si un reino está online, puedes entrar, probar una configuración y ver con qué rapidez se forman los grupos.
+
+**Aspectos destacados del video:**
+- Se estaban comentando ocho especializaciones de sanador alrededor de la ventana de lanzamiento de CoA de julio de 2026.
+- La utilidad del grupo y la contribución de daño importan tanto como la curación pura.
+- Los roles flexibles suelen hacer que un reino se sienta más activo de lo que sugiere un simple conteo de conexiones.
+- La variedad de clases el día de lanzamiento puede ser una fuerte señal de interés temprano saludable.
+
+<YouTubeEmbed videoId="wum8A2L3HWM" title="¡LISTA DE NIVELES DE SANADORES DE Conquest of Azeroth! (Ascension CoA)" />
+
+| Reino | Estado | Qué significa | Señal de conteo de jugadores |
+|---|---|---|---|
+| Bronzebeard | Online | Acepta conexiones | La actividad general de Ascension está en marcha |
+| Area 52 | Online | Acepta conexiones | También hay tráfico fuera de CoA |
+| Rexxar - Conquest of Azeroth | Online | El reino de CoA está activo | El acceso al reino principal de CoA está disponible |
+| Vol'jin - Conquest of Azeroth | Online | El reino de CoA está activo | Hay otra opción activa de CoA disponible |
+
+<Callout type="tip" title="Cómo leer la señal">
+Que un reino esté online confirma su disponibilidad, pero no te dice si la población es baja, media o alta. Tómalo como tu primer filtro y luego observa la rapidez para formar grupos y la fluidez del login.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo interpretar las señales de población">
+
+El conteo de jugadores normalmente se infiere, no se revela. Eso significa que deberías observar un conjunto de indicadores en lugar de esperar una cifra perfecta. El mejor enfoque es combinar el estado, el comportamiento de la cola y la rapidez con la que puedes formar un grupo.
+
+<CardGrid cols={4}>
+  <Card title="Estado oficial">
+    - **Alta confianza**
+    - Confirma el acceso
+    - Mejor primera comprobación
+  </Card>
+  <Card title="Comportamiento de la cola">
+    - **Confianza media**
+    - Muestra la demanda inmediata
+    - Útil en horas punta
+  </Card>
+  <Card title="Velocidad para llenar mazmorras">
+    - **Confianza media**
+    - Fuerte indicio de actividad grupal
+    - Ideal para los roles de CoA
+  </Card>
+  <Card title="Ruido del chat">
+    - **Baja confianza**
+    - Puede ser ruido estacional
+    - Úsalo solo como apoyo
+  </Card>
+</CardGrid>
+
+| Señal | ¿Fiable? | Por qué ayuda |
+|---|---|---|
+| Estado online del reino | Alta | Confirma que el servidor está activo |
+| Longitud de la cola | Media | Muestra la demanda en ese momento |
+| Velocidad del buscador de grupos | Media | Refleja actividad real de jugadores |
+| Volumen del chat del mundo | Baja | Puede estar movido sin que haya actividad real |
+| Hype en redes sociales | Baja | A menudo sube más rápido que el juego |
+
+<Steps>
+  <Step num="1" title="Abre primero la página de estado">
+    Confirma que tu reino de CoA objetivo está online antes de tomar cualquier decisión sobre tu personaje o gremio.
+  </Step>
+  <Step num="2" title="Entra durante tu franja habitual de juego">
+    Comprueba si el reino se siente fluido o saturado cuando realmente piensas jugar.
+  </Step>
+  <Step num="3" title="Prueba una actividad social">
+    Intenta formar o unirte a un grupo de mazmorra para juzgar la calidad real de la población, no solo el acceso al login.
+  </Step>
+  <Step num="4" title="Repite en un segundo día">
+    Una sola captura puede llevarte a error, así que compara al menos dos sesiones antes de decidirte.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Qué no hay que sobreinterpretar">
+Una ventana de chat muy activa puede parecer saludable incluso cuando la formación real de grupos es débil. Usa el chat como ruido de fondo, no como tu métrica principal de población.
+</Callout>
+
+</Section>
+
+<Section icon={Clock} title="Mejores momentos para comprobar la población de Conquest of Azeroth">
+
+La forma más limpia de evaluar el **conquest of azeroth player count** es probar en distintas horas del día. No necesitas una gráfica perfecta de población para tomar una buena decisión. Solo necesitas saber cuándo tu reino se siente vacío, estable o lo bastante concurrido para el contenido que quieres hacer.
+
+| Franja horaria | Tráfico probable | Mejor uso |
+|---|---|---|
+| Primeras horas de los días laborables | Menor | Hacer misiones, probar builds, progreso en solitario |
+| Tardes de días laborables | Moderado | Mazmorras, comercio, organización del gremio |
+| Horas punta de fin de semana | Mayor | Contenido en grupo, juego social, actividad en el mundo |
+| Ventanas de parche o lanzamiento | Irregular | Comprobaciones rápidas, planificación rápida del personaje |
+
+La regla práctica es comparar la **misma actividad** a la **misma hora** en dos o tres sesiones. Si los grupos de mazmorra se llenan más rápido en un reino, eso es más relevante que un pico puntual en el chat.
+
+<Callout type="info" title="Momento inteligente">
+Si solo tienes una hora para probar un reino, dedica los primeros diez minutos a la velocidad de login y los veinte siguientes a formar grupo. Esas dos comprobaciones te dicen más que cualquier charla general.
+</Callout>
+
+| Prueba | Qué observar | Buena señal |
+|---|---|---|
+| Login | Retraso o acceso fluido | Acceso rápido |
+| Comercio | Velocidad de respuesta | Chat del mercado activo |
+| Registro en mazmorras | Velocidad de invitación | Los grupos se forman rápido |
+| Eventos del mundo | Presencia de jugadores | Se ve actividad cercana |
+
+</Section>
+
+<Section icon={Sparkles} title="Por qué la variedad de clases hace que la población se sienta más sana">
+
+La alineación de sanadores importa porque un reino no se siente vivo solo cuando hay cuerpos conectados. Se siente vivo cuando la gente puede cubrir roles de verdad, entrar y salir de grupos, y seguir jugando sin esperas largas. Por eso un diseño de clases amplio puede hacer que la población parezca más fuerte de lo que sugeriría un simple número bruto.
+
+| Patrón de clase | Impacto en el grupo | Por qué importa |
+|---|---|---|
+| Pyromancer / Cultist | Daño más curación | Mantiene el ritmo de las runs sin dejar de apoyar al grupo |
+| Tinker | Soporte centrado en utilidad | Aporta flexibilidad y acelera la formación de grupos |
+| Venomancer | Flujo de curación en el tiempo | Encaja muy bien con el ritmo sostenido de las mazmorras |
+| Chronomancer | Apoyo y movilidad | Ayuda a que el juego entre pulls sea más fluido |
+| Sun Cleric / Star Caller | Ciclo de curación más lento | Puede parecer menos dinámico para algunos jugadores |
+
+<CardGrid cols={3}>
+  <Card title="Apoyo impulsado por daño">
+    Los jugadores siguen implicados incluso cuando la curación es ligera, lo que mantiene más sanas las colas y los grupos.
+  </Card>
+  <Card title="Profundidad de utilidad">
+    Herramientas como control de masas, movilidad y escudos hacen que más jugadores sean útiles en más situaciones.
+  </Card>
+  <Card title="Flexibilidad de roles">
+    Los kits flexibles reducen la posibilidad de que la ausencia de un solo rol frene una noche de mazmorras.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mejor interpretación">
+Cuando las clases pueden contribuir de más de una forma, el reino suele sentirse más activo porque menos jugadores se quedan en la banca esperando una composición perfecta.
+</Callout>
+
+La distribución de sanadores el día de lanzamiento también es una pista útil sobre el interés general. Si los jugadores están hablando activamente de varios roles, normalmente eso indica una escena inicial sana, especialmente para un juego centrado en mazmorras.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de comprobación y FAQ para elegir un reino de CoA">
+
+Si tu objetivo es elegir el mejor hogar para el lanzamiento o para volver a jugar, usa una lista de comprobación sencilla. Céntrate en las cosas que afectan tu sesión de inmediato, no solo en la discusión general sobre población.
+
+<Checklist
+  id="coa-realm-checklist"
+  title="Antes de comprometerte con un reino:"
+  items={[
+    "Confirma que el reino está Online en la página oficial de estado",
+    "Comprueba tu franja habitual de juego al menos dos veces",
+    "Prueba con qué rapidez puedes formar un grupo de mazmorra",
+    "Elige el reino que mejor encaje con tus amigos y tu zona horaria"
+  ]}
+/>
+
+<Callout type="tip" title="Regla de decisión">
+Si dos reinos parecen saludables, elige aquel en el que mejor encajen tus amigos, tu gremio o tu horario preferido. Eso suele importar más que intentar adivinar un número oculto.
+</Callout>
+
+### Enlaces útiles
+
+- [Página oficial de estado de los reinos](https://ascension.gg/en/status) — úsala para verificar el acceso en vivo antes de entrar.
+- [Video de la lista de niveles de sanadores de Conquest of Azeroth](https://www.youtube.com/watch?v=wum8A2L3HWM) — útil para entender la variedad de roles y el interés del lanzamiento.
+
+<FAQ items={[
+  {
+    question: "¿El conteo de jugadores de conquest of azeroth muestra algún número exacto en algún sitio?",
+    answer: "La página pública de estado muestra si un reino está online, pero no publica una población numérica en tiempo real. Usa el acceso, el comportamiento de la cola y la formación de grupos como tus señales principales."
+  },
+  {
+    question: "¿Qué reinos de Conquest of Azeroth están online a 6 de julio de 2026?",
+    answer: "Rexxar - Conquest of Azeroth y Vol'jin - Conquest of Azeroth aparecen como Online en la página oficial de estado."
+  },
+  {
+    question: "¿Basta con que haya un reino online para juzgar la salud de la población?",
+    answer: "No. Una sola captura solo te dice que el reino está disponible. Compara la velocidad de login, el tiempo para llenar mazmorras y la consistencia en tu franja de juego antes de sacar conclusiones."
+  },
+  {
+    question: "¿Debería elegir siempre el reino más concurrido?",
+    answer: "No siempre. El mejor reino es el que encaja con tu zona horaria, tus amigos y el contenido que prefieres. Un reino algo más pequeño todavía puede sentirse mejor si se ajusta a tu horario."
+  }
+]} />
+
+</Section>

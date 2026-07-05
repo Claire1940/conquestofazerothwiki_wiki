@@ -1,0 +1,223 @@
+import { Map, Shield, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Estado del servidor de conquest of azeroth: comprobaciones y soluciones de lanzamiento",
+  description: "Sigue la disponibilidad de Conquest of Azeroth, interpreta las etiquetas de conectado/desconectado y usa una lista de verificación del día de lanzamiento para resolver rápido los problemas de inicio de sesión más comunes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Server+Status+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de conquest of azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **el estado del servidor de conquest of azeroth** te indica si el reino es accesible, si va con retraso o si todavía está dentro de una ventana de lanzamiento.
+- **Comprueba primero el estado** para no perder tiempo reinstalando, volviendo a iniciar sesión o cambiando ajustes por un problema del lado del reino.
+- **Usa intervalos cortos entre intentos** durante la presión del lanzamiento; volver a intentar sin parar suele dificultar la solución del problema, no acelerarla.
+- **Corrige antes los problemas locales** probando los addons, la caché y los ajustes de red antes de asumir que el servidor está caído.
+</Callout>
+
+<Section icon={Map} title="Estado del servidor de conquest of azeroth: lectura de señales">
+
+La forma más rápida de gestionar **el estado del servidor de conquest of azeroth** es leerlo como una cola en vivo, no como una etiqueta estática. Cuando un reino está sano, deberías poder pasar del cliente a la selección de personaje sin fricción. Cuando un reino está bajo presión, la primera pista suele ser el retraso, luego las desconexiones y después esperas de inicio de sesión más largas.
+
+La actualización destacada del lanzamiento apunta a una ventana de salida del **3 de julio de 2026** a las **3:00 p. m. GMT**, y eso importa porque el tráfico del día de lanzamiento cambia el significado de “normal”. Un servidor puede estar técnicamente en línea y aun así comportarse de forma inestable bajo una gran carga. Por eso el flujo correcto empieza por el estado, luego el cliente y después la conexión.
+
+**Aspectos destacados del video:**
+- **Horario de lanzamiento**: La ventana de salida está anunciada para el 3 de julio de 2026 a las 3:00 p. m. GMT.
+- **Pico de contenido**: Las nuevas clases, zonas y opciones de JcJ pueden generar una avalancha de inicios de sesión.
+- **Acceso gratuito**: El lanzamiento completo se presenta como abierto para todos.
+- **Conclusión práctica**: Las comprobaciones de estado importan más cuando la ventana de lanzamiento está activa.
+
+<YouTubeEmbed videoId="RR-HLDRwkzI" title="Ascension Conquest of Azeroth - ¡FECHA DE LANZAMIENTO COMPLETA!" />
+
+<CardGrid cols={3}>
+  <Card title="En línea">
+    - **La mejor señal posible**
+    - El reino debería aceptar conexiones
+    - Ve directamente a probar el inicio de sesión
+  </Card>
+  <Card title="Sin conexión">
+    - **Mantenimiento o caída**
+    - Deja de volver a iniciar sesión y espera
+    - Vuelve a comprobarlo cuando cambie la ventana
+  </Card>
+  <Card title="Próximamente">
+    - **Aún no está activo**
+    - No lo trates como un error del cliente
+    - Regresa cuando se abra el lanzamiento
+  </Card>
+</CardGrid>
+
+| Estado | Qué suele significar | Mejor respuesta |
+|---|---|---|
+| En línea | El reino debería ser accesible | Inicia sesión una vez y luego prueba la selección de personaje |
+| Sin conexión | Mantenimiento, caída o ventana de apagado | Espera y vuelve a comprobarlo más tarde |
+| Próximamente | Programado pero aún no abierto | Deja de reintentar y vuelve a la hora anunciada |
+
+<Callout type="tip" title="Lo más importante">
+Si el reino no está activo, la mejor solución es la paciencia. Si el reino está activo pero tu cliente falla, empieza a solucionar el problema en local.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cómo verificar la disponibilidad sin perder tiempo">
+
+El enfoque más limpio es seguir siempre el mismo orden de verificación. Así evitas perseguir el problema equivocado. Si el reino no está abierto, reparar el cliente no servirá. Si el reino está abierto, volver a iniciar sesión una y otra vez no solucionará un conjunto de addons roto ni una caché obsoleta.
+
+Una buena rutina es comprobar el estado, confirmar la versión del cliente, eliminar conflictos obvios y luego probar la conexión de nuevo. Ve con calma. Las noches de lanzamiento recompensan a los jugadores que verifican una vez, ajustan una vez y luego esperan la siguiente ventana estable.
+
+<Steps>
+  <Step num="1" title="Comprueba la etiqueta de estado">
+    Confirma si el reino figura como en línea, sin conexión o próximamente antes de cambiar nada en tu cliente.
+  </Step>
+  <Step num="2" title="Relaciona la etiqueta con el problema">
+    Si el reino está sin conexión, no empieces por solucionar tu PC. Si está en línea, pasa a las comprobaciones del cliente.
+  </Step>
+  <Step num="3" title="Prueba una ruta de inicio limpia">
+    Desactiva los addons pesados, cierra aplicaciones extra e intenta la conexión más directa posible.
+  </Step>
+  <Step num="4" title="Vuelve a intentar con una espera corta">
+    Espera unos minutos entre intentos para ver si la situación mejora.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita la trampa de reintentar">
+Los inicios de sesión rápidos y repetidos pueden hacer que un problema estable parezca peor. Comprueba, ajusta y luego dale al reino una pequeña ventana de recuperación.
+</Callout>
+
+| Punto de control | Qué verificar | Por qué ayuda |
+|---|---|---|
+| Versión del cliente | Compilación actualizada y estado del lanzador | Evita errores por desajuste de versiones |
+| Addons | Mods de interfaz pesados, asistentes rotos, perfiles antiguos | Elimina conflictos locales comunes |
+| Red | VPN, DNS, router, firewall | Separa los problemas del servidor de los de la red doméstica |
+| Momento del inicio de sesión | Hora punta frente a reintento fuera de hora punta | Ayuda a detectar la presión de la cola |
+
+</Section>
+
+<Section icon={Swords} title="Problemas comunes de inicio de sesión y la solución adecuada">
+
+Cuando el estado parece correcto pero el inicio de sesión sigue fallando, trata el problema como una tarea de triaje. El objetivo no es tocar todos los ajustes. El objetivo es aislar la causa con el menor número de pasos posible. En la práctica, eso significa empezar por el cliente, luego pasar a tu red y después volver a revisar el reino.
+
+Aquí también es donde los jugadores pierden más tiempo. Una desconexión en la selección de personaje, una pantalla de “conectando” bloqueada y un tiempo de espera al iniciar sesión suelen compartir el mismo patrón de fondo: una capa falla antes de que la siguiente termine de cargarse. Mantén la respuesta simple y sistemática.
+
+<Callout type="info" title="Corrige primero las variables locales">
+Si el reino está en línea pero el cliente falla, asume que el problema está en tu configuración hasta que la prueba limpia demuestre lo contrario.
+</Callout>
+
+| Síntoma | Causa probable | Mejor solución |
+|---|---|---|
+| Atascado en conectando | Pico de tráfico o retraso en el handshake | Reinicia una vez y luego espera unos minutos |
+| Desconexión instantánea | Desajuste de versión o conflicto de addons | Repara el cliente y desactiva los addons |
+| Error en selección de personaje | Presión de carga del reino | Vuelve a comprobar el estado e inténtalo más tarde |
+| Inicia sesión, luego va con lag | Congestión en hora punta | Mantente conectado y evita volver a iniciar sesión |
+
+<CardGrid cols={4}>
+  <Card title="Cliente">
+    - Repara los archivos del juego
+    - Actualiza el estado del lanzador
+    - Elimina addons obsoletos
+  </Card>
+  <Card title="Red">
+    - Prueba sin VPN
+    - Reinicia el router si hace falta
+    - Revisa las reglas del firewall
+  </Card>
+  <Card title="Cuenta">
+    - Confirma la contraseña introducida
+    - Reintenta solo después de una pausa
+    - Evita intentos fallidos rápidos
+  </Card>
+  <Card title="Reino">
+    - Vuelve a comprobar el estado en vivo
+    - Espera a que termine el mantenimiento
+    - Inténtalo de nuevo fuera de la hora punta
+  </Card>
+</CardGrid>
+
+| Orden de solución | Qué probar primero | Cuándo detenerse |
+|---|---|---|
+| 1 | Reiniciar el cliente | Si el mismo error se repite de inmediato |
+| 2 | Desactivar addons | Si la ruta de inicio de sesión queda limpia |
+| 3 | Reparar archivos | Si siguen apareciendo problemas de versión o recursos |
+| 4 | Probar la red | Si el cliente sigue fallando en una configuración limpia |
+
+</Section>
+
+<Section icon={Trophy} title="Horario de lanzamiento, colas y tu lista de verificación de inicio de sesión">
+
+La ventana de lanzamiento anunciada para el **2026-07-03** significa que el momento sigue importando incluso después de que pase la primera avalancha. Los hotfixes, los reinicios y los picos de cola pueden volver en cualquier momento en que llegue una actualización grande. El hábito más seguro es prepararte antes de hacer clic en iniciar sesión y luego reaccionar según el estado actual del servidor en lugar de adivinar.
+
+Para la mayoría de los jugadores, la mejor ventaja no es solo la velocidad. Es la preparación. Si ya eliminaste los bloqueos habituales, puedes pasar de una comprobación del reino a una prueba real sin desperdiciar tu primer intento.
+
+<Callout type="success" title="Regla de la ventana de lanzamiento">
+Si el reino está activo, entra con un cliente limpio y un ciclo de reintento tranquilo. Si el reino no está activo, ahórrate el tiempo y vuelve más tarde.
+</Callout>
+
+<Checklist
+  id="launch-ready"
+  title="Lista de verificación previa al inicio de sesión"
+  items={[
+    "Confirma el estado actual del servidor antes de abrir el cliente",
+    "Desactiva addons y superposiciones innecesarias",
+    "Cierra las herramientas VPN salvo que realmente las necesites",
+    "Asegúrate de tener listo tu gestor de contraseñas o tus notas",
+    "Planea un intento limpio de inicio de sesión antes de empezar a reintentar"
+  ]}
+/>
+
+| Ventana de tiempo | Mejor uso | Expectativa del jugador |
+|---|---|---|
+| Antes del tráfico pico | Prueba inicial de inicio de sesión | La forma más rápida de confirmar la estabilidad |
+| Primera hora del lanzamiento | Observación de la cola | Espera retrasos y evita volver a iniciar sesión en masa |
+| Después de la avalancha | Sesión de juego real | Mejor para ajustes, personajes alternativos y pruebas |
+| Ventanas de mantenimiento | No fuerces reintentos | Espera la siguiente actualización de estado |
+
+| Resultado del estado | Siguiente paso | Por qué |
+|---|---|---|
+| En línea, pero falla el inicio de sesión | Repara el cliente o desactiva addons | El problema probablemente es local |
+| Sin conexión | Espera y vuelve a comprobarlo más tarde | El reino no está disponible |
+| Próximamente | Deja de intentarlo | El reino aún no está abierto |
+| En línea, pero la cola es pesada | Mantente conectado | Volver a iniciar sesión puede hacerte perder tu lugar |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<Callout type="tip" title="Notas de la FAQ">
+Usa estas respuestas como un mapa rápido de decisión cuando la página de estado y tu cliente parezcan no coincidir.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué me indica el estado del servidor de conquest of azeroth?",
+    answer: "Te indica si el reino debería ser accesible ahora, si está en mantenimiento o si todavía está programado para una ventana posterior."
+  },
+  {
+    question: "¿Debería seguir reintentando si el reino parece sin conexión?",
+    answer: "No. Si el reino está sin conexión, los intentos repetidos de inicio de sesión suelen perder tiempo. Espera a que cambie el estado y luego prueba una vez con un cliente limpio."
+  },
+  {
+    question: "¿Por qué puede fallar el inicio de sesión cuando el estado dice que está en línea?",
+    answer: "Las causas más comunes son problemas del cliente, conflictos de addons, archivos obsoletos o un problema de red de tu lado. Empieza por la configuración local."
+  },
+  {
+    question: "¿Es mejor iniciar sesión enseguida o esperar?",
+    answer: "Si quieres el acceso más temprano, inicia sesión una vez con una configuración limpia. Si la cola es inestable, esperar un poco puede ser la opción más inteligente."
+  }
+]} />
+
+| Tema de la FAQ | Idea principal |
+|---|---|
+| Estado vs cliente | Un reino activo aún puede fallar en local |
+| Etiqueta sin conexión | No fuerces reintentos repetidos |
+| Addons | Una configuración limpia es más fácil de diagnosticar |
+| Presión de la cola | Mantén la paciencia y conserva la sesión activa |
+
+</Section>

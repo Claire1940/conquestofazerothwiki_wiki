@@ -1,0 +1,196 @@
+import { Map, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "conquest of azeroth mac: Guía de configuración para jugadores de Mac",
+  description: "Conoce las opciones actuales para Mac de Conquest of Azeroth, compara rutas de juego estables y configura una primera sesión fluida en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Mac+Setup+Guide",
+  date: "2026-07-06",
+  author: "Equipo de la Wiki de conquest of azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **conquest of azeroth mac** no ofrece una descarga nativa para macOS, así que planifica en función de la compatibilidad y no de suposiciones.
+- **Windows o juego remoto** suele ser la ruta más limpia para una primera sesión estable.
+- **El contenido oficial** destaca 21 clases, 70 especializaciones y una gran carga de juego que recompensa la estabilidad.
+- **Empieza por lo simple** con ajustes bajos, una breve prueba y un plan de respaldo antes de dedicarle tiempo.
+- **La forma más rápida de acertar** es elegir la configuración menos frágil, no la más ambiciosa.
+</Callout>
+
+<Section icon={Map} title="conquest of azeroth mac: Verificación de la realidad de la plataforma">
+
+Para los jugadores de **conquest of azeroth mac**, la primera decisión es la compatibilidad. El sitio oficial de Project Ascension actualmente enumera **Windows y Linux**, no macOS, así que la ruta en Mac empieza con una limitación y no con un botón de descarga. Si quieres la experiencia más fluida, céntrate en una configuración que te permita entrar al juego con la menor cantidad de piezas móviles posible.
+
+La página principal oficial también presenta Conquest of Azeroth como un reino independiente con clases personalizadas y actualizaciones continuas, lo que significa que tu primera prioridad es una ruta de inicio de sesión estable, no una configuración gráfica perfecta. Puedes verificar el sitio actual aquí: [Project Ascension](https://ascension.gg/en).
+
+**Aspectos destacados del video:**
+- **21 clases nuevas** construidas a partir del lore de Warcraft
+- **70 especializaciones** con roles y builds distintos
+- **Contenido ampliado del mundo** con misiones, mazmorras y botín
+- **Nota de plataforma**: el sitio oficial enumera Windows y Linux, no macOS
+- **Por qué importa**: una configuración estable vale más que perseguir los ajustes máximos
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Lanzamiento completo: Conquest of Azeroth - Ascension WoW" />
+
+| Plataforma | Estado oficial | Significado práctico |
+|---|---|---|
+| macOS | No aparece | No se anuncia una descarga nativa para Mac |
+| Windows | Compatible | La mejor ruta si puedes ejecutar Windows en algún lugar |
+| Linux | Compatible | Útil solo si ya tienes acceso a Linux |
+| Solución para Mac | No oficial | Requiere una capa de traducción, una VM o una ruta de streaming |
+
+<Callout type="warning" title="Importante">
+No asumas que existe un cliente oculto para macOS. Si la página oficial de descarga no indica compatibilidad con Mac, trata cualquier solución local como experimental hasta que demuestre ser estable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Las mejores formas de jugar sin un cliente nativo para Mac">
+
+Si aun así quieres jugar en una Mac, la decisión tiene menos que ver con la fantasía y más con la gestión del riesgo. La profundidad de clases, las habilidades personalizadas y los sistemas de final de juego son lo bastante complejos como para que el lag de entrada o los cierres inesperados arruinen la experiencia rápidamente. Por eso, una ruta amigable para Mac debería optimizar **estabilidad, baja latencia y recuperación sencilla**.
+
+<CardGrid cols={4}>
+  <Card title="Mac Intel con acceso a Windows">
+    - Mejor para hardware más antiguo
+    - Puede soportar una ruta local de Windows
+    - Más flexible que las configuraciones Mac más nuevas
+    - Aun así depende de tu máquina exacta
+  </Card>
+  <Card title="Mac con Apple Silicon">
+    - Buena para productividad general
+    - La compatibilidad local con juegos es más limitada
+    - Mejor adaptada a rutas alternativas
+    - Mantén expectativas conservadoras
+  </Card>
+  <Card title="Juego remoto desde un PC con Windows">
+    - Suele ser la opción menos frágil
+    - Mantiene el juego fuera de la Mac
+    - Ideal para pruebas rápidas
+    - Buena opción para jugadores ocupados
+  </Card>
+  <Card title="Esperar compatibilidad oficial para Mac">
+    - Menor esfuerzo hoy
+    - Sin configuración extra por ahora
+    - Mejor si prefieres tener paciencia
+    - El resultado sigue siendo incierto hasta que se anuncie
+  </Card>
+</CardGrid>
+
+| Ruta | Esfuerzo de configuración | Estabilidad | Mejor caso de uso |
+|---|---|---|---|
+| Mac Intel con acceso a Windows | Medio | Media | Hardware Mac antiguo, juego local |
+| Apple Silicon con una solución alternativa | Alto | Variable | Usuarios que quieren experimentar |
+| Juego remoto desde un PC con Windows | Bajo | Alta | Opción más rápida y menos frágil |
+| Esperar una versión oficial | Bajo | Desconocida | Jugadores que prefieren esperar |
+
+<Callout type="tip" title="Consejo profesional">
+Si tu objetivo es simplemente iniciar sesión y disfrutar del reino, el juego remoto o una máquina compatible con Windows suele ser mejor que forzar una configuración solo para Mac.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pasos de configuración para una primera sesión estable">
+
+Tu primera sesión debería ser una prueba, no una maratón. Conquest of Azeroth tiene mucho que ofrecer: clases personalizadas, árboles de especialización y suficiente variedad de combate como para que una mala configuración se note enseguida. Usa la primera hora para comprobar que la ruta funciona, no para optimizar todo de una vez.
+
+<Steps>
+  <Step num="1" title="Elige una sola ruta de juego">
+    Decide si vas a usar una máquina compatible con Windows, una sesión remota u otra solución alternativa. No mezcles métodos hasta que el primero esté confirmado como estable.
+  </Step>
+  <Step num="2" title="Inicia con ajustes conservadores">
+    Empieza con una resolución moderada y un modo de pantalla sencillo. Mantén la sesión ligera para poder detectar pronto los problemas de compatibilidad.
+  </Step>
+  <Step num="3" title="Verifica los controles básicos">
+    Prueba el movimiento, el objetivo, el control de la cámara, el chat y el audio antes de entrar en combate. Si alguno falla, arréglalo antes de continuar.
+  </Step>
+  <Step num="4" title="Guarda un perfil de respaldo">
+    Cuando el cliente funcione bien, guarda un ajuste preestablecido con calidad más baja y una distribución de teclas cómoda para futuras sesiones.
+  </Step>
+</Steps>
+
+| Ajuste de la primera sesión | Punto de partida recomendado | Por qué ayuda |
+|---|---|---|
+| Resolución | Nativa o un paso por debajo de la nativa | Reduce la carga y mantiene la UI legible |
+| Modo de pantalla | Ventana o ventana sin bordes | Facilita la recuperación si el cliente se bloquea |
+| Apps en segundo plano | Cierra las extra | Libera CPU y memoria |
+| Audio y entrada | Prueba ambos antes del combate | Evita sorpresas en contenido grupal |
+| Atajos de teclado | Vincula pronto las acciones principales | Aprendizaje más rápido cuando la clase se vuelve más intensa |
+
+<Checklist
+  id="mac-first-session"
+  title="Antes de entrar a la cola:"
+  items={[
+    "Confirma que el juego inicia sin problemas",
+    "Mantén un perfil de respaldo con menor calidad",
+    "Prueba el movimiento, el objetivo y la cámara",
+    "Verifica el audio, el chat y las teclas rápidas",
+    "Haz una breve sesión en solitario antes del contenido grupal"
+  ]}
+/>
+
+<Callout type="info" title="Nota de configuración">
+Una primera hora estable vale más que unos ajustes altos. Si el cliente funciona con fluidez, siempre puedes subir los gráficos después.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rendimiento, controles y solución de problemas">
+
+Una vez dentro, la prioridad pasa del acceso a la comodidad. El sistema de clases de Conquest of Azeroth se basa en decisiones frecuentes, hechizos personalizados y herramientas específicas para cada rol, así que los problemas de rendimiento aparecen rápido. Un pequeño retraso puede no ser grave mientras estás quieto, pero se vuelve doloroso al cambiar de objetivo, usar habilidades con enfriamiento o reaccionar en una mazmorra.
+
+| Síntoma | Causa más probable | Primera solución |
+|---|---|---|
+| Tiempo de carga largo | Sobrecarga de traducción o streaming | Baja la resolución y vuelve a intentar |
+| Tirones en combate | Presión sobre CPU o GPU | Cierra las apps en segundo plano |
+| Retraso de entrada | Red o capa de compatibilidad | Prefiere una conexión por cable o una ruta distinta |
+| Problemas con el launcher | Desajuste de plataforma | Revisa que el método realmente sea compatible con Mac |
+
+Algunos hábitos marcan una diferencia mayor de la que la mayoría espera:
+
+- Mantén un perfil para misiones y otro para contenido grupal.
+- Usa una red estable antes de preocuparte por los efectos visuales.
+- Prueba tus controles en una zona segura antes de unirte a otros.
+- Baja primero los efectos si el combate se siente lento.
+- Vuelve a revisar la configuración después de las actualizaciones, porque la compatibilidad puede cambiar.
+
+<Callout type="success" title="Mejor práctica">
+Trata la configuración de tu Mac como un perfil vivo. Guarda lo que funcione, conserva una alternativa y evita rehacer toda la configuración cada vez que juegues.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes y recomendaciones finales">
+
+Si solo quieres la respuesta más corta, deja de buscar un instalador nativo secreto para Mac. Las páginas oficiales apuntan a Windows y Linux, así que la opción más inteligente es elegir la ruta menos frágil disponible y luego ajustar para conseguir fluidez.
+
+<Callout type="info" title="Conclusión">
+Una ruta de juego fiable importa más que una perfecta. Si Mac es tu máquina principal, usa la configuración que te dé menos cierres, menor retraso de entrada y una recuperación más sencilla.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Existe un cliente nativo de conquest of azeroth mac?",
+    answer: "No se ofrece ninguna descarga nativa para macOS en el sitio oficial. En su lugar, planifica una solución alternativa, juego remoto u otra ruta compatible con Windows."
+  },
+  {
+    question: "¿Cuál es la forma más fiable de jugar Conquest of Azeroth en una Mac?",
+    answer: "La opción más fiable suele ser la que tiene menos capas de compatibilidad. Una máquina compatible con Windows o el juego remoto desde una suele ser el comienzo más seguro."
+  },
+  {
+    question: "¿Pueden los Mac con Apple Silicon ejecutarlo bien?",
+    answer: "Los Mac con Apple Silicon pueden tener más limitaciones para la compatibilidad local. Si pruebas esa ruta, mantén expectativas moderadas y comprueba la estabilidad antes de invertir tiempo."
+  },
+  {
+    question: "¿El juego es gratis para empezar?",
+    answer: "Sí. El sitio oficial describe Project Ascension como free to play, y los Donor Points opcionales no son necesarios para empezar a jugar."
+  }
+]} />
+
+</Section>

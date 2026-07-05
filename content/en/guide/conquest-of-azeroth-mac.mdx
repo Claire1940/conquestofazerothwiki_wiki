@@ -1,0 +1,196 @@
+import { Map, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "conquest of azeroth mac: Setup Guide for Mac Players",
+  description: "Learn the current Mac options for Conquest of Azeroth, compare stable play paths, and set up a smooth first session in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Mac+Setup+Guide",
+  date: "2026-07-06",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **conquest of azeroth mac** does not list a native macOS download, so plan around compatibility instead of assumptions.
+- **Windows or remote play** is usually the cleanest route for a stable first session.
+- **Official content** highlights 21 classes, 70 specializations, and a heavy gameplay load that rewards stability.
+- **Start simple** with low settings, a short test run, and one backup plan before you commit time.
+- **The fastest win** is choosing the least fragile setup, not the most ambitious one.
+</Callout>
+
+<Section icon={Map} title="conquest of azeroth mac: Platform Reality Check">
+
+For **conquest of azeroth mac** players, the first decision is compatibility. The official Project Ascension site currently lists **Windows and Linux**, not macOS, so the Mac path starts with a limitation rather than a download button. If you want the smoothest experience, focus on a setup that gets you into the game with the fewest moving parts.
+
+The official homepage also frames Conquest of Azeroth as a separate realm with custom classes and ongoing updates, which means your first priority is a stable login path, not a perfect graphics setup. You can verify the current site here: [Project Ascension](https://ascension.gg/en).
+
+**Video Highlights:**
+- **21 new classes** built from Warcraft lore
+- **70 specializations** with distinct roles and builds
+- **Expanded world content** with quests, dungeons, and loot
+- **Platform note**: the official site lists Windows and Linux, not macOS
+- **Why it matters**: a stable setup is more valuable than chasing maximum settings
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Full Release: Conquest of Azeroth - Ascension WoW" />
+
+| Platform | Official status | Practical meaning |
+|---|---|---|
+| macOS | Not listed | No native Mac download is advertised |
+| Windows | Supported | Best path if you can run Windows somewhere |
+| Linux | Supported | Useful only if you already have Linux access |
+| Mac workaround | Not official | Requires a translation layer, VM, or streaming route |
+
+<Callout type="warning" title="Important">
+Do not assume a hidden macOS client exists. If the official download page does not list Mac support, treat any local workaround as experimental until it proves stable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best Ways to Play Without a Native Mac Client">
+
+If you want to play on a Mac anyway, the decision is less about fantasy and more about risk management. The game’s class depth, custom abilities, and endgame systems are deep enough that input lag or crashes can ruin the experience quickly. A Mac-friendly path should therefore optimize for **stability, low latency, and easy recovery**.
+
+<CardGrid cols={4}>
+  <Card title="Intel Mac with Windows Access">
+    - Best for older hardware
+    - Can support a local Windows path
+    - More flexible than newer Mac setups
+    - Still depends on your exact machine
+  </Card>
+  <Card title="Apple Silicon Mac">
+    - Good for general productivity
+    - Local game support is more constrained
+    - Better suited to alternate routes
+    - Keep expectations conservative
+  </Card>
+  <Card title="Remote Play from a Windows PC">
+    - Usually the least fragile choice
+    - Keeps the game off the Mac itself
+    - Best for quick testing
+    - Strong option for busy players
+  </Card>
+  <Card title="Wait for Official Mac Support">
+    - Lowest effort today
+    - No extra setup right now
+    - Best if you prefer patience
+    - Result is uncertain until announced
+  </Card>
+</CardGrid>
+
+| Path | Setup effort | Stability | Best use case |
+|---|---|---|---|
+| Intel Mac with Windows access | Medium | Medium | Older Mac hardware, local play |
+| Apple Silicon with a workaround | High | Variable | Tinkerers who want to experiment |
+| Remote play from a Windows PC | Low | High | Fastest, least fragile option |
+| Waiting for an official build | Low | Unknown | Players who prefer to wait |
+
+<Callout type="tip" title="Pro Tip">
+If your goal is simply to log in and enjoy the realm, remote play or a Windows-capable machine is usually better than forcing a Mac-only setup.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Setup Steps for a Stable First Session">
+
+Your first session should be a test, not a marathon. Conquest of Azeroth has a lot going on: custom classes, specialization trees, and enough combat variety that a bad setup becomes obvious quickly. Use the first hour to prove the path, not to optimize everything at once.
+
+<Steps>
+  <Step num="1" title="Choose One Play Route">
+    Decide whether you are using a Windows-capable machine, a remote session, or another workaround. Do not mix methods until the first one is confirmed stable.
+  </Step>
+  <Step num="2" title="Launch at Conservative Settings">
+    Start with a modest resolution and a simple display mode. Keep the session lightweight so you can identify compatibility problems early.
+  </Step>
+  <Step num="3" title="Verify Core Inputs">
+    Test movement, targeting, camera control, chat, and audio before entering combat. If one of those fails, fix it before you continue.
+  </Step>
+  <Step num="4" title="Save a Backup Profile">
+    Once the client behaves, store a lower-settings preset and a comfortable keybind layout for future sessions.
+  </Step>
+</Steps>
+
+| First-session setting | Recommended starting point | Why it helps |
+|---|---|---|
+| Resolution | Native or one step below native | Reduces overhead and keeps the UI readable |
+| Display mode | Windowed or borderless windowed | Easier recovery if the client stalls |
+| Background apps | Close extras | Frees CPU and memory headroom |
+| Audio and input | Test both before combat | Prevents surprises in group content |
+| Keybinds | Bind core actions early | Faster learning when the class gets busy |
+
+<Checklist
+  id="mac-first-session"
+  title="Before You Queue:"
+  items={[
+    "Confirm the game launches cleanly",
+    "Keep one lower-quality backup profile",
+    "Test movement, targeting, and camera",
+    "Verify audio, chat, and hotkeys",
+    "Run a short solo session before group content"
+  ]}
+/>
+
+<Callout type="info" title="Setup Note">
+A stable first hour is more valuable than high settings. If the client is smooth, you can always raise visuals later.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Performance, Controls, and Troubleshooting">
+
+Once you are in, the priority shifts from access to comfort. Conquest of Azeroth’s class system is built around frequent decisions, custom spells, and role-specific tools, so performance problems show up fast. A slight delay may be harmless while idling, but it becomes painful when you are swapping targets, using cooldowns, or reacting in a dungeon.
+
+| Symptom | Most likely cause | First fix |
+|---|---|---|
+| Long load time | Translation or stream overhead | Lower resolution and retry |
+| Stutter in combat | CPU or GPU pressure | Close background apps |
+| Input delay | Network or compatibility layer | Prefer wired connection or a different route |
+| Launcher trouble | Platform mismatch | Recheck that the method actually supports Mac |
+
+A few habits make a bigger difference than most people expect:
+
+- Keep one profile for questing and one for group content.
+- Use a stable network before you worry about eye candy.
+- Test your controls in a safe zone before joining others.
+- Lower effects first if combat feels sluggish.
+- Re-check settings after updates, because compatibility can change.
+
+<Callout type="success" title="Best Practice">
+Treat your Mac setup like a living profile. Save what works, keep a fallback, and avoid redoing your entire configuration every time you play.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ and Final Recommendations">
+
+If you only want the shortest answer, stop looking for a secret native Mac installer. The official pages point to Windows and Linux, so the smartest move is to choose the least fragile route available and then tune for smoothness.
+
+<Callout type="info" title="Bottom Line">
+A reliable play path matters more than a perfect one. If Mac is your daily machine, use the setup that gives you the fewest crashes, the lowest input delay, and the easiest recovery.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Is there a native conquest of azeroth mac client?",
+    answer: "No native macOS download is listed on the official site. Plan around a workaround, remote play, or another Windows-capable route instead."
+  },
+  {
+    question: "What is the most reliable way to play Conquest of Azeroth on a Mac?",
+    answer: "The most reliable option is usually the one with the fewest compatibility layers. A Windows-capable machine or remote play from one is typically the safest start."
+  },
+  {
+    question: "Can Apple Silicon Macs run it well?",
+    answer: "Apple Silicon Macs may be more limited for local compatibility. If you try that route, keep expectations modest and test stability before you invest time."
+  },
+  {
+    question: "Is the game free to start?",
+    answer: "Yes. The official site describes Project Ascension as free to play, and optional Donor Points are not required to start playing."
+  }
+]} />
+
+</Section>

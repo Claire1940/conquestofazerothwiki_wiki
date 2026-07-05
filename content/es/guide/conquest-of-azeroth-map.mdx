@@ -1,0 +1,212 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa de conquest of azeroth: guía de distribución de zonas y rutas 2026",
+  description: "Aprende a leer el mapa de conquest of azeroth, priorizar centros, planificar rutas rápidas y reducir viajes inútiles en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Map+Route+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de conquest of azeroth",
+  slug: "conquest-of-azeroth-map-2026-zone-layout-route-guide"
+}
+
+<Callout type="info" title="Guía rápida">
+- La planificación del **mapa de conquest of azeroth** funciona mejor cuando priorizas centros, corredores de viaje y densidad de misiones.
+- Las **rutas rápidas** suelen venir del movimiento en bucle, no de limpiar todos los objetivos cercanos.
+- Los **símbolos del mapa** importan porque te ayudan a evitar callejones sin salida y cruces innecesarios.
+- Los **jugadores en solitario** deberían favorecer la seguridad y la proximidad, mientras que los grupos pueden extenderse más para obtener recompensas más densas.
+</Callout>
+
+<Section icon={Map} title="Fundamentos del mapa de conquest of azeroth">
+
+El **mapa de conquest of azeroth** es más fácil de usar cuando lo tratas como una herramienta de planificación de rutas en lugar de un fondo estático. Jugar bien con el mapa no consiste en visitar todos los puntos de interés; consiste en reducir el movimiento inútil, elegir el centro adecuado y convertir el mapa en una breve cadena de decisiones. Si sabes dónde están tu próxima entrega, tu parada en el vendedor y el grupo de objetivos, te moverás con mucha menos fricción.
+
+<CardGrid cols={3}>
+  <Card title="Centros de misiones">
+    - Entregas centrales
+    - Acceso a vendedores
+    - Punto de reinicio limpio
+  </Card>
+  <Card title="Corredores de viaje">
+    - Caminos y rutas
+    - Movimiento de menor riesgo
+    - Mejor reposicionamiento
+  </Card>
+  <Card title="Rutas de farmeo">
+    - Grupos de recursos
+    - Recorridos repetibles
+    - Menos retroceso
+  </Card>
+</CardGrid>
+
+| Capa del mapa | Qué observar | Mejor uso |
+|---|---|---|
+| Mapa del mundo | Distribución de zonas, ubicación de centros, cruces largos | Elegir una ruta base |
+| Minimapa | Terreno local, posición de nodos, amenazas cercanas | Mantener eficiencia en movimiento |
+| Registro de misiones | Orden de objetivos, entregas, cadenas | Reducir viajes de ida y vuelta |
+| Densidad de ruta | Tareas agrupadas, salidas y desvíos | Construir un bucle limpio |
+| Punto de descanso | Reparaciones, espacio para vendedores, momento de reabastecimiento | Reiniciar antes del siguiente recorrido |
+
+<Callout type="tip" title="Leer el mapa más rápido">
+Abre el mapa después de aceptar misiones, no antes. Así tu ruta quedará vinculada a objetivos reales, entregas actuales y la línea práctica más corta entre ellos.
+</Callout>
+
+Un buen hábito inicial es marcar una ubicación ancla para la sesión. Esa ancla puede ser un centro, un vendedor o el primer grupo de misiones que piensas completar. Una vez tomada esa decisión, el resto de la ruta resulta más fácil de recortar. Los mejores jugadores no preguntan: “¿Qué puedo hacer después?” Preguntan: “¿Cuál es la siguiente parada que me ahorra más tiempo?”
+
+</Section>
+
+<Section icon={Target} title="Símbolos del mapa, centros y flujo de viaje">
+
+Las etiquetas y los marcadores solo son útiles si los interpretas con rapidez. En un mapa cargado, tu trabajo es separar los marcadores de progreso de las distracciones. Si la ruta ya es eficiente, no hay recompensa por alargarla solo para tocar cada icono. Lo que importa es si el siguiente punto mejora tu orden de entrega, la ganancia de recursos o el margen de seguridad.
+
+| Tipo de marcador | Normalmente significa | Mejor respuesta | Error común |
+|---|---|---|---|
+| Pin de objetivo | Paso de misión o punto de control | Ir allí primero | Deambular cerca en su lugar |
+| Icono de nodo | Punto de hierba, mineral o botín | Integrarlo en un bucle | Tomar un desvío fuera de ruta |
+| Línea fronteriza | Transición de zona | Agrupar primero las tareas cercanas | Cruzar demasiado pronto |
+| Marcador de alto valor | Élite, jefe o punto de evento | Preparar tiempos de reutilización | Iniciar el combate sin un plan |
+| Icono de centro | Vendedor, instructor o área de entrega | Terminar la ruta allí | Dejarlo para más tarde |
+
+<Callout type="warning" title="No sobreroutes el mapa">
+Más marcadores no siempre significan más eficiencia. Si un objetivo secundario obliga a subir mucho, cruzar lentamente o volver con riesgo, puede salir más barato omitirlo y terminar primero el bucle más limpio.
+</Callout>
+
+El mejor hábito es leer el mapa por capas. Primero, identifica el centro. Segundo, identifica el grupo más cercano. Tercero, confirma si la ruta de salida conduce de forma natural a una entrega o a una parada de reabastecimiento. Este análisis de tres pasos evita el error de ruta más común: construir un camino alrededor de un punto atractivo y luego perder tiempo recuperándote del desvío.
+
+| Pregunta de ruta | Buena respuesta | Mala respuesta |
+|---|---|---|
+| ¿El objetivo está agrupado? | Sí, varias tareas se superponen | No, está aislado |
+| ¿Termina en un centro? | Sí, final limpio | No, regreso largo |
+| ¿La ruta es segura? | Riesgo moderado, salidas claras | Pasillo estrecho, sin escape |
+| ¿Vale la pena el desvío? | Solo si ahorra viaje después | Solo porque es visible |
+
+</Section>
+
+<Section icon={Shield} title="Planificación de rutas: método paso a paso">
+
+La forma más limpia de usar un mapa es construir la ruta antes de empezar a moverte y luego podarla mientras juegas. Ese enfoque mantiene tu atención en todo el bucle, en lugar de en el siguiente objetivo llamativo. También facilita adaptarte cuando un campamento está lleno, falta un nodo o un combate te ralentiza.
+
+<Steps>
+  <Step num="1" title="Elige un centro ancla">
+    Escoge el centro con la mejor combinación de misiones, reparaciones y opciones de regreso. Un buen ancla reduce reinicios largos y te da un punto final natural para el bucle.
+  </Step>
+  <Step num="2" title="Traza el grupo de mayor densidad">
+    Agrupa los objetivos cercanos que estén en la misma carretera o en el mismo tramo de terreno. La densidad importa más que la cobertura perfecta porque los grupos cerrados ahorran movimiento.
+  </Step>
+  <Step num="3" title="Añade solo paradas secundarias útiles">
+    Incluye nodos de recolección, apariciones raras u objetivos extra solo cuando estén directamente en el camino. Si una parada obliga a un gran desvío, déjala para una pasada posterior.
+  </Step>
+  <Step num="4" title="Termina con una entrega o reinicio">
+    Finaliza con un vendedor, una entrega de misión, una parada de reparación o la transición a la siguiente zona. Una ruta que termina de forma limpia es más fácil de repetir, y las rutas repetibles son más fáciles de mejorar.
+  </Step>
+</Steps>
+
+| Tipo de ruta | Ideal para | Por qué funciona |
+|---|---|---|
+| Bucle de centro | Hacer misiones | Poco retroceso, entregas rápidas |
+| Pase de recolección | Profesiones | Los nodos se alinean de forma natural en los bordes |
+| Barrido de élite | Juego en grupo | La fuerza compartida cubre tiradas más difíciles |
+| Cadena de tránsito | Exploración | Revela el mapa sin dejar de avanzar |
+| Ruta mixta | Subida flexible | Equilibra velocidad y seguridad |
+
+<Callout type="success" title="Regla de ruta que ahorra tiempo">
+Si un desvío no te ahorra un cruce completo más adelante, recórtalo. Una ruta más corta con una lógica de regreso más limpia suele ser mejor que una ruta más larga con paradas extra.
+</Callout>
+
+Una ruta práctica también respeta tu ritmo. Si vas poco equipado, el mapa debería inclinarse hacia bordes más seguros y grupos más lentos pero fiables. Si vas muy equipado o juegas con un grupo, puedes ampliar el bucle y obtener más valor por viaje. La clave es adaptar el camino al personaje, no obligar al personaje a seguir un camino que solo se ve bien sobre el papel.
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores hábitos de mapa para runs en solitario, en grupo y de farmeo">
+
+Los distintos estilos de juego le piden al mapa tareas diferentes. Los jugadores en solitario necesitan protección contra el movimiento inútil y los combates incómodos. Los grupos pueden adentrarse más en zonas densas. Quienes recolectan quieren rutas por los bordes con buen retorno de nodos. El mapa sigue siendo el mismo, pero la prioridad cambia según tu objetivo.
+
+<CardGrid cols={4}>
+  <Card title="Subida en solitario">
+    - Carriles más seguros
+    - Regresos cortos
+    - Cadenas de misiones cerradas
+  </Card>
+  <Card title="Runs en grupo">
+    - Barridos más amplios
+    - Combate compartido
+    - Eliminaciones más fuertes
+  </Card>
+  <Card title="Recolección">
+    - Bucles de borde
+    - Grupos de nodos
+    - Acceso a vendedores
+  </Card>
+  <Card title="Con conciencia PvP">
+    - Rutas de escape
+    - Terreno con cobertura
+    - Menos cruces abiertos
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="map-habits"
+  title="Hábitos de mapa a mantener:"
+  items={[
+    "Marca un centro base antes de empezar a moverte",
+    "Agrupa los objetivos que estén en la misma carretera",
+    "Termina las misiones antes de hacer desvíos largos siempre que sea posible",
+    "Usa salidas y cobertura del terreno para reducir los viajes riesgosos",
+    "Revisa la ruta después de cada sesión y recorta callejones sin salida"
+  ]}
+/>
+
+| Estilo de juego | Prioridad del mapa | Nivel de riesgo | Mejor hábito |
+|---|---|---|---|
+| En solitario | Seguridad, proximidad, reinicios rápidos | Bajo | Mantente cerca de los centros |
+| En grupo | Densidad, escalado, valor compartido | Medio | Encadena los grupos más difíciles |
+| Recolector | Nodos, rutas de salida, acceso a vendedores | Bajo-Medio | Recorre los bordes |
+| Con conciencia PvP | Cobertura, escapes, control de carriles | Medio-Alto | Evita las carreteras abiertas |
+
+<Callout type="info" title="Por qué lo seguro puede ser rápido">
+Una ruta más segura suele ser también la más rápida porque reduce muertes, pausas y tiempo de recuperación. El mapa debería proteger tu impulso, no solo tu barra de salud.
+</Callout>
+
+El hábito más fuerte es revisar tu ruta después de cada recorrido. Pregúntate qué te ralentizó de verdad: un giro malo, una rama sin salida, un nodo muy concurrido o una entrega demasiado lejos de tu objetivo final. Una vez que identificas el cuello de botella, la siguiente ruta se vuelve más limpia de inmediato. Ese simple ciclo de revisión suele ahorrar más tiempo que cualquier atajo aislado.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ y enlaces de referencia">
+
+Una buena guía de mapas termina con comprobaciones repetibles. Si tu ruta sigue sintiéndose lenta, el problema suele ser la elección del grupo, no la velocidad de movimiento en bruto. Usa el mapa para reducir cruces, no para recoger todos los objetivos visibles en una sola pasada. Esa mentalidad mantiene tu ruta legible y más fácil de repetir.
+
+<Callout type="tip" title="Primero la referencia, luego el ajuste">
+Usa la página de wiki enlazada como referencia inicial y luego perfecciona tus propias notas en juego. Una hoja de ruta personal gana valor cada vez que pruebas un bucle más limpio.
+</Callout>
+
+| Referencia | Por qué ayuda | Enlace |
+|---|---|---|
+| Wiki de Project Ascension | Índice básico del tema | [Página de Conquest of Azeroth](https://project-ascension.fandom.com/wiki/Conquest_of_Azeroth) |
+| Fecha de acceso | Contexto para comprobaciones posteriores | 2026-07-06 |
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo principal del mapa de conquest of azeroth?",
+    answer: "El objetivo principal es ayudarte a moverte con intención. Una buena ruta en el mapa debería reducir el retroceso, mantenerte cerca de centros útiles y conectar objetivos en un bucle limpio."
+  },
+  {
+    question: "¿Debo seguir siempre el mapa exactamente?",
+    answer: "No. Trata el mapa como un marco, no como una trampa. Ajusta según la congestión, las muertes, los nodos perdidos o una mejor superposición de objetivos cuando la situación cambie."
+  },
+  {
+    question: "¿Cuál es la mejor forma de evitar viajes inútiles?",
+    answer: "Agrupa las tareas por carretera, termina en un centro y evita ramas secundarias que no mejoren la siguiente parte de la ruta. Los pequeños recortes se acumulan rápido durante una sesión completa."
+  },
+  {
+    question: "¿Importan los addons o superposiciones para usar el mapa?",
+    answer: "Las superposiciones útiles pueden mejorar la claridad, pero no sustituyen la disciplina de ruta. Las mayores mejoras siguen viniendo de una mejor planificación, bucles más limpios y una selección más inteligente de paradas."
+  }
+]} />
+
+</Section>

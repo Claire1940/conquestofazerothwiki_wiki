@@ -1,0 +1,223 @@
+import { Map, Shield, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "conquest of azeroth Serverstatus: Startprüfungen, Fehlerbehebungen",
+  description: "Verfolge die Verfügbarkeit von Conquest of Azeroth, lies Online-/Offline-Anzeigen und nutze eine Checkliste für den Starttag, um häufige Login-Probleme schnell zu beheben.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Server+Status+Guide",
+  date: "2026-07-06",
+  author: "conquest of azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **conquest of azeroth server status** sagt dir, ob das Realm erreichbar ist, verzögert reagiert oder sich noch in einem Startfenster befindet.
+- **Prüfe zuerst den Status**, damit du keine Zeit mit Neuinstallation, erneutem Einloggen oder dem Ändern von Einstellungen für ein serverseitiges Problem verschwendest.
+- **Nutze kurze Wiederholungsintervalle** bei Startdruck; ständiges erneutes Einloggen macht die Fehlersuche meist eher schwieriger als schneller.
+- **Behebe lokale Probleme frühzeitig**, indem du Addons, Cache und Netzwerkeinstellungen testest, bevor du davon ausgehst, dass der Server offline ist.
+</Callout>
+
+<Section icon={Map} title="conquest of azeroth server status: Die Signale lesen">
+
+Der schnellste Weg, mit **conquest of azeroth server status** umzugehen, ist, ihn wie eine Live-Warteschlange zu lesen und nicht wie ein statisches Label. Wenn ein Realm gesund ist, solltest du ohne Reibung vom Client zur Charakterauswahl gelangen können. Wenn ein Realm unter Druck steht, ist das erste Anzeichen meist eine Verzögerung, dann Verbindungsabbrüche und anschließend längere Login-Wartezeiten.
+
+Das vorgestellte Start-Update verweist auf ein Veröffentlichungsfenster am **3. Juli 2026** um **15:00 Uhr GMT**, und das ist wichtig, weil sich durch den Ansturm am Starttag die Bedeutung von „normal“ verändert. Ein Server kann technisch online sein und sich unter hoher Last dennoch instabil verhalten. Deshalb beginnt der richtige Ablauf mit dem Status, dann dem Client und erst danach der Verbindung.
+
+**Video-Highlights:**
+- **Veröffentlichungszeitpunkt**: Das Startfenster ist für den 3. Juli 2026 um 15:00 Uhr GMT angekündigt.
+- **Funktionsschub**: Neue Klassen, Zonen und PvP-Optionen können einen Ansturm von Logins auslösen.
+- **Freier Zugang**: Die vollständige Veröffentlichung wird als für alle offen dargestellt.
+- **Praktische Erkenntnis**: Statusprüfungen sind wichtiger, wenn das Startfenster heiß läuft.
+
+<YouTubeEmbed videoId="RR-HLDRwkzI" title="Ascension Conquest of Azeroth - VOLLSTÄNDIGES VERÖFFENTLICHUNGSDATUM!" />
+
+<CardGrid cols={3}>
+  <Card title="Online">
+    - **Best-Case-Signal**
+    - Das Realm sollte Verbindungen annehmen
+    - Direkt mit dem Login-Test fortfahren
+  </Card>
+  <Card title="Offline">
+    - **Wartung oder Ausfall**
+    - Mit erneutem Einloggen aufhören und warten
+    - Nach Änderung des Fensters erneut prüfen
+  </Card>
+  <Card title="Bevorstehend">
+    - **Noch nicht live**
+    - Nicht als Clientfehler behandeln
+    - Zurückkehren, wenn der Start öffnet
+  </Card>
+</CardGrid>
+
+| Status | Was es normalerweise bedeutet | Beste Reaktion |
+|---|---|---|
+| Online | Das Realm sollte erreichbar sein | Einmal einloggen, dann die Charakterauswahl testen |
+| Offline | Wartung, Ausfall oder Abschaltfenster | Warten und später erneut prüfen |
+| Bevorstehend | Geplant, aber noch nicht geöffnet | Mit den Versuchen aufhören und zum angekündigten Zeitpunkt zurückkehren |
+
+<Callout type="tip" title="Was am wichtigsten ist">
+Wenn das Realm nicht live ist, ist Geduld die beste Lösung. Wenn das Realm live ist, dein Client aber fehlschlägt, beginne mit der Fehlersuche lokal.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="So prüfst du die Verfügbarkeit, ohne Zeit zu verschwenden">
+
+Der sauberste Ansatz ist, jedes Mal dieselbe Prüf-Reihenfolge zu befolgen. So jagst du nicht dem falschen Problem hinterher. Wenn das Realm nicht geöffnet ist, hilft eine Client-Reparatur nicht. Wenn das Realm offen ist, lösen wiederholte Login-Versuche weder einen fehlerhaften Addon-Stapel noch einen veralteten Cache.
+
+Eine gute Routine ist: Status prüfen, Client-Version bestätigen, offensichtliche Konflikte entfernen und dann die Verbindung erneut testen. Bleib ruhig. Startnächte belohnen Spieler, die einmal prüfen, einmal anpassen und dann auf das nächste stabile Fenster warten.
+
+<Steps>
+  <Step num="1" title="Den Status-Button prüfen">
+    Bestätige, ob das Realm als online, offline oder bevorstehend markiert ist, bevor du etwas an deinem Client änderst.
+  </Step>
+  <Step num="2" title="Das Label dem Problem zuordnen">
+    Wenn das Realm offline ist, solltest du nicht zuerst deinen PC analysieren. Wenn es online ist, gehe zu den clientseitigen Prüfungen über.
+  </Step>
+  <Step num="3" title="Einen sauberen Login-Pfad testen">
+    Deaktiviere schwere Addons, schließe zusätzliche Apps und versuche die direkteste Verbindung, die du kannst.
+  </Step>
+  <Step num="4" title="Mit kurzem Abstand erneut versuchen">
+    Warte zwischen den Versuchen ein paar Minuten, damit du erkennen kannst, ob sich die Lage verbessert.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Die Retry-Falle vermeiden">
+Schnell aufeinanderfolgende Logins können ein stabiles Problem schlimmer wirken lassen. Prüfen, anpassen und dem Realm dann ein kurzes Zeitfenster zur Erholung geben.
+</Callout>
+
+| Prüfpunkte | Was zu überprüfen ist | Warum es hilft |
+|---|---|---|
+| Client-Version | Aktueller Build und Launcher-Status | Verhindert Fehler durch Versionsabweichungen |
+| Addons | Schwere UI-Mods, defekte Helfer, alte Profile | Entfernt häufige lokale Konflikte |
+| Netzwerk | VPN, DNS, Router, Firewall | Trennt Serverprobleme von Problemen im Heimnetz |
+| Login-Zeitpunkt | Spitzenzeit vs. Versuch außerhalb der Hauptzeit | Hilft, Warteschlangendruck zu erkennen |
+
+</Section>
+
+<Section icon={Swords} title="Häufige Login-Probleme und die richtige Lösung">
+
+Wenn der Status gut aussieht, der Login aber trotzdem fehlschlägt, behandle das Problem als Triage-Fall. Das Ziel ist nicht, jede Einstellung anzufassen. Das Ziel ist, die Ursache mit möglichst wenigen Schritten zu isolieren. In der Praxis heißt das: zuerst den Client, dann dein Netzwerk und danach das Realm erneut prüfen.
+
+Hier verlieren Spieler auch am meisten Zeit. Ein Verbindungsabbruch bei der Charakterauswahl, ein hängen bleibender „Verbinde...“-Bildschirm und ein Login-Timeout haben oft dasselbe Grundmuster: Eine Ebene scheitert, bevor die nächste fertig laden kann. Halte deine Reaktion einfach und systematisch.
+
+<Callout type="info" title="Zuerst die lokalen Variablen beheben">
+Wenn das Realm online ist, der Client aber versagt, geh davon aus, dass dein Setup das Problem ist, bis der saubere Test etwas anderes beweist.
+</Callout>
+
+| Symptom | Wahrscheinliche Ursache | Beste Lösung |
+|---|---|---|
+| Hängt bei „Verbinden“ | Traffic-Spitze oder Handshake-Verzögerung | Einmal neu starten, dann ein paar Minuten warten |
+| Sofortiger Verbindungsabbruch | Versionsfehler oder Addon-Konflikt | Client reparieren und Addons deaktivieren |
+| Fehler bei der Charakterauswahl | Lastdruck auf dem Realm | Status erneut prüfen und später noch einmal versuchen |
+| Login funktioniert, dann kommt es zu Lags | Überlastung zur Spitzenzeit | Eingeloggt bleiben und erneutes Einloggen vermeiden |
+
+<CardGrid cols={4}>
+  <Card title="Client">
+    - Spieldateien reparieren
+    - Launcher-Status aktualisieren
+    - Veraltete Addons entfernen
+  </Card>
+  <Card title="Netzwerk">
+    - Ohne VPN testen
+    - Router bei Bedarf neu starten
+    - Firewall-Regeln prüfen
+  </Card>
+  <Card title="Konto">
+    - Passworteingabe bestätigen
+    - Nur nach einer Pause erneut versuchen
+    - Schnelle Fehlversuche vermeiden
+  </Card>
+  <Card title="Realm">
+    - Live-Status erneut prüfen
+    - Warten, bis die Wartung beendet ist
+    - Außerhalb der Hauptzeit erneut versuchen
+  </Card>
+</CardGrid>
+
+| Reihenfolge der Behebung | Was zuerst versuchen | Wann aufhören |
+|---|---|---|
+| 1 | Client neu starten | Wenn derselbe Fehler sofort wieder auftritt |
+| 2 | Addons deaktivieren | Wenn der Login-Pfad sauber wird |
+| 3 | Dateien reparieren | Wenn weiterhin Versions- oder Asset-Probleme auftauchen |
+| 4 | Netzwerktest | Wenn der Client auf einem sauberen Setup weiterhin fehlschlägt |
+
+</Section>
+
+<Section icon={Trophy} title="Startzeit, Warteschlangen und deine Login-Checkliste">
+
+Das für **2026-07-03** angekündigte Startfenster bedeutet, dass Timing auch nach dem ersten Ansturm wichtig bleibt. Hotfixes, Neustarts und Warteschlangen-Spitzen können jederzeit zurückkehren, wenn ein größeres Update erscheint. Die sicherste Gewohnheit ist, sich vorzubereiten, bevor du auf Login klickst, und dann auf den aktuellen Serverzustand zu reagieren statt zu raten.
+
+Für die meisten Spieler ist der beste Vorteil nicht nur Geschwindigkeit. Es ist Bereitschaft. Wenn du die üblichen Blocker bereits beseitigt hast, kannst du von einer Realm-Prüfung zu einem echten Test übergehen, ohne deinen ersten Versuch zu verschwenden.
+
+<Callout type="success" title="Regel für das Startfenster">
+Wenn das Realm live ist, betrete es mit einem sauberen Client und einem ruhigen Retry-Zyklus. Wenn das Realm nicht live ist, spare dir die Zeit und komm später wieder.
+</Callout>
+
+<Checklist
+  id="launch-ready"
+  title="Checkliste vor dem Login"
+  items={[
+    "Den aktuellen Serverstatus bestätigen, bevor du den Client öffnest",
+    "Nicht benötigte Addons und Overlays deaktivieren",
+    "VPN-Tools schließen, sofern du sie nicht wirklich brauchst",
+    "Sicherstellen, dass dein Passwort-Manager oder deine Notizen bereit sind",
+    "Einen sauberen Login-Versuch planen, bevor du mit Wiederholungen beginnst"
+  ]}
+/>
+
+| Zeitfenster | Beste Nutzung | Erwartung für Spieler |
+|---|---|---|
+| Vor dem Spitzenverkehr | Erster Login-Test | Schnellste Methode, um Stabilität zu bestätigen |
+| Erste Stunde des Starts | Warteschlange beobachten | Mit Verzögerungen rechnen und Spam-Relogs vermeiden |
+| Nach dem Ansturm | Echte Spielsitzung | Besser für Einstellungen, Twinks und Tests |
+| Wartungsfenster | Keine erzwungenen Versuche | Auf das nächste Status-Update warten |
+
+| Statusergebnis | Nächster Schritt | Warum |
+|---|---|---|
+| Online, aber Login schlägt fehl | Client reparieren oder Addons deaktivieren | Das Problem ist wahrscheinlich lokal |
+| Offline | Warten und später erneut prüfen | Das Realm ist nicht verfügbar |
+| Bevorstehend | Aufhören zu versuchen | Das Realm ist noch nicht geöffnet |
+| Online, aber die Warteschlange ist lang | Eingeloggt bleiben | Durch erneutes Einloggen kann dein Platz verloren gehen |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<Callout type="tip" title="FAQ-Hinweise">
+Nutze diese Antworten als schnelle Entscheidungshilfe, wenn die Statusseite und dein Client scheinbar widersprüchliche Angaben machen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was sagt mir conquest of azeroth server status?",
+    answer: "Es sagt dir, ob das Realm jetzt erreichbar sein sollte, ob Wartungsarbeiten laufen oder ob es noch für ein späteres Fenster geplant ist."
+  },
+  {
+    question: "Soll ich weiter versuchen, wenn das Realm offline aussieht?",
+    answer: "Nein. Wenn das Realm offline ist, verschwenden wiederholte Login-Versuche meist nur Zeit. Warte, bis sich der Zustand ändert, und teste dann einmal mit einem sauberen Client."
+  },
+  {
+    question: "Warum kann der Login fehlschlagen, obwohl der Status online sagt?",
+    answer: "Die häufigsten Ursachen sind Client-Probleme, Addon-Konflikte, veraltete Dateien oder ein Netzwerkproblem auf deiner Seite. Beginne mit dem lokalen Setup."
+  },
+  {
+    question: "Ist es besser, sofort einzugehen oder zu warten?",
+    answer: "Wenn du den frühesten Zugriff willst, logge dich einmal mit einem sauberen Setup ein. Wenn die Warteschlange instabil ist, kann kurzes Warten die klügere Wahl sein."
+  }
+]} />
+
+| FAQ-Thema | Kernaussage |
+|---|---|
+| Status vs. Client | Ein live geschaltetes Realm kann lokal trotzdem fehlschlagen |
+| Offline-Label | Nicht zu wiederholten Versuchen zwingen |
+| Addons | Ein sauberes Setup lässt sich leichter diagnostizieren |
+| Warteschlangendruck | Geduldig bleiben und die Sitzung aufrechterhalten |
+
+</Section>

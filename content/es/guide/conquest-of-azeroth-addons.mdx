@@ -1,0 +1,217 @@
+import { Map, Shield, Sparkles, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "addons de Conquest of Azeroth: mejor guía de configuración de UI 2026",
+  description: "Construye una colección limpia de addons para Conquest of Azeroth con la UI adecuada, y con herramientas de combate, bolsas y seguimiento para subir de nivel, JcJ y el caos del día de lanzamiento.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Addon+Setup+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los addons de Conquest of Azeroth** funcionan mejor cuando empiezas con una UI minimalista y añades solo las herramientas que realmente necesitas.
+- El **caos del día de lanzamiento** hace que los nameplates, el seguimiento de tiempos de reutilización y la limpieza de bolsas sean más valiosos que los extras cosméticos.
+- Las **clases con mucho cambio de forma** se benefician de un seguimiento sólido de auras y de distribuciones de teclas que reduzcan el desorden en pantalla.
+- Tanto el **JcJ** como el juego en mazmorras mejoran cuando el texto de combate, las alertas de interrupción y los marcos de objetivo siguen siendo visibles.
+</Callout>
+
+<Section icon={Map} title="Por qué los addons de Conquest of Azeroth importan el día de lanzamiento">
+
+En un servidor de lanzamiento abarrotado, la primera función de tu UI no es el estilo; es la claridad. Un lanzamiento lleno de clases personalizadas, ciudades saturadas y subida de nivel rápida deja muy poco margen para el ruido visual. Una buena configuración de addons te ayuda a seguir procs, lanzamientos enemigos, recursos y bolsas sin pelearte con la pantalla.
+
+**Lo más destacado del vídeo:**
+- El gran tráfico del lanzamiento hace que las decisiones de UI legible sean más importantes que las funciones de lujo.
+- Las clases personalizadas y las herramientas de cambio de forma crean más botones y más efectos de estado que vigilar.
+- La subida de nivel inicial avanza lo bastante rápido como para que la limpieza y la velocidad importen desde el primer inicio de sesión.
+- El JcJ y los combates en grupo densos recompensan los nameplates claros y un seguimiento fiable de tiempos de reutilización.
+
+<YouTubeEmbed videoId="PICYx25zl4A" title="¡Conquest of Azeroth POR FIN SE HA LANZADO! | 21 CLASES PERSONALIZADAS en World of Warcraft | Día 1" />
+
+| Prioridad del addon | Por qué importa | Impacto el día de lanzamiento |
+|---|---|---|
+| **Nameplates** | Ver lanzamientos, perjuicios y cambios de objetivo más rápido | **Alto** |
+| **Seguimiento de tiempos de reutilización** | Gestionar procs, ventanas de burst y defensivos | **Alto** |
+| **Barras de acción** | Reducir el desorden de botones y mejorar el flujo de teclas | **Alto** |
+| **Limpieza de bolsas** | Vender, ordenar e identificar botín más rápido | **Medio** |
+| **Registro de combate** | Revisar daño, sanación y errores | **Medio** |
+
+<Callout type="tip" title="Regla editorial">
+Empieza por la legibilidad. Si un addon no mejora la toma de decisiones en combate, al subir de nivel o en la gestión del inventario, déjalo para más adelante.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Paquete básico de addons que debes instalar primero">
+
+La colección de addons más segura para Conquest of Azeroth es una colección ligera. Quieres unas pocas herramientas que resuelvan problemas obvios, no una carpeta abarrotada de funciones que se pisan entre sí. Piensa por capas: visibilidad en combate, control de la acción y limpieza del inventario.
+
+<CardGrid cols={3}>
+  <Card title="Capa de combate">
+    - **Seguimiento estilo WeakAuras**
+    - Alertas de procs y temporizadores de mejoras
+    - Recordatorios de defensivos
+  </Card>
+  <Card title="Capa de marcos">
+    - **Nameplates y marcos de unidad**
+    - Cambios de objetivo más fáciles
+    - Lectura clara de lanzamientos y perjuicios
+  </Card>
+  <Card title="Capa de utilidad">
+    - **Bolsas y herramientas de vendedor**
+    - Limpieza de inventario más rápida
+    - Menos tiempo muerto entre pulls
+  </Card>
+</CardGrid>
+
+| Tipo de addon | Herramientas de ejemplo | Mejor caso de uso |
+|---|---|---|
+| **Barras de acción** | Bartender4, Dominos | Teclas más limpias y distribuciones compactas |
+| **Nameplates** | Plater, Threat Plates | Seguimiento de lanzamientos enemigos y foco en el objetivo |
+| **HUD de combate** | WeakAuras | Procs, perjuicios, recordatorios de tiempos de reutilización |
+| **Registro** | Details! | Daño, sanación y revisión tras el combate |
+| **Inventario** | Bagnon, AdiBags | Ordenar botín, reagentes y objetos de misión |
+| **Herramientas de calidad de vida** | Leatrix Plus | Interacciones más rápidas y menos fricción |
+
+<Callout type="tip" title="Orden recomendado">
+Instala primero un addon de cada capa. Así será más fácil depurar y quedará claro qué herramienta mejoró realmente tu configuración.
+</Callout>
+
+| Estilo de configuración | Ventaja | Desventaja |
+|---|---|---|
+| **Minimalista** | Rápido, limpio, fácil de mantener | Menos información visual |
+| **Equilibrado** | Gran legibilidad con poco desorden | Requiere algo de ajuste |
+| **Avanzado** | Lo mejor para juego de alto nivel y JcJ | Puede volverse ruidoso si está sobrecargado |
+
+</Section>
+
+<Section icon={Target} title="Configuración paso a paso para una UI limpia">
+
+Usa un flujo de instalación sencillo para no enterrarte en ajustes antes de siquiera entrar en cola para contenido. El objetivo es dejar la interfaz jugable el primer día y luego refinarla después de ver cómo se siente realmente tu clase.
+
+<Steps>
+  <Step num="1" title="Bloquea la UI base">
+    Desactiva marcos innecesarios, mueve los elementos esenciales al centro de tu zona de atención y mantén simple la primera pasada.
+  </Step>
+  <Step num="2" title="Añade legibilidad en combate">
+    Instala tus herramientas principales de nameplates y tiempos de reutilización, y luego pruébalas en un muñeco de entrenamiento o en el campo antes de seguir.
+  </Step>
+  <Step num="3" title="Configura el seguimiento específico de tu clase">
+    Crea weak auras o recordatorios equivalentes para recursos, procs, formas y grandes tiempos de reutilización defensivos.
+  </Step>
+  <Step num="4" title="Ajusta inventario y utilidades">
+    Añade el orden de bolsas, la limpieza de vendedores y los ayudantes de calidad de vida solo después de que el núcleo de combate se sienta estable.
+  </Step>
+</Steps>
+
+| Tarea de configuración | Qué cambiar | Resultado |
+|---|---|---|
+| **Barras** | Coloca las habilidades principales en teclas accesibles | Reacción más rápida |
+| **Marcos** | Mantén legibles los marcos del jugador, objetivo y grupo | Menos búsqueda visual |
+| **Nameplates** | Resalta lanzamientos, perjuicios y enemigos con poca salud | Mejor selección de objetivos |
+| **Auras** | Sigue procs, formas y ventanas defensivas | Menos oportunidades perdidas |
+| **Bolsas** | Activa el ordenado y la venta asistida | Menos tiempo muerto |
+
+<Checklist
+  id="coa-ui-setup"
+  title="Lista de comprobación del primer inicio:"
+  items={[
+    "Mueve las barras de acción antes de entrar en combate",
+    "Prueba la visibilidad de los marcos de objetivo y foco",
+    "Confirma que tus nameplates muestran los lanzamientos enemigos",
+    "Configura un grupo de teclas para movimiento y otro para combate",
+    "Añade el orden de bolsas solo después de que la UI base se sienta estable"
+  ]}
+/>
+
+<Callout type="warning" title="Evita este error">
+No instales cinco herramientas que hagan exactamente lo mismo. Los addons solapados dificultan aislar errores y, a menudo, crean más desorden del que solucionan.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores perfiles de UI para distintos estilos de juego">
+
+Las distintas especializaciones necesitan cantidades distintas de información. Un tanque quiere señales de amenaza y supervivencia. Un lanzador quiere ver el tiempo de casteo y la visibilidad de procs. Un jugador de JcJ quiere interrupciones, control de masas y conocimiento de los tiempos de reutilización enemigos. Adapta la UI al trabajo.
+
+| Estilo de juego | Enfoque de addon ideal | Por qué funciona |
+|---|---|---|
+| **Subida de nivel en solitario** | Barras, bolsas, seguimiento ligero | Configuración rápida, poco mantenimiento |
+| **DPS lanzador** | Procs, lanzamientos, perjuicios, marcos de objetivo | Mejor control de la rotación |
+| **DPS cuerpo a cuerpo** | Nameplates, interrupciones, ventanas de mejoras | Mejor mantenimiento de uptime y cambios de objetivo |
+| **Tanque** | Amenaza, lanzamientos enemigos, temporizadores defensivos | Control de pulls más seguro |
+| **JcJ** | Tiempos de reutilización enemigos, seguimiento de DR, marco de foco | Mejor reacción a burst y CC |
+
+<CardGrid cols={3}>
+  <Card title="Perfil de subida de nivel">
+    - **Poco desorden**
+    - Misiones rápidas
+    - Mantenimiento mínimo
+  </Card>
+  <Card title="Perfil de mazmorra">
+    - **Conciencia del grupo**
+    - Seguimiento de interrupciones
+    - Señales para sanación y tanque
+  </Card>
+  <Card title="Perfil de JcJ">
+    - **Tiempos de reutilización enemigos**
+    - Soporte de foco
+    - Tiempo claro del control de masas
+  </Card>
+</CardGrid>
+
+| Perfil | Densidad en pantalla | Ideal para |
+|---|---|---|
+| **Baja** | Muy ligera | Misiones y exploración |
+| **Media** | Equilibrada | Juego general y primeras mazmorras |
+| **Alta** | Rica en información | JcJ, bandas y especializaciones complejas |
+
+<Callout type="success" title="Mejor práctica">
+Crea un perfil para subir de nivel y otro para contenido centrado en combate. Cambiar entre ellos es más limpio que intentar que una sola distribución lo haga todo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Solución de problemas y FAQ para la configuración de addons">
+
+Si algo se siente raro, aísla el problema antes de añadir más herramientas. La mayoría de los fallos vienen de desajustes de versión, funciones duplicadas o de un solo weak aura intentando hacer demasiado a la vez.
+
+| Problema | Causa probable | Solución rápida |
+|---|---|---|
+| **Elementos de UI ausentes** | Addon desactivado o perfil incorrecto | Recarga, revisa los perfiles y prueba un addon cada vez |
+| **Pantalla saturada** | Demasiados rastreadores solapados | Elimina auras duplicadas y recorta marcos |
+| **Picos de lag** | Registro de combate pesado o demasiadas alertas | Reduce los efectos visuales y simplifica los desencadenantes |
+| **Nameplates ilegibles** | Colores o tamaño incorrectos | Aumenta el contraste y reduce el ruido de opacidad |
+| **Confusión con las bolsas** | Demasiados ayudantes de inventario | Mantén un addon de ordenado y desactiva el resto |
+
+<Callout type="info" title="Regla simple">
+Cuando tengas dudas, quita un addon y prueba otra vez. Un conjunto más pequeño es más fácil de reparar y, por lo general, más cómodo de jugar.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor punto de partida para los addons de Conquest of Azeroth?",
+    answer: "Empieza con una UI base limpia, una herramienta de nameplates, un rastreador de combate y un ayudante de bolsas. Eso te da el mayor beneficio con el menor riesgo de configuración."
+  },
+  {
+    question: "¿Debería usar muchos addons el primer día?",
+    answer: "No, si puedes evitarlo. Un conjunto pequeño te ayuda a aprender tu clase más rápido y facilita ver qué mejora realmente el rendimiento."
+  },
+  {
+    question: "¿Las clases con mucho cambio de forma necesitan un seguimiento especial?",
+    answer: "Sí. Las clases con formas, cambios de postura o cadenas de procs se benefician de un fuerte seguimiento de auras y de una colocación clara de botones para no perder ventanas clave."
+  },
+  {
+    question: "¿Qué debería priorizar en JcJ?",
+    answer: "Los lanzamientos enemigos, las interrupciones, el seguimiento de control de masas y los marcos de foco deben ir primero. Si la pantalla está demasiado cargada, simplifica antes de añadir más."
+  }
+]} />
+
+</Section>
