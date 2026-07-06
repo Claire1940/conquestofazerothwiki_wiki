@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth WeakAuras: Einrichtung, Icons & Tipps",
+  description: "Erstelle Conquest of Azeroth WeakAuras mit den richtigen Add-ons, klarer Gruppierung, zuverlässigen Triggern und praktischem Tracking für Buffs, Cooldowns und Ressourcen.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=WeakAuras+Setup+Guide",
+  date: "2026-07-06",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Conquest of Azeroth WeakAuras** funktionieren am besten, wenn du eine saubere Gruppe für Balken, Icons und Warnungen erstellst.
+- **Verwende die neuere WeakAuras-Version** plus einen Spell-ID-Helfer, damit deine Trigger genau bleiben.
+- **Verfolge zuerst Gesundheit, Ressource und wichtige Debuffs**, bevor du zusätzlichen Feinschliff hinzufügst.
+- **Dupliziere erfolgreiche Auren**, um Größe, Abstand und Stil in der gesamten UI konsistent zu halten.
+- **Nutze bei Buffs Warnungen für fehlende Auren** mit Entsättigung oder Leuchten, damit wichtige Procs schnell auffallen.
+</Callout>
+
+<Section icon={Map} title="Conquest of Azeroth WeakAuras: Die richtigen Tools installieren">
+
+Eine solide Einrichtung beginnt mit dem richtigen Fundament. Baue dein Profil auf einem aktuellen WeakAuras-Paket auf und kombiniere es dann mit einem Spell-ID-Helfer, damit du exakte IDs kopieren kannst, statt zu raten. Dieser Ansatz ist in Conquest of Azeroth besonders nützlich, wo ein sauberer Trigger wichtiger ist als schicke Optik.
+
+**Video-Highlights:**
+- Installiere die aktuelle WeakAuras-Version, nicht ein älteres Launcher-Paket.
+- Füge einen Spell-ID-Helfer hinzu, damit du exakte Debuff- und Spell-Nummern bestätigen kannst.
+- Beginne mit Gesundheit, Ressource und einem zentralen Kampf-Debuff.
+- Halte jede Aura in einer Gruppe, damit die Ausrichtung stabil bleibt.
+
+<YouTubeEmbed videoId="PYUyvZJOOjo" title="SO ERSTELLE ICH MEINE WEAKAURAS FÜR CONQUEST OF AZEROTH!" />
+
+<Callout type="tip" title="Empfohlener Start-Stack">
+Nutze das [WeakAuras2 GitHub repository](https://github.com/WeakAuras/WeakAuras2) als deine wichtigste Referenz und ergänze es dann um einen Spell-ID-Helfer wie IDTip für die Verifizierung im Spiel. So bleibt dein Setup näher am modernen Funktionsumfang und die genaue Trigger-Einrichtung wird einfacher.
+</Callout>
+
+| Add-on | Zweck | Warum es wichtig ist |
+|---|---|---|
+| WeakAuras2 | Balken, Icons und Gruppen erstellen | Gibt dir den aktuellen Funktionsumfang und flexible Trigger |
+| ID-Helfer | Spell-IDs per Hover anzeigen | Verhindert Rätselraten beim Kopieren von Aura-IDs |
+| Sauberes UI-Profil | Positionen und Skalierung organisieren | Hält das gesamte Layout im Kampf lesbar |
+
+Das Ziel ist nicht, den Bildschirm zu füllen. Das Ziel ist ein lesbares Kampffeld, das dir innerhalb eines Augenblicks zeigt, was wichtig ist. Sobald die Tools eingerichtet sind, wird jede weitere Aura schneller erstellt und leichter gepflegt.
+
+</Section>
+
+<Section icon={Shield} title="Grundlayout: Balken, Icons und Gruppierung">
+
+Die besten Conquest of Azeroth WeakAuras folgen derselben Designlogik: Balken gehören nach unten, Kampf-Icons sitzen eher in der Mitte und passive Erinnerungen wandern an die Seiten. Dieses Layout hält die wichtigen Informationen nah an deinen Augen, ohne die Bildschirmmitte zu überladen.
+
+<CardGrid cols={3}>
+  <Card title="Balken">
+    - **Gesundheits- und Ressourcen-Tracking**
+    - Am besten niedrig und zentriert platziert
+    - Während der Bewegung leicht erfassbar
+  </Card>
+  <Card title="Icons">
+    - **Cooldowns und Stapel**
+    - Verwende eine feste quadratische Größe
+    - Ideal für Fähigkeiten mit hoher Priorität
+  </Card>
+  <Card title="Buff-Warnungen">
+    - **Erinnerungen an fehlende Buffs**
+    - Funktioniert gut am linken oder rechten Rand
+    - Bleibt sichtbar, ohne Kampfschriften zu verdecken
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Layout-Regel">
+Wenn eine Aura gut aussieht, dupliziere sie. Die gleiche Größe, der gleiche Abstand und die gleiche Schrift halten die gesamte Oberfläche konsistent und sparen Einrichtungszeit.
+</Callout>
+
+| Slot | Empfohlene Größe | Beste Verwendung |
+|---|---|---|
+| Unten mittig | Breiter Balken | Gesundheit, Energie, Wut oder Mana |
+| Mitte | 40x40-Icon | Haupt-Cooldown oder Stapel-Tracker |
+| Seitenrand | 20x20-Icon | Erinnerungen an fehlende Buffs |
+| Nahe dem Zielrahmen | Kleines Icon | Debuffs, die du ständig im Blick behalten musst |
+
+Gruppierung ist genauso wichtig wie die Positionierung. Lege die fertigen Elemente in eine Gruppe, damit das spätere Verschieben des Profils das Arrangement nicht zerstört. Wenn du die Gruppe ziehst, sollten alle untergeordneten Auren denselben Ankerpunkten folgen.
+
+Eine gute Gruppe macht spätere Anpassungen außerdem sicherer. Du kannst das gesamte Kampffeld um ein paar Pixel verschieben, eine andere Skalierung testen oder klassenspezifische Layouts erstellen, ohne jedes Element von Grund auf neu zu bauen.
+
+</Section>
+
+<Section icon={Target} title="Schritt für Schritt: Gesundheit, Energie und Cooldowns">
+
+Beginne mit dem Wesentlichen. Ein zuverlässiges Conquest of Azeroth WeakAuras-Setup startet meist mit einem Gesundheitsbalken, einem Ressourcenbalken und einem wichtigen Cooldown-Icon. Diese drei Elemente liefern dir genug Kampf-Rückmeldung, um bequem zu spielen, bevor du fortgeschrittene Warnungen hinzufügst.
+
+<Steps>
+  <Step num="1" title="Erstelle den Gesundheitsbalken">
+    Erstelle eine neue Fortschrittsbalken-Aura und verknüpfe sie mit den Spieler-Unit-Infos für Gesundheit. Stelle den Text so ein, dass nur der Wert angezeigt wird, setze den Textanker auf die Mitte und verwende eine grüne Balkenfarbe.
+  </Step>
+  <Step num="2" title="Dupliziere sie für deine Ressource">
+    Kopiere den Gesundheitsbalken, benenne ihn um und ändere dann den Trigger auf Power mit dem passenden Ressourcentyp wie Energie. Passe die Balkenfarbe an die Ressource an.
+  </Step>
+  <Step num="3" title="Erstelle ein Cooldown-Icon">
+    Füge eine Icon-Aura für einen Kernzauber hinzu. Verwende den Spell-Trigger, setze die exakte Spell-ID und wähle die Cooldown-Anzeige so, dass sich das Icon füllt oder abdunkelt, während der Zauber wieder auflädt.
+  </Step>
+  <Step num="4" title="Füge einen Debuff-Tracker hinzu">
+    Erstelle eine Ziel-Aura für deinen Haupt-Stapel- oder Debuff-Effekt. Nutze die exakte Spell-ID, zeige die Stapelzahl in der Mitte an und blende sie aus, wenn kein Ziel existiert.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Trigger-Genauigkeit">
+Verwende für Cooldowns und Debuffs möglichst immer exakte Spell-IDs. So vermeidest du Verwirrung durch ähnliche Zaubernamen, Rangänderungen oder mehrere Effekte mit derselben Beschreibung.
+</Callout>
+
+| Aura-Typ | Trigger | Anzeigeart | Beispielverwendung |
+|---|---|---|---|
+| Gesundheitsbalken | Player-Unit-Info | Fortschrittsbalken, Text zentriert | HP-Tracking |
+| Ressourcenbalken | Power | Fortschrittsbalken, passende Ressourcenfarbe | Energie, Wut oder Mana |
+| Cooldown-Icon | Spell | Icon mit Cooldown-Sweep | Fähigkeit im Stil von Crushing Slam |
+| Debuff-Icon | Aura auf Ziel | Stapelzahl in der Mitte | Stapel-Tracking im Stil von Carnage |
+
+Ein paar praxisnahe Werte sorgen dafür, dass der erste Entwurf bereits sauber wirkt. Ein 40x40-Icon ist groß genug, um es in Bewegung zu lesen, und ein zentrierter Textanker verhindert, dass die Zahl nach links wandert. Bei Balken solltest du die Schrift schlicht halten und die Farben klar wählen. Je weniger visuelles Rauschen du hinzufügst, desto schneller kann dein Blick den Zustand des Kampfes erfassen.
+
+</Section>
+
+<Section icon={Sparkles} title="Buff-Tracking und visueller Feinschliff">
+
+Sobald die Kernstücke des Kampf-Layouts funktionieren, füge die Erinnerungen hinzu, die Fehler verhindern. Buff-Tracking ist der Punkt, an dem Conquest of Azeroth WeakAuras wirklich nützlich werden, denn ein fehlender Eigenschafts-Buff oder ein abgeschwächtes Procsymbol fällt sofort auf.
+
+<Callout type="success" title="Feinschliff zählt">
+Entsättige fehlende Buffs, füge bei Bedarf ein Leuchten hinzu und halte Side-Icons kleiner als deine Haupt-Cooldowns. Diese Kombination macht wichtige Erinnerungen gut lesbar, ohne den Kampf in den Hintergrund zu drängen.
+</Callout>
+
+| Tracking-Stil | Trigger | Visuelle Darstellung | Beste Verwendung |
+|---|---|---|---|
+| Fehlender Selbstbuff | Aura auf dem Spieler, anzeigen wenn fehlend | Entsättigtes Icon + Leuchten | Buffs mit kurzer Dauer wie Ancestral Might |
+| Ziel-Stapel-Debuff | Aura auf Ziel | Zentrierter Stapeltext | Schadensverstärkung im Stil von Carnage |
+| Großer Cooldown | Spell, immer sichtbar wenn bereit | Großes Icon mit Cooldown-Sweep | Rotationsfähige Fähigkeiten |
+| Kleine Erinnerung | Aura auf Spieler oder Ziel | Kleines Icon an der Seite | Situationsabhängige Procs oder Wartungs-Buffs |
+
+Bei Buffs solltest du den Buff-Namen verwenden, wenn Rangänderungen möglich sind. So bleibt die Aura stabil, wenn der Zauber aktualisiert wird. Für feste Kampfeffekte ist eine exakte Spell-ID weiterhin die sicherste Wahl. Die richtige Methode hängt davon ab, ob der Effekt an einen Rang, einen Proc oder eine einzelne benannte Aura gebunden ist.
+
+<Checklist
+  id="weak-aura-polish"
+  title="Checkliste für den letzten Feinschliff:"
+  items={[
+    "Lege die Hauptbalken in eine Gruppe",
+    "Halte die Cooldown-Icons in einer einheitlichen Größe",
+    "Verwende zentrierten Text für Balken und Stapelzahlen",
+    "Entsättige fehlende-Buff-Icons für schnelle Erkennung",
+    "Teste jede Aura an einer Zielpuppe oder in einem risikoarmen Kampf"
+  ]}
+/>
+
+Ein weiterer guter Habitus hilft sehr: Arbeite immer nur an einem Klassenprofil gleichzeitig. Wenn du einen guten Gesundheitsbalken fertig hast, dupliziere ihn, bevor du mit Experimenten beginnst. So hast du ein Backup und verhinderst, dass das gesamte Interface stilistisch auseinanderläuft.
+
+</Section>
+
+<Section icon={Trophy} title="Fehlersuche und praktische Anpassungen">
+
+Die meisten Probleme mit WeakAuras entstehen an drei Stellen: der falsche Trigger-Typ, die falsche Spell-ID oder eine schlechte Verankerung. Wenn etwas nicht stimmt, behebe zuerst den Trigger, prüfe dann die Anzeigeeinstellungen und gehe erst danach zu Skalierung oder Farbe über.
+
+<Callout type="info" title="Schnelle Debug-Reihenfolge">
+Prüfe den Trigger, bestätige die ID, kontrolliere die Ladebedingungen und überprüfe dann den Ankerpunkt. Diese Reihenfolge löst die meisten Layout- und Sichtbarkeitsprobleme schneller als zufälliges Herumprobieren.
+</Callout>
+
+| Problem | Wahrscheinliche Ursache | Schnelle Lösung |
+|---|---|---|
+| Icon erscheint nie | Falscher Aura-Typ oder fehlende Ladebedingung | Spell-, Aura- oder Power-Trigger erneut prüfen |
+| Buff wird auf dem falschen Ziel angezeigt | Spieler- und Ziel-Einstellungen sind vertauscht | Einheit korrekt auf Spieler oder Ziel umstellen |
+| Text sitzt nicht mittig | Anker ist noch auf automatisch | Anker auf Mitte setzen und zentrieren |
+| Cooldown wirkt umgekehrt | Inverse-Einstellung ist falsch | Füllrichtung des Cooldowns umschalten |
+| Gruppe wurde verschoben, aber eine Aura blieb zurück | Element wurde nicht in die Gruppe aufgenommen | Verwaiste Aura der Gruppe erneut zuweisen |
+
+Sei vorsichtig, wenn du eine Aura kopierst, um eine andere zu erstellen. Duplizieren spart Zeit, bewahrt aber auch alte Einstellungen, die für den neuen Zweck vielleicht nicht mehr passen. Der häufigste Fehler ist, einen Gesundheits-Trigger auf einem Ressourcenbalken zu lassen oder einen Debuff-Trigger für eine Buff-Erinnerung zu verwenden. Ein kurzer Check nach jeder Duplikation hält das Setup sauber.
+
+Der stabilste Workflow ist einfach: bauen, testen, duplizieren und dann feinabstimmen. Wenn ein Profil mehrere Kampfpulls ohne Verwirrung übersteht, ist es wahrscheinlich gut genug organisiert, um weiter verwendet zu werden.
+
+<FAQ items={[
+  {
+    question: "Was ist der beste Ausgangspunkt für Conquest of Azeroth WeakAuras?",
+    answer: "Beginne mit einem Gesundheitsbalken, einem Ressourcenbalken und einem wichtigen Cooldown-Icon. Das gibt dir nützliche Kampf-Rückmeldung, bevor du fortgeschrittenes Tracking hinzufügst."
+  },
+  {
+    question: "Sollte ich Spell-IDs oder Zaubernamen verwenden?",
+    answer: "Verwende Spell-IDs für Cooldowns und Debuffs, wenn du maximale Genauigkeit willst. Verwende den Buff-Namen, wenn ein Buff Ränge oder Versionen ändern kann."
+  },
+  {
+    question: "Warum wirken meine Balken nach dem Duplizieren verschoben?",
+    answer: "Die Kopie hat meist einen anderen Anker oder eine andere Position übernommen. Zentriere die Anzeige neu und verschiebe die Aura zurück in dieselbe Gruppe."
+  },
+  {
+    question: "Wie viele Icons sollte ich gleichzeitig auf dem Bildschirm haben?",
+    answer: "Zeige nur das an, was du im Kampf schnell lesen kannst. Ein Haupt-Cooldown, ein Stapel-Tracker und ein paar kleine Erinnerungen reichen für ein sauberes Setup meistens aus."
+  }
+]} />
+
+</Section>

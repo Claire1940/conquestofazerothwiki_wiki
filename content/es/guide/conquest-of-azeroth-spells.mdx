@@ -1,0 +1,226 @@
+import { Map, Sparkles, Shield, Swords, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hechizos de conquest of azeroth: comparación y consejos para Blood Mage",
+  description: "Aprende cómo funcionan los hechizos de conquest of azeroth, cómo se construye la magia de Blood Mage y qué conjuntos de hechizos encajan mejor con cada rol.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Spell+Comparison+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de conquest of azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **los hechizos de conquest of azeroth** están construidos alrededor de la identidad de clase, no de un único árbol de magia universal.
+- **Blood Mage** es el ejemplo más claro: salud, ira y formas impulsan cada lanzamiento.
+- El **timing de los recursos** importa más que spamear botones sin parar en la mayoría de las especializaciones basadas en hechizos.
+- La **elección del rol** debe ir primero, porque muchas clases pueden curar, tanquear o infligir daño.
+</Callout>
+
+<Section icon={Map} title="Hechizos de Conquest of Azeroth: la visión general">
+
+Conquest of Azeroth convierte el lanzamiento de hechizos en un sistema que define la clase, en lugar de un único conjunto de herramientas compartido. El proyecto incluye **21 clases originales**, **69 especializaciones** y **cientos de hechizos nuevos**, todo envuelto en efectos visuales personalizados y mecánicas impulsadas por la historia. Si quieres la visión oficial del proyecto, empieza por la página [Conquest of Azeroth - Alpha](https://ascension.gg/en/news/conquest-of-azeroth-alpha/332) y trata el grimorio como un mapa de identidad de clase.
+
+**Aspectos destacados del video:**
+- Blood Mage puede drenar vida, curar aliados o transformarse en un monstruo.
+- La ira y la salud forman parte del ciclo de hechizos, no solo de costes secundarios.
+- El diseño de hechizos de CoA a menudo cambia tu rol a mitad del combate.
+- La magia oscura en este proyecto está pensada para la flexibilidad, no para una rotación fija.
+
+<YouTubeEmbed videoId="4mEVTHzHkqY" title="Nueva clase de WoW: Bloodmage - Conquest of Azeroth" />
+
+La forma más sencilla de leer el sistema es preguntarte qué intenta gastar, acumular o transformar cada clase. Algunas especializaciones acumulan un recurso, otras cambian de forma y otras simplemente alteran el comportamiento de los hechizos normales. Ese diseño hace que el lanzamiento de hechizos se sienta más como un motor de combate de RPG que como una barra de acciones estándar.
+
+| Tema del hechizo | Qué cambia | Clases de ejemplo | Por qué importa |
+|---|---|---|---|
+| Lanzamiento guiado por recursos | Los hechizos dependen de una barra especial | Blood Mage, Stormbringer, Cultist | El momento de la rotación se convierte en la principal prueba de habilidad |
+| Magia basada en formas | El grimorio cambia tras la transformación | Cursed Blood Mage, Lycanthropy, Draconic Pyromancer | Juegas alrededor de ventanas de burst y cambios de postura |
+| Hechicería centrada en mascotas | Los esbirros amplían tu presión o control | Necromancer, Conjuration Runemaster | El posicionamiento y el manejo de objetivos importan más |
+| Magia de apoyo | Los hechizos curan, protegen o mejoran a los aliados | Flesh Weaver, Sun Cleric, Moon Priest | La utilidad pasa a formar parte del kit principal |
+
+<Callout type="tip" title="Opinión del editor">
+Trata el grimorio de cada clase como un kit de rol. La mejor configuración suele ser la cuyo ciclo de recursos te resulte más natural.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Qué sistemas de hechizos importan más">
+
+Los sistemas de hechizos en CoA están diseñados para crear presión, toma de decisiones y momentos de recompensa. Por eso dos clases pueden ser “lanzadores de hechizos” y aun así sentirse completamente distintas en combate. Una puede centrarse en acumular poder, mientras otra se preocupa por cuándo transformarse o cuándo dejar de lanzar y reposicionarse.
+
+<CardGrid cols={4}>
+  <Card title="Vida y sangre">
+    - Hechizos basados en salud, sacrificio y drenaje
+    - Ideal para jugadores de riesgo/recompensa
+    - Ejemplo: Blood Mage, Reaper
+  </Card>
+  <Card title="Impulso">
+    - Acumula cargas y luego gástalas en una ventana
+    - Ideal para lanzamientos orientados al burst
+    - Ejemplo: Sun Cleric, Stormbringer
+  </Card>
+  <Card title="Formas">
+    - Los hechizos cambian cuando cambia tu cuerpo
+    - Ideal para jugadores adaptables
+    - Ejemplo: Cursed, Lycanthropy, Draconic
+  </Card>
+  <Card title="Control">
+    - El tiempo, los clones, las mascotas y los desvíos moldean la lucha
+    - Ideal para jugadores tácticos
+    - Ejemplo: Chronomancer, Necromancer, Cultist
+  </Card>
+</CardGrid>
+
+| Mecánica | Clases de ejemplo | Qué vigilar | Curva de entrada |
+|---|---|---|---|
+| Fuerza vital | Necromancer | Mantenimiento de mascotas, presión de cadáveres | Media |
+| Estática | Stormbringer | Acumulación de cargas, ventanas de proc | Media-alta |
+| Alineación + inscribir runa | Runemaster | Orden de hechizos y ritmo de maná | Alta |
+| Puesta de sol | Sun Cleric | Llegar a 20 cargas y gastarlas bien | Media |
+| Locura | Cultist | Mantener el peligro sin sobreacumular | Alta |
+
+El patrón principal es simple: cuanto más retuerce una clase las reglas de sus hechizos, más gratificante se vuelve una vez que aprendes el ciclo. Eso es especialmente cierto en las especializaciones que mezclan ofensiva con un segundo trabajo, como curar, tanquear o proporcionar mejoras.
+
+<Callout type="warning" title="Evita este error">
+No juzgues a un lanzador de hechizos solo por su burst inicial. En CoA, el verdadero poder suele estar en el ciclo de recursos y en el momento de la transformación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Familias de hechizos y roles de Blood Mage">
+
+Blood Mage es el ejemplo más claro de cómo los hechizos de Conquest of Azeroth pueden fusionar daño, curación y supervivencia en un solo kit. La clase canaliza su propia fuerza vital, acumula ira y puede doblar ese poder en distintas formas. El resultado es un lanzador que puede combatir como un monstruo, sostenerse como un drain tank o apoyar a un grupo con rituales de sangre.
+
+| Especialización | Ciclo principal | Rol | Mejor uso |
+|---|---|---|---|
+| Flesh Weaver | Acumula vitalidad almacenada y luego conviértela en curación | Sanador | Contenido en grupo y recuperación sostenida |
+| Sanguin | Gasta tu propia vida para amplificar hechizos oscuros | DPS | Daño explosivo y juego agresivo |
+| Cursed | Lanza como mago y luego transfórmate en un combatiente vampírico | DPS | Cambios de corto alcance y presión híbrida |
+| Lycanthropy | Abandona por completo la mortalidad y lucha como un warg salvaje | Tanque | Control de vanguardia y absorción de daño |
+
+Lo más destacado de Blood Mage es su flexibilidad. Puedes hundirte en charcos para evitar daño, drenar enemigos para recuperarte o transformarte en formas monstruosas que cambian tu alcance de combate. Eso significa que la clase recompensa a los jugadores que saben leer la pelea y cambiar de modo en el momento adecuado.
+
+| Hechizo de Blood Mage | Efecto | Mejor uso |
+|---|---|---|
+| Blood Pools | Niega espacio y permite reposicionarte con seguridad | Combates AoE y kiting |
+| Vampiric Fang | Drena vida de un objetivo | Sostenimiento y recuperación decisiva |
+| Life Drinker | Convierte la salud enemiga en la tuya | Combates prolongados |
+| Dark Rituals | Potencia a los aliados o invoca presión | Utilidad de grupo |
+| Werewolf Summons | Añade cuerpos extra a la pelea | Tanqueo y caos |
+
+<Steps>
+  <Step num="1" title="Elige tu identidad de combate">
+    Decide si quieres curar, hacer daño o tanquear antes de aprender el ciclo avanzado de hechizos.
+  </Step>
+  <Step num="2" title="Acumula ira con seguridad">
+    Usa lanzamientos de bajo riesgo y herramientas de autocuración para avanzar hacia tus ventanas de transformación más fuertes.
+  </Step>
+  <Step num="3" title="Gasta antes de que la ventana se rompa">
+    Convierte tu poder antes de que tu salud, ira o estado de forma te empujen a una mala posición.
+  </Step>
+  <Step num="4" title="Reajusta la distancia con inteligencia">
+    Muévete entre presión a distancia y cuerpo a cuerpo según si tu forma actual es más fuerte de cerca.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Regla general de Blood Mage">
+La salud es un recurso, no un error. La clase rinde mejor cuando planeas alrededor del auto-daño en lugar de evitarlo por completo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejores opciones de lanzadores según el estilo de juego">
+
+Si estás eligiendo entre clases basadas en hechizos, la forma más segura es ajustar el kit a la manera en que te gusta combatir. Algunas especializaciones quieren que te quedes quieto y canalices presión. Otras quieren movimiento, cambios o el momento exacto de la transformación. Unas pocas brillan porque ayudan al grupo sin dejar de infligir daño real.
+
+<CardGrid cols={4}>
+  <Card title="Mejor burst">
+    - Pyromancer
+    - Draconic Pyromancer
+    - Golpes de hechizo rápidos y rematadores explosivos
+  </Card>
+  <Card title="Mejor AoE">
+    - Stormbringer
+    - Necromancer
+    - Presión amplia y control de múltiples objetivos
+  </Card>
+  <Card title="Mejor apoyo">
+    - Sun Cleric
+    - Flesh Weaver
+    - Herramientas de curación de Moon Priest y Starcaller
+  </Card>
+  <Card title="Mejor control">
+    - Chronomancer
+    - Cultist
+    - Trucos temporales, clones y presión de desventajas
+  </Card>
+</CardGrid>
+
+| Si te gusta... | Prueba esto | Por qué encaja |
+|---|---|---|
+| Ventanas de burst rápidas | Pyromancer o Draconic | Lanzamientos de alto impacto con gran recompensa |
+| Ejércitos de mascotas | Necromancer o Conjuration Runemaster | Más cuerpos, más control del campo de batalla |
+| Apoyo reactivo | Sun Cleric, Flesh Weaver o Moon Priest | Cura y mejora sin volverte pasivo |
+| Juego tramposo | Chronomancer o Cultist | Bucles temporales, clones y lanzamientos de riesgo/recompensa |
+
+Aquí es donde muchos jugadores toman mejores decisiones de las que esperan. Una clase con menos daño visible puede seguir sintiéndose más fuerte si su ciclo de hechizos encaja con tus instintos. En un sistema con tantas clases originales, la comodidad y la consistencia suelen superar a la persecución del tooltip más llamativo.
+
+<Callout type="info" title="Filtro práctico de elección">
+Elige la clase que se sienta bien durante los primeros diez minutos de combate. Si el ciclo resulta torpe al principio, rara vez se vuelve divertido después.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de verificación, errores y FAQ">
+
+Antes de comprometerte con un lanzador, pasa la configuración por una comprobación sencilla de cordura. El objetivo no es encontrar el grimorio más complejo. El objetivo es encontrar el que se mantenga limpio bajo presión y te dé una función clara en cada encuentro.
+
+<Checklist
+  id="spellcaster-checklist"
+  title="Lista de verificación para configurar a un lanzador de hechizos:"
+  items={[
+    "Identifica si tu clase usa salud, cargas, formas o invocaciones",
+    "Prueba una rotación de un solo objetivo y una rotación de AoE",
+    "Mantén visible un rastreador de recursos mientras aprendes la clase",
+    "Aprende tu hechizo defensivo antes de perseguir números de daño",
+    "Cambia de especialización solo después de entender el ciclo principal"
+  ]}
+/>
+
+| Error común | Mejor enfoque |
+|---|---|
+| Jugar todos los lanzadores como un mago genérico | Aprende primero la mecánica de la clase |
+| Gastar recursos en cuanto se enfrían | Guárdalos para ventanas de transformación o burst |
+| Ignorar las herramientas de apoyo | Usa curas, escudos y hechizos de utilidad |
+| Centrarse solo en los medidores de daño | Vigila también la permanencia, la seguridad y el control |
+
+<Callout type="tip" title="Consejo final">
+La mejor configuración de hechizos de Conquest of Azeroth es la que puedes pilotar con calma bajo presión. Una ejecución limpia gana más combates que una teoría elegante.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué hace que los hechizos de conquest of azeroth sean diferentes de los hechizos normales de WoW?",
+    answer: "Están construidos alrededor de identidades de clase originales, efectos visuales personalizados y mecánicas que cambian cómo funciona la rotación en lugar de añadir solo unos botones extra."
+  },
+  {
+    question: "¿Qué especialización de Blood Mage es la más fácil para empezar?",
+    answer: "Flesh Weaver es la opción más fluida si quieres curar, mientras que Sanguin es la ruta más sencilla centrada en daño para los jugadores que prefieren un lanzamiento agresivo."
+  },
+  {
+    question: "¿Los lanzadores de hechizos en Conquest of Azeroth están atados a un solo rol?",
+    answer: "No. Varias clases pueden curar, tanquear o hacer DPS, incluyendo Blood Mage, Sun Cleric, Starcaller, Cultist y otros kits híbridos."
+  },
+  {
+    question: "¿Debería elegir una clase solo por el daño?",
+    answer: "Normalmente no. En CoA, el ciclo de recursos, la supervivencia y el paquete de utilidad importan tanto como el rendimiento bruto."
+  }
+]} />
+
+</Section>

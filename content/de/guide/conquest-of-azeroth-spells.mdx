@@ -1,0 +1,226 @@
+import { Map, Sparkles, Shield, Swords, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Zauber: Vergleich und Tipps für Blood Mage",
+  description: "Erfahre, wie die Zauber von Conquest of Azeroth funktionieren, wie die Magie des Blood Mage aufgebaut ist und welche Zauberer-Kits am besten zu welcher Rolle passen.",
+  category: "Ratgeber",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Spell+Comparison+Guide",
+  date: "2026-07-06",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **conquest of azeroth spells** sind um die Klassenidentität herum aufgebaut, nicht um einen einzigen universellen Magiebaum.
+- **Blood Mage** ist das klarste Beispiel: Gesundheit, Wut und Formen bestimmen jeden Zauber.
+- **Ressourcentiming** ist bei den meisten zauberbasierten Spezialisierungen wichtiger als reines Tastendrücken.
+- **Die Rollenwahl** sollte an erster Stelle stehen, weil viele Klassen heilen, tanken oder Schaden verursachen können.
+</Callout>
+
+<Section icon={Map} title="Conquest of Azeroth Zauber: Das große Ganze">
+
+Conquest of Azeroth macht Zauberwirken zu einem klassenprägenden System statt zu einem einzigen gemeinsamen Werkzeugkasten. Das Projekt bringt **21 originale Klassen**, **69 Spezialisierungen** und **Hunderte neuer Zauber** mit, eingebettet in eigene visuelle Effekte und loregetriebene Mechaniken. Wenn du die offizielle Projektübersicht sehen willst, beginne mit der Seite [Conquest of Azeroth - Alpha](https://ascension.gg/en/news/conquest-of-azeroth-alpha/332) und betrachte das Zauberbuch als Karte der Klassenidentität.
+
+**Video-Highlights:**
+- Blood Mage kann Leben aussaugen, Verbündete heilen oder sich in ein Monster verwandeln.
+- Wut und Gesundheit sind Teil der Zauberschleife und nicht nur Nebenkosten.
+- Das Zaubersystem von CoA verändert oft mitten im Kampf deine Rolle.
+- Dunkle Magie in diesem Projekt ist auf Flexibilität ausgelegt, nicht auf eine feste Rotation.
+
+<YouTubeEmbed videoId="4mEVTHzHkqY" title="Neue WoW-Klasse: Bloodmage - Conquest of Azeroth" />
+
+Am einfachsten liest du das System, indem du fragst, was jede Klasse ausgeben, aufbauen oder verwandeln will. Manche Spezialisierungen stapeln eine Ressource, andere wechseln die Form, und wieder andere verändern einfach, wie normale Zauber funktionieren. Dieses Design lässt Zauberwirken eher wie eine RPG-Kampfengine als wie eine gewöhnliche Aktionsleiste wirken.
+
+| Zauberthema | Was es verändert | Beispielklassen | Warum es wichtig ist |
+|---|---|---|---|
+| Ressourcenbasiertes Wirken | Zauber hängen von einer besonderen Leiste ab | Blood Mage, Stormbringer, Cultist | Das Timing der Rotation wird zur wichtigsten Prüfung |
+| Formbasierte Magie | Das Zauberbuch verändert sich nach der Verwandlung | Cursed Blood Mage, Lycanthropy, Draconic Pyromancer | Du spielst um Burst-Fenster und Haltungswechsel herum |
+| Begleiterzentrierte Zauberei | Diener verlängern deinen Druck oder deine Kontrolle | Necromancer, Conjuration Runemaster | Positionierung und Zielwechsel werden wichtiger |
+| Unterstützende Magie | Zauber heilen, schirmen oder verstärken Verbündete | Flesh Weaver, Sun Cleric, Moon Priest | Nutzen wird Teil des Kernkits |
+
+<Callout type="tip" title="Redaktionsnotiz">
+Betrachte jedes Klassen-Zauberbuch wie ein Rollen-Kit. Die stärkste Build-Variante ist meist die, deren Ressourcenschleife sich für dich natürlich anfühlt.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Welche Zaubersysteme sind am wichtigsten">
+
+Die Zaubersysteme in CoA sind darauf ausgelegt, Druck, Entscheidungen und Belohnungsmomente zu erzeugen. Deshalb können sich zwei Klassen beide wie „Caster“ anfühlen und im Kampf trotzdem völlig unterschiedlich wirken. Die eine kümmert sich vielleicht um das Aufbauen von Macht, während die andere darauf achtet, wann sie sich verwandeln oder wann sie das Wirken stoppen und sich neu positionieren soll.
+
+<CardGrid cols={4}>
+  <Card title="Leben und Blut">
+    - Gesundheit, Opferung und leech-basierte Zauber
+    - Am besten für Risk-and-Reward-Spieler
+    - Beispiel: Blood Mage, Reaper
+  </Card>
+  <Card title="Momentum">
+    - Stapel aufbauen und dann im richtigen Fenster ausgeben
+    - Am besten für Burst-orientiertes Wirken
+    - Beispiel: Sun Cleric, Stormbringer
+  </Card>
+  <Card title="Formen">
+    - Zauber ändern sich, wenn sich dein Körper verändert
+    - Am besten für anpassungsfähige Spieler
+    - Beispiel: Cursed, Lycanthropy, Draconic
+  </Card>
+  <Card title="Kontrolle">
+    - Zeit, Klone, Begleiter und Debuffs formen den Kampf
+    - Am besten für taktische Spieler
+    - Beispiel: Chronomancer, Necromancer, Cultist
+  </Card>
+</CardGrid>
+
+| Mechanik | Klassenbeispiele | Worauf du achten solltest | Schwierigkeit beim Einstieg |
+|---|---|---|---|
+| Lebensmacht | Necromancer | Begleiterpflege, Druck durch Leichen | Mittel |
+| Statische Ladung | Stormbringer | Stapelaufbau, Proc-Fenster | Mittel bis hoch |
+| Einstimmung + Runen einprägen | Runemaster | Zauberreihenfolge und Manarhythmus | Hoch |
+| Sonnenuntergang | Sun Cleric | Auf 20 Stapel aufbauen, dann sinnvoll ausgeben | Mittel |
+| Wahnsinn | Cultist | Gefährlich bleiben, ohne zu übercappen | Hoch |
+
+Das Grundmuster ist einfach: Je stärker eine Klasse ihre Zauberregeln verbiegt, desto lohnender wird sie, sobald du die Schleife verstanden hast. Das gilt besonders für Spezialisierungen, die Angriff mit einer zweiten Aufgabe wie Heilen, Tanken oder Verstärken kombinieren.
+
+<Callout type="warning" title="Diesen Fehler vermeiden">
+Beurteile einen Zauberwirker nicht nur nach dem Eröffnungs-Burst. In CoA liegt die wahre Stärke oft in der Ressourcenschleife und im Timing der Verwandlung.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Blood Mage Zauberfamilien und Rollen">
+
+Blood Mage ist das klarste Beispiel dafür, wie Conquest of Azeroth Zauber Schaden, Heilung und Überlebensfähigkeit in einem einzigen Kit vereinen kann. Die Klasse lenkt ihre eigene Lebenskraft, baut Wut auf und kann diese Macht in unterschiedliche Formen lenken. Das Ergebnis ist ein Zauberwirker, der wie ein Monster kämpfen, wie ein Drain-Tank durchhalten oder eine Gruppe mit Blutritualen unterstützen kann.
+
+| Spezialisierung | Kernschleife | Rolle | Beste Verwendung |
+|---|---|---|---|
+| Flesh Weaver | Gesammelte Vitalität aufbauen und dann in Heilung umwandeln | Heiler | Gruppeninhalte und anhaltende Erholung |
+| Sanguin | Das eigene Leben einsetzen, um dunkle Zauber zu verstärken | DPS | Burst-Schaden und aggressives Spiel |
+| Cursed | Erst als Magier wirken, dann in einen vampirischen Kämpfer verwandeln | DPS | Nahbereichswechsel und hybrider Druck |
+| Lycanthropy | Die Sterblichkeit vollständig abwerfen und als wilder Warg kämpfen | Tank | Frontlinienkontrolle und Schaden abfangen |
+
+Das Besondere am Blood Mage ist die Flexibilität. Du kannst in Blutpfützen abtauchen, um Schaden zu vermeiden, Gegner aussaugen, um dich zu erholen, oder dich in monströse Formen verwandeln, die deine Reichweite im Kampf verändern. Dadurch belohnt die Klasse Spieler, die den Kampf lesen und im richtigen Moment den Modus wechseln können.
+
+| Blood-Mage-Zauber | Effekt | Beste Verwendung |
+|---|---|---|
+| Blood Pools | Raum verweigern und sichere Neu-Positionierung ermöglichen | AoE-Kämpfe und Kiten |
+| Vampiric Fang | Saugt einem Ziel Leben ab | Durchhaltevermögen und knappe Rettungen |
+| Life Drinker | Wandelt gegnerische Gesundheit in deine eigene um | Längere Kämpfe |
+| Dark Rituals | Stärkt Verbündete oder erzeugt Druck durch Beschwörungen | Gruppennutzen |
+| Werewolf Summons | Fügt dem Kampf zusätzliche Körper hinzu | Tanken und Chaos |
+
+<Steps>
+  <Step num="1" title="Wähle deine Kampfidentität">
+    Entscheide dich, ob du heilen, Schaden verursachen oder tanken willst, bevor du die fortgeschrittene Zauberschleife lernst.
+  </Step>
+  <Step num="2" title="Baue Wut sicher auf">
+    Nutze risikoarme Zauber und Selbstheilung, um dich auf deine stärkeren Verwandlungsfenster zuzubewegen.
+  </Step>
+  <Step num="3" title="Gib aus, bevor das Fenster bricht">
+    Nutze deine Macht, bevor Gesundheit, Wut oder Formzustand dich in eine schlechte Position bringen.
+  </Step>
+  <Step num="4" title="Passe die Distanz intelligent an">
+    Wechsle zwischen Fern- und Nahkampfdruck, je nachdem, ob deine aktuelle Form auf kurze Distanz stärker ist.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Faustregel für Blood Mage">
+Gesundheit ist eine Ressource, kein Fehler. Die Klasse funktioniert am besten, wenn du Selbstschaden einplanst, statt ihn vollständig zu vermeiden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Die besten Zauberer-Picks nach Spielstil">
+
+Wenn du zwischen zauberbasierten Klassen wählst, ist der sicherste Ansatz, das Kit an die Art anzupassen, wie du gern kämpfst. Manche Spezialisierungen wollen, dass du stillstehst und Druck aufbaust. Andere wollen Bewegung, Wechsel oder das richtige Verwandlungs-Timing. Einige glänzen, weil sie der Gruppe helfen und trotzdem echten Schaden verursachen.
+
+<CardGrid cols={4}>
+  <Card title="Bester Burst">
+    - Pyromancer
+    - Draconic Pyromancer
+    - Schnelle Zaubertreffer und explosive Finisher
+  </Card>
+  <Card title="Bester AoE">
+    - Stormbringer
+    - Necromancer
+    - Großer Druck und Kontrolle über mehrere Ziele
+  </Card>
+  <Card title="Beste Unterstützung">
+    - Sun Cleric
+    - Flesh Weaver
+    - Heilwerkzeuge von Moon Priest und Starcaller
+  </Card>
+  <Card title="Beste Kontrolle">
+    - Chronomancer
+    - Cultist
+    - Zeittricks, Klone und Debuff-Druck
+  </Card>
+</CardGrid>
+
+| Wenn du magst... | Versuch das hier | Warum es passt |
+|---|---|---|
+| Schnelle Burst-Fenster | Pyromancer oder Draconic | Wirkungen mit starkem Einschlag und hohem Ertrag |
+| Begleitarmeen | Necromancer oder Conjuration Runemaster | Mehrere Körper, mehr Kontrolle über das Schlachtfeld |
+| Reaktive Unterstützung | Sun Cleric, Flesh Weaver oder Moon Priest | Heilen und verstärken, ohne passiv zu werden |
+| Trickspiel | Chronomancer oder Cultist | Zeitschleifen, Klone und riskant-belohnendes Wirken |
+
+Hier treffen viele Spieler bessere Entscheidungen, als sie erwarten. Eine Klasse mit geringerem sichtbarem Schaden kann sich trotzdem stärker anfühlen, wenn ihre Zauberschleife zu deinen Instinkten passt. In einem System mit so vielen originellen Klassen sind Komfort und Konstanz oft besser als die Jagd nach dem auffälligsten Tooltip.
+
+<Callout type="info" title="Praktischer Auswahlfilter">
+Wähle die Klasse, die sich in den ersten zehn Minuten des Kampfes gut anfühlt. Wenn sich die Schleife früh holprig anfühlt, wird sie später selten wirklich Spaß machen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Checkliste, Fehler und FAQ">
+
+Bevor du dich festlegst, solltest du den Caster mit einer einfachen Plausibilitätsprüfung testen. Das Ziel ist nicht, das komplexeste Zauberbuch zu finden. Das Ziel ist, dasjenige zu finden, das unter Druck sauber bleibt und dir in jedem Pull eine klare Aufgabe gibt.
+
+<Checklist
+  id="spellcaster-checklist"
+  title="Checkliste für das Einrichten eines Zauberwirkers:"
+  items={[
+    "Prüfe, ob deine Klasse Gesundheit, Stapel, Formen oder Begleiter verwendet",
+    "Teste eine Einzelziel-Rotation und eine AoE-Rotation",
+    "Halte beim Lernen der Klasse einen Ressourcen-Tracker sichtbar",
+    "Lerne deinen Defensivzauber, bevor du auf Schadenszahlen jagst",
+    "Wechsle die Spezialisierung erst, nachdem du die Kernschleife verstanden hast"
+  ]}
+/>
+
+| Häufiger Fehler | Besserer Ansatz |
+|---|---|
+| Jeden Caster wie einen generischen Magier spielen | Lerne zuerst die Klassenmechanik |
+| Ressourcen auf Cooldown ausgeben | Für Verwandlungs- oder Burst-Fenster aufheben |
+| Unterstützungswerkzeuge ignorieren | Heals, Schilde und Utility-Zauber nutzen |
+| Nur auf Schadensmeter schauen | Auch Uptime, Sicherheit und Kontrolle verfolgen |
+
+<Callout type="tip" title="Abschließender Rat">
+Der beste Conquest-of-Azeroth-Zauberbuild ist der, den du unter Druck ruhig steuern kannst. Saubere Ausführung gewinnt mehr Kämpfe als ausgeklügeltes Theorycrafting.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was macht die Zauber von conquest of azeroth anders als normale WoW-Zauber?",
+    answer: "Sie sind um originelle Klassenidentitäten, eigene visuelle Effekte und Mechaniken herum aufgebaut, die die Rotation verändern, statt nur ein paar zusätzliche Tasten hinzuzufügen."
+  },
+  {
+    question: "Mit welcher Blood-Mage-Spezialisierung fängt man am leichtesten an?",
+    answer: "Flesh Weaver ist die angenehmste Wahl, wenn du heilen willst, während Sanguin der einfachste schadensorientierte Einstieg für Spieler ist, die aggressives Wirken mögen."
+  },
+  {
+    question: "Sind Zauberwirker in Conquest of Azeroth auf eine Rolle festgelegt?",
+    answer: "Nein. Mehrere Klassen können heilen, tanken oder DPS sein, darunter Blood Mage, Sun Cleric, Starcaller, Cultist und andere Hybrid-Kits."
+  },
+  {
+    question: "Sollte ich eine Klasse nur nach dem Schaden wählen?",
+    answer: "Meistens nicht. In CoA sind die Ressourcenschleife, Überlebensfähigkeit und der Nutzen des Kits genauso wichtig wie die reine Ausgabe."
+  }
+]} />
+
+</Section>

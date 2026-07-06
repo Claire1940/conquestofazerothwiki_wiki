@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Weak Auras: Setup, Icons & Tips",
+  description: "Build Conquest of Azeroth Weak Auras with the right add-ons, clean grouping, reliable triggers, and practical buff, cooldown, and resource tracking.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=WeakAuras+Setup+Guide",
+  date: "2026-07-06",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Conquest of Azeroth Weak Auras** work best when you build one clean group for bars, icons, and alerts.
+- **Use the newer WeakAuras build** plus a spell-ID helper so your triggers stay accurate.
+- **Track health, resource, and key debuffs first** before adding extra polish.
+- **Duplicate successful auras** to keep size, spacing, and style consistent across the UI.
+- **For buffs, use missing-aura alerts** with desaturation or glow so important procs stand out fast.
+</Callout>
+
+<Section icon={Map} title="Conquest of Azeroth Weak Auras: Install the Right Tools">
+
+A solid setup starts with the right foundation. Build your profile around a current WeakAuras package, then pair it with a spell-ID helper so you can copy exact IDs instead of guessing. That approach is especially useful in Conquest of Azeroth, where a clean trigger matters more than fancy visuals.
+
+**Video Highlights:**
+- Install the current WeakAuras build, not an older launcher package.
+- Add a spell-ID helper so you can confirm exact debuff and spell numbers.
+- Start with health, resource, and one core combat debuff.
+- Keep every aura in one group so alignment stays stable.
+
+<YouTubeEmbed videoId="PYUyvZJOOjo" title="HOW I MAKE MY WEAKAURAS FOR CONQUEST OF AZEROTH!" />
+
+<Callout type="tip" title="Recommended Starting Stack">
+Use the [WeakAuras2 GitHub repository](https://github.com/WeakAuras/WeakAuras2) as your main reference point, then add a spell-ID helper such as IDTip for in-game verification. This keeps your build closer to the modern feature set and makes exact trigger setup easier.
+</Callout>
+
+| Add-on | Purpose | Why it matters |
+|---|---|---|
+| WeakAuras2 | Build bars, icons, and groups | Gives you the current feature set and flexible triggers |
+| ID helper | Reveal spell IDs on hover | Prevents guesswork when you copy aura IDs |
+| Clean UI profile | Organize positions and scaling | Keeps the whole layout readable in combat |
+
+The goal is not to fill the screen. The goal is to build a readable combat panel that tells you what matters within a split second. Once the tools are in place, every later aura becomes faster to create and easier to maintain.
+
+</Section>
+
+<Section icon={Shield} title="Core Layout: Bars, Icons, and Grouping">
+
+The best Conquest of Azeroth weak auras share the same design logic: bars belong near the bottom, combat icons sit near the center, and passive reminders move to the sides. That layout keeps the important information close to your eyes without cluttering the middle of the screen.
+
+<CardGrid cols={3}>
+  <Card title="Bars">
+    - **Health and resource tracking**
+    - Best placed low and centered
+    - Easy to scan while moving
+  </Card>
+  <Card title="Icons">
+    - **Cooldowns and stacks**
+    - Use a fixed square size
+    - Great for high-priority abilities
+  </Card>
+  <Card title="Buff Alerts">
+    - **Missing-buff reminders**
+    - Works well on the left or right edge
+    - Stays visible without blocking combat text
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Layout Rule">
+If one aura looks good, duplicate it. Reusing the same size, spacing, and font keeps the whole interface consistent and saves setup time.
+</Callout>
+
+| Slot | Suggested Size | Best Use |
+|---|---|---|
+| Bottom center | Bar, wide | Health, energy, rage, or mana |
+| Center | 40x40 icon | Main cooldown or stack tracker |
+| Side edge | 20x20 icon | Missing buff reminders |
+| Near target frame | Small icon | Debuffs you need to watch constantly |
+
+Grouping matters just as much as placement. Put the finished pieces into one group so moving the profile later does not break the arrangement. If you drag the group, every child aura should follow the same anchor points.
+
+A good group also makes future edits safer. You can shift the entire combat panel a few pixels, test a different scale, or create class-specific layouts without rebuilding every element from scratch.
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Build: Health, Energy, and Cooldowns">
+
+Start with the essentials. A reliable Conquest of Azeroth Weak Auras setup usually begins with a health bar, a resource bar, and one key cooldown icon. Those three pieces give you enough combat feedback to play comfortably before you add advanced alerts.
+
+<Steps>
+  <Step num="1" title="Create the health bar">
+    Make a new progress bar aura and bind it to player unit info for health. Set the text to show value only, center the text anchor, and use a green bar color.
+  </Step>
+  <Step num="2" title="Duplicate for your resource">
+    Copy the health bar, rename it, then change the trigger to power with the correct power type such as energy. Adjust the bar color to match the resource.
+  </Step>
+  <Step num="3" title="Build one cooldown icon">
+    Add an icon aura for a core spell. Use the spell trigger, set the exact spell ID, and choose the cooldown display so the icon fills or blacks out while the spell recharges.
+  </Step>
+  <Step num="4" title="Add a debuff tracker">
+    Make a target aura for your main stack or debuff effect. Use the exact spell ID, show stack count in the center, and hide it when no target exists.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Trigger Accuracy">
+Use exact spell IDs for cooldowns and debuffs whenever possible. That avoids confusion from similar spell names, rank changes, or multiple effects with the same wording.
+</Callout>
+
+| Aura Type | Trigger | Display Choice | Example Use |
+|---|---|---|---|
+| Health bar | Player unit info | Progress bar, centered text | HP tracking |
+| Resource bar | Power | Progress bar, matching resource color | Energy, rage, or mana |
+| Cooldown icon | Spell | Icon with cooldown sweep | Crushing Slam style ability |
+| Debuff icon | Aura on target | Stack count in the center | Carnage-style stack tracking |
+
+A few practical values make the first pass feel polished. A 40x40 icon is large enough to read in motion, and a centered text anchor keeps the number from drifting to the left edge. For bars, keep the font simple and the color choices strong. The less visual noise you add, the faster your eyes can interpret the state of the fight.
+
+</Section>
+
+<Section icon={Sparkles} title="Buff Tracking and Visual Polish">
+
+Once the core combat pieces are working, add the reminders that save mistakes. Buff tracking is where Conquest of Azeroth weak auras become truly useful, because a missing self-buff or a faded proc icon can be spotted instantly.
+
+<Callout type="success" title="Polish Matters">
+Desaturate missing buffs, add a glow when needed, and keep side icons smaller than your main cooldowns. That combination makes important reminders readable without stealing attention from the fight.
+</Callout>
+
+| Tracking Style | Trigger | Visual Treatment | Best Use |
+|---|---|---|---|
+| Missing self-buff | Aura on player, show when missing | Desaturated icon + glow | Short-duration buffs like Ancestral Might |
+| Target stack debuff | Aura on target | Centered stack text | Carnage-style damage amplification |
+| Major cooldown | Spell, always visible when ready | Large icon with cooldown sweep | Rotational abilities |
+| Minor reminder | Aura on player or target | Small icon on the side | Situational procs or maintenance buffs |
+
+For buffs, use the buff name when rank changes are possible. That keeps the aura stable if the spell gets updated. For fixed combat effects, an exact spell ID is still the safest choice. The right method depends on whether the effect is tied to a rank, a proc, or a single named aura.
+
+<Checklist
+  id="weak-aura-polish"
+  title="Final Polish Checklist:"
+  items={[
+    "Put the main bars in one group",
+    "Keep cooldown icons at a consistent size",
+    "Use centered text for bars and stack counts",
+    "Desaturate missing-buff icons for fast recognition",
+    "Test every aura on a target dummy or low-risk fight"
+  ]}
+/>
+
+One more habit helps a lot: build one class profile at a time. If you finish a good health bar, duplicate it before you start experimenting. That gives you a backup and keeps the whole interface from drifting out of style.
+
+</Section>
+
+<Section icon={Trophy} title="Troubleshooting and Practical Adjustments">
+
+Most weak aura problems come from three places: the wrong trigger type, the wrong spell identifier, or poor anchoring. If something looks off, fix the trigger first, then check the display settings, and only after that move on to scaling or color.
+
+<Callout type="info" title="Fast Debug Order">
+Check the trigger, confirm the ID, review the load conditions, and then verify the anchor point. That sequence solves most layout and visibility issues faster than random tweaking.
+</Callout>
+
+| Problem | Likely Cause | Fast Fix |
+|---|---|---|
+| Icon never appears | Wrong aura type or missing load condition | Recheck spell, aura, or power trigger |
+| Buff shows on the wrong unit | Player and target settings are mixed up | Swap the unit to player or target correctly |
+| Text sits off-center | Anchor is still on automatic | Set anchors to center and center |
+| Cooldown looks reversed | Inverse setting is wrong | Toggle the cooldown fill direction |
+| Group moved but one aura stayed behind | Item was not placed into the group | Reassign the orphan aura to the group |
+
+Be careful when you copy one aura to make another. Duplication saves time, but it also preserves old settings that may no longer fit the new purpose. The most common mistake is leaving a health trigger on a resource bar or a debuff trigger on a buff reminder. A quick review after every duplicate keeps the build clean.
+
+The most stable workflow is simple: build, test, duplicate, and then tune. If a profile survives a few combat pulls without confusion, it is probably organized well enough to keep using.
+
+<FAQ items={[
+  {
+    question: "What is the best starting point for Conquest of Azeroth weak auras?",
+    answer: "Start with a health bar, a resource bar, and one major cooldown icon. That gives you useful combat feedback before you add more advanced tracking."
+  },
+  {
+    question: "Should I use spell IDs or spell names?",
+    answer: "Use spell IDs for cooldowns and debuffs when you want maximum accuracy. Use the buff name when a buff can change ranks or versions."
+  },
+  {
+    question: "Why do my bars look misaligned after I duplicate them?",
+    answer: "The copy usually inherited a different anchor or position. Recenter the display and move the aura back into the same group."
+  },
+  {
+    question: "How many icons should I put on screen at once?",
+    answer: "Only show what you can read quickly in combat. One main cooldown, one stack tracker, and a few small reminders are usually enough for a clean setup."
+  }
+]} />
+
+</Section>

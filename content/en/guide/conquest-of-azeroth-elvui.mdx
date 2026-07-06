@@ -1,0 +1,197 @@
+import { Map, SlidersHorizontal, Target, Wrench, Shield, CircleHelp, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth ElvUI: Setup Guide for Clean UI",
+  description: "Learn how to tune conquest of azeroth elvui for clearer combat visibility, safer imports, and a cleaner layout in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Conquest+of+Azeroth+ElvUI+Guide",
+  date: "2026-07-06",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **conquest of azeroth elvui** works best when bars, auras, and nameplates are simplified before combat starts.
+- **Class density** is the main problem; a crowded kit needs a cleaner layout than a default UI.
+- **Best setup** keeps resources near center and pushes utility panels to the edges.
+- **Safe imports** always begin with a backup profile and a version check.
+</Callout>
+
+<Section icon={Map} title="Why Conquest of Azeroth ElvUI Needs a Leaner HUD">
+
+Conquest of Azeroth ElvUI setups should prioritize readability over decoration. With so many class tools, spells, and situational buttons, a cluttered interface slows reaction time and hides the information that matters most. The cleanest profiles treat the center of the screen as combat space and reserve the edges for support data.
+
+**Video Highlights:**
+- The class lineup is large enough that one layout rarely fits every build.
+- A flexible HUD matters more than cosmetic framing.
+- Clean spacing helps when learning new class kits.
+- You want cooldowns visible without blocking enemy movement.
+
+<YouTubeEmbed videoId="Y-jLigrMO6A" title="Conquest of Azeroth: 21 New Classes in WoW" />
+
+| Goal | ElvUI Setting | Result |
+|---|---|---|
+| Reduce clutter | Hide unused bars | Faster target focus |
+| Track combat clearly | Centered cooldowns | Easier reaction timing |
+| Keep utility readable | Small side panels | Less screen noise |
+| Support class swapping | Separate profiles | Faster rebuilds |
+
+<Callout type="tip" title="Start With a Fresh Profile">
+If you already use ElvUI, export your current profile first. A clean import makes later tuning much faster and safer.
+</Callout>
+
+</Section>
+
+<Section icon={SlidersHorizontal} title="Best Layout Choices for Questing, Dungeons, and Group Play">
+
+A good Conquest of Azeroth ElvUI layout should change with your activity, not fight against it. Solo questing needs visibility and movement space. Dungeon play needs interrupt tracking and boss cues. Group content rewards a compact frame set with enough room for combat text and debuffs.
+
+<CardGrid cols={3}>
+  <Card title="Questing Layout">
+    - **Large world view**
+    - Simple action bars
+    - Easy resource tracking
+  </Card>
+  <Card title="Dungeon Layout">
+    - **Interrupt visibility**
+    - Strong target frames
+    - Debuff-first positioning
+  </Card>
+  <Card title="Group Layout">
+    - **Compact frames**
+    - Priority cooldowns
+    - Minimal screen overlap
+  </Card>
+</CardGrid>
+
+| UI Element | Recommended Position | Why It Works |
+|---|---|---|
+| Player frame | Lower center | Easy health and resource check |
+| Target frame | Above or near center | Faster target swapping |
+| Buffs and debuffs | Upper edges | Clear status reading |
+| Action bars | Bottom edge | Natural reach and less clutter |
+| Minimap | Top corner | Keeps navigation out of combat space |
+
+<Callout type="info" title="Layout Rule">
+Do not place every important element in the same zone. Spreading attention across three zones is usually easier to process than stacking everything together.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Class-Specific Tuning That Keeps Combat Readable">
+
+The strongest Conquest of Azeroth ElvUI profiles are not the most packed ones. They are the ones that match your playstyle. Melee builds usually need more center-screen clarity. Ranged builds often benefit from tighter cast visibility. Pet-heavy or support-heavy kits need extra space for trackers and proc alerts.
+
+| Playstyle | Main UI Stress | Best Adjustment | ElvUI Feature |
+|---|---|---|---|
+| Melee | Fast target swaps | Strong target frame anchor | Cast bar, nameplates |
+| Ranged | Position checks | Cleaner center lane | Cast bars, resource text |
+| Hybrid | Mixed priorities | Flexible bar grouping | Action bar paging |
+| Support | Buff tracking | Aura filtering | Buff/debuff filters |
+
+| Priority | What to Show | What to Hide |
+|---|---|---|
+| High | Interrupts, cooldowns, resources | Decorative borders |
+| Medium | Long buffs, procs, utility bars | Rarely used macros |
+| Low | Extra chat noise, duplicate trackers | Repeated frame elements |
+
+<Callout type="warning" title="Avoid Over-Tuning">
+If every class gets its own wildly different layout, you will spend more time managing profiles than playing. Keep a shared baseline and only adjust the essentials.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Step-by-Step Import and First Pass Tuning">
+
+Before you import or edit anything, confirm your ElvUI build against the official project page. A quick check on the [official ElvUI download page](https://www.tukui.org/download.php?ui=elvui) is the simplest way to avoid version mismatch issues on 2026-07-06.
+
+<Steps>
+  <Step num="1" title="Back Up Your Current Profile">
+    Export your existing settings and store the string somewhere safe. This gives you a recovery point if the new layout feels wrong.
+  </Step>
+  <Step num="2" title="Import the Base Profile">
+    Paste the profile into ElvUI, then load it once without changing anything else. The first pass should be about stability, not perfection.
+  </Step>
+  <Step num="3" title="Set the Core Combat Frames">
+    Move player, target, cast bar, and cooldown elements first. These frames define how quickly you read combat.
+  </Step>
+  <Step num="4" title="Test in Real Content">
+    Run a short quest loop or dungeon pull, then refine spacing, bar size, and aura filters after seeing real movement.
+  </Step>
+</Steps>
+
+| Step | Action | Check |
+|---|---|---|
+| 1 | Backup profile | Recovery string saved |
+| 2 | Import base layout | Profile loads cleanly |
+| 3 | Adjust main frames | Center stays readable |
+| 4 | Playtest and refine | No overlap in combat |
+
+<Callout type="success" title="Best Practice">
+Make one change at a time. Small edits are easier to test, easier to undo, and usually produce the cleanest final layout.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting, Backup Habits, and a Final Checklist">
+
+If your Conquest of Azeroth ElvUI setup feels messy, the fix is usually structural, not cosmetic. Start by removing duplicate frames, lowering the number of visible bars, and checking whether a boss mod or combat addon is stacking information in the same space.
+
+| Issue | Likely Cause | Fast Fix |
+|---|---|---|
+| Frames overlap | Too many elements centered | Move utility frames outward |
+| Combat feels crowded | Bars too large | Reduce bar height and spacing |
+| Important buffs vanish | Weak aura filters | Raise aura priority rules |
+| Nameplates are noisy | Too many indicators | Trim nonessential markers |
+| UI feels inconsistent | Mixed profiles | Rebuild from a single baseline |
+
+<Checklist
+  id="conquest-of-azeroth-elvui-checklist"
+  title="Final Quality Check:"
+  items={[
+    "Player and target frames are readable at a glance",
+    "Cooldowns are visible without blocking the action",
+    "Unused bars and duplicate trackers are hidden",
+    "Buff and debuff filters show only high-value data",
+    "A backup export exists before further edits"
+  ]}
+/>
+
+<Callout type="tip" title="Maintenance Rule">
+Revisit the profile after a few sessions. Your best settings are the ones that still feel clear after real combat, not just in the editor.
+</Callout>
+
+</Section>
+
+<Section icon={CircleHelp} title="FAQ">
+
+<Callout type="info" title="Common Questions">
+Use these answers to keep your Conquest of Azeroth ElvUI setup simple, stable, and easy to maintain.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Is Conquest of Azeroth ElvUI different from a normal ElvUI setup?",
+    answer: "Yes. The goal is the same, but the layout has to support more class variety, more ability tracking, and cleaner combat readability."
+  },
+  {
+    question: "What is the best first change to make?",
+    answer: "Start with player and target frames, then tune action bars and cooldown visibility. Those changes have the biggest impact on clarity."
+  },
+  {
+    question: "Should I keep one profile for every class?",
+    answer: "Keep one shared baseline and only split profiles when a class truly needs it. That keeps maintenance simple and consistent."
+  },
+  {
+    question: "How do I know if my setup is too busy?",
+    answer: "If you cannot read health, resources, cooldowns, and debuffs without scanning across the whole screen, the layout is too crowded."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,197 @@
+import { Map, SlidersHorizontal, Target, Wrench, Shield, CircleHelp, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth ElvUI: Einrichtungsleitfaden für ein sauberes UI",
+  description: "Erfahre, wie du conquest of azeroth elvui für klarere Kampfsicht, sicherere Imports und ein aufgeräumteres Layout im Jahr 2026 anpasst.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Conquest+of+Azeroth+ElvUI+Guide",
+  date: "2026-07-06",
+  author: "conquest of azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellübersicht">
+- **conquest of azeroth elvui** funktioniert am besten, wenn Leisten, Auren und Namensplaketten vor Kampfbeginn vereinfacht werden.
+- **Klassendichte** ist das Hauptproblem; ein überladenes Toolkit braucht ein saubereres Layout als ein Standard-UI.
+- **Das beste Setup** hält Ressourcen nahe der Mitte und schiebt Utility-Panels an die Ränder.
+- **Sichere Imports** beginnen immer mit einem Backup-Profil und einer Versionsprüfung.
+</Callout>
+
+<Section icon={Map} title="Warum Conquest of Azeroth ElvUI ein schlankeres HUD braucht">
+
+Conquest of Azeroth ElvUI-Setups sollten Lesbarkeit über Dekoration stellen. Bei so vielen Klassentools, Zaubern und situationsabhängigen Buttons verlangsamt eine überladene Oberfläche die Reaktionszeit und verdeckt die Informationen, die am wichtigsten sind. Die saubersten Profile behandeln die Bildschirmmitte als Kampffläche und reservieren die Ränder für Unterstützungsdaten.
+
+**Video-Highlights:**
+- Die Klassenauswahl ist groß genug, dass ein einziges Layout selten für jeden Build passt.
+- Ein flexibles HUD ist wichtiger als kosmetische Rahmen.
+- Saubere Abstände helfen beim Lernen neuer Klassenkits.
+- Du willst Abklingzeiten sehen, ohne die Bewegung des Gegners zu verdecken.
+
+<YouTubeEmbed videoId="Y-jLigrMO6A" title="Conquest of Azeroth: 21 neue Klassen in WoW" />
+
+| Ziel | ElvUI-Einstellung | Ergebnis |
+|---|---|---|
+| Unordnung reduzieren | Unbenutzte Leisten ausblenden | Schnellere Zielerfassung |
+| Kampf klar verfolgen | Zentrierte Abklingzeiten | Einfacheres Reaktions-Timing |
+| Utility lesbar halten | Kleine Seitenpanels | Weniger visuelles Rauschen |
+| Klassenwechsel unterstützen | Getrennte Profile | Schnellere Neuaufsetzung |
+
+<Callout type="tip" title="Beginne mit einem frischen Profil">
+Wenn du ElvUI bereits nutzt, exportiere zuerst dein aktuelles Profil. Ein sauberer Import macht spätere Anpassungen deutlich schneller und sicherer.
+</Callout>
+
+</Section>
+
+<Section icon={SlidersHorizontal} title="Die besten Layout-Entscheidungen für Quests, Dungeons und Gruppenspiel">
+
+Ein gutes Conquest of Azeroth ElvUI-Layout sollte sich deiner Aktivität anpassen und nicht gegen sie arbeiten. Solo-Questing braucht Übersicht und Bewegungsraum. Dungeon-Spiel braucht Unterbrechungs-Tracking und Boss-Hinweise. Gruppenkontent belohnt ein kompaktes Frame-Set mit genug Platz für Kampflog und Debuffs.
+
+<CardGrid cols={3}>
+  <Card title="Questing-Layout">
+    - **Große Weltansicht**
+    - Einfache Aktionsleisten
+    - Leichtes Ressourcen-Tracking
+  </Card>
+  <Card title="Dungeon-Layout">
+    - **Sichtbare Unterbrechungen**
+    - Starke Ziel-Frames
+    - Debuff-First-Positionierung
+  </Card>
+  <Card title="Gruppen-Layout">
+    - **Kompakte Frames**
+    - Prioritäts-Abklingzeiten
+    - Minimale Bildschirmüberlappung
+  </Card>
+</CardGrid>
+
+| UI-Element | Empfohlene Position | Warum es funktioniert |
+|---|---|---|
+| Spieler-Frame | Untere Mitte | Gesundheit und Ressourcen schnell prüfen |
+| Ziel-Frame | Oberhalb oder nahe der Mitte | Schneller Zielwechsel |
+| Buffs und Debuffs | Obere Ränder | Klare Statusanzeige |
+| Aktionsleisten | Unterer Rand | Natürlicher Zugriff und weniger Unordnung |
+| Minikarte | Obere Ecke | Hält die Navigation aus dem Kampfraum heraus |
+
+<Callout type="info" title="Layout-Regel">
+Platziere nicht jedes wichtige Element in derselben Zone. Die Aufmerksamkeit auf drei Zonen zu verteilen ist meist leichter zu verarbeiten, als alles zu stapeln.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Klassen-spezifische Feinanpassung für lesbaren Kampf">
+
+Die stärksten Conquest of Azeroth ElvUI-Profile sind nicht die vollsten. Es sind die, die zu deinem Spielstil passen. Nahkampf-Builds brauchen meist mehr Klarheit in der Bildschirmmitte. Fernkampf-Builds profitieren oft von besser sichtbaren Cast-Anzeigen. Pet-lastige oder Support-lastige Kits brauchen zusätzlichen Platz für Tracker und Proc-Warnungen.
+
+| Spielstil | Hauptbelastung fürs UI | Beste Anpassung | ElvUI-Funktion |
+|---|---|---|---|
+| Nahkampf | Schnelle Zielwechsel | Starke Verankerung des Ziel-Frames | Castbar, Namensplaketten |
+| Fernkampf | Positionschecks | Freiere Mitte | Castbars, Ressourcentext |
+| Hybrid | Gemischte Prioritäten | Flexible Leisten-Gruppierung | Seitenwechsel der Aktionsleisten |
+| Support | Buff-Tracking | Auren-Filterung | Buff-/Debuff-Filter |
+
+| Priorität | Was anzeigen | Was verbergen |
+|---|---|---|
+| Hoch | Unterbrechungen, Abklingzeiten, Ressourcen | Dekorative Rahmen |
+| Mittel | Lange Buffs, Procs, Utility-Leisten | Selten genutzte Makros |
+| Niedrig | Zusätzliches Chat-Rauschen, doppelte Tracker | Wiederholte Frame-Elemente |
+
+<Callout type="warning" title="Überanpassung vermeiden">
+Wenn jede Klasse ihr eigenes, völlig anderes Layout bekommt, verbringst du mehr Zeit mit Profilverwaltung als mit dem Spielen. Behalte eine gemeinsame Basis und passe nur das Wesentliche an.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Import Schritt für Schritt und erste Feinanpassung">
+
+Bevor du etwas importierst oder bearbeitest, prüfe deinen ElvUI-Build mit der offiziellen Projektseite. Ein kurzer Blick auf die [offizielle ElvUI-Downloadseite](https://www.tukui.org/download.php?ui=elvui) ist der einfachste Weg, Versionskonflikte am 2026-07-06 zu vermeiden.
+
+<Steps>
+  <Step num="1" title="Sichere dein aktuelles Profil">
+    Exportiere deine bestehenden Einstellungen und speichere die Zeichenfolge an einem sicheren Ort. So hast du einen Wiederherstellungspunkt, falls sich das neue Layout falsch anfühlt.
+  </Step>
+  <Step num="2" title="Importiere das Basisprofil">
+    Füge das Profil in ElvUI ein und lade es dann einmal, ohne sonst etwas zu ändern. Der erste Durchlauf sollte um Stabilität gehen, nicht um Perfektion.
+  </Step>
+  <Step num="3" title="Richte die zentralen Kampfframes ein">
+    Verschiebe zuerst Spieler-, Ziel-, Castbar- und Abklingzeit-Elemente. Diese Frames bestimmen, wie schnell du den Kampf erfasst.
+  </Step>
+  <Step num="4" title="Teste im echten Inhalt">
+    Spiele eine kurze Quest-Runde oder einen Dungeon-Pull und feile dann an Abständen, Leistenhöhe und Auren-Filtern, nachdem du echte Bewegung gesehen hast.
+  </Step>
+</Steps>
+
+| Schritt | Aktion | Prüfen |
+|---|---|---|
+| 1 | Profil sichern | Wiederherstellungszeichenfolge gespeichert |
+| 2 | Basislayout importieren | Profil lädt sauber |
+| 3 | Hauptframes anpassen | Mitte bleibt lesbar |
+| 4 | Testen und verfeinern | Keine Überlappung im Kampf |
+
+<Callout type="success" title="Beste Praxis">
+Ändere immer nur eine Sache auf einmal. Kleine Anpassungen sind leichter zu testen, leichter rückgängig zu machen und ergeben meist das sauberste Endlayout.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fehlerbehebung, Backup-Gewohnheiten und eine finale Checkliste">
+
+Wenn sich dein Conquest of Azeroth ElvUI-Setup chaotisch anfühlt, ist die Lösung meist strukturell und nicht kosmetisch. Entferne zuerst doppelte Frames, reduziere die Anzahl sichtbarer Leisten und prüfe, ob ein Boss-Mod oder Combat-Addon Informationen im selben Bereich stapelt.
+
+| Problem | Wahrscheinliche Ursache | Schneller Fix |
+|---|---|---|
+| Frames überlappen sich | Zu viele Elemente in der Mitte | Utility-Frames nach außen verschieben |
+| Der Kampf wirkt überladen | Leisten zu groß | Leistenhöhe und Abstand reduzieren |
+| Wichtige Buffs verschwinden | Weak-Aura-Filter | Aura-Prioritätsregeln erhöhen |
+| Namensplaketten sind unruhig | Zu viele Indikatoren | Nicht essenzielle Marker entfernen |
+| UI wirkt inkonsistent | Gemischte Profile | Aus einer einzigen Basis neu aufbauen |
+
+<Checklist
+  id="conquest-of-azeroth-elvui-checklist"
+  title="Endkontrolle:"
+  items={[
+    "Spieler- und Ziel-Frames sind auf einen Blick lesbar",
+    "Abklingzeiten sind sichtbar, ohne die Aktion zu verdecken",
+    "Unbenutzte Leisten und doppelte Tracker sind ausgeblendet",
+    "Buff- und Debuff-Filter zeigen nur hochwertige Daten",
+    "Vor weiteren Änderungen existiert ein Backup-Export"
+  ]}
+/>
+
+<Callout type="tip" title="Wartungsregel">
+Überprüfe das Profil nach einigen Sitzungen erneut. Die besten Einstellungen sind die, die sich auch nach echtem Kampf noch klar anfühlen und nicht nur im Editor.
+</Callout>
+
+</Section>
+
+<Section icon={CircleHelp} title="Häufige Fragen">
+
+<Callout type="info" title="Häufige Fragen">
+Nutze diese Antworten, um dein Conquest of Azeroth ElvUI-Setup einfach, stabil und leicht wartbar zu halten.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Unterscheidet sich Conquest of Azeroth ElvUI von einem normalen ElvUI-Setup?",
+    answer: "Ja. Das Ziel ist zwar dasselbe, aber das Layout muss mehr Klassenvielfalt, mehr Fähigkeits-Tracking und eine klarere Kampflesbarkeit unterstützen."
+  },
+  {
+    question: "Was ist die beste erste Änderung?",
+    answer: "Beginne mit Spieler- und Ziel-Frames und passe dann Aktionsleisten und die Sichtbarkeit der Abklingzeiten an. Diese Änderungen haben den größten Einfluss auf die Übersichtlichkeit."
+  },
+  {
+    question: "Sollte ich für jede Klasse ein eigenes Profil behalten?",
+    answer: "Behalte eine gemeinsame Basis und trenne Profile nur dann, wenn eine Klasse es wirklich braucht. Das hält die Pflege einfach und konsistent."
+  },
+  {
+    question: "Woran erkenne ich, dass mein Setup zu voll ist?",
+    answer: "Wenn du Gesundheit, Ressourcen, Abklingzeiten und Debuffs nicht lesen kannst, ohne mit den Augen über den ganzen Bildschirm zu wandern, ist das Layout zu überladen."
+  }
+]} />
+
+</Section>

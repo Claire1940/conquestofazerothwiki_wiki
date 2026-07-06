@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Weak Auras: configuración, iconos y consejos",
+  description: "Crea Conquest of Azeroth Weak Auras con los complementos adecuados, agrupación limpia, desencadenantes fiables y seguimiento práctico de buffs, tiempos de reutilización y recursos.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=WeakAuras+Setup+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Conquest of Azeroth Weak Auras** funciona mejor cuando construyes un grupo limpio para barras, iconos y alertas.
+- **Usa la versión más reciente de WeakAuras** junto con una ayuda para IDs de hechizos para que tus desencadenantes sigan siendo precisos.
+- **Primero sigue la salud, el recurso y los debuffs clave** antes de añadir más pulido visual.
+- **Duplica las auras que funcionen bien** para mantener tamaño, separación y estilo consistentes en toda la interfaz.
+- **Para los buffs, usa alertas de aura ausente** con desaturación o resplandor para que los procs importantes destaquen rápido.
+</Callout>
+
+<Section icon={Map} title="Conquest of Azeroth Weak Auras: instala las herramientas correctas">
+
+Una configuración sólida comienza con una base correcta. Construye tu perfil alrededor de un paquete actual de WeakAuras y luego combínalo con una ayuda para IDs de hechizos para que puedas copiar IDs exactos en lugar de adivinar. Ese enfoque es especialmente útil en Conquest of Azeroth, donde un desencadenante limpio importa más que los efectos visuales llamativos.
+
+**Aspectos destacados del video:**
+- Instala la versión actual de WeakAuras, no un paquete antiguo del lanzador.
+- Añade una ayuda para IDs de hechizos para poder confirmar números exactos de debuffs y hechizos.
+- Empieza con salud, recurso y un debuff de combate principal.
+- Mantén cada aura en un solo grupo para que la alineación se mantenga estable.
+
+<YouTubeEmbed videoId="PYUyvZJOOjo" title="¡CÓMO HAGO MIS WEAKAURAS PARA CONQUEST OF AZEROTH!" />
+
+<Callout type="tip" title="Paquete inicial recomendado">
+Usa el [repositorio de GitHub de WeakAuras2](https://github.com/WeakAuras/WeakAuras2) como tu principal punto de referencia y luego añade una ayuda para IDs de hechizos como IDTip para verificar dentro del juego. Esto mantiene tu configuración más cerca del conjunto de funciones moderno y facilita ajustar con precisión los desencadenantes.
+</Callout>
+
+| Complemento | Propósito | Por qué importa |
+|---|---|---|
+| WeakAuras2 | Crear barras, iconos y grupos | Te ofrece el conjunto de funciones actual y desencadenantes flexibles |
+| Ayuda de ID | Mostrar IDs de hechizos al pasar el cursor | Evita adivinar cuando copias IDs de aura |
+| Perfil de UI limpio | Organizar posiciones y escalado | Mantiene toda la interfaz legible en combate |
+
+El objetivo no es llenar la pantalla. El objetivo es construir un panel de combate legible que te diga lo importante en una fracción de segundo. Una vez que las herramientas están en su sitio, cada aura posterior se vuelve más rápida de crear y más fácil de mantener.
+
+</Section>
+
+<Section icon={Shield} title="Diseño central: barras, iconos y agrupación">
+
+Las mejores weak auras de Conquest of Azeroth comparten la misma lógica de diseño: las barras van cerca de la parte inferior, los iconos de combate se sitúan cerca del centro y los recordatorios pasivos se mueven a los lados. Ese diseño mantiene la información importante cerca de tus ojos sin saturar el centro de la pantalla.
+
+<CardGrid cols={3}>
+  <Card title="Barras">
+    - **Seguimiento de salud y recursos**
+    - Mejor colocadas abajo y centradas
+    - Fáciles de revisar mientras te mueves
+  </Card>
+  <Card title="Iconos">
+    - **Tiempos de reutilización y acumulaciones**
+    - Usa un tamaño cuadrado fijo
+    - Geniales para habilidades de alta prioridad
+  </Card>
+  <Card title="Alertas de buff">
+    - **Recordatorios de buff faltante**
+    - Funcionan bien en el borde izquierdo o derecho
+    - Siguen visibles sin bloquear el texto de combate
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regla de diseño">
+Si una aura se ve bien, duplícala. Reutilizar el mismo tamaño, separación y fuente mantiene toda la interfaz consistente y ahorra tiempo de configuración.
+</Callout>
+
+| Ubicación | Tamaño sugerido | Mejor uso |
+|---|---|---|
+| Centro inferior | Barra, ancha | Salud, energía, ira o maná |
+| Centro | Icono 40x40 | Tiempo de reutilización principal o seguimiento de acumulaciones |
+| Borde lateral | Icono 20x20 | Recordatorios de buff faltante |
+| Cerca del marco del objetivo | Icono pequeño | Debuffs que necesitas vigilar constantemente |
+
+Agrupar importa tanto como la colocación. Pon las piezas terminadas en un solo grupo para que mover el perfil más tarde no rompa la disposición. Si arrastras el grupo, cada aura secundaria debería seguir los mismos puntos de anclaje.
+
+Un buen grupo también hace que las ediciones futuras sean más seguras. Puedes desplazar todo el panel de combate unos píxeles, probar otra escala o crear diseños específicos por clase sin reconstruir cada elemento desde cero.
+
+</Section>
+
+<Section icon={Target} title="Construcción paso a paso: salud, energía y tiempos de reutilización">
+
+Empieza por lo esencial. Una configuración fiable de Conquest of Azeroth Weak Auras suele comenzar con una barra de salud, una barra de recursos y un icono de tiempo de reutilización clave. Esas tres piezas te dan suficiente información de combate para jugar con comodidad antes de añadir alertas avanzadas.
+
+<Steps>
+  <Step num="1" title="Crea la barra de salud">
+    Haz una nueva aura de barra de progreso y vincúlala a la información de la unidad del jugador para la salud. Configura el texto para mostrar solo el valor, centra el anclaje del texto y usa un color verde para la barra.
+  </Step>
+  <Step num="2" title="Duplícala para tu recurso">
+    Copia la barra de salud, cámbiale el nombre y luego modifica el desencadenante a poder con el tipo de poder correcto, como energía. Ajusta el color de la barra para que coincida con el recurso.
+  </Step>
+  <Step num="3" title="Crea un icono de reutilización">
+    Añade una aura de icono para un hechizo principal. Usa el desencadenante de hechizo, establece el ID exacto del hechizo y elige la visualización de reutilización para que el icono se llene o se oscurezca mientras el hechizo se recarga.
+  </Step>
+  <Step num="4" title="Añade un seguimiento de debuff">
+    Crea una aura para el objetivo de tu efecto principal de acumulación o debuff. Usa el ID exacto del hechizo, muestra el recuento de acumulaciones en el centro y escóndelo cuando no exista objetivo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Precisión del desencadenante">
+Usa IDs exactos de hechizos para tiempos de reutilización y debuffs siempre que sea posible. Eso evita confusiones por nombres de hechizos parecidos, cambios de rango o múltiples efectos con el mismo texto.
+</Callout>
+
+| Tipo de aura | Desencadenante | Opción de visualización | Uso de ejemplo |
+|---|---|---|---|
+| Barra de salud | Información de la unidad del jugador | Barra de progreso, texto centrado | Seguimiento de HP |
+| Barra de recurso | Poder | Barra de progreso, color del recurso correspondiente | Energía, ira o maná |
+| Icono de reutilización | Hechizo | Icono con barrido de reutilización | Habilidad al estilo de Crushing Slam |
+| Icono de debuff | Aura en el objetivo | Recuento de acumulaciones en el centro | Seguimiento de acumulaciones al estilo de Carnage |
+
+Algunos valores prácticos hacen que el primer intento se vea pulido. Un icono de 40x40 es lo bastante grande para leerse en movimiento, y un anclaje de texto centrado evita que el número se desplace hacia el borde izquierdo. Para las barras, mantén la fuente simple y las decisiones de color firmes. Cuanto menos ruido visual añadas, más rápido podrán tus ojos interpretar el estado del combate.
+
+</Section>
+
+<Section icon={Sparkles} title="Seguimiento de buffs y pulido visual">
+
+Una vez que las piezas centrales del combate funcionan, añade los recordatorios que evitan errores. El seguimiento de buffs es donde las weak auras de Conquest of Azeroth se vuelven realmente útiles, porque un buff propio ausente o un icono de proc atenuado se puede detectar al instante.
+
+<Callout type="success" title="El pulido importa">
+Desatura los buffs ausentes, añade un resplandor cuando haga falta y mantén los iconos laterales más pequeños que tus principales tiempos de reutilización. Esa combinación hace que los recordatorios importantes sean legibles sin robar atención al combate.
+</Callout>
+
+| Estilo de seguimiento | Desencadenante | Tratamiento visual | Mejor uso |
+|---|---|---|---|
+| Buff propio ausente | Aura en el jugador, mostrar cuando falte | Icono desaturado + resplandor | Buffs de corta duración como Ancestral Might |
+| Debuff de acumulaciones en el objetivo | Aura en el objetivo | Texto centrado de acumulaciones | Amplificación de daño al estilo de Carnage |
+| Reutilización importante | Hechizo, siempre visible cuando está listo | Icono grande con barrido de reutilización | Habilidades rotacionales |
+| Recordatorio menor | Aura en el jugador o en el objetivo | Icono pequeño en el lateral | Procs situacionales o buffs de mantenimiento |
+
+Para los buffs, usa el nombre del buff cuando puedan existir cambios de rango. Eso mantiene la aura estable si el hechizo se actualiza. Para efectos de combate fijos, un ID exacto de hechizo sigue siendo la opción más segura. El método correcto depende de si el efecto está ligado a un rango, a un proc o a una sola aura con nombre.
+
+<Checklist
+  id="weak-aura-polish"
+  title="Lista final de pulido:"
+  items={[
+    "Pon las barras principales en un solo grupo",
+    "Mantén los iconos de reutilización en un tamaño consistente",
+    "Usa texto centrado para las barras y los recuentos de acumulaciones",
+    "Desatura los iconos de buff faltante para un reconocimiento rápido",
+    "Prueba cada aura en un muñeco de entrenamiento o en un combate de bajo riesgo"
+  ]}
+/>
+
+Un hábito más ayuda mucho: construye un perfil de clase a la vez. Si terminas una buena barra de salud, duplícala antes de empezar a experimentar. Eso te da una copia de seguridad y evita que toda la interfaz se desvíe de estilo.
+
+</Section>
+
+<Section icon={Trophy} title="Solución de problemas y ajustes prácticos">
+
+La mayoría de los problemas de weak auras vienen de tres lugares: el tipo de desencadenante equivocado, el identificador de hechizo incorrecto o un anclaje deficiente. Si algo se ve raro, corrige primero el desencadenante, luego revisa la configuración de visualización y solo después pasa al escalado o al color.
+
+<Callout type="info" title="Orden rápido de depuración">
+Revisa el desencadenante, confirma el ID, comprueba las condiciones de carga y luego verifica el punto de anclaje. Esa secuencia resuelve la mayoría de los problemas de diseño y visibilidad más rápido que tocar opciones al azar.
+</Callout>
+
+| Problema | Causa probable | Solución rápida |
+|---|---|---|
+| El icono nunca aparece | Tipo de aura incorrecto o falta una condición de carga | Vuelve a comprobar el hechizo, la aura o el desencadenante de poder |
+| El buff aparece en la unidad equivocada | Las opciones de jugador y objetivo están mezcladas | Cambia la unidad correctamente a jugador u objetivo |
+| El texto queda descentrado | El anclaje sigue en automático | Ajusta los anclajes al centro y céntralo |
+| La reutilización parece invertida | La opción inversa es incorrecta | Cambia la dirección de llenado de la reutilización |
+| El grupo se movió, pero una aura se quedó atrás | El elemento no se colocó dentro del grupo | Vuelve a asignar la aura huérfana al grupo |
+
+Ten cuidado cuando copies una aura para crear otra. Duplicar ahorra tiempo, pero también conserva ajustes antiguos que quizá ya no encajen con el nuevo propósito. El error más común es dejar un desencadenante de salud en una barra de recurso o un desencadenante de debuff en un recordatorio de buff. Una revisión rápida después de cada duplicado mantiene la configuración limpia.
+
+El flujo de trabajo más estable es simple: construir, probar, duplicar y luego ajustar. Si un perfil sobrevive a unas cuantas incursiones de combate sin confusión, probablemente esté lo bastante organizado como para seguir usándolo.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor punto de partida para weak auras de Conquest of Azeroth?",
+    answer: "Empieza con una barra de salud, una barra de recursos y un icono de reutilización importante. Eso te da información de combate útil antes de añadir seguimiento más avanzado."
+  },
+  {
+    question: "¿Debo usar IDs de hechizo o nombres de hechizo?",
+    answer: "Usa IDs de hechizo para tiempos de reutilización y debuffs cuando quieras la máxima precisión. Usa el nombre del buff cuando un buff pueda cambiar de rango o versión."
+  },
+  {
+    question: "¿Por qué mis barras se ven desalineadas después de duplicarlas?",
+    answer: "La copia normalmente heredó un anclaje o una posición diferente. Vuelve a centrar la visualización y mueve la aura de nuevo al mismo grupo."
+  },
+  {
+    question: "¿Cuántos iconos debería poner en pantalla a la vez?",
+    answer: "Muestra solo lo que puedas leer rápido en combate. Un reutilización principal, un seguimiento de acumulaciones y algunos recordatorios pequeños suelen ser suficientes para una configuración limpia."
+  }
+]} />
+
+</Section>

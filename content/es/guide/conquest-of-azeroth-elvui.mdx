@@ -1,0 +1,197 @@
+import { Map, SlidersHorizontal, Target, Wrench, Shield, CircleHelp, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth ElvUI: Guía de configuración para una UI limpia",
+  description: "Aprende a ajustar conquest of azeroth elvui para una visibilidad de combate más clara, importaciones más seguras y un diseño más limpio en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Conquest+of+Azeroth+ElvUI+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de conquest of azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **conquest of azeroth elvui** funciona mejor cuando las barras, auras y placas de nombre se simplifican antes de empezar el combate.
+- La **densidad de clases** es el principal problema; un conjunto de herramientas recargado necesita un diseño más limpio que la UI predeterminada.
+- La **mejor configuración** mantiene los recursos cerca del centro y empuja los paneles de utilidad hacia los bordes.
+- Las **importaciones seguras** siempre comienzan con un perfil de respaldo y una comprobación de versión.
+</Callout>
+
+<Section icon={Map} title="Por qué Conquest of Azeroth ElvUI necesita un HUD más ligero">
+
+Las configuraciones de Conquest of Azeroth ElvUI deberían priorizar la legibilidad por encima de la decoración. Con tantas herramientas de clase, hechizos y botones situacionales, una interfaz recargada ralentiza la reacción y oculta la información que más importa. Los perfiles más limpios tratan el centro de la pantalla como espacio de combate y reservan los bordes para los datos de apoyo.
+
+**Aspectos destacados del video:**
+- El plantel de clases es lo bastante amplio como para que un solo diseño rara vez funcione para todas las configuraciones.
+- Un HUD flexible importa más que un marco estético.
+- Los espacios limpios ayudan al aprender nuevos conjuntos de habilidades de clase.
+- Quieres que los tiempos de reutilización sean visibles sin bloquear el movimiento enemigo.
+
+<YouTubeEmbed videoId="Y-jLigrMO6A" title="Conquest of Azeroth: 21 nuevas clases en WoW" />
+
+| Objetivo | Ajuste de ElvUI | Resultado |
+|---|---|---|
+| Reducir el desorden | Ocultar barras no usadas | Foco de objetivo más rápido |
+| Seguir el combate con claridad | Tiempos de reutilización centrados | Reacción más fácil y precisa |
+| Mantener la utilidad legible | Paneles laterales pequeños | Menos ruido en pantalla |
+| Admitir cambios de clase | Perfiles separados | Reconstrucción más rápida |
+
+<Callout type="tip" title="Empieza con un perfil nuevo">
+Si ya usas ElvUI, exporta primero tu perfil actual. Una importación limpia hace que los ajustes posteriores sean mucho más rápidos y seguros.
+</Callout>
+
+</Section>
+
+<Section icon={SlidersHorizontal} title="Mejores opciones de diseño para misiones, mazmorras y juego en grupo">
+
+Un buen diseño de Conquest of Azeroth ElvUI debería cambiar con tu actividad, no ir en tu contra. Las misiones en solitario necesitan visibilidad y espacio para moverse. El juego en mazmorras necesita seguimiento de interrupciones y señales de jefes. El contenido en grupo recompensa un conjunto de marcos compacto con suficiente espacio para el texto de combate y los debuffs.
+
+<CardGrid cols={3}>
+  <Card title="Diseño para misiones">
+    - **Amplia vista del mundo**
+    - Barras de acción sencillas
+    - Seguimiento fácil de recursos
+  </Card>
+  <Card title="Diseño para mazmorras">
+    - **Visibilidad de interrupciones**
+    - Marcos de objetivo sólidos
+    - Posicionamiento centrado en debuffs
+  </Card>
+  <Card title="Diseño para grupo">
+    - **Marcos compactos**
+    - Tiempos de reutilización prioritarios
+    - Superposición mínima en pantalla
+  </Card>
+</CardGrid>
+
+| Elemento de la UI | Posición recomendada | Por qué funciona |
+|---|---|---|
+| Marco del jugador | Centro inferior | Fácil comprobación de salud y recursos |
+| Marco del objetivo | Encima o cerca del centro | Cambio de objetivo más rápido |
+| Buffs y debuffs | Bordes superiores | Lectura clara del estado |
+| Barras de acción | Borde inferior | Alcance natural y menos desorden |
+| Minimapa | Esquina superior | Mantiene la navegación fuera del espacio de combate |
+
+<Callout type="info" title="Regla de diseño">
+No coloques todos los elementos importantes en la misma zona. Distribuir la atención entre tres zonas suele ser más fácil de procesar que amontonar todo junto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ajustes específicos por clase que mantienen el combate legible">
+
+Los perfiles más fuertes de Conquest of Azeroth ElvUI no son los más recargados. Son los que coinciden con tu estilo de juego. Las configuraciones cuerpo a cuerpo suelen necesitar más claridad en el centro de la pantalla. Las configuraciones a distancia suelen beneficiarse de una visibilidad más precisa de los lanzamientos. Las configuraciones con muchas mascotas o de apoyo necesitan más espacio para rastreadores y alertas de procs.
+
+| Estilo de juego | Principal exigencia de la UI | Mejor ajuste | Función de ElvUI |
+|---|---|---|---|
+| Cuerpo a cuerpo | Cambios rápidos de objetivo | Ancla fuerte para el marco del objetivo | Barra de lanzamiento, placas de nombre |
+| A distancia | Comprobaciones de posición | Carril central más limpio | Barras de lanzamiento, texto de recursos |
+| Híbrido | Prioridades mixtas | Agrupación flexible de barras | Paginación de barras de acción |
+| Apoyo | Seguimiento de buffs | Filtrado de auras | Filtros de buffs/debuffs |
+
+| Prioridad | Qué mostrar | Qué ocultar |
+|---|---|---|
+| Alta | Interrupciones, tiempos de reutilización, recursos | Bordes decorativos |
+| Media | Buffs largos, procs, barras de utilidad | Macros poco usadas |
+| Baja | Ruido extra del chat, rastreadores duplicados | Elementos de marco repetidos |
+
+<Callout type="warning" title="Evita el sobreajuste">
+Si cada clase obtiene su propio diseño totalmente distinto, pasarás más tiempo gestionando perfiles que jugando. Mantén una base compartida y ajusta solo lo esencial.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Importación paso a paso y ajuste inicial">
+
+Antes de importar o editar cualquier cosa, confirma tu versión de ElvUI con la página oficial del proyecto. Una comprobación rápida en la [página oficial de descarga de ElvUI](https://www.tukui.org/download.php?ui=elvui) es la forma más sencilla de evitar problemas de incompatibilidad de versión el 2026-07-06.
+
+<Steps>
+  <Step num="1" title="Haz una copia de seguridad de tu perfil actual">
+    Exporta tus ajustes existentes y guarda la cadena en un lugar seguro. Esto te da un punto de recuperación si el nuevo diseño no te convence.
+  </Step>
+  <Step num="2" title="Importa el perfil base">
+    Pega el perfil en ElvUI y luego cárgalo una vez sin cambiar nada más. La primera pasada debe centrarse en la estabilidad, no en la perfección.
+  </Step>
+  <Step num="3" title="Configura los marcos principales de combate">
+    Mueve primero los elementos del jugador, objetivo, barra de lanzamiento y tiempos de reutilización. Estos marcos definen qué tan rápido lees el combate.
+  </Step>
+  <Step num="4" title="Prueba en contenido real">
+    Haz una breve cadena de misiones o una incursión en mazmorra, y luego refina el espaciado, el tamaño de las barras y los filtros de auras después de ver el movimiento real.
+  </Step>
+</Steps>
+
+| Paso | Acción | Comprobación |
+|---|---|---|
+| 1 | Copia de seguridad del perfil | Cadena de recuperación guardada |
+| 2 | Importar diseño base | El perfil carga sin problemas |
+| 3 | Ajustar marcos principales | El centro sigue siendo legible |
+| 4 | Probar y refinar | Sin superposición en combate |
+
+<Callout type="success" title="Mejor práctica">
+Haz un cambio a la vez. Los pequeños ajustes son más fáciles de probar, más fáciles de deshacer y suelen producir el diseño final más limpio.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solución de problemas, hábitos de respaldo y lista final de comprobación">
+
+Si tu configuración de Conquest of Azeroth ElvUI se siente desordenada, la solución suele ser estructural, no estética. Empieza por eliminar marcos duplicados, reducir el número de barras visibles y comprobar si un mod de jefes o un complemento de combate está apilando información en el mismo espacio.
+
+| Problema | Causa probable | Solución rápida |
+|---|---|---|
+| Los marcos se superponen | Demasiados elementos centrados | Mueve los marcos de utilidad hacia afuera |
+| El combate se siente abarrotado | Barras demasiado grandes | Reduce la altura y el espaciado de las barras |
+| Desaparecen buffs importantes | Filtros de WeakAura | Aumenta las reglas de prioridad de auras |
+| Las placas de nombre son ruidosas | Demasiados indicadores | Recorta los marcadores no esenciales |
+| La UI se siente inconsistente | Perfiles mezclados | Reconstrúyela desde una sola base |
+
+<Checklist
+  id="conquest-of-azeroth-elvui-checklist"
+  title="Comprobación final de calidad:"
+  items={[
+    "Los marcos del jugador y del objetivo se leen de un vistazo",
+    "Los tiempos de reutilización son visibles sin bloquear la acción",
+    "Las barras no usadas y los rastreadores duplicados están ocultos",
+    "Los filtros de buffs y debuffs muestran solo datos de alto valor",
+    "Existe una exportación de respaldo antes de seguir editando"
+  ]}
+/>
+
+<Callout type="tip" title="Regla de mantenimiento">
+Vuelve a revisar el perfil tras unas cuantas sesiones. Tus mejores ajustes son los que siguen viéndose claros después del combate real, no solo en el editor.
+</Callout>
+
+</Section>
+
+<Section icon={CircleHelp} title="Preguntas frecuentes">
+
+<Callout type="info" title="Preguntas comunes">
+Usa estas respuestas para mantener tu configuración de Conquest of Azeroth ElvUI simple, estable y fácil de mantener.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Conquest of Azeroth ElvUI es diferente de una configuración normal de ElvUI?",
+    answer: "Sí. El objetivo es el mismo, pero el diseño debe soportar más variedad de clases, más seguimiento de habilidades y una lectura de combate más limpia."
+  },
+  {
+    question: "¿Cuál es el mejor primer cambio que debo hacer?",
+    answer: "Empieza con los marcos del jugador y del objetivo, y luego ajusta las barras de acción y la visibilidad de los tiempos de reutilización. Esos cambios tienen el mayor impacto en la claridad."
+  },
+  {
+    question: "¿Debería tener un perfil para cada clase?",
+    answer: "Mantén una base compartida y solo separa perfiles cuando una clase realmente lo necesite. Eso mantiene el mantenimiento simple y coherente."
+  },
+  {
+    question: "¿Cómo sé si mi configuración está demasiado cargada?",
+    answer: "Si no puedes leer salud, recursos, tiempos de reutilización y debuffs sin recorrer toda la pantalla, el diseño está demasiado abarrotado."
+  }
+]} />
+
+</Section>
