@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Conquest of Azeroth Forum: Community-Feedback & Server-Leitfaden",
+  description: "Erkunden Sie Community-Diskussionen aus dem Conquest of Azeroth Forum. Entdecken Sie Klassen-Design-Reviews, Server-Features und Gameplay-Tipps für Project Ascension.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Conquest+of+Azeroth+Forum+Guide",
+  date: "2026-07-07",
+  author: "Conquest of Azeroth Wiki-Team",
+  keywords: "Conquest of Azeroth, Forum, Project Ascension, Custom Klassen, WoW Privatserver, Leitfaden"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptthema**: Community-Feedback, Server-Integration und Klassenmechaniken, die im **Conquest of Azeroth Forum** diskutiert werden.
+- **Kernmerkmal**: Eine massive Classic+-Überarbeitung mit 21 komplett neuen Klassen und 69 einzigartigen Talentspezialisierungen.
+- **Server-Ökosystem**: Läuft direkt über den Project Ascension Launcher und nutzt denselben Account, Client und dieselben Patch-Dateien.
+- **PvE-Optionen**: Skalierte Dungeon-Schwierigkeitsgrade von Normal bis Mythisch+, zusammen mit flexiblen Raid-Optionen.
+- **PvP-Modi**: Bietet PvE-, PvP- und High-Risk-PvP-Phasen auf einem einzigen vereinigten Realm.
+</Callout>
+
+<Section icon={Map} title="Conquest of Azeroth Forum: Community-Stimmung & Projektumfang">
+
+Das **Conquest of Azeroth Forum** und zugehörige Community-Hubs dienen als zentrale Treffpunkte für Spieler, die den ambitionierten Custom-WoW-Server von Project Ascension erkunden. Im Gegensatz zu Standard-Custom-Realms, die bestehende Talentbäume anpassen, führt Conquest of Azeroth (CoA) eine komplette Neugestaltung der Vanilla-Welt ein.
+
+Forum-Diskussionen verdeutlichen das gewaltige Ausmaß des Projekts, das die ursprünglichen 9 Klassen durch 21 maßgeschneiderte Klassen und 69 Spezialisierungen ersetzt, die tief in der Warcraft-Lore verwurzelt sind. Während frühes Alpha- und Beta-Feedback die Klassenfantasie lobte, konzentrieren sich Community-Threads auf Balancing, das Spieltempo und die Integration in das bestehende Ökosystem von Project Ascension.
+
+| Community-Diskussionsthema | Zusammenfassung des Forum-Feedbacks | Wichtigste Erkenntnis für Spieler |
+| :--- | :--- | :--- |
+| **Klassenvielfalt** | Außergewöhnliche Klassenfantasie mit 21 frischen Spielstilen | Hält das Spielgefühl brandneu |
+| **Tempo & Wartung** | Einige Specs hängen von Wartungs-Buffs oder Cooldowns ab | Aktive Rotationen erfordern hohe Konzentration |
+| **Manasturm-Modus** | Schnelllebig, birgt aber das Risiko, das Leveln in der Welt zu verdrängen | Am besten für schnelles Ausrüsten geeignet |
+| **Ökosystem-Integration** | Nahtloser Wechsel über den Standard-Ascension-Launcher | Problemloses Wechseln zwischen den Realms |
+
+<Callout type="tip" title="Ökosystem-Tipp">
+Sie benötigen keinen separaten Client oder spezielle Realmlisten zum Spielen. Öffnen Sie einfach den Project Ascension Launcher, wählen Sie den Conquest of Azeroth Realm aus und klicken Sie auf Spielen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Die 21 benutzerdefinierten Klassen aus den Forendiskussionen">
+
+Ein zentraler Fokus im **Conquest of Azeroth Forum** ist die Performance dieser neuen Klassen in PvE und PvP. Jede Klasse bietet maßgeschneiderte Zaubereffekte, individuelle Icons und einzigartige Mechaniken.
+
+### Beliebte Klassen & Mechaniken
+
+*   **Nekromant**: Ein Stoff tragender DPS, der **Lebenskraft** nutzt, um Horden untoter Diener zu beschwören, Seuchen zu verbreiten oder sich in einen mächtigen Lich zu verwandeln.
+*   **Kultist**: Eine vielseitige Klasse (Tank/DPS/Heiler), die **Wahnsinn** erzeugt. Spieler müssen ihren Wahnsinnsbalken sorgfältig ausbalancieren; ein Erreichen des Limits führt zum sofortigen Tod.
+*   **Tüftler**: Nutzt Beweglichkeit oder Intelligenz für explosive Demolierungs-Rotationen, stellt mechanische Geschütztürme auf oder steuert einen Schredder-Mech-Anzug.
+*   **Chronomant**: Ein zeitlicher Trickser, der die Zeit manipuliert, um Verbündete zu heilen, zeitfeste Klone zu erschaffen oder duale Ordnungs- und Chaosmagie zu entfesseln.
+*   **Hexenjäger**: Ein agiler Monsterjäger, der Doppelarmbrüste, Musketen oder feurige Klingen einsetzt, um Ziele zu läutern.
+
+<CardGrid cols={3}>
+  <Card title="Nekromant">
+    - **Rüstung**: Stoff
+    - **Ressource**: Lebenskraft
+    - **Spielstil**: Dienerbeschwörung, Frostkontrolle und Schaden über Zeit.
+  </Card>
+  <Card title="Kultist">
+    - **Rüstung**: Stoff/Platte
+    - **Ressource**: Wahnsinn
+    - **Spielstil**: Risikoreiche Schadensskalierung mit leerenbasierten Mechaniken.
+  </Card>
+  <Card title="Chronomant">
+    - **Rüstung**: Stoff
+    - **Ressource**: Mana/Zeitverändernd
+    - **Spielstil**: Rückspulen von Schaden, Zauberstab-Auto-Angriffe und temporale Heilung.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Mechanik-Warnung">
+Das Spielen eines Kultisten erfordert ständige Aufmerksamkeit für Ihre Wahnsinns-Ressource. Wenn Sie völlig wahnsinnig werden, bricht Ihr Verstand sofort zusammen und Ihr Charakter stirbt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Server-Features & Hybrid-Risiko-System">
+
+Forennutzer diskutieren häufig den Ansatz des Servers zur Spielertrennung, der durch das **Hybrid-Risiko-System** gelöst wird. Dieses System ermöglicht es Spielern mit völlig unterschiedlichen Spielstilen, dieselbe Weltphase zu besetzen, ohne die Community zu spalten.
+
+| Phasen-Modus | PvP-Status | Einzigartige Belohnungen & Regeln |
+| :--- | :--- | :--- |
+| **PvE-Modus** | Völlig unangreifbar | Standard-Questen, Dungeons und Raids |
+| **PvP-Modus** | Open-World-PvP aktiviert | Standard-Serverregeln, geteilte PvE-Phase |
+| **High-Risk-PvP** | Voller Beuteverlust bei Tod | Lässt zufällige ausgerüstete/Inventar-Gegenstände für den Sieger fallen |
+
+### Ausrüstung im High-Risk-Modus
+Während man sich im High-Risk-PvP befindet, erhält man den **Schatzjäger**-Buff. Dies ermöglicht es Monstern in der offenen Welt, **Blutgeschmiedete** Versionen von Dungeon- und Raid-Ausrüstung fallen zu lassen. Diese Ausrüstung ist nicht seelengebunden, was bedeutet, dass Spieler hochwertige Ausrüstung frei im Auktionshaus verkaufen, tauschen oder kaufen können.
+
+<Callout type="info" title="High-Risk-Tipp">
+Wenn Sie den Fortschritt in der offenen Welt bevorzugen, ohne strukturierte Instanzen zu laufen, können Sie durch das Leveln im High-Risk-PvP seltene Dungeon-Gegenstände direkt von Weltmonstern erhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PvE-Fortschritt: Dungeons, Raids und Skalierung">
+
+Der Endgame-Loop von Conquest of Azeroth bietet hochgradig skalierbare PvE-Inhalte, die darauf ausgelegt sind, alle 21 Klassen herauszufordern.
+
+<Steps>
+  <Step num="1" title="Normale Dungeons">
+    Bestreiten Sie klassische Vanilla-Dungeons, um Ihre Klassenmechaniken zu erlernen, grundlegende Ausrüstungssets aufzubauen und Ihre Spezialisierung zu meistern.
+  </Step>
+  <Step num="2" title="Heroische & Mythische Dungeons">
+    Treten Sie in heroische und mythische Schwierigkeitsgrade ein, die modernisierte Bossmechaniken, benutzerdefinierte Gefahren und verbesserte Itemisierung bieten.
+  </Step>
+  <Step num="3" title="Mythisch+ Fortschritt">
+    Bilden Sie ein engagiertes 5-Mann-Team, um unendlich skalierende Mythisch+-Schlüsselsteine voranzutreiben und den Endgame-Fortschritt freizuschalten.
+  </Step>
+  <Step num="4" title="Flexibles Raiden">
+    Nehmen Sie an Flex-Raids (Normal, Heroisch, Mythisch und Aufgestiegen) teil, die dynamisch für Gruppen von 10 bis 25 Spielern skalieren.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Neu gestaltete Beute">
+Vanilla-Gegenstände wurden einer kompletten Itemisierungs-Überarbeitung unterzogen. Schwache oder nutzlose Basisgegenstände wurden neu gestaltet, um Synergien mit den neuen Klassenspezialisierungen zu schaffen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Community-Ziele & Checkliste">
+
+Um das Beste aus der aktuellen Phase von Conquest of Azeroth herauszuholen, empfehlen Spieler in den Foren, sich auf diese Kernmeilensteine zu konzentrieren:
+
+<Checklist
+  id="coa-milestones"
+  title="Wichtige Fortschrittsziele:"
+  items={[
+    "Laden Sie den Project Ascension Launcher herunter und patchen Sie den Client",
+    "Wählen Sie eine Startklasse und Ihre primäre Spezialisierung aus",
+    "Wählen Sie Ihre bevorzugte Hybrid-Risiko-Phase (PvE, PvP oder High-Risk)",
+    "Bestreiten Sie skalierende Dungeons, um neu gestaltete Vanilla-Ausrüstung zu erhalten",
+    "Treten Sie dem offiziellen Discord bei, um Builds zu diskutieren und Fehler zu melden"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie greife ich auf das Conquest of Azeroth Forum zu?",
+    answer: "Die primären Diskussionen finden in den offiziellen Project Ascension Foren, auf ihrem dedizierten Discord-Server und in der aktiven r/wowservers-Community auf Reddit statt."
+  },
+  {
+    question: "Ist Conquest of Azeroth ein separater Spielclient?",
+    answer: "Nein. Es läuft über den Standard-Project Ascension Client. Sie wechseln einfach die Realms im Launcher, um zu spielen."
+  },
+  {
+    question: "Kann ich die Ausrüstung tauschen, die ich im High-Risk-PvP finde?",
+    answer: "Ja. Blutgeschmiedete Gegenstände, die von Monstern im High-Risk-Modus fallen gelassen werden, sind nicht seelengebunden, sodass Sie sie tauschen oder im Auktionshaus verkaufen können."
+  },
+  {
+    question: "Was ist der Manasturm-Modus?",
+    answer: "Der Manasturm ist ein schnelllebiger Herausforderungsmodus mit über 4.000 Ebenen, in dem Sie sich direkt zu Bossen teleportieren, um diese für schnelle Belohnungen zu besiegen."
+  }
+]} />
+
+</Section>

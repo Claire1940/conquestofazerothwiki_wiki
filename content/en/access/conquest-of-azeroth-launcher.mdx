@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Download, Settings, RefreshCw, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Launcher: Setup Guide & Realm Access",
+  description: "Master the conquest of azeroth launcher with our setup guide. Learn how to access 21 new classes, manage realms, and optimize your Ascension WoW client.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Launcher+Setup+Guide",
+  date: "2026-07-07",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Unified Client**: The **conquest of azeroth launcher** is integrated into the main Ascension WoW client, requiring no separate downloads for different realms.
+- **Realm Selection**: Seamlessly swap between Classless, Seasonal, and Conquest of Azeroth (CoA) realms within a single interface.
+- **Dynamic Content**: Access 21 custom classes and 70+ specializations forged directly from Warcraft lore through the updated patcher.
+- **System Integrity**: Use the built-in repair and update tools to ensure your game files are compatible with the latest Alpha and Beta features.
+</Callout>
+
+<Section icon={Download} title="Accessing the Conquest of Azeroth Launcher">
+
+The **conquest of azeroth launcher** represents a significant milestone in custom WoW development, offering a unified portal for players to experience a completely reimagined Vanilla world. Unlike traditional private servers that require manual realmlist edits and multiple client folders, the Ascension ecosystem utilizes a single, high-performance launcher that handles all patching, account management, and realm switching automatically.
+
+**Video Highlights:**
+- **21 New Classes**: A deep dive into the custom-built classes like Necromancer, Tinker, and Chronomancer.
+- **Unified Ecosystem**: How the launcher connects Classless, Seasonal, and CoA realms.
+- **RPG Overhaul**: Overview of the creature stat redesign and immersive item drops.
+- **World Content**: Preview of expanded dungeons, new world bosses, and custom locations.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Full Release: Conquest of Azeroth - Ascension WoW" />
+
+The launcher serves as the heartbeat of the project, ensuring that every player is running the same custom assets, which include hundreds of new spells, custom visuals, and unique icons. Because Conquest of Azeroth is built on a highly modified 3.3.5 engine, the launcher's role in delivering precise patches is critical for maintaining stability across the 70+ specializations available.
+
+| Feature | Description | Benefit |
+| :--- | :--- | :--- |
+| **One Client** | Single installation for all realms | Saves disk space and simplifies updates |
+| **Auto-Patching** | Instant delivery of custom assets | Ensures compatibility with new class visuals |
+| **Realm Swapping** | In-launcher toggle for CoA/Classless | Zero downtime when switching playstyles |
+| **News Feed** | Integrated Alpha/Beta updates | Stay informed on class balance changes |
+
+<Callout type="tip" title="Pro Tip">
+If you are transitioning from another WoW expansion, ensure your base client is fully removed before installing the Ascension launcher to prevent file conflicts with custom CoA assets.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Step-by-Step Installation & Configuration">
+
+Setting up the **conquest of azeroth launcher** is designed to be a "one-click" experience, but understanding the underlying configuration can help prevent common errors during the Alpha phase. The launcher manages not just the executable files, but also the critical `Data` folder where custom CoA models and textures reside.
+
+<Steps>
+  <Step num="1" title="Download the Ascension Client">
+    Visit the official Ascension website and download the unified installer. This executable serves as the foundation for the **conquest of azeroth launcher** interface.
+  </Step>
+  <Step num="2" title="Account Authentication">
+    Log in with your Ascension credentials. If you are participating in the Alpha, ensure your account has the necessary "Area 52" or "Elune" bundles activated via the store.
+  </Step>
+  <Step num="3" title="Select the CoA Realm">
+    In the realm selection dropdown, choose "Conquest of Azeroth." The launcher will automatically begin downloading the specific patches required for the 21 new classes.
+  </Step>
+  <Step num="4" title="Configure Game Settings">
+    Access the settings gear to allocate RAM and set your installation directory. We recommend at least 4GB of allocated memory for the smoothest experience with custom visuals.
+  </Step>
+</Steps>
+
+| Configuration | Recommended Setting | Reason |
+| :--- | :--- | :--- |
+| **RAM Allocation** | 4GB - 8GB | Prevents crashes during 40-man raids |
+| **Download Speed** | Unlimited | Faster patching for large custom asset updates |
+| **Repair Tool** | Use after every major Alpha patch | Fixes corrupted cache files |
+| **Hardware Accel** | Enabled | Improves launcher UI responsiveness |
+
+<Callout type="warning" title="Important">
+Conquest of Azeroth is currently in an active development phase. Always check the launcher's progress bar; interrupting a patch can lead to "Missing Model" (green cube) errors in-game.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Game Modes and Realm Selection">
+
+The **conquest of azeroth launcher** provides access to a unique "Hybrid Risk" system. This allows players of all preferences—PvE, PvP, and High Risk—to inhabit the same world without splitting the population. This integration is handled server-side but is clearly communicated through the launcher's realm status and news updates.
+
+<CardGrid cols={3}>
+  <Card title="PvE Mode">
+    - **Total Safety**: Cannot be attacked by players in the open world.
+    - **Full Content**: Access to all 21 classes and dungeons.
+    - **Community**: Group with PvP players for raids and quests.
+  </Card>
+  <Card title="PvP Mode">
+    - **Classic Combat**: Standard faction-based combat in contested zones.
+    - **War Mode**: Increased experience gains for taking the risk.
+    - **Fair Play**: No item loss upon death in this mode.
+  </Card>
+  <Card title="High Risk">
+    - **Loot Drop**: Slay players to steal their gear and gold.
+    - **Bloodforged Gear**: Find exclusive powerful items in the open world.
+    - **Adrenaline**: The ultimate challenge for seasoned CoA veterans.
+  </Card>
+</CardGrid>
+
+The beauty of the unified launcher is that it treats these modes as toggles within the game world rather than separate servers. This ensures the highest possible population density for activities like world bosses and the Manastorm.
+
+| Mode | EXP Bonus | Death Penalty | Best For |
+| :--- | :--- | :--- | :--- |
+| **PvE** | 1.0x | Standard durability loss | New players/Casual leveling |
+| **PvP** | 1.2x | Standard durability loss | Competitive leveling |
+| **High Risk** | 1.5x | Potential item/gold drop | Hardcore players/Farming |
+
+<Callout type="success" title="Developer Note">
+The Hybrid Risk system ensures that even if you prefer PvE, the world feels alive because you see PvP and High Risk players engaging in their own battles around you.
+</Callout>
+
+</Section>
+
+<Section icon={RefreshCw} title="Technical Troubleshooting & Optimization">
+
+Even with a robust **conquest of azeroth launcher**, technical hiccups can occur, especially when dealing with custom 3D assets and complex class mechanics. Most issues stem from outdated cache files or interrupted downloads.
+
+<Checklist
+  id="launcher-maintenance"
+  title="Pre-Flight Optimization Checklist:"
+  items={[
+    "Clear the 'WDB' folder in your cache directory regularly",
+    "Verify that your antivirus isn't blocking 'Ascension.exe'",
+    "Ensure 'Read-Only' is unchecked on your WoW folder properties",
+    "Update your GPU drivers to handle new custom particle effects",
+    "Run the launcher as Administrator for full patching permissions"
+  ]}
+/>
+
+| Common Issue | Likely Cause | Solution |
+| :--- | :--- | :--- |
+| **Login Loop** | Incorrect realmlist or cached info | Use the 'Reset Settings' option in launcher |
+| **Missing Textures** | Interrupted download of CoA patches | Run the 'Repair' tool from the settings menu |
+| **Low FPS** | Excessive custom spell effects | Lower 'Particle Density' in video settings |
+| **Patch Error** | Lack of disk space or permissions | Run as Admin and check HDD space |
+
+<Callout type="info" title="Expert Advice">
+If the launcher fails to update, try switching your download region in the settings. Sometimes local CDN nodes can lag behind the main server during major content drops.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Class Ecosystem and Lore Integration">
+
+The reason the **conquest of azeroth launcher** is so vital is the sheer volume of custom content it delivers. With 21 classes that don't exist in standard WoW, the launcher must manage thousands of unique icons, sounds, and spell effects.
+
+| Class Category | Examples | Primary Mechanics |
+| :--- | :--- | :--- |
+| **Dark Arts** | Necromancer, Reaper, Cultist | Minion swarms, Soul harvesting, Insanity |
+| **Tech/Engineering** | Tinker, Runemaster | Turrets, Mechs, Runic attunement |
+| **Nature/Primal** | Primalist, Venomancer | Earthbending, Poisonous shapeshifting |
+| **Martial/Holy** | Templar, Sun Cleric, Guardian | Combo breakers, Solar power, Vanguards |
+
+Each class is hand-designed with custom talents and specializations. For instance, the **Tinker** can specialize in **Demolition** for explosive ranged damage or **Mechanics** to pilot a Shredder mechsuit. The **Starcaller** uses lunar magic to serve as a tank, healer, or DPS, depending on their specialization.
+
+<Callout type="tip" title="Strategy Tip">
+Before launching the game, check the 'Class Guide' section often linked in the launcher's sidebar. Each of the 70+ specializations has unique stat priorities (e.g., Strength vs. Intellect for Sun Clerics).
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do I need a separate client for the conquest of azeroth launcher?",
+    answer: "No. Conquest of Azeroth is integrated into the standard Ascension WoW launcher. You simply select the CoA realm from the dropdown menu, and the launcher handles the rest."
+  },
+  {
+    question: "Can I play CoA for free?",
+    answer: "Conquest of Azeroth follows a free-to-play model. However, access during specific Alpha or Beta phases may require an entry bundle available on the Ascension store."
+  },
+  {
+    question: "How do I fix the 'Version Mismatch' error?",
+    answer: "This usually happens when the launcher hasn't finished downloading a minor patch. Close the game, restart the launcher, and wait for the progress bar to reach 100%."
+  },
+  {
+    question: "Can I use my Classless WoW characters on the CoA realm?",
+    answer: "No. Conquest of Azeroth is a completely different game mode with 21 unique classes. You must create a new character to experience the custom class system."
+  }
+]} />
+
+</Section>

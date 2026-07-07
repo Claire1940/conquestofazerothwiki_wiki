@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Base de datos de Conquest of Azeroth: Guía de build de sanador Cultista Hereje",
+  description: "Domina la build de sanador Cultista Hereje en Conquest of Azeroth. Descubre árboles de talentos, rotaciones de sanación pasiva y estadísticas de equipo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Heretic+Cultist+Database",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Base de datos de Conquest of Azeroth**: Utilizar los recursos de base de datos adecuados es esencial para realizar un seguimiento de los bufos activos, el escalado de talentos y las modificaciones más recientes de las clases de personajes.
+- **Sanación poco ortodoxa**: El Cultista Hereje funciona como un sanador pasivo híbrido que convierte el daño de las sombras infligido directamente en sanación para todo el grupo.
+- **Prioridad de estadísticas**: Prioriza el Intelecto y el Poder con hechizos como estadísticas principales, con el Golpe crítico como tu estadística secundaria verde principal para activar reducciones de tiempo de reutilización.
+- **Gestión pasiva**: Mantén el bufo de Templario caído de forma constante invocando tentáculos cada 10 o 12 segundos para obtener un aumento plano del 12% en todas las estadísticas principales.
+- **Optimización de la interfaz**: Utiliza marcos personalizados de lanzamiento con clics como Voodoo junto con WeakAuras dedicados para gestionar tu recurso de Demencia y los tiempos de reutilización de la rotación sin problemas.
+</Callout>
+
+<Section icon={Map} title="Introducción al arquetipo del Cultista Hereje">
+
+El Cultista Hereje es una de las especializaciones de sanación híbrida más exclusivas de la beta de Conquest of Azeroth. En lugar de depender de las tradicionales sanaciones activas a un solo objetivo que te obligan a mirar constantemente los marcos del grupo, esta clase prospera con la sanación pasiva. Al infligir un alto daño de las sombras a corta y media distancia, mantienes automáticamente la salud de tu grupo al máximo mientras aportas un daño decente para avanzar en las mazmorras. 
+
+Para maximizar esta build, los jugadores confían en gran medida en la **base de datos de conquest of azeroth** para realizar un seguimiento de las actualizaciones de talentos, los ajustes de clase y las configuraciones de equipo óptimas. Esta guía desglosa las mecánicas principales, los árboles de talentos y las estrategias de equipo para ayudarte a dominar esta poderosa clase de apoyo.
+
+**Puntos destacados del vídeo:**
+- Aprende cómo la mecánica única de Demencia del Cultista Hereje potencia tus escudos y sanaciones.
+- Comprende la rotación principal que mantiene vivos a los miembros del grupo de forma pasiva.
+- Descubre cómo gestionar tu maná de manera eficiente utilizando combinaciones de talentos específicas.
+
+<YouTubeEmbed videoId="_L-MgLAlUl8" title="My Main Class in Conquest of Azeroth! Heretic Cultist Healer Build Review" />
+
+<Callout type="tip" title="Concepto de la Build">
+Si disfrutas de los estilos de sanación híbridos en los que sanas infligiendo daño, el Cultista Hereje es la mejor opción. Minimiza la necesidad de seleccionar objetivos activamente, lo que te permite concentrarte en el posicionamiento y el control de masas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas pasivas principales y Demencia">
+
+Antes de sumergirte en los árboles de talentos, debes comprender las mecánicas subyacentes que hacen que esta clase funcione. El Cultista Hereje depende de una barra de recursos secundaria llamada Demencia [18], junto con pasivas específicas que escalan con tus atributos principales.
+
+| Pasiva principal | Efecto principal | Consejo de integración de base de datos |
+|---|---|---|
+| **Eldrich Smite** | Hoja del Imperio aplica Sangre negra a los aliados, sanándolos un 5% del daño infligido. Se acumula hasta 5 veces. | Con 5 acumulaciones, activa una sanación instantánea y restaura un 10% del maná faltante. |
+| **Herald of Yakiron** | Otorga beneficios de escalado basados en tu Intelecto total. | Prioriza siempre el Intelecto en las piezas de armadura de tela o de taumaturgo. |
+| **Mecánica de Demencia** | Genera Demencia al usar habilidades específicas. | Cada acumulación de Demencia aumenta directamente tu producción de sanación y escudos. |
+
+Puedes gastar tu Demencia acumulada en poderosas habilidades activas como **Herald of the Depths**, que aumenta significativamente tu daño y sanación, pero drena toda la Demencia al finalizar. Alternativamente, puedes canalizar **Satiate** para convertir tu Demencia directamente en maná durante los encuentros más largos.
+
+<Callout type="warning" title="Gestión del maná">
+Al principio de tu progresión, Malevolencia puede consumir una gran cantidad de maná. No la lances a ciegas. Usa Satiate entre los grupos de enemigos para mantener tus recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="La build de talentos inicial de cinco puntos">
+
+Al subir de nivel o comenzar en las mazmorras, tus primeros cinco puntos de talento son fundamentales. Asignar estos puntos correctamente desbloquea de inmediato tu motor de sanación pasiva principal, convirtiéndote en un sanador de grupo muy eficaz.
+
+<CardGrid cols={3}>
+  <Card title="1. Malevolence">
+    Transforma Golpe abisal en una habilidad cuerpo a cuerpo basada en las sombras que se puede lanzar en movimiento. Sana a los 5 aliados con menos salud en un radio de 40 metros un 70% del daño infligido.
+  </Card>
+  <Card title="2. Abyssal Covenant">
+    Funciona de manera similar a una Seña de la Luz. Se vincula a un solo aliado (normalmente el tanque) y convierte el 20% de todo el daño que infliges en sanación directa para ese objetivo.
+  </Card>
+  <Card title="3. Void Touched">
+    Potencia Porrazo entrópico para infligir un daño de las sombras adicional masivo que escala con el poder de sanación, aplicando un efecto de sanación en el tiempo a 5 aliados cercanos durante 10 segundos.
+  </Card>
+</CardGrid>
+
+El cuarto punto se destina a **Malevolent Power**, que genera acumulaciones para que tus sanaciones de lanzamiento prolongado (como Eldrich Mending o Whisper of Yagsaron) sean instantáneas y no consuman maná una vez que alcanzas las tres acumulaciones. El quinto punto desbloquea **Whisper of Yagsaron**, lo que te brinda una sanación de ráfaga grupal confiable cuando la necesitas.
+
+<Callout type="success" title="Sinergia inicial">
+Con solo estos primeros cinco puntos, tu rotación básica de Hoja del Imperio y Porrazo entrópico mantendrá de forma pasiva a todo tu grupo saludable en entornos de mazmorras estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progresión avanzada del árbol de talentos">
+
+A medida que avanzas más en los árboles de talentos de Hereje y Cultista, tu enfoque cambia hacia la invocación de tentáculos de los Dioses Antiguos para automatizar tu daño y sanación.
+
+| Nombre del talento | Ubicación en el árbol | Funcionalidad principal |
+|---|---|---|
+| **Eldrich Knight** | Hereje (Medio) | Elimina el coste de maná de Hoja del Imperio y añade una probabilidad de reembolsar cargas. |
+| **Inevitable Prophecy** | Hereje (Medio) | Hoja del Imperio reduce el tiempo de reutilización de Mirada de Kathun y Escudo de vacío en 4 segundos. |
+| **Kathun's Calling** | Hereje (Inferior) | Otorga a Mirada de Kathun un 10% de probabilidad de invocar un Tentáculo de los Dioses Antiguos. |
+| **Twisted Sanity** | Hereje (Inferior) | Los aliados con Sangre negra o Toque del vacío se sanan un 100% del daño infligido por tus tentáculos. |
+| **Fallen Templar** | Cultista (Derecha) | Otorga un aumento del 3% en todas las estadísticas principales durante 12 segundos cada vez que se invoca un tentáculo. Se acumula hasta 4 veces. |
+
+Para mantener estos talentos funcionando sin problemas, debes intentar reducir el tiempo de reutilización de Mirada de Kathun. Esto te permite lanzarla con frecuencia a los enemigos, lo que a su vez activa las invocaciones de tentáculos, potencia tus estadísticas principales y sana a tu grupo de forma pasiva.
+
+<Callout type="info" title="Bufo de estadísticas">
+El bufo de Templario caído se activa al invocar, no por el recuento de tentáculos activos. Simplemente invoca un nuevo tentáculo cada 10 segundos para mantener tus estadísticas principales aumentadas en un 12% plano en todo momento.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ejecución de la rotación paso a paso">
+
+Para jugar con el Cultista Hereje a un alto nivel, debes dominar la interacción entre tus tiempos de reutilización, tu barra de Demencia y tus invocaciones de tentáculos. Sigue este proceso paso a paso para optimizar tu rendimiento en mazmorras y contenido mítico.
+
+<Steps>
+  <Step num="1" title="Aplica Abyssal Covenant">
+    Antes de que comience el combate, coloca tu Abyssal Covenant en el tanque principal. Esto garantiza que reciba un flujo constante de sanación pasiva de todas tus acciones ofensivas.
+  </Step>
+  <Step num="2" title="Lanza Mirada de Kathun primero">
+    Pon siempre Mirada de Kathun en tiempo de reutilización inmediatamente al comienzo de una pelea. Esto maximiza el valor de tus mecánicas de reducción de tiempo de reutilización.
+  </Step>
+  <Step num="3" title="Acumula Sangre negra">
+    Lanza Hoja del Imperio y Porrazo entrópico para acumular cinco cargas de Sangre negra en tus aliados y aplicar el efecto de sanación en el tiempo de Toque del vacío.
+  </Step>
+  <Step num="4" title="Ejecuta el combo de reinicio de tiempo de reutilización">
+    Usa tus cargas de Hoja del Imperio para reducir rápidamente el tiempo de reutilización restante de Mirada de Kathun, lo que te permitirá lanzarla de nuevo e intentar invocar tentáculos.
+  </Step>
+  <Step num="5" title="Gestiona la Demencia con Satiate">
+    Cuando tu barra de Demencia esté llena, activa Herald of the Depths para una gran ventana de ráfaga. Justo antes de que termine, canaliza Satiate para restaurar tu maná y reembolsar tus cargas de Hoja del Imperio.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Equipamiento y optimización de la base de datos">
+
+El equipamiento adecuado es esencial para escalar tus capacidades de sanación pasiva. Debido a que tus sanaciones escalan directamente de tu daño de las sombras infligido, tu prioridad de estadísticas difiere ligeramente de las clases de sanación tradicionales.
+
+### Prioridades de estadísticas principales y secundarias
+1. **Intelecto**: Tu prioridad absoluta más alta. Aumenta tu poder con hechizos, tu reserva de maná y escala directamente tus pasivas principales a través de Herald of Yakiron.
+2. **Poder con hechizos / Poder de sanación**: Aumenta directamente tanto tu daño como el porcentaje de sanación convertido a partir de ese daño.
+3. **Golpe crítico**: Crucial para activar talentos como *Going Mad*, que reduce tus tiempos de reutilización cuando Hoja del Imperio o Porrazo entrópico asestan un golpe crítico.
+4. **Índice de golpe**: Asegúrate de tener suficiente índice de golpe para que tus hechizos ofensivos no fallen, ya que un ataque fallido resulta en cero sanación para ese tiempo de reutilización global.
+
+### Add-ons y WeakAuras recomendados de la base de datos
+Según la base de datos oficial de **conquest of azeroth**, los sanadores exitosos dependen en gran medida de interfaces de usuario personalizadas para realizar un seguimiento de los bufos complejos [7].
+
+<Checklist
+  id="cultist-ui-checklist"
+  title="Configuración esencial de la interfaz de usuario:"
+  items={[
+    "Instala un add-on de marco de lanzamiento con clics (como Voodoo o Grid2) para asignar Mirada de Kathun y Whisper of Yagsaron a los clics del ratón.",
+    "Importa el paquete de WeakAuras Cultist Heretic de Auff desde la base de datos para realizar un seguimiento de los bufos faltantes, Edictos y el estado de Abyssal Covenant.",
+    "Configura un WeakAura dedicado a la barra de recursos de Demencia para controlar tu recurso secundario durante los encuentros de combate intensos.",
+    "Crea macros para tu Tentáculo de los Dioses Antiguos para que se invoque automáticamente a tus pies, evitando la atracción accidental de enemigos adicionales."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo encuentro las últimas actualizaciones para esta build?",
+    answer: "Debes consultar regularmente la base de datos de conquest of azeroth y los foros de la comunidad, ya que los parches de equilibrio de clases y los cambios en los nodos de talento ocurren con frecuencia durante el ciclo de desarrollo."
+  },
+  {
+    question: "¿Necesito equipar un mazo de dos manos como Cultista Hereje?",
+    answer: "Aunque los mazos de dos manos eran anteriormente la única opción viable, las actualizaciones recientes han permitido a los Cultistas Herejes equipar bastones de nuevo, lo que te brinda más flexibilidad con las estadísticas de taumaturgo."
+  },
+  {
+    question: "¿Qué aura de Edicto debería usar para el contenido general de mazmorras?",
+    answer: "Se recomienda encarecidamente Edicto de orgullo para el contenido general de grupo porque proporciona a tu grupo escudos de absorción pasivos, lo que te permite mitigar el daño de forma preventiva."
+  },
+  {
+    question: "¿Puedo jugar esta build como un sanador de ráfaga a un solo objetivo?",
+    answer: "Sí. Aunque esta guía se centra en un estilo de juego pasivo de área y sanación en el tiempo, puedes reasignar puntos de talento a Eldrich Mending y talentos de escudo a un solo objetivo para hacer frente a encuentros de gran daño a un solo objetivo."
+  }
+]} />
+
+</Section>

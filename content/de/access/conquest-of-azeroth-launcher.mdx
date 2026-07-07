@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Download, Settings, RefreshCw, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Launcher: Installationsanleitung & Realm-Zugriff",
+  description: "Meistern Sie den Conquest of Azeroth Launcher mit unserer Installationsanleitung. Erfahren Sie, wie Sie auf 21 neue Klassen zugreifen, Realms verwalten und Ihren Ascension WoW-Client optimieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Launcher+Setup+Guide",
+  date: "2026-07-07",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Einheitlicher Client**: Der **Conquest of Azeroth Launcher** ist in den Haupt-Client von Ascension WoW integriert, sodass keine separaten Downloads für verschiedene Realms erforderlich sind.
+- **Realm-Auswahl**: Wechseln Sie nahtlos zwischen klassenlosen, saisonalen und Conquest of Azeroth (CoA) Realms innerhalb einer einzigen Benutzeroberfläche.
+- **Dynamische Inhalte**: Greifen Sie über den aktualisierten Patcher auf 21 maßgeschneiderte Klassen und über 70 Spezialisierungen zu, die direkt aus der Warcraft-Lore geschmiedet wurden.
+- **Systemintegrität**: Nutzen Sie die integrierten Reparatur- und Update-Tools, um sicherzustellen, dass Ihre Spieldateien mit den neuesten Alpha- und Beta-Features kompatibel sind.
+</Callout>
+
+<Section icon={Download} title="Zugriff auf den Conquest of Azeroth Launcher">
+
+Der **Conquest of Azeroth Launcher** stellt einen bedeutenden Meilenstein in der Entwicklung von Custom-WoW dar und bietet Spielern ein einheitliches Portal, um eine völlig neu gestaltete Vanilla-Welt zu erleben. Im Gegensatz zu traditionellen Privatservern, die manuelle Änderungen an der Realmlist und mehrere Client-Ordner erfordern, nutzt das Ascension-Ökosystem einen einzigen, leistungsstarken Launcher, der das Patchen, die Account-Verwaltung und den Realm-Wechsel automatisch abwickelt.
+
+**Video-Highlights:**
+- **21 Neue Klassen**: Ein tiefer Einblick in die maßgeschneiderten Klassen wie Totenbeschwörer, Tüftler und Chronomant.
+- **Einheitliches Ökosystem**: Wie der Launcher klassenlose, saisonale und CoA-Realms miteinander verbindet.
+- **RPG-Überarbeitung**: Übersicht über das neue Design der Kreaturenwerte und immersive Beute-Drops.
+- **Weltinhalte**: Vorschau auf erweiterte Dungeons, neue Weltbosse und maßgeschneiderte Orte.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Full Release: Conquest of Azeroth - Ascension WoW" />
+
+Der Launcher fungiert als Herzstück des Projekts und stellt sicher, dass jeder Spieler dieselben modifizierten Assets verwendet, zu denen Hunderte von neuen Zaubersprüchen, visuellen Effekten und einzigartigen Symbolen gehören. Da Conquest of Azeroth auf einer stark modifizierten 3.3.5-Engine basiert, ist die Rolle des Launchers bei der Bereitstellung präziser Patches entscheidend, um die Stabilität bei den über 70 verfügbaren Spezialisierungen zu gewährleisten.
+
+| Feature | Beschreibung | Vorteil |
+| :--- | :--- | :--- |
+| **Ein Client** | Einzelne Installation für alle Realms | Spart Festplattenspeicher und vereinfacht Updates |
+| **Auto-Patching** | Sofortige Bereitstellung neuer Assets | Sichert Kompatibilität mit neuen Klasseneffekten |
+| **Realm-Wechsel** | In-Launcher-Umschalter für CoA/Klassenlos | Keine Ausfallzeiten beim Wechsel des Spielstils |
+| **News-Feed** | Integrierte Alpha-/Beta-Updates | Bleiben Sie über Klassen-Balancing auf dem Laufenden |
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn Sie von einer anderen WoW-Erweiterung wechseln, stellen Sie sicher, dass Ihr Basis-Client vollständig entfernt wurde, bevor Sie den Ascension-Launcher installieren, um Dateikonflikte mit den benutzerdefinierten CoA-Assets zu vermeiden.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Schritt-für-Schritt-Installation & Konfiguration">
+
+Die Einrichtung des **Conquest of Azeroth Launchers** ist als „Ein-Klick-Erlebnis“ konzipiert. Das Verständnis der grundlegenden Konfiguration kann jedoch helfen, häufige Fehler während der Alpha-Phase zu vermeiden. Der Launcher verwaltet nicht nur die ausführbaren Dateien, sondern auch den kritischen `Data`-Ordner, in dem sich die benutzerdefinierten CoA-Modelle und -Texturen befinden.
+
+<Steps>
+  <Step num="1" title="Ascension-Client herunterladen">
+    Besuchen Sie die offizielle Ascension-Website und laden Sie das einheitliche Installationsprogramm herunter. Diese ausführbare Datei dient als Grundlage für die Benutzeroberfläche des **Conquest of Azeroth Launchers**.
+  </Step>
+  <Step num="2" title="Konto-Authentifizierung">
+    Melden Sie sich mit Ihren Ascension-Zugangsdaten an. Wenn Sie an der Alpha teilnehmen, stellen Sie sicher, dass Ihr Account über die erforderlichen „Area 52“- oder „Elune“-Pakete verfügt, die im Store aktiviert wurden.
+  </Step>
+  <Step num="3" title="CoA-Realm auswählen">
+    Wählen Sie im Dropdown-Menü für die Realm-Auswahl „Conquest of Azeroth“. Der Launcher beginnt automatisch mit dem Herunterladen der spezifischen Patches, die für die 21 neuen Klassen erforderlich sind.
+  </Step>
+  <Step num="4" title="Spieleinstellungen konfigurieren">
+    Klicken Sie auf das Zahnradsymbol für die Einstellungen, um RAM zuzuweisen und Ihr Installationsverzeichnis festzulegen. Wir empfehlen mindestens 4 GB zugewiesenen Arbeitsspeicher für das flüssigste Spielerlebnis mit den neuen visuellen Effekten.
+  </Step>
+</Steps>
+
+| Konfiguration | Empfohlene Einstellung | Grund |
+| :--- | :--- | :--- |
+| **RAM-Zuweisung** | 4GB - 8GB | Verhindert Abstürze bei 40-Spieler-Raids |
+| **Download-Geschwindigkeit** | Unbegrenzt | Schnelleres Patchen bei großen Asset-Updates |
+| **Reparatur-Tool** | Nach jedem größeren Alpha-Patch nutzen | Behebt beschädigte Cache-Dateien |
+| **Hardware-Beschleunigung** | Aktiviert | Verbessert die Reaktionszeit der Launcher-UI |
+
+<Callout type="warning" title="Wichtig">
+Conquest of Azeroth befindet sich derzeit in einer aktiven Entwicklungsphase. Überprüfen Sie stets den Fortschrittsbalken des Launchers; das Unterbrechen eines Patches kann zu „Fehlendes Modell“-Fehlern (grüne Würfel) im Spiel führen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Spielmodi und Realm-Auswahl">
+
+Der **Conquest of Azeroth Launcher** bietet Zugriff auf ein einzigartiges „Hybrid-Risk“-System. Dies ermöglicht es Spielern aller Vorlieben – PvE, PvP und High Risk –, in derselben Welt zu spielen, ohne die Community aufzuteilen. Diese Integration wird serverseitig geregelt, aber über den Realm-Status und die News-Updates des Launchers klar kommuniziert.
+
+<CardGrid cols={3}>
+  <Card title="PvE-Modus">
+    - **Absolute Sicherheit**: Kann in der offenen Welt nicht von anderen Spielern angegriffen werden.
+    - **Volle Inhalte**: Zugriff auf alle 21 Klassen und Dungeons.
+    - **Community**: Bilden Sie Gruppen mit PvP-Spielern für Raids und Quests.
+  </Card>
+  <Card title="PvP-Modus">
+    - **Klassischer Kampf**: Standardmäßiger fraktionsbasierter Kampf in umkämpften Gebieten.
+    - **Kriegsmodus**: Erhöhte Erfahrungsgewinne für das Eingehen des Risikos.
+    - **Fairplay**: Kein Verlust von Gegenständen beim Tod in diesem Modus.
+  </Card>
+  <Card title="High Risk">
+    - **Beute-Drop**: Erschlagen Sie Spieler, um deren Ausrüstung und Gold zu stehlen.
+    - **Blutgeschmiedete Ausrüstung**: Finden Sie exklusive, mächtige Gegenstände in der offenen Welt.
+    - **Adrenalin**: Die ultimative Herausforderung für erfahrene CoA-Veteranen.
+  </Card>
+</CardGrid>
+
+Das Schöne am einheitlichen Launcher ist, dass er diese Modi als Optionen innerhalb der Spielwelt und nicht als separate Server behandelt. Dies sorgt für eine höchstmögliche Bevölkerungsdichte bei Aktivitäten wie Weltbossen und dem Manasturm.
+
+| Modus | EP-Bonus | Todesstrafe | Am besten für |
+| :--- | :--- | :--- | :--- |
+| **PvE** | 1.0x | Standardmäßiger Haltbarkeitsverlust | Neue Spieler / Entspanntes Leveln |
+| **PvP** | 1.2x | Standardmäßiger Haltbarkeitsverlust | Kompetitives Leveln |
+| **High Risk** | 1.5x | Potenzieller Item-/Gold-Verlust | Hardcore-Spieler / Farming |
+
+<Callout type="success" title="Entwickler-Notiz">
+Das Hybrid-Risk-System sorgt dafür, dass sich die Welt selbst dann lebendig anfühlt, wenn Sie PvE bevorzugen, da Sie PvP- und High-Risk-Spieler sehen können, die um Sie herum ihre eigenen Schlachten austragen.
+</Callout>
+
+</Section>
+
+<Section icon={RefreshCw} title="Technische Fehlerbehebung & Optimierung">
+
+Selbst bei einem robusten **Conquest of Azeroth Launcher** können technische Probleme auftreten, insbesondere bei der Verarbeitung von benutzerdefinierten 3D-Modellen und komplexen Klassenmechaniken. Die meisten Probleme resultieren aus veralteten Cache-Dateien oder abgebrochenen Downloads.
+
+<Checklist
+  id="launcher-maintenance"
+  title="Checkliste für die Optimierung vor dem Spielstart:"
+  items={[
+    "Löschen Sie regelmäßig den Ordner 'WDB' in Ihrem Cache-Verzeichnis",
+    "Stellen Sie sicher, dass Ihre Antivirensoftware 'Ascension.exe' nicht blockiert",
+    "Stellen Sie sicher, dass 'Schreibgeschützt' in den Eigenschaften Ihres WoW-Ordners deaktiviert ist",
+    "Aktualisieren Sie Ihre Grafikkartentreiber, um neue benutzerdefinierte Partikeleffekte flüssig darzustellen",
+    "Führen Sie den Launcher als Administrator aus, um vollständige Patch-Berechtigungen zu gewährleisten"
+  ]}
+/>
+
+| Häufiges Problem | Wahrscheinliche Ursache | Lösung |
+| :--- | :--- | :--- |
+| **Login-Schleife** | Falsche Realmlist oder veraltete Cache-Daten | Nutzen Sie die Option 'Einstellungen zurücksetzen' im Launcher |
+| **Fehlende Texturen** | Abgebrochener Download der CoA-Patches | Führen Sie das 'Reparatur'-Tool im Einstellungsmenü aus |
+| **Niedrige FPS** | Zu viele benutzerdefinierte Zaubereffekte | Reduzieren Sie die 'Partikeldichte' in den Videoeinstellungen |
+| **Patch-Fehler** | Fehlender Speicherplatz oder fehlende Rechte | Als Admin ausführen und Festplattenspeicher prüfen |
+
+<Callout type="info" title="Expertenrat">
+Wenn das Update des Launchers fehlschlägt, versuchen Sie, Ihre Download-Region in den Einstellungen zu ändern. Manchmal können lokale CDN-Knotenpunkte bei großen Content-Releases hinter dem Hauptserver zurückbleiben.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Klassen-Ökosystem und Lore-Integration">
+
+Der Grund, warum der **Conquest of Azeroth Launcher** so wichtig ist, liegt in der enormen Menge an benutzerdefinierten Inhalten, die er liefert. Bei 21 Klassen, die es im Standard-WoW nicht gibt, muss der Launcher Tausende von einzigartigen Symbolen, Sounds und Zaubereffekten verwalten.
+
+| Klassenkategorie | Beispiele | Hauptmechaniken |
+| :--- | :--- | :--- |
+| **Dunkle Künste** | Totenbeschwörer, Schnitter, Kultist | Dienerschwärme, Seelenernte, Wahnsinn |
+| **Technologie/Ingenieurwesen** | Tüftler, Runenmeister | Geschütztürme, Mechs, Runenabstimmung |
+| **Natur/Urzeit** | Urzeitler, Venomant | Erdbeben, giftige Gestaltwandlung |
+| **Kampf/Heilig** | Templer, Sonnenkleriker, Wächter | Combo-Brecher, Solarenergie, Vorhut |
+
+Jede Klasse ist handgemacht und verfügt über eigene Talente und Spezialisierungen. Beispielsweise kann sich der **Tüftler** auf **Zerstörung** für explosiven Fernkampfschaden oder auf **Mechanik** spezialisieren, um einen Schredder-Mech-Anzug zu steuern. Der **Sternenrufer** nutzt Mondmagie, um je nach Spezialisierung als Tank, Heiler oder Schadensausteiler zu agieren.
+
+<Callout type="tip" title="Strategie-Tipp">
+Bevor Sie das Spiel starten, sollten Sie den Bereich 'Klassen-Guide' lesen, der oft in der Seitenleiste des Launchers verlinkt ist. Jede der über 70 Spezialisierungen hat einzigartige Attributsprioritäten (z. B. Stärke vs. Intellekt für Sonnenkleriker).
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Benötige ich einen separaten Client für den Conquest of Azeroth Launcher?",
+    answer: "Nein. Conquest of Azeroth ist in den standardmäßigen Ascension WoW Launcher integriert. Sie wählen einfach das CoA-Realm aus dem Dropdown-Menü aus, und der Launcher kümmert sich um den Rest."
+  },
+  {
+    question: "Kann ich CoA kostenlos spielen?",
+    answer: "Conquest of Azeroth folgt einem Free-to-Play-Modell. Der Zugang während bestimmter Alpha- oder Beta-Phasen erfordert jedoch möglicherweise ein Zugangspaket, das im Ascension-Store erhältlich ist."
+  },
+  {
+    question: "Wie behebe ich den Fehler 'Version Mismatch' (Versionskonflikt)?",
+    answer: "Dies passiert normalerweise, wenn der Launcher das Herunterladen eines kleineren Patches noch nicht abgeschlossen hat. Schließen Sie das Spiel, starten Sie den Launcher neu und warten Sie, bis der Fortschrittsbalken 100 % erreicht hat."
+  },
+  {
+    question: "Kann ich meine klassenlosen WoW-Charaktere auf dem CoA-Realm verwenden?",
+    answer: "Nein. Conquest of Azeroth ist ein völlig anderer Spielmodus mit 21 einzigartigen Klassen. Sie müssen einen neuen Charakter erstellen, um das maßgeschneiderte Klassensystem zu erleben."
+  }
+]} />
+
+</Section>

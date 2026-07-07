@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Foro de Conquest of Azeroth: Comentarios de la Comunidad y Guía del Servidor",
+  description: "Explora las discusiones de la comunidad en el foro de Conquest of Azeroth. Descubre reseñas de diseño de clases, características del servidor y consejos de juego para Project Ascension.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Conquest+of+Azeroth+Forum+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Tema Principal**: Comentarios de la comunidad, integración del servidor y mecánicas de clase discutidas en el **foro de conquest of azeroth**.
+- **Característica Clave**: Una enorme renovación Classic+ que presenta 21 clases completamente personalizadas y 69 especializaciones de talentos únicas.
+- **Ecosistema del Servidor**: Se ejecuta directamente a través del lanzador de Project Ascension, compartiendo la misma cuenta, cliente y archivos de parche.
+- **Opciones PvE**: Dificultades de mazmorras escaladas desde Normal hasta Mítico+, junto con opciones de banda flexibles.
+- **Modos PvP**: Ofrece fases PvE, PvP y PvP de Alto Riesgo en un único reino unificado.
+</Callout>
+
+<Section icon={Map} title="Foro de Conquest of Azeroth: Sentimiento de la Comunidad y Alcance del Proyecto">
+
+El **foro de conquest of azeroth** y los centros comunitarios relacionados sirven como puntos de encuentro centrales para los jugadores que exploran el ambicioso servidor personalizado de WoW de Project Ascension. A diferencia de los reinos personalizados estándar que modifican los árboles de talentos existentes, Conquest of Azeroth (CoA) introduce una reinvención completa del mundo Vanilla. 
+
+Las discusiones en el foro destacan la gran escala del proyecto, que reemplaza las 9 clases originales con 21 clases personalizadas y 69 especializaciones creadas a partir del lore de Warcraft. Aunque los comentarios de la alfa y beta iniciales elogiaron la fantasía de las clases, los hilos de la comunidad se centran en el equilibrio, el ritmo de juego y cómo se integra el juego con el ecosistema existente de Project Ascension.
+
+| Tema de Discusión de la Comunidad | Resumen de Comentarios en el Foro | Conclusión Clave para el Jugador |
+| :--- | :--- | :--- |
+| **Variedad de Clases** | Fantasía de clase excepcional con 21 estilos de juego nuevos | Mantiene el juego sintiéndose completamente nuevo |
+| **Ritmo y Mantenimiento** | Algunas especializaciones dependen de beneficios de mantenimiento o tiempos de reutilización | Las rotaciones activas requieren gran concentración |
+| **Modo Tormenta de Maná** | Ritmo rápido pero corre el riesgo de eclipsar la subida de nivel en el mundo abierto | Ideal para equiparse rápidamente |
+| **Integración del Ecosistema** | Cambio sin problemas a través del lanzador estándar de Ascension | Cero complicaciones al cambiar de reino |
+
+<Callout type="tip" title="Consejo del Ecosistema">
+No necesitas un cliente separado ni listas de reinos únicas para jugar. Simplemente abre el lanzador de Project Ascension, selecciona el reino Conquest of Azeroth y haz clic en jugar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Las 21 Clases Personalizadas Discutidas en los Foros">
+
+Un punto de enfoque principal en el **foro de conquest of azeroth** es cómo se desempeñan estas clases personalizadas en PvE y PvP. Cada clase cuenta con efectos visuales de hechizos a medida, iconos personalizados y mecánicas únicas.
+
+### Clases y Mecánicas Populares
+
+*   **Necromancer**: Un DPS de tela que utiliza **Fuerza de Vida** para invocar hordas de mascotas no muertas, propagar plagas o transformarse en un poderoso Liche.
+*   **Cultist**: Una clase versátil (Tanque/DPS/Sanador) que genera **Demencia**. Los jugadores deben equilibrar cuidadosamente su barra de demencia; dejar que se llene por completo resulta en una muerte instantánea.
+*   **Tinker**: Usa Agilidad o Intelecto para ejecutar rotaciones de demolición explosivas, desplegar torretas mecánicas o pilotar un traje mecánico Triturador.
+*   **Chronomancer**: Un embaucador temporal capaz de manipular el tiempo para sanar a sus aliados, crear clones atrapados en el tiempo o desatar magia de orden y caos de doble naturaleza.
+*   **Witch Hunter**: Un ágil cazador de monstruos que utiliza ballestas dobles, mosquetes o hojas ardientes para purgar objetivos.
+
+<CardGrid cols={3}>
+  <Card title="Necromancer">
+    - **Armadura**: Tela
+    - **Recurso**: Fuerza de Vida
+    - **Estilo de juego**: Invocación de esbirros, control de escarcha y daño en el tiempo.
+  </Card>
+  <Card title="Cultist">
+    - **Armadura**: Tela/Placas
+    - **Recurso**: Demencia
+    - **Estilo de juego**: Daño de alto riesgo que escala con mecánicas basadas en el vacío.
+  </Card>
+  <Card title="Chronomancer">
+    - **Armadura**: Tela
+    - **Recurso**: Maná/Alteración del tiempo
+    - **Estilo de juego**: Retroceder daño, ataques automáticos con varita y sanación temporal.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Alerta de Mecánica">
+Jugar como Cultista requiere una atención constante a tu recurso de Demencia. Volverte completamente demente romperá tu mente de inmediato y matará a tu personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Características del Servidor y Sistema de Riesgo Híbrido">
+
+Los usuarios del foro discuten con frecuencia el enfoque del servidor sobre la división de jugadores, que se resuelve mediante el **Sistema de Riesgo Híbrido**. Este sistema permite que jugadores con estilos de juego completamente diferentes ocupen la misma fase del mundo sin dividir a la comunidad.
+
+| Modo de Fase | Estado de PvP | Recompensas y Reglas Únicas |
+| :--- | :--- | :--- |
+| **Modo PvE** | Completamente inalcanzable | Misiones estándar, mazmorras y bandas |
+| **Modo PvP** | PvP en mundo abierto habilitado | Reglas estándar del servidor, fase PvE compartida |
+| **PvP de Alto Riesgo** | Pérdida total de botín al morir | Suelta objetos aleatorios equipados/del inventario al vencedor |
+
+### Equipamiento en Modo de Alto Riesgo
+Mientras están en PvP de Alto Riesgo, los jugadores obtienen el beneficio de **Cazador de Tesoros**. Esto permite que los monstruos del mundo abierto suelten versiones **Forjadas por la Sangre** del equipo de mazmorras y bandas. Este equipamiento no está ligado al alma, lo que significa que los jugadores pueden vender, intercambiar o comprar libremente equipo de alto nivel en la Casa de Subastas.
+
+<Callout type="info" title="Consejo de Alto Riesgo">
+Si disfrutas del progreso en el mundo abierto sin realizar instancias estructuradas, subir de nivel en PvP de Alto Riesgo te permite obtener objetos raros de mazmorras directamente de los monstruos del mundo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión PvE: Mazmorras, Bandas y Escalamiento">
+
+El bucle del juego final de Conquest of Azeroth presenta contenido PvE altamente escalable diseñado para desafiar a las 21 clases.
+
+<Steps>
+  <Step num="1" title="Mazmorras Normales">
+    Completa mazmorras clásicas de Vanilla para aprender las mecánicas de tu clase, armar conjuntos de equipo básicos y dominar tu especialización personalizada.
+  </Step>
+  <Step num="2" title="Mazmorras Heroicas y Míticas">
+    Adéntrate en las dificultades Heroica y Mítica, que presentan mecánicas de jefes modernizadas, peligros personalizados y una mejor distribución de objetos.
+  </Step>
+  <Step num="3" title="Progresión Mítica+">
+    Forma un equipo dedicado de 5 personas para superar llaves Míticas+ de escalamiento infinito, desbloqueando la progresión del juego final por completo a través de contenido para grupos pequeños.
+  </Step>
+  <Step num="4" title="Bandas Flexibles">
+    Participa en bandas flexibles (Normal, Heroica, Mítica y Ascendida) que se adaptan dinámicamente para grupos de 10 a 25 jugadores.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Botín Rediseñado">
+Los objetos de Vanilla han pasado por una renovación completa de estadísticas y diseño. Los objetos base débiles o inútiles se han rediseñado para crear fuertes sinergias con las nuevas especializaciones de clase.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de la Comunidad y Lista de Tareas">
+
+Para aprovechar al máximo la fase actual de Conquest of Azeroth, los jugadores de los foros recomiendan centrarse en estos hitos principales:
+
+<Checklist
+  id="coa-milestones"
+  title="Objetivos de Progresión Esenciales:"
+  items={[
+    "Descargar el lanzador de Project Ascension y parchear el cliente",
+    "Elegir una clase inicial y seleccionar tu especialización principal",
+    "Seleccionar tu fase de Riesgo Híbrido preferida (PvE, PvP o Alto Riesgo)",
+    "Completar mazmorras escalables para obtener equipo de Vanilla rediseñado",
+    "Unirte al Discord oficial para discutir configuraciones y reportar errores"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo accedo al foro de Conquest of Azeroth?",
+    answer: "Las discusiones principales tienen lugar en los foros oficiales de Project Ascension, su servidor de Discord dedicado y la activa comunidad r/wowservers en Reddit."
+  },
+  {
+    question: "¿Es Conquest of Azeroth un cliente de juego independiente?",
+    answer: "No. Se ejecuta en el cliente estándar de Project Ascension. Simplemente cambias de reino en el lanzador para jugar."
+  },
+  {
+    question: "¿Puedo comerciar el equipo que encuentre en PvP de Alto Riesgo?",
+    answer: "Sí. Los objetos Forjados por la Sangre que sueltan los monstruos en Alto Riesgo no se ligan al alma, lo que te permite comerciar con ellos o venderlos en la Casa de Subastas."
+  },
+  {
+    question: "¿Qué es el modo Tormenta de Maná?",
+    answer: "La Tormenta de Maná es un modo de desafío de ritmo rápido que cuenta con más de 4,000 niveles donde te teletransportas directamente a los jefes para derrotarlos y obtener recompensas rápidas."
+  }
+]} />
+
+</Section>

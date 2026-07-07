@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Conquest of Azeroth Forum: Community Feedback & Server Guide",
+  description: "Explore community discussions from the Conquest of Azeroth forum. Discover class design reviews, server features, and gameplay tips for Project Ascension.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Conquest+of+Azeroth+Forum+Guide",
+  date: "2026-07-07",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Topic**: Community feedback, server integration, and class mechanics discussed on the **conquest of azeroth forum**.
+- **Key Feature**: A massive Classic+ overhaul featuring 21 entirely custom classes and 69 unique talent specializations.
+- **Server Ecosystem**: Run directly through the Project Ascension launcher, sharing the same account, client, and patch files.
+- **PvE Options**: Scaled dungeon difficulties from Normal to Mythic+, alongside flexible raiding options.
+- **PvP Modes**: Offers PvE, PvP, and High-Risk PvP phases on a single unified realm.
+</Callout>
+
+<Section icon={Map} title="Conquest of Azeroth Forum: Community Sentiment & Project Scope">
+
+The **conquest of azeroth forum** and related community hubs serve as the central meeting grounds for players exploring Project Ascension's highly ambitious custom WoW server. Unlike standard custom realms that tweak existing talent trees, Conquest of Azeroth (CoA) introduces a complete re-imagining of the Vanilla world. 
+
+Forum discussions highlight the sheer scale of the project, which replaces the original 9 classes with 21 custom-built classes and 69 specs forged from Warcraft lore. While early alpha and beta feedback praised the class fantasy, community threads focus on balancing, gameplay pacing, and how the game integrates with Project Ascension's existing ecosystem.
+
+| Community Discussion Topic | Forum Feedback Summary | Key Player Takeaway |
+| :--- | :--- | :--- |
+| **Class Variety** | Exceptional class fantasy with 21 fresh playstyles | Keeps the game feeling brand new |
+| **Pacing & Upkeep** | Some specs rely on maintenance buffs or cooldowns | Active rotations require high focus |
+| **Manastorm Mode** | Fast-paced but risks overshadowing open-world leveling | Best used for quick gearing |
+| **Ecosystem Integration** | Seamless switching via the standard Ascension launcher | Zero hassle swapping between realms |
+
+<Callout type="tip" title="Ecosystem Tip">
+You do not need a separate client or unique realm-lists to play. Simply open the Project Ascension launcher, select the Conquest of Azeroth realm, and hit play.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="The 21 Custom Classes Discussed on the Forums">
+
+A major focal point of the **conquest of azeroth forum** is how these custom classes perform across PvE and PvP. Each class features bespoke spell visuals, customized icons, and unique mechanics.
+
+### Popular Classes & Mechanics
+
+*   **Necromancer**: A cloth-wearing DPS that utilizes **Life Force** to summon hordes of undead pets, spread plagues, or transform into a powerful Lich.
+*   **Cultist**: A versatile class (Tank/DPS/Healer) that generates **Insanity**. Players must carefully balance their insanity bar; letting it cap out results in instant death.
+*   **Tinker**: Uses Agility or Intellect to execute explosive demolition rotations, deploy mechanical turrets, or pilot a Shredder mechsuit.
+*   **Chronomancer**: A temporal trickster capable of manipulating time to heal allies, create time-stuck clones, or unleash dual-natured order and chaos magic.
+*   **Witch Hunter**: An agile monster hunter utilizing dual crossbows, muskets, or fiery blades to purge targets.
+
+<CardGrid cols={3}>
+  <Card title="Necromancer">
+    - **Armor**: Cloth
+    - **Resource**: Life Force
+    - **Playstyle**: Minion summoning, frost control, and damage-over-time.
+  </Card>
+  <Card title="Cultist">
+    - **Armor**: Cloth/Plate
+    - **Resource**: Insanity
+    - **Playstyle**: High-risk damage scaling with void-based mechanics.
+  </Card>
+  <Card title="Chronomancer">
+    - **Armor**: Cloth
+    - **Resource**: Mana/Time-altering
+    - **Playstyle**: Rewinding damage, wand auto-attacks, and temporal healing.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Mechanic Alert">
+Playing a Cultist requires constant attention to your Insanity resource. Going completely insane will immediately break your mind and kill your character.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Server Features & Hybrid Risk System">
+
+Forum users frequently discuss the server's approach to player split, which is solved via the **Hybrid Risk System**. This system allows players of completely different playstyles to occupy the same world phase without dividing the community.
+
+| Phase Mode | PvP Status | Unique Rewards & Rules |
+| :--- | :--- | :--- |
+| **PvE Mode** | Completely untargetable | Standard questing, dungeons, and raids |
+| **PvP Mode** | Open-world PvP enabled | Standard server rules, shared PvE phase |
+| **High Risk PvP** | Full loot drop on death | Drops random equipped/inventory items to victor |
+
+### Gearing in High Risk Mode
+While in High Risk PvP, players gain the **Treasure Hunter** buff. This allows monsters in the open world to drop **Bloodforged** versions of Dungeon and Raid gear. This equipment is non-soulbound, meaning players can freely sell, trade, or buy high-tier gear on the Auction House.
+
+<Callout type="info" title="High Risk Tip">
+If you enjoy open-world progression without running structured instances, leveling in High Risk PvP lets you obtain rare dungeon items directly from world monsters.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PvE Progression: Dungeons, Raids, and Scaling">
+
+The endgame loop of Conquest of Azeroth features highly scalable PvE content designed to challenge all 21 classes.
+
+<Steps>
+  <Step num="1" title="Normal Dungeons">
+    Run classic Vanilla dungeons to learn your class mechanics, build basic gear sets, and master your custom specialization.
+  </Step>
+  <Step num="2" title="Heroic & Mythic Dungeons">
+    Step into Heroic and Mythic difficulties, featuring modernized boss mechanics, custom hazards, and upgraded itemization.
+  </Step>
+  <Step num="3" title="Mythic+ Progression">
+    Form a dedicated 5-man team to push infinite scaling Mythic+ keys, unlocking end-game progression entirely through small-group content.
+  </Step>
+  <Step num="4" title="Flexible Raiding">
+    Participate in Flex Raids (Normal, Heroic, Mythic, and Ascended) that scale dynamically for groups of 10 to 25 players.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Redesigned Loot">
+Vanilla items have undergone a complete itemization overhaul. Weak or useless base items have been redesigned to create strong synergies with the new class specs.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Community Goals & Checklist">
+
+To get the most out of the current phase of Conquest of Azeroth, players on the forums recommend focusing on these core milestones:
+
+<Checklist
+  id="coa-milestones"
+  title="Essential Progression Goals:"
+  items={[
+    "Download the Project Ascension launcher and patch the client",
+    "Choose a starting class and select your primary specialization",
+    "Select your preferred Hybrid Risk phase (PvE, PvP, or High Risk)",
+    "Run scaling dungeons to obtain redesigned Vanilla gear",
+    "Join the official Discord to discuss builds and report bugs"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I access the Conquest of Azeroth forum?",
+    answer: "The primary discussions take place on the official Project Ascension forums, their dedicated Discord server, and the active r/wowservers community on Reddit."
+  },
+  {
+    question: "Is Conquest of Azeroth a separate game client?",
+    answer: "No. It runs on the standard Project Ascension client. You simply swap realms on the launcher to play."
+  },
+  {
+    question: "Can I trade the gear I find in High Risk PvP?",
+    answer: "Yes. Bloodforged items dropped by monsters in High Risk are non-soulbound, allowing you to trade them or sell them on the Auction House."
+  },
+  {
+    question: "What is the Manastorm mode?",
+    answer: "The Manastorm is a fast-paced challenge mode featuring over 4,000 levels where you teleport directly to bosses to clear them for quick rewards."
+  }
+]} />
+
+</Section>

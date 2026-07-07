@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Datenbank: Ketzer-Kultist Heiler-Build Guide",
+  description: "Meistere den Ketzer-Kultisten Heiler-Build in Conquest of Azeroth. Entdecke Talentbäume, passive Heilungsrotationen und Ausrüstungswerte.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Heretic+Cultist+Database",
+  date: "2026-07-07",
+  author: "Conquest of Azeroth Wiki-Team",
+  keywords: "ketzer kultist, heiler build, conquest of azeroth, passive heilung, talente, ausrüstung"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **Conquest of Azeroth Datenbank**: Die Nutzung geeigneter Datenbank-Ressourcen ist unerlässlich, um aktive Buffs, Talentskalierungen und die neuesten Klassenänderungen im Auge zu behalten.
+- **Unorthodoxe Heilung**: Der Ketzer-Kultist fungiert als hybrider passiver Heiler, der verursachten Schattenschaden direkt in gruppenweite Heilung umwandelt.
+- **Werte-Priorität**: Priorisiere Intelligenz und Zaubermacht als Primärwerte, mit kritischer Trefferwertung als wichtigstem grünen Sekundärwert, um Abklingzeitreduzierungen auszulösen.
+- **Passives Management**: Halte den Buff „Gefallener Templer“ konstant aufrecht, indem du alle 10 bis 12 Sekunden Tentakel beschwörst, um einen pauschalen Bonus von 12 % auf alle Primärwerte zu erhalten.
+- **UI-Optimierung**: Nutze angepasste Click-Cast-Frames wie Voodoo zusammen mit speziellen WeakAuras, um deine Wahnsinn-Ressource und die Rotations-Abklingzeiten nahtlos zu verwalten.
+</Callout>
+
+<Section icon={Map} title="Einführung in den Ketzer-Kultist-Archetyp">
+
+Der Ketzer-Kultist ist eine der einzigartigsten hybriden Heilungsspezialisierungen in der Beta von Conquest of Azeroth. Anstatt sich auf traditionelle, aktive Einzelzielheilungen zu verlassen, die dich dazu zwingen, ständig auf die Gruppenanzeige zu starren, blüht diese Klasse bei der passiven Heilung auf. Indem du auf kurze bis mittlere Distanz hohen Schattenschaden verursachst, hältst du deine Gruppe automatisch am Leben, während du gleichzeitig soliden Schaden beisteuerst, um den Dungeon-Fortschritt voranzutreiben.
+
+Um diesen Build zu maximieren, verlassen sich Spieler stark auf die **Conquest of Azeroth Datenbank**, um Talent-Updates, Klassenanpassungen und optimale Ausrüstungs-Setups zu verfolgen. Dieser Guide schlüsselt die Kernmechaniken, Talentbäume und Ausrüstungsstrategien auf, damit du diese mächtige Unterstützerklasse meistern kannst.
+
+**Video-Highlights:**
+- Erfahre, wie die einzigartige Wahnsinn-Mechanik des Ketzer-Kultisten deine Schilde und Heilungen verstärkt.
+- Verstehe die Kernrotation, die Gruppenmitglieder passiv am Leben erhält.
+- Entdecke, wie du dein Mana mithilfe bestimmter Talentkombinationen effizient verwaltest.
+
+<YouTubeEmbed videoId="_L-MgLAlUl8" title="Meine Hauptklasse in Conquest of Azeroth! Ketzer-Kultist Heiler-Build Review" />
+
+<Callout type="tip" title="Build-Konzept">
+Wenn du hybride Heilungsstile magst, bei denen du durch Schaden heilst, ist der Ketzer-Kultist die erste Wahl. Er minimiert das aktive Anvisieren von Zielen, sodass du dich ganz auf Positionierung und CC (Crowd Control) konzentrieren kannst.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Passive Kernmechaniken und Wahnsinn">
+
+Bevor wir uns in die Talentbäume stürzen, musst du die zugrundeliegenden Mechaniken verstehen, die diese Klasse ausmachen. Der Ketzer-Kultist verlässt sich auf eine sekundäre Ressourcenleiste namens Wahnsinn [18], zusammen mit spezifischen Passiva, die mit deinen Primärattributen skalieren.
+
+| Passive Kernfähigkeit | Primärer Effekt | Tipp zur Datenbank-Integration |
+|---|---|---|
+| **Eldrich Smite** | Klinge des Imperiums belegt Verbündete mit Schwarzem Blut, was sie um 5 % des verursachten Schadens heilt. Bis zu 5-mal stapelbar. | Löst bei 5 Stapeln eine Sofortheilung aus und stellt 10 % des fehlenden Manas wieder her. |
+| **Herald of Yakiron** | Gewährt skalierende Vorteile basierend auf deiner gesamten Intelligenz. | Priorisiere auf Stoff- oder Zauberer-Rüstungsteilen immer Intelligenz. |
+| **Wahnsinn-Mechanik** | Erzeugt Wahnsinn bei der Verwendung bestimmter Fähigkeiten. | Jeder Stapel Wahnsinn erhöht direkt deine Heilungs- und Schildleistung. |
+
+Du kannst deinen angesammelten Wahnsinn für mächtige aktive Fähigkeiten wie **Herold der Tiefe** ausgeben, was deinen Schaden und deine Heilung erheblich steigert, aber nach Ablauf allen Wahnsinn verbraucht. Alternativ kannst du **Sättigen** kanalisieren, um deinen Wahnsinn in längeren Kämpfen direkt wieder in Mana umzuwandeln.
+
+<Callout type="warning" title="Manamanagement">
+Früh in deiner Progression kann Böswilligkeit unglaublich manaintensiv sein. Spamme es nicht blind. Nutze Sättigen zwischen den gegnerischen Pulls, um deine Ressourcen aufrechtzuerhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Der 5-Punkte-Starter-Talentbuild">
+
+Beim Leveln oder beim Einstieg in Dungeons sind deine ersten fünf Talentpunkte entscheidend. Die richtige Verteilung dieser Punkte schaltet sofort deine passive Kernheilung frei und macht dich zu einem hocheffektiven Gruppenheiler.
+
+<CardGrid cols={3}>
+  <Card title="1. Malevolence">
+    Verwandelt Abyssaler Schlag in eine schattenbasierte Nahkampffähigkeit, die aus der Bewegung heraus gewirkt werden kann. Sie heilt die 5 Verbündeten mit den niedrigsten Lebenspunkten im Umkreis von 40 Metern um 70 % des verursachten Schadens.
+  </Card>
+  <Card title="2. Abyssal Covenant">
+    Funktioniert ähnlich wie eine Flamme des Glaubens. Bindet sich an einen einzelnen Verbündeten (normalerweise den Tank) und wandelt 20 % deines gesamten verursachten Schadens in direkte Heilung für dieses Ziel um.
+  </Card>
+  <Card title="3. Void Touched">
+    Ermächtigt Entropischer Schlag, massiven Bonus-Schattenschaden zu verursachen, der mit der Heilmacht skaliert, und belegt 5 nahegelegene Verbündete 10 Sekunden lang mit einem Heilung-über-Zeit-Effekt.
+  </Card>
+</CardGrid>
+
+Der vierte Punkt fließt in **Malevolent Power**, wodurch Stapel aufgebaut werden, die deine hart gewirkten Heilungen (wie Unheimliche Besserung oder Flüstern von Yagsaron) sofort und manafrei machen, sobald du drei Stapel erreichst. Der fünfte Punkt schaltet **Flüstern von Yagsaron** frei, was dir bei Bedarf eine zuverlässige Gruppen-Spitzenheilung verleiht.
+
+<Callout type="success" title="Starter-Synergie">
+Mit nur diesen ersten fünf Punkten wird deine Basisrotation aus Klinge des Imperiums und Entropischer Schlag deine gesamte Gruppe in normalen Dungeon-Umgebungen passiv gesund halten.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fortgeschrittene Talentbaum-Progression">
+
+Je weiter du in den Talentbäumen des Ketzers und Kultisten fortschreitest, desto mehr verlagert sich dein Fokus auf das Beschwören von Tentakeln der Alten Götter, um deinen Schaden und deine Heilungsleistung zu automatisieren.
+
+| Talentname | Position im Baum | Kernfunktionalität |
+|---|---|---|
+| **Eldrich Knight** | Ketzer (Mitte) | Entfernt die Manakosten von Klinge des Imperiums und fügt eine Chance hinzu, Aufladungen zurückzuerstatten. |
+| **Inevitable Prophecy** | Ketzer (Mitte) | Klinge des Imperiums verringert die Abklingzeit von Blick von Kathun und Leerenkollaps um 4 Sekunden. |
+| **Kathun's Calling** | Ketzer (Unten) | Verleiht Blick von Kathun eine Chance von 10 %, einen Tentakel der Alten Götter zu beschwören. |
+| **Twisted Sanity** | Ketzer (Unten) | Verbündete mit Schwarzem Blut oder Leerenberührung werden um 100 % des Schadens geheilt, den deine Tentakel verursachen. |
+| **Fallen Templar** | Kultist (Rechts) | Gewährt 12 Sekunden lang eine Erhöhung aller Primärwerte um 3 %, wann immer ein Tentakel beschworen wird. Bis zu 4-mal stapelbar. |
+
+Um diese Talente reibungslos am Laufen zu halten, solltest du darauf abzielen, die Abklingzeit von Blick von Kathun zu reduzieren. Dies ermöglicht es dir, die Fähigkeit häufig auf Gegner zu wirken, was wiederum Tentakelbeschwörungen auslöst, deine Primärwerte erhöht und deine Gruppe passiv heilt.
+
+<Callout type="info" title="Werte-Buff">
+Der Buff „Gefallener Templer“ wird bei der Beschwörung ausgelöst, nicht durch die aktive Anzahl der Tentakel. Beschwöre einfach alle 10 Sekunden einen neuen Tentakel, um deine Primärwerte dauerhaft um pauschal 12 % zu steigern.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Schritt-für-Schritt-Ausführung der Rotation">
+
+Um den Ketzer-Kultisten auf hohem Niveau zu spielen, musst du das Zusammenspiel zwischen deinen Abklingzeiten, deiner Wahnsinnsleiste und deinen Tentakelbeschwörungen meistern. Befolge diesen Schritt-für-Schritt-Prozess, um deine Leistung in Dungeons und mythischen Inhalten zu optimieren.
+
+<Steps>
+  <Step num="1" title="Abyssal Covenant wirken">
+    Platziere vor Beginn des Kampfes deinen Abyssalen Bund auf dem Haupttank. Dies stellt sicher, dass dieser einen konstanten Fluss an passiver Heilung durch all deine Offensivaktionen erhält.
+  </Step>
+  <Step num="2" title="Zuerst Blick von Kathun wirken">
+    Bringe Blick von Kathun zu Beginn eines Kampfes immer sofort auf Abklingzeit. Dies maximiert den Nutzen deiner Mechaniken zur Abklingzeitreduzierung.
+  </Step>
+  <Step num="3" title="Schwarzes Blut stapeln">
+    Wirke Klinge des Imperiums und Entropischer Schlag, um fünf Stapel Schwarzes Blut auf deinen Verbündeten aufzubauen und den Heilung-über-Zeit-Effekt von Leerenberührung aufzutragen.
+  </Step>
+  <Step num="4" title="Die Abklingzeit-Reset-Kombo ausführen">
+    Nutze deine Aufladungen von Klinge des Imperiums, um die verbleibende Abklingzeit von Blick von Kathun rasch zu reduzieren, sodass du es erneut wirken und auf Tentakelbeschwörungen hoffen kannst.
+  </Step>
+  <Step num="5" title="Wahnsinn mit Sättigen verwalten">
+    Wenn deine Wahnsinnsleiste voll ist, aktiviere Herold der Tiefe für ein massives Schadensfenster. Kürz vor dem Ende kanalisierst du Sättigen, um dein Mana wiederherzustellen und deine Aufladungen von Klinge des Imperiums zurückzuerhalten.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Ausrüstung und Datenbank-Optimierung">
+
+Die richtige Ausrüstung ist entscheidend für die Skalierung deiner passiven Heilungsfähigkeiten. Da deine Heilungen direkt mit deinem verursachten Schattenschaden skalieren, unterscheidet sich deine Wertepriorität leicht von traditionellen Heilklassen.
+
+### Prioritäten für Primär- und Sekundärwerte
+1. **Intelligenz**: Deine absolut höchste Priorität. Sie erhöht deine Zaubermacht, deinen Manapool und skaliert deine Kernpassiva direkt über Herold von Yakiron.
+2. **Zaubermacht / Heilmacht**: Erhöht direkt sowohl deine Schadensleistung als auch die prozentuale Heilung, die aus diesem Schaden umgewandelt wird.
+3. **Kritischer Trefferwert**: Entscheidend für das Auslösen von Talenten wie *Going Mad*, die deine Abklingzeiten verringern, wenn Klinge des Imperiums oder Entropischer Schlag kritisch treffen.
+4. **Trefferwertung**: Stelle sicher, dass du genügend Trefferwertung hast, damit deine Offensivzauber nicht verfehlen, da ein verfehlter Angriff in dieser globalen Abklingzeit null Heilung zur Folge hat.
+
+### Empfohlene Datenbank-Addons & WeakAuras
+Laut der offiziellen **Conquest of Azeroth Datenbank** verlassen sich erfolgreiche Heiler stark auf angepasste Benutzeroberflächen, um komplexe Buffs im Auge zu behalten [7].
+
+<Checklist
+  id="cultist-ui-checklist"
+  title="Essentielles UI-Setup:"
+  items={[
+    "Installiere ein Click-Casting-Addon (wie Voodoo oder Grid2), um Blick von Kathun und Flüstern von Yagsaron auf Mausklicks zu binden.",
+    "Importiere Auffs Cultist Heretic WeakAura-Paket aus der Datenbank, um fehlende Buffs, Edikte und den Status des Abyssalen Bundes zu verfolgen.",
+    "Richte eine spezielle WeakAura für die Wahnsinns-Ressourcenleiste ein, um deine sekundäre Ressource in intensiven Kämpfen zu überwachen.",
+    "Erstelle Makros für deinen Tentakel der Alten Götter, damit dieser automatisch zu deinen Füßen beschworen wird, um versehentliche Pulls zusätzlicher Monstergruppen zu verhindern."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie finde ich die neuesten Updates für diesen Build?",
+    answer: "Du solltest regelmäßig die Conquest of Azeroth Datenbank und die Community-Foren konsultieren, da Klassen-Balancing-Patches und Verschiebungen von Talentknoten während des Entwicklungszyklus häufig vorkommen."
+  },
+  {
+    question: "Muss ich als Ketzer-Kultist einen Zweihandstreitkolben tragen?",
+    answer: "Während Zweihandstreitkolben früher die einzige praktikable Option waren, ermöglichen jüngste Updates den Ketzer-Kultisten wieder das Tragen von Stäben, was dir mehr Flexibilität bei den Zauberer-Werten gibt."
+  },
+  {
+    question: "Welche Edikt-Aura sollte ich für allgemeine Dungeon-Inhalte nutzen?",
+    answer: "Das Edikt des Stolzes wird für allgemeine Gruppeninhalte dringend empfohlen, da es deiner Gruppe passive Absorptionsschilde gewährt, mit denen du Schaden präventiv abmildern kannst."
+  },
+  {
+    question: "Kann ich diesen Build als Einzelziel-Spitzenheiler spielen?",
+    answer: "Ja. Obwohl sich dieser Guide auf einen passiven AoE/HoT-Spielstil konzentriert, kannst du Talentpunkte in Unheimliche Besserung und Einzelziel-Schildtalente umverteilen, um Kämpfe mit hohem Einzelziel-Schadensaufkommen zu bewältigen."
+  }
+]} />
+
+</Section>

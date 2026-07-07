@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Database: Heretic Cultist Healer Build Guide",
+  description: "Master the Heretic Cultist healer build in Conquest of Azeroth. Discover talent trees, passive healing rotations, and gear stats.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Heretic+Cultist+Database",
+  date: "2026-07-07",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Conquest of Azeroth Database**: Utilizing proper database resources is essential for tracking active buffs, talent scaling, and the latest character class modifications.
+- **Unorthodox Healing**: The Heretic Cultist functions as a hybrid passive healer that converts outgoing shadow damage directly into group-wide healing.
+- **Stat Priority**: Prioritize Intellect and Spell Power as primary stats, with Critical Strike as your primary green secondary stat to trigger cooldown reductions.
+- **Passive Management**: Maintain the Fallen Templar buff consistently by summoning tentacles every 10 to 12 seconds for a flat 12% boost to all primary stats.
+- **UI Optimization**: Utilize custom click-cast frames like Voodoo alongside dedicated WeakAuras to manage your Insanity resource and rotational cooldowns seamlessly.
+</Callout>
+
+<Section icon={Map} title="Introduction to the Heretic Cultist Archetype">
+
+The Heretic Cultist is one of the most unique hybrid healing specializations in the Conquest of Azeroth beta. Instead of relying on traditional, active single-target heals that force you to constantly stare at party frames, this class thrives on passive healing. By dealing high shadow damage in close-to-mid range, you automatically keep your party topped off while contributing decent damage to push dungeon progression. 
+
+To maximize this build, players rely heavily on the **conquest of azeroth database** to track talent updates, class adjustments, and optimal gear setups. This guide breaks down the core mechanics, talent trees, and gearing strategies to help you master this powerful support class.
+
+**Video Highlights:**
+- Learn how the Heretic Cultist's unique Insanity mechanic boosts your shields and heals.
+- Understand the core rotation that keeps group members alive passively.
+- Discover how to manage your mana efficiently using specific talent combinations.
+
+<YouTubeEmbed videoId="_L-MgLAlUl8" title="My Main Class in Conquest of Azeroth! Heretic Cultist Healer Build Review" />
+
+<Callout type="tip" title="Build Concept">
+If you enjoy hybrid healing styles where you heal by dealing damage, the Heretic Cultist is the premier choice. It minimizes active targeting, letting you focus on positioning and crowd control.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Core Passive Mechanics and Insanity">
+
+Before diving into the talent trees, you must understand the underlying mechanics that make this class function. The Heretic Cultist relies on a secondary resource bar called Insanity [18], alongside specific passives that scale with your primary attributes.
+
+| Core Passive | Primary Effect | Database Integration Tip |
+|---|---|---|
+| **Eldrich Smite** | Blade of the Empire applies Black Blood to allies, healing them for 5% of damage dealt. Stacks up to 5 times. | At 5 stacks, triggers an instant heal and restores 10% missing mana. |
+| **Herald of Yakiron** | Grants scaling benefits based on your total Intellect. | Always prioritize Intellect on cloth or caster armor pieces. |
+| **Insanity Mechanic** | Generates Insanity when using specific abilities. | Every stack of Insanity directly increases your healing and shielding output. |
+
+You can spend your accumulated Insanity on powerful active abilities like **Herald of the Depths**, which boosts your damage and healing significantly but drains all Insanity upon completion. Alternatively, you can channel **Satiate** to convert your Insanity directly back into mana during longer encounters.
+
+<Callout type="warning" title="Mana Management">
+Early in your progression, Malevolence can be incredibly mana-intensive. Do not spam it blindly. Use Satiate between enemy pulls to maintain your resources.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Five-Point Starter Talent Build">
+
+When leveling or starting out in dungeons, your first five talent points are critical. Allocating these points correctly immediately unlocks your core passive healing engine, making you a highly effective group healer.
+
+<CardGrid cols={3}>
+  <Card title="1. Malevolence">
+    Transforms Abyssal Strike into a shadow-based melee ability that can be cast while moving. It heals the 5 lowest-health allies within 40 yards for 70% of damage dealt.
+  </Card>
+  <Card title="2. Abyssal Covenant">
+    Functions similarly to a Beacon of Light. Tethers to a single ally (usually the tank) and converts 20% of all damage you deal into direct healing for that target.
+  </Card>
+  <Card title="3. Void Touched">
+    Empowers Entropic Slam to deal massive bonus shadow damage scaling with healing power, applying a heal-over-time effect to 5 nearby allies for 10 seconds.
+  </Card>
+</CardGrid>
+
+The fourth point goes into **Malevolent Power**, which builds stacks that make your hard-cast heals (like Eldrich Mending or Whisper of Yagsaron) instant and mana-free once you reach three stacks. The fifth point unlocks **Whisper of Yagsaron**, giving you a reliable group burst heal when needed.
+
+<Callout type="success" title="Starter Synergy">
+With just these first five points, your basic rotation of Blade of the Empire and Entropic Slam will passively keep your entire party healthy in standard dungeon environments.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Advanced Talent Tree Progression">
+
+As you progress deeper into the Heretic and Cultist talent trees, your focus shifts toward summoning Old God tentacles to automate your damage and healing output.
+
+| Talent Name | Tree Location | Core Functionality |
+|---|---|---|
+| **Eldrich Knight** | Heretic (Mid) | Removes the mana cost of Blade of the Empire and adds a chance to refund charges. |
+| **Inevitable Prophecy** | Heretic (Mid) | Blade of the Empire reduces the cooldown of Gaze of Kathun and Void Shield by 4 seconds. |
+| **Kathun's Calling** | Heretic (Lower) | Gives Gaze of Kathun a 10% chance to summon a Tentacle of the Old Gods. |
+| **Twisted Sanity** | Heretic (Lower) | Allies with Black Blood or Void Touch are healed for 100% of damage dealt by your tentacles. |
+| **Fallen Templar** | Cultist (Right) | Grants a 3% increase to all primary stats for 12 seconds whenever a tentacle is summoned. Stacks up to 4 times. |
+
+To keep these talents running smoothly, you should aim to reduce the cooldown of Gaze of Kathun. This allows you to cast it frequently at enemies, which in turn triggers tentacle summons, buffs your primary stats, and heals your group passively.
+
+<Callout type="info" title="Stats Buff">
+The Fallen Templar buff triggers on summon, not on the active count of tentacles. Simply summon a new tentacle every 10 seconds to keep your primary stats boosted by a flat 12% at all times.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Step-by-Step Rotational Execution">
+
+To play the Heretic Cultist at a high level, you must master the interaction between your cooldowns, your Insanity bar, and your tentacle summons. Follow this step-by-step process to optimize your performance in dungeons and mythic content.
+
+<Steps>
+  <Step num="1" title="Apply Abyssal Covenant">
+    Before the pull begins, place your Abyssal Covenant on the main tank. This ensures they receive a constant stream of passive healing from all your offensive actions.
+  </Step>
+  <Step num="2" title="Cast Gaze of Kathun first">
+    Always put Gaze of Kathun on cooldown immediately at the start of a fight. This maximizes the value of your cooldown-reduction mechanics.
+  </Step>
+  <Step num="3" title="Build Black Blood Stacks">
+    Cast Blade of the Empire and Entropic Slam to build five stacks of Black Blood on your allies and apply the Void Touch heal-over-time effect.
+  </Step>
+  <Step num="4" title="Execute the Cooldown Reset Combo">
+    Use your Blade of the Empire charges to rapidly reduce the remaining cooldown on Gaze of Kathun, allowing you to cast it again and fish for tentacle summons.
+  </Step>
+  <Step num="5" title="Manage Insanity with Satiate">
+    When your Insanity bar is full, activate Herald of the Depths for a massive burst window. Just before it ends, channel Satiate to restore your mana and refund your Blade of the Empire charges.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Gearing and Database Optimization">
+
+Proper gearing is essential for scaling your passive healing capabilities. Because your heals scale directly off your outgoing shadow damage, your stat priority differs slightly from traditional healing classes.
+
+### Primary and Secondary Stat Priorities
+1. **Intellect**: Your absolute highest priority. It increases your spell power, mana pool, and directly scales your core passives via Herald of Yakiron.
+2. **Spell Power / Healing Power**: Directly increases both your damage output and the percentage-based healing converted from that damage.
+3. **Critical Strike**: Crucial for triggering talents like *Going Mad*, which reduces your cooldowns when Blade of the Empire or Entropic Slam critically strike.
+4. **Hit Rating**: Ensure you have enough hit rating so that your offensive spells do not miss, as a missed attack results in zero healing for that global cooldown.
+
+### Recommended Database Add-ons & WeakAuras
+According to the official **conquest of azeroth database**, successful healers heavily rely on custom user interfaces to track complex buffs [7].
+
+<Checklist
+  id="cultist-ui-checklist"
+  title="Essential UI Setup:"
+  items={[
+    "Install a click-casting frame addon (such as Voodoo or Grid2) to bind Gaze of Kathun and Whisper of Yagsaron to mouse clicks.",
+    "Import Auff's Cultist Heretic WeakAura Pack from the database to track missing buffs, Edicts, and Abyssal Covenant status.",
+    "Set up a dedicated Insanity Resource Bar WeakAura to monitor your secondary resource during intense combat encounters.",
+    "Create macros for your Tentacle of the Old Gods to automatically cast at your feet, preventing accidental extra mob pulls."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I find the latest updates for this build?",
+    answer: "You should regularly consult the conquest of azeroth database and community forums, as class balance patches and talent node shifts occur frequently during the development cycle."
+  },
+  {
+    question: "Do I need to equip a two-handed mace as a Heretic Cultist?",
+    answer: "While two-handed maces were previously the only viable option, recent updates have enabled Heretic Cultists to equip staves again, giving you more flexibility with caster stat sticks."
+  },
+  {
+    question: "Which Edict aura should I run for general dungeon content?",
+    answer: "Edict of Pride is highly recommended for general group content because it provides your party with passive absorption shields, allowing you to preemptively mitigate damage."
+  },
+  {
+    question: "Can I play this build as a single-target burst healer?",
+    answer: "Yes. While this guide focuses on a passive AOE/HoT playstyle, you can reallocate talent points into Eldrich Mending and single-target shield talents to handle high-damage single-target encounters."
+  }
+]} />
+
+</Section>
