@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Felsworn de Conquest of Azeroth: Guía de Especializaciones y Builds",
+  description: "Domina la clase Felsworn en Conquest of Azeroth. Descubre las mejores builds, especializaciones y rotaciones para Infernal, Slayer y Tyrant.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Felsworn+Class+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "felsworn, guía, conquest of azeroth, builds, wow ascension"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Clase Principal**: El **felsworn de conquest of azeroth** es un luchador ágil y caótico que utiliza magias demoníacas prohibidas, veloces ataques marciales y un devastador fuego vil [7mcE4UtAxNs].
+- **Recurso Principal**: Acumular y gastar runas de **Furia Vil (Fel Fury)** es crucial para desatar combos devastadores y potenciar tus habilidades [7mcE4UtAxNs].
+- **Versatilidad de Roles**: El Felsworn puede especializarse como DPS a distancia (**Infernal**), DPS cuerpo a cuerpo de doble empuñadura (**Slayer**) o tanque de evasión (**Tyrant**) [7mcE4UtAxNs, Felsworn].
+- **Razas Jugables**: Disponible exclusivamente para **Elfos de la Noche** y **Draenei** en la Alianza, y **Elfos de Sangre** y **Orcos** en la Horda [Felsworn].
+</Callout>
+
+<Section icon={Map} title="Introducción a la Clase Felsworn">
+
+El **felsworn de conquest of azeroth** es un exiliado caótico y un paria sombrío [7mcE4UtAxNs]. Odiados y temidos por muchos, estos combatientes abrazan magias demoníacas prohibidas para fusionar veloces golpes marciales con un salvaje fuego vil [7mcE4UtAxNs]. Ya sea que busques aniquilar enemigos desde lejos, abrirte paso entre hordas con hojas gemelas o defender a tus aliados esquivando golpes letales, el Felsworn ofrece un estilo de juego altamente dinámico centrado en combos y gestión de runas [7mcE4UtAxNs].
+
+**Puntos Destacados del Video:**
+- **Combate Ágil**: Aprende cómo el Felsworn utiliza su alta movilidad para dominar el campo de batalla [7mcE4UtAxNs].
+- **Resumen de Especializaciones**: Un vistazo rápido a los estilos de juego de Infernal, Slayer y Tyrant [7mcE4UtAxNs].
+- **Mecánica de Furia Vil**: Entiende cómo generar y gastar tu recurso demoníaco principal [7mcE4UtAxNs].
+
+<YouTubeEmbed videoId="7mcE4UtAxNs" title="Nueva Clase de WoW: Felsworn - Conquest of Azeroth" />
+
+<Callout type="tip" title="Filosofía de la Clase">
+El Felsworn prospera en la caza [7mcE4UtAxNs]. Sin importar qué especialización elijas, tu maestría en el combate marcial te permite encadenar tus habilidades en un orden específico para desatar poderosos efectos adicionales [7mcE4UtAxNs].
+</Callout>
+
+### Razas Jugables y Requisitos
+
+Antes de crear tu personaje en el reino de [Project Ascension Conquest of Azeroth](https://project-ascension.fandom.com/wiki/Felsworn), asegúrate de elegir una raza compatible [Felsworn]:
+
+| Facción | Razas Disponibles | Estadísticas Principales | Tipo de Armadura |
+| --- | --- | --- | --- |
+| **Alianza** | Elfo de la Noche, Draenei | Agilidad / Intelecto | Cuero |
+| **Horda** | Elfo de Sangre, Orco | Agilidad / Intelecto | Cuero |
+
+</Section>
+
+<Section icon={Sparkles} title="Especializaciones del Felsworn">
+
+La clase Felsworn cuenta con tres caminos muy distintos [7mcE4UtAxNs]. Tu elección de especialización cambia por completo tu rol de combate, la prioridad de gasto de recursos y tu posicionamiento en el campo de batalla [7mcE4UtAxNs].
+
+<CardGrid cols={3}>
+  <Card title="Infernal (DPS a Distancia)">
+    - **Teje fuego vil y flama de las sombras** [7mcE4UtAxNs]
+    - Estilo de juego de taumaturgo a distancia [7mcE4UtAxNs]
+    - Controla enemigos con raíces y aturdimientos [7mcE4UtAxNs]
+  </Card>
+  <Card title="Slayer (DPS Cuerpo a Cuerpo)">
+    - **Empuña hojas gemelas** [7mcE4UtAxNs]
+    - Combos cuerpo a cuerpo de alta movilidad [7mcE4UtAxNs]
+    - Activa explosiones viles de área (AoE) [7mcE4UtAxNs]
+  </Card>
+  <Card title="Tyrant (Tanque de Evasión)">
+    - **Mitiga el daño a través del esquive** [7mcE4UtAxNs]
+    - Mejora la celeridad y el poder ofensivo de los aliados [7mcE4UtAxNs]
+    - Castiga a los atacantes con golpes de represalia [7mcE4UtAxNs]
+  </Card>
+</CardGrid>
+
+### Desglose de Especializaciones
+
+Cada especialización depende de diferentes mecánicas principales para maximizar su rendimiento en escenarios PvE y PvP [7mcE4UtAxNs].
+
+| Especialización | Rol Principal | Mecánicas Clave | Habilidades Distintivas |
+| --- | --- | --- | --- |
+| **Infernal** | DPS a Distancia | Tejido de hechizos, control de masas, daño en el tiempo [7mcE4UtAxNs, Felsworn] | Engulf, Fel Prison, Demonic Lances [7mcE4UtAxNs, Felsworn] |
+| **Slayer** | DPS Melee | Alta movilidad, ataques rápidos dobles, ráfagas AoE [7mcE4UtAxNs, Felsworn] | Idan's Guard, Fel Hoof Charge, Fel Strike [7mcE4UtAxNs, Felsworn] |
+| **Tyrant** | Tanque Evasión | Escala de esquive, generación de amenaza, enfurecimiento de equipo [7mcE4UtAxNs, Felsworn] | Infernal Whip Crack, Vengeance [7mcE4UtAxNs, Felsworn] |
+
+<Callout type="warning" title="Compatibilidad de Equipo">
+Los Infernals requieren equipo de cuero de **Intelecto** para escalar su poder de hechizo, mientras que los Slayers y Tyrants dependen en gran medida del equipo de cuero de **Agilidad** para el escalado físico, golpe crítico y índice de esquive [Felsworn]. Mantén conjuntos separados si planeas usar doble especialización.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cómo jugar Infernal, Slayer y Tyrant">
+
+Para dominar al **felsworn de conquest of azeroth**, debes entender la rotación única y el flujo mecánico de tu especialización elegida [7mcE4UtAxNs].
+
+### 1. Infernal: El Tejedor de Hechizos a Distancia
+Los Infernals juegan como magos caóticos, corrompiendo y debilitando a sus objetivos antes de obliterarlos con proyectiles mágicos de alto daño [7mcE4UtAxNs, Felsworn]. La astucia y el control de masas son tus mejores armas [7mcE4UtAxNs, Felsworn].
+
+- **Control Primero**: Mantén la distancia atrapando a los enemigos con *Fel Prison* o aturdiéndolos con *Engulf* [7mcE4UtAxNs, Felsworn].
+- **Aplica Aflicciones**: Corrompe a tus objetivos para aumentar el daño de tus hechizos de daño directo posteriores [7mcE4UtAxNs, Felsworn].
+- **Desata el Caos**: Gasta tu Furia Vil generada en devastadoras *Fel Fireballs* y *Lances of Demonic Energy* [7mcE4UtAxNs, Felsworn].
+
+### 2. Slayer: El Ágil de Doble Empuñadura
+Los Slayers son cazadores ágiles que se acercan al máximo, confiando en combos ultrarrápidos para activar ráfagas pasivas de llamas [7mcE4UtAxNs, Felsworn].
+
+- **La Movilidad es Clave**: Usa *Fel Hoof Charge* para cerrar la brecha rápidamente o escapar de situaciones peligrosas [7mcE4UtAxNs, Felsworn].
+- **Construcción de Combos**: Encadena tus ataques cuerpo a cuerpo en la secuencia correcta para activar *Fel Strikes* pasivos, causando explosiones masivas de fuego en todos los enemigos cercanos [7mcE4UtAxNs, Felsworn].
+- **Ventanas Defensivas**: Activa *Idan's Guard* para otorgarte invulnerabilidad temporal y desvanecerte en las sombras cuando seas el objetivo [7mcE4UtAxNs, Felsworn].
+
+### 3. Tyrant: El Tanque de Evasión de Juegos Mentales
+Los Tyrants son tanques únicos que convierten la defensa en ofensiva [7mcE4UtAxNs]. En lugar de absorber golpes con un escudo masivo, esquivan los ataques entrantes para activar poderosos golpes de represalia [7mcE4UtAxNs, Felsworn].
+
+- **Esquivar y Represalia**: Un alto índice de esquive activa *Fel Strikes* automáticos cada vez que evades un ataque o activas *Vengeance* [7mcE4UtAxNs, Felsworn].
+- **Buffs de Grupo**: Usa *Infernal Whip Crack* para azotar a tus aliados y ponerlos en forma, aumentando su celeridad mientras obtienes bonificaciones de combate personales basadas en los compañeros que enfurezcas [7mcE4UtAxNs, Felsworn].
+
+<Callout type="success" title="Utilidad de Grupo">
+La capacidad del Tyrant para mejorar la celeridad de todo el grupo los convierte en una de las especializaciones de tanque más deseadas para limpiezas rápidas de mazmorras y progresión en bandas [7mcE4UtAxNs, Felsworn].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión del Felsworn Paso a Paso">
+
+Si estás comenzando un nuevo personaje Felsworn, sigue este camino de progresión para pasar de ser un iniciado a un conquistador de alto nivel [7mcE4UtAxNs, Felsworn].
+
+<Steps>
+  <Step num="1" title="Elige tu Camino y Raza">
+    Selecciona tu facción y raza [Felsworn]. Los Elfos de la Noche y los Elfos de Sangre son muy recomendados debido a las pasivas raciales que complementan la evasión y la generación de recursos.
+  </Step>
+  <Step num="2" title="Domina el Ritmo del Combo">
+    Practica tus secuencias de ataque básico en las primeras mazmorras [Felsworn]. Generar y gastar runas de *Furia Vil* eficientemente es la diferencia entre un DPS mediocre y uno de élite [7mcE4UtAxNs].
+  </Step>
+  <Step num="3" title="Busca Equipo de Cuero Específico">
+    Colecciona equipo de cuero de Intelecto si juegas como Infernal, o equipo de cuero pesado en Agilidad y Esquive si juegas como Slayer o Tyrant [Felsworn].
+  </Step>
+  <Step num="4" title="Optimiza tus Runas">
+    Gasta tus runas de Furia Vil estratégicamente [7mcE4UtAxNs]. Utilízalas para golpear a múltiples enemigos, succionar vida cuando estés bajo de salud o incendiar tu cuerpo en fuego vil para causar un daño pasivo masivo [7mcE4UtAxNs].
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación del Endgame del Felsworn">
+
+Para asegurar que tu Felsworn esté totalmente optimizado para las bandas de nivel máximo como Núcleo de Magma y la Guarida de Onyxia en el reino Conquest of Azeroth, completa los siguientes hitos [Felsworn]:
+
+<Checklist
+  id="felsworn-endgame"
+  title="Hitos del Endgame:"
+  items={[
+    "Alcanzar el nivel máximo y desbloquear todas las habilidades principales de clase.",
+    "Obtener un conjunto completo de armadura de cuero especializada (Intelecto o Agilidad).",
+    "Dominar la rotación de generación y gasto de runas de Furia Vil.",
+    "Adquirir consumibles clave para maximizar los índices de celeridad y golpe crítico.",
+    "Configurar tus atajos de teclado para ejecutar secuencias rápidas de combos con fluidez."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el recurso principal del Felsworn en Conquest of Azeroth?",
+    answer: "El Felsworn utiliza runas de Furia Vil (Fel Fury), que se generan al ejecutar ataques marciales y mágicos específicos en un orden preciso."
+  },
+  {
+    question: "¿Puede el Felsworn jugar como sanador?",
+    answer: "No, el Felsworn está diseñado estrictamente para cumplir roles de DPS a Distancia (Infernal), DPS Cuerpo a Cuerpo (Slayer) o Tanque (Tyrant)."
+  },
+  {
+    question: "¿Qué razas pueden jugar como Felsworn?",
+    answer: "Para la Alianza, puedes jugar como Elfo de la Noche o Draenei. Para la Horda, puedes jugar como Elfo de Sangre u Orco."
+  },
+  {
+    question: "¿Cómo tanquea el Tyrant sin escudo?",
+    answer: "El Tyrant es un tanque de evasión. Intercambian la salida de daño puro por una mayor armadura y resistencia, confiando en una alta probabilidad de esquive para evitar ataques enemigos y activar Fel Strikes de represalia."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "conquest of azeroth manastorm: Mejores Builds y Rotación",
+  description: "Domina la clase Manastorm en Conquest of Azeroth. Descubre las mejores configuraciones de talentos, prioridades de estadísticas, rotaciones y recomendaciones de equipo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Manastorm+Class+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de conquest of azeroth",
+  keywords: "conquest of azeroth, manastorm, build, rotacion, talentos, estadisticas, equipo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Resumen de la clase**: La clase **conquest of azeroth manastorm** es un taumaturgo arcano de alto riesgo y gran recompensa que se enfoca en el daño caótico.
+- **Estadísticas principales**: Prioriza el **Poder con hechizos** (Spell Power) y el **Crítico con hechizos** (Spell Crit) para maximizar tu daño explosivo.
+- **Mecánica principal**: Equilibra tus acumulaciones de **Inestabilidad de Maná** (Mana Instability) para evitar el daño autoinfligido mientras mantienes el máximo DPS.
+- **Mejor build**: La configuración de **Singularidad Arcana** (Arcane Singularity) ofrece la rotación más estable para las incursiones de banda en el juego tardío.
+</Callout>
+
+<Section icon={Sparkles} title="conquest of azeroth manastorm: Resumen de la Clase">
+
+La clase **conquest of azeroth manastorm** es una de las clases de lanzamiento de hechizos más dinámicas y caóticas disponibles en esta expansión personalizada. Al operar con un sistema de recursos único conocido como Inestabilidad de Maná, esta clase desafía a los jugadores a equilibrar el poder destructivo puro con una gestión cuidadosa de los recursos. A diferencia de los magos tradicionales que dependen de reservas de maná estables, el Manastorm prospera al borde del colapso mágico, convirtiendo corrientes arcanas volátiles en hechizos devastadores.
+
+Para jugar esta clase de manera efectiva, debes comprender cómo interactúan tus hechizos con tu nivel de inestabilidad. Generar demasiada inestabilidad desencadena una reacción violenta, mientras que generar muy poca hace que tu daño se quede atrás en comparación con otras clases de DPS. La siguiente tabla detalla las habilidades principales que forman la base de esta clase.
+
+| Habilidad | Coste | Tiempo de Lanzamiento | Descripción |
+| :--- | :--- | :--- | :--- |
+| Descarga Arcana (Arcane Bolt) | 2% de Maná | 1.5s | Dispara una descarga rápida de energía arcana, generando 1 acumulación de Inestabilidad. |
+| Tempestad de Maná (Mana Tempest) | 15% de Maná | Canalizado | Canaliza una tormenta de energía caótica, dañando a todos los enemigos en un radio de 8 metros. |
+| Descarga de Inestabilidad (Instability Discharge) | Ninguno | Instantáneo | Consume todas las acumulaciones de Inestabilidad para desatar una enorme ráfaga de daño. |
+| Evocación del Caos (Evocation of Chaos) | 5% de Maná | Instantáneo | Aumenta la celeridad con hechizos en un 15% pero incrementa el daño recibido en un 10% durante 10s. |
+
+<Callout type="info" title="Gestión de la Inestabilidad">
+Gestionar tu recurso de Inestabilidad es la clave para dominar al Manastorm. Superar las 10 acumulaciones provoca una Reacción Violenta de Maná (Mana Backlash), lo que te silencia durante 3 segundos e inflige daño moderado a tu personaje.
+</Callout>
+
+Cada hechizo que lanzas altera el equilibrio de tu poder. Descarga Arcana sirve como tu generador principal, permitiéndote acumular Inestabilidad rápidamente. Una vez que alcances el umbral óptimo, debes descargar esta energía para maximizar tu daño. Tempestad de Maná es tu herramienta principal para enfrentarte a grupos de enemigos, lo que la hace muy efectiva en mazmorras y escenarios con daño en área.
+
+</Section>
+
+<Section icon={Swords} title="Builds de Talentos Óptimas y Personalización">
+
+Elegir el árbol de talentos adecuado es crucial para definir tu estilo de juego como Manastorm. La clase cuenta con tres especializaciones distintas que se adaptan a diferentes roles, ya sea que prefieras un daño sostenido a un solo objetivo en bandas, un daño rápido en área en mazmorras o utilidad defensiva en combates jugador contra jugador.
+
+Hemos categorizado las tres rutas principales de configuración para ayudarte a elegir la mejor opción para tus objetivos actuales de progresión.
+
+<CardGrid cols={3}>
+  <Card title="Especialización de Singularidad">
+    - **Alto DPS a un solo objetivo**
+    - Enfocado en combates contra jefes
+    - Requiere una disciplina estricta en la rotación
+  </Card>
+  <Card title="Especialización de Tempestad">
+    - **Daño en área excepcional**
+    - Ideal para limpiar mazmorras
+    - Alta tasa de consumo de maná
+  </Card>
+  <Card title="Especialización de Retroalimentación">
+    - **Mayor supervivencia**
+    - Convierte el maná en escudos
+    - Opción preferida para el combate PvP
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia sobre la Selección de Talentos">
+No mezcles talentos de Singularidad y Tempestad al principio de tu fase de nivelación. Concentrarte en un solo árbol desbloquea poderosos talentos definitivos más rápido, lo que mejora significativamente tu velocidad general para subir de nivel.
+</Callout>
+
+Cada especialización depende de talentos clave específicos para desbloquear todo su potencial. La siguiente tabla compara los atributos principales de cada configuración para ayudarte a decidir qué camino se adapta mejor a la composición de tu grupo y a tus preferencias de juego.
+
+| Nombre de la Build | Rol Principal | Dificultad | Talento Clave |
+| :--- | :--- | :--- | :--- |
+| Singularidad | DPS de Banda | Alta | Punto de Colapso (Collapse Point) |
+| Tempestad | Limpieza de Mazmorras | Media | Tormenta Sobrecargada (Overloaded Storm) |
+| Retroalimentación | PvP / Supervivencia | Alta | Resguardo Arcano (Arcane Ward) |
+
+La configuración de Singularidad sigue siendo la mejor opción para las bandas de nivel máximo debido a su excelente escalado contra un solo objetivo. Al enfocarte en talentos que potencian Descarga Arcana y Descarga de Inestabilidad, podrás mantener una posición altamente competitiva en los medidores de daño.
+
+</Section>
+
+<Section icon={Shield} title="Prioridad de Estadísticas y Elección de Equipamiento">
+
+Equipar a tu personaje requiere una comprensión clara de cómo afectan las diferentes estadísticas a tu rendimiento al lanzar hechizos. A diferencia de los taumaturgos tradicionales que priorizan el Espíritu para la regeneración pasiva de maná, el Manastorm depende de habilidades activas para recuperar recursos, lo que hace que las estadísticas de regeneración pasiva sean mucho menos valiosas.
+
+Tu objetivo principal al seleccionar equipo es maximizar tu poder con hechizos y tu probabilidad de golpe crítico para activar poderosas sinergias de talentos.
+
+| Estadística | Prioridad | Umbral Objetivo | Beneficio |
+| :--- | :--- | :--- | :--- |
+| Poder con hechizos | 1.ª | Ninguno (Acumular indefinidamente) | Incrementa directamente el daño base de los hechizos |
+| Crítico con hechizos | 2.ª | 30% sin bufos | Activa las activaciones del talento de oleada crítica |
+| Índice de celeridad | 3.ª | Límite blando del 12% | Reduce el tiempo de reutilización global y los tiempos de lanzamiento |
+| Intelecto | 4.ª | Maximizar en el equipo | Aumenta la reserva de maná y la probabilidad de crítico |
+
+<Callout type="success" title="Estrategia de Equipamiento">
+Busca equipo que tenga Poder con hechizos y Probabilidad de crítico como estadísticas principales. Evita el Espíritu por completo, ya que tus habilidades activas te proporcionan toda la regeneración de maná que necesitas durante el combate.
+</Callout>
+
+El Intelecto sigue siendo una estadística secundaria sólida porque aumenta tu reserva total de maná, brindándote un mayor margen antes de quedarte sin recursos durante encuentros prolongados. La Celeridad es beneficiosa hasta el límite blando del 12%, lo que te permite encajar un hechizo adicional en tus ventanas de ráfaga de daño sin arriesgarte a perder acumulaciones de talentos.
+
+</Section>
+
+<Section icon={Target} title="Rotación de DPS Paso a Paso">
+
+Ejecutar la rotación correcta es esencial para maximizar tu daño y evitar la temida Reacción Violenta de Maná. La rotación se centra en acumular tus cargas de Inestabilidad hasta un límite seguro y luego descargarlas para infligir un daño explosivo.
+
+Sigue estos pasos para realizar la rotación de DPS óptima para un solo objetivo durante los encuentros con jefes.
+
+<Steps>
+  <Step num="1" title="Bufos Previos al Combate">
+    Activa tus escudos protectores y bufos de utilidad antes de entablar combate con el objetivo para garantizar la máxima seguridad.
+  </Step>
+  <Step num="2" title="Acumular Inestabilidad">
+    Lanza Descarga Arcana repetidamente para acumular tus cargas de Inestabilidad hasta un nivel objetivo de 8 o 9.
+  </Step>
+  <Step num="3" title="Desatar la Descarga">
+    Lanza Descarga de Inestabilidad para consumir todas las acumulaciones guardadas e infligir un daño de ráfaga masivo al objetivo.
+  </Step>
+  <Step num="4" title="Gestionar el Maná">
+    Activa Evocación del Caos cuando tu maná caiga por debajo del 30% para restaurar rápidamente tus recursos y mantener el ciclo.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Seguridad en la Rotación">
+Lanza siempre Descarga de Inestabilidad al tener 8 o 9 acumulaciones. Esperar a las 10 acumulaciones conlleva el riesgo de provocar un silencio autoinfligido, lo que detiene por completo tu rotación de DPS y reduce tu rendimiento general.
+</Callout>
+
+Durante los encuentros con múltiples objetivos, modifica esta rotación reemplazando Descarga Arcana por Tempestad de Maná una vez que hayas agrupado a los enemigos. Este ajuste garantiza un alto daño en área mientras sigues generando la inestabilidad necesaria para tus descargas.
+
+| Prioridad | Hechizo | Condición |
+| :--- | :--- | :--- |
+| 1 | Descarga de Inestabilidad | Con 8-9 acumulaciones de Inestabilidad |
+| 2 | Descarga Arcana | Para acumular cargas de Inestabilidad |
+| 3 | Tempestad de Maná | Contra 3 o más objetivos |
+| 4 | Evocación del Caos | Cuando te quede poco maná o durante fases de ráfaga |
+
+</Section>
+
+<Section icon={Trophy} title="Progresión en el Juego Tardío y Equipo BiS">
+
+Alcanzar el nivel máximo es solo el comienzo de tu viaje. Para participar en bandas de alto nivel y desafiantes mazmorras, debes conseguir piezas de equipo específicas que complementen tu estilo de juego. Concéntrate en completar mazmorras de nivel alto para asegurar tus objetos pre-banda Best-in-Slot (BiS).
+
+Utiliza la siguiente lista de verificación para seguir tu progreso mientras preparas a tu personaje para las bandas del juego tardío.
+
+<Checklist
+  id="progression-goals"
+  title="Hitos del Juego Tardío:"
+  items={[
+    "Completa la cadena de misiones de clase para obtener el Objeto de mano izquierda Épico",
+    "Alcanza el estado de Exaltado con la facción de la Asamblea Arcana",
+    "Consigue cuatro piezas del conjunto Manastorm de Nivel 1",
+    "Obtén un bastón de alto daño de los jefes de mazmorra del juego tardío"
+  ]}
+/>
+
+<Callout type="info" title="Prioridad de Encantamientos">
+Aplica encantamientos de Poder con hechizos a tu arma y piezas de pecho lo antes posible. Estos encantamientos proporcionan el mayor incremento individual a tu daño general de hechizos.
+</Callout>
+
+La siguiente tabla enumera los mejores objetos pre-banda que deberías buscar, junto con sus ubicaciones de obtención y los jefes que debes derrotar para conseguirlos.
+
+| Ranura | Nombre del Objeto | Ubicación | Jefe |
+| :--- | :--- | :--- | :--- |
+| Arma | Bastón del Nexo (Staff of the Nexus) | Cumbre de Roca Negra Superior | General Ira de Yunque |
+| Pecho | Toga de Inestabilidad (Robes of Instability) | Núcleo de Magma | Barón Geddon |
+| Abalorio | Ojo de la Tormenta (Eye of the Storm) | Scholomance | Director oscuro Gandling |
+| Anillos | Anillo de Furia Arcana (Band of Arcane Fury) | Guarida de Onyxia | Onyxia |
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<Callout type="tip" title="Recursos de la Comunidad">
+Únete a los canales oficiales de la comunidad de la clase para debatir sobre las variantes de las builds, compartir hojas de cálculo de teoría y mantenerte al día con los últimos parches de equilibrio.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor raza para una build de manastorm en conquest of azeroth?",
+    answer: "Los Gnomos y los Humanos son las mejores opciones para la Alianza debido a sus bonificaciones de intelecto y espíritu. Para la Horda, los Renegados y los Elfos de Sangre ofrecen las mejores facultades raciales ofensivas y de utilidad."
+  },
+  {
+    question: "¿Cómo me recupero de una Reacción Violenta de Maná durante un combate?",
+    answer: "Si provocas una reacción violenta, activa tus escudos defensivos inmediatamente para absorber el daño entrante y espera a que termine la duración del silencio antes de reiniciar tu rotación de hechizos."
+  },
+  {
+    question: "¿Es la clase Manastorm viable para subir de nivel en solitario?",
+    answer: "Sí. Al utilizar la especialización de Tempestad, puedes atraer fácilmente a múltiples enemigos a la vez y destruirlos rápidamente usando tus hechizos de daño en área de alto impacto."
+  }
+]} />
+
+</Section>

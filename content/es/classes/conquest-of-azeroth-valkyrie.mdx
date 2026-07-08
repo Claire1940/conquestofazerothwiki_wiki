@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Valkyrie: Guía de build de Clérigo del Sol",
+  description: "Domina la build de DPS cuerpo a cuerpo de fuego sagrado empuñando dos armas en Conquest of Azeroth. Aprende los mejores talentos, equipo y estrategias de leveo para el Clérigo del Sol Valquiria.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Valkyrie+Sun+Cleric+Guide",
+  date: "2026-07-08",
+  author: "Equipo de Wiki de Conquest of Azeroth",
+  keywords: "conquest of azertoh, valkyrie, clerigo del sol, build, guia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque principal de la build**: La **valquiria de Conquest of Azeroth** es una especialización de DPS cuerpo a cuerpo de fuego sagrado y empuñadura doble para la clase Clérigo del Sol.
+- **Mecánica principal**: Cambia los escudos tradicionales por una segunda espada, convirtiendo el poder defensivo en daño ofensivo sagrado y de fuego.
+- **Mejores estadísticas**: Concéntrate en Fuerza, Poder con hechizos, Celeridad y Daño de hechizos de Fuego/Sagrado para maximizar el escalado híbrido.
+- **Ruta de equipamiento**: Caza Templarios Escarlata y Piromantes para obtener botines inmersivos, y busca objetos Forjados por el Mundo específicos de temática de fuego.
+</Callout>
+
+<Section icon={Sparkles} title="El arquetipo del Clérigo del Sol Valquiria">
+
+El Clérigo del Sol es un formidable paladín del sol abrasador que castiga a sus enemigos con fuego injusto. Mientras que algunos jugadores eligen seguir el camino del tanque defensivo o de la curación de apoyo, la especialización de Valquiria redefine por completo la clase. Al cambiar tu escudo por una segunda espada, inviertes profundamente en el daño ofensivo sagrado y de fuego para destrozar tanto a los lanzadores de sombras como a los enemigos basados en la escarcha.
+
+En el ecosistema de clases personalizadas de Conquest of Azeroth, la Valquiria destaca como un DPS híbrido de primer nivel. No eres solo un guerrero con luces llamativas; eres un coloso lanzador de hechizos que empuña dos armas y explota las debilidades de criaturas de RPG específicas. Si quieres derretir objetivos con armadura alta usando fuego mágico mientras mantienes la durabilidad de la armadura de placas, esta es la especialización para ti.
+
+**Vídeos destacados:**
+- **21 clases personalizadas**: Descubre cómo encaja el Clérigo del Sol en la enorme lista de clases personalizadas.
+- **Rediseño de criaturas RPG**: Comprende cómo los enemigos con alta armadura física son vulnerables al fuego sagrado de la Valquiria.
+- **Botines de equipo inmersivos**: Mira cómo derrotar a enemigos específicos te otorga el equipo exacto que tu Valquiria necesita.
+- **Tesoros Forjados por el Mundo**: Descubre cómo encontrar objetos interactivos en el mundo abierto para potenciar tu daño.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Full Release: Conquest of Azeroth - Ascension WoW" />
+
+<Callout type="success" title="¿Por qué jugar con la Valquiria?">
+La Valquiria es una de las especializaciones más espectaculares visualmente en el meta de 2026. Empuñar dos espadas mientras caen cascadas de luz sagrada y llamaradas solares crea un bucle de combate increíblemente satisfactorio.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Talentos de Valquiria y comparación de especializaciones">
+
+Conquest of Azeroth cuenta con un sistema de talentos modernizado. Navegarás por un único árbol de clase que se mantiene constante para todos los Clérigos del Sol, junto con un árbol de especialización único que se desbloquea a nivel 10. Para la Valquiria, tus elecciones de talentos deben priorizar el índice de golpe con doble empuñadura, la conversión de daño de fuego y la probabilidad de golpe crítico.
+
+Para ayudarte a comprender dónde encaja la Valquiria dentro de la clase Clérigo del Sol, hemos comparado las tres especializaciones principales a continuación.
+
+<CardGrid cols={3}>
+  <Card title="Valquiria (DPS)">
+    - **Empuña dos espadas**
+    - Alto daño cuerpo a cuerpo Sagrado/Fuego
+    - Excelente contra enemigos de sombra/escarcha
+  </Card>
+  <Card title="Serafín (Tanque)">
+    - **Usa escudo y espada**
+    - Alta mitigación de daño físico
+    - Destaca tanqueando hordas de no-muertos
+  </Card>
+  <Card title="Bendiciones (Soporte)">
+    - **Se enfoca en bufos para el grupo**
+    - Alta curación y utilidad
+    - Mejora la eficiencia de combate del grupo
+  </Card>
+</CardGrid>
+
+Al armar tu árbol de talentos, ciertos talentos clave son innegociables. La siguiente tabla destaca los talentos esenciales que debes seleccionar para optimizar tu rendimiento de DPS.
+
+| Nombre del Talento | Árbol | Descripción | Valoración |
+|---|---|---|---|
+| **Hojas abrasadoras** | Rama Valquiria | Imbuye las armas empuñadas doblemente con daño de fuego | ★★★★★ |
+| **Llamarada solar** | Árbol de Clase | Inflige daño de fuego instantáneo y ciega al objetivo | ★★★★☆ |
+| **Ira radiante** | Rama Valquiria | Aumenta el daño sagrado después de un golpe crítico | ★★★★★ |
+| **Piedad del Clérigo del Sol** | Árbol de Clase | Aumenta el intelecto base y la reserva de maná | ★★★☆☆ |
+
+<Callout type="tip" title="Gestión de recursos">
+Debido a que empuñas dos armas, tus ataques automáticos generan energía sagrada rápidamente. Usa esta energía para intercalar Llamaradas solares de lanzamiento instantáneo entre tus golpes físicos para maximizar tu daño por segundo (DPS).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamiento, botines inmersivos y objetos Forjados por el Mundo">
+
+El rediseño de las criaturas de RPG cambia por completo la forma en que te equipas. Los enemigos que acumulan armadura física ignorarán los ataques físicos básicos, pero son increíblemente débiles al daño híbrido de la Valquiria. Para aprovechar esto al máximo, debes cazar piezas de equipo específicas.
+
+Con los botines de objetos inmersivos, las criaturas realmente sueltan el equipo que llevan puesto. Para obtener armadura de placas con poder con hechizos, debes apuntar a los Templarios Escarlata, Piromantes y cultistas de alto nivel. Además, el mundo abierto está lleno de más de 1800 objetos Forjados por el Mundo: objetos interactivos ocultos en ubicaciones temáticas que ofrecen efectos únicos que definen al personaje.
+
+| Nombre del Objeto | Tipo | Efecto Clave | Ubicación de Botín |
+|---|---|---|---|
+| **Anillo abrasador** | Anillo | Añade daño de fuego a los ataques físicos | Cofres del Mundo Abierto |
+| **Botas ardientes** | Botas | Aumenta la velocidad de movimiento y el poder con hechizos de fuego | Montañas de Crestagrana |
+| **Amuleto solar** | Collar | Cura al usuario al asestar golpes críticos sagrados | Vega de Tuercespina |
+
+<Callout type="warning" title="No descartes los objetos Forjados por el Mundo">
+Incluso si encuentras un objeto Forjado por el Mundo de nivel bajo con un efecto temático perfecto, ¡consérvalo! Una vez que alcances el límite de nivel de 2026, puedes mejorar estos objetos al nivel máximo usando Runas de Ascensión.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ruta de leveo y Pruebas Hardcore">
+
+Subir de nivel a una Valquiria es una aventura de infinitas posibilidades. Puedes elegir jugar en el modo JvE estándar, participar en el modo Guerra de alta adrenalina o desafiarte a ti mismo con las Pruebas Hardcore. Si quieres una experiencia de leveo única, habla con el PNJ de Desafío en tu zona de inicio.
+
+A continuación se muestra la ruta de progresión paso a paso óptima para subir de nivel a tu Valquiria desde el nivel 1 hasta el límite del juego final.
+
+<Steps>
+  <Step num="1" title="Maestría en la zona de inicio">
+    Completa todas las misiones renovadas en tu zona de inicio racial. Concéntrate en obtener tus hechizos básicos de Clérigo del Sol y reunir equipo físico básico.
+  </Step>
+  <Step num="2" title="Desbloquear la rama de Valquiria">
+    Al nivel 10, desbloquea el árbol de especialización de Valquiria. Equípate inmediatamente una segunda espada y selecciona el talento Hojas abrasadoras para comenzar a empuñar dos armas.
+  </Step>
+  <Step num="3" title="Farmeo de monstruos específicos">
+    Viaja a zonas como Páramos de Poniente o las Montañas de Crestagrana. Apunta a bandidos con armadura ligera para eliminaciones rápidas, o farmea miembros de la Cruzada Escarlata para obtener equipo de placas con poder con hechizos temprano.
+  </Step>
+  <Step num="4" title="Ebanistería y Herrería">
+    Aprende Ebanistería como profesión secundaria para fabricar bastones de estadísticas para la mano secundaria, y usa Herrería para forjar espadas de doble empuñadura con afijos de poder con hechizos.
+  </Step>
+</Steps>
+
+Para asegurarte de mantener el rumbo durante tu viaje, mantén a mano esta lista de verificación de progresión mientras exploras Azeroth.
+
+<Checklist
+  id="valkyrie-leveling-goals"
+  title="Objetivos de leveo de la Valquiria:"
+  items={[
+    "Desbloquear la especialización de Valquiria al nivel 10",
+    "Adquirir dos espadas de calidad azul con poder con hechizos de fuego o sagrado",
+    "Completar la cadena de misiones secretas de contrabando de los Defias en Páramos de Poniente",
+    "Encontrar al menos tres objetos Forjados por el Mundo de temática de fuego en el mundo abierto",
+    "Alcanzar el nivel máximo y preparar tu equipo BiS previo a la banda"
+  ]}
+/>
+
+<Callout type="info" title="Sistema de Prestigio">
+Si te encanta el viaje de subir de nivel, puedes usar el sistema de Prestigio al nivel máximo. Esto te restablece al nivel 1 pero te permite conservar tu equipo, profesiones y oro, recompensándote con un cofre de botín al alcanzar el límite nuevamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Dominación JvE y JvJ en el Endgame">
+
+Una vez que alcances el límite de nivel en 2026, comienza el verdadero desafío. Como Valquiria, eres muy cotizada tanto en mazmorras como en bandas debido a tu alto daño de hendidura y utilidad sagrada pasiva. Purificarás los males de las Criptas de Karazhan y derrotarás a jefes icónicos en bandas renovadas como Núcleo de Magma en dificultad Ascendida.
+
+En JvJ, la Valquiria es una fuerza aterradora. Ya sea que juegues en el modo Guerra estándar o lo arriesgues todo en el modo de Alto Riesgo para obtener equipo forjado con sangre, tu daño híbrido hace que sea increíblemente difícil equiparse contra ti.
+
+| Ranura | Nombre del Objeto | Fuente | Estadísticas Clave |
+|---|---|---|---|
+| **Mano derecha** | Hoja solar escarlata | Monasterio Escarlata | Fuerza, Poder con hechizos de fuego |
+| **Mano izquierda** | Hoja de hechizo abrasadora | Botín de Piromantes | Intelecto, Poder con hechizos sagrados |
+| **Pecho** | Placa del Sol | Fabricación de Herrería | Fuerza, Aguante, Crítico de hechizos |
+| **Anillo** | Anillo de Ascensión | Tablón de anuncios del héroe | Todas las estadísticas, Poder con hechizos |
+
+Comprender tus enfrentamientos contra las criaturas RPG renovadas es clave para sobrevivir a los encuentros de alto nivel. Usa la siguiente tabla para planificar tus ataques.
+
+| Tipo de Enemigo | Rendimiento de Valquiria | Consejo Táctico | Calificación de Enfrentamiento |
+|---|---|---|---|
+| **No-muerto / Sombra** | Excelente | Usa hechizos Sagrados para explotar su enorme vulnerabilidad | 5/5 |
+| **Lanzadores de Escarcha** | Fuerte | Interrumpe hechizos de escarcha, acorta distancia con hojas dobles | 4/5 |
+| **Cuerpo a cuerpo de armadura pesada** | Fuerte | El daño Sagrado/Fuego pasa por alto la alta armadura física | 4/5 |
+| **Bestias rápidas** | Moderado | Haz cometa con hechizos de fuego a distancia si la salud baja | 3/5 |
+
+<Callout type="success" title="Consejo para Alto Riesgo">
+Si estás jugando en el modo JvJ de Alto Riesgo, usa tus facultades con tiempo de reutilización de ráfaga temprano. La capacidad de la Valquiria para infligir un daño sagrado masivo de ráfaga puede eliminar a los oponentes antes de que puedan reaccionar a tu asalto con doble empuñadura.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué hace que la valquiria de Conquest of Azeroth sea única en comparación con otras especializaciones del Clérigo del Sol?",
+    answer: "La Valquiria es la única especialización del Clérigo del Sol que te permite empuñar dos espadas. Cambia todos los talentos defensivos basados en escudo por un DPS cuerpo a cuerpo de alta velocidad de fuego y sagrado."
+  },
+  {
+    question: "¿Puedo usar armas que no sean espadas como Valquiria?",
+    answer: "Aunque se recomiendan encarecidamente las espadas debido al escalado de talentos específicos en el árbol de la Valquiria, puedes empuñar otras armas físicas si tienen los afijos necesarios de poder con hechizos."
+  },
+  {
+    question: "¿Es la Valquiria viable para levear en solitario?",
+    answer: "Sí. Gracias al dominio de la armadura de placas del Clérigo del Sol y al alto daño de ráfaga de la Valquiria, puedes derrotar fácilmente a monstruos de élite y jefes de misión en solitario a lo largo de tu viaje de leveo."
+  },
+  {
+    question: "¿Cómo mejoro mi equipo Forjado por el Mundo al nivel máximo?",
+    answer: "Puedes mejorar tus objetos Forjados por el Mundo favoritos usando Runas de Ascensión, que se obtienen al completar misiones diarias, realizar mazmorras y ganar campos de batalla."
+  }
+]} />
+
+<Callout type="tip" title="Veredicto Final">
+El Clérigo del Sol Valquiria es una especialización híbrida de nivel superior en 2026. Al equilibrar el combate físico con dos armas con una devastadora magia de fuego sagrado, te abrirás camino de destrucción tanto en bandas JvE como en campos de batalla JvJ.
+</Callout>
+
+</Section>

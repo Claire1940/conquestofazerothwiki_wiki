@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Conquest of Azeroth Pet-Klassen: 2026 Tier List & Build-Guide",
+  description: "Entdecke die besten Pet-Klassen in Conquest of Azeroth. Erfahre mehr über Skalierungsmechaniken, Builds und Progressionsstrategien für Nekromanten, Ranger und Tüftler.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Pet+Classes+Guide",
+  date: "2026-07-08",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Primäres Schlüsselwort**: Meistere die besten **Conquest of Azeroth Pet-Klassen**, um sowohl PvE-Dungeons als auch PvP-Schlachtfelder zu dominieren.
+- **Schlüsselmechanik**: Begleiter erben einen Teil deiner Primärwerte, was eine präzise Ausrüstungsauswahl entscheidend für maximalen Schaden macht.
+- **Beste Strategie**: Finde das Gleichgewicht zwischen deinem eigenen aktiven Zauberwirken und dem passiven Dienerschaden, um das Ressourcenmanagement zu optimieren.
+- **Wichtiger Tipp**: Priorisiere das Erreichen der Trefferwertungs-Grenze (Hit Cap) für Zauber oder physische Angriffe, bevor du stark in Sekundärwerte wie kritische Trefferwertung oder Tempo investierst.
+- **Beste Wahl**: Der Nekromant bleibt aufgrund seiner starken Selbstheilung und seiner vielfältigen Dienerschar die vielseitigste Pet-Klasse.
+</Callout>
+
+<Section icon={Map} title="Übersicht der Conquest of Azeroth Pet-Klassen">
+
+Die Wahl des richtigen Spielstils in der benutzerdefinierten Klassenerweiterung von Project Ascension erfordert ein Verständnis dafür, wie verschiedene Builds skalieren, insbesondere wenn es um die **Conquest of Azeroth Pet-Klassen** geht. Die Verwaltung eines Dieners, Wildtiers oder mechanischen Begleiters verändert deine Positionierung, deine Ausrüstungspriorität und deine Rotation. Im Gegensatz zu traditionellen Erweiterungen, in denen Begleiter zweitrangig sind, integriert dieses maßgeschneiderte Serverdesign den Schaden von Begleitern direkt in deine Kernklassen-Identität.
+
+Die primären Klassen, die in dieser benutzerdefinierten Umgebung Begleiter nutzen, sind der Nekromant, der Ranger und der Tüftler. Jede Klasse interagiert anders mit ihren Beschwörungen und bietet unterschiedliche taktische Vorteile, je nachdem, ob du lieber untote Horden kontrollierst, dich mit wilden Tieren koordinierst oder mechanische Konstrukte einsetzt.
+
+| Klasse | Primärer Begleiter | Hauptrolle | Komplexität | Skalierungswert |
+| :--- | :--- | :--- | :--- | :--- |
+| **Nekromant** | Untote Diener | DPS / Nutzen | Mittel | Zaubermacht / Intelligenz |
+| **Ranger** | Wildtiere | Fernkampf-DPS | Niedrig | Angriffskraft / Beweglichkeit |
+| **Tüftler** | Geschütze & Mechs | Zonenkontrolle / DPS | Hoch | Intelligenz / Tempo |
+
+<Callout type="info" title="Tipp zur Klassenwahl">
+Berücksichtige bei der Auswahl deiner Klasse, ob du ein aktives Begleiter-Management oder passiven Nutzen bevorzugst. Ranger bieten eine unkomplizierte Begleitersteuerung, während Tüftler eine präzise Platzierung stationärer Konstrukte erfordern.
+</Callout>
+
+Ein solides Verständnis dafür zu entwickeln, wie diese Begleiter mit den Werten deines Charakters skalieren, ist der erste Schritt zur Bewältigung von Endspiel-Inhalten. Ohne die richtige Werteverteilung wird es deinen Begleitern an der nötigen Zähigkeit und dem Schaden fehlen, die für Schlachtzüge der oberen Stufen erforderlich sind.
+
+</Section>
+
+<Section icon={Swords} title="Diener-Mechaniken und Builds des Nekromanten">
+
+Der Nekromant ist eine der beliebtesten **Conquest of Azeroth Pet-Klassen**, da er mehrere untote Diener gleichzeitig beschwören kann. Im Gegensatz zu Standardklassen verlässt sich der Nekromant auf eine Kombination aus dauerhaften Beschwörungen und temporären Wächtern, um Ziele zu überwältigen. Die Verwaltung dieser Diener erfordert ein Gleichgewicht deines Manaverbrauchs zwischen direkten Schattenzaubern und Beschwörungsritualen.
+
+Um die Effizienz deiner Diener zu maximieren, musst du die spezifischen Rollen jeder untoten Beschwörung verstehen. Einige Diener fungieren als Schutzschilder an der Front, während andere Fernkampf-Zauberunterstützung oder nützliche Stärkungszauber bieten.
+
+| Dienertyp | Hauptrolle | Schlüsselfähigkeit | Bestes Szenario |
+| :--- | :--- | :--- | :--- |
+| **Skelettkrieger** | Nahkampf-DPS / Off-Tank | Spaltender Schlag | AoE-Bereinigung |
+| **Skelettmagier** | Fernkampf-Magie-DPS | Schattenblitz | Einzelziel-Bosse |
+| **Abscheulichkeit** | Tanken / Schadensvermeidung & Kontrolle | Haken und Betäubung | PvP und Dungeons |
+
+<Callout type="warning" title="Bedrohungsmanagement der Diener">
+Skelettkrieger können leicht die Bedrohung vom Haupttank deiner Gruppe abziehen, wenn ihre automatisch gewirkten Fähigkeiten nicht richtig verwaltet werden. Deaktiviere ihre aggressive Haltung während Gruppen-Dungeons.
+</Callout>
+
+Um dir bei der Wahl des richtigen Spielstils zu helfen, haben wir unten die drei effektivsten Nekromanten-Spezialisierungen im Detail beschrieben.
+
+<CardGrid cols={3}>
+  <Card title="Seuchenkommandant">
+    - **Fokus auf DoTs**: Verbreitet Krankheiten, die den Nahkampfschaden von Begleitern erhöhen.
+    - **Hoher AoE-Schaden**: Hervorragend geeignet zum Beseitigen großer Gruppen von Trash-Mobs.
+    - **Einfache Rotation**: Sehr fehlerverzeihend für Anfänger.
+  </Card>
+  <Card title="Schreckensfürst">
+    - **Massenbeschwörung**: Konzentriert sich darauf, die maximale Anzahl an Skeletten aktiv zu halten.
+    - **Burst-Schaden**: Nutzt Begleiter-Opferungen für massive Schadensspitzen.
+    - **Ressourcenintensiv**: Erfordert sorgfältiges Manamanagement.
+  </Card>
+  <Card title="Seelenernter">
+    - **Hybrid-Unterstützung**: Wandelt Begleiterschaden in Heilung für die Gruppe um.
+    - **Hoher Nutzen**: Sehr gefragt in Dungeon-Gruppen.
+    - **Geringerer Solo-DPS**: Tauscht persönlichen Schaden gegen das Überleben der Gruppe ein.
+  </Card>
+</CardGrid>
+
+Unabhängig von der gewählten Spezialisierung solltest du immer darauf achten, dass deine Ausrüstung über ausreichend Zaubermacht verfügt, da dieser Wert direkt den Gesundheitspool und die Angriffskraft deiner beschworenen Untoten erhöht.
+
+</Section>
+
+<Section icon={Sparkles} title="Begleiter-Synergie von Ranger und Tüftler">
+
+Für Spieler, die mechanische Präzision oder wilde Tiere den Untoten vorziehen, bieten der Ranger und der Tüftler äußerst wettbewerbsfähige Alternativen. Der Ranger konzentriert sich auf einen einzelnen, mächtigen Tierbegleiter, der von deinen physischen Fernkampfangriffen profitiert. Dies sorgt für einen hochdynamischen Spielstil, bei dem du Gegner kitest, während dein Begleiter von hinten angreift.
+
+Tüftler hingegen nutzen stationäre Geschütze und mobile mechanische Konstrukte. Diese Klasse verlässt sich stark auf Zonenkontrolle, was sie in defensiven PvP-Szenarien und strukturierten Schlachtzugsbegegnungen unglaublich stark macht.
+
+| Begleiter / Konstrukt | Gewährter Buff | Dauer | Abklingzeit |
+| :--- | :--- | :--- | :--- |
+| **Wolf (Ranger)** | Wütendes Geheul (AP-Buff) | 20 Sekunden | 40 Sekunden |
+| **Flammengeschütz (Tüftler)** | Feuerempfindlichkeit | Dauerhaft (Aktiv) | Keine |
+| **Schildgenerator (Tüftler)** | Schadensabsorption | 15 Sekunden | 60 Sekunden |
+
+<Callout type="success" title="Platzierungsstrategie für Tüftler">
+Die Positionierung deiner Flammengeschütze in der Nähe von Ecken oder Engpässen stellt sicher, dass Gegner maximalen Schaden erleiden, bevor sie deinen Charakter erreichen können.
+</Callout>
+
+Ranger sollten sich auf Beweglichkeit und physische Trefferwertung konzentrieren, um sicherzustellen, dass sowohl ihre eigenen Schüsse als auch die Angriffe ihres Begleiters zuverlässig treffen. Tüftler müssen Tempo priorisieren, da es direkt die Angriffsgeschwindigkeit aller aufgestellten Geschütze erhöht, was zu einer erheblichen Steigerung des kontinuierlichen Schadens führt.
+
+</Section>
+
+<Section icon={Target} title="So optimierst du den Fortschritt deiner Pet-Klasse">
+
+Optimierung des Charakterfortschritts ist unerlässlich, wenn du hochstufige Inhalte in Angriff nehmen willst. Die Ausrüstung eines Charakters mit Begleitern erfordert einen anderen Ansatz als die Ausrüstung eines Standard-Zauberers oder Nahkämpfers. Befolge diese strukturierten Schritte, um sicherzustellen, dass dein Charakter für das Endspiel optimiert ist.
+
+<Steps>
+  <Step num="1" title="Erste Ausrüstungsauswahl">
+    Konzentriere dich voll und ganz darauf, Ausrüstung mit deinem Primärwert zu sammeln (Intelligenz für Nekromanten und Tüftler, Beweglichkeit für Ranger). Vermeide anfangs komplexe Sekundärwerte.
+  </Step>
+  <Step num="2" title="Optimierung der Trefferwertung">
+    Stelle sicher, dass du die physische oder Zauber-Trefferwertungs-Grenze für deine aktuelle Stufe erreichst. Wenn dein Charakter einen Angriff verfehlt, sinkt die Skalierungseffizienz deines Begleiters drastisch.
+  </Step>
+  <Step num="3" title="Klassentalente freischalten">
+    Verteile deine Talentpunkte auf Knotenpunkte, die direkt die Gesundheit, die Schadensvererbung und das Angriffstempo des Begleiters erhöhen, bevor du deine eigenen direkten Schadenszauber verstärkst.
+  </Step>
+  <Step num="4" title="Benutzerdefinierte Glyphen erwerben">
+    Rüste benutzerdefinierte Klassenglyphen aus, die das Verhalten von Begleitern modifizieren, wie z. B. die Reduzierung der Abklingzeiten von Hilfszaubern der Begleiter oder die Erhöhung ihrer Resistenz gegen Flächenschaden (AoE).
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Ausrüstungs-Ratschlag">
+Vernachlässige nicht deine eigene Überlebensfähigkeit. Ein toter Beschwörer kann seine Begleiter nicht befehligen, also stelle sicher, dass du neben deinen offensiven Werten auch einen angemessenen Vorrat an Ausdauer behältst.
+</Callout>
+
+Verwende die folgende Checkliste, um deine Meilensteine im Fortschritt zu verfolgen, während du deinen Charakter auf herausfordernde Endspiel-Begegnungen vorbereitest.
+
+<Checklist
+  id="pet-class-progression"
+  title="Checkliste für die Endspiel-Bereitschaft:"
+  items={[
+    "Erreiche die für deine Stufe angemessene Trefferwertungs-Grenze für Zauber oder physische Angriffe.",
+    "Schalte alle primären Begleiter-Hilfs- und aktiven Fähigkeiten bei deinem Lehrer frei.",
+    "Rüste mindestens drei benutzerdefinierte Klassenglyphen aus, die deinen Beschwörungen zugutekommen.",
+    "Erhalte eine Waffe mit hoher Skalierung des Primärwerts, um die Vererbung auf den Begleiter zu verstärken."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+Das Verständnis der Feinheiten des Begleiterverhaltens und der Skalierung kann schwierig sein. Nachfolgend findest du Antworten auf die häufigsten Fragen zu begleiterbasierten Spielstilen in dieser benutzerdefinierten Umgebung.
+
+<FAQ items={[
+  {
+    question: "Skalieren Begleiter in Conquest of Azeroth mit meinen Sekundärwerten?",
+    answer: "Ja. Begleiter erben einen Prozentsatz deines Tempos, deiner kritischen Trefferwertung und deiner Trefferwertung, zusätzlich zur direkten Skalierung über deine Primärattribute wie Beweglichkeit oder Zaubermacht."
+  },
+  {
+    question: "Was ist der einfachste Conquest of Azeroth Pet-Klassen-Build für Anfänger?",
+    answer: "Die Ranger-Klasse mit einem Wolfsbegleiter wird für Anfänger dringend empfohlen. Sie bietet unkomplizierte Mechaniken, hervorragendes Solo-Überleben und zuverlässigen Fernkampfschaden."
+  },
+  {
+    question: "Können Tüftler mehrere mechanische Konstrukte gleichzeitig aktiv haben?",
+    answer: "Ja, Tüftler können mehrere stationäre Geschütze und mobile Konstrukte gleichzeitig einsetzen, vorausgesetzt, sie verwalten ihre Abklingzeiten und Ressourcenkosten effektiv."
+  },
+  {
+    question: "Wie heile ich meine Begleiter als Nekromant während des Kampfes?",
+    answer: "Nekromanten können direkte Schattenheilungszauber verwenden oder Talentknoten nutzen, die Gesundheit von Gegnern direkt auf ihre aktiven untoten Diener übertragen."
+  }
+]} />
+
+<Callout type="info" title="Schlussbemerkung">
+Die Mechaniken der Begleiter unterliegen Balance-Updates. Überprüfe regelmäßig die Community-Updates, um über Anpassungen der Skalierungsprozentsätze und Nützlichkeitswerte auf dem Laufenden zu bleiben.
+</Callout>
+
+</Section>

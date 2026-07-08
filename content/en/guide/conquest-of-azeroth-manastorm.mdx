@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "conquest of azeroth manastorm: Best Builds & Rotation",
+  description: "Master the Manastorm class in Conquest of Azeroth. Discover top talent builds, stat priorities, rotations, and gear recommendations.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Manastorm+Class+Guide",
+  date: "2026-07-08",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Class overview**: The **conquest of azeroth manastorm** class is a high-risk, high-reward arcane spellcaster focusing on chaotic damage.
+- **Primary stats**: Prioritize **Spell Power** and **Spell Crit** to maximize your explosive damage output.
+- **Core mechanic**: Balance your **Mana Instability** stacks to prevent self-damage while maintaining maximum DPS.
+- **Best build**: The **Arcane Singularity** build offers the most stable rotation for endgame raiding.
+</Callout>
+
+<Section icon={Sparkles} title="conquest of azeroth manastorm: Class Overview">
+
+The **conquest of azeroth manastorm** class is one of the most dynamic and chaotic spellcasting classes available in the custom expansion. Operating on a unique resource system known as Mana Instability, this class challenges players to balance raw destructive power with careful resource management. Unlike traditional mages who rely on stable mana pools, the Manastorm thrives on the edge of magical collapse, converting volatile arcane currents into devastating spells.
+
+To play this class effectively, you must understand how your spells interact with your instability level. Generating too much instability triggers a backlash, while generating too little leaves your damage output lagging behind other DPS classes. The table below outlines the core abilities that form the foundation of this class.
+
+| Ability | Cost | Cast Time | Description |
+| Arcane Bolt | 2% Mana | 1.5s | Fires a quick bolt of arcane energy, generating 1 stack of Instability. |
+| Mana Tempest | 15% Mana | Channeled | Channels a storm of chaotic energy, damaging all enemies within 8 yards. |
+| Instability Discharge | None | Instant | Consumes all Instability stacks to unleash a massive burst of damage. |
+| Evocation of Chaos | 5% Mana | Instant | Increases spell haste by 15% but increases damage taken by 10% for 10s. |
+
+<Callout type="info" title="Instability Management">
+Managing your Instability resource is the key to mastering the Manastorm. Exceeding 10 stacks causes a Mana Backlash, silencing you for 3 seconds and dealing moderate damage to your character.
+</Callout>
+
+Every spell you cast shifts the balance of your power. Arcane Bolt serves as your primary builder, allowing you to stack Instability quickly. Once you reach the optimal threshold, you must discharge this energy to maximize your damage output. Mana Tempest is your primary tool for handling groups of enemies, making it highly effective in dungeon runs and area-of-effect scenarios.
+
+</Section>
+
+<Section icon={Swords} title="Optimal Talent Builds and Customization">
+
+Choosing the right talent tree is crucial for defining your playstyle as a Manastorm. The class features three distinct specializations that cater to different roles, whether you prefer sustained single-target damage in raids, rapid area-of-effect damage in dungeons, or defensive utility in player-versus-player combat.
+
+We have categorized the three main build paths to help you choose the best setup for your current progression goals.
+
+<CardGrid cols={3}>
+  <Card title="Singularity Spec">
+    - **High single-target DPS**
+    - Focuses on boss fights
+    - Requires strict rotation discipline
+  </Card>
+  <Card title="Tempest Spec">
+    - **Exceptional area-of-effect**
+    - Ideal for dungeon clearing
+    - High mana consumption rate
+  </Card>
+  <Card title="Feedback Spec">
+    - **Increased survivability**
+    - Converts mana into shields
+    - Preferred choice for PvP combat
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Talent Selection Warning">
+Do not mix Singularity and Tempest talents early in your leveling progression. Focusing on a single tree unlocks powerful capstone abilities faster, which significantly improves your overall leveling speed.
+</Callout>
+
+Each specialization relies on specific capstone talents to unlock its full potential. The table below compares the key attributes of each build to help you decide which path fits your current group composition and gameplay preferences.
+
+| Build Name | Primary Role | Difficulty | Key Talent |
+| Singularity | Raid DPS | High | Collapse Point |
+| Tempest | Dungeon Cleave | Medium | Overloaded Storm |
+| Feedback | PvP / Survival | High | Arcane Ward |
+
+The Singularity build remains the top choice for endgame raiding due to its superior single-target scaling. By focusing on talents that enhance Arcane Bolt and Instability Discharge, you can maintain a highly competitive position on the damage meters.
+
+</Section>
+
+<Section icon={Shield} title="Stat Priority and Equipment Choices">
+
+Gearing your character requires a clear understanding of how different stats affect your spellcasting performance. Unlike traditional casters who prioritize Spirit for passive mana regeneration, the Manastorm relies on active abilities to restore resources, making passive regen stats far less valuable.
+
+Your primary goal when selecting gear is to maximize your spell power and critical strike chance to trigger powerful talent synergies.
+
+| Stat | Priority | Target Threshold | Benefit |
+| Spell Power | 1st | None (Stack indefinitely) | Increases base spell damage directly |
+| Spell Crit | 2nd | 30% unbuffed | Triggers critical surge talent procs |
+| Haste Rating | 3rd | 12% soft cap | Reduces global cooldown and cast times |
+| Intellect | 4th | Maximize on gear | Increases mana pool and critical chance |
+
+<Callout type="success" title="Gearing Strategy">
+Look for gear with Spell Power and Crit rating as primary stats. Avoid Spirit entirely, as your active abilities provide all the mana regeneration you need during combat.
+</Callout>
+
+Intellect remains a solid secondary stat because it increases your total mana pool, giving you a larger buffer before running out of resources during long encounters. Haste is beneficial up to the soft cap of 12%, which allows you to fit an extra spell into your burst windows without risking a talent drop-off.
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step DPS Rotation">
+
+Executing the correct rotation is essential for maximizing your damage output while avoiding the dreaded Mana Backlash. The rotation centers around building your Instability stacks to a safe limit and then discharging them for explosive damage.
+
+Follow these steps to execute the optimal single-target DPS rotation during boss encounters.
+
+<Steps>
+  <Step num="1" title="Pre-cast Buffs">
+    Activate your protective shields and utility buffs before engaging the target to ensure maximum safety.
+  </Step>
+  <Step num="2" title="Build Instability">
+    Cast Arcane Bolt repeatedly to build your Instability stacks up to a target level of 8 or 9.
+  </Step>
+  <Step num="3" title="Unleash Discharge">
+    Cast Instability Discharge to consume all accumulated stacks and deal massive burst damage to the target.
+  </Step>
+  <Step num="4" title="Manage Mana">
+    Activate Evocation of Chaos when your mana falls below 30% to rapidly restore your resources and maintain the cycle.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Rotation Safety">
+Always cast Instability Discharge at 8 or 9 stacks. Waiting for 10 stacks risks triggering a self-silence, which completely halts your DPS rotation and lowers your overall output.
+</Callout>
+
+During multi-target encounters, modify this rotation by replacing Arcane Bolt with Mana Tempest once you have gathered the enemies together. This adjustment ensures high area-of-effect damage while still generating the necessary instability for your discharges.
+
+| Priority | Spell | Condition |
+| 1 | Instability Discharge | At 8-9 stacks of Instability |
+| 2 | Arcane Bolt | To build Instability stacks |
+| 3 | Mana Tempest | Against 3 or more targets |
+| 4 | Evocation of Chaos | When low on mana or during burst phases |
+
+</Section>
+
+<Section icon={Trophy} title="Endgame Progression and BiS Gear">
+
+Reaching the level cap is just the beginning of your journey. To participate in high-level raids and challenging dungeon content, you must acquire specific gear pieces that complement your build path. Focus on clearing high-level dungeons to secure your pre-raid Best-in-Slot (BiS) items.
+
+Use the checklist below to track your progress as you prepare your character for endgame raids.
+
+<Checklist
+  id="progression-goals"
+  title="Endgame Milestones:"
+  items={[
+    "Complete the class questline for the Epic Off-hand",
+    "Reach Exalted status with the Arcane Assembly faction",
+    "Acquire four pieces of the Tier 1 Manastorm set",
+    "Obtain a high-damage staff from endgame dungeon bosses"
+  ]}
+/>
+
+<Callout type="info" title="Enchanting Priority">
+Apply Spell Power enchants to your weapon and chest pieces as soon as possible. These enchants provide the largest single increase to your overall spell damage.
+</Callout>
+
+The table below lists the top pre-raid items you should target, along with their drop locations and the bosses you need to defeat to obtain them.
+
+| Slot | Item Name | Drop Location | Boss |
+| Weapon | Staff of the Nexus | Upper Blackrock Spire | General Angerforge |
+| Chest | Robes of Instability | Molten Core | Baron Geddon |
+| Trinket | Eye of the Storm | Scholomance | Darkmaster Gandling |
+| Rings | Band of Arcane Fury | Onyxia's Lair | Onyxia |
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<Callout type="tip" title="Community Resources">
+Join the official class community channels to discuss build variations, share theorycrafting spreadsheets, and stay updated on the latest balance patches.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the best race for a conquest of azeroth manastorm build?",
+    answer: "Gnomes and Humans are the top choices for the Alliance due to their intellect and spirit bonuses. For the Horde, Undead and Blood Elves offer the best offensive and utility racial abilities."
+  },
+  {
+    question: "How do I recover from a Mana Backlash during a fight?",
+    answer: "If you trigger a backlash, activate your defensive shields immediately to absorb incoming damage, and wait for the silence duration to end before restarting your spell rotation."
+  },
+  {
+    question: "Is the Manastorm class viable for solo leveling?",
+    answer: "Yes. By utilizing the Tempest specialization, you can easily pull multiple enemies at once and destroy them quickly using your high-damage area-of-effect spells."
+  }
+]} />
+
+</Section>

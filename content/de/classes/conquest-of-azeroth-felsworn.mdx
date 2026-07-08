@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Felsgeschworener: Spezialisierungen & Builds Guide",
+  description: "Meistern Sie die Klasse der Felsgeschworenen in Conquest of Azeroth. Entdecken Sie Top-Builds, Spezialisierungen und Rotationen für Infernal, Slayer und Tyrant.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Felsworn+Class+Guide",
+  date: "2026-07-08",
+  author: "conquest of azeroth Wiki-Team",
+  keywords: "Felsgeschworener, Conquest of Azeroth, Guide, Spezialisierungen, Builds, Infernal, Slayer, Tyrant"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **Primäre Klasse**: Der **Conquest of Azeroth Felsgeschworene** ist ein agiler, chaotischer Kämpfer, der verbotene dämonische Magie, schnelle Kampfschläge und verheerendes Teufelsfeuer einsetzt [7mcE4UtAxNs].
+- **Kernressource**: Der Aufbau und das Ausgeben von **Teufelszorn**-Runen ist entscheidend, um verheerende Combos zu entfesseln und Ihre Fähigkeiten zu verstärken [7mcE4UtAxNs].
+- **Vielseitigkeit der Rollen**: Felsgeschworene können sich als Fernkampf-DPS (**Infernal**), Dual-Wield-Nahkampf-DPS (**Slayer**) oder Ausweich-Tank (**Tyrant**) spezialisieren [7mcE4UtAxNs, Felsworn].
+- **Spielbare Völker**: Exklusiv verfügbar für **Nachtelfen** und **Draenei** bei der Allianz sowie **Blutelfen** und **Orcs** bei der Horde [Felsworn].
+</Callout>
+
+<Section icon={Map} title="Einführung in die Klasse der Felsgeschworenen">
+
+Der **Conquest of Azeroth Felsgeschworene** ist ein chaotischer Exilant und ein schattenhafter Ausgestoßener [7mcE4UtAxNs]. Von vielen gehasst und gefürchtet, machen sich diese Kämpfer verbotene dämonische Magie zunutze, um schnelle Kampfschläge mit wildem Teufelsfeuer zu verschmelzen [7mcE4UtAxNs]. Egal, ob Sie Feinde aus der Ferne vernichten, sich mit zwei Klingen durch Gegnergruppen schnitzen oder Ihre Verbündeten durch das Ausweichen tödlicher Schläge verteidigen wollen – der Felsgeschworene bietet einen hochdynamischen Spielstil, der sich um Combo-Angriffe und Runenmanagement dreht [7mcE4UtAxNs].
+
+**Video-Highlights:**
+- **Agiler Kampf**: Erfahren Sie, wie der Felsgeschworene seine hohe Mobilität nutzt, um das Schlachtfeld zu dominieren [7mcE4UtAxNs].
+- **Spezialisierungs-Übersicht**: Ein kurzer Blick auf die Spielstile von Infernal, Slayer und Tyrant [7mcE4UtAxNs].
+- **Teufelszorn-Mechanik**: Verstehen Sie, wie Sie Ihre primäre dämonische Ressource erzeugen und ausgeben [7mcE4UtAxNs].
+
+<YouTubeEmbed videoId="7mcE4UtAxNs" title="Neue WoW-Klasse: Felsworn - Conquest of Azeroth" />
+
+<Callout type="tip" title="Klassenphilosophie">
+Der Felsgeschworene blüht bei der Jagd auf [7mcE4UtAxNs]. Unabhängig davon, welche Spezialisierung Sie wählen, ermöglicht Ihnen Ihre Meisterschaft im Kampf, Ihre Fähigkeiten in einer bestimmten Reihenfolge zu kombinieren, um mächtige Bonuseffekte freizusetzen [7mcE4UtAxNs].
+</Callout>
+
+### Spielbare Völker & Voraussetzungen
+
+Bevor Sie Ihren Charakter auf dem [Project Ascension Conquest of Azeroth](https://project-ascension.fandom.com/wiki/Felsworn)-Realm erstellen, stellen Sie sicher, dass Sie ein kompatibles Volk wählen [Felsworn]:
+
+| Fraktion | Verfügbare Völker | Primärer Stat-Fokus | Rüstungstyp |
+| --- | --- | --- | --- |
+| **Allianz** | Nachtelf, Draenei | Beweglichkeit / Intelligenz | Leder |
+| **Horde** | Blutelf, Orc | Beweglichkeit / Intelligenz | Leder |
+
+</Section>
+
+<Section icon={Sparkles} title="Spezialisierungen der Felsgeschworenen">
+
+Die Klasse der Felsgeschworenen verfügt über drei höchst unterschiedliche Pfade [7mcE4UtAxNs]. Ihre Wahl der Spezialisierung ändert Ihre Kampfrolle, die Priorität beim Ausgeben von Ressourcen und Ihre Positionierung auf dem Schlachtfeld grundlegend [7mcE4UtAxNs].
+
+<CardGrid cols={3}>
+  <Card title="Infernal (Fernkampf-DPS)">
+    - **Webt Teufelsfeuer und Schattenflamme** [7mcE4UtAxNs]
+    - Spielstil eines Fernkampf-Zauberers [7mcE4UtAxNs]
+    - Kontrolliert Gegner mit Wurzeln und Betäubungen [7mcE4UtAxNs]
+  </Card>
+  <Card title="Slayer (Nahkampf-DPS)">
+    - **Führt Zwillingsklingen** [7mcE4UtAxNs]
+    - Hochmobile Nahkampf-Combos [7mcE4UtAxNs]
+    - Löst explosive AoE-Teufelsausbrüche aus [7mcE4UtAxNs]
+  </Card>
+  <Card title="Tyrant (Ausweich-Tank)">
+    - **Reduziert Schaden durch Ausweichen** [7mcE4UtAxNs]
+    - Bufft Tempo und Offensivkraft der Verbündeten [7mcE4UtAxNs]
+    - Bestraft Angreifer mit Vergeltungsschlägen [7mcE4UtAxNs]
+  </Card>
+</CardGrid>
+
+### Aufschlüsselung der Spezialisierungen
+
+Jede Spezialisierung verlässt sich auf unterschiedliche Kernmechaniken, um ihre Leistung in PvE- und PvP-Szenarien zu maximieren [7mcE4UtAxNs].
+
+| Spezialisierung | Primäre Rolle | Kernmechaniken | Signaturfähigkeiten |
+| --- | --- | --- | --- |
+| **Infernal** | Fernkampf-DPS | Zauberweben, Crowd Control, Schaden über Zeit [7mcE4UtAxNs, Felsworn] | Verschlingen, Teufelsgefängnis, Dämonische Lanzen [7mcE4UtAxNs, Felsworn] |
+| **Slayer** | Nahkampf-DPS | Hohe Mobilität, schnelle Dual-Wield-Schläge, Burst-AoE [7mcE4UtAxNs, Felsworn] | Idans Wache, Teufelshuf-Ansturm, Teufelsschlag [7mcE4UtAxNs, Felsworn] |
+| **Tyrant** | Ausweich-Tank | Skalierung durch Ausweichen, Bedrohungserzeugung, Gruppen-Enrages [7mcE4UtAxNs, Felsworn] | Höllenpeitschenknall, Vergeltung [7mcE4UtAxNs, Felsworn] |
+
+<Callout type="warning" title="Ausrüstungskompatibilität">
+Infernals benötigen **Intelligenz**-Lederrüstung, um ihre Zaubermacht zu skalieren, während Slayer und Tyrants stark auf **Beweglichkeit**-Lederrüstung für physische Skalierung, kritische Trefferwertung und Ausweichwertung angewiesen sind [Felsworn]. Behalten Sie separate Sets bereit, wenn Sie eine Doppelspezialisierung planen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Wie man Infernal, Slayer & Tyrant spielt">
+
+Um den **Conquest of Azeroth Felsgeschworenen** zu meistern, müssen Sie die einzigartige Rotation und den mechanischen Fluss Ihrer gewählten Spezialisierung verstehen [7mcE4UtAxNs].
+
+### 1. Infernal: Der Fernkampf-Zauberweber
+Infernals spielen sich wie chaotische Magier, die ihre Ziele korrumpieren und schwächen, bevor sie sie mit hocheffektiven Projektilzaubern vernichten [7mcE4UtAxNs, Felsworn]. List und Crowd Control sind Ihre stärksten Waffen [7mcE4UtAxNs, Felsworn].
+
+- **Kontrolle zuerst**: Halten Sie Abstand, indem Sie Gegner mit *Teufelsgefängnis* festsetzen oder sie mit *Verschlingen* betäuben [7mcE4UtAxNs, Felsworn].
+- **Gebrechen anwenden**: Korrumpieren Sie Ihre Ziele, um den Schaden Ihrer nachfolgenden Direktschadenszauber zu erhöhen [7mcE4UtAxNs, Felsworn].
+- **Chaos entfesseln**: Geben Sie Ihren erzeugten Teufelszorn für verheerende *Teufelsfeuerbälle* und *Lanzen dämonischer Energie* aus [7mcE4UtAxNs, Felsworn].
+
+### 2. Slayer: Der flinke Zwillingsklingenkämpfer
+Slayer sind agile Jäger, die nah herangehen und sich auf blitzschnelle Combos verlassen, um passive Flammenausbrüche auszulösen [7mcE4UtAxNs, Felsworn].
+
+- **Mobilität ist entscheidend**: Nutzen Sie *Teufelshuf-Ansturm*, um schnell Distanzen zu überbrücken oder gefährlichen Situationen zu entkommen [7mcE4UtAxNs, Felsworn].
+- **Combo-Aufbau**: Verketten Sie Ihre Nahkampfschläge in der richtigen Reihenfolge, um passive *Teufelsschläge* auszulösen, die massive Feuerstöße auf alle nahen Feinde verursachen [7mcE4UtAxNs, Felsworn].
+- **Defensive Fenster**: Aktivieren Sie *Idans Wache*, um sich vorübergehende Unverwundbarkeit zu gewähren und in den Schatten zu verschwinden, wenn Sie ins Visier genommen werden [7mcE4UtAxNs, Felsworn].
+
+### 3. Tyrant: Der taktische Ausweich-Tank
+Tyrants sind einzigartige Tanks, die Verteidigung in Offensive verwandeln [7mcE4UtAxNs]. Anstatt Treffer mit einem massiven Schild zu absorbieren, weichen sie eingehenden Angriffen aus, um mächtige Vergeltungsschläge auszulösen [7mcE4UtAxNs, Felsworn].
+
+- **Ausweichen & Vergeltung**: Eine hohe Ausweichwertung löst automatisch *Teufelsschläge* aus, wann immer Sie einem Angriff ausweichen oder *Vergeltung* aktivieren [7mcE4UtAxNs, Felsworn].
+- **Gruppen-Buffs**: Nutzen Sie *Höllenpeitschenknall*, um Ihre Verbündeten anzustacheln, was deren Tempo erhöht, während Sie selbst Kampfboni basierend auf den Teammitgliedern erhalten, die Sie in Rage versetzen [7mcE4UtAxNs, Felsworn].
+
+<Callout type="success" title="Gruppennutzen">
+Die Fähigkeit des Tyranten, das gruppenweite Tempo zu erhöhen, macht ihn zu einer der begehrtesten Tank-Spezialisierungen für schnelles Dungeon-Clearing und Raid-Progression [7mcE4UtAxNs, Felsworn].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Fortschritt der Felsgeschworenen">
+
+Wenn Sie einen neuen Felsgeschworenen-Charakter beginnen, folgen Sie diesem Fortschrittspfad, um reibungslos vom Lehrling zum hochrangigen Eroberer aufzusteigen [7mcE4UtAxNs, Felsworn].
+
+<Steps>
+  <Step num="1" title="Wählen Sie Ihren Pfad & Ihr Volk">
+    Wählen Sie Ihre Fraktion und Ihr Volk [Felsworn]. Nachtelfen und Blutelfen werden aufgrund ihrer Volksfähigkeiten, die Ausweichen und Ressourcengeneration ergänzen, dringend empfohlen.
+  </Step>
+  <Step num="2" title="Meistern Sie den Combo-Rhythmus">
+    Üben Sie Ihre grundlegenden Angriffssequenzen in frühen Dungeons [Felsworn]. Das effiziente Erzeugen und Ausgeben von *Teufelszorn*-Runen macht den Unterschied zwischen mittelmäßigem und erstklassigem DPS aus [7mcE4UtAxNs].
+  </Step>
+  <Step num="3" title="Spezifische Lederrüstung sammeln">
+    Sammeln Sie Intelligenz-Lederrüstung, wenn Sie Infernal spielen, oder Beweglichkeits- und ausweichlastige Lederrüstung, wenn Sie Slayer oder Tyrant spielen [Felsworn].
+  </Step>
+  <Step num="4" title="Optimieren Sie Ihre Runen">
+    Geben Sie Ihre Teufelszorn-Runen strategisch aus [7mcE4UtAxNs]. Nutzen Sie sie, um mehrere Feinde zu spalten, Gesundheit zu entziehen, wenn Sie geschwächt sind, oder Ihren Körper in Teufelsfeuer zu hüllen für massiven passiven Schaden [7mcE4UtAxNs].
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame-Checkliste für Felsgeschworene">
+
+Um sicherzustellen, dass Ihr Felsgeschworener vollständig für Endgame-Raids wie den Geschmolzenen Kern und Onyxias Hort auf dem Conquest of Azeroth-Realm optimiert ist, schließen Sie die folgenden Meilensteine ab [Felsworn]:
+
+<Checklist
+  id="felsworn-endgame"
+  title="Endgame-Meilensteine:"
+  items={[
+    "Höchststufe erreichen und alle Kernfähigkeiten der Klasse freischalten.",
+    "Ein vollständiges Set spezialisierter Lederrüstung (Intelligenz oder Beweglichkeit) erhalten.",
+    "Die Rotation zur Erzeugung und zum Ausgeben von Teufelszorn-Runen meistern.",
+    "Wichtige Verbrauchsgüter erwerben, um Tempo und kritische Trefferwertung zu maximieren.",
+    "Tastenbelegungen konfigurieren, um schnelle Combo-Sequenzen reibungslos auszuführen."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Was ist die primäre Ressource für den Conquest of Azeroth Felsgeschworenen?",
+    answer: "Der Felsgeschworene nutzt Teufelszorn-Runen, die durch das Ausführen spezifischer kriegerischer und magischer Combo-Angriffe in einer präzisen Reihenfolge erzeugt werden."
+  },
+  {
+    question: "Kann der Felsgeschworene als Heiler spielen?",
+    answer: "Nein, der Felsgeschworene ist strikt darauf ausgelegt, entweder die Rollen Fernkampf-DPS (Infernal), Nahkampf-DPS (Slayer) oder Tank (Tyrant) zu erfüllen."
+  },
+  {
+    question: "Welche Völker können als Felsgeschworener spielen?",
+    answer: "Für die Allianz können Sie als Nachtelf oder Draenei spielen. Für die Horde können Sie als Blutelf oder Orc spielen."
+  },
+  {
+    question: "Wie tankt der Tyrant Schaden ohne Schild?",
+    answer: "Der Tyrant ist ein Ausweich-Tank. Sie tauschen rohe Schadensleistung gegen erhöhte Rüstung und Widerstände ein und verlassen sich auf eine hohe Ausweichchance, um sich durch feindliche Schläge zu winden und Vergeltungs-Teufelsschläge auszulösen."
+  }
+]} />
+
+</Section>

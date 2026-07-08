@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Conquest of Azeroth Manasturm: Beste Builds & Rotation",
+  description: "Meistere die Manasturm-Klasse in Conquest of Azeroth. Entdecke die besten Talent-Builds, Attributsprioritäten, Rotationen und Ausrüstungsempfehlungen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Manastorm+Class+Guide",
+  date: "2026-07-08",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Klassenübersicht**: Die **Conquest of Azeroth Manasturm**-Klasse ist ein risikoreicher Arkan-Zauberwirker mit hohem Schadenspotenzial, der sich auf chaotischen Schaden konzentriert.
+- **Primäre Attribute**: Priorisiere **Zaubermacht** und **Kritische Zaubertrefferwertung**, um deinen explosiven Schadensausstoß zu maximieren.
+- **Kernmechanik**: Balanciere deine Stapel von **Manainstabilität** aus, um Selbstschaden zu verhindern und gleichzeitig maximalen Schaden pro Sekunde (DPS) aufrechterhalten.
+- **Bester Build**: Der **Arkane Singularität**-Build bietet die stabilste Rotation für Schlachtzüge im Endspiel.
+</Callout>
+
+<Section icon={Sparkles} title="Conquest of Azeroth Manasturm: Klassenübersicht">
+
+Die **Conquest of Azeroth Manasturm**-Klasse ist eine der dynamischsten und chaotischsten Zauberklassen in dieser benutzerdefinierten Erweiterung. Mit einem einzigartigen Ressourcensystem namens Manainstabilität fordert diese Klasse die Spieler heraus, rohe Zerstörungskraft mit sorgfältigem Ressourcenmanagement in Einklang zu bringen. Im Gegensatz zu traditionellen Magiern, die sich auf stabile Manapools verlassen, gedeiht der Manasturm am Rande des magischen Zusammenbruchs und wandelt flüchtige arkan Ströme in verheerende Zauber um.
+
+Um diese Klasse effektiv zu spielen, musst du verstehen, wie deine Zauber mit deinem Instabilitätsniveau interagieren. Das Erzeugen von zu viel Instabilität löst eine Rückkopplung aus, während zu wenig Instabilität deinen Schadensausstoß hinter andere DPS-Klassen zurückfallen lässt. Die folgende Tabelle beschreibt die Kernfähigkeiten, die das Fundament dieser Klasse bilden.
+
+| Fähigkeit | Kosten | Zauberzeit | Beschreibung |
+| :--- | :--- | :--- | :--- |
+| Arkaner Blitz | 2% Mana | 1.5s | Feuert einen schnellen Blitz aus arkaner Energie ab und erzeugt 1 Stapel Instabilität. |
+| Manasturm | 15% Mana | Kanalisiert | Kanalisiert einen Sturm aus chaotischer Energie, der allen Feinden im Umkreis von 8 Metern Schaden zufügt. |
+| Instabilitätsentladung | Keine | Sofort | Verbraucht alle Instabilitätsstapel, um eine gewaltige Schadensexplosion freizusetzen. |
+| Evokation des Chaos | 5% Mana | Sofort | Erhöht das Zaubertempo um 15%, erhöht jedoch 10 Sek. lang den erlittenen Schaden um 10%. |
+
+<Callout type="info" title="Instabilitätsmanagement">
+Das Verwalten deiner Instabilitätsressource ist der Schlüssel zur Meisterung des Manasturms. Das Überschreiten von 10 Stapeln verursacht eine Manarückkopplung, die dich 3 Sekunden lang zum Schweigen bringt und deinem Charakter moderaten Schaden zufügt.
+</Callout>
+
+Jeder Zauber, den du wirkst, verschiebt das Gleichgewicht deiner Macht. Der Arkane Blitz dient als dein primärer Erzeuger, mit dem du Instabilität schnell aufbauen kannst. Sobald du den optimalen Schwellenwert erreicht hast, musst du diese Energie entladen, um deinen Schadensausstoß zu maximieren. Der Manasturm ist dein primäres Werkzeug für Gegnergruppen, was ihn in Dungeon-Runs und Szenarien mit Flächenschaden (AoE) äußerst effektiv macht.
+
+</Section>
+
+<Section icon={Swords} title="Optimale Talent-Builds und Anpassung">
+
+Die Wahl des richtigen Talentbaums ist entscheidend für die Definition deines Spielstils als Manasturm. Die Klasse verfügt über drei verschiedene Spezialisierungen, die unterschiedliche Rollen bedienen – egal, ob du anhaltenden Einzelzielsatz-Schaden in Schlachtzügen, schnellen Flächenschaden in Dungeons oder defensive Nützlichkeit im Kampf Spieler-gegen-Spieler (PvP) bevorzugst.
+
+Wir haben die drei Haupt-Build-Pfade kategorisiert, um dir bei der Auswahl des besten Setups für deine aktuellen Progressionsziele zu helfen.
+
+<CardGrid cols={3}>
+  <Card title="Singularität-Spezialisierung">
+    - **Hoher Einzelziel-Schaden (DPS)**
+    - Konzentriert sich auf Bosskämpfe
+    - Erfordert strikte Rotationsdisziplin
+  </Card>
+  <Card title="Sturm-Spezialisierung">
+    - **Hervorragender Flächenschaden (AoE)**
+    - Ideal zum Säubern von Dungeons
+    - Hohe Manaverbrauchsrate
+  </Card>
+  <Card title="Rückkopplung-Spezialisierung">
+    - **Erhöhte Überlebensfähigkeit**
+    - Wandelt Mana in Schilde um
+    - Bevorzugte Wahl für PvP-Kämpfe
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warnung zur Talentauswahl">
+Mische in deiner frühen Levelphase keine Singularitäts- und Sturm-Talente. Die Konzentration auf einen einzigen Baum schaltet mächtige Endtalente schneller frei, was deine Gesamtgeschwindigkeit beim Leveln erheblich verbessert.
+</Callout>
+
+Jede Spezialisierung verlässt sich auf bestimmte Schlüsseltalente, um ihr volles Potenzial auszuschöpfen. Die folgende Tabelle vergleicht die Hauptmerkmale jedes Builds, um dir bei der Entscheidung zu helfen, welcher Pfad zu deiner aktuellen Gruppenzusammenstellung und deinen Spielpräferenzen passt.
+
+| Build-Name | Primäre Rolle | Schwierigkeit | Schlüsseltalent |
+| :--- | :--- | :--- | :--- |
+| Singularität | Schlachtzug-DPS | Hoch | Kollapspunkt |
+| Sturm | Dungeon-Spalt | Mittel | Überladener Sturm |
+| Rückkopplung | PvP / Überleben | Hoch | Arkaner Schutz |
+
+Der Singularitäts-Build bleibt aufgrund seiner überlegenen Skalierung bei Einzelzielen die erste Wahl für das Endspiel in Schlachtzügen. Indem du dich auf Talente konzentrierst, die den Arkanen Blitz und die Instabilitätsentladung verstärken, kannst du eine äußerst wettbewerbsfähige Position auf den Schadensmetern behaupten.
+
+</Section>
+
+<Section icon={Shield} title="Attributspriorität und Ausrüstungswahl">
+
+Die Ausrüstung deines Charakters erfordert ein klares Verständnis dafür, wie sich verschiedene Attribute auf deine Zauberleistung auswirken. Im Gegensatz zu traditionellen Zauberwirkern, die Willenskraft für passive Manaregeneration priorisieren, verlässt sich der Manasturm auf aktive Fähigkeiten, um Ressourcen wiederherzustellen, was passive Regenerationsattribute weitaus weniger wertvoll macht.
+
+Dein primäres Ziel bei der Auswahl der Ausrüstung ist es, deine Zaubermacht und deine kritische Zaubertrefferwertung zu maximieren, um mächtige Talentsynergien auszulösen.
+
+| Attribut | Priorität | Ziel-Schwellenwert | Nutzen |
+| :--- | :--- | :--- | :--- |
+| Zaubermacht | 1. | Keiner (Unbegrenzt stapeln) | Erhöht den Basiszauberschaden direkt |
+| Kritischer Zaubertreffer | 2. | 30% unbuffed | Löst Effekte des Talents 'Kritische Woge' aus |
+| Tempowertung | 3. | 12% Soft-Cap | Reduziert die globale Abklingzeit und Zauberzeiten |
+| Intelligenz | 4. | Auf Ausrüstung maximieren | Erhöht den Manapool und die kritische Trefferchance |
+
+<Callout type="success" title="Ausrüstungsstrategie">
+Suche nach Ausrüstung mit Zaubermacht und kritischer Trefferwertung als Primärattribute. Vermeide Willenskraft gänzlich, da deine aktiven Fähigkeiten während des Kampfes für die gesamte benötigte Manaregeneration sorgen.
+</Callout>
+
+Intelligenz bleibt ein solides sekundäres Attribut, da es deinen gesamten Manapool vergrößert und dir so einen größeren Puffer bietet, bevor dir in langen Begegnungen die Ressourcen ausgehen. Tempo ist bis zum Soft-Cap von 12% von Vorteil, was es dir ermöglicht, einen zusätzlichen Zauber in deine Schadensfenster einzubauen, ohne das Abfallen von Talenten zu riskieren.
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-DPS-Rotation">
+
+Das Ausführen der richtigen Rotation ist entscheidend, um deinen Schadensausstoß zu maximieren und gleichzeitig die gefürchtete Manarückkopplung zu vermeiden. Die Rotation dreht sich darum, deine Instabilitätsstapel bis zu einer sicheren Grenze aufzubauen und sie dann für explosiven Schaden zu entladen.
+
+Befolge diese Schritte, um die optimale Einzelziel-DPS-Rotation bei Bossbegegnungen auszuführen.
+
+<Steps>
+  <Step num="1" title="Vorzauber-Stärkungszauber">
+    Aktiviere deine Schutzschilde und Nützlichkeits-Buffs, bevor du den Kampf mit dem Ziel beginnst, um maximale Sicherheit zu gewährleisten.
+  </Step>
+  <Step num="2" title="Instabilität aufbauen">
+    Wirke wiederholt Arkaner Blitz, um deine Instabilitätsstapel bis auf einen Zielwert von 8 oder 9 aufzubauen.
+  </Step>
+  <Step num="3" title="Entladung entfesseln">
+    Wirke Instabilitätsentladung, um alle angesammelten Stapel zu verbrauchen und dem Ziel massiven Initialschaden zuzufügen.
+  </Step>
+  <Step num="4" title="Mana verwalten">
+    Aktiviere Evokation des Chaos, wenn dein Mana unter 30% fällt, um deine Ressourcen schnell wiederherzustellen und den Kreislauf aufrechtzuerhalten.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Rotationssicherheit">
+Wirke Instabilitätsentladung immer bei 8 oder 9 Stapeln. Wenn du auf 10 Stapel wartest, riskierst du, ein Selbst-Stummschalten auszulösen, was deine DPS-Rotation komplett stoppt und deinen Gesamtschaden verringert.
+</Callout>
+
+Ersetze bei Begegnungen mit mehreren Zielen den Arkanen Blitz in dieser Rotation durch den Manasturm, sobald du die Feinde zusammengezogen hast. Diese Anpassung sorgt für hohen Flächenschaden, während sie dennoch die notwendige Instabilität für deine Entladungen erzeugt.
+
+| Priorität | Zauber | Bedingung |
+| :--- | :--- | :--- |
+| 1 | Instabilitätsentladung | Bei 8-9 Stapeln von Instabilität |
+| 2 | Arkaner Blitz | Zum Aufbau von Instabilitätsstapeln |
+| 3 | Manasturm | Gegen 3 oder mehr Ziele |
+| 4 | Evokation des Chaos | Bei wenig Mana oder während Schadensphasen |
+
+</Section>
+
+<Section icon={Trophy} title="Endgame-Progression und BiS-Ausrüstung">
+
+Das Erreichen der Höchststufe ist erst der Anfang deiner Reise. Um an hochstufigen Schlachtzügen und anspruchsvollen Dungeon-Inhalten teilzunehmen, musst du bestimmte Ausrüstungsgegenstände erlangen, die deinen Build ergänzen. Konzentriere dich darauf, hochstufige Dungeons abzuschließen, um dir deine Pre-Raid Best-in-Slot (BiS) Gegenstände zu sichern.
+
+Verwende die folgende Checkliste, um deinen Fortschritt bei der Vorbereitung deines Charakters auf Schlachtzüge im Endspiel zu verfolgen.
+
+<Checklist
+  id="progression-goals"
+  title="Endgame-Meilensteine:"
+  items={[
+    "Schließe die Klassenquestreihe für die epische Schildhand ab",
+    "Erreiche ehrfürchtigen Ruf bei der Fraktion der Arkanen Versammlung",
+    "Erwirb vier Teile des Tier-1-Manasturm-Sets",
+    "Erhalte einen Stab mit hohem Schaden von den Endbossen hochstufiger Dungeons"
+  ]}
+/>
+
+<Callout type="info" title="Verzauberungspriorität">
+Trage so schnell wie möglich Zaubermacht-Verzauberungen auf deine Waffe und deine Bruststücke auf. Diese Verzauberungen bieten die größte Einzelsteigerung für deinen gesamten Zauberschaden.
+</Callout>
+
+Die folgende Tabelle listet die besten Pre-Raid-Gegenstände auf, die du anvisieren solltest, zusammen mit ihren Beuteorten und den Bossen, die du besiegen musst, um sie zu erhalten.
+
+| Platz | Gegenstandsname | Beuteort | Boss |
+| :--- | :--- | :--- | :--- |
+| Waffe | Stab des Nexus | Obere Blackrockspitze | General Zornbringer |
+| Brust | Roben der Instabilität | Geschmolzener Kern | Baron Geddon |
+| Schmuckstück | Auge des Sturms | Scholomance | Dunkelmeister Gandling |
+| Ringe | Band des arkanen Zorns | Onyxias Hort | Onyxia |
+
+</Section>
+
+<Section icon={Map} title="Häufig gestellte Fragen (FAQ)">
+
+<Callout type="tip" title="Community-Ressourcen">
+Tritt den offiziellen Klassen-Community-Kanälen bei, um über Build-Variationen zu diskutieren, Theorycrafting-Tabellen auszutauschen und über die neuesten Balance-Patches auf dem Laufenden zu bleiben.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was ist das beste Volk für einen Conquest of Azeroth Manasturm-Build?",
+    answer: "Gnome und Menschen sind aufgrund ihrer Intelligenz- und Willenskraftboni die beste Wahl für die Allianz. Für die Horde bieten Untote und Blutelfen die besten offensiven und nützlichen Volksfähigkeiten."
+  },
+  {
+    question: "Wie erhole ich mich von einer Manarückkopplung während eines Kampfes?",
+    answer: "Wenn du eine Rückkopplung auslöst, aktiviere sofort deine Schutzschilde, um eingehenden Schaden zu absorbieren, und warte das Ende der Stummschaltung ab, bevor du deine Zauberrotation neu startest."
+  },
+  {
+    question: "Ist die Manasturm-Klasse für das Solo-Leveln geeignet?",
+    answer: "Ja. Indem du die Sturm-Spezialisierung nutzt, kannst du problemlos mehrere Feinde gleichzeitig anlocken und sie mit deinen schadensstarken Flächenzaubern schnell vernichten."
+  }
+]} />
+
+</Section>

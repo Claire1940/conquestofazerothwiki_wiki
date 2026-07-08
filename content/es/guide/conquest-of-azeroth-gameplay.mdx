@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de Conquest of Azeroth: Guía de Clases y Progresión",
+  description: "Domina las clases personalizadas, las estrategias de nivelación y las zonas del mundo en Conquest of Azeroth. Aprende las rutas de progresión óptimas para el lanzamiento de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Gameplay+and+Progression+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "Conquest of Azeroth, jugabilidad, clases personalizadas, guía de progresión, WoW Classic Plus"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Jugabilidad Principal**: Experimenta un rediseño de World of Warcraft Classic+ que presenta 21 clases completamente personalizadas y 69 especializaciones únicas [PICYx25zl4A, 332].
+- **Clase Venomancer**: Una clase de cambio de forma altamente versátil que utiliza magia de veneno, utilidad de araña y tanqueo basado en escarabajos [PICYx25zl4A, 332].
+- **Estrategia de Nivelación**: Utiliza misiones personalizadas, permisos de viaje y rangos de campos de batalla para acelerar tu progresión de nivel [PICYx25zl4A].
+- **Nuevas Zonas del Mundo**: Explora entornos creados a medida como Pale Reach y núcleos de misiones personalizados añadidos a Páramos de Poniente (Westfall) [PICYx25zl4A].
+- **Sistema de Riesgo Híbrido**: Elige entre los modos PvE, PvP o de Alto Riesgo, donde los jugadores derrotados pierden su equipo [332].
+</Callout>
+
+<Section icon={Map} title="Resumen de la Jugabilidad de Conquest of Azeroth">
+
+La jugabilidad de Conquest of Azeroth reimagina por completo el entorno clásico de World of Warcraft Vanilla al introducir 21 clases personalizadas, 69 especializaciones de talento únicas y contenido de mundo a medida [332]. En lugar de jugar con las clases tradicionales, los jugadores eligen entre arquetipos altamente detallados forjados directamente del lore de Warcraft [332]. El servidor funciona con un cliente unificado, lo que permite a los jugadores sumergirse directamente en la acción [332].
+
+**Puntos Destacados del Vídeo:**
+- **Mecánicas del Venomancer**: Entrar y salir de las formas de araña, escarabajo y taumaturgo para maximizar el daño y la supervivencia [PICYx25zl4A].
+- **Misiones Personalizadas**: Completar nuevos objetivos en zonas reconstruidas como Páramos de Poniente para acelerar la nivelación [PICYx25zl4A].
+- **Exploración de Pale Reach**: Navegar por una enorme zona personalizada inspirada en Colinas Pardas que cuenta con nuevos asentamientos humanos [PICYx25zl4A].
+
+<YouTubeEmbed videoId="PICYx25zl4A" title="Conquest of Azeroth HAS FINALLY RELEASED! | 21 CUSTOM CLASSES in World of Warcraft | Day 1" />
+
+| Característica | Descripción | Impacto en el Juego |
+| --- | --- | --- |
+| **21 Clases** | Arquetipos personalizados totalmente nuevos | Cambia completamente el meta de PvP y PvE [332] |
+| **69 Especializaciones** | Roles especializados por clase | Gran variedad de tanques, sanadores y DPS [332] |
+| **Zonas Personalizadas** | Áreas nuevas como Pale Reach | Amplía las rutas de nivelación y el lore del mundo [PICYx25zl4A] |
+| **Sistema de Riesgo** | Modos PvE, PvP y de Alto Riesgo | Adapta los riesgos del mundo abierto a la preferencia del jugador [332] |
+
+<Callout type="tip" title="Selección de Clase">
+Al comenzar, enfócate en una clase que se adapte a tu estilo de juego preferido. Las clases híbridas como el Venomancer o el Starcaller ofrecen múltiples roles (Tanque, Sanador, DPS) dentro de un solo personaje [332].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desglose de Clases y Mecánicas de Cambio de Forma">
+
+Las clases personalizadas en este juego son increíblemente profundas. Por ejemplo, el **Venomancer** funciona como una variante de druida basada en veneno, lo que requiere el dominio de varias formas de cambio de forma distintas [PICYx25zl4A, 332]. Dominar estos cambios es fundamental para romper enraizamientos, gestionar recursos y desplegar hechizos de utilidad específicos [PICYx25zl4A].
+
+### Formas de Cambio de Forma del Venomancer
+
+| Forma | Bonificaciones Base | Rol Principal y Utilidad |
+| --- | --- | --- |
+| **Forma de Araña** | +20% de velocidad de movimiento, acceso a sigilo | DPS cuerpo a cuerpo rápido, ruptura de raíces, gran ráfaga [PICYx25zl4A] |
+| **Forma de Escarabajo** | +100% de armadura, gran escalado de salud | Tanqueo, amenaza en área (AoE), reducción de daño [PICYx25zl4A] |
+| **Forma de Rotweaver** | Aumento del daño de naturaleza y veneno | DPS taumaturgo a distancia, propagación de DoTs en área [332] |
+| **Forma de Vizier** | Hechizos de sanación en el tiempo mejorados | Sanación de grupo, utilidad, cánticos rituales [332] |
+
+### Clases Personalizadas Alternativas
+
+Si el cambio de forma no es tu estilo, existen otras opciones ricas en lore:
+
+<CardGrid cols={3}>
+  <Card title="Nigromante">
+    - **Estilo de Juego de Invocador**: Controla múltiples esbirros no-muertos únicos simultáneamente [332].
+    - **Magia de Peste y Escarcha**: Utiliza enfermedades y hechizos gélidos para marchitar a los objetivos [332].
+    - **Tipo de Armadura**: Tela [332].
+  </Card>
+  <Card title="Tinker">
+    - **Arsenal de Armas**: Utiliza diferentes tipos de munición personalizada [332].
+    - **Construcciones Mecánicas**: Despliega torretas, minas terrestres o pilota un robot Triturador [332].
+    - **Tipo de Armadura**: Cuero/Malla [332].
+  </Card>
+  <Card title="Felsworn">
+    - **Transformación Demoníaca**: Acumula rabia para entrar en una poderosa Forma Demoníaca [332].
+    - **Combos Cuerpo a Cuerpo**: Atraviesa a los enemigos con combos físicos altamente ágiles [332].
+    - **Tipo de Armadura**: Cuero [332].
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cambio de Forma">
+No cambiar de forma dinámicamente en clases como el Venomancer limita severamente tu supervivencia. Cambia siempre a la forma de Escarabajo cuando seas el objetivo de habilidades de gran daño de ráfaga [PICYx25zl4A].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de Nivelación Paso a Paso">
+
+Subir de nivel en Conquest of Azeroth requiere una mezcla de misiones personalizadas, exploración de mundo abierto y emparejamiento táctico. Sigue esta ruta de progresión estructurada para optimizar tu viaje al nivel 60.
+
+<Steps>
+  <Step num="1" title="Utiliza los Permisos de Viaje Iniciales">
+    Usa tu permiso de viaje gratuito (disponible hasta el nivel 8) para teletransportarte instantáneamente a cualquier zona de inicio que esté menos concurrida [PICYx25zl4A]. Esto evita los cuellos de botella de reaparición durante las ventanas de lanzamiento de alta población [PICYx25zl4A].
+  </Step>
+  <Step num="2" title="Céntrate en las Misiones de Zonas Personalizadas">
+    Completa las nuevas misiones personalizadas añadidas en zonas clásicas como Páramos de Poniente [PICYx25zl4A]. Estas misiones ofrecen tasas de experiencia significativamente más altas y sueltan poderosos objetos Forjados por el Mundo (Worldforged) [PICYx25zl4A].
+  </Step>
+  <Step num="3" title="Desbloquea tu Especialización al Nivel 10">
+    Al alcanzar el nivel 10, abre inmediatamente tu menú de talentos para seleccionar tu especialización [PICYx25zl4A]. Esto desbloquea las mecánicas distintivas de tu clase, como la Forma de Escarabajo del Venomancer o las habilidades de Rotweaver [PICYx25zl4A].
+  </Step>
+  <Step num="4" title="Transición a Zonas de Nivelación Personalizadas">
+    Muévete a zonas diseñadas a medida para nivel 18+, como Pale Reach (ubicada al norte de Ventormenta) o Dukthar (para jugadores de la Horda) [PICYx25zl4A]. Estas zonas cuentan con diseños verticales modernizados y núcleos de misiones de alta densidad [PICYx25zl4A].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Objetos Forjados por el Mundo">
+Mantente atento a los "Sacos Olvidados" (Forgotten Sacks) y otros contenedores forjados por el mundo. Contienen objetos raros no ligados al alma y abalorios que pueden invocar mascotas de combate temáticas [PICYx25zl4A].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Explicación del Sistema de Riesgo Híbrido">
+
+El servidor cuenta con un marco de riesgo integrado diseñado para acomodar tanto a jugadores casuales de PvE como a entusiastas incondicionales de PvP en un único reino unificado [332].
+
+| Modo de Juego | Reglas de Mundo Abierto | Recompensas y Mecánicas Únicas |
+| --- | --- | --- |
+| **Modo PvE** | Seguro contra jugadores enemigos | Misiones, mazmorras y bandas estándar [332] |
+| **Modo PvP** | Combate de facciones en mundo abierto | Generación de honor clásica, sin pérdida de objetos [332] |
+| **PvP de Alto Riesgo** | Combate de botín completo en mundo abierto | Los jugadores derrotados sueltan objetos equipados e inventario [332] |
+
+### Búsqueda de Tesoros de Alto Riesgo
+
+Mientras están marcados para PvP de Alto Riesgo, los jugadores reciben el beneficio de **Cazador de Tesoros** [332]. Esto te permite encontrar variaciones **Forjadas en Sangre** (Bloodforged) muy codiciadas de equipo de mazmorras y bandas directamente de monstruos normales en el mundo abierto [332]. Debido a que estos objetos no están ligados al alma, forman la piedra angular de la economía comercial del servidor [332].
+
+<Callout type="warning" title="Advertencia de Alto Riesgo">
+No entres en zonas de PvP de Alto Riesgo con equipo que no puedas permitirte perder [332]. Mantén tu equipo de progresión de alto valor en tu banco hasta que tengas confianza en las mecánicas de tu clase y en tus opciones de escape [PICYx25zl4A].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Actividades de Fin de Juego y Metas">
+
+Una vez que alcanzas el límite de nivel 60, la jugabilidad transiciona hacia un robusto sistema de fin de juego (endgame) que presenta desafíos clásicos y personalizados.
+
+<Checklist
+  id="endgame-goals"
+  title="Lista de Verificación de Progresión de Nivel 60:"
+  items={[
+    "Desbloquea los niveles de dificultad Heroico y Mítico+ para las mazmorras de Vanilla [332]",
+    "Participa en Bandas Flexibles (dificultades Normal, Heroica, Mítica y Ascendida) [332]",
+    "Haz cola para rangos de Arena personalizados de 1v1, 2v2 y 3v3 [332]",
+    "Desafía más de 4,000 niveles del sistema Manastorm enfocado en solitario [332]"
+  ]}
+/>
+
+<Callout type="info" title="Mecánicas de Banda Personalizadas">
+Las bandas de fin de juego presentan combates contra jefes completamente renovados [332]. Las mecánicas han sido rediseñadas específicamente para desafiar los conjuntos de herramientas únicos de las 21 nuevas clases, haciendo que los encuentros clásicos se sientan totalmente frescos [332].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo funciona el sistema de clases personalizadas en la jugabilidad de Conquest of Azeroth?",
+    answer: "El juego reemplaza las clases tradicionales de WoW con 21 clases personalizadas y 69 especializaciones construidas enteramente a partir del lore de Warcraft, con efectos visuales, hechizos y mecánicas personalizadas."
+  },
+  {
+    question: "¿Puedo jugar con amigos que estén marcados con un Modo de Riesgo diferente?",
+    answer: "Sí. El Sistema de Riesgo Híbrido mantiene a todos los jugadores en la misma fase del mundo abierto, permitiendo que los jugadores de PvE y PvP chateen, comercien y formen grupos para mazmorras juntos."
+  },
+  {
+    question: "¿Qué son los objetos Forjados en Sangre (Bloodforged) y cómo los obtengo?",
+    answer: "Los objetos Forjados en Sangre son variaciones poderosas del equipo de mazmorras y bandas que caen de los monstruos del mundo abierto exclusivamente mientras se juega en el modo PvP de Alto Riesgo."
+  },
+  {
+    question: "¿Hay vuelo en las zonas personalizadas como Pale Reach?",
+    answer: "No, las zonas personalizadas están diseñadas teniendo en cuenta la verticalidad y la escala posteriores a Dragonflight, lo que significa que están optimizadas para monturas terrestres y exploración estratégica."
+  }
+]} />
+
+</Section>

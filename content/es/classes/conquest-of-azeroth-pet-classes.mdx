@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Clases con mascotas en Conquest of Azeroth: Tier List y guía de builds 2026",
+  description: "Descubre las mejores clases con mascotas en Conquest of Azeroth. Aprende sobre mecánicas de escalado, builds y estrategias de progresión para Nigromantes, Exploradores e Ingenieros.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Pet+Classes+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Palabra clave principal**: Domina las mejores **clases con mascotas de Conquest of Azeroth** para triunfar tanto en mazmorras PvE como en campos de batalla PvP.
+- **Mecánica clave**: Las mascotas heredan una parte de tus estadísticas principales, por lo que una equipación precisa es fundamental para maximizar el daño.
+- **Mejor estrategia**: Equilibra tu lanzamiento activo de hechizos con el daño pasivo de tus esbirros para optimizar la gestión de recursos.
+- **Consejo crítico**: Prioriza alcanzar el límite de golpe (hit cap) de hechizos o físico antes de invertir en exceso en estadísticas secundarias como crítico o celeridad.
+- **Mejor elección**: El Nigromante sigue siendo la clase con mascotas más versátil debido a su fuerte autocuración y su diversa lista de esbirros.
+</Callout>
+
+<Section icon={Map} title="Visión general de las clases con mascotas en Conquest of Azeroth">
+
+Elegir el estilo de juego adecuado en la expansión de clases personalizadas de Project Ascension requiere comprender cómo escalan las diferentes builds, especialmente cuando se trata de **clases con mascotas en Conquest of Azeroth**. Gestionar un esbirro, una bestia o un compañero mecánico cambia tu posicionamiento, tu prioridad de equipamiento y tu rotación. A diferencia de las expansiones tradicionales donde las mascotas son secundarias, este diseño de servidor personalizado integra el daño de las mascotas directamente en la identidad central de tu clase.
+
+Las clases principales que utilizan mascotas en este entorno personalizado son el Nigromante, el Explorador (Ranger) y el Ingeniero (Tinker). Cada clase interactúa con sus invocaciones de manera diferente, ofreciendo diversas ventajas tácticas dependiendo de si prefieres gestionar hordas de no-muertos, coordinarte con bestias salvajes o desplegar construcciones mecánicas.
+
+| Clase | Mascota principal | Rol principal | Complejidad | Estadística de escalado |
+| :--- | :--- | :--- | :--- | :--- |
+| **Nigromante** | Esbirros no-muertos | DPS / Utilidad | Media | Poder con hechizos / Intelecto |
+| **Explorador** | Bestias | DPS a distancia | Baja | Poder de ataque / Agilidad |
+| **Ingeniero** | Torretas y Mechs | Control de zona / DPS | Alta | Intelecto / Celeridad |
+
+<Callout type="info" title="Consejo de selección de clase">
+Al elegir tu clase, considera si prefieres la gestión activa de mascotas o la utilidad pasiva. Los Exploradores ofrecen un control de mascotas sencillo, mientras que los Ingenieros requieren una colocación precisa de construcciones estacionarias.
+</Callout>
+
+Desarrollar una comprensión sólida de cómo estos compañeros escalan con las estadísticas de tu personaje es el primer paso para dominar el contenido de final de juego. Sin una distribución adecuada de estadísticas, tus mascotas carecerán de la durabilidad y el daño necesarios para las incursiones de alto nivel.
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas y builds de los esbirros del Nigromante">
+
+El Nigromante es una de las **clases con mascotas de Conquest of Azeroth** más populares debido a su capacidad para invocar múltiples esbirros no-muertos simultáneamente. A diferencia de las clases predeterminadas, el Nigromante se basa en una combinación de invocaciones permanentes y guardianes temporales para abrumar a los objetivos. Gestionar estos esbirros requiere equilibrar tu gasto de maná entre hechizos directos de las Sombras y rituales de invocación.
+
+Para maximizar la eficiencia de tus esbirros, debes comprender los roles específicos de cada invocación no-muerta. Algunos esbirros actúan como escudos de primera línea, mientras que otros proporcionan apoyo mágico a distancia o beneficios de utilidad.
+
+| Tipo de esbirro | Rol principal | Habilidad clave | Mejor escenario |
+| :--- | :--- | :--- | :--- |
+| **Guerrero esquelético** | DPS cuerpo a cuerpo / Tanque secundario | Golpe de hendidura | Limpieza de áreas (AoE) |
+| **Mago esquelético** | DPS mágico a distancia | Descarga de las Sombras | Jefes de un solo objetivo |
+| **Abominación** | Tanque / Control de masas | Gancho y aturdimiento | PvP y mazmorras |
+
+<Callout type="warning" title="Gestión de amenaza de los esbirros">
+Los guerreros esqueléticos pueden atraer fácilmente la amenaza lejos del tanque principal de tu grupo si sus habilidades de lanzamiento automático no se gestionan correctamente. Mantén sus posturas agresivas desactivadas durante las mazmorras de grupo.
+</Callout>
+
+Para ayudarte a elegir el estilo de juego adecuado, hemos detallado las tres especializaciones de Nigromante más efectivas a continuación.
+
+<CardGrid cols={3}>
+  <Card title="Comandante de la plaga">
+    - **Enfoque en DoTs**: Propaga enfermedades que aumentan el daño cuerpo a cuerpo de las mascotas.
+    - **Alto daño en área**: Excelente para limpiar grandes grupos de enemigos.
+    - **Rotación sencilla**: Muy permisiva para principiantes.
+  </Card>
+  <Card title="Señor del pavor">
+    - **Invocación masiva**: Se centra en mantener el máximo de esqueletos activos.
+    - **Daño explosivo**: Utiliza el sacrificio de mascotas para ventanas de daño masivo.
+    - **Alto consumo de recursos**: Requiere una gestión cuidadosa del maná.
+  </Card>
+  <Card title="Cosechador de almas">
+    - **Soporte híbrido**: Convierte el daño de las mascotas en curación para el grupo.
+    - **Alta utilidad**: Muy solicitado en grupos de mazmorras.
+    - **Menor daño en solitario**: Sacrifica daño personal por la supervivencia del grupo.
+  </Card>
+</CardGrid>
+
+Independientemente de la especialización que elijas, asegúrate siempre de que tu equipo tenga suficiente Poder con hechizos, ya que esta estadística aumenta directamente la salud y el poder de ataque de tus no-muertos invocados.
+
+</Section>
+
+<Section icon={Sparkles} title="Sinergia de mascotas del Explorador y el Ingeniero">
+
+Para los jugadores que prefieren la precisión mecánica o las bestias salvajes sobre los no-muertos, el Explorador y el Ingeniero ofrecen alternativas muy competitivas. El Explorador se centra en un único y poderoso compañero bestia que se beneficia de tus ataques físicos a distancia. Esto crea un estilo de juego muy dinámico donde tú mantienes la distancia (kite) mientras tu mascota ataca desde atrás.
+
+Los Ingenieros, por otro lado, utilizan torretas estacionarias y construcciones mecánicas móviles. Esta clase depende en gran medida del control de zona, lo que la hace increíblemente fuerte en escenarios de PvP defensivo y encuentros de incursión estructurados.
+
+| Mascota / Construcción | Beneficio proporcionado | Duración | Tiempo de reutilización |
+| :--- | :--- | :--- | :--- |
+| **Lobo (Explorador)** | Aullido furioso (Buff de PA) | 20 segundos | 40 segundos |
+| **Torreta de llamas (Ingeniero)** | Vulnerabilidad al fuego | Permanente (Activa) | Ninguno |
+| **Generador de escudos (Ingeniero)** | Absorción de daño | 15 segundos | 60 segundos |
+
+<Callout type="success" title="Estrategia de colocación del Ingeniero">
+Colocar tus torretas de llamas cerca de esquinas o puntos de estrangulamiento asegura que los enemigos reciban el máximo daño antes de que puedan alcanzar a tu personaje.
+</Callout>
+
+Los Exploradores deben centrarse en la Agilidad y el índice de golpe físico para asegurar que tanto sus disparos como los ataques de su mascota acierten de manera fiable. Los Ingenieros deben priorizar la Celeridad, ya que aumenta directamente la velocidad de ataque de todas las torretas desplegadas, lo que lleva a un aumento sustancial en el daño sostenido.
+
+</Section>
+
+<Section icon={Target} title="Cómo optimizar la progresión de las clases con mascotas">
+
+Optimizar la progresión de tu personaje es esencial si quieres enfrentarte a contenido de alto nivel. Equipar a un personaje basado en mascotas requiere un enfoque diferente al de equipar a un lanzador de hechizos o un luchador cuerpo a cuerpo estándar. Sigue estos pasos estructurados para asegurar que tu personaje esté optimizado para el meta de final de juego.
+
+<Steps>
+  <Step num="1" title="Selección inicial de equipo">
+    Concéntrate totalmente en adquirir equipo con tu estadística principal (Intelecto para Nigromantes e Ingenieros, Agilidad para Exploradores). Evita estadísticas secundarias complejas al principio.
+  </Step>
+  <Step num="2" title="Optimización del límite de golpe">
+    Asegúrate de alcanzar el límite de golpe físico o de hechizos para tu nivel actual. Si tu personaje falla un ataque, la eficiencia de escalado de tu mascota cae drásticamente.
+  </Step>
+  <Step num="3" title="Desbloqueo de talentos de clase">
+    Asigna tus puntos de talento en nodos que aumenten directamente la salud de la mascota, la herencia de daño y la velocidad de ataque antes de potenciar tus propios hechizos de daño directo.
+  </Step>
+  <Step num="4" title="Adquisición de glifos personalizados">
+    Equipa glifos de clase personalizados que modifiquen los comportamientos de las mascotas, como reducir los tiempos de reutilización de los hechizos de utilidad de la mascota o aumentar su resistencia al daño de área.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejos de equipamiento">
+No descuides tu propia supervivencia. Un invocador muerto no puede comandar a sus mascotas, así que asegúrate de mantener una cantidad razonable de aguante junto a tus estadísticas ofensivas.
+</Callout>
+
+Utiliza la lista de verificación a continuación para realizar un seguimiento de tus hitos de progresión mientras preparas a tu personaje para desafiantes encuentros de final de juego.
+
+<Checklist
+  id="pet-class-progression"
+  title="Lista de verificación para el final de juego:"
+  items={[
+    "Alcanzar el límite de golpe adecuado al nivel para hechizos o ataques físicos.",
+    "Desbloquear toda la utilidad principal de mascotas y habilidades activas de tu instructor.",
+    "Equipar al menos tres glifos de clase personalizados que beneficien a tus invocaciones.",
+    "Obtener un arma con alto escalado de estadística principal para potenciar la herencia de la mascota."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+Comprender los matices del comportamiento y el escalado de las mascotas puede ser difícil. A continuación, se encuentran las respuestas a las preguntas más comunes sobre los estilos de juego basados en mascotas en este entorno personalizado.
+
+<FAQ items={[
+  {
+    question: "¿Las mascotas en Conquest of Azeroth escalan con mis estadísticas secundarias?",
+    answer: "Sí. Las mascotas heredan un porcentaje de tu Celeridad, Golpe crítico e Índice de golpe, además de escalar directamente de tus atributos principales como Agilidad o Poder con hechizos."
+  },
+  {
+    question: "¿Cuál es la build de clases con mascotas de Conquest of Azeroth más fácil para principiantes?",
+    answer: "La clase Explorador utilizando un compañero Lobo es muy recomendable para principiantes. Ofrece mecánicas sencillas, excelente supervivencia en solitario y un daño a distancia fiable."
+  },
+  {
+    question: "¿Pueden los Ingenieros tener múltiples construcciones mecánicas activas al mismo tiempo?",
+    answer: "Sí, los Ingenieros pueden desplegar múltiples torretas estacionarias y construcciones móviles simultáneamente, siempre que gestionen sus tiempos de reutilización y costes de recursos de manera efectiva."
+  },
+  {
+    question: "¿Cómo curo a mis mascotas durante el combate como Nigromante?",
+    answer: "Los Nigromantes pueden usar hechizos de curación de sombras directos o utilizar nodos de talento que drenan la salud de los enemigos directamente hacia sus esbirros no-muertos activos."
+  }
+]} />
+
+<Callout type="info" title="Nota final">
+Las mecánicas de las mascotas están sujetas a actualizaciones de equilibrio. Revisa regularmente las actualizaciones de la comunidad para mantenerte informado sobre los ajustes en los porcentajes de escalado y los valores de utilidad.
+</Callout>
+
+</Section>

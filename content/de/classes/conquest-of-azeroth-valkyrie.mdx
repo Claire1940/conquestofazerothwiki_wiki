@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Walküre: Sonnenkleriker Build-Guide",
+  description: "Meistere den beidhändigen Heiligfeuer-DPS-Build in Conquest of Azeroth. Erfahre alles über die besten Talente, Ausrüstung und Level-Strategien für die Sonnenkleriker-Walküre.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Valkyrie+Sun+Cleric+Guide",
+  date: "2026-07-08",
+  author: "Conquest of Azeroth Wiki-Team",
+  keywords: "Conquest of Azeroth, Walküre, Sonnenkleriker, Build, Guide, Beidhändigkeit, Heiligfeuer"
+}
+
+<Callout type="info" title="Kurzguide">
+- **Hauptfokus des Builds**: Die **Conquest of Azeroth Walküre** ist eine beidhändig geführte Heiligfeuer-Nahkampf-DPS-Spezialisierung der Sonnenkleriker-Klasse.
+- **Kernmechanik**: Tauscht traditionelle Schilde gegen ein zweites Schwert ein und wandelt defensive Kraft in offensiven Heilig- und Feuerschaden um.
+- **Beste Stats**: Konzentriere dich auf Stärke, Zaubermacht, Tempo sowie Feuer- und Heilig-Zauberschaden, um die hybride Skalierung zu maximieren.
+- **Ausrüstungs-Route**: Jagd auf Scharlachrote Templer und Pyromanten für immersive Drops und Suche nach spezifischen weltgeschmiedeten Gegenständen mit Feuerthematik.
+</Callout>
+
+<Section icon={Sparkles} title="Der Archetyp der Sonnenkleriker-Walküre">
+
+Der Sonnenkleriker ist ein furchteinflößender Paladin der lodernden Sonne, der Feinde mit rechtschaffenem Feuer schlägt. Während einige Spieler den Weg des defensiven Tankens oder der unterstützenden Heilung wählen, definiert die Walküre-Spezialisierung die Klasse völlig neu. Indem du deinen Schild gegen ein zweites Schwert eintauschst, investierst du tief in offensiven Heilig- und Feuerschaden, um Schattenwirker und frostbasierte Feinde gleichermaßen zu vernichten.
+
+Im maßgeschneiderten Klassen-Ökosystem von Conquest of Azeroth sticht die Walküre als erstklassiger Hybrid-DPS hervor. Du bist nicht nur ein Krieger mit schicken Lichteffekten; du bist ein zauberwirkender, beidhändig kämpfender Moloch, der die Schwächen spezifischer RPG-Kreaturen ausnutzt. Wenn du Ziele mit hoher Rüstung mit magischem Feuer schmelzen und gleichzeitig die Haltbarkeit einer Plattenrüstung beibehalten willst, ist dies die richtige Spezialisierung für dich.
+
+**Video-Highlights:**
+- **21 Custom-Klassen**: Erfahre, wie sich der Sonnenkleriker in die riesige Auswahl an maßgeschneiderten Klassen einfügt.
+- **Überarbeitung der RPG-Kreaturen**: Verstehe, warum Feinde mit hoher physischer Rüstung anfällig für das Heiligfeuer der Walküre sind.
+- **Immersive Item-Drops**: Siehe selbst, wie das Besiegen spezifischer Gegner genau die Ausrüstung fallen lässt, die deine Walküre benötigt.
+- **Weltgeschmiedete Schätze**: Entdecke, wie du anklickbare Gegenstände in der offenen Welt findest, um deinen Schaden zu steigern.
+
+<YouTubeEmbed videoId="pIPOCauIHKw" title="Full Release: Conquest of Azeroth - Ascension WoW" />
+
+<Callout type="success" title="Warum Walküre spielen?">
+Die Walküre ist einer der visuell spektakulärsten Specs in der Meta von 2026. Das Führen von zwei Schwertern, während heiliges Licht und Sonnenflares herabregnen, sorgt für einen unglaublich befriedigenden Kampfablauf.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Walküre-Talente & Spezialisierungs-Vergleich">
+
+Conquest of Azeroth verfügt über ein modernisiertes Talentsystem. Du navigierst durch einen einzelnen Klassenbaum, der für alle Sonnenkleriker gleich bleibt, zusammen mit einem einzigartigen Spezialisierungsbaum, der auf Stufe 10 freigeschaltet wird. Für die Walküre sollten deine Talententscheidungen Trefferwertung für Beidhändigkeit, Feuerschadens-Konvertierung und kritische Trefferchance priorisieren.
+
+Um dir zu helfen zu verstehen, wo die Walküre innerhalb der Sonnenkleriker-Klasse steht, haben wir unten die drei primären Spezialisierungen verglichen.
+
+<CardGrid cols={3}>
+  <Card title="Walküre (DPS)">
+    - **Führt zwei Schwerter**
+    - Hoher Heilig-/Feuer-Nahkampfschaden
+    - Exzellent gegen Schatten-/Frost-Feinde
+  </Card>
+  <Card title="Seraphim (Tank)">
+    - **Nutzt Schild und Schwert**
+    - Hohe physische Schadensverringerung
+    - Hervorragend geeignet zum Tanken von Untoten-Horden
+  </Card>
+  <Card title="Segen (Support)">
+    - **Fokus auf Gruppen-Buffs**
+    - Hohe Heilung und Nützlichkeit
+    - Verbessert die Effizienz der Gruppe im Kampf
+  </Card>
+</CardGrid>
+
+Beim Aufbau deines Talentbaums sind bestimmte Schlüsseltalente nicht verhandelbar. Die folgende Tabelle hebt die wesentlichen Talente hervor, die du auswählen musst, um deinen DPS-Ausstoß zu optimieren.
+
+| Talentname | Baum | Beschreibung | Bewertung |
+|---|---|---|---|
+| **Flammende Klingen** | Walküre-Spec | Verzaubert beidhändig geführte Waffen mit Feuerschaden | ★★★★★ |
+| **Sonnenflare** | Klassenbaum | Verursacht sofortigen Feuerschaden und blendet das Ziel | ★★★★☆ |
+| **Strahlender Zorn** | Walküre-Spec | Erhöht den Heiligschaden nach einem kritischen Treffer | ★★★★★ |
+| **Frömmigkeit des Sonnenklerikers** | Klassenbaum | Erhöht die Basis-Intelligenz und den Manavorrat | ★★★☆☆ |
+
+<Callout type="tip" title="Ressourcenmanagement">
+Da du zwei Waffen führst, erzeugen deine automatischen Angriffe schnell heilige Energie. Nutze diese Energie, um Sofortzauber wie Sonnenflare zwischen deine physischen Schläge einzubauen, um deinen Schaden pro Sekunde (DPS) zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ausrüstung, Immersive Drops & Weltgeschmiedete Gegenstände">
+
+Die Überarbeitung der RPG-Kreaturen verändert grundlegend, wie du dich ausrüstest. Gegner mit hoher physischer Rüstung zucken bei einfachen physischen Angriffen nur mit den Schultern, sind aber unglaublich schwach gegenüber dem hybriden Schaden der Walküre. Um dies optimal zu nutzen, musst du gezielt nach bestimmter Ausrüstung suchen.
+
+Durch immersive Item-Drops lassen Kreaturen tatsächlich die Ausrüstung fallen, die sie tragen. Um Plattenrüstung mit Zaubermacht zu erhalten, solltest du Scharlachrote Templer, Pyromanten und hochrangige Kultisten ins Visier nehmen. Zusätzlich ist die offene Welt mit über 1.800 weltgeschmiedeten Gegenständen gefüllt – anklickbare Objekte, die an thematisch passenden Orten versteckt sind und einzigartige, charakterdefinierende Effekte bieten.
+
+| Itemname | Typ | Schlüsseleffekt | Fundort |
+|---|---|---|---|
+| **Flammender Ring** | Ring | Fügt physischen Angriffen Feuerschaden hinzu | Truhen in der offenen Welt |
+| **Brennende Stiefel** | Stiefel | Erhöht Bewegungsgeschwindigkeit und Feuer-Zaubermacht | Rotkammgebirge |
+| **Sonnenamulett** | Halskette | Heilt den Benutzer bei kritischen Heiligtreffern | Schlingendorntal |
+
+<Callout type="warning" title="Weltgeschmiedete Gegenstände nicht wegwerfen">
+Selbst wenn du einen niedrigstufigen weltgeschmiedeten Gegenstand mit einem perfekten thematischen Effekt findest, behalte ihn! Sobald du die Maximalstufe von 2026 erreichst, kannst du diese Gegenstände mit Runen des Aufstiegs auf das maximale Level aufwerten.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Level-Route & Hardcore-Prüfungen">
+
+Das Leveln einer Walküre ist ein Abenteuer voller Möglichkeiten. Du kannst im Standard-PvE-Modus spielen, dich in den adrenalingeladenen Kriegsmodus stürzen oder dich den Hardcore-Prüfungen stellen. Wenn du ein einzigartiges Level-Erlebnis suchst, sprich mit dem Herausforderer-NPC in deiner Startzone.
+
+Unten findest du die optimale Schritt-für-Schritt-Progression, um deine Walküre von Stufe 1 bis zur Maximalstufe zu leveln.
+
+<Steps>
+  <Step num="1" title="Meisterung der Startzone">
+    Schließe alle überarbeiteten Quests in deiner volksspezifischen Startzone ab. Konzentriere dich darauf, deine Basis-Sonnenkleriker-Zauber zu erhalten und grundlegende physische Ausrüstung zu sammeln.
+  </Step>
+  <Step num="2" title="Walküre-Spec freischalten">
+    Schalte auf Stufe 10 den Walküre-Spezialisierungsbaum frei. Rüste sofort ein zweites Schwert aus und wähle das Talent Flammende Klingen, um mit der Beidhändigkeit zu beginnen.
+  </Step>
+  <Step num="3" title="Gezieltes Mob-Farming">
+    Reise in Zonen wie Westfall oder das Rotkammgebirge. Jage leicht gepanzerte Banditen für schnelle Kills oder farme Mitglieder des Scharlachroten Kreuzzugs für frühe Plattenrüstung mit Zaubermacht.
+  </Step>
+  <Step num="4" title="Holzbearbeitung & Schmiedekunst">
+    Wähle Holzbearbeitung als Zweitberuf, um Stat-Sticks für die Schildhand herzustellen, und nutze Schmiedekunst, um beidhändige Schwerter mit Zaubermacht-Affixen zu schmieden.
+  </Step>
+</Steps>
+
+Um sicherzustellen, dass du auf deinem Weg nicht vom Kurs abkommst, halte diese Progressions-Checkliste bereit, während du Azeroth erkundest.
+
+<Checklist
+  id="valkyrie-leveling-goals"
+  title="Leveling-Ziele für die Walküre:"
+  items={[
+    "Schalte die Walküre-Spezialisierung auf Stufe 10 frei",
+    "Erwirb zwei blau-qualitative Schwerter mit Feuer- oder Heilig-Zaubermacht",
+    "Schließe die geheime Defias-Schmuggel-Questreihe in Westfall ab",
+    "Finde mindestens drei weltgeschmiedete Gegenstände mit Feuerthematik in der Welt",
+    "Erreiche die Maximalstufe und bereite deine Pre-Raid BiS-Ausrüstung vor"
+  ]}
+/>
+
+<Callout type="info" title="Prestige-System">
+Wenn du den Level-Prozess liebst, kannst du auf der Maximalstufe das Prestige-System nutzen. Dies setzt dich auf Stufe 1 zurück, erlaubt dir aber, deine Ausrüstung, Berufe und dein Gold zu behalten, und belohnt dich beim erneuten Erreichen der Maximalstufe mit einer Beutetruhe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame PvE- und PvP-Dominanz">
+
+Sobald du die Maximalstufe im Jahr 2026 erreichst, beginnt die eigentliche Herausforderung. Als Walküre bist du aufgrund deines hohen Spalt-Schadens und deiner passiven heiligen Nützlichkeit sowohl in Dungeons als auch in Raids sehr gefragt. Du wirst die Übel der Karazhan-Krypten läutern und ikonische Bosse in überarbeiteten Raids wie dem Geschmolzenen Kern auf dem Schwierigkeitsgrad „Aufgestiegen“ bezwingen.
+
+Im PvP ist die Walküre eine furchterregende Kraft. Egal, ob du im Standard-Kriegsmodus spielst oder im High-Risk-Modus alles für blutgeschmiedete Ausrüstung riskierst – dein hybrider Schaden macht es Gegnern unglaublich schwer, sich gegen dich auszurüsten.
+
+| Slot | Itemname | Quelle | Wichtige Stats |
+|---|---|---|---|
+| **Main Hand** | Scharlachrote Sonnenklinge | Scharlachrotes Kloster | Stärke, Feuer-Zaubermacht |
+| **Off Hand** | Flammende Zauberklinge | Pyromanten-Drops | Intelligenz, Heilig-Zaubermacht |
+| **Brust** | Platte der Sonne | Schmiedekunst | Stärke, Ausdauer, Zauberkrit |
+| **Ring** | Ring des Aufstiegs | Helden-Anschlagbrett | Alle Stats, Zaubermacht |
+
+Das Verständnis deiner Matchups gegen die überarbeiteten RPG-Kreaturen ist der Schlüssel zum Überleben in High-Level-Begegnungen. Nutze die folgende Tabelle, um deine Angriffe zu planen.
+
+| Gegnertyp | Walküre-Leistung | Taktischer Rat | Matchup-Bewertung |
+|---|---|---|---|
+| **Untote / Schatten** | Exzellent | Nutze Heiligzauber, um massive Anfälligkeiten auszunutzen | 5/5 |
+| **Frostwirker** | Stark | Unterbrich Frostzauber, schließe die Lücke mit zwei Klingen | 4/5 |
+| **Schwere Rüstung Nahkampf** | Stark | Heilig-/Feuerschaden umgeht hohe physische Rüstung | 4/5 |
+| **Schnelle Bestien** | Moderat | Kite mit Fernkampf-Feuerzaubern, wenn das Leben sinkt | 3/5 |
+
+<Callout type="success" title="High-Risk-Tipp">
+Wenn du im High-Risk-PvP-Modus spielst, nutze deine Burst-Cooldowns frühzeitig. Die Fähigkeit der Walküre, massiven heiligen Burst-Schaden zu verursachen, kann Gegner ausschalten, bevor sie auf deinen beidhändigen Angriff reagieren können.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Was macht die Conquest of Azeroth Walküre im Vergleich zu anderen Sonnenkleriker-Specs einzigartig?",
+    answer: "Die Walküre ist die einzige Sonnenkleriker-Spezialisierung, die es dir ermöglicht, zwei Schwerter gleichzeitig zu führen. Sie tauscht alle schildbasierten defensiven Talente gegen hochgeschwindigkeits Heilig- und Feuer-Nahkampf-DPS ein."
+  },
+  {
+    question: "Kann ich als Walküre auch andere Waffen als Schwerter benutzen?",
+    answer: "Obwohl Schwerter aufgrund spezifischer Talentskalierungen im Walküre-Baum sehr empfohlen werden, kannst du auch andere physische Waffen beidhändig führen, sofern sie die notwendigen Zaubermacht-Affixe besitzen."
+  },
+  {
+    question: "Ist die Walküre für das Solo-Leveln geeignet?",
+    answer: "Ja. Dank der Plattenrüstungs-Expertise des Sonnenklerikers und des hohen Burst-Schadens der Walküre kannst du Elite-Mobs und Quest-Bosse während deiner Level-Reise problemlos alleine besiegen."
+  },
+  {
+    question: "Wie werte ich meine weltgeschmiedete Ausrüstung auf der Maximalstufe auf?",
+    answer: "Du kannst deine bevorzugten weltgeschmiedeten Gegenstände mit Runen des Aufstiegs aufwerten, die du durch das Abschließen täglicher Quests, Dungeon-Runs und Siege in Schlachtfeldern erhältst."
+  }
+]} />
+
+<Callout type="tip" title="Fazit">
+Die Sonnenkleriker-Walküre ist ein erstklassiger Hybrid-Spec im Jahr 2026. Durch die Balance zwischen physischer Beidhändigkeit und verheerender Heiligfeuermagie wirst du einen Pfad der Zerstörung sowohl durch PvE-Raids als auch durch PvP-Schlachtfelder ziehen.
+</Callout>
+
+</Section>

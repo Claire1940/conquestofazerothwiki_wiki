@@ -1,0 +1,138 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Runes of Power Quest: Optimization Guide 2026",
+  description: "Master the Conquest of Azeroth Runes of Power quest with this efficiency guide. Learn how to optimize your progression, currency usage, and talent resets.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Runes+of+Power+Guide",
+  date: "2026-07-08",
+  author: "conquest of azeroth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Conquest of Azeroth Runes of Power quest** is a vital progression milestone for new players.
+- **Runes of Ascension** act as the primary currency for talent resets and gear upgrades.
+- Early game **Path of Ascension** quests provide the most reliable source of these essential runes.
+- Strategic **World Forge item** management significantly boosts your leveling speed.
+- Players should prioritize daily **Call Board** tasks once reaching the end-game level cap.
+</Callout>
+
+<Section icon={Map} title="Understanding Runes of Power">
+
+In the custom realm of Ascension, the **Conquest of Azeroth Runes of Power quest** serves as a foundational tutorial for managing your character's progression. Unlike standard World of Warcraft, this system introduces a complex web of currencies and talent management tools that require careful handling.
+
+**Video Highlights:**
+- Overview of the 21 unique custom classes and 70 distinct specializations.
+- How to utilize the Path of Ascension system for consistent rune income.
+- Tips for navigating the revamped starting zones and mount availability.
+
+<YouTubeEmbed videoId="1F0sIAQufJ0" title="Conquest of Azeroth New Player Guide for Ascension WoW" />
+
+The quest itself is designed to familiarize you with the "Books of Ascension" and the broader economy of the server. By completing these tasks, you earn Runes of Ascension, which are indispensable for modifying your build on the fly as you discover which of the 70+ specializations best fits your playstyle.
+
+</Section>
+
+<Section icon={Target} title="Maximizing Rune Efficiency">
+
+To succeed in Conquest of Azeroth, you must treat your Runes of Power and Runes of Ascension as precious commodities. The following table illustrates the most effective ways to acquire and utilize these resources during your leveling journey.
+
+| Source | Activity Type | Efficiency | Priority |
+| :--- | :--- | :--- | :--- |
+| Path of Ascension | Questing | High | Essential |
+| Call Boards | Daily Tasks | Very High | Mandatory |
+| World Forge Items | Exploration | Medium | Optional |
+| Elite Mobs | Combat | Low | Situational |
+
+<Callout type="tip" title="Strategic Spending">
+Avoid spending your Runes of Ascension on early-level talent resets unless absolutely necessary. Save them for mid-level gear upgrades and critical build adjustments at level 30 and above.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progression Steps for New Players">
+
+Follow this structured approach to ensure you never run out of critical resources while completing your questing objectives.
+
+<Steps>
+  <Step num="1" title="Initiate Path of Ascension">
+    Locate the starting NPC near your spawn point to pick up the introductory Path of Ascension quests immediately upon entering the world.
+  </Step>
+  <Step num="2" title="Gather World Forge Items">
+    Keep a close watch on the ground for "World Forged" items, which provide unique buffs and gear enhancements that make questing significantly easier.
+  </Step>
+  <Step num="3" title="Utilize the Talent Calculator">
+    Before resetting your talents, use the official Ascension talent calculator to map out your desired build, preventing wasted rune expenditure.
+  </Step>
+  <Step num="4" title="Engage with Call Boards">
+    Once you reach level 60, interact with the city Call Boards daily to secure easy loot boxes and additional currency for end-game gearing.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Gear and Build Optimization">
+
+Your power level in Conquest of Azeroth is determined by a combination of your chosen talents and your gear's affix quality. The comparison below highlights why crafting and upgrading are central to the experience.
+
+<CardGrid cols={2}>
+  <Card title="Standard Gear">
+    - Static stats
+    - No customization
+    - Easily replaced
+  </Card>
+  <Card title="World Forged Gear">
+    - Randomized affixes
+    - Upgradeable tiers
+    - Higher power ceiling
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="PvP Risk Warning">
+If you choose to enable High-Risk PvP, remember that dying results in losing items. Always keep a backup set of gear or utilize quest rewards to quickly recover your power level.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist">
+
+Use this checklist to track your progress through the early and mid-game phases.
+
+<Checklist
+  id="progression-checklist"
+  title="Milestones to Complete:"
+  items={[
+    "Reach level 10 to unlock the character advancement window",
+    "Complete all initial Path of Ascension tutorials",
+    "Acquire your first 40% speed mount at level 5",
+    "Unlock your first specialization-specific talents",
+    "Complete the Runes of Power quest chain"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I get more Runes of Ascension?",
+    answer: "The most consistent way is through Path of Ascension quests and daily Call Board objectives found in capital cities."
+  },
+  {
+    question: "Is it worth resetting talents frequently?",
+    answer: "Only if you are experimenting with new builds. It is better to use the talent calculator first to avoid unnecessary rune costs."
+  },
+  {
+    question: "Can I use Runes of Power for end-game gear?",
+    answer: "Yes, they are used to upgrade World Forge items, which remain relevant well into the end-game content."
+  }
+]} />
+
+</Section>
