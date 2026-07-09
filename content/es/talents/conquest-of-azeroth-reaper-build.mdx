@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de Segador en Conquest of Azeroth: Guía de mejores habilidades y progresión",
+  description: "Domina la build de segador (Reaper) en Conquest of Azeroth con nuestra guía de 2026. Aprende las mecánicas de infusión de almas, rotaciones de habilidades y prioridades de equipo para el máximo aguante.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Reaper+Build+Guide",
+  date: "2026-07-09",
+  author: "Equipo de Wiki de Conquest of Azeroth"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Build de segador en Conquest of Azeroth**: Una clase cuerpo a cuerpo de gran aguante que utiliza el sacrificio de salud y la cosecha de almas para dominar a sus enemigos.
+- **Mecánica principal**: Gestiona las **Almas Segadas** (Reaped Souls) para activar la **Infusión de Alma** (Soul Infusion), la cual potencia drásticamente habilidades específicas como Guadaña de Obturación (Shutter Scythe).
+- **Elección de arma**: Todas las armas equipadas se transforman en **Guadañas**, aunque ciertas habilidades requieren empuñar dos armas para obtener la máxima eficiencia.
+- **Recurso primario**: Utiliza **Energía** y **Salud** como recursos, con magia de las sombras que proporciona una regeneración significativa de maná y salud.
+- **Mejor estrategia**: Alterna entre **Segar** (Reap) y **Canto Fúnebre** (Dirge) para acumular almas, luego desata la **Infusión de Alma** para infligir un daño explosivo masivo y curarte.
+</Callout>
+
+<Section icon={Map} title="Descripción general y mecánicas de la clase Segador">
+
+El Segador en Conquest of Azeroth es una clase híbrida única que combina la estética oscura de un caballero de la muerte con la agilidad de un pícaro. A diferencia de las clases tradicionales, la **build de segador en Conquest of Azeroth** gira en torno a un ciclo de juego de alto riesgo y alta recompensa en el que sacrificas tu propia salud para infligir un daño devastador, solo para recuperarla mediante golpes que absorben la vida. Esta clase se define por su capacidad de transformar cualquier arma en una guadaña, asegurando que tu presencia temática se mantenga siempre sin importar el botín que obtengas.
+
+**Vídeo destacado:**
+- **Demostración de habilidades**: Un análisis profundo de las habilidades de nivel 30 del Segador, incluyendo Pacto Carmesí (Crimson Pact) y Segar (Reap).
+- **Infusión de Alma**: Demostración visual de cómo acumular tres Almas Segadas modifica tu forma de combate.
+- **Movilidad y CC**: Resumen de Garra Fantasma (Ghost Claw) y Choque de Alma (Soul Shock) para controlar el campo de batalla.
+- **Tácticas de supervivencia**: Uso de Sifón de Sangre (Blood Siphon) y Guadaña de Obturación (Shutter Scythe) para mantener la salud en PvE.
+
+<YouTubeEmbed videoId="OCaUxzQg8dE" title="REAPER LVL 30 Review | Conquest of Azeroth" />
+
+El poder del Segador se divide en tres escuelas principales: Siega (Reaping), Alma (Soul) y Dominación (Domination). Cada escuela proporciona diferentes herramientas para la supervivencia y el daño.
+
+| Escuela de habilidad | Enfoque principal | Beneficios clave | Estilo de juego |
+| :--- | :--- | :--- | :--- |
+| **Siega** | Sifón de vida | Gran aguante y robo de salud | Luchador / Juego en solitario |
+| **Alma** | Magia de sombras | Utilidad a distancia y precisión explosiva | DPS / JcJ (PvP) |
+| **Dominación** | Protección | Generación de amenaza y mitigación de daño | Tanque secundario / Soporte |
+
+<Callout type="tip" title="Rol de la clase">
+El Segador destaca en **Aguante** (Sustain) y **Daño a un solo objetivo**. Aunque carece de un daño explosivo tan elevado en comparación con los asesinos puros, su capacidad para mantenerse en combate mediante la regeneración de salud lo convierte en una opción de primer nivel para subir de nivel en solitario y encuentros prolongados contra jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades principales y sinergia">
+
+Para dominar la **build de segador en Conquest of Azeroth**, debes comprender la interacción entre tus golpes básicos y tu recurso de almas. Tu rotación principal consiste en generar **Almas Segadas**, que se obtienen al matar enemigos o usando habilidades específicas como **Canto Fúnebre** (Dirge) y **Segar** (Reap).
+
+### Habilidades de combate primarias
+
+La siguiente tabla detalla las habilidades esenciales que utilizarás durante el proceso de nivelación y al alcanzar el límite de nivel 30.
+
+| Nombre de la habilidad | Tipo | Efecto clave | Coste de recurso |
+| :--- | :--- | :--- | :--- |
+| **Segar** (Reap) | Cuerpo a cuerpo | Restaura un 5% de la salud máxima; el tercer uso otorga un Alma Segada | Maná / GCD |
+| **Asesinato** (Murder) | A distancia | Inflige daño de Sombras y restaura un 10% del maná máximo | 10 s de tiempo de reutilización |
+| **Choque de Alma** (Soul Shock) | CC | Silencia/Aturde al objetivo durante 30 s (se rompe al recibir daño) | 2 s de lanzamiento |
+| **Canto Fúnebre** (Dirge) | Cuerpo a cuerpo | Inflige un 220% de daño de arma; genera un Alma Segada | 5% de la salud máxima |
+| **Lamento** (Lament) | A distancia | Consume un Alma Segada para infligir un gran daño de Sombras | 5 s de tiempo de reutilización |
+
+### El estado de Infusión de Alma
+
+Una vez que acumulas tres **Almas Segadas**, entras en un estado de **Infusión de Alma**. Este es el punto álgido del poder del Segador. Por ejemplo, la habilidad **Guadaña de Obturación** (Shutter Scythe) normalmente realiza cinco ataques; sin embargo, bajo los efectos de Infusión de Alma, asesta diez golpes en un segundo, duplicando eficazmente su daño y su potencial de curación.
+
+<CardGrid cols={2}>
+  <Card title="Utilidad ofensiva">
+    - **Garra Fantasma** (Ghost Claw): Roba un 40% de velocidad de movimiento durante 10 segundos.
+    - **Poseído** (Possessed): Te vuelves invulnerable durante 1,5 s mientras posees a un enemigo.
+    - **Toque Marchitador** (Withering Touch): Reduce el daño del enemigo en un 90% durante 3 segundos.
+  </Card>
+  <Card title="Utilidad defensiva">
+    - **Sifón de Sangre** (Blood Siphon): Roba salud en un cono de 20 yardas y reduce la curación del enemigo.
+    - **Carcelero de Almas** (Jailer of Souls): Aumenta la amenaza y el índice de parada en un 40% de la Agilidad.
+    - **Paso Inferior** (Underwalk): Entra en el reino de los espíritus para pasar desapercibido ante los enemigos.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo profesional: Gestión del maná">
+Usa siempre **Asesinato** (Murder) tan pronto como esté disponible. Dado que los Segadores consumen bastante maná en sus hechizos de utilidad, la restauración del 10% del maná máximo que otorga Asesinato es esencial para mantener un ritmo de combate elevado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gestión de recursos: Salud y Almas">
+
+La **build de segador en Conquest of Azeroth** es un juego de equilibrio constante. Estarás sacrificando salud continuamente para alimentar tus ataques más fuertes, mientras utilizas tus habilidades pasivas para regenerar maná y vida.
+
+### La pasiva Cosechador de Almas (Soul Harvester)
+Cada vez que infliges daño directo, el enemigo queda marcado durante 10 segundos. Si muere mientras está marcado, tú y tus aliados obtenéis un aumento del 300% en la regeneración de maná. Además, tu maná máximo se incrementa permanentemente en un 30%. Esto convierte al Segador en un excelente compañero para el juego en grupo, actuando como una "batería de maná" para el equipo.
+
+| Tipo de recurso | Método de generación | Uso principal |
+| :--- | :--- | :--- |
+| **Almas Segadas** | Matar enemigos, Canto Fúnebre, Paradas exitosas | Se consumen para Lamento o Infusión de Alma |
+| **Maná** | Asesinato, pasiva Cosechador de Almas | Se usa para utilidad, CC y hechizos a distancia |
+| **Salud** | Segar, Sifón de Sangre, Guadaña de Obturación | Se sacrifica para usar habilidades de alto daño como Canto Fúnebre |
+
+<Callout type="warning" title="Riesgos del sacrificio de salud">
+Habilidades como **Canto Fúnebre** (Dirge) cuestan un 5% de tu salud máxima. En combates de JcJ intensos o contra jefes, usar estas habilidades repetidamente sin un plan claro de recuperación puede llevarte a una muerte autoinfligida. Combina siempre Canto Fúnebre con **Segar** (Reap) para estabilizar tus puntos de vida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotación de combate paso a paso">
+
+Para maximizar tu eficiencia con la **build de segador en Conquest of Azeroth**, sigue esta rotación para asegurarte de tener siempre suficientes almas para tus remates.
+
+<Steps>
+  <Step num="1" title="Iniciación y control">
+    Comienza el combate con **Choque de Alma** (Soul Shock) si el objetivo es peligroso, seguido de **Garra Fantasma** (Ghost Claw) para acortar distancias y robarle velocidad de movimiento.
+  </Step>
+  <Step num="2" title="Generación de almas">
+    Usa **Canto Fúnebre** (Dirge) (si tienes suficiente salud) para obtener Almas Segadas rápidamente. Utiliza **Segar** (Reap) dos veces para preparar el combo, y luego úsalo una tercera vez para generar tu alma final.
+  </Step>
+  <Step num="3" title="Ráfaga de Infusión">
+    Una vez que tengas tres almas, activa **Guadaña de Obturación** (Shutter Scythe). Esto activará el efecto de **Infusión de Alma**, infligiendo un daño masivo y curándote por completo.
+  </Step>
+  <Step num="4" title="Ejecución y reinicio">
+    Usa **Asesinato** (Murder) para recuperar maná y **Lamento** (Lament) para acabar con la salud restante del enemigo. Si el objetivo intenta huir, usa **Poseído** (Possessed) para cerrar la distancia y desatar un daño de sombras final.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Equipamiento y prioridad de estadísticas">
+
+Los Segadores disponen de opciones de armadura flexibles, pero para una **build de segador estándar en Conquest of Azeroth**, centrarse en la Agilidad y el Aguante es primordial. Dado que tu índice de parada aumenta en un 40% de tu Agilidad mientras estás en el modo **Carcelero de Almas** (Jailer of Souls), la Agilidad funciona como una estadística tanto ofensiva como defensiva.
+
+| Ranura de equipo | Tipo recomendado | Estadísticas prioritarias |
+| :--- | :--- | :--- |
+| **Armas** | Dos armas de una mano | Agilidad > Poder de ataque > Crítico |
+| **Armadura** | Malla o Cuero | Aguante > Agilidad > Celeridad |
+| **Abalorios** | Daño de Sombras / Efectos al golpear | Reg. de maná > Fuerza |
+
+### Requisitos de armas
+- **Empuñar dos armas**: Requerido para **Canto Fúnebre** (Dirge), **Paso Inferior** (Underwalk) y **Desplazamiento** (Shift).
+- **Guadañas de dos manos**: Ideales para centrarse puramente en la escuela de Siega y realizar un daño elevado de un solo golpe.
+
+<Callout type="info" title="Selección de armadura">
+Aunque los Segadores pueden usar tela, cuero o malla, se recomienda encarecidamente usar **Malla** por su mayor valor de armadura, ya que a menudo estarás en el rango cuerpo a cuerpo recibiendo golpes físicos mientras tu salud ya se ve reducida por tus propias habilidades.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de progresión">
+
+Utiliza esta lista de verificación para asegurarte de que tu **build de segador en Conquest of Azeroth** esté optimizada a medida que avanzas hacia el límite de nivel en 2026.
+
+<Checklist
+  id="reaper-progression"
+  title="Hitos del Segador:"
+  items={[
+    "Desbloquear Canto Fúnebre para una rápida generación de almas",
+    "Obtener dos armas de una mano con alta agilidad para empuñar dos armas",
+    "Dominar el tiempo de la Infusión de Alma con 3 acumulaciones para Guadaña de Obturación",
+    "Alcanzar el nivel 30 para desbloquear la habilidad definitiva Poseído",
+    "Adquirir un conjunto de armadura de malla para mejorar la mitigación de daño físico"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor arma para una build de segador en Conquest of Azeroth?",
+    answer: "Empuñar dos armas de una mano suele ser superior porque desbloquea habilidades esenciales como Canto Fúnebre y Paso Inferior, que son fundamentales para la generación de almas y la movilidad."
+  },
+  {
+    question: "¿Cómo funciona la Infusión de Alma?",
+    answer: "La Infusión de Alma es un estado pasivo que se activa al reunir tres Almas Segadas. Consume automáticamente las almas para potenciar tu siguiente habilidad importante, como duplicar los golpes de Guadaña de Obturación."
+  },
+  {
+    question: "¿Es bueno el Segador para tanquear?",
+    answer: "Sí, al utilizar la habilidad Carcelero de Almas, el Segador obtiene un aumento de amenaza del 60% y un beneficio de parada basado en la Agilidad, lo que lo convierte en un tanque secundario viable con un alto autoaguante."
+  },
+  {
+    question: "¿Puedo usar el Segador para JcJ (PvP)?",
+    answer: "Por supuesto. Habilidades como Toque Marchitador (90% de reducción de daño) y Garra Fantasma (robo de velocidad) hacen que el Segador sea una pesadilla en duelos contra otras clases cuerpo a cuerpo."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Conquest of Azeroth Reaper Build: Bester Skill- & Progress-Guide",
+  description: "Meistere den Conquest of Azeroth Reaper Build mit unserem Guide für 2026. Lerne die Mechaniken der Seeleninfusion, Skill-Rotationen und Ausrüstungsprioritäten für maximalen Sustain.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Reaper+Build+Guide",
+  date: "2026-07-09",
+  author: "Conquest of Azeroth Wiki-Team"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **Conquest of Azeroth Reaper Build**: Eine Nahkampfklasse mit hoher Selbstheilung (Sustain), die Lebenspunkte opfert und Seelen erntet, um Gegner zu dominieren.
+- **Kernmechanik**: Verwalte **Geerntete Seelen** (Reaped Souls), um die **Seeleninfusion** (Soul Infusion) auszulösen, die bestimmte Fähigkeiten wie die Schattensense (Shutter Scythe) drastisch verstärkt.
+- **Waffenwahl**: Alle ausgerüsteten Waffen verwandeln sich optisch in **Sensen**, obwohl bestimmte Fähigkeiten das Tragen von zwei Einhandwaffen (Dual-Wielding) für maximale Effizienz erfordern.
+- **Primäre Ressourcen**: Nutzt **Energie** und **Gesundheit** als Ressourcen, wobei Schattenmagie für eine erhebliche Mana- und Lebensregeneration sorgt.
+- **Beste Strategie**: Wechsle zwischen **Ernten** (Reap) und **Klagelied** (Dirge), um Seelen aufzubauen, und entfessle dann die **Seeleninfusion** für massiven Burst-Schaden und Heilung.
+</Callout>
+
+<Section icon={Map} title="Reaper: Klassenübersicht und Mechaniken">
+
+Der Reaper (Schnitter) in Conquest of Azeroth ist eine einzigartige Hybridklasse, die die düstere Ästhetik eines Todesritters mit der Agilität eines Schurken verbindet. Im Gegensatz zu traditionellen Klassen dreht sich der **Conquest of Azeroth Reaper Build** um einen risikoreichen, aber lohnenden Gameplay-Loop: Du opferst deine eigene Gesundheit, um verheerenden Schaden anzurichten, nur um sie dir durch lebensentziehende Angriffe direkt wieder zurückzuholen. Diese Klasse zeichnet sich dadurch aus, dass sie jede ausgerüstete Waffe in eine Sense verwandeln kann. So bleibt deine thematische Präsenz unabhängig von deiner Beute immer gewahrt.
+
+**Video-Highlights:**
+- **Skill-Präsentationen**: Ein tiefer Einblick in die Reaper-Fähigkeiten auf Stufe 30, einschließlich Purpurpakt (Crimson Pact) und Ernten (Reap).
+- **Seeleninfusion**: Visuelle Demonstration, wie das Stapeln von drei Geernteten Seelen deine Kampfform verändert.
+- **Mobilität und CC**: Übersicht über Geisterklaue (Ghost Claw) und Seelenschock (Soul Shock) zur Kontrolle des Schlachtfelds.
+- **Überlebensstrategien**: Nutzung von Blutsauger (Blood Siphon) und Schattensense (Shutter Scythe), um die Gesundheit im PvE stabil zu halten.
+
+<YouTubeEmbed videoId="OCaUxzQg8dE" title="REAPER LVL 30 Review | Conquest of Azeroth" />
+
+Die Macht des Reapers teilt sich in drei primäre Schulen auf: Ernte (Reaping), Seele (Soul) und Dominanz (Domination). Jede Schule bietet unterschiedliche Werkzeuge für Überleben und Schaden.
+
+| Fähigkeitenschule | Primärer Fokus | Hauptvorteile | Spielstil |
+| :--- | :--- | :--- | :--- |
+| **Ernte (Reaping)** | Lebensentzug | Massiver Sustain und Lebensraub | Bruiser / Solo-Spiel |
+| **Seele (Soul)** | Schattenmagie | Fernkampf-Nützlichkeit und präziser Burst | DPS / PvP |
+| **Dominanz (Domination)** | Schutz | Bedrohungserzeugung und Schadensminderung | Off-Tank / Support |
+
+<Callout type="tip" title="Klassenrolle">
+Der Reaper glänzt in den Bereichen **Sustain** und **Einzelschaden**. Obwohl ihm im Vergleich zu reinen Meuchelmördern der extreme Burst-Schaden fehlt, macht ihn seine Fähigkeit, durch konstante Lebensregeneration im Kampf zu bleiben, zu einer erstklassigen Wahl für das Solo-Leveln und lang andauernde Bosskämpfe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kernfähigkeiten und Skill-Synergien">
+
+Um den **Conquest of Azeroth Reaper Build** zu meistern, musst du das Zusammenspiel zwischen deinen Standardangriffen und deiner Seelenressource verstehen. Deine primäre Rotation besteht darin, **Geerntete Seelen** aufzubauen, die durch das Töten von Gegnern oder durch den Einsatz bestimmter Fähigkeiten wie **Klagelied** (Dirge) und **Ernten** (Reap) erzeugt werden.
+
+### Primäre Kampf-Skills
+
+Die folgende Tabelle zeigt die essenziellen Fähigkeiten, die du während des Levelns und auf der Maximalstufe 30 verwenden wirst.
+
+| Skill-Name | Typ | Haupteffekt | Ressourcenkosten |
+| :--- | :--- | :--- | :--- |
+| **Ernten (Reap)** | Nahkampf | Stellt 5% maximale Gesundheit wieder her; die 3. Anwendung gewährt eine Geerntete Seele | Mana / GCD |
+| **Mord (Murder)** | Fernkampf | Verursacht Schattenschaden und stellt 10% maximales Mana wieder her | 10s Abklingzeit |
+| **Seelenschock (Soul Shock)** | CC | Bringt das Ziel für 30s zum Schweigen/Betäuben (bricht bei Schaden) | 2s Zauberzeit |
+| **Klagelied (Dirge)** | Nahkampf | Verursacht 220% Waffenschaden; erzeugt eine Geerntete Seele | 5% maximale Gesundheit |
+| **Wehklage (Lament)** | Fernkampf | Verbraucht eine Geerntete Seele für hohen Schattenschaden | 5s Abklingzeit |
+
+### Der Zustand der Seeleninfusion
+
+Sobald du drei **Geerntete Seelen** angesammelt hast, betrittst du den Zustand der **Seeleninfusion** (Soul Infusion). Dies ist der Höhepunkt der Macht des Reapers. Beispielsweise führt die Fähigkeit **Schattensense** (Shutter Scythe) normalerweise fünf Angriffe aus; unter dem Einfluss der Seeleninfusion führt sie jedoch zehn Schläge innerhalb einer Sekunde aus, was ihren Schaden und ihr Heilungspotenzial effektiv verdoppelt.
+
+<CardGrid cols={2}>
+  <Card title="Offensive Hilfsmittel">
+    - **Geisterklaue (Ghost Claw)**: Stiehlt 10 Sekunden lang 40% des gegnerischen Bewegungstempos.
+    - **Besessen (Possessed)**: Werde für 1,5s unverwundbar, während du von einem Gegner Besitz ergreifst.
+    - **Verwelkende Berührung (Withering Touch)**: Reduziert den gegnerischen Schaden 3 Sekunden lang um 90%.
+  </Card>
+  <Card title="Defensive Hilfsmittel">
+    - **Blutsauger (Blood Siphon)**: Entzieht Leben in einem 20-Meter-Kegel vor dir und verringert die gegnerische Heilung.
+    - **Seelenkerkerer (Jailer of Souls)**: Erhöht die Bedrohung und die Parrierwertung um 40% deiner Beweglichkeit.
+    - **Geisterpfad (Underwalk)**: Betritt das Geisterreich, um dich an Feinden vorbeizuschleichen.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Profi-Tipp: Manamanagement">
+Nutze **Mord** (Murder) immer direkt nach Ablauf der Abklingzeit. Da Reaper einiges an Mana für ihre nützlichen Hilfszauber verbrauchen, ist die Wiederherstellung von 10% des maximalen Manas durch diesen Skill unerlässlich, um ein hohes Kampftempo aufrechterhalten zu können.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ressourcenmanagement: Gesundheit und Seelen">
+
+Der **Conquest of Azeroth Reaper Build** ist ein ständiger Seiltanz. Du opferst fortlaufend deine eigene Gesundheit, um deine stärksten Angriffe zu befeuern, während du deine passiven Fähigkeiten nutzt, um Mana und Leben wieder aufzubauen.
+
+### Die passive Fähigkeit „Seelenernter“ (Soul Harvester)
+Wann immer du direkten Schaden verursachst, wird der Gegner für 10 Sekunden markiert. Stirbt er während dieser Markierung, erhalten du und deine Verbündeten eine um 300% erhöhte Manaregeneration. Zudem wird dein maximales Mana dauerhaft um 30% erhöht. Dies macht den Reaper zu einem hervorragenden Partner im Gruppenspiel, der quasi als „Manabatterie“ für das gesamte Team fungiert.
+
+| Ressourcentyp | Erzeugungsmethode | Hauptsächliche Verwendung |
+| :--- | :--- | :--- |
+| **Geerntete Seelen** | Töten von Monstern, Klagelied, erfolgreiches Parieren | Werden für Wehklage oder Seeleninfusion verbraucht |
+| **Mana** | Mord, passive Fähigkeit „Seelenernter“ | Genutzt für Hilfszauber, CC und Fernkampfzauber |
+| **Gesundheit** | Ernten, Blutsauger, Schattensense | Wird geopfert, um schadensintensive Skills wie Klagelied zu nutzen |
+
+<Callout type="warning" title="Risiko des Selbstopfers">
+Fähigkeiten wie **Klagelied** (Dirge) kosten dich 5% deiner maximalen Gesundheit. In intensiven PvP-Kämpfen oder bei Bossbegegnungen kann das unüberlegte Spammen dieser Skills ohne einen klaren Heilungsplan schnell zum eigenen Tod führen. Kombiniere Klagelied daher immer mit **Ernten** (Reap), um deine Lebenspunkte zu stabilisieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Kampfrotation">
+
+Um deine Effizienz mit dem **Conquest of Azeroth Reaper Build** zu maximieren, folge dieser Rotation. So stellst du sicher, dass dir nie die Seelen für deine Finishing-Moves ausgehen.
+
+<Steps>
+  <Step num="1" title="Eröffnung und Kontrolle">
+    Beginne den Kampf mit **Seelenschock** (Soul Shock), falls das Ziel gefährlich ist, gefolgt von **Geisterklaue** (Ghost Claw), um die Distanz zu verkürzen und das Bewegungstempo des Gegners zu stehlen.
+  </Step>
+  <Step num="2" title="Seelenerzeugung">
+    Nutze **Klagelied** (Dirge) – sofern deine Gesundheit es zulässt –, um schnell Geerntete Seelen aufzubauen. Setze **Ernten** (Reap) zweimal ein, um die Kombo vorzubereiten, und ein drittes Mal, um deine letzte benötigte Seele zu generieren.
+  </Step>
+  <Step num="3" title="Infusions-Burst">
+    Sobald du drei Seelen besitzt, aktiviere die **Schattensense** (Shutter Scythe). Dies löst den Effekt der **Seeleninfusion** aus, verursacht massiven Schaden und heilt dich im Handumdrehen wieder voll.
+  </Step>
+  <Step num="4" title="Finishing und Reset">
+    Nutze **Mord** (Murder), um dein Mana wieder aufzufüllen, und **Wehklage** (Lament), um dem Gegner den Rest zu geben. Versucht das Ziel zu fliehen, nutze **Besessen** (Possessed), um die Lücke zu schließen und finalen Schattenschaden auszulösen.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Ausrüstung und Attributspriorität">
+
+Reaper haben flexible Rüstungsoptionen. Für einen standardmäßigen **Conquest of Azeroth Reaper Build** ist die Konzentration auf Beweglichkeit (Agility) und Ausdauer (Stamina) jedoch am wichtigsten. Da deine Parierwertung im Modus **Seelenkerkerer** (Jailer of Souls) um 40% deiner Beweglichkeit erhöht wird, dient Beweglichkeit sowohl als offensives als auch als defensives Attribut.
+
+| Ausrüstungsplatz | Empfohlener Typ | Priorisierte Attribute |
+| :--- | :--- | :--- |
+| **Waffen** | Zwei Einhandwaffen (Dual-Wield) | Beweglichkeit > Angriffskraft > Kritische Trefferwertung |
+| **Rüstung** | Schwere Rüstung (Mail) oder Leder | Ausdauer > Beweglichkeit > Tempowertung (Haste) |
+| **Schmuckstücke** | Schattenschaden / Treffereffekte | Manaregeneration > Stärke |
+
+### Waffenanforderungen
+- **Dual-Wielding (Zwei Einhandwaffen)**: Zwingend erforderlich für die Fähigkeiten **Klagelied** (Dirge), **Geisterpfad** (Underwalk) und **Wechsel** (Shift).
+- **Zweihändige Sensen**: Besser geeignet für eine reine Fokussierung auf die Ernte-Schule (Reaping) und für schweren Schaden mit einzelnen Treffern.
+
+<Callout type="info" title="Rüstungswahl">
+Obwohl Reaper Stoff, Leder oder Schwere Rüstung tragen können, wird **Schwere Rüstung (Mail)** aufgrund des höheren Rüstungswerts dringend empfohlen. Da du dich oft in Nahkampfreichweite befindest und physische Treffer einstecken musst während deine Gesundheit bereits durch deine eigenen Fähigkeiten beansprucht wird, ist dieser zusätzliche Schutz Gold wert.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritts-Checkliste">
+
+Nutze diese Checkliste, um sicherzustellen, dass dein **Conquest of Azeroth Reaper Build** optimal aufgestellt ist, während du dich im Jahr 2026 auf die Höchststufe zubewegst.
+
+<Checklist
+  id="reaper-progression"
+  title="Reaper-Meilensteine:"
+  items={[
+    "Schalte Klagelied (Dirge) für eine schnelle Seengenerierung frei",
+    "Besorge dir zwei Einhandwaffen mit hoher Beweglichkeit für den beidhändigen Kampf",
+    "Meistere das Timing der Seeleninfusion mit 3 Stapeln für die Schattensense (Shutter Scythe)",
+    "Erreiche Stufe 30, um die ultimative Fähigkeit Besessen (Possessed) freizuschalten",
+    "Erwirb ein Set aus Schwerer Rüstung (Mail) für eine bessere physische Schadensminderung"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Was ist die beste Waffe für einen Conquest of Azeroth Reaper Build?",
+    answer: "Das Tragen von zwei Einhandwaffen (Dual-Wielding) ist im Allgemeinen überlegen, da es essenzielle Fähigkeiten wie Klagelied (Dirge) und Geisterpfad (Underwalk) freischaltet, die für die Seengenerierung und Mobilität entscheidend sind."
+  },
+  {
+    question: "Wie funktioniert die Seeleninfusion?",
+    answer: "Die Seeleninfusion ist ein passiver Zustand, der ausgelöst wird, sobald du drei Geerntete Seelen gesammelt hast. Sie verbraucht die Seelen automatisch, um deine nächste Hauptfähigkeit massiv zu verstärken – beispielsweise indem sie die Trefferanzahl der Schattensense verdoppelt."
+  },
+  {
+    question: "Eignet sich der Reaper zum Tanken?",
+    answer: "Ja. Durch die Nutzung der Fähigkeit Seelenkerkerer (Jailer of Souls) erhält der Reaper eine um 60% erhöhte Bedrohung sowie einen auf Beweglichkeit basierenden Parierbonus. Das macht ihn zu einem brauchbaren Off-Tank mit extrem hoher Selbstheilung."
+  },
+  {
+    question: "Kann ich den Reaper im PvP spielen?",
+    answer: "Absolut. Fähigkeiten wie Verwelkende Berührung (90% Schadensreduktion) und Geisterklaue (Tempo-Diebstahl) machen den Reaper zu einem Albtraum für andere Nahkampfklassen im Duell."
+  }
+]} />
+
+</Section>

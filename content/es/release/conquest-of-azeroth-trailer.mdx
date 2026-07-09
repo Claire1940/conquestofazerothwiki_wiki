@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tráiler de Conquest of Azeroth: Revelación de Jugabilidad 2026 y Exhibición de Clases",
+  description: "Explora los últimos detalles del tráiler de Conquest of Azeroth, con más de 21 clases personalizadas, cambios a escala mundial y la hoja de ruta de desarrollo para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Conquest+of+Azeroth+Trailer",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Conquest of Azeroth",
+  keywords: "Conquest of Azeroth, tráiler, clases personalizadas, Project Ascension, WoW mod, jugabilidad 2026"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Actualización Principal**: El **tráiler de Conquest of Azeroth** muestra un mod de conversión total para Project Ascension.
+- **Sistema Único**: A diferencia del Ascension base "sin clases", este mod introduce más de 21 **clases completamente personalizadas** con habilidades fijas.
+- **Cambios en el Mundo**: Espera una experiencia de nivelación renovada con IA de PNJs personalizada y encuentros mundiales escalados.
+- **Método de Acceso**: Los jugadores deben usar el Lanzador de Ascension y seleccionar el reino específico de Alfa o Beta para CoA.
+- **Revisión Visual**: El metraje de 2026 destaca mejoras gráficas significativas en los efectos de hechizos y animaciones de personajes.
+</Callout>
+
+<Section icon={Sparkles} title="Analizando el Impacto del Tráiler de Conquest of Azeroth">
+
+El reciente lanzamiento del **tráiler de Conquest of Azeroth** ha causado un gran impacto en la comunidad de servidores privados de World of Warcraft. Este proyecto, alojado en el marco de Project Ascension, representa un cambio monumental respecto a la jugabilidad tradicional "sin clases". En lugar de elegir talentos individuales de un grupo masivo, se presenta a los jugadores una experiencia curada donde cada clase es una obra maestra artesanal con mecánicas, recursos y efectos visuales únicos que respetan el trasfondo del juego.
+
+El tráiler de 2026 se centra específicamente en las actualizaciones de la "Fase Alfa 4", mostrando un combate fluido y la sinergia entre los nuevos arquetipos. Para los jugadores cansados de que la "Trinidad" estándar (Tanque, Sanador, DPS) se sienta estancada, este tráiler revela cómo los roles híbridos y la gestión de recursos única —como el Calor del Manitas o la Deuda Temporal del Cronomante— redefinen el campo de batalla.
+
+| Característica | Descripción | Nivel de Impacto |
+| :--- | :--- | :--- |
+| **Clases Personalizadas** | Más de 21 arquetipos únicos, incluyendo Nigromante y Bárbaro | Alto |
+| **Escalamiento del Mundo** | Dificultad dinámica basada en el equipo del jugador y el tamaño del grupo | Medio |
+| **Nuevos Recursos** | Mecánicas como Calor, Esencia y Runas para clases específicas | Alto |
+| **Efectos Visuales** | Efectos de hechizos en alta definición que superan los estándares del juego original | Medio |
+| **Progresión Fija** | Desbloqueo de habilidades a niveles específicos para un meta equilibrado | Alto |
+
+<Callout type="tip" title="Visión del Editor">
+El tráiler enfatiza que, aunque las clases son fijas, el sistema de "Encantamiento" del Ascension base aún permite una personalización significativa de la build, asegurando que no haya dos Nigromantes que se jueguen exactamente igual.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Exhibición de Clases: Nuevos Arquetipos Revelados">
+
+Uno de los puntos destacados del **tráiler de Conquest of Azeroth** es la inmersión profunda en clases específicas que han sido reconstruidas desde cero. Estas no son meras versiones rediseñadas de las clases existentes de WoW; utilizan scripts personalizados para proporcionar un ciclo de juego que no se encuentra en ningún otro lugar del espacio MMO.
+
+El tráiler muestra al **Manitas**, un genio mecánico que utiliza torretas y trajes trituradores, y al **Cronomante**, un sanador que "deshace" el daño revirtiendo el tiempo en sus aliados. Estas clases representan la cúspide de la actualización de 2026, llevando el motor a sus límites absolutos.
+
+| Nombre de Clase | Rol Principal | Mecánica Central | Complejidad |
+| :--- | :--- | :--- | :--- |
+| **Manitas** | DPS / Tanque | Gestión de Calor / Colocación de Torretas | ★★★★☆ |
+| **Cronomante** | Sanador / Utilidad | Revertir Daño / Éxtasis Temporal | ★★★★★ |
+| **Bárbaro** | DPS Cuerpo a Cuerpo | Combos basados en Furia / Sin Maná | ★★☆☆☆ |
+| **Nigromante** | DPS a Distancia | Sacrificio de Esbirros / Fragmentos de Alma | ★★★☆☆ |
+| **Segador** | DPS Cuerpo a Cuerpo | Guadaña de Sombras / Robo de Vida | ★★★★☆ |
+
+<CardGrid cols={3}>
+  <Card title="El Manitas">
+    - **Recurso**: Calor. El sobrecalentamiento otorga mejoras pero conlleva riesgo de bloqueo.
+    - **Utilidad**: Puede desplegar estaciones de curación móviles y generadores de escudos.
+    - **Estilo de juego**: Posicionamiento estratégico de construcciones mecánicas.
+  </Card>
+  <Card title="El Cronomante">
+    - **Recurso**: Maná / Energía Temporal.
+    - **Utilidad**: Puede "Guardar" el estado de salud de un aliado y volver a él más tarde.
+    - **Estilo de juego**: Sanador de alta dificultad centrado en la acción preventiva.
+  </Card>
+  <Card title="El Bárbaro">
+    - **Recurso**: Furia. Se genera al recibir y causar daño.
+    - **Utilidad**: Aturdimientos masivos en área y mejoras de daño físico.
+    - **Estilo de juego**: Combate cuerpo a cuerpo agresivo y de ritmo rápido.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia del Meta">
+Clases como el Cronomante requieren una alta estabilidad de latencia, ya que sus mecánicas de "Rebobinado" son sensibles a la sincronización del servidor.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Acceder e Instalar Conquest of Azeroth">
+
+Tras la emoción del **tráiler de Conquest of Azeroth**, muchos jugadores buscan participar en las fases de prueba Alfa o Beta. Actualmente, el acceso se gestiona a través del lanzador de Project Ascension, pero se requieren pasos específicos para asegurar que los activos personalizados se descarguen correctamente.
+
+<Steps>
+  <Step num="1" title="Descargar el Lanzador de Ascension">
+    Visita el sitio web oficial de Project Ascension y descarga la última versión del lanzador. Asegúrate de tener un cliente de WoW 3.3.5a limpio si se te solicita, aunque el lanzador suele encargarse de la instalación.
+  </Step>
+  <Step num="2" title="Seleccionar el Reino de CoA">
+    En la barra lateral del lanzador, busca la pestaña "Conquest of Azeroth". Esta es independiente de los reinos estándar "Elune" o "Al'ar". Es posible que debas inscribirte para las pruebas Alfa si el reino se encuentra actualmente en estado cerrado.
+  </Step>
+  <Step num="3" title="Actualizar Activos Personalizados">
+    El **tráiler de Conquest of Azeroth** presenta activos de alta fidelidad. Haz clic en el botón "Actualizar" para descargar los parches personalizados (del Parche-A al Parche-Z) que contienen los nuevos modelos de clase y efectos de hechizos.
+  </Step>
+  <Step num="4" title="Creación de Personaje">
+    Inicia el juego entra en la pantalla de creación de personaje. Verás una interfaz de usuario única donde puedes explorar las más de 21 clases. Lee las descripciones cuidadosamente, ya que la elección de clase es permanente para ese personaje.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Instalación">
+Si experimentas "cubos verdes" o texturas faltantes, utiliza la función "Reparar" en los ajustes del lanzador para verificar tus archivos de parche personalizados de CoA.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos del Sistema y Optimización del Rendimiento">
+
+La fidelidad gráfica mostrada en el **tráiler de Conquest of Azeroth** de 2026 es significativamente superior a la del cliente base de WotLK. Para mantener unos 60 FPS estables en ciudades capitales o durante bandas de gran escala, se recomiendan ajustes de optimización específicos. El equipo de desarrollo ha implementado un envoltorio (wrapper) personalizado de DX11/DX12 para ayudar a modernizar el rendimiento del motor.
+
+| Componente | Requisito Mínimo | Recomendado para 2026 |
+| :--- | :--- | :--- |
+| **CPU** | Intel i3-4130 / AMD FX-4300 | Intel i5-12400 / Ryzen 5600X |
+| **RAM** | 8 GB | 16 GB |
+| **GPU** | GTX 750 Ti / HD 7850 | RTX 3060 / RX 6600 XT |
+| **Almacenamiento** | 30 GB HDD | 40 GB NVMe SSD |
+| **SO** | Windows 10 64-bit | Windows 11 64-bit |
+
+<Callout type="info" title="Nota de Rendimiento">
+El uso de la herramienta "Large Address Aware" (incluida en el lanzador) es obligatorio para evitar cierres por falta de memoria debido a la enorme cantidad de texturas personalizadas en CoA.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Hoja de Ruta de Desarrollo y Hitos para 2026">
+
+El **tráiler de Conquest of Azeroth** concluye con una hoja de ruta para el resto de 2026. Los desarrolladores se han comprometido con un ciclo de lanzamientos rápidos, centrándose en expandir el contenido de nivel máximo y refinar las clases restantes que aún están en fase "Experimental".
+
+| Fase | Fecha Estimada | Enfoque Principal |
+| :--- | :--- | :--- |
+| **Fase Alfa 4** | Q1 2026 | Equilibrio de Clases / Corrección de Errores |
+| **Lanzamiento Beta** | Q2 2026 | Escalamiento del Mundo Abierto / Ajuste de Mazmorras |
+| **Banda Tier 1** | Q3 2026 | Bandas personalizadas de 10/25 personas / Conjuntos de Tier |
+| **Lanzamiento Final** | Q4 2026 | Lanzamiento Global / Contenido Estacional |
+
+<Checklist
+  id="coa-prep-list"
+  title="Lista de Preparación para Jugadores:"
+  items={[
+    "Únete al Discord oficial para sorteos de claves Alfa",
+    "Libera 40GB de espacio en SSD para los parches de alta resolución",
+    "Investiga las zonas de inicio para la clase elegida",
+    "Actualiza tus controladores de GPU a las versiones más recientes de 2026",
+    "Revisa las tablas de sinergia de clases para el juego en grupo"
+  ]}
+/>
+
+<Callout type="warning" title="Aviso de Desarrollo">
+Las fechas están sujetas a cambios según la estabilidad de las versiones Alfa. Consulta siempre el canal oficial de "Anuncios" para obtener la información más actualizada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recepción de la Comunidad y Predicciones del Meta">
+
+Desde que se publicó el **tráiler de Conquest of Azeroth**, la comunidad ha estado especulando sobre qué clases dominarán el meta de la "Temporada 1". Basándose en el metraje, las clases con alta movilidad como el **Monje** (una versión personalizada de CoA) y el **Cazador de Demonios** (rediseñado) parecen tener una ventaja significativa en el JcJ de mundo abierto.
+
+Sin embargo, para la progresión JcE, la sinergia entre la curación de bucle temporal del **Cronomante** y las torretas defensivas del **Manitas** parece una combinación obligatoria para las próximas bandas personalizadas.
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo ver el tráiler oficial de Conquest of Azeroth?",
+    answer: "El tráiler se encuentra principalmente en el canal de YouTube de Project Ascension y está enlazado en la sección de noticias del Lanzador de Ascension."
+  },
+  {
+    question: "¿Es Conquest of Azeroth gratuito?",
+    answer: "Sí, el mod es gratuito, aunque los jugadores pueden apoyar el proyecto mediante compras cosméticas que no afectan al poder de las clases."
+  },
+  {
+    question: "¿Puedo usar mis personajes existentes de Ascension en CoA?",
+    answer: "No, Conquest of Azeroth es un reino independiente con mecánicas completamente diferentes. Debes crear un nuevo personaje específicamente para este mod."
+  },
+  {
+    question: "¿Cuántas clases están disponibles actualmente en la versión de 2026?",
+    answer: "Actualmente hay 21 clases plenamente funcionales, con 3 arquetipos adicionales listados como 'Próximamente' en el último tráiler."
+  }
+]} />
+
+</Section>
